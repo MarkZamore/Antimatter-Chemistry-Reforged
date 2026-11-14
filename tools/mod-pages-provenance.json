@@ -1,0 +1,2791 @@
+{
+  "authorClient": {
+    "fileId": 9558909,
+    "modlistSha256": "031316fcf26a438dcfe92e07d65fb08a5dabb595f569f23a84bebb19b898b050",
+    "projectId": 1771794,
+    "sha256": "23e5968067ad91b55e60bbd85ecd0de3b5a8a46cf7d06f6684c8d565f0d62580"
+  },
+  "clientFiles": [
+    {
+      "fileAuthor": "YaLTeR",
+      "fileId": 5338457,
+      "fileName": "MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+      "projectId": 60089,
+      "projectName": "Mouse Tweaks",
+      "sizeBytes": 76237,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks"
+    },
+    {
+      "fileAuthor": "TeamCoFH",
+      "fileId": 5374122,
+      "fileName": "cofh_core-1.20.1-11.0.2.56.jar",
+      "projectId": 69162,
+      "projectName": "CoFH Core",
+      "sizeBytes": 1509649,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/cofh-core"
+    },
+    {
+      "fileAuthor": "KingLemmingCoFH",
+      "fileId": 5372745,
+      "fileName": "redstone_arsenal-1.20.1-8.0.1.24.jar",
+      "projectId": 70631,
+      "projectName": "Redstone Arsenal",
+      "sizeBytes": 489748,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/redstone-arsenal"
+    },
+    {
+      "fileAuthor": "KnightMiner",
+      "fileId": 7449219,
+      "fileName": "TConstruct-1.20.1-3.11.2.166.jar",
+      "projectId": 74072,
+      "projectName": "Tinkers Construct",
+      "sizeBytes": 21572031,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/tinkers-construct"
+    },
+    {
+      "fileAuthor": "KnightMiner",
+      "fileId": 7563777,
+      "fileName": "Mantle-1.20.1-1.11.104.jar",
+      "projectId": 74924,
+      "projectName": "Mantle",
+      "sizeBytes": 1625005,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/mantle"
+    },
+    {
+      "fileAuthor": "KingLemmingCoFH",
+      "fileId": 5443583,
+      "fileName": "thermal_foundation-1.20.1-11.0.6.70.jar",
+      "projectId": 222880,
+      "projectName": "Thermal Foundation",
+      "sizeBytes": 4549423,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/thermal-foundation"
+    },
+    {
+      "fileAuthor": "brandon3055",
+      "fileId": 6793843,
+      "fileName": "Draconic-Evolution-1.20.1-3.1.2.621-universal.jar",
+      "projectId": 223565,
+      "projectName": "Draconic Evolution",
+      "sizeBytes": 5934411,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/draconic-evolution"
+    },
+    {
+      "fileAuthor": "shartte",
+      "fileId": 7148487,
+      "fileName": "appliedenergistics2-forge-15.4.10.jar",
+      "projectId": 223794,
+      "projectName": "Applied Energistics 2",
+      "sizeBytes": 8495956,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2"
+    },
+    {
+      "fileAuthor": "Texelsaur",
+      "fileId": 6994481,
+      "fileName": "StorageDrawers-forge-1.20.1-12.14.3.jar",
+      "projectId": 223852,
+      "projectName": "Storage Drawers",
+      "sizeBytes": 1143623,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/storage-drawers"
+    },
+    {
+      "fileAuthor": "Killer_Demon",
+      "fileId": 5468648,
+      "fileName": "twilightforest-1.20.1-4.3.2508-universal.jar",
+      "projectId": 227639,
+      "projectName": "The Twilight Forest",
+      "sizeBytes": 23332091,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest"
+    },
+    {
+      "fileAuthor": "DarkhaxDev",
+      "fileId": 7612389,
+      "fileName": "Bookshelf-Forge-1.20.1-20.2.15.jar",
+      "projectId": 228525,
+      "projectName": "Bookshelf",
+      "sizeBytes": 343925,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/bookshelf"
+    },
+    {
+      "fileAuthor": "Alexbegt",
+      "fileId": 4614852,
+      "fileName": "ironchest-1.20.1-14.4.4.jar",
+      "projectId": 228756,
+      "projectName": "Iron Chests",
+      "sizeBytes": 311290,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/iron-chests"
+    },
+    {
+      "fileAuthor": "ChiselsAndBits",
+      "fileId": 7620767,
+      "fileName": "chisels-and-bits-forge-20.1.20.jar",
+      "projectId": 231095,
+      "projectName": "Chisels & Bits - For Forge",
+      "sizeBytes": 2104697,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/chisels-bits"
+    },
+    {
+      "fileAuthor": "brandon3055",
+      "fileId": 5422013,
+      "fileName": "BrandonsCore-1.20.1-3.2.1.302-universal.jar",
+      "projectId": 231382,
+      "projectName": "Brandon's Core",
+      "sizeBytes": 1358270,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/brandons-core"
+    },
+    {
+      "fileAuthor": "BlayTheNinth",
+      "fileId": 8286304,
+      "fileName": "defaultoptions-forge-1.20.1-18.0.5.jar",
+      "projectId": 232131,
+      "projectName": "Default Options",
+      "sizeBytes": 101393,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/default-options"
+    },
+    {
+      "fileAuthor": "BlayTheNinth",
+      "fileId": 8019501,
+      "fileName": "craftingtweaks-forge-1.20.1-18.2.9.jar",
+      "projectId": 233071,
+      "projectName": "Crafting Tweaks",
+      "sizeBytes": 230696,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/crafting-tweaks"
+    },
+    {
+      "fileAuthor": "McJty",
+      "fileId": 8256165,
+      "fileName": "mcjtylib-1.20-8.0.8.jar",
+      "projectId": 233105,
+      "projectName": "McJtyLib",
+      "sizeBytes": 714454,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/mcjtylib"
+    },
+    {
+      "fileAuthor": "LatvianModder",
+      "fileId": 8020595,
+      "fileName": "kubejs-forge-2001.6.5-build.26.jar",
+      "projectId": 238086,
+      "projectName": "KubeJS",
+      "sizeBytes": 1658792,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/kubejs"
+    },
+    {
+      "fileAuthor": "mezz",
+      "fileId": 8622780,
+      "fileName": "jei-1.20.1-forge-15.49.0.188.jar",
+      "projectId": 238222,
+      "projectName": "Just Enough Items (JEI)",
+      "sizeBytes": 1669096,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/jei"
+    },
+    {
+      "fileAuthor": "Vazkii",
+      "fileId": 5838485,
+      "fileName": "Neat-1.20.1-41-FORGE.jar",
+      "projectId": 238372,
+      "projectName": "Neat",
+      "sizeBytes": 30595,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/neat"
+    },
+    {
+      "fileAuthor": "mezz",
+      "fileId": 4652448,
+      "fileName": "modnametooltip-1.20.1-1.20.0.jar",
+      "projectId": 238747,
+      "projectName": "Mod Name Tooltip",
+      "sizeBytes": 12662,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/mod-name-tooltip"
+    },
+    {
+      "fileAuthor": "Lothrazar",
+      "fileId": 8089280,
+      "fileName": "Cyclic-1.20.1-1.13.7.jar",
+      "projectId": 239286,
+      "projectName": "Cyclic",
+      "sizeBytes": 4275426,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/cyclic"
+    },
+    {
+      "fileAuthor": "way2muchnoise",
+      "fileId": 5057220,
+      "fileName": "JustEnoughResources-1.20.1-1.4.0.247.jar",
+      "projectId": 240630,
+      "projectName": "Just Enough Resources (JER)",
+      "sizeBytes": 276231,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/just-enough-resources-jer"
+    },
+    {
+      "fileAuthor": "DarkhaxDev",
+      "fileId": 7612437,
+      "fileName": "DarkUtilities-Forge-1.20.1-17.0.6.jar",
+      "projectId": 242195,
+      "projectName": "Dark Utilities",
+      "sizeBytes": 174220,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/dark-utilities"
+    },
+    {
+      "fileAuthor": "covers1624",
+      "fileId": 8491810,
+      "fileName": "CodeChickenLib-1.20.1-4.4.0.528-universal.jar",
+      "projectId": 242818,
+      "projectName": "CodeChicken Lib 1.8.+",
+      "sizeBytes": 1473536,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/codechicken-lib-1-8"
+    },
+    {
+      "fileAuthor": "Vazkii",
+      "fileId": 6427817,
+      "fileName": "Quark-4.0-462.jar",
+      "projectId": 243121,
+      "projectName": "Quark",
+      "sizeBytes": 14935230,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/quark"
+    },
+    {
+      "fileAuthor": "BloCamLimb",
+      "fileId": 5234697,
+      "fileName": "FluxNetworks-1.20.1-7.2.1.15.jar",
+      "projectId": 248020,
+      "projectName": "Flux Networks",
+      "sizeBytes": 515573,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/flux-networks"
+    },
+    {
+      "fileAuthor": "squeek502",
+      "fileId": 4770828,
+      "fileName": "appleskin-forge-mc1.20.1-2.5.1.jar",
+      "projectId": 248787,
+      "projectName": "AppleSkin",
+      "sizeBytes": 47428,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/appleskin"
+    },
+    {
+      "fileAuthor": "Jaredlll08",
+      "fileId": 4646682,
+      "fileName": "Controlling-forge-1.20.1-12.0.2.jar",
+      "projectId": 250398,
+      "projectName": "Controlling",
+      "sizeBytes": 115280,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/controlling"
+    },
+    {
+      "fileAuthor": "vsngarcia",
+      "fileId": 6602224,
+      "fileName": "elevatorid-1.20.1-1.9.1-forge.jar",
+      "projectId": 250832,
+      "projectName": "OpenBlocks Elevator",
+      "sizeBytes": 187868,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/openblocks-elevator"
+    },
+    {
+      "fileAuthor": "Funwayguy",
+      "fileId": 4945387,
+      "fileName": "oreexcavation-1.13.170.jar",
+      "projectId": 250898,
+      "projectName": "Ore Excavation",
+      "sizeBytes": 282056,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/ore-excavation"
+    },
+    {
+      "fileAuthor": "xalcon",
+      "fileId": 5849456,
+      "fileName": "torchmaster-20.1.9.jar",
+      "projectId": 254268,
+      "projectName": "Torchmaster",
+      "sizeBytes": 119348,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/torchmaster"
+    },
+    {
+      "fileAuthor": "Jaredlll08",
+      "fileId": 5278538,
+      "fileName": "Clumps-forge-1.20.1-12.0.0.4.jar",
+      "projectId": 256717,
+      "projectName": "Clumps",
+      "sizeBytes": 20299,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/clumps"
+    },
+    {
+      "fileAuthor": "McJty",
+      "fileId": 8629608,
+      "fileName": "incontrol-1.20-9.4.7.jar",
+      "projectId": 257356,
+      "projectName": "In Control!",
+      "sizeBytes": 361965,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/in-control"
+    },
+    {
+      "fileAuthor": "McJty",
+      "fileId": 8256197,
+      "fileName": "xnet-1.20-6.1.7.jar",
+      "projectId": 260912,
+      "projectName": "XNet",
+      "sizeBytes": 578161,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/xnet"
+    },
+    {
+      "fileAuthor": "Buuz135",
+      "fileId": 7949862,
+      "fileName": "industrial-foregoing-1.20.1-3.5.22.jar",
+      "projectId": 266515,
+      "projectName": "Industrial Foregoing",
+      "sizeBytes": 4621983,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing"
+    },
+    {
+      "fileAuthor": "BlakeBr0",
+      "fileId": 6880322,
+      "fileName": "ExtendedCrafting-1.20.1-6.0.10.jar",
+      "projectId": 268387,
+      "projectName": "Extended Crafting",
+      "sizeBytes": 657943,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/extended-crafting"
+    },
+    {
+      "fileAuthor": "bradyaidanc",
+      "fileId": 6552911,
+      "fileName": "Mekanism-1.20.1-10.4.16.80.jar",
+      "projectId": 268560,
+      "projectName": "Mekanism",
+      "sizeBytes": 12558456,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/mekanism"
+    },
+    {
+      "fileAuthor": "bradyaidanc",
+      "fileId": 6552914,
+      "fileName": "MekanismGenerators-1.20.1-10.4.16.80.jar",
+      "projectId": 268566,
+      "projectName": "Mekanism Generators",
+      "sizeBytes": 1054586,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/mekanism-generators"
+    },
+    {
+      "fileAuthor": "DarkhaxDev",
+      "fileId": 5790361,
+      "fileName": "GameStages-Forge-1.20.1-15.0.2.jar",
+      "projectId": 268655,
+      "projectName": "Game Stages",
+      "sizeBytes": 68468,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/game-stages"
+    },
+    {
+      "fileAuthor": "Jacky",
+      "fileId": 4732484,
+      "fileName": "Exchangers-1.20.1-3.5.1.jar",
+      "projectId": 270183,
+      "projectName": "Exchangers",
+      "sizeBytes": 444697,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/exchangers"
+    },
+    {
+      "fileAuthor": "Shadows_of_Fire",
+      "fileId": 4711316,
+      "fileName": "ToastControl-1.20.1-8.0.3.jar",
+      "projectId": 271740,
+      "projectName": "Toast Control",
+      "sizeBytes": 26957,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/toast-control"
+    },
+    {
+      "fileAuthor": "BlakeBr0",
+      "fileId": 7180783,
+      "fileName": "Cucumber-1.20.1-7.0.16.jar",
+      "projectId": 272335,
+      "projectName": "Cucumber Library",
+      "sizeBytes": 271462,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/cucumber"
+    },
+    {
+      "fileAuthor": "way2muchnoise",
+      "fileId": 8569648,
+      "fileName": "BetterAdvancements-Forge-1.20.1-0.6.0.73.jar",
+      "projectId": 272515,
+      "projectName": "Better Advancements",
+      "sizeBytes": 100436,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/better-advancements"
+    },
+    {
+      "fileAuthor": "Tschipp",
+      "fileId": 4882500,
+      "fileName": "carryon-forge-1.20.1-2.1.2.7.jar",
+      "projectId": 274259,
+      "projectName": "Carry On",
+      "sizeBytes": 439457,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/carry-on"
+    },
+    {
+      "fileAuthor": "DarkhaxDev",
+      "fileId": 5214094,
+      "fileName": "ItemStages-Forge-1.20.1-8.0.3.jar",
+      "projectId": 280316,
+      "projectName": "Item Stages",
+      "sizeBytes": 32124,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/item-stages"
+    },
+    {
+      "fileAuthor": "Jaredlll08",
+      "fileId": 5173574,
+      "fileName": "RecipeStages-8.0.0.2.jar",
+      "projectId": 280554,
+      "projectName": "Recipe Stages",
+      "sizeBytes": 50691,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/recipe-stages"
+    },
+    {
+      "fileAuthor": "desht_08",
+      "fileId": 8411196,
+      "fileName": "pneumaticcraft-repressurized-6.0.23+mc1.20.1.jar",
+      "projectId": 281849,
+      "projectName": "PneumaticCraft: Repressurized",
+      "sizeBytes": 10790934,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/pneumaticcraft-repressurized"
+    },
+    {
+      "fileAuthor": "Shadows_of_Fire",
+      "fileId": 6274231,
+      "fileName": "Placebo-1.20.1-8.6.3.jar",
+      "projectId": 283644,
+      "projectName": "Placebo",
+      "sizeBytes": 282474,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/placebo"
+    },
+    {
+      "fileAuthor": "BlakeBr0",
+      "fileId": 6880323,
+      "fileName": "IronJetpacks-1.20.1-7.0.9.jar",
+      "projectId": 284497,
+      "projectName": "Iron Jetpacks",
+      "sizeBytes": 158967,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/iron-jetpacks"
+    },
+    {
+      "fileAuthor": "Buuz135",
+      "fileId": 8426836,
+      "fileName": "titanium-1.20.1-3.8.35.jar",
+      "projectId": 287342,
+      "projectName": "Titanium",
+      "sizeBytes": 622072,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/titanium"
+    },
+    {
+      "fileAuthor": "FTBTeam",
+      "fileId": 8078538,
+      "fileName": "ftb-quests-forge-2001.4.22.jar",
+      "projectId": 289412,
+      "projectMetadataWebsiteUrl": "https://www.curseforge.com/minecraft/mc-mods/ftb-quests-forge",
+      "projectName": "FTB Quests (NeoForge)",
+      "sizeBytes": 1255469,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/ftb-quests"
+    },
+    {
+      "fileAuthor": "McJty",
+      "fileId": 8256184,
+      "fileName": "rftoolspower-1.20-6.0.3.jar",
+      "projectId": 290209,
+      "projectName": "RFTools Power",
+      "sizeBytes": 557928,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/rftools-power"
+    },
+    {
+      "fileAuthor": "Dark_Arcana",
+      "fileId": 5037781,
+      "fileName": "alchemylib-1.20.1-1.0.30.jar",
+      "projectId": 293426,
+      "projectName": "AlchemyLib",
+      "sizeBytes": 101349,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/alchemylib"
+    },
+    {
+      "fileAuthor": "ErrorMikey",
+      "fileId": 6850495,
+      "fileName": "buildinggadgets2-1.0.8.jar",
+      "projectId": 298187,
+      "projectName": "Building Gadgets",
+      "sizeBytes": 3833683,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/building-gadgets"
+    },
+    {
+      "fileAuthor": "Vazkii",
+      "fileId": 7731017,
+      "fileName": "Patchouli-1.20.1-85-FORGE.jar",
+      "projectId": 306770,
+      "projectName": "Patchouli",
+      "sizeBytes": 642732,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/patchouli"
+    },
+    {
+      "fileAuthor": "LatvianModder",
+      "fileId": 4838266,
+      "fileName": "item-filters-forge-2001.1.0-build.59.jar",
+      "projectId": 309674,
+      "projectName": "Item Filters",
+      "sizeBytes": 110191,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/item-filters"
+    },
+    {
+      "fileAuthor": "Stal",
+      "fileId": 5198323,
+      "fileName": "forbidden_arcanus-1.20.1-2.2.6.jar",
+      "projectId": 309858,
+      "projectName": "Forbidden and Arcanus",
+      "sizeBytes": 2783387,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forbidden-arcanus"
+    },
+    {
+      "fileAuthor": "TheIllusiveC4",
+      "fileId": 6418456,
+      "fileName": "curios-forge-5.14.1+1.20.1.jar",
+      "projectId": 309927,
+      "projectName": "Curios API",
+      "sizeBytes": 398066,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/curios"
+    },
+    {
+      "fileAuthor": "Shadows_of_Fire",
+      "fileId": 6461960,
+      "fileName": "Apotheosis-1.20.1-7.4.8.jar",
+      "projectId": 313970,
+      "projectName": "Apotheosis",
+      "sizeBytes": 2803994,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/apotheosis"
+    },
+    {
+      "fileAuthor": "FoxMcloud5655",
+      "fileId": 6144499,
+      "fileName": "Draconic-Additions-1.20.1-2.4.1.5-universal.jar",
+      "projectId": 314515,
+      "projectName": "Draconic Additions",
+      "sizeBytes": 1017840,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/draconicadditions"
+    },
+    {
+      "fileAuthor": "FTBTeam",
+      "fileId": 8216874,
+      "fileName": "ftb-chunks-forge-2001.3.8.jar",
+      "projectId": 314906,
+      "projectMetadataWebsiteUrl": "https://www.curseforge.com/minecraft/mc-mods/ftb-chunks-forge",
+      "projectName": "FTB Chunks (NeoForge)",
+      "sizeBytes": 1159043,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/ftb-chunks"
+    },
+    {
+      "fileAuthor": "aurilisdev",
+      "fileId": 8748841,
+      "fileName": "Electrodynamics-1.20.1-1.0.14.jar",
+      "projectId": 316867,
+      "projectName": "Electrodynamics",
+      "sizeBytes": 15299056,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/electrodynamics"
+    },
+    {
+      "fileAuthor": "aurilisdev",
+      "fileId": 8741252,
+      "fileName": "Nuclear Science-1.20.1-0.8.12.jar",
+      "projectId": 318646,
+      "projectName": "Nuclear Science",
+      "sizeBytes": 6270363,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/nuclear-science"
+    },
+    {
+      "fileAuthor": "Snownee",
+      "fileId": 8479276,
+      "fileName": "Jade-1.20.1-Forge-11.13.3.jar",
+      "projectId": 324717,
+      "projectName": "Jade 🔍",
+      "sizeBytes": 553487,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/jade"
+    },
+    {
+      "fileAuthor": "McJty",
+      "fileId": 8256170,
+      "fileName": "rftoolsbase-1.20-5.0.7.jar",
+      "projectId": 326041,
+      "projectName": "RFTools Base",
+      "sizeBytes": 419732,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/rftools-base"
+    },
+    {
+      "fileAuthor": "simibubi",
+      "fileId": 7178761,
+      "fileName": "create-1.20.1-6.0.8.jar",
+      "projectId": 328085,
+      "projectName": "Create",
+      "sizeBytes": 19170905,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/create"
+    },
+    {
+      "fileAuthor": "tfarecnim",
+      "fileId": 5225537,
+      "fileName": "Cursed Earth-forge-1.20.1-0.jar",
+      "projectId": 336919,
+      "projectName": "Cursed Earth",
+      "sizeBytes": 27411,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/cursed-earth"
+    },
+    {
+      "fileAuthor": "Dark_Arcana",
+      "fileId": 5128632,
+      "fileName": "chemlib-1.20.1-2.0.19.jar",
+      "projectId": 340666,
+      "projectName": "ChemLib",
+      "sizeBytes": 13611240,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/chemlib"
+    },
+    {
+      "fileAuthor": "McJty",
+      "fileId": 8256183,
+      "fileName": "rftoolsutility-1.20-6.0.7.jar",
+      "projectId": 342466,
+      "projectName": "RFTools Utility",
+      "sizeBytes": 1373182,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/rftools-utility"
+    },
+    {
+      "fileAuthor": "shedaniel",
+      "fileId": 5729105,
+      "fileName": "cloth-config-11.1.136-forge.jar",
+      "projectId": 348521,
+      "projectMetadataWebsiteUrl": "https://www.curseforge.com/minecraft/mc-mods/cloth-config",
+      "projectName": "Cloth Config API (Fabric/Forge/NeoForge)",
+      "sizeBytes": 1181413,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/cloth-config-forge"
+    },
+    {
+      "fileAuthor": "sketch_macaw",
+      "fileId": 7627954,
+      "fileName": "mcw-bridges-3.1.2-mc1.20.1forge.jar",
+      "projectId": 351725,
+      "projectName": "Macaw's Bridges",
+      "sizeBytes": 693579,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/macaws-bridges"
+    },
+    {
+      "fileAuthor": "sketch_macaw",
+      "fileId": 6494466,
+      "fileName": "mcw-roofs-2.3.2-mc1.20.1forge.jar",
+      "projectId": 352039,
+      "projectName": "Macaw's Roofs",
+      "sizeBytes": 1864023,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/macaws-roofs"
+    },
+    {
+      "fileAuthor": "DarkhaxDev",
+      "fileId": 7612402,
+      "fileName": "BotanyPots-Forge-1.20.1-13.0.43.jar",
+      "projectId": 353928,
+      "projectName": "Botany Pots",
+      "sizeBytes": 1050211,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/botany-pots"
+    },
+    {
+      "fileAuthor": "DarkhaxDev",
+      "fileId": 7613218,
+      "fileName": "OpenLoader-Forge-1.20.1-19.0.5.jar",
+      "projectId": 354339,
+      "projectName": "Open Loader",
+      "sizeBytes": 23937,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/open-loader"
+    },
+    {
+      "fileAuthor": "Jacky",
+      "fileId": 5418804,
+      "fileName": "GunpowderLib-1.20.2-2.2.2.jar",
+      "projectId": 356646,
+      "projectName": "GunpowderLib",
+      "sizeBytes": 19892,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/gunpowderlib"
+    },
+    {
+      "fileAuthor": "sketch_macaw",
+      "fileId": 7255630,
+      "fileName": "mcw-furniture-3.4.1-mc1.20.1forge.jar",
+      "projectId": 359540,
+      "projectName": "Macaw's Furniture",
+      "sizeBytes": 2174615,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/macaws-furniture"
+    },
+    {
+      "fileAuthor": "Iucko",
+      "fileId": 4738952,
+      "fileName": "spark-1.10.53-forge.jar",
+      "projectId": 361579,
+      "projectName": "spark",
+      "sizeBytes": 3114590,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/spark"
+    },
+    {
+      "fileAuthor": "sketch_macaw",
+      "fileId": 7317714,
+      "fileName": "mcw-mcwwindows-2.4.2-mc1.20.1forge.jar",
+      "projectId": 363569,
+      "projectName": "Macaw's Windows",
+      "sizeBytes": 1320692,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/macaws-windows"
+    },
+    {
+      "fileAuthor": "sketch_macaw",
+      "fileId": 7618714,
+      "fileName": "mcw-doors-1.1.5-mc1.20.1forge.jar",
+      "projectId": 378646,
+      "projectName": "Macaw's Doors",
+      "sizeBytes": 1246753,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/macaws-doors"
+    },
+    {
+      "fileAuthor": "Terrails",
+      "fileId": 5661721,
+      "fileName": "xnetgases-1.20.1-5.1.4.jar",
+      "projectId": 383182,
+      "projectName": "XNet Gases",
+      "sizeBytes": 224425,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/xnet-gases"
+    },
+    {
+      "fileAuthor": "FTBTeam",
+      "fileId": 7880472,
+      "fileName": "ftb-ultimine-forge-2001.1.8.jar",
+      "projectId": 386134,
+      "projectMetadataWebsiteUrl": "https://www.curseforge.com/minecraft/mc-mods/ftb-ultimine-forge",
+      "projectName": "FTB Ultimine (NeoForge)",
+      "sizeBytes": 129653,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/ftb-ultimine"
+    },
+    {
+      "fileAuthor": "TheIllusiveC4",
+      "fileId": 6450982,
+      "fileName": "polymorph-forge-0.49.10+1.20.1.jar",
+      "projectId": 388800,
+      "projectName": "Polymorph",
+      "sizeBytes": 299601,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/polymorph"
+    },
+    {
+      "fileAuthor": "RiDGo8",
+      "fileId": 5376428,
+      "fileName": "moreoverlays-1.22.7-mc1.20.2.jar",
+      "projectId": 391382,
+      "projectName": "More Overlays Updated",
+      "sizeBytes": 97697,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/more-overlays-updated"
+    },
+    {
+      "fileAuthor": "sketch_macaw",
+      "fileId": 7256186,
+      "fileName": "mcw-trapdoors-1.1.5-mc1.20.1forge.jar",
+      "projectId": 400933,
+      "projectName": "Macaw's Trapdoors",
+      "sizeBytes": 604510,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/macaws-trapdoors"
+    },
+    {
+      "fileAuthor": "baileyholl2",
+      "fileId": 6688854,
+      "fileName": "ars_nouveau-1.20.1-4.12.7-all.jar",
+      "projectId": 401955,
+      "projectName": "Ars Nouveau",
+      "sizeBytes": 12430237,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/ars-nouveau"
+    },
+    {
+      "fileAuthor": "AzureDoomC",
+      "fileId": 4965773,
+      "fileName": "doomangelring-neo-1.20.1-3.0.1.jar",
+      "projectId": 402762,
+      "projectName": "AzureDooms Angel Ring",
+      "sizeBytes": 29843,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/azuredooms-angel-ring"
+    },
+    {
+      "fileAuthor": "FTBTeam",
+      "fileId": 8226927,
+      "fileName": "ftb-library-forge-2001.2.13.jar",
+      "projectId": 404465,
+      "projectName": "FTB Library (NeoForge)",
+      "sizeBytes": 780558,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge"
+    },
+    {
+      "fileAuthor": "FTBTeam",
+      "fileId": 7499810,
+      "fileName": "ftb-teams-forge-2001.3.2.jar",
+      "projectId": 404468,
+      "projectMetadataWebsiteUrl": "https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge",
+      "projectName": "FTB Teams (NeoForge)",
+      "sizeBytes": 252579,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/ftb-teams"
+    },
+    {
+      "fileAuthor": "MehVahdJukaar",
+      "fileId": 7884611,
+      "fileName": "supplementaries-1.20-3.1.43-forge.jar",
+      "projectId": 412082,
+      "projectName": "Supplementaries",
+      "sizeBytes": 13667742,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/supplementaries"
+    },
+    {
+      "fileAuthor": "LatvianModder",
+      "fileId": 6186971,
+      "fileName": "rhino-forge-2001.2.3-build.10.jar",
+      "projectId": 416294,
+      "projectName": "Rhino",
+      "sizeBytes": 1798244,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/rhino"
+    },
+    {
+      "fileAuthor": "Khytwel",
+      "fileId": 5189548,
+      "fileName": "valhelsia_core-forge-1.20.1-1.1.2.jar",
+      "projectId": 416935,
+      "projectName": "Valhelsia Core",
+      "sizeBytes": 203313,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/valhelsia-core"
+    },
+    {
+      "fileAuthor": "shedaniel",
+      "fileId": 5137938,
+      "fileName": "architectury-9.2.14-forge.jar",
+      "projectId": 419699,
+      "projectName": "Architectury API",
+      "sizeBytes": 580602,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/architectury-api"
+    },
+    {
+      "fileAuthor": "P3pp3rF1y",
+      "fileId": 8627862,
+      "fileName": "sophisticatedbackpacks-1.20.1-3.24.65.2073.jar",
+      "projectId": 422301,
+      "projectName": "Sophisticated Backpacks",
+      "sizeBytes": 1158923,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks"
+    },
+    {
+      "fileAuthor": "Gigabit101",
+      "fileId": 4863339,
+      "fileName": "Shrink-1.20.1-1.4.5.jar",
+      "projectId": 426386,
+      "projectName": "Shrink.",
+      "sizeBytes": 88318,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/shrink_"
+    },
+    {
+      "fileAuthor": "malte0811",
+      "fileId": 4810975,
+      "fileName": "ferritecore-6.0.1-forge.jar",
+      "projectId": 429235,
+      "projectName": "FerriteCore ((Neo)Forge)",
+      "sizeBytes": 123034,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/ferritecore"
+    },
+    {
+      "fileAuthor": "MRHminer",
+      "fileId": 7208610,
+      "fileName": "createaddition-1.20.1-1.3.3.jar",
+      "projectId": 439890,
+      "projectName": "Create Crafts & Additions",
+      "sizeBytes": 1577313,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/createaddition"
+    },
+    {
+      "fileAuthor": "XFactHD",
+      "fileId": 7386520,
+      "fileName": "FramedBlocks-9.4.3.jar",
+      "projectId": 441647,
+      "projectName": "FramedBlocks",
+      "sizeBytes": 4251314,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/framedblocks"
+    },
+    {
+      "fileAuthor": "henkelmax",
+      "fileId": 6945379,
+      "fileName": "pipez-forge-1.20.1-1.2.26.jar",
+      "projectId": 443900,
+      "projectName": "Pipez",
+      "sizeBytes": 431615,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/pipez"
+    },
+    {
+      "fileAuthor": "tr7zw",
+      "fileId": 8287086,
+      "fileName": "entityculling-forge-1.10.5-mc1.20.1.jar",
+      "projectId": 448233,
+      "projectName": "Entity Culling Fabric/Forge",
+      "sizeBytes": 1590221,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/entityculling"
+    },
+    {
+      "fileAuthor": "sketch_macaw",
+      "fileId": 7308423,
+      "fileName": "mcw-mcwfences-1.2.1-mc1.20.1forge.jar",
+      "projectId": 453925,
+      "projectName": "Macaw's Fences and Walls",
+      "sizeBytes": 708634,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/macaws-fences-and-walls"
+    },
+    {
+      "fileAuthor": "terrariumearth",
+      "fileId": 5813138,
+      "fileName": "chipped-forge-1.20.1-3.0.7.jar",
+      "projectId": 456956,
+      "projectName": "Chipped",
+      "sizeBytes": 15060263,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/chipped"
+    },
+    {
+      "fileAuthor": "Mari_023",
+      "fileId": 7251206,
+      "fileName": "ae2wtlib-15.3.3-forge.jar",
+      "projectId": 459929,
+      "projectName": "Applied Energistics 2 Wireless Terminals",
+      "sizeBytes": 229518,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2-wireless-terminals"
+    },
+    {
+      "fileAuthor": "Shadows_of_Fire",
+      "fileId": 7527943,
+      "fileName": "FastSuite-1.20.1-5.1.2.jar",
+      "projectId": 475117,
+      "projectName": "FastSuite",
+      "sizeBytes": 26600,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/fastsuite"
+    },
+    {
+      "fileAuthor": "sammysemicolon",
+      "fileId": 6646111,
+      "fileName": "malum-1.20.1-1.6.7.jar",
+      "projectId": 484064,
+      "projectName": "Malum",
+      "sizeBytes": 26296223,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/malum"
+    },
+    {
+      "fileAuthor": "MehVahdJukaar",
+      "fileId": 8261419,
+      "fileName": "moonlight-1.20-2.16.34-forge.jar",
+      "projectId": 499980,
+      "projectName": "Moonlight Lib",
+      "sizeBytes": 1419416,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/selene"
+    },
+    {
+      "fileAuthor": "sketch_macaw",
+      "fileId": 7304117,
+      "fileName": "mcw-lights-1.1.5-mc1.20.1forge.jar",
+      "projectId": 502372,
+      "projectName": "Macaw's Lights and Lamps",
+      "sizeBytes": 547779,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/macaws-lights-and-lamps"
+    },
+    {
+      "fileAuthor": "BlayTheNinth",
+      "fileId": 8545415,
+      "fileName": "balm-forge-1.20.1-7.3.42.jar",
+      "projectId": 531761,
+      "projectName": "Balm",
+      "sizeBytes": 561670,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/balm"
+    },
+    {
+      "fileAuthor": "henkelmax",
+      "fileId": 7032235,
+      "fileName": "sound-physics-remastered-forge-1.20.1-1.5.1.jar",
+      "projectId": 535489,
+      "projectName": "Sound Physics Remastered",
+      "sizeBytes": 206984,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/sound-physics-remastered"
+    },
+    {
+      "fileAuthor": "Shadows_of_Fire",
+      "fileId": 5895036,
+      "fileName": "HostileNeuralNetworks-1.20.1-5.3.3.jar",
+      "projectId": 552574,
+      "projectName": "Hostile Neural Networks",
+      "sizeBytes": 273495,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/hostile-neural-networks"
+    },
+    {
+      "fileAuthor": "Alexth99",
+      "fileId": 8399870,
+      "fileName": "ars_elemental-1.20.1-0.6.8.0.jar",
+      "projectId": 561470,
+      "projectName": "Ars Elemental",
+      "sizeBytes": 1459126,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/ars-elemental"
+    },
+    {
+      "fileAuthor": "epic_oreo",
+      "fileId": 5659871,
+      "fileName": "resourcefullib-forge-1.20.1-2.1.29.jar",
+      "projectId": 570073,
+      "projectName": "Resourceful Lib",
+      "sizeBytes": 432753,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/resourceful-lib"
+    },
+    {
+      "fileAuthor": "Starmute",
+      "fileId": 5759138,
+      "fileName": "Nullscape_1.20.x_v1.2.8.jar",
+      "projectId": 570354,
+      "projectName": "Nullscape",
+      "sizeBytes": 399214,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/nullscape"
+    },
+    {
+      "fileAuthor": "ramidzkh",
+      "fileId": 7244744,
+      "fileName": "Applied-Mekanistics-1.4.3.jar",
+      "projectId": 574300,
+      "projectName": "Applied Mekanistics",
+      "sizeBytes": 185707,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/applied-mekanistics"
+    },
+    {
+      "fileAuthor": "Gigabit101",
+      "fileId": 5350440,
+      "fileName": "polylib-forge-2000.0.3-build.143.jar",
+      "projectId": 576589,
+      "projectName": "PolyLib",
+      "sizeBytes": 1343694,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/polylib"
+    },
+    {
+      "fileAuthor": "Asek3",
+      "fileId": 6020952,
+      "fileName": "oculus-mc1.20.1-1.8.0.jar",
+      "projectId": 581495,
+      "projectName": "Oculus",
+      "sizeBytes": 2851119,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/oculus"
+    },
+    {
+      "fileAuthor": "Snownee",
+      "fileId": 8203724,
+      "fileName": "JadeAddons-1.20.1-Forge-5.5.1.jar",
+      "projectId": 583345,
+      "projectName": "Jade Addons (Neo/Forge)",
+      "sizeBytes": 91754,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/jade-addons"
+    },
+    {
+      "fileAuthor": "sammysemicolon",
+      "fileId": 6213794,
+      "fileName": "lodestone-1.20.1-1.6.4.1.jar",
+      "projectId": 616457,
+      "projectName": "Lodestone",
+      "sizeBytes": 670934,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/lodestone"
+    },
+    {
+      "fileAuthor": "P3pp3rF1y",
+      "fileId": 8627806,
+      "fileName": "sophisticatedcore-1.20.1-1.3.79.2250.jar",
+      "projectId": 618298,
+      "projectName": "Sophisticated Core",
+      "sizeBytes": 1637619,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/sophisticated-core"
+    },
+    {
+      "fileAuthor": "P3pp3rF1y",
+      "fileId": 8609562,
+      "fileName": "sophisticatedstorage-1.20.1-1.4.79.2069.jar",
+      "projectId": 619320,
+      "projectName": "Sophisticated Storage",
+      "sizeBytes": 1859390,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/sophisticated-storage"
+    },
+    {
+      "fileAuthor": "ninety",
+      "fileId": 6175008,
+      "fileName": "megacells-forge-2.4.6-1.20.1.jar",
+      "projectId": 622112,
+      "projectName": "MEGA Cells",
+      "sizeBytes": 387196,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/mega-cells"
+    },
+    {
+      "fileAuthor": "cnlimiter",
+      "fileId": 8497793,
+      "fileName": "Re-Avaritia-forge-1.20.1-1.4.1-release.jar",
+      "projectId": 623969,
+      "projectName": "Re:Avaritia[Forge/Fabric/Neoforge]",
+      "sizeBytes": 3510667,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/re-avaritia"
+    },
+    {
+      "fileAuthor": "Direwolf20",
+      "fileId": 5074767,
+      "fileName": "laserio-1.6.8.jar",
+      "projectId": 626839,
+      "projectName": "LaserIO",
+      "sizeBytes": 1246106,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/laserio"
+    },
+    {
+      "fileAuthor": "sketch_macaw",
+      "fileId": 7029554,
+      "fileName": "mcw-mcwpaths-1.1.1-mc1.20.1forge.jar",
+      "projectId": 629153,
+      "projectName": "Macaw's Paths and Pavings",
+      "sizeBytes": 812573,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/macaws-paths-and-pavings"
+    },
+    {
+      "fileAuthor": "thetechnici4n",
+      "fileId": 6828054,
+      "fileName": "Powah-5.0.11.jar",
+      "projectId": 633483,
+      "projectName": "Powah! (Rearchitected)",
+      "sizeBytes": 2393933,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/powah-rearchitected"
+    },
+    {
+      "fileAuthor": "AlmostReliable",
+      "fileId": 7430993,
+      "fileName": "almostunified-forge-1.20.1-0.11.0.jar",
+      "projectId": 633823,
+      "projectName": "Almost Unified",
+      "sizeBytes": 218740,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/almostunified"
+    },
+    {
+      "fileAuthor": "terrariumearth",
+      "fileId": 6262032,
+      "fileName": "ad_astra-forge-1.20.1-1.15.20.jar",
+      "projectId": 635042,
+      "projectName": "Ad Astra",
+      "sizeBytes": 7508861,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/ad-astra"
+    },
+    {
+      "fileAuthor": "NewJumper",
+      "fileId": 5906086,
+      "fileName": "deeperdarker-forge-1.20.1-1.3.3.jar",
+      "projectId": 659011,
+      "projectName": "Deeper and Darker",
+      "sizeBytes": 17844266,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/deeperdarker"
+    },
+    {
+      "fileAuthor": "Lothrazar",
+      "fileId": 8070669,
+      "fileName": "flib-1.20.1-0.0.16.jar",
+      "projectId": 661261,
+      "projectName": "FLIB",
+      "sizeBytes": 276850,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/flib"
+    },
+    {
+      "fileAuthor": "isXander",
+      "fileId": 6336646,
+      "fileName": "yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar",
+      "projectId": 667299,
+      "projectName": "YetAnotherConfigLib",
+      "sizeBytes": 1105891,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/yacl"
+    },
+    {
+      "fileAuthor": "DragonsPlus",
+      "fileId": 8567881,
+      "fileName": "create_enchantment_industry-1.4.1-for-create-6.0.8.jar",
+      "projectId": 688768,
+      "projectName": "Create: Enchantment Industry",
+      "sizeBytes": 503399,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/create-enchantment-industry"
+    },
+    {
+      "fileAuthor": "TonimatasDEV",
+      "fileId": 7872374,
+      "fileName": "packetfixer-3.3.2-1.18-1.20.4-merged.jar",
+      "projectId": 689467,
+      "projectName": "Packet Fixer",
+      "sizeBytes": 188661,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/packet-fixer"
+    },
+    {
+      "fileAuthor": "Dr_Mango_Tea",
+      "fileId": 7344584,
+      "fileName": "tfmg-1.0.2f.jar",
+      "projectId": 693815,
+      "projectName": "Create: The Factory Must Grow",
+      "sizeBytes": 5343749,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/create-industry"
+    },
+    {
+      "fileAuthor": "terrariumearth",
+      "fileId": 5486070,
+      "fileName": "botarium-forge-1.20.1-2.3.4.jar",
+      "projectId": 704113,
+      "projectName": "Botarium",
+      "sizeBytes": 157633,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/botarium"
+    },
+    {
+      "fileAuthor": "ThatGravyBoat",
+      "fileId": 6231176,
+      "fileName": "resourcefulconfig-forge-1.20.1-2.1.3.jar",
+      "projectId": 714059,
+      "projectName": "Resourceful Config",
+      "sizeBytes": 136923,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/resourceful-config"
+    },
+    {
+      "fileAuthor": "gisellevonbingen",
+      "fileId": 8843399,
+      "fileName": "Ad-Astra-Giselle-Addon-forge-1.20.1-6.24.jar",
+      "projectId": 714958,
+      "projectName": "Ad Astra: Giselle Addon",
+      "sizeBytes": 499471,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/ad-astra-giselle-addon"
+    },
+    {
+      "fileAuthor": "embeddedt",
+      "fileId": 8613265,
+      "fileName": "modernfix-forge-5.27.72+mc1.20.1.jar",
+      "projectId": 790626,
+      "projectName": "ModernFix",
+      "sizeBytes": 1000069,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/modernfix"
+    },
+    {
+      "fileAuthor": "AzureDoomC",
+      "fileId": 8367230,
+      "fileName": "azurelib-neo-1.20.1-3.1.12.jar",
+      "projectId": 817423,
+      "projectName": "AzureLib",
+      "sizeBytes": 1066523,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/azurelib"
+    },
+    {
+      "fileAuthor": "igentuman",
+      "fileId": 8581060,
+      "fileName": "NuclearCraft-1.20.1-1.2.34.jar",
+      "projectId": 840010,
+      "projectName": "NuclearCraft: Neoteric",
+      "sizeBytes": 30832373,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/nuclearcraft-neoteric"
+    },
+    {
+      "fileAuthor": "terrariumearth",
+      "fileId": 5176879,
+      "fileName": "athena-forge-1.20.1-3.1.2.jar",
+      "projectId": 841890,
+      "projectName": "Athena",
+      "sizeBytes": 91808,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/athena"
+    },
+    {
+      "fileAuthor": "SuperMartijn642",
+      "fileId": 8536533,
+      "fileName": "fusion-1.3.12-forge-mc1.20.1.jar",
+      "projectId": 854949,
+      "projectName": "Fusion (Connected Textures)",
+      "sizeBytes": 948577,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/fusion-connected-textures"
+    },
+    {
+      "fileAuthor": "Jaredlll08",
+      "fileId": 5284015,
+      "fileName": "Searchables-forge-1.20.1-1.0.3.jar",
+      "projectId": 858542,
+      "projectName": "Searchables",
+      "sizeBytes": 77732,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/searchables"
+    },
+    {
+      "fileAuthor": "FTB",
+      "fileId": 6402486,
+      "fileName": "ftb-xmod-compat-forge-2.1.3.jar",
+      "projectId": 889915,
+      "projectName": "FTB XMod Compat",
+      "sizeBytes": 129725,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/ftb-xmod-compat"
+    },
+    {
+      "fileAuthor": "Shadows_of_Fire",
+      "fileId": 5634071,
+      "fileName": "ApothicAttributes-1.20.1-1.3.7.jar",
+      "projectId": 898963,
+      "projectName": "Apothic Attributes",
+      "sizeBytes": 227511,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/apothic-attributes"
+    },
+    {
+      "fileAuthor": "ninety",
+      "fileId": 5504444,
+      "fileName": "arseng-1.2.0.jar",
+      "projectId": 905641,
+      "projectName": "Ars Énergistique",
+      "sizeBytes": 147418,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/ars-energistique"
+    },
+    {
+      "fileAuthor": "embeddedt",
+      "fileId": 5681725,
+      "fileName": "embeddium-0.3.31+mc1.20.1.jar",
+      "projectId": 908741,
+      "projectName": "Embeddium",
+      "sizeBytes": 1320675,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/embeddium"
+    },
+    {
+      "fileAuthor": "Keksuccino",
+      "fileId": 5109692,
+      "fileName": "melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+      "projectId": 938643,
+      "projectName": "Melody",
+      "sizeBytes": 37178,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/melody"
+    },
+    {
+      "fileAuthor": "big_energy",
+      "fileId": 8539051,
+      "fileName": "Glassential-renewed-1.20.1-3.4.5.jar",
+      "projectId": 945149,
+      "projectName": "Glassential Renewed",
+      "sizeBytes": 724382,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/glassential-renewed"
+    },
+    {
+      "fileAuthor": "GlodBlock",
+      "fileId": 5226922,
+      "fileName": "Glodium-1.20-1.5-forge.jar",
+      "projectId": 957920,
+      "projectName": "Glodium",
+      "sizeBytes": 60550,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/glodium"
+    },
+    {
+      "fileAuthor": "GlodBlock",
+      "fileId": 7651647,
+      "fileName": "AppliedFlux-1.20-1.3.7-forge.jar",
+      "projectId": 965012,
+      "projectName": "Applied Flux",
+      "sizeBytes": 252283,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/applied-flux"
+    },
+    {
+      "fileAuthor": "Vazkii",
+      "fileId": 7335229,
+      "fileName": "Zeta-1.0-31.jar",
+      "projectId": 968868,
+      "projectName": "Zeta",
+      "sizeBytes": 1006518,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/zeta"
+    },
+    {
+      "fileAuthor": "Jarva",
+      "fileId": 5834672,
+      "fileName": "ars_additions-1.20.1-1.6.7.jar",
+      "projectId": 974408,
+      "projectName": "Ars Additions",
+      "sizeBytes": 1287601,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/ars-additions"
+    },
+    {
+      "fileAuthor": "SnorreTheDev",
+      "fileId": 5530184,
+      "fileName": "ae2alchemistryaddon-1.20.1-0.0.2.jar",
+      "projectId": 1061632,
+      "projectName": "AE2 Alchemistry Addon",
+      "sizeBytes": 15493,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/ae2-alchemistry-addon"
+    },
+    {
+      "fileAuthor": "Faboslav",
+      "fileId": 8547261,
+      "fileName": "structurify-forge-2.0.30+mc1.20.1.jar",
+      "projectId": 1087551,
+      "projectName": "Structurify - Structure Control",
+      "sizeBytes": 671757,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/structurify"
+    },
+    {
+      "fileAuthor": "RedFoxGaming67",
+      "fileId": 8073853,
+      "fileName": "tleveling-1.1.1-1.20.1.jar",
+      "projectId": 1088354,
+      "projectName": "Tinkers Tool Leveling 2",
+      "sizeBytes": 105905,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/tinkers-tool-leveling-2"
+    },
+    {
+      "fileAuthor": "KitsuneAlex",
+      "fileId": 5829718,
+      "fileName": "chemlibcc-1.20.1-1.1.0.20.jar",
+      "projectId": 1118255,
+      "projectName": "ChemLib Custom Compounds",
+      "sizeBytes": 44492,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/chemlib-custom-compounds"
+    },
+    {
+      "fileAuthor": "shartte",
+      "fileId": 8204776,
+      "fileName": "guideme-20.1.15.jar",
+      "projectId": 1173950,
+      "projectName": "GuideME",
+      "sizeBytes": 9414827,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/guideme"
+    },
+    {
+      "fileAuthor": "aurilisdev",
+      "fileId": 8741143,
+      "fileName": "Voltaic-1.20.1-1.0.13.jar",
+      "projectId": 1237904,
+      "projectName": "Voltaic API",
+      "sizeBytes": 1805874,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/voltaic-api"
+    },
+    {
+      "fileAuthor": "big_energy",
+      "fileId": 8536895,
+      "fileName": "fastpipes-1.20.1-1.3.7.jar",
+      "projectId": 1329310,
+      "projectName": "FastPipes",
+      "sizeBytes": 600749,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/fast-pipes"
+    },
+    {
+      "fileAuthor": "CryptIX",
+      "fileId": 6951930,
+      "fileName": "kubejsalchem-1.20.1-1.1.2-R.jar",
+      "projectId": 1337764,
+      "projectName": "KubeJS Alchemistry/Chemlib",
+      "sizeBytes": 42265,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/kubejs-alchemistry-chemlib"
+    },
+    {
+      "fileAuthor": "big_energy",
+      "fileId": 9558715,
+      "fileName": "alchemistry-1.20.1-2.3.4-plus.12.jar",
+      "projectId": 1771784,
+      "projectName": "Alchemistry Plus",
+      "sizeBytes": 3768885,
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/alchemistry-plus"
+    }
+  ],
+  "fileMetadataTemplate": "https://www.curseforge.com/api/v1/mods/{projectId}/files/{fileId}",
+  "modSources": {
+    "ad_astra": {
+      "fileId": 6262032,
+      "path": "mods/ad_astra-forge-1.20.1-1.15.20.jar",
+      "projectId": 635042,
+      "sha256": "99e274894af7c3b01622a74775a9960b5857b35951888414e733f8c2ec683f26",
+      "version": "1.15.20"
+    },
+    "ad_astra_giselle_addon": {
+      "fileId": 8843399,
+      "path": "mods/Ad-Astra-Giselle-Addon-forge-1.20.1-6.24.jar",
+      "projectId": 714958,
+      "sha256": "d807de9d9f512e91c6236ca235e3ac97453fa090cb79d53e3114f0881d4dbf1e",
+      "version": "6.24"
+    },
+    "ae2": {
+      "fileId": 7148487,
+      "path": "mods/appliedenergistics2-forge-15.4.10.jar",
+      "projectId": 223794,
+      "sha256": "fbfee05c6674cb6b00fe425e945ca4818d41eb34069b60dcb4a36221a0390fcc",
+      "version": "15.4.10"
+    },
+    "ae2alchemistryaddon": {
+      "fileId": 5530184,
+      "path": "mods/ae2alchemistryaddon-1.20.1-0.0.2.jar",
+      "projectId": 1061632,
+      "sha256": "9dcceb22f1410ef27fae8e428986803af8e2d4019a941afafd2ca4dfd31a6ba2",
+      "version": "1.20.1-0.0.2"
+    },
+    "ae2wtlib": {
+      "fileId": 7251206,
+      "path": "mods/ae2wtlib-15.3.3-forge.jar",
+      "projectId": 459929,
+      "sha256": "39e5cede37d5c6a07592d6c1e83398791e037f3d434bc44f7460cd085a4de5f4",
+      "version": "15.3.3-forge"
+    },
+    "alchemistry": {
+      "fileId": 9558715,
+      "path": "mods/alchemistry-1.20.1-2.3.4-plus.12.jar",
+      "projectId": 1771784,
+      "sha256": "e515eb775b1c8a016f7cec1993589cf4dff33c11a1517d3f3f97e5388389db40",
+      "version": "2.3.4-plus.12"
+    },
+    "alchemylib": {
+      "fileId": 5037781,
+      "path": "mods/alchemylib-1.20.1-1.0.30.jar",
+      "projectId": 293426,
+      "sha256": "1bf4d28c70fb671c5b2ca72bfd12f74594db6319f67be7b50bb7bce5d11c4466",
+      "version": "1.0.30"
+    },
+    "almostunified": {
+      "fileId": 7430993,
+      "path": "mods/almostunified-forge-1.20.1-0.11.0.jar",
+      "projectId": 633823,
+      "sha256": "2ce69432abd105aa9e8627d3294dacb747331d73b07725cd30650ad78eae00bb",
+      "version": "1.20.1-0.11.0"
+    },
+    "apotheosis": {
+      "fileId": 6461960,
+      "path": "mods/Apotheosis-1.20.1-7.4.8.jar",
+      "projectId": 313970,
+      "sha256": "5ed8c17cf62837bb649d1054e3e4fe93c4d9bdec98fe9f332e2637a260da30da",
+      "version": "7.4.8"
+    },
+    "appflux": {
+      "fileId": 7651647,
+      "path": "mods/AppliedFlux-1.20-1.3.7-forge.jar",
+      "projectId": 965012,
+      "sha256": "7673b0e44ee5f247fe224c09b8178f500a01a96e7d07baa77a4a5a110462eaea",
+      "version": "1.20-1.3.7-forge"
+    },
+    "appleskin": {
+      "fileId": 4770828,
+      "path": "mods/appleskin-forge-mc1.20.1-2.5.1.jar",
+      "projectId": 248787,
+      "sha256": "e12419e43e3babc810af289403c5cd96bd7f09809b389acc6bb2f122b4b2a426",
+      "version": "2.5.1+mc1.20.1"
+    },
+    "appmek": {
+      "fileId": 7244744,
+      "path": "mods/Applied-Mekanistics-1.4.3.jar",
+      "projectId": 574300,
+      "sha256": "e1aafd9c2ae1cab7bb6905ec61718aed41b9f07c05148c9a033e4bb886173d2c",
+      "version": "1.4.3"
+    },
+    "architectury": {
+      "fileId": 5137938,
+      "path": "mods/architectury-9.2.14-forge.jar",
+      "projectId": 419699,
+      "sha256": "218b471d0b8a1f6cda14cfc1beb9eeb0df54304500acc6c5613d9b88ec65d9af",
+      "version": "9.2.14"
+    },
+    "ars_additions": {
+      "fileId": 5834672,
+      "path": "mods/ars_additions-1.20.1-1.6.7.jar",
+      "projectId": 974408,
+      "sha256": "35639890eefa1ed6635f83ca16b80aeddaa400f2b2340567499e34667a63b428",
+      "version": "1.20.1-1.6.7"
+    },
+    "ars_elemental": {
+      "fileId": 8399870,
+      "path": "mods/ars_elemental-1.20.1-0.6.8.0.jar",
+      "projectId": 561470,
+      "sha256": "2172db18ab7a4f43da49a2bb245b3d90f1c6cd8f7ce7905870dbc60e3f5ad40b",
+      "version": "0.6.8.0"
+    },
+    "ars_nouveau": {
+      "fileId": 6688854,
+      "path": "mods/ars_nouveau-1.20.1-4.12.7-all.jar",
+      "projectId": 401955,
+      "sha256": "1f1debc282a0c379c1141f2840ea294eede6f6b544c589663f40bbe17b59a1af",
+      "version": "4.12.7"
+    },
+    "arseng": {
+      "fileId": 5504444,
+      "path": "mods/arseng-1.2.0.jar",
+      "projectId": 905641,
+      "sha256": "02850730d3535afeb19d94311c31693ee1986d07795934e4dc50282f7956e827",
+      "version": "1.2.0"
+    },
+    "athena": {
+      "fileId": 5176879,
+      "path": "mods/athena-forge-1.20.1-3.1.2.jar",
+      "projectId": 841890,
+      "sha256": "64eec9cffb8847a459536096ac396b135ffb07c7d9d13c6a47d9cd7b251276ab",
+      "version": "3.1.2"
+    },
+    "attributeslib": {
+      "fileId": 5634071,
+      "path": "mods/ApothicAttributes-1.20.1-1.3.7.jar",
+      "projectId": 898963,
+      "sha256": "68487b11c0d4e2f67a85f2b04bf65e99ac15294f2923f4391f83e9542293187a",
+      "version": "1.3.7"
+    },
+    "avaritia": {
+      "fileId": 8497793,
+      "path": "mods/Re-Avaritia-forge-1.20.1-1.4.1-release.jar",
+      "projectId": 623969,
+      "sha256": "db013e5a513faf671b68036981372158ded9e1d30417e0b38c44bb184655e2f1",
+      "version": "1.4.1"
+    },
+    "azurelib": {
+      "fileId": 8367230,
+      "path": "mods/azurelib-neo-1.20.1-3.1.12.jar",
+      "projectId": 817423,
+      "sha256": "482d12cdcba5c029e8c22fd34c4913edc22b0ba1f5c5121613f0974192323fb7",
+      "version": "3.1.12"
+    },
+    "balm": {
+      "fileId": 8545415,
+      "path": "mods/balm-forge-1.20.1-7.3.42.jar",
+      "projectId": 531761,
+      "sha256": "1abe13b5de575af91ebc073b19e4e2cfedbe795b15f406e9516ed52cbd2de3a6",
+      "version": "7.3.42"
+    },
+    "betteradvancements": {
+      "fileId": 8569648,
+      "path": "mods/BetterAdvancements-Forge-1.20.1-0.6.0.73.jar",
+      "projectId": 272515,
+      "sha256": "21bb5d5541f740851d0f7cc5116708a58335acf5e76eb41209568523ff152a56",
+      "version": "0.6.0.73"
+    },
+    "bookshelf": {
+      "fileId": 7612389,
+      "path": "mods/Bookshelf-Forge-1.20.1-20.2.15.jar",
+      "projectId": 228525,
+      "sha256": "7980d4a0beed1dcd2c283cf65f3c93f6b0085833f3ac490014979c95f1dfaf67",
+      "version": "20.2.15"
+    },
+    "botanypots": {
+      "fileId": 7612402,
+      "path": "mods/BotanyPots-Forge-1.20.1-13.0.43.jar",
+      "projectId": 353928,
+      "sha256": "55c0a1457d4ca107d5b1b005310df32672dad59b2ce0c4ca150c525848eed474",
+      "version": "13.0.43"
+    },
+    "botarium": {
+      "fileId": 5486070,
+      "path": "mods/botarium-forge-1.20.1-2.3.4.jar",
+      "projectId": 704113,
+      "sha256": "470810a364ff4ad4d4fcd4e55798263938fc893970eacecc58e8b741a392b1cf",
+      "version": "2.3.4"
+    },
+    "brandonscore": {
+      "fileId": 5422013,
+      "path": "mods/BrandonsCore-1.20.1-3.2.1.302-universal.jar",
+      "projectId": 231382,
+      "sha256": "79eb172fea57b1fa6424fda1c773aefb13c4e11277b810bb4c7577ed8c5f8ca6",
+      "version": "3.2.1.302"
+    },
+    "buildinggadgets2": {
+      "fileId": 6850495,
+      "path": "mods/buildinggadgets2-1.0.8.jar",
+      "projectId": 298187,
+      "sha256": "59efb399a4acdb69a01a970b1f1e3c5584495aabc726ff40857ab4aed9372c83",
+      "version": "1.0.8"
+    },
+    "carryon": {
+      "fileId": 4882500,
+      "path": "mods/carryon-forge-1.20.1-2.1.2.7.jar",
+      "projectId": 274259,
+      "sha256": "d7470921fc5ff988788d43409083f62478aecc91f4b81d7e6b63c80c933d4613",
+      "version": "2.1.2.7"
+    },
+    "chemlib": {
+      "fileId": 5128632,
+      "path": "mods/chemlib-1.20.1-2.0.19.jar",
+      "projectId": 340666,
+      "sha256": "57d2ffc00f4d7d7241abe0b6a48f3b9742d73046419625439a65f59d66137d36",
+      "version": "2.0.19"
+    },
+    "chemlibcc": {
+      "fileId": 5829718,
+      "path": "mods/chemlibcc-1.20.1-1.1.0.20.jar",
+      "projectId": 1118255,
+      "sha256": "46a8d079be7159514d6f78cb78a48b64eb76fe716ca2be8e34e6127879d511d7",
+      "version": "1.1.0.20"
+    },
+    "chipped": {
+      "fileId": 5813138,
+      "path": "mods/chipped-forge-1.20.1-3.0.7.jar",
+      "projectId": 456956,
+      "sha256": "300e02535342b710fb34409821de9d097b0d8b17f56a57a17d75d05c4c1c5b63",
+      "version": "3.0.7"
+    },
+    "chiselsandbits": {
+      "fileId": 7620767,
+      "path": "mods/chisels-and-bits-forge-20.1.20.jar",
+      "projectId": 231095,
+      "sha256": "682dab9c016b12b3da49ed4df037cc9483917cd50ec76b2bd6da4bfbf1237a2b",
+      "version": "20.1.20"
+    },
+    "cloth_config": {
+      "fileId": 5729105,
+      "path": "mods/cloth-config-11.1.136-forge.jar",
+      "projectId": 348521,
+      "sha256": "1e895e85cf5b1e1905ef3178ec155c8badfe22a1577b92c09143a5aa1f4ce0f2",
+      "version": "11.1.136"
+    },
+    "clumps": {
+      "fileId": 5278538,
+      "path": "mods/Clumps-forge-1.20.1-12.0.0.4.jar",
+      "projectId": 256717,
+      "sha256": "1d1cfcf386f182b1d0bdbe4bd4fc57b96234e8c7468e95e1575ad4dd6433243a",
+      "version": "12.0.0.4"
+    },
+    "codechickenlib": {
+      "fileId": 8491810,
+      "path": "mods/CodeChickenLib-1.20.1-4.4.0.528-universal.jar",
+      "projectId": 242818,
+      "sha256": "754240e1cd05caaf511a808ddf6fc74ece68a8fca7d94548d9ac967287f7960d",
+      "version": "4.4.0.528"
+    },
+    "cofh_core": {
+      "fileId": 5374122,
+      "path": "mods/cofh_core-1.20.1-11.0.2.56.jar",
+      "projectId": 69162,
+      "sha256": "d7cd3ec8083e294e17cb50fe607b416c1dc83ce885e53ba3995d86e028f790e0",
+      "version": "11.0.2"
+    },
+    "controlling": {
+      "fileId": 4646682,
+      "path": "mods/Controlling-forge-1.20.1-12.0.2.jar",
+      "projectId": 250398,
+      "sha256": "516308a93824119f6a1ebc75425aa21ee8f8de0c331942793a054ba6d9c24944",
+      "version": "12.0.2"
+    },
+    "craftingtweaks": {
+      "fileId": 8019501,
+      "path": "mods/craftingtweaks-forge-1.20.1-18.2.9.jar",
+      "projectId": 233071,
+      "sha256": "1cc83c8c0bee73a2ffa3428ce28e3c17d7f95e26e1a820d8bd7270e0931f8974",
+      "version": "18.2.9"
+    },
+    "create": {
+      "fileId": 7178761,
+      "path": "mods/create-1.20.1-6.0.8.jar",
+      "projectId": 328085,
+      "sha256": "6fbb910c367dbce8e4fc7e5bf64b6edd4de980906ed00af8e47e4af843c0d9b0",
+      "version": "6.0.8"
+    },
+    "create_enchantment_industry": {
+      "fileId": 8567881,
+      "path": "mods/create_enchantment_industry-1.4.1-for-create-6.0.8.jar",
+      "projectId": 688768,
+      "sha256": "7f7889ba19518e16221b410ae4e1e9fba4c4ee1acaae85c5a3c4b866c97e6198",
+      "version": "1.4.1-for-create-6.0.8"
+    },
+    "createaddition": {
+      "fileId": 7208610,
+      "path": "mods/createaddition-1.20.1-1.3.3.jar",
+      "projectId": 439890,
+      "sha256": "9bf3ae15d86ec95d128542caf10e4b5498e49ca02f725b9302d6daecd5eae1db",
+      "version": "1.20.1-1.3.3"
+    },
+    "cucumber": {
+      "fileId": 7180783,
+      "path": "mods/Cucumber-1.20.1-7.0.16.jar",
+      "projectId": 272335,
+      "sha256": "b586a3cd1de362c365f923e5c325273916822f4b3a792c0d9ff6747d7deb2be6",
+      "version": "7.0.16"
+    },
+    "curios": {
+      "fileId": 6418456,
+      "path": "mods/curios-forge-5.14.1+1.20.1.jar",
+      "projectId": 309927,
+      "sha256": "1e817919a35b37cf30524aaec73f0ca5130452f23f168f844854df282eb8e51f",
+      "version": "5.14.1+1.20.1"
+    },
+    "cursedearth": {
+      "fileId": 5225537,
+      "path": "mods/Cursed Earth-forge-1.20.1-0.jar",
+      "projectId": 336919,
+      "sha256": "6ef3ee4bf69e31d0622e8015043ce13250ce598f5bd0e332fc5ae426453dd2f5",
+      "version": "0"
+    },
+    "cyclic": {
+      "fileId": 8089280,
+      "path": "mods/Cyclic-1.20.1-1.13.7.jar",
+      "projectId": 239286,
+      "sha256": "477bbf91e94fc6a16fe22f958205205948877352376e86745f5213992eaf09f1",
+      "version": "1.13.7"
+    },
+    "darkutils": {
+      "fileId": 7612437,
+      "path": "mods/DarkUtilities-Forge-1.20.1-17.0.6.jar",
+      "projectId": 242195,
+      "sha256": "7f9a302da04f45b08c0648732262af5b74317d72472e7f41b2ec1003d45180a7",
+      "version": "17.0.6"
+    },
+    "deeperdarker": {
+      "fileId": 5906086,
+      "path": "mods/deeperdarker-forge-1.20.1-1.3.3.jar",
+      "projectId": 659011,
+      "sha256": "d07dc6155e0b751c7d1ec26dabb7284a41798c85e48b0d809fd1254e489ed455",
+      "version": "1.3.3"
+    },
+    "defaultoptions": {
+      "fileId": 8286304,
+      "path": "mods/defaultoptions-forge-1.20.1-18.0.5.jar",
+      "projectId": 232131,
+      "sha256": "28a34106f7dc91015bc202924593e7a375c9d4dd2681aec58f5abd06fa5eaeee",
+      "version": "18.0.5"
+    },
+    "doomangelring": {
+      "fileId": 4965773,
+      "path": "mods/doomangelring-neo-1.20.1-3.0.1.jar",
+      "projectId": 402762,
+      "sha256": "921b7db49767f7c7a4f106fe7563ddab97f94f339d8d25f93de02affc295c635",
+      "version": "3.0.1"
+    },
+    "draconicadditions": {
+      "fileId": 6144499,
+      "path": "mods/Draconic-Additions-1.20.1-2.4.1.5-universal.jar",
+      "projectId": 314515,
+      "sha256": "142fc318266790676419816982f58e37162865c59557fdd750c00b0ce09800cf",
+      "version": "2.4.1.5"
+    },
+    "draconicevolution": {
+      "fileId": 6793843,
+      "path": "mods/Draconic-Evolution-1.20.1-3.1.2.621-universal.jar",
+      "projectId": 223565,
+      "sha256": "06ae009929799d7f912adcf83498b83328395bd53c90e4e03eb07d710b40441a",
+      "version": "3.1.2.621"
+    },
+    "electrodynamics": {
+      "fileId": 8748841,
+      "path": "mods/Electrodynamics-1.20.1-1.0.14.jar",
+      "projectId": 316867,
+      "sha256": "4168249f34d4d5f8ed159a10ad4c64858d0892cc9eaa71d2543da7e11680f963",
+      "version": "1.20.1-1.0.14"
+    },
+    "elevatorid": {
+      "fileId": 6602224,
+      "path": "mods/elevatorid-1.20.1-1.9.1-forge.jar",
+      "projectId": 250832,
+      "sha256": "7487c091bc8e6ae7b83c61471c97258b380fab2a0f421ed84df78f92ba630f75",
+      "version": "1.20.1-1.9.1-forge"
+    },
+    "embeddium": {
+      "fileId": 5681725,
+      "path": "mods/embeddium-0.3.31+mc1.20.1.jar",
+      "projectId": 908741,
+      "sha256": "eed3d1325f2acc2fd4e69bb495e5ccb91d962126ac5330f0582ebc2a3daf47fb",
+      "version": "0.3.31+mc1.20.1"
+    },
+    "entityculling": {
+      "fileId": 8287086,
+      "path": "mods/entityculling-forge-1.10.5-mc1.20.1.jar",
+      "projectId": 448233,
+      "sha256": "db0ee6aaf7e78d758885969e1d237e6efef07109195d4bb81fa06b304ddc12aa",
+      "version": "1.10.5"
+    },
+    "exchangers": {
+      "fileId": 4732484,
+      "path": "mods/Exchangers-1.20.1-3.5.1.jar",
+      "projectId": 270183,
+      "sha256": "8357b8fc2555f419c206943b0d5d18d9f80af51b687594f8f8c772009ae94bb5",
+      "version": "1.20.1-3.5.1"
+    },
+    "extendedcrafting": {
+      "fileId": 6880322,
+      "path": "mods/ExtendedCrafting-1.20.1-6.0.10.jar",
+      "projectId": 268387,
+      "sha256": "45f383531d72a4a933333c5c80eae9d2d920a4cb3d71936e21e436be81e9a84f",
+      "version": "6.0.10"
+    },
+    "fastpipes": {
+      "fileId": 8536895,
+      "path": "mods/fastpipes-1.20.1-1.3.7.jar",
+      "projectId": 1329310,
+      "sha256": "4810bc6926724e308c63b863c15b4312db9d39a9e9b3e3c26b5c94ba520c1b3c",
+      "version": "1.3.7"
+    },
+    "fastsuite": {
+      "fileId": 7527943,
+      "path": "mods/FastSuite-1.20.1-5.1.2.jar",
+      "projectId": 475117,
+      "sha256": "5e05cb3ce05785a0061a41b7a83443074a6c26dd7d9db75c453fa2487481d54e",
+      "version": "5.1.2"
+    },
+    "ferritecore": {
+      "fileId": 4810975,
+      "path": "mods/ferritecore-6.0.1-forge.jar",
+      "projectId": 429235,
+      "sha256": "9c2c9396a49e796d88497758caa4637d2bcbb433c318e2dd9cebcffbaf0f6c54",
+      "version": "6.0.1"
+    },
+    "flib": {
+      "fileId": 8070669,
+      "path": "mods/flib-1.20.1-0.0.16.jar",
+      "projectId": 661261,
+      "sha256": "5736fd8a36fb3c69f99bae3127fb3743b68c801ffbab71a876c2a203a2c19e0e",
+      "version": "0.0.16"
+    },
+    "fluxnetworks": {
+      "fileId": 5234697,
+      "path": "mods/FluxNetworks-1.20.1-7.2.1.15.jar",
+      "projectId": 248020,
+      "sha256": "8d24f39b6e1b2d83426a28a62ae0b65294b7e6e925e39a26b62f8ae077f54a89",
+      "version": "7.2.1.15"
+    },
+    "flywheel": {
+      "fileId": 7178761,
+      "nativeJarJar": {
+        "artifact": {
+          "artifact": "flywheel-forge-1.20.1",
+          "group": "dev.engine-room.flywheel"
+        },
+        "artifactVersion": "1.0.5",
+        "member": "META-INF/jarjar/flywheel-forge-1.20.1-1.0.5.jar",
+        "sha256": "316ca250f19244956b5f0cd75329309ea65a77b4b8da854389b6a9222e7f427c"
+      },
+      "path": "mods/create-1.20.1-6.0.8.jar",
+      "projectId": 328085,
+      "sha256": "6fbb910c367dbce8e4fc7e5bf64b6edd4de980906ed00af8e47e4af843c0d9b0",
+      "version": "1.0.5"
+    },
+    "forbidden_arcanus": {
+      "fileId": 5198323,
+      "path": "mods/forbidden_arcanus-1.20.1-2.2.6.jar",
+      "projectId": 309858,
+      "sha256": "f45d9d919b5e2ee2574fbfac340293420db80327c543dcf9c1b4fd3a79c8cc61",
+      "version": "1.20.1-2.2.6"
+    },
+    "framedblocks": {
+      "fileId": 7386520,
+      "path": "mods/FramedBlocks-9.4.3.jar",
+      "projectId": 441647,
+      "sha256": "58f4a8d8fb759a9db8754d83461df1b7b2e94426888259286d3acc316e6c6589",
+      "version": "9.4.3"
+    },
+    "ftbchunks": {
+      "fileId": 8216874,
+      "path": "mods/ftb-chunks-forge-2001.3.8.jar",
+      "projectId": 314906,
+      "sha256": "783f7aa42089b6f72500801284796f7cc8eb641ecddcf76f65bf586c017efb02",
+      "version": "2001.3.8"
+    },
+    "ftblibrary": {
+      "fileId": 8226927,
+      "path": "mods/ftb-library-forge-2001.2.13.jar",
+      "projectId": 404465,
+      "sha256": "41810281b65336265cae2c88412022d02f2f0a3f28c66a06173d86f98acf14a7",
+      "version": "2001.2.13"
+    },
+    "ftbquests": {
+      "fileId": 8078538,
+      "path": "mods/ftb-quests-forge-2001.4.22.jar",
+      "projectId": 289412,
+      "sha256": "9ea9d159a78a2724cfe0457b024680fdb52a2126eff9cfa5280a30578f647a68",
+      "version": "2001.4.22"
+    },
+    "ftbteams": {
+      "fileId": 7499810,
+      "path": "mods/ftb-teams-forge-2001.3.2.jar",
+      "projectId": 404468,
+      "sha256": "b1cb4d82ea9f137a87e12a7aaf3329619294b56f7d70337dfd557a76e10b6e07",
+      "version": "2001.3.2"
+    },
+    "ftbultimine": {
+      "fileId": 7880472,
+      "path": "mods/ftb-ultimine-forge-2001.1.8.jar",
+      "projectId": 386134,
+      "sha256": "b80dde55b2c91fd27f09f15ed2aefb0756c7bd704316e488ae8a06b179e85730",
+      "version": "2001.1.8"
+    },
+    "ftbxmodcompat": {
+      "fileId": 6402486,
+      "path": "mods/ftb-xmod-compat-forge-2.1.3.jar",
+      "projectId": 889915,
+      "sha256": "16a8eb9de88d5c33d29cb076cc39dfb337b2c54348e1ef1efe9dd60cf85e5f72",
+      "version": "2.1.3"
+    },
+    "fusion": {
+      "fileId": 8536533,
+      "path": "mods/fusion-1.3.12-forge-mc1.20.1.jar",
+      "projectId": 854949,
+      "sha256": "fab5f0460cb4b6f9ebc0f7f0fbd3b0aa62dc8408c3f14a5b69eb11211d79f0cb",
+      "version": "1.3.12"
+    },
+    "gamestages": {
+      "fileId": 5790361,
+      "path": "mods/GameStages-Forge-1.20.1-15.0.2.jar",
+      "projectId": 268655,
+      "sha256": "a52c0afa9cefba434c43f884abba717f4fac73cc0c9472514cd8ada3f32f5e6f",
+      "version": "15.0.2"
+    },
+    "geckolib": {
+      "fileId": 6688854,
+      "nativeJarJar": {
+        "artifact": {
+          "artifact": "geckolib-forge-1.20.1",
+          "group": "software.bernie.geckolib"
+        },
+        "artifactVersion": "4.4.4",
+        "member": "META-INF/jarjar/geckolib-forge-1.20.1-4.4.4.jar",
+        "sha256": "e26258f00e2b51336be65c50f915b0b739bdf37c42fa9d4d188c8e787f818d14"
+      },
+      "path": "mods/ars_nouveau-1.20.1-4.12.7-all.jar",
+      "projectId": 401955,
+      "sha256": "1f1debc282a0c379c1141f2840ea294eede6f6b544c589663f40bbe17b59a1af",
+      "version": "4.4.4"
+    },
+    "glassential": {
+      "fileId": 8539051,
+      "path": "mods/Glassential-renewed-1.20.1-3.4.5.jar",
+      "projectId": 945149,
+      "sha256": "f804a2f3fbaa6d9fed6c63d5b924dcb694ed086c4035c21fecd9f14b7e6e90d3",
+      "version": "3.4.5"
+    },
+    "glodium": {
+      "fileId": 5226922,
+      "path": "mods/Glodium-1.20-1.5-forge.jar",
+      "projectId": 957920,
+      "sha256": "fc419cb5bf511750c0a2da498b925f5122ac4f78617aca6630fe80abf0b6f460",
+      "version": "1.20-1.5-forge"
+    },
+    "guideme": {
+      "fileId": 8204776,
+      "path": "mods/guideme-20.1.15.jar",
+      "projectId": 1173950,
+      "sha256": "cf8052ab3da121012efc59a20e731c24bfe7488dfa556c9b88809f42dea3b24a",
+      "version": "20.1.15"
+    },
+    "gunpowderlib": {
+      "fileId": 5418804,
+      "path": "mods/GunpowderLib-1.20.2-2.2.2.jar",
+      "projectId": 356646,
+      "sha256": "3bfc04b30cff467c75553205c1f4d6d2be7f841b92adfe8441d8ce2f8d52cf4c",
+      "version": "1.20.2-2.2.2"
+    },
+    "hostilenetworks": {
+      "fileId": 5895036,
+      "path": "mods/HostileNeuralNetworks-1.20.1-5.3.3.jar",
+      "projectId": 552574,
+      "sha256": "dcddfb263a0eaf3d69c160d3532802b7f821cb4cc8f6a62aa8c35adde4eaa592",
+      "version": "5.3.3"
+    },
+    "incontrol": {
+      "fileId": 8629608,
+      "path": "mods/incontrol-1.20-9.4.7.jar",
+      "projectId": 257356,
+      "sha256": "f25b11666d8e46bf8d93f61df6bb2a9d4a5ae54282314461dda6a4d493f7eb3b",
+      "version": "1.20-9.4.7"
+    },
+    "industrialforegoing": {
+      "fileId": 7949862,
+      "path": "mods/industrial-foregoing-1.20.1-3.5.22.jar",
+      "projectId": 266515,
+      "sha256": "9220ddde2c259c8dfa5c05ad23b26650dc9b2f3048c4aca3b1d9d6f4cd211f3d",
+      "version": "3.5.22"
+    },
+    "ironchest": {
+      "fileId": 4614852,
+      "path": "mods/ironchest-1.20.1-14.4.4.jar",
+      "projectId": 228756,
+      "sha256": "6bc75f288d2e8158d2e23c6881a1b341a894c38bab129ca0f20db6abd59d373f",
+      "version": "1.20.1-14.4.4"
+    },
+    "ironjetpacks": {
+      "fileId": 6880323,
+      "path": "mods/IronJetpacks-1.20.1-7.0.9.jar",
+      "projectId": 284497,
+      "sha256": "e17d85bba593592ed96ae4f7b62edc26646d78aa44e47d3a7944af6719bf27a4",
+      "version": "7.0.9"
+    },
+    "itemfilters": {
+      "fileId": 4838266,
+      "path": "mods/item-filters-forge-2001.1.0-build.59.jar",
+      "projectId": 309674,
+      "sha256": "99417b1342ba51ccb9611b17ab01fc1299971aa34e8f9d2a8b3c63df5713eb49",
+      "version": "2001.1.0-build.59"
+    },
+    "itemstages": {
+      "fileId": 5214094,
+      "path": "mods/ItemStages-Forge-1.20.1-8.0.3.jar",
+      "projectId": 280316,
+      "sha256": "af9e3dc3f2ef768d3e8a44d394f21781f8e4b11bec2218deb3b8db56ba5c325d",
+      "version": "8.0.3"
+    },
+    "jade": {
+      "fileId": 8479276,
+      "path": "mods/Jade-1.20.1-Forge-11.13.3.jar",
+      "projectId": 324717,
+      "sha256": "a632c77975e5aedff6322b0072f8b0db3f5d4bf914df6bdcc87d1aea4d5f55f4",
+      "version": "11.13.3+forge"
+    },
+    "jadeaddons": {
+      "fileId": 8203724,
+      "path": "mods/JadeAddons-1.20.1-Forge-5.5.1.jar",
+      "projectId": 583345,
+      "sha256": "faf39cd0326e5127004be0b0c96ba7d52fa40cf9c7f85854bd47e3ebfc402f4c",
+      "version": "5.5.1+forge"
+    },
+    "jei": {
+      "fileId": 8622780,
+      "path": "mods/jei-1.20.1-forge-15.49.0.188.jar",
+      "projectId": 238222,
+      "sha256": "070229014841acdd8d1b1c7ce426a9dd02324aca9c28bae87e88ef253ca0fb01",
+      "version": "15.49.0.188"
+    },
+    "jeresources": {
+      "fileId": 5057220,
+      "path": "mods/JustEnoughResources-1.20.1-1.4.0.247.jar",
+      "projectId": 240630,
+      "sha256": "311d3a83db489d27b96cd15deb690ce64c78cffb552c25c3dff85956a14ec09e",
+      "version": "1.4.0.247"
+    },
+    "kubejs": {
+      "fileId": 8020595,
+      "path": "mods/kubejs-forge-2001.6.5-build.26.jar",
+      "projectId": 238086,
+      "sha256": "1769312192fbf9d72f45054ba61130523bfb471b5f480a4bff8c210ec09400bb",
+      "version": "2001.6.5-build.26"
+    },
+    "kubejsalchem": {
+      "fileId": 6951930,
+      "path": "mods/kubejsalchem-1.20.1-1.1.2-R.jar",
+      "projectId": 1337764,
+      "sha256": "9b1d6383c6365c8c72a3a3ec33fe602100872f20c717a45c33b9c96feabca735",
+      "version": "1.20.1-1.1.2-R"
+    },
+    "kuma_api": {
+      "fileId": 8545415,
+      "nativeJarJar": {
+        "artifact": {
+          "artifact": "kuma-api-forge",
+          "group": "net.blay09.mods"
+        },
+        "artifactVersion": "20.1.12+1.20.1",
+        "member": "META-INF/jarjar/kuma-api-forge-20.1.12+1.20.1.jar",
+        "sha256": "5118a4d1ce2bb836158184887002c7aec7d723a56da5185a0c5b08f9c5cc4767"
+      },
+      "path": "mods/balm-forge-1.20.1-7.3.42.jar",
+      "projectId": 531761,
+      "sha256": "1abe13b5de575af91ebc073b19e4e2cfedbe795b15f406e9516ed52cbd2de3a6",
+      "version": "20.1.12"
+    },
+    "laserio": {
+      "fileId": 5074767,
+      "path": "mods/laserio-1.6.8.jar",
+      "projectId": 626839,
+      "sha256": "f07fc6cb7f2aa28197e87ffc3a35062390259ad803d8996b08b13473c0af6790",
+      "version": "1.6.8"
+    },
+    "lodestone": {
+      "fileId": 6213794,
+      "path": "mods/lodestone-1.20.1-1.6.4.1.jar",
+      "projectId": 616457,
+      "sha256": "e9f8b7bc70ba99d97005f2acee2061b149785fbae3c1e37db08c79197bcc7c2d",
+      "version": "1.20.1-1.6.4.1"
+    },
+    "malum": {
+      "fileId": 6646111,
+      "path": "mods/malum-1.20.1-1.6.7.jar",
+      "projectId": 484064,
+      "sha256": "ceda6ce4cc19de21ff6c21a732d8f9270ecc83cdae69027b13aaa24b536307f8",
+      "version": "1.20.1-1.6.7"
+    },
+    "mantle": {
+      "fileId": 7563777,
+      "path": "mods/Mantle-1.20.1-1.11.104.jar",
+      "projectId": 74924,
+      "sha256": "6052e47c3981064bd5213728eaa3c5418289f6f85b07a1cd4dd1505239248838",
+      "version": "1.11.104"
+    },
+    "mcjtylib": {
+      "fileId": 8256165,
+      "path": "mods/mcjtylib-1.20-8.0.8.jar",
+      "projectId": 233105,
+      "sha256": "523ee1d0060d0185e2145418973f9bc972e43f467790eb33ffbd22273f9385fd",
+      "version": "1.20-8.0.8"
+    },
+    "mcwbridges": {
+      "fileId": 7627954,
+      "path": "mods/mcw-bridges-3.1.2-mc1.20.1forge.jar",
+      "projectId": 351725,
+      "sha256": "95c5aae4e82758d5c0ca2ba61c4cf72e9240e53f68befe8104c68fa9f9b19eed",
+      "version": "3.1.2"
+    },
+    "mcwdoors": {
+      "fileId": 7618714,
+      "path": "mods/mcw-doors-1.1.5-mc1.20.1forge.jar",
+      "projectId": 378646,
+      "sha256": "e975bdd5ed1d680e37fb2a6cda4f4eb5c42a837fa24b0cddabe7688df42c10af",
+      "version": "1.1.5"
+    },
+    "mcwfences": {
+      "fileId": 7308423,
+      "path": "mods/mcw-mcwfences-1.2.1-mc1.20.1forge.jar",
+      "projectId": 453925,
+      "sha256": "10deb617769e9674a767a3991af4c46afd081b5de42cee326f71ef2700a14313",
+      "version": "1.2.1"
+    },
+    "mcwfurnitures": {
+      "fileId": 7255630,
+      "path": "mods/mcw-furniture-3.4.1-mc1.20.1forge.jar",
+      "projectId": 359540,
+      "sha256": "9f068315ac5ae7c4b76a6ac0679cde9be59d5cbf37488a477f13b95fe1cbc37d",
+      "version": "3.4.1"
+    },
+    "mcwlights": {
+      "fileId": 7304117,
+      "path": "mods/mcw-lights-1.1.5-mc1.20.1forge.jar",
+      "projectId": 502372,
+      "sha256": "174437555ff8b3938b5af8fa3f6efcc528fc101e90e35b89570323e4a3726f0a",
+      "version": "1.1.5"
+    },
+    "mcwpaths": {
+      "fileId": 7029554,
+      "path": "mods/mcw-mcwpaths-1.1.1-mc1.20.1forge.jar",
+      "projectId": 629153,
+      "sha256": "9a809897462ca11c1920748b0fdf4555f05ef3650db1bd82016906795d068c9f",
+      "version": "1.1.1"
+    },
+    "mcwroofs": {
+      "fileId": 6494466,
+      "path": "mods/mcw-roofs-2.3.2-mc1.20.1forge.jar",
+      "projectId": 352039,
+      "sha256": "3554317ad8d082a3d9fb5d8b387f5206e545323b4387ed1b93b7b3bf889def3f",
+      "version": "2.3.2"
+    },
+    "mcwtrpdoors": {
+      "fileId": 7256186,
+      "path": "mods/mcw-trapdoors-1.1.5-mc1.20.1forge.jar",
+      "projectId": 400933,
+      "sha256": "c2abff58334d79ea61278c6dffd941a4f4ceb5cffadf889359fd45a003738217",
+      "version": "1.1.5"
+    },
+    "mcwwindows": {
+      "fileId": 7317714,
+      "path": "mods/mcw-mcwwindows-2.4.2-mc1.20.1forge.jar",
+      "projectId": 363569,
+      "sha256": "7674d829d5a38d91ca68061e087fded92e976e3e461edcf75117e37a257e8f10",
+      "version": "2.4.2"
+    },
+    "megacells": {
+      "fileId": 6175008,
+      "path": "mods/megacells-forge-2.4.6-1.20.1.jar",
+      "projectId": 622112,
+      "sha256": "19f59cc793950a3fa80dc1b29ef3bdad587344cd5efe25c5e010f4db1ea4a79c",
+      "version": "2.4.6-1.20.1"
+    },
+    "mekanism": {
+      "fileId": 6552911,
+      "path": "mods/Mekanism-1.20.1-10.4.16.80.jar",
+      "projectId": 268560,
+      "sha256": "3b0d191fa4a45e662f9725991d76a30192f30186abb2ba694b873b5f7b9358d2",
+      "version": "10.4.16"
+    },
+    "mekanismgenerators": {
+      "fileId": 6552914,
+      "path": "mods/MekanismGenerators-1.20.1-10.4.16.80.jar",
+      "projectId": 268566,
+      "sha256": "be2d5b8553f8638cfabf491002f95cef6acef210f627addb391f5af713502512",
+      "version": "10.4.16"
+    },
+    "melody": {
+      "fileId": 5109692,
+      "path": "mods/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+      "projectId": 938643,
+      "sha256": "933e2a7e79c4594f965f7f7d00b1f28a98ec2a180ad8f9f90310a266fe5cf5d8",
+      "version": "1.0.2"
+    },
+    "mixinextras": {
+      "fileId": 6688854,
+      "nativeJarJar": {
+        "artifact": {
+          "artifact": "mixinextras-forge",
+          "group": "com.github.llamalad7.mixinextras"
+        },
+        "artifactVersion": "0.2.0-beta.8",
+        "member": "META-INF/jarjar/mixinextras-forge-0.2.0-beta.8.jar",
+        "sha256": "61e6715c7c6caa9247affca5133c78a2f03a21291477b7fe0c76ab8050694632"
+      },
+      "path": "mods/ars_nouveau-1.20.1-4.12.7-all.jar",
+      "projectId": 401955,
+      "sha256": "1f1debc282a0c379c1141f2840ea294eede6f6b544c589663f40bbe17b59a1af",
+      "version": "0.2.0-beta.8"
+    },
+    "mixinsquared": {
+      "fileId": 7884611,
+      "nativeJarJar": {
+        "artifact": {
+          "artifact": "mixinsquared-forge",
+          "group": "com.github.bawnorton.mixinsquared"
+        },
+        "artifactVersion": "0.1.1",
+        "member": "META-INF/jars/mixinsquared-forge-0.1.1.jar",
+        "sha256": "fe7a4ba905dfa7596e95078f94fb01860f885ef008a9b473c42a176de57bfd31"
+      },
+      "path": "mods/supplementaries-1.20-3.1.43-forge.jar",
+      "projectId": 412082,
+      "sha256": "6132fc23a2fe1da0ca57439b35526ee9a1a8d898397ff8e61b2d08fb951cdf6a",
+      "version": "0.1.1"
+    },
+    "modernfix": {
+      "fileId": 8613265,
+      "path": "mods/modernfix-forge-5.27.72+mc1.20.1.jar",
+      "projectId": 790626,
+      "sha256": "f9a837bffecbf3a6bfe044cf9f6a5d7a984bec15e37bcd46d7956f9c29692f80",
+      "version": "5.27.72+mc1.20.1"
+    },
+    "modnametooltip": {
+      "fileId": 4652448,
+      "path": "mods/modnametooltip-1.20.1-1.20.0.jar",
+      "projectId": 238747,
+      "sha256": "989d8ad5af1dd92a35e5a9f72531a6f0daffd8dd2438ce09052ce0e7b549f371",
+      "version": "1.20.0"
+    },
+    "moonlight": {
+      "fileId": 8261419,
+      "path": "mods/moonlight-1.20-2.16.34-forge.jar",
+      "projectId": 499980,
+      "sha256": "007c05ae799417ca7aa26669c5d97be9dface5b6fc27aca4ca8031cafe4ddd6e",
+      "version": "1.20-2.16.34"
+    },
+    "moreoverlays": {
+      "fileId": 5376428,
+      "path": "mods/moreoverlays-1.22.7-mc1.20.2.jar",
+      "projectId": 391382,
+      "sha256": "1cf063baf7eed2f41066a00cb5520d0ceed4104118990d508591c8a4c9781980",
+      "version": "1.22.7-mc1.20.2"
+    },
+    "mousetweaks": {
+      "fileId": 5338457,
+      "path": "mods/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+      "projectId": 60089,
+      "sha256": "6c27d16aa715ac6613a55fc463739e2c7b78279e4e4c4cede299e4a2d4a70f08",
+      "version": "2.25.1"
+    },
+    "neat": {
+      "fileId": 5838485,
+      "path": "mods/Neat-1.20.1-41-FORGE.jar",
+      "projectId": 238372,
+      "sha256": "c850ba870e044f0e18d1dee236dc5863e9ad3b38a70c0741c72813776d35c11e",
+      "version": "1.20.1-41-FORGE"
+    },
+    "nuclearcraft": {
+      "fileId": 8581060,
+      "path": "mods/NuclearCraft-1.20.1-1.2.34.jar",
+      "projectId": 840010,
+      "sha256": "4a60908a0c2ea5e33016eaa3bcb98bcc0bb22625209d9115e999b84da75519a8",
+      "version": "1.2.34"
+    },
+    "nuclearscience": {
+      "fileId": 8741252,
+      "path": "mods/Nuclear Science-1.20.1-0.8.12.jar",
+      "projectId": 318646,
+      "sha256": "4f6783873b08d8efb8a8ce18fe717c6d5e5ca760df4f598e7349e35501ef2c06",
+      "version": "1.20.1-0.8.12"
+    },
+    "nullscape": {
+      "fileId": 5759138,
+      "path": "mods/Nullscape_1.20.x_v1.2.8.jar",
+      "projectId": 570354,
+      "sha256": "32ccc5beb6ad0215e06082620903e1825a1b0df51777f3f31801b4a17e6ebcc5",
+      "version": "1.2.8"
+    },
+    "oculus": {
+      "fileId": 6020952,
+      "path": "mods/oculus-mc1.20.1-1.8.0.jar",
+      "projectId": 581495,
+      "sha256": "0945df0cba0f62b3901dd80c3268e5311b770ece78c78037a45db12ac0425fef",
+      "version": "1.8.0"
+    },
+    "openloader": {
+      "fileId": 7613218,
+      "path": "mods/OpenLoader-Forge-1.20.1-19.0.5.jar",
+      "projectId": 354339,
+      "sha256": "56da03448ce1c63cb0f41e99ae38c5857d663886f9249c234f18b7c0de44b151",
+      "version": "19.0.5"
+    },
+    "oreexcavation": {
+      "fileId": 4945387,
+      "path": "mods/oreexcavation-1.13.170.jar",
+      "projectId": 250898,
+      "sha256": "8171b7bd43eee950dee35acbd22dc575a527b448e4edb5fd0236f08a0b37701a",
+      "version": "1.13.170"
+    },
+    "packetfixer": {
+      "fileId": 7872374,
+      "path": "mods/packetfixer-3.3.2-1.18-1.20.4-merged.jar",
+      "projectId": 689467,
+      "sha256": "12f96ecb8e61e0b3d3f0ca5701f479904904501dd251aa7bb60205afdf6bc2ce",
+      "version": "3.3.2"
+    },
+    "patchouli": {
+      "fileId": 7731017,
+      "path": "mods/Patchouli-1.20.1-85-FORGE.jar",
+      "projectId": 306770,
+      "sha256": "05f7b5d52f6b8f0fd7f8b4822fa07a192d1394d83a264309c9d221d6d4fd21c5",
+      "version": "1.20.1-85-FORGE"
+    },
+    "pipez": {
+      "fileId": 6945379,
+      "path": "mods/pipez-forge-1.20.1-1.2.26.jar",
+      "projectId": 443900,
+      "sha256": "f692b0a24c46c954358db8535248021deaf3399973c4e746ba1e3e115a8a48c9",
+      "version": "1.20.1-1.2.26"
+    },
+    "placebo": {
+      "fileId": 6274231,
+      "path": "mods/Placebo-1.20.1-8.6.3.jar",
+      "projectId": 283644,
+      "sha256": "1cdf906cfbcbb5e5be2ef1bb721f79a24b01bd2ac559c8cdbfb7693f62421571",
+      "version": "8.6.3"
+    },
+    "pneumaticcraft": {
+      "fileId": 8411196,
+      "path": "mods/pneumaticcraft-repressurized-6.0.23+mc1.20.1.jar",
+      "projectId": 281849,
+      "sha256": "8d5117f18a3f80eb6670cfb04f0a42a103195972bfdf429d2181587958ec4c38",
+      "version": "6.0.23+mc1.20.1"
+    },
+    "polylib": {
+      "fileId": 5350440,
+      "path": "mods/polylib-forge-2000.0.3-build.143.jar",
+      "projectId": 576589,
+      "sha256": "abf42a3240b083fc96b9c022a049323cd4130844fcef338e1ab8b2cd6502a04b",
+      "version": "2000.0.3-build.143"
+    },
+    "polymorph": {
+      "fileId": 6450982,
+      "path": "mods/polymorph-forge-0.49.10+1.20.1.jar",
+      "projectId": 388800,
+      "sha256": "cbe63a0a1cb6ae8dbc0e29bb96d149a137cd4e714b295fa49d230994091d157f",
+      "version": "0.49.10+1.20.1"
+    },
+    "ponder": {
+      "fileId": 8581060,
+      "nativeJarJar": {
+        "artifact": {
+          "artifact": "Ponder-Forge-1.20.1",
+          "group": "net.createmod.ponder"
+        },
+        "artifactVersion": "1.0.91",
+        "member": "META-INF/jarjar/Ponder-Forge-1.20.1-1.0.91.jar",
+        "sha256": "86e6b64372aba6d9c56f2c35725ea26d8febf2c75eed9950566e7f2849443b34"
+      },
+      "path": "mods/NuclearCraft-1.20.1-1.2.34.jar",
+      "projectId": 840010,
+      "sha256": "4a60908a0c2ea5e33016eaa3bcb98bcc0bb22625209d9115e999b84da75519a8",
+      "version": "1.0.91"
+    },
+    "powah": {
+      "fileId": 6828054,
+      "path": "mods/Powah-5.0.11.jar",
+      "projectId": 633483,
+      "sha256": "22f16ac88e8064f4f7fd94fb88fad3c8723dbd6fa5c11b7fd73c078c293184fa",
+      "version": "5.0.11"
+    },
+    "quark": {
+      "fileId": 6427817,
+      "path": "mods/Quark-4.0-462.jar",
+      "projectId": 243121,
+      "sha256": "c90b96f049d92825c4a103721988c80d72e5ad380d17be46a0f53e114874c478",
+      "version": "4.0-462"
+    },
+    "recipestages": {
+      "fileId": 5173574,
+      "path": "mods/RecipeStages-8.0.0.2.jar",
+      "projectId": 280554,
+      "sha256": "a39fb8ef143844337a1679eb978f2e6cc804075f6387b8de82ccc4eb2567a107",
+      "version": "8.0.0.2"
+    },
+    "redstone_arsenal": {
+      "fileId": 5372745,
+      "path": "mods/redstone_arsenal-1.20.1-8.0.1.24.jar",
+      "projectId": 70631,
+      "sha256": "bf44e5c1a5a2a03db62b1820d573c09839019f85d90d279e92da6600be7d6b32",
+      "version": "8.0.1"
+    },
+    "resourcefulconfig": {
+      "fileId": 6231176,
+      "path": "mods/resourcefulconfig-forge-1.20.1-2.1.3.jar",
+      "projectId": 714059,
+      "sha256": "c404b9e5cf8595427a72d4ca6ee5730289168762b463f169be3ae5dfe3727ded",
+      "version": "2.1.3"
+    },
+    "resourcefullib": {
+      "fileId": 5659871,
+      "path": "mods/resourcefullib-forge-1.20.1-2.1.29.jar",
+      "projectId": 570073,
+      "sha256": "b13afb95231d88e1caea5a045967e0fc291b29020b0d26ad39e6f9e9a551fee8",
+      "version": "2.1.29"
+    },
+    "rftoolsbase": {
+      "fileId": 8256170,
+      "path": "mods/rftoolsbase-1.20-5.0.7.jar",
+      "projectId": 326041,
+      "sha256": "8ba2f257cfafa034fa86971005cc416979563badd0525fdbfeea40da48e6375e",
+      "version": "1.20-5.0.7"
+    },
+    "rftoolspower": {
+      "fileId": 8256184,
+      "path": "mods/rftoolspower-1.20-6.0.3.jar",
+      "projectId": 290209,
+      "sha256": "c5e756e1c2e31ce9a4a09778a074524fafab4b35cb5bb4e58a0d7da2b8674e71",
+      "version": "1.20-6.0.3"
+    },
+    "rftoolsutility": {
+      "fileId": 8256183,
+      "path": "mods/rftoolsutility-1.20-6.0.7.jar",
+      "projectId": 342466,
+      "sha256": "5762c7b963ba139c5181bf004abfb2180053e5126b20722cd876bb65105e9b3b",
+      "version": "1.20-6.0.7"
+    },
+    "rhino": {
+      "fileId": 6186971,
+      "path": "mods/rhino-forge-2001.2.3-build.10.jar",
+      "projectId": 416294,
+      "sha256": "fed2211429301bf043864183cab9ab8e92d4cc4dbb9e488ce6c75217c54584a6",
+      "version": "2001.2.3-build.10"
+    },
+    "rubidium": {
+      "fileId": 5681725,
+      "path": "mods/embeddium-0.3.31+mc1.20.1.jar",
+      "projectId": 908741,
+      "sha256": "eed3d1325f2acc2fd4e69bb495e5ccb91d962126ac5330f0582ebc2a3daf47fb",
+      "version": "0.7.1"
+    },
+    "scena": {
+      "fileId": 7620767,
+      "nativeJarJar": {
+        "artifact": {
+          "artifact": "scena-forge",
+          "group": "com.communi-suggestu.scena"
+        },
+        "artifactVersion": "1.0.103",
+        "member": "META-INF/jarjar/scena-forge-1.0.103.jar",
+        "sha256": "70c13006a7e3e0e7d120d67c1d616b71e3880c6572f9c4c34be0105469bb4629"
+      },
+      "path": "mods/chisels-and-bits-forge-20.1.20.jar",
+      "projectId": 231095,
+      "sha256": "682dab9c016b12b3da49ed4df037cc9483917cd50ec76b2bd6da4bfbf1237a2b",
+      "version": "1.0.103"
+    },
+    "searchables": {
+      "fileId": 5284015,
+      "path": "mods/Searchables-forge-1.20.1-1.0.3.jar",
+      "projectId": 858542,
+      "sha256": "c1a76e93886210574d3f298c0461241fb711e52ac22c7a04d3236840f29e6576",
+      "version": "1.0.3"
+    },
+    "shrink": {
+      "fileId": 4863339,
+      "path": "mods/Shrink-1.20.1-1.4.5.jar",
+      "projectId": 426386,
+      "sha256": "a7af6dc3bc080c470a27ff691152c974bd13ce61e0c0948daf5eefece432abb1",
+      "version": "1.4.5"
+    },
+    "sophisticatedbackpacks": {
+      "fileId": 8627862,
+      "path": "mods/sophisticatedbackpacks-1.20.1-3.24.65.2073.jar",
+      "projectId": 422301,
+      "sha256": "673362c7c31cc25141104850f43f4e424ecf70a87c73df4357fc2be3fa1b6810",
+      "version": "3.24.65.2073"
+    },
+    "sophisticatedcore": {
+      "fileId": 8627806,
+      "path": "mods/sophisticatedcore-1.20.1-1.3.79.2250.jar",
+      "projectId": 618298,
+      "sha256": "d6dee35cfaedf3a1533bef484540d3483d09ee2019e448dd7a75e38878708a83",
+      "version": "1.3.79.2250"
+    },
+    "sophisticatedstorage": {
+      "fileId": 8609562,
+      "path": "mods/sophisticatedstorage-1.20.1-1.4.79.2069.jar",
+      "projectId": 619320,
+      "sha256": "2b2d814bd761c9385e5fa99e63c6bc142ef027dbf69f7834da35c73b12dc3452",
+      "version": "1.4.79.2069"
+    },
+    "sound_physics_remastered": {
+      "fileId": 7032235,
+      "path": "mods/sound-physics-remastered-forge-1.20.1-1.5.1.jar",
+      "projectId": 535489,
+      "sha256": "591fa317c4e462039dae01967bf370acb284d5118cf5839a33f1d01b6c0def3c",
+      "version": "1.20.1-1.5.1"
+    },
+    "spark": {
+      "fileId": 4738952,
+      "path": "mods/spark-1.10.53-forge.jar",
+      "projectId": 361579,
+      "sha256": "eba275ba9bb0cb5b542913c3138c6eeff6a752898266d63d125d185f26ac99ed",
+      "version": "1.10.53"
+    },
+    "spectrelib": {
+      "fileId": 6450982,
+      "nativeJarJar": {
+        "artifact": {
+          "artifact": "spectrelib-forge",
+          "group": "com.illusivesoulworks.spectrelib"
+        },
+        "artifactVersion": "0.13.17+1.20.1",
+        "member": "META-INF/jarjar/spectrelib-forge-0.13.17+1.20.1.jar",
+        "sha256": "0e2b29d9a55eeaf6196b284b4a964f917254c4102152c328bf82f58b52ade389"
+      },
+      "path": "mods/polymorph-forge-0.49.10+1.20.1.jar",
+      "projectId": 388800,
+      "sha256": "cbe63a0a1cb6ae8dbc0e29bb96d149a137cd4e714b295fa49d230994091d157f",
+      "version": "0.13.17+1.20.1"
+    },
+    "storagedrawers": {
+      "fileId": 6994481,
+      "path": "mods/StorageDrawers-forge-1.20.1-12.14.3.jar",
+      "projectId": 223852,
+      "sha256": "e7af06fe1c2104ad4c0d8bd2c35388cdf1f9e12e637515c9c24915c656731d30",
+      "version": "12.14.3"
+    },
+    "structurify": {
+      "fileId": 8547261,
+      "path": "mods/structurify-forge-2.0.30+mc1.20.1.jar",
+      "projectId": 1087551,
+      "sha256": "ab48aefcebecb57954a16f287f9b1649ddc681e5e0dc03b541532c7902581476",
+      "version": "2.0.30"
+    },
+    "supplementaries": {
+      "fileId": 7884611,
+      "path": "mods/supplementaries-1.20-3.1.43-forge.jar",
+      "projectId": 412082,
+      "sha256": "6132fc23a2fe1da0ca57439b35526ee9a1a8d898397ff8e61b2d08fb951cdf6a",
+      "version": "1.20-3.1.43"
+    },
+    "tconstruct": {
+      "fileId": 7449219,
+      "path": "mods/TConstruct-1.20.1-3.11.2.166.jar",
+      "projectId": 74072,
+      "sha256": "653b49d73481a1325ba78adc7273dee6c765a51bafdf264a7510576d6ef91c43",
+      "version": "3.11.2.166"
+    },
+    "tfmg": {
+      "fileId": 7344584,
+      "path": "mods/tfmg-1.0.2f.jar",
+      "projectId": 693815,
+      "sha256": "a789d1519fd4033334d0e217b252c557095b8007922247bfe53ee9db4f76a63d",
+      "version": "1.0.2f"
+    },
+    "thermal": {
+      "fileId": 5443583,
+      "nativeJarJar": {
+        "artifact": {
+          "artifact": "thermal_core",
+          "group": "com.teamcofh"
+        },
+        "artifactVersion": "1.20.1-11.0.6.24",
+        "member": "META-INF/jarjar/thermal_core-1.20.1-11.0.6.24.jar",
+        "sha256": "c10f1ad221cb0719a6627c9ceb1d104f03631ba41bb401e10ec86fd21d7d96f7"
+      },
+      "path": "mods/thermal_foundation-1.20.1-11.0.6.70.jar",
+      "projectId": 222880,
+      "sha256": "8cb610abb3c835b47f9b4ec19be6a54104d1f61230b67a9d5bfd097c5ac45823",
+      "version": "11.0.6"
+    },
+    "thermal_foundation": {
+      "fileId": 5443583,
+      "path": "mods/thermal_foundation-1.20.1-11.0.6.70.jar",
+      "projectId": 222880,
+      "sha256": "8cb610abb3c835b47f9b4ec19be6a54104d1f61230b67a9d5bfd097c5ac45823",
+      "version": "11.0.6"
+    },
+    "titanium": {
+      "fileId": 8426836,
+      "path": "mods/titanium-1.20.1-3.8.35.jar",
+      "projectId": 287342,
+      "sha256": "c7851205ace26b28afe332b9257f0f13d9ac52a89e4ae79a76156a8c91e7a282",
+      "version": "3.8.35"
+    },
+    "tleveling": {
+      "fileId": 8073853,
+      "path": "mods/tleveling-1.1.1-1.20.1.jar",
+      "projectId": 1088354,
+      "sha256": "d0ac75a16584bbadb4b6aac9ed26afe9fe0a32e63a431e33b396c8dc6a720ef3",
+      "version": "1.1.1-1.20.1"
+    },
+    "toastcontrol": {
+      "fileId": 4711316,
+      "path": "mods/ToastControl-1.20.1-8.0.3.jar",
+      "projectId": 271740,
+      "sha256": "e9923900cabbc12ffde7cc36113936f24b773bb33b22c19e4109cca52fc55ad6",
+      "version": "8.0.3"
+    },
+    "torchmaster": {
+      "fileId": 5849456,
+      "path": "mods/torchmaster-20.1.9.jar",
+      "projectId": 254268,
+      "sha256": "7c8984a2dc11c29147d0677958e9146a18578068bc00fbfcb1cddbaa60557682",
+      "version": "20.1.9"
+    },
+    "transition": {
+      "fileId": 8287086,
+      "nativeJarJar": {
+        "artifact": {
+          "artifact": "TRansition",
+          "group": "dev.tr7zw"
+        },
+        "artifactVersion": "1.0.21-1.20.1-forge-SNAPSHOT",
+        "member": "META-INF/jars/TRansition-1.0.21-1.20.1-forge-SNAPSHOT.jar",
+        "sha256": "e4ca93d3401e7ec5dc864f5f54d36e46a989f9c19164e3b3c315bb2c34f0945b"
+      },
+      "path": "mods/entityculling-forge-1.10.5-mc1.20.1.jar",
+      "projectId": 448233,
+      "sha256": "db0ee6aaf7e78d758885969e1d237e6efef07109195d4bb81fa06b304ddc12aa",
+      "version": "1.0.21"
+    },
+    "trender": {
+      "fileId": 8287086,
+      "nativeJarJar": {
+        "artifact": {
+          "artifact": "TRender",
+          "group": "dev.tr7zw"
+        },
+        "artifactVersion": "1.0.15-1.20.1-forge-SNAPSHOT",
+        "member": "META-INF/jars/TRender-1.0.15-1.20.1-forge-SNAPSHOT.jar",
+        "sha256": "0c27c321bb88ef66fbced036f57458e2c44367f6fdc3727c77ec251e88bde7c7"
+      },
+      "path": "mods/entityculling-forge-1.10.5-mc1.20.1.jar",
+      "projectId": 448233,
+      "sha256": "db0ee6aaf7e78d758885969e1d237e6efef07109195d4bb81fa06b304ddc12aa",
+      "version": "1.0.15"
+    },
+    "twilightforest": {
+      "fileId": 5468648,
+      "path": "mods/twilightforest-1.20.1-4.3.2508-universal.jar",
+      "projectId": 227639,
+      "sha256": "0bdc89263616d1b35c32ef82c5e9c14cbd20368e2fe8b468c72a28320be7a778",
+      "version": "4.3.2508"
+    },
+    "valhelsia_core": {
+      "fileId": 5189548,
+      "path": "mods/valhelsia_core-forge-1.20.1-1.1.2.jar",
+      "projectId": 416935,
+      "sha256": "d52ae1941c76ff57ee61943b38b5ae95a1e4bffa39604946bee1cfe52964f690",
+      "version": "1.1.2"
+    },
+    "voltaic": {
+      "fileId": 8741143,
+      "path": "mods/Voltaic-1.20.1-1.0.13.jar",
+      "projectId": 1237904,
+      "sha256": "76e45f2e81b0ed06b5e011cb72ea44b0e0e0aafeca2103d6595164084c50505e",
+      "version": "1.20.1-1.0.13"
+    },
+    "xnet": {
+      "fileId": 8256197,
+      "path": "mods/xnet-1.20-6.1.7.jar",
+      "projectId": 260912,
+      "sha256": "afcc052ec67b0b9328bb8b1d258988f50050e95fa52f6f13109220a92c00ba1a",
+      "version": "1.20-6.1.7"
+    },
+    "xnetgases": {
+      "fileId": 5661721,
+      "path": "mods/xnetgases-1.20.1-5.1.4.jar",
+      "projectId": 383182,
+      "sha256": "d053779e1ea547f540c562043eba346fcef4b60c727aeafa30f0f03b3f945af2",
+      "version": "5.1.4"
+    },
+    "yet_another_config_lib_v3": {
+      "fileId": 6336646,
+      "path": "mods/yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar",
+      "projectId": 667299,
+      "sha256": "bd05da3d9df29b914165583f1c6dfd918a138996447ff32c0418329824027a8f",
+      "version": "3.6.6+1.20.1-forge"
+    },
+    "zeta": {
+      "fileId": 7335229,
+      "path": "mods/Zeta-1.0-31.jar",
+      "projectId": 968868,
+      "sha256": "cd1786902a79434f8fd762d741019d9c8a79725fef7e30a89c153c934e1e6a9e",
+      "version": "1.0-31"
+    }
+  },
+  "nativeForgeDiscovery": {
+    "excludedPlatformAndTransportIds": [
+      "e4steam",
+      "forge",
+      "minecraft"
+    ],
+    "loadedRows": 176,
+    "packModCount": 173,
+    "sha256": "13cd7fc1dfd1c079fbd17cddfd0010a6b642b89b739140f9e01d02ff34eaf710"
+  },
+  "projectMetadataTemplate": "https://api.modpacks.ch/public/mod/{projectId}",
+  "schemaVersion": 1,
+  "source": "Official CurseForge client manifest and exact file records, with author modlist URLs matched by project ID through FTB public metadata.",
+  "upstreamLockSha256": "570a966dc7c95bd9c1a4f8e27c48bfa70ce022853b9cdbb697b11093ac85428c"
+}
