@@ -1,0 +1,29 @@
+{
+  "author": "big_energy",
+  "authorArchiveSha256": "23e5968067ad91b55e60bbd85ecd0de3b5a8a46cf7d06f6684c8d565f0d62580",
+  "fileUrl": "https://www.curseforge.com/minecraft/modpacks/antimatter-chemistry-reforged/files/9558909",
+  "preview": {
+    "height": 720,
+    "sha256": "2b3fbf2cfc59f274a6e9ad087be824eb0259235781b6fc3947c89298f9204099",
+    "sizeBytes": 165109,
+    "width": 1280
+  },
+  "projectUrl": "https://www.curseforge.com/minecraft/modpacks/antimatter-chemistry-reforged",
+  "schemaVersion": 1,
+  "source": {
+    "galleryUrl": "https://www.curseforge.com/minecraft/modpacks/antimatter-chemistry-reforged/gallery",
+    "height": 1009,
+    "imageUrl": "https://media.forgecdn.net/attachments/2122/566/be9rdblnwcnfpbld6t8lvmx3k6dhwddblizugjiz-png.png",
+    "sha256": "ad8ddf2a568c1df8133a31c964320e5b33feba5e9fc6ceff440aa579747e072a",
+    "sizeBytes": 238683,
+    "width": 1920
+  },
+  "transformation": {
+    "format": "JPEG",
+    "method": "center crop and Lanczos resize",
+    "optimize": true,
+    "pillowVersion": "12.3.0",
+    "quality": 92,
+    "subsampling": 0
+  }
+}
