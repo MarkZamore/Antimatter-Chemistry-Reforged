@@ -8,7 +8,17 @@ The official client archive is CurseForge project 1771794, file 9558909, 2,214,6
 
 Forge's client-side `LoadingModList` reported 176 native IDs with no preload errors or broken files. Excluding Minecraft, Forge, and launcher-managed e4steam gives the 173 pack IDs in `library/loaded-mods.json`, based on 161 fully verified JARs. Eleven selected IDs came from nested JARs. The receipt SHA256 is `13cd7fc1dfd1c079fbd17cddfd0010a6b642b89b739140f9e01d02ff34eaf710`. `library/loaded-mods.json` SHA256 is `791b54053f29f8182d9e188f1cabf8e630affa294f95401a8a4dd695d0aeb338`.
 
-The discovery observer stops the stock Forge bootstrap after native mod validation. The full-host fixture runs separately and uses the shared `Forge118SteamQaAgent`. It opens the actual default `minecraft:normal` preset, verifies window title, reads native dimension generation, and verifies the first-join water bucket delivered by the author's `amworld:first_join`. That exact function delivers items to inventory once, using the `amworld.init` player tag. The first-join receipt should identify the real flat generator and biome `amworld:antimatter_flats`.
+The discovery observer stops the stock Forge bootstrap after native mod validation. The full native title reported all 176 of the same IDs, versions, and native JAR filenames. The host fixture uses the shared `Forge118SteamQaAgent`. Its pack-side adapter waits for the Supplementaries message countdown and invokes the normal close action without selecting the persistent disable option. Minecraft's native accessibility onboarding is also completed in the disposable instance.
+
+## Native host result
+
+The exact game window title was verified at startup, before opening the world to Steam, and after publication. The default `minecraft:normal` preset created a `FlatLevelSource` Overworld with biome `amworld:antimatter_flats`. The author gave the water bucket in native inventory slot 4 using `amworld:first_join`; the function delivers items once using the `amworld.init` player tag.
+
+The native pause action opened the world with one press, retained Survival with commands disabled for the host and the synthetic guest, and exposed the Reports button. A real Steam lobby was created with matching world name, launcher player name and display flag. Native chat showed one local port row and one ready Steam row with the expected actions. The world saved and the client exited normally. The host JSONL SHA256 is `ee175d4250273ace6d5bae9b1ef5ff080151e3e2099a7624f238567e8c59c531`. The saved `level.dat` SHA256 after that client fully exited was `d807b3e985126f6310cb299e1472dfc746fcbbf839564bf3bad5cc6b78f66342`.
+
+The saved world reopened under the same test identity and passed the checks again, including preserved biome, starter inventory and another real Steam lobby. The reopen receipt SHA256 is `422ec29c6615850fe1c52b8153aa601f4b243e88ee8b9906bffaf7f8c259a4bf` and the final clean-shutdown `level.dat` SHA256 is `a5ad8f9b16b17b82b788ad1fb6737f9b3b44337dfd441f7675257a58fb6abc3f`. Actual incoming guest, commands-on world, and remote account discovery are untested.
+
+The reopen log records 36 distinct Malum advancement parse errors, 14 warnings about missing NuclearCraft fluid tags, eight TFMG model load errors, and one JER plugin error during a lookup for `nuclearcraft:wasteland`. Cyclic logs four errors about recipe content involving KubeJS identifiers. The game still loaded the world and opened Steam access. Authored files were not changed to suppress these messages. A separate production launcher options check seeded `lang:ru_ru` on the empty instance and preserved a subsequent saved `lang:en_us` selection. The full gameplay fixture ran in English because it used the existing test options.
 
 ## Repeat the checks
 
@@ -22,5 +32,7 @@ pwsh -NoProfile -File "$qa/Run-ForgeDiscovery.ps1" -ExpectedIntakeSha256 $expect
 python -B "$qa/build_loaded_inventory.py" "$run/stage" "$run/evidence" "$run/evidence/loaded-mods.json"
 pwsh -NoProfile -File "$qa/Run-ForgeDiscovery.ps1" -ExpectedIntakeSha256 $expected -NativeHost
 ```
+
+For a reopen, remove only the completed runner's `runtime-qa/native-host-temp` directory after the Java process has exited, retaining the test game. Hash the closed world's `level.dat` and pass `-HostLabel native-host-reopen -ReopenLevelSha256 <sha256>` to the same `-NativeHost` command.
 
 The host check uses one 6 GiB client and requires an active Steam session. The shared QA agent records the generated world, native publication state, window title, actual command state and Steam metadata. Record a real incoming two-player test separately. Retain the compact receipts and remove the test instance, saved world, generated loader view and raw logs when the run is finished.

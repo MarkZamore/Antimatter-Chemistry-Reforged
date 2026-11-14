@@ -4,6 +4,7 @@ param(
     [string]$RunLabel = 'antimatter-reforged-203',
     [string]$Jdk = $env:JAVA_HOME,
     [string]$HostLabel = 'native-host',
+    [ValidatePattern('^[0-9a-fA-F]{64}$')][string]$ReopenLevelSha256,
     [switch]$NativeHost,
     [switch]$Plan
 )
@@ -12,6 +13,7 @@ $project = (Resolve-Path "$PSScriptRoot/../../../..").Path
 if ($RunLabel -notmatch '^[a-zA-Z0-9_-]+$' -or $HostLabel -notmatch '^[a-zA-Z0-9_-]+$') {
     throw 'Expected single run and receipt names.'
 }
+if ($ReopenLevelSha256 -and !$NativeHost) { throw 'A saved world can only be opened in the native host check.' }
 $run = Join-Path $project "artifacts/agent-runs/$RunLabel"
 if (!(Test-Path -LiteralPath "$run/RUN.json") -or (Get-Item -LiteralPath $run).Attributes -band [IO.FileAttributes]::ReparsePoint) {
     throw 'Expected an owned QA run directory.'
@@ -92,29 +94,41 @@ if ($Plan) { $proof | ConvertTo-Json -Compress; return }
 $free = [math]::Floor((Get-CimInstance Win32_OperatingSystem).FreePhysicalMemory / 1024)
 if ($free -lt $heap + 4096) { throw "Insufficient available memory for the isolated Forge probe ($free MiB)." }
 $receipt = if ($NativeHost) { "$evidence/native-steam-qa.jsonl" } else { "$evidence/forge-discovery.tsv" }
-if ((Test-Path -LiteralPath $game) -or (Test-Path -LiteralPath $scratch) -or (Test-Path -LiteralPath $receipt)) {
+if (((Test-Path -LiteralPath $game) -and !$ReopenLevelSha256) -or
+    (Test-Path -LiteralPath $scratch) -or (Test-Path -LiteralPath $receipt)) {
     throw 'Use a fresh discovery instance and evidence.'
+}
+if ($ReopenLevelSha256) {
+    $saved = "$game/saves/LanMcSteamQa120ACReforged/level.dat"
+    if ((Get-FileHash -LiteralPath $saved -Algorithm SHA256).Hash -ine $ReopenLevelSha256) {
+        throw 'The saved QA world differs from the closed client receipt.'
+    }
 }
 foreach ($path in $evidence, "$game/config", "$game/mods", "$scratch/classes", "$scratch/home/AppData/Local", "$scratch/home/AppData/Roaming") {
     $null = [IO.Directory]::CreateDirectory($path)
 }
-foreach ($jar in $jars) {
-    $null = New-Item -ItemType HardLink -Path "$game/mods/$($jar.Name)" -Target $jar.FullName
+if (!$ReopenLevelSha256) {
+    foreach ($jar in $jars) {
+        $null = New-Item -ItemType HardLink -Path "$game/mods/$($jar.Name)" -Target $jar.FullName
+    }
+    [IO.File]::Copy($managed, "$game/mods/$($transport.FileName)")
 }
-[IO.File]::Copy($managed, "$game/mods/$($transport.FileName)")
 $appPaths = [Minecraft.AppPaths]::new($run)
 $logger = [Minecraft.Logger]::new("$scratch/launcher.log")
 if ($NativeHost) {
-    foreach ($file in Get-ChildItem -LiteralPath $stage -Force) {
-        if ($file.Attributes -band [IO.FileAttributes]::ReparsePoint) { throw 'Linked stage entry.' }
-        if ($file.Name -eq 'mods') { continue }
-        if ($file.Name -eq 'config') {
-            Get-ChildItem -LiteralPath $file.FullName -Force | ForEach-Object {
-                Copy-Item -LiteralPath $_.FullName -Destination "$game/config" -Recurse
-            }
-        } else { Copy-Item -LiteralPath $file.FullName -Destination $game -Recurse }
+    if (!$ReopenLevelSha256) {
+        foreach ($file in Get-ChildItem -LiteralPath $stage -Force) {
+            if ($file.Attributes -band [IO.FileAttributes]::ReparsePoint) { throw 'Linked stage entry.' }
+            if ($file.Name -eq 'mods') { continue }
+            if ($file.Name -eq 'config') {
+                Get-ChildItem -LiteralPath $file.FullName -Force | ForEach-Object {
+                    Copy-Item -LiteralPath $_.FullName -Destination "$game/config" -Recurse
+                }
+            } else { Copy-Item -LiteralPath $file.FullName -Destination $game -Recurse }
+        }
     }
     $baseJar = "$runtime/versions/1.20.1/1.20.1.jar"
+    [void][Minecraft.OptionsDefaultsService]::new($logger).Apply($stage, $game, $descriptor.MinecraftVersion, $false, $baseJar)
     $prepared = [Minecraft.PreparedRuntime]::new($runtime, $profileId, $java, $baseJar, $descriptor)
     $adapter = [Minecraft.PortableIdentityAdapterService]::new($appPaths, $logger)
     try {
@@ -128,6 +142,7 @@ if ($NativeHost) {
         '-Dlanminecraft.steamqa.worldSuffix=ACReforged', '-Dlanminecraft.steamqa.worldPreset=minecraft:normal',
         '-Dlanminecraft.steamqa.requireDefaultWorldPreset=true', '-Dlanminecraft.steamqa.expectedInitialItem=minecraft:water_bucket',
         '-Dlanminecraft.steamqa.expectedWindowTitle=Antimatter Chemistry Reforged')
+    if ($ReopenLevelSha256) { $instanceArgs += "-Dlanminecraft.steamqa.reopenLevelSha256=$ReopenLevelSha256" }
     $class = 'ReforgedHostQa'
     $sources = @("$PSScriptRoot/$class.java", "$project/tools/PackData/CurseForge/Forge118SteamQaAgent.java")
 } else {
