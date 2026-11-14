@@ -1,0 +1,173 @@
+name: Antimatter Chemistry Reforged
+
+on:
+  workflow_dispatch:
+    inputs:
+      prepare_only:
+        description: Verify author download and packing prerequisites without publishing
+        type: boolean
+        default: false
+      verify_revision:
+        description: Verify an already published revision on the Windows runner
+        type: string
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: antimatter-reforged-pack-latest
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: ${{ inputs.verify_revision == '' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PACK_ID: minecraft-17
+      LAUNCHER_SOURCE: 55aa6ae4ffb524c6fcdc564a3a34b9cc1a62dd0b
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/checkout@v4
+        with:
+          repository: MarkZamore/LANMinecraft
+          ref: ${{ env.LAUNCHER_SOURCE }}
+          path: launcher-tools
+          persist-credentials: false
+      - name: Prepare and verify the complete pack
+        shell: bash
+        run: |
+          set -euo pipefail
+          pack="$GITHUB_WORKSPACE"
+          cd launcher-tools
+          python3 -B tools/workspace_storage.py --check
+          run="$PWD/artifacts/agent-runs/antimatter-reforged-release"
+          mkdir -p "$run"
+          python3 - "$run/RUN.json" <<'PY'
+          from datetime import datetime, timedelta, timezone
+          from pathlib import Path
+          import json
+          import sys
+
+          now = datetime.now(timezone.utc)
+          Path(sys.argv[1]).write_text(json.dumps({
+              "owner": "Antimatter Chemistry Reforged release workflow",
+              "purpose": "Locked author stage and GitHub Release assets",
+              "createdUtc": now.isoformat(),
+              "maximumBytes": 2 * 1024**3,
+              "deleteAfterUtc": (now + timedelta(days=1)).isoformat(),
+              "requiredResults": ["release/pack-manifest.json"],
+          }), encoding="utf-8")
+          PY
+          author="$run/antimatter-reforged.zip"
+          curl --fail --silent --show-error --location --proto '=https' --proto-redir '=https' \
+            --max-time 180 --retry 2 --max-filesize 2214600 --output "$author" \
+            'https://edge.forgecdn.net/files/9558/909/Antimatter-Chemistry-Reforged-2.0.3.zip'
+          echo "23e5968067ad91b55e60bbd85ecd0de3b5a8a46cf7d06f6684c8d565f0d62580  $author" | sha256sum --check
+          python3 -B "$pack/tools/network_logging_policy.py" verify --pack "$pack"
+          python3 -B tools/PackData/CurseForge/release_overlay.py stage --pack-source "$pack" \
+            --locked --client-archive "$author" --output "$run/stage"
+          if [[ '${{ inputs.prepare_only }}' == 'true' ]]; then exit 0; fi
+          python3 -B tools/PackData/CurseForge/stage_release.py --pack-source "$pack" \
+            --stage "$run/stage" --revision "$GITHUB_SHA" --id "$PACK_ID" --output "$run/release"
+          python3 -B tools/PackData/CurseForge/release_overlay.py verify --pack-source "$pack" \
+            --stage "$run/stage" --manifest "$run/release/pack-manifest.json"
+          sha256sum "$run/release/pack-manifest.json"
+      - name: Publish the verified first release
+        if: ${{ !inputs.prepare_only }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          release="$GITHUB_WORKSPACE/launcher-tools/artifacts/agent-runs/antimatter-reforged-release/release"
+          notes="$RUNNER_TEMP/escape-release-notes.md"
+          {
+            echo 'Antimatter Chemistry Reforged 2.0.3 от big_energy для Minecraft 1.20.1, Forge 47.4.10 и Java 17.'
+            echo
+            echo "Исходники и квитанции сборки доступны в [ревизии $GITHUB_SHA](https://github.com/$GITHUB_REPOSITORY/tree/$GITHUB_SHA)."
+            echo
+            echo '[Авторский выпуск Antimatter Chemistry Reforged](https://www.curseforge.com/minecraft/modpacks/antimatter-chemistry-reforged/files/9558909)'
+            if [[ -f NOTICE.md ]]; then
+              echo
+              cat NOTICE.md
+            fi
+          } > "$notes"
+          gh release create pack-latest --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" \
+            --draft --title 'Antimatter Chemistry Reforged' --notes-file "$notes"
+          gh release upload pack-latest --repo "$GITHUB_REPOSITORY" "$release"/assets/*
+          gh release upload pack-latest --repo "$GITHUB_REPOSITORY" NOTICE.md licenses/*.txt
+          gh release upload pack-latest --repo "$GITHUB_REPOSITORY" "$release/pack-manifest.json"
+          gh release edit pack-latest --repo "$GITHUB_REPOSITORY" --draft=false
+      - name: Download and verify every public asset
+        if: ${{ !inputs.prepare_only }}
+        env:
+          PYTHONPATH: ${{ github.workspace }}/launcher-tools/tools/PackData/CurseForge
+        shell: bash
+        run: |
+          set -euo pipefail
+          run="$GITHUB_WORKSPACE/launcher-tools/artifacts/agent-runs/antimatter-reforged-release"
+          extra=(--extra-asset NOTICE.md)
+          for license in licenses/*.txt; do extra+=(--extra-asset "$license"); done
+          python3 -B tools/verify_public_assets.py --expected-manifest "$run/release/pack-manifest.json" \
+            --repository "$GITHUB_REPOSITORY" --pack-path 'Antimatter Chemistry Reforged' --scratch "$run" "${extra[@]}"
+
+  verify-public-install:
+    needs: publish
+    if: ${{ always() && !inputs.prepare_only && (needs.publish.result == 'success' || (needs.publish.result == 'skipped' && inputs.verify_revision != '')) }}
+    runs-on: windows-latest
+    timeout-minutes: 35
+    env:
+      LAUNCHER_SOURCE: 55aa6ae4ffb524c6fcdc564a3a34b9cc1a62dd0b
+      LAUNCHER_SHA256: 5664970d24192d2c8513b4bed52ed07881a9ddae26f6adf87df228162c54eacf
+      APPROVED_REVISION: ${{ inputs.verify_revision || github.sha }}
+      PYTHONPATH: ${{ github.workspace }}/launcher-tools/tools/PackData/CurseForge
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/checkout@v4
+        with:
+          repository: MarkZamore/LANMinecraft
+          ref: ${{ env.LAUNCHER_SOURCE }}
+          path: launcher-tools
+          persist-credentials: false
+      - name: Install from GitHub using the public launcher 500
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $ProgressPreference = 'SilentlyContinue'
+          $launcher = Join-Path $env:GITHUB_WORKSPACE 'launcher-tools'
+          $run = Join-Path $launcher 'artifacts/agent-runs/antimatter-reforged-public'
+          [void][IO.Directory]::CreateDirectory($run)
+          @{
+            owner = 'Antimatter Chemistry Reforged release workflow'
+            purpose = 'Clean production installation from public release'
+            createdUtc = (Get-Date).ToUniversalTime().ToString('o')
+            maximumBytes = 2GB
+            deleteAfterUtc = (Get-Date).ToUniversalTime().AddDays(1).ToString('o')
+            requiredResults = @('stock/public-acceptance.json')
+          } | ConvertTo-Json | Set-Content -LiteralPath (Join-Path $run 'RUN.json')
+          $exe = Join-Path $run 'LANMinecraft.exe'
+          $expected = Join-Path $run 'candidate-manifest.json'
+          $managed = Join-Path $run 'managed'
+          curl.exe --fail --silent --show-error --location --proto '=https' --proto-redir '=https' --max-time 180 `
+            --output $exe 'https://github.com/MarkZamore/LANMinecraft/releases/download/latest/LANMinecraft.exe'
+          if ($LASTEXITCODE) { throw 'Could not download the public launcher.' }
+          python -B tools/extract_public_launcher_dlls.py --exe $exe --sha256 $env:LAUNCHER_SHA256 --output $managed
+          if ($LASTEXITCODE) { throw 'Public launcher bytes do not match the approved release.' }
+          $uri = "https://github.com/$env:GITHUB_REPOSITORY/releases/download/pack-latest/pack-manifest.json"
+          Invoke-WebRequest -Uri $uri -OutFile $expected
+          $manifest = Get-Content -Raw -LiteralPath $expected | ConvertFrom-Json
+          if ($env:APPROVED_REVISION -cnotmatch '^[0-9a-f]{40}$' -or `
+              $manifest.revision -cne $env:APPROVED_REVISION -or $manifest.packId -cne 'minecraft-17') {
+              throw 'Public manifest changed after the release job.'
+          }
+          & "$launcher/tools/PackData/CurseForge/Verify-PublicPack.ps1" -RunDirectory $run -Label stock `
+            -LauncherAssembly "$managed/LANMinecraft.dll" -ExpectedManifest $expected `
+            -Owner MarkZamore -Repository Antimatter-Chemistry-Reforged -Tag pack-latest -PackName 'Antimatter Chemistry Reforged' `
+            -RunOwner 'Antimatter Chemistry Reforged release workflow'
+          $receiptPath = Join-Path $run 'stock/public-acceptance.json'
+          Write-Output ('LANMC_PUBLIC_ACCEPTANCE_V1 ' + [Convert]::ToBase64String([IO.File]::ReadAllBytes($receiptPath)))
