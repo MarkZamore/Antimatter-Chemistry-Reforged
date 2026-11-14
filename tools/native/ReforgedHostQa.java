@@ -26,9 +26,13 @@ public final class ReforgedHostQa {
             Path root = Path.of(System.getProperty("lanminecraft.steamqa.run")).toRealPath();
             Path game = Path.of(System.getProperty("lanminecraft.steamqa.game")).toRealPath();
             Path evidence = Path.of(System.getProperty("lanminecraft.steamqa.evidence")).toRealPath();
-            if (!Files.isRegularFile(root.resolve("RUN.json")) ||
-                    !game.startsWith(root.resolve("runtime-qa/Minecraft/Personal/Instances")) ||
-                    !evidence.startsWith(root.resolve("runtime-qa/evidence"))) return;
+            boolean host = game.startsWith(root.resolve("runtime-qa/Minecraft/Personal/Instances")) &&
+                    evidence.startsWith(root.resolve("runtime-qa/evidence"));
+            String peerSync = System.getProperty("lanminecraft.steamqa.peerSync");
+            boolean peer = peerSync != null && game.startsWith(root.resolve("game")) &&
+                    evidence.startsWith(root.resolve("evidence")) &&
+                    root.resolve("peer-sync").equals(Path.of(peerSync).toRealPath().getParent());
+            if (!Files.isRegularFile(root.resolve("RUN.json")) || !(host || peer)) return;
 
             long deadline = System.nanoTime() + Duration.ofMinutes(4).toNanos();
             while (System.nanoTime() < deadline) {

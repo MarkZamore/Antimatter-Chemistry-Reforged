@@ -36,3 +36,17 @@ pwsh -NoProfile -File "$qa/Run-ForgeDiscovery.ps1" -ExpectedIntakeSha256 $expect
 For a reopen, remove only the completed runner's `runtime-qa/native-host-temp` directory after the Java process has exited, retaining the test game. Hash the closed world's `level.dat` and pass `-HostLabel native-host-reopen -ReopenLevelSha256 <sha256>` to the same `-NativeHost` command.
 
 The host check uses one 6 GiB client and requires an active Steam session. The shared QA agent records the generated world, native publication state, window title, actual command state and Steam metadata. Record a real incoming two-player test separately. Retain the compact receipts and remove the test instance, saved world, generated loader view and raw logs when the run is finished.
+
+## Local Creative host and guest
+
+`Run-ReforgedGuest.ps1` uses the pinned public pack, stock launcher 500 and its verified identity agent. It reuses the reviewed Forge client runner and native peer probe from `artifacts/agent-runs/guest-peer-remaining-20261114`. The exact JVM properties and mappings are checked, then copied into the disposable run. The default invocation verifies inputs and reports the plan without staging game files or starting Minecraft.
+
+```powershell
+$qa = 'LocalSources/Antimatter-Chemistry-Reforged/tools/native'
+pwsh -NoProfile -File "$qa/Run-ReforgedGuest.ps1"
+pwsh -NoProfile -File "$qa/Run-ReforgedGuest.ps1" -RunNative
+```
+
+The native interface creates two separate Creative worlds using the same explicit seed and the pack's default preset. The commands-off pair starts after both commands-on clients have exited. In each pair the guest joins over TCP to `127.0.0.1`, reads its game mode and `/time` command availability, and sends the native command packet. The host records its day clock before and after. Steam hosting is disabled in the disposable instances. The exact public JARs are shared only between owned test instances and checked again after the games close. Configurations, logs and worlds have independent copies. The optional `-Commands On` or `-Commands Off` runs one pair and retains a separate receipt for it.
+
+Allow 650 MiB in the shared workspace, close other Java processes through their normal workflow and wait for stable Windows paging. The default two 6 GiB heaps require 16,384 MiB of available memory. The optional `-HeapMiB 4608` uses 13,312 MiB of available memory and is below the author's 6 GiB minimum per client.
