@@ -13,6 +13,20 @@
   ],
   "authorArchiveSha256": "23e5968067ad91b55e60bbd85ecd0de3b5a8a46cf7d06f6684c8d565f0d62580",
   "descriptorSha256": "776044931259cd918db0493a4b3baed95770fdb627faf79e251bc4be9c487505",
-  "patches": [],
+  "patches": [
+    {
+      "after": {
+        "sha256": "b27b8aaaffec65228e73a9a0bedbb9c245ae74caceaa0fe0b283f03db5948ecc",
+        "sizeBytes": 2419
+      },
+      "before": {
+        "sha256": "8e91ece03192325fc1cdcb426e1c37d7a2f9578ada60b2d00e4269325715b594",
+        "sizeBytes": 2170
+      },
+      "from": "      return\n    }\n  }\n})\n",
+      "path": "kubejs/startup_scripts/14_lava_generators.js",
+      "to": "      return\n    }\n  }\n})\n\n// Keep the optional Amendments notice disabled before the first title screen.\nClientEvents.init(() => {\n  if (Platform.isLoaded('supplementaries')) {\n    Java.loadClass('net.mehvahdjukaar.supplementaries.SuppPlatformStuff').disableAMWarn()\n  }\n})\n"
+    }
+  ],
   "schemaVersion": 1
 }

@@ -2777,11 +2777,23 @@
       "sizeBytes": 188
     },
     "ownership": {
-      "sha256": "20b244ac6cfb89d344b37b9ac4d077bd368f5f0ac391541801d06b22464313b5",
-      "sizeBytes": 18
+      "sha256": "fd17704103eb52d493f65a36ce4551cba55d8eba69aa759e9d5a3d2ca19ad664",
+      "sizeBytes": 63
     },
-    "patches": [],
-    "recipeSha256": "da050d9d97f5c6a9f6690c017811e40c5facab825a0f3fcecd01dd8477c82e94",
+    "patches": [
+      {
+        "after": {
+          "sha256": "b27b8aaaffec65228e73a9a0bedbb9c245ae74caceaa0fe0b283f03db5948ecc",
+          "sizeBytes": 2419
+        },
+        "before": {
+          "sha256": "8e91ece03192325fc1cdcb426e1c37d7a2f9578ada60b2d00e4269325715b594",
+          "sizeBytes": 2170
+        },
+        "path": "kubejs/startup_scripts/14_lava_generators.js"
+      }
+    ],
+    "recipeSha256": "2654940711e8c0e5b5409b31f057adc985d3d2f445795ce62e2d455eadb113f4",
     "requiredLauncherFeatures": [
       "preserve-steam-world-settings-v1"
     ]
