@@ -1461,6 +1461,323 @@
       "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/alchemistry-plus"
     }
   ],
+  "copyleftSourceReferences": {
+    "basis": "As declared in the exact Forge mods.toml, only top-level dependencies scanned.",
+    "dependencies": {
+      "mods/AppliedFlux-1.20-1.3.7-forge.jar": {
+        "declaredLicense": "LGPL-3.0",
+        "exactCurseForgeFile": "https://www.curseforge.com/minecraft/mc-mods/applied-flux/files/7651647",
+        "upstreamSourceReferences": [
+          "https://github.com/GlodBlock/ExtendedAE"
+        ]
+      },
+      "mods/Bookshelf-Forge-1.20.1-20.2.15.jar": {
+        "declaredLicense": "LGPL V2.1",
+        "exactCurseForgeFile": "https://www.curseforge.com/minecraft/mc-mods/bookshelf/files/7612389",
+        "upstreamSourceReferences": [
+          "https://github.com/Darkhax-Minecraft/Bookshelf"
+        ]
+      },
+      "mods/BotanyPots-Forge-1.20.1-13.0.43.jar": {
+        "declaredLicense": "LGPL V2.1",
+        "exactCurseForgeFile": "https://www.curseforge.com/minecraft/mc-mods/botany-pots/files/7612402",
+        "upstreamSourceReferences": [
+          "https://github.com/Darkhax-Minecraft/BotanyPots"
+        ]
+      },
+      "mods/CodeChickenLib-1.20.1-4.4.0.528-universal.jar": {
+        "declaredLicense": "GNU Lesser General Public License v2.1",
+        "exactCurseForgeFile": "https://www.curseforge.com/minecraft/mc-mods/codechicken-lib-1-8/files/8491810",
+        "includedNotices": [
+          "LICENSE",
+          "LICENSE.txt"
+        ],
+        "upstreamSourceReferences": [
+          "https://github.com/TheCBProject/CodeChickenLib"
+        ]
+      },
+      "mods/DarkUtilities-Forge-1.20.1-17.0.6.jar": {
+        "declaredLicense": "LGPL V2.1",
+        "exactCurseForgeFile": "https://www.curseforge.com/minecraft/mc-mods/dark-utilities/files/7612437",
+        "upstreamSourceReferences": [
+          "https://github.com/Darkhax-Minecraft/Dark-Utilities"
+        ]
+      },
+      "mods/FramedBlocks-9.4.3.jar": {
+        "declaredLicense": "LGPL v3",
+        "exactCurseForgeFile": "https://www.curseforge.com/minecraft/mc-mods/framedblocks/files/7386520",
+        "upstreamSourceReferences": [
+          "https://github.com/xfacthd/framedblocks"
+        ]
+      },
+      "mods/GameStages-Forge-1.20.1-15.0.2.jar": {
+        "declaredLicense": "LGPL v2.1",
+        "exactCurseForgeFile": "https://www.curseforge.com/minecraft/mc-mods/game-stages/files/5790361",
+        "upstreamSourceReferences": [
+          "https://github.com/Darkhax-Minecraft/Game-Stages"
+        ]
+      },
+      "mods/ItemStages-Forge-1.20.1-8.0.3.jar": {
+        "declaredLicense": "LGPL v2.1",
+        "exactCurseForgeFile": "https://www.curseforge.com/minecraft/mc-mods/item-stages/files/5214094",
+        "upstreamSourceReferences": [
+          "https://github.com/Darkhax-Minecraft/ItemStages"
+        ]
+      },
+      "mods/OpenLoader-Forge-1.20.1-19.0.5.jar": {
+        "declaredLicense": "LGPL V2.1",
+        "exactCurseForgeFile": "https://www.curseforge.com/minecraft/mc-mods/open-loader/files/7613218",
+        "upstreamSourceReferences": [
+          "https://github.com/Darkhax-Minecraft/Open-Loader"
+        ]
+      },
+      "mods/Powah-5.0.11.jar": {
+        "declaredLicense": "LGPLv3",
+        "exactCurseForgeFile": "https://www.curseforge.com/minecraft/mc-mods/powah-rearchitected/files/6828054",
+        "upstreamSourceReferences": [
+          "https://github.com/owmii/powah"
+        ]
+      },
+      "mods/Shrink-1.20.1-1.4.5.jar": {
+        "declaredLicense": "GNU General Public License v3.0",
+        "exactCurseForgeFile": "https://www.curseforge.com/minecraft/mc-mods/shrink_/files/4863339",
+        "upstreamSourceReferences": [
+          "https://github.com/gigabit101/Shrink"
+        ]
+      },
+      "mods/ae2alchemistryaddon-1.20.1-0.0.2.jar": {
+        "declaredLicense": "GNU GPLv3",
+        "exactCurseForgeFile": "https://www.curseforge.com/minecraft/mc-mods/ae2-alchemistry-addon/files/5530184"
+      },
+      "mods/alchemistry-1.20.1-2.3.4-plus.12.jar": {
+        "curseForgeLicense": "GPLv2",
+        "declaredLicense": "LGPLv2.1",
+        "exactCurseForgeFile": "https://www.curseforge.com/minecraft/mc-mods/alchemistry-plus/files/9558715",
+        "sourceStatus": "Fork source unverified; SmashingMods reference is the base project.",
+        "upstreamSourceReferences": [
+          "https://github.com/smashingmods/alchemistry",
+          "https://github.com/SmashingMods/Alchemistry"
+        ]
+      },
+      "mods/alchemylib-1.20.1-1.0.30.jar": {
+        "declaredLicense": "LGPLv2.1",
+        "exactCurseForgeFile": "https://www.curseforge.com/minecraft/mc-mods/alchemylib/files/5037781",
+        "upstreamSourceReferences": [
+          "https://github.com/SmashingMods/AlchemyLib",
+          "https://github.com/smashingmods/alchemylib"
+        ]
+      },
+      "mods/almostunified-forge-1.20.1-0.11.0.jar": {
+        "declaredLicense": "GNU Lesser General Public License v3.0",
+        "exactCurseForgeFile": "https://www.curseforge.com/minecraft/mc-mods/almostunified/files/7430993",
+        "upstreamSourceReferences": [
+          "https://github.com/AlmostReliable/almostunified"
+        ]
+      },
+      "mods/architectury-9.2.14-forge.jar": {
+        "declaredLicense": "GNU LGPLv3",
+        "exactCurseForgeFile": "https://www.curseforge.com/minecraft/mc-mods/architectury-api/files/5137938",
+        "upstreamSourceReferences": [
+          "https://github.com/shedaniel/architectury"
+        ]
+      },
+      "mods/ars_additions-1.20.1-1.6.7.jar": {
+        "declaredLicense": "LGPLv3",
+        "exactCurseForgeFile": "https://www.curseforge.com/minecraft/mc-mods/ars-additions/files/5834672"
+      },
+      "mods/ars_elemental-1.20.1-0.6.8.0.jar": {
+        "declaredLicense": "GNU Lesser General Public License v3.0",
+        "exactCurseForgeFile": "https://www.curseforge.com/minecraft/mc-mods/ars-elemental/files/8399870",
+        "upstreamSourceReferences": [
+          "https://github.com/Alexthw46/Ars-Elemental"
+        ]
+      },
+      "mods/ars_nouveau-1.20.1-4.12.7-all.jar": {
+        "declaredLicense": "GNU GENERAL PUBLIC LICENSE",
+        "exactCurseForgeFile": "https://www.curseforge.com/minecraft/mc-mods/ars-nouveau/files/6688854",
+        "upstreamSourceReferences": [
+          "https://github.com/baileyholl/Ars-Nouveau"
+        ]
+      },
+      "mods/arseng-1.2.0.jar": {
+        "declaredLicense": "LGPLv3.0",
+        "exactCurseForgeFile": "https://www.curseforge.com/minecraft/mc-mods/ars-energistique/files/5504444",
+        "upstreamSourceReferences": [
+          "https://github.com/62832/ArsEnergique"
+        ]
+      },
+      "mods/carryon-forge-1.20.1-2.1.2.7.jar": {
+        "declaredLicense": "GNU LGPLv3",
+        "exactCurseForgeFile": "https://www.curseforge.com/minecraft/mc-mods/carry-on/files/4882500",
+        "upstreamSourceReferences": [
+          "https://github.com/Tschipp/CarryOn"
+        ]
+      },
+      "mods/chemlib-1.20.1-2.0.19.jar": {
+        "declaredLicense": "LGPLv2.1",
+        "exactCurseForgeFile": "https://www.curseforge.com/minecraft/mc-mods/chemlib/files/5128632",
+        "upstreamSourceReferences": [
+          "https://github.com/SmashingMods/ChemLib"
+        ]
+      },
+      "mods/chisels-and-bits-forge-20.1.20.jar": {
+        "declaredLicense": "GLGPLv3",
+        "exactCurseForgeFile": "https://www.curseforge.com/minecraft/mc-mods/chisels-bits/files/7620767"
+      },
+      "mods/cloth-config-11.1.136-forge.jar": {
+        "declaredLicense": "GNU LGPLv3",
+        "exactCurseForgeFile": "https://www.curseforge.com/minecraft/mc-mods/cloth-config-forge/files/5729105",
+        "includedNotices": [
+          "LICENSE.md"
+        ],
+        "upstreamSourceReferences": [
+          "https://github.com/architectury/ClothConfig"
+        ]
+      },
+      "mods/curios-forge-5.14.1+1.20.1.jar": {
+        "declaredLicense": "LGPL-3.0-or-later",
+        "exactCurseForgeFile": "https://www.curseforge.com/minecraft/mc-mods/curios/files/6418456",
+        "includedNotices": [
+          "licenses/LICENSE"
+        ],
+        "upstreamSourceReferences": [
+          "https://github.com/TheIllusiveC4/Curios"
+        ]
+      },
+      "mods/deeperdarker-forge-1.20.1-1.3.3.jar": {
+        "declaredLicense": "AGPL-3.0",
+        "exactCurseForgeFile": "https://www.curseforge.com/minecraft/mc-mods/deeperdarker/files/5906086",
+        "upstreamSourceReferences": [
+          "https://github.com/KyaniteMods/DeeperAndDarker"
+        ]
+      },
+      "mods/embeddium-0.3.31+mc1.20.1.jar": {
+        "declaredLicense": "LGPL-3.0-only",
+        "exactCurseForgeFile": "https://www.curseforge.com/minecraft/mc-mods/embeddium/files/5681725",
+        "includedNotices": [
+          "COPYING",
+          "COPYING.LESSER"
+        ]
+      },
+      "mods/ironchest-1.20.1-14.4.4.jar": {
+        "declaredLicense": "GNU General Public License v3.0",
+        "exactCurseForgeFile": "https://www.curseforge.com/minecraft/mc-mods/iron-chests/files/4614852",
+        "upstreamSourceReferences": [
+          "https://github.com/progwml6/ironchest"
+        ]
+      },
+      "mods/item-filters-forge-2001.1.0-build.59.jar": {
+        "declaredLicense": "GNU LGPLv3",
+        "exactCurseForgeFile": "https://www.curseforge.com/minecraft/mc-mods/item-filters/files/4838266",
+        "upstreamSourceReferences": [
+          "https://github.com/LatvianModder/Item-Filters"
+        ]
+      },
+      "mods/kubejs-forge-2001.6.5-build.26.jar": {
+        "declaredLicense": "GNU LGPLv3",
+        "exactCurseForgeFile": "https://www.curseforge.com/minecraft/mc-mods/kubejs/files/8020595",
+        "upstreamSourceReferences": [
+          "https://github.com/KubeJS-Mods/KubeJS"
+        ]
+      },
+      "mods/lodestone-1.20.1-1.6.4.1.jar": {
+        "declaredLicense": "GPLv3",
+        "exactCurseForgeFile": "https://www.curseforge.com/minecraft/mc-mods/lodestone/files/6213794",
+        "upstreamSourceReferences": [
+          "https://github.com/LodestarMC/Lodestone"
+        ]
+      },
+      "mods/megacells-forge-2.4.6-1.20.1.jar": {
+        "declaredLicense": "LGPLv3.0",
+        "exactCurseForgeFile": "https://www.curseforge.com/minecraft/mc-mods/mega-cells/files/6175008",
+        "includedNotices": [
+          "LICENSE_megacells"
+        ],
+        "upstreamSourceReferences": [
+          "https://github.com/62832/MEGACells"
+        ]
+      },
+      "mods/modernfix-forge-5.27.72+mc1.20.1.jar": {
+        "declaredLicense": "GNU LGPL 3.0",
+        "exactCurseForgeFile": "https://www.curseforge.com/minecraft/mc-mods/modernfix/files/8613265",
+        "upstreamSourceReferences": [
+          "https://github.com/embeddedt/ModernFix"
+        ]
+      },
+      "mods/moonlight-1.20-2.16.34-forge.jar": {
+        "declaredLicense": "gplv3",
+        "exactCurseForgeFile": "https://www.curseforge.com/minecraft/mc-mods/selene/files/8261419",
+        "upstreamSourceReferences": [
+          "https://github.com/MehVahdJukaar/Moonlight"
+        ]
+      },
+      "mods/oculus-mc1.20.1-1.8.0.jar": {
+        "declaredLicense": "LGPL-3.0-only",
+        "exactCurseForgeFile": "https://www.curseforge.com/minecraft/mc-mods/oculus/files/6020952",
+        "upstreamSourceReferences": [
+          "https://github.com/Asek3/Oculus"
+        ]
+      },
+      "mods/pneumaticcraft-repressurized-6.0.23+mc1.20.1.jar": {
+        "declaredLicense": "GNU GPLv3",
+        "exactCurseForgeFile": "https://www.curseforge.com/minecraft/mc-mods/pneumaticcraft-repressurized/files/8411196",
+        "upstreamSourceReferences": [
+          "https://github.com/TeamPneumatic/pnc-repressurized"
+        ]
+      },
+      "mods/polymorph-forge-0.49.10+1.20.1.jar": {
+        "declaredLicense": "LGPL-3.0-or-later",
+        "exactCurseForgeFile": "https://www.curseforge.com/minecraft/mc-mods/polymorph/files/6450982",
+        "includedNotices": [
+          "COPYING",
+          "COPYING.LESSER",
+          "LICENSE",
+          "spectrelib/COPYING"
+        ],
+        "upstreamSourceReferences": [
+          "https://github.com/illusivesoulworks/polymorph"
+        ]
+      },
+      "mods/sound-physics-remastered-forge-1.20.1-1.5.1.jar": {
+        "declaredLicense": "GPL",
+        "exactCurseForgeFile": "https://www.curseforge.com/minecraft/mc-mods/sound-physics-remastered/files/7032235",
+        "upstreamSourceReferences": [
+          "https://github.com/henkelmax/sound-physics-remastered"
+        ]
+      },
+      "mods/spark-1.10.53-forge.jar": {
+        "declaredLicense": "GPLv3",
+        "exactCurseForgeFile": "https://www.curseforge.com/minecraft/mc-mods/spark/files/4738952",
+        "includedNotices": [
+          "META-INF/LICENSE",
+          "META-INF/NOTICE"
+        ],
+        "upstreamSourceReferences": [
+          "https://github.com/lucko/spark"
+        ]
+      },
+      "mods/titanium-1.20.1-3.8.35.jar": {
+        "declaredLicense": "GNU LESSER GENERAL PUBLIC LICENSE",
+        "exactCurseForgeFile": "https://www.curseforge.com/minecraft/mc-mods/titanium/files/8426836",
+        "includedNotices": [
+          "LICENSE.html",
+          "LICENSE.txt"
+        ]
+      },
+      "mods/twilightforest-1.20.1-4.3.2508-universal.jar": {
+        "declaredLicense": "GNU LESSER GENERAL PUBLIC LICENSE Version 2.1",
+        "exactCurseForgeFile": "https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest/files/5468648",
+        "upstreamSourceReferences": [
+          "https://github.com/TeamTwilight/twilightforest"
+        ]
+      },
+      "mods/yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar": {
+        "declaredLicense": "LGPL-3.0-or-later",
+        "exactCurseForgeFile": "https://www.curseforge.com/minecraft/mc-mods/yacl/files/6336646"
+      }
+    },
+    "scope": "Source links provide project references. Corresponding binary source archives/tags are only established when separately verified."
+  },
   "fileMetadataTemplate": "https://www.curseforge.com/api/v1/mods/{projectId}/files/{fileId}",
   "modSources": {
     "ad_astra": {
