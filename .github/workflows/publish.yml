@@ -11,6 +11,10 @@ on:
         description: Verify an already published revision on the Windows runner
         type: string
         default: ''
+      controls_base:
+        description: SHA-256 of the current pack-latest manifest for a controls-only update
+        type: string
+        default: ''
 
 permissions:
   contents: write
@@ -20,8 +24,61 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  publish-controls:
+    if: ${{ inputs.controls_base != '' && !inputs.prepare_only && inputs.verify_revision == '' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GH_TOKEN: ${{ github.token }}
+      CONTROLS_BASE: ${{ inputs.controls_base }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Verify and publish the controls preset
+        shell: bash
+        run: |
+          set -euo pipefail
+          [[ "$CONTROLS_BASE" =~ ^[a-f0-9]{64}$ ]]
+          python3 -B tools/keybinds/check_preset.py
+          scratch="$RUNNER_TEMP/controls-release"
+          mkdir "$scratch"
+          base="$scratch/pack-manifest.json"
+          gh release download pack-latest --repo "$GITHUB_REPOSITORY" -p pack-manifest.json -D "$scratch"
+          echo "$CONTROLS_BASE  $base" | sha256sum --check
+          old_revision=$(jq -er '.revision | select(test("^[a-f0-9]{40}$"))' "$base")
+          git merge-base --is-ancestor "$old_revision" "$GITHUB_SHA"
+          git diff --exit-code "$old_revision" "$GITHUB_SHA" -- . \
+            ':(exclude)launcher/controls-preset.txt' ':(exclude)tools/keybinds/**' ':(exclude).github/workflows/publish.yml'
+          library=$(jq -er '.library.name | select(test("^library-[a-f0-9]{64}\\.zip$"))' "$base")
+          gh release download pack-latest --repo "$GITHUB_REPOSITORY" -p "$library" -D "$scratch"
+          stage="$scratch/new"
+          python3 -B tools/keybinds/stage_release.py "$base" "$scratch/$library" "$stage" "$GITHUB_SHA" "$(git show -s --format=%cI HEAD)"
+          for asset in "$stage"/assets/*; do
+            name=${asset##*/}
+            current=$(gh release view pack-latest --repo "$GITHUB_REPOSITORY" --json assets --jq ".assets[] | select(.name == \"$name\") | .digest")
+            if [[ -z "$current" ]]; then
+              gh release upload pack-latest --repo "$GITHUB_REPOSITORY" "$asset"
+            else
+              [[ "$current" == "sha256:$(sha256sum "$asset" | cut -d' ' -f1)" ]]
+            fi
+          done
+          gh release view pack-latest --repo "$GITHUB_REPOSITORY" --json assets > "$scratch/remote.json"
+          jq -e --slurpfile remote "$scratch/remote.json" --arg base "sha256:$CONTROLS_BASE" '
+            ($remote[0].assets | INDEX(.name)) as $assets
+            | $assets["pack-manifest.json"].digest == $base
+              and all((.assets + [.library])[]; $assets[.name].digest == ("sha256:" + .sha256) and $assets[.name].size == .sizeBytes)
+          ' "$stage/pack-manifest.json"
+          gh release upload pack-latest --repo "$GITHUB_REPOSITORY" --clobber "$stage/pack-manifest.json"
+          curl -fsSL --retry 4 --max-time 60 \
+            "https://github.com/$GITHUB_REPOSITORY/releases/download/pack-latest/pack-manifest.json?verify=$GITHUB_SHA" \
+            -o "$scratch/published.json"
+          cmp "$stage/pack-manifest.json" "$scratch/published.json"
+          jq -e '.files[] | select(.path == "launcher/controls-preset.txt")' "$scratch/published.json"
+
   publish:
-    if: ${{ inputs.verify_revision == '' }}
+    if: ${{ inputs.verify_revision == '' && inputs.controls_base == '' }}
     runs-on: ubuntu-latest
     timeout-minutes: 35
     env:
@@ -77,6 +134,14 @@ jobs:
             --stage "$run/stage" --revision "$GITHUB_SHA" --id "$PACK_ID" --output "$run/release"
           python3 -B tools/PackData/CurseForge/release_overlay.py verify --pack-source "$pack" \
             --stage "$run/stage" --manifest "$run/release/pack-manifest.json"
+          if [[ -f "$pack/launcher/controls-preset.txt" ]]; then
+            python3 -B "$pack/tools/keybinds/check_preset.py"
+            library=$(jq -er .library.name "$run/release/pack-manifest.json")
+            python3 -B "$pack/tools/keybinds/stage_release.py" "$run/release/pack-manifest.json" \
+              "$run/release/assets/$library" "$run/controls" "$GITHUB_SHA" "$(git -C "$pack" show -s --format=%cI HEAD)"
+            cp "$run"/controls/assets/* "$run/release/assets/"
+            cp "$run/controls/pack-manifest.json" "$run/release/pack-manifest.json"
+          fi
           sha256sum "$run/release/pack-manifest.json"
       - name: Publish the verified first release
         if: ${{ !inputs.prepare_only }}
