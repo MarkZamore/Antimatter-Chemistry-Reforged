@@ -1,0 +1,300 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 340
+	default_quest_shape: ""
+	filename: "27_contracts"
+	group: "1000000000000001"
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:writable_book"
+	id: "200000000000001B"
+	order_index: 27
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3300000000000004"]
+			description: [
+				"{lanminecraft.reforged.quests.27_contracts.135efb8df8c611566172}"
+				""
+				"{lanminecraft.reforged.quests.27_contracts.1c34ac4be9ef6297aa79}"
+				""
+				"{lanminecraft.reforged.quests.27_contracts.6ee5bd34d1d3e50781ba}"
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:writable_book"
+			id: "6B00000000000001"
+			min_width: 480
+			rewards: [
+				{
+					id: "8B00000000000001"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.27_contracts.9b9a8d05a7ec353bda84}"
+			tasks: [
+				{
+					id: "7B00000000000001"
+					title: "{lanminecraft.reforged.quests.27_contracts.5ad3dbd1242a4cea217e}"
+					type: "checkmark"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.27_contracts.b7e8acdd522e6190ac95}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6B00000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.27_contracts.cb32fc5f4f8e43d16f5f}"
+				""
+				"{lanminecraft.reforged.quests.27_contracts.3d7d24cc9d0f9083dc87}"
+			]
+			icon: "mekanism:ingot_steel"
+			id: "6B00000000000002"
+			optional: true
+			repeat_cooldown: 72000L
+			rewards: [
+				{
+					id: "8B00000000000002"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.27_contracts.d484d712f425708dca3a}"
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "7B00000000000002"
+					item: "mekanism:ingot_steel"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.27_contracts.517420b52769b27a7165}"
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"6B00000000000001"
+				"3200000000000146"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.27_contracts.9b39b1f9a92f6f1cb361}"
+				""
+				"{lanminecraft.reforged.quests.27_contracts.3d7d24cc9d0f9083dc87}"
+			]
+			icon: "alchemistry:trace_concentrate"
+			id: "6B00000000000003"
+			optional: true
+			repeat_cooldown: 72000L
+			rewards: [
+				{
+					id: "8B00000000000003"
+					type: "xp"
+					xp: 60
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.27_contracts.b52bd4b81a8b74c4242b}"
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					id: "7B00000000000003"
+					item: "alchemistry:trace_concentrate"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.27_contracts.faa895f1e7713ee3a12d}"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"6B00000000000001"
+				"3400000000000010"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.27_contracts.8c500eea6a1dbd8e6f8d}"
+				""
+				"{lanminecraft.reforged.quests.27_contracts.3d7d24cc9d0f9083dc87}"
+			]
+			icon: "ae2:silicon"
+			id: "6B00000000000004"
+			optional: true
+			repeat_cooldown: 72000L
+			rewards: [
+				{
+					id: "8B00000000000004"
+					type: "xp"
+					xp: 60
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.27_contracts.14f32c5b40e882d44898}"
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "7B00000000000004"
+					item: "ae2:silicon"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.27_contracts.8d39d23b787351949789}"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"6B00000000000001"
+				"6000000000000022"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.27_contracts.24b246d170fc81d08841}"
+				""
+				"{lanminecraft.reforged.quests.27_contracts.3d7d24cc9d0f9083dc87}"
+			]
+			icon: "create:precision_mechanism"
+			id: "6B00000000000005"
+			optional: true
+			repeat_cooldown: 72000L
+			rewards: [
+				{
+					id: "8B00000000000005"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.27_contracts.ea2d0060a32fab04a152}"
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					id: "7B00000000000005"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.27_contracts.4828bb9b9b319f7d3cc1}"
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"6B00000000000001"
+				"6A00000000000012"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.27_contracts.bf7e3aa96889ff198a20}"
+				""
+				"{lanminecraft.reforged.quests.27_contracts.3d7d24cc9d0f9083dc87}"
+			]
+			icon: "alchemistry:syncrude"
+			id: "6B00000000000006"
+			optional: true
+			repeat_cooldown: 72000L
+			rewards: [
+				{
+					id: "8B00000000000006"
+					type: "xp"
+					xp: 120
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.27_contracts.f4bd76be45a3cf5af617}"
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					id: "7B00000000000006"
+					item: "alchemistry:syncrude"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.27_contracts.8750f379c8964aece829}"
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"6B00000000000001"
+				"6900000000000005"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.27_contracts.3db228b4193cf45fa53a}"
+				""
+				"{lanminecraft.reforged.quests.27_contracts.3d7d24cc9d0f9083dc87}"
+			]
+			icon: "alchemistry:superconductor_ybco"
+			id: "6B00000000000007"
+			optional: true
+			repeat_cooldown: 72000L
+			rewards: [
+				{
+					id: "8B00000000000007"
+					type: "xp"
+					xp: 150
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.27_contracts.88252bd8c553d7e632f7}"
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "7B00000000000007"
+					item: "alchemistry:superconductor_ybco"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.27_contracts.bf05f8cd5e5c1dd8a080}"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"6B00000000000001"
+				"6900000000000011"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.27_contracts.f51216c6dc2b49a77aa4}"
+				""
+				"{lanminecraft.reforged.quests.27_contracts.1542de9e73cf6e380f5e}"
+				""
+				"{lanminecraft.reforged.quests.27_contracts.3d7d24cc9d0f9083dc87}"
+			]
+			icon: "nuclearscience:celldarkmatter"
+			id: "6B00000000000008"
+			optional: true
+			repeat_cooldown: 72000L
+			rewards: [
+				{
+					id: "8B00000000000008"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.27_contracts.5839dfe81eb4c97e5981}"
+			tasks: [
+				{
+					consume_items: true
+					id: "7B00000000000008"
+					item: "nuclearscience:celldarkmatter"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.27_contracts.5a0f0bb8be9bca1f81c1}"
+			x: 4.0d
+			y: 8.0d
+		}
+	]
+	subtitle: ["{lanminecraft.reforged.quests.27_contracts.be0c5708e1fd28c4f34a}"]
+	title: "{lanminecraft.reforged.quests.27_contracts.69cf7e7a8905e55ef698}"
+}

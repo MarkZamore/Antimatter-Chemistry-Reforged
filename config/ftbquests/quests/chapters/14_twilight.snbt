@@ -1,0 +1,1522 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 320
+	default_quest_shape: ""
+	filename: "14_twilight"
+	group: "1000000000000001"
+	hide_quest_until_deps_visible: true
+	icon: "twilightforest:naga_trophy"
+	id: "200000000000000E"
+	order_index: 14
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3200000000000015"]
+			description: [
+				"{lanminecraft.reforged.quests.14_twilight.972c22639696c5db1284}"
+				""
+				"{lanminecraft.reforged.quests.14_twilight.4574b3184e71ebf4ba02}"
+				""
+				"{lanminecraft.reforged.quests.14_twilight.0a776ba77a300f13140b}"
+				""
+				"{lanminecraft.reforged.quests.14_twilight.2228de1fae9ddd6864d1}"
+			]
+			hide_until_deps_complete: true
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			id: "3E00000000000001"
+			min_width: 420
+			rewards: [
+				{
+					id: "5E00000000000001"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.14_twilight.9b9a8d05a7ec353bda84}"
+			tasks: [
+				{
+					id: "4E00000000000001"
+					title: "{lanminecraft.reforged.quests.14_twilight.5ad3dbd1242a4cea217e}"
+					type: "checkmark"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.14_twilight.5508748d4c62bcd3d53b}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E00000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.14_twilight.01e1e5a7c32a0cd87886}"
+				""
+				"{lanminecraft.reforged.quests.14_twilight.82b0e6b6d40c7a5258dd}"
+				""
+				"{lanminecraft.reforged.quests.14_twilight.cd035375ef620c42fba5}"
+			]
+			icon: "minecraft:diamond"
+			id: "3E00000000000002"
+			min_width: 420
+			rewards: [
+				{
+					id: "5E00000000000002"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.14_twilight.f57038a0cc6a6236d564}"
+			tasks: [
+				{
+					id: "4E00000000000002"
+					title: "{lanminecraft.reforged.quests.14_twilight.378a9fe9c3a5e0c9c5a4}"
+					type: "checkmark"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.14_twilight.e7590656f1b52850b035}"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3E00000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.14_twilight.f536b012589e88c55443}"
+				""
+				"{lanminecraft.reforged.quests.14_twilight.c938d6eb74b35547c9e9}"
+			]
+			icon: "twilightforest:magic_map"
+			id: "3E00000000000003"
+			rewards: [
+				{
+					id: "5E00000000000003"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.14_twilight.37d3a0fed82bf66d713e}"
+			tasks: [
+				{
+					id: "4E00000000000003"
+					item: "twilightforest:magic_map"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.14_twilight.c9df5781824828660377}"
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3E00000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.14_twilight.80f7df3517bd598d91db}"
+				""
+				"{lanminecraft.reforged.quests.14_twilight.31fea8d86815ed95db77}"
+			]
+			icon: "twilightforest:ore_map"
+			id: "3E00000000000004"
+			rewards: [
+				{
+					id: "5E00000000000004"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.14_twilight.17f1b639980cab226a94}"
+			tasks: [
+				{
+					id: "4E00000000000004"
+					item: "twilightforest:ore_map"
+					type: "item"
+				}
+				{
+					id: "4E00000000000005"
+					item: "twilightforest:ore_magnet"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.14_twilight.2107729a0166980640f7}"
+			x: -5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3E00000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.14_twilight.68e21385df3d13bf6b85}"
+			]
+			icon: "twilightforest:torchberries"
+			id: "3E00000000000005"
+			rewards: [
+				{
+					id: "5E00000000000005"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.14_twilight.6b1d533b80a8d1576504}"
+			tasks: [
+				{
+					count: 16L
+					id: "4E00000000000006"
+					item: "twilightforest:torchberries"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.14_twilight.b472497b5e369a288490}"
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3E00000000000005"]
+			description: [
+				"{lanminecraft.reforged.quests.14_twilight.9ae6d3d5a01c6f1d0e22}"
+				""
+				"{lanminecraft.reforged.quests.14_twilight.b2a5541dd9c71f220af7}"
+			]
+			icon: "twilightforest:moonworm_queen"
+			id: "3E00000000000006"
+			rewards: [
+				{
+					id: "5E00000000000006"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.14_twilight.c9c35837e992adfb18be}"
+			tasks: [
+				{
+					id: "4E00000000000007"
+					item: "twilightforest:moonworm_queen"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.14_twilight.852a4d0c3f09f2437693}"
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3E00000000000005"]
+			description: [
+				"{lanminecraft.reforged.quests.14_twilight.2ae7821e5d2b1541f84f}"
+			]
+			icon: "twilightforest:cooked_venison"
+			id: "3E00000000000007"
+			rewards: [
+				{
+					id: "5E00000000000007"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.14_twilight.947328f57af4bdf3fe54}"
+			tasks: [
+				{
+					count: 8L
+					id: "4E00000000000008"
+					item: "twilightforest:cooked_venison"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4E00000000000009"
+					item: "twilightforest:maze_wafer"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.14_twilight.99cbe668bcafe836d4e1}"
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3E00000000000003"]
+			description: [
+				"{lanminecraft.reforged.quests.14_twilight.f50dc4eb05846465aa94}"
+				""
+				"{lanminecraft.reforged.quests.14_twilight.9270719444689768200f}"
+			]
+			icon: "twilightforest:ironwood_ingot"
+			id: "3E00000000000008"
+			rewards: [
+				{
+					id: "5E00000000000008"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.14_twilight.22da0d1ac5bef25bca96}"
+			tasks: [
+				{
+					count: 8L
+					id: "4E00000000000010"
+					item: "twilightforest:ironwood_ingot"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.14_twilight.615552e1fb90e04511c7}"
+			x: -3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3E00000000000008"]
+			description: [
+				"{lanminecraft.reforged.quests.14_twilight.a0b624dd4c2478312724}"
+			]
+			icon: "twilightforest:ironwood_chestplate"
+			id: "3E00000000000009"
+			rewards: [
+				{
+					id: "5E00000000000009"
+					type: "xp"
+					xp: 80
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.14_twilight.ef79192dd274ec76095c}"
+			tasks: [
+				{
+					id: "4E00000000000011"
+					item: "twilightforest:ironwood_helmet"
+					type: "item"
+				}
+				{
+					id: "4E00000000000012"
+					item: "twilightforest:ironwood_chestplate"
+					type: "item"
+				}
+				{
+					id: "4E00000000000013"
+					item: "twilightforest:ironwood_leggings"
+					type: "item"
+				}
+				{
+					id: "4E00000000000014"
+					item: "twilightforest:ironwood_boots"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.14_twilight.7c7cd9ee90a610e21231}"
+			x: -5.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3E00000000000008"]
+			description: [
+				"{lanminecraft.reforged.quests.14_twilight.fabf1173cc4f34994f35}"
+				""
+				"{lanminecraft.reforged.quests.14_twilight.79a4fede9c54cf08b735}"
+			]
+			icon: "twilightforest:steeleaf_ingot"
+			id: "3E00000000000010"
+			rewards: [
+				{
+					id: "5E00000000000010"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.14_twilight.aa4051def9c01bd33ebb}"
+			tasks: [
+				{
+					count: 8L
+					id: "4E00000000000015"
+					item: "twilightforest:steeleaf_ingot"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.14_twilight.0b1366055cb50c0134cc}"
+			x: -3.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3E00000000000010"]
+			description: [
+				"{lanminecraft.reforged.quests.14_twilight.47aa31e9dc2793bdc77d}"
+			]
+			icon: "twilightforest:steeleaf_chestplate"
+			id: "3E00000000000011"
+			rewards: [
+				{
+					id: "5E00000000000011"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.14_twilight.ef79192dd274ec76095c}"
+			tasks: [
+				{
+					id: "4E00000000000016"
+					item: "twilightforest:steeleaf_helmet"
+					type: "item"
+				}
+				{
+					id: "4E00000000000017"
+					item: "twilightforest:steeleaf_chestplate"
+					type: "item"
+				}
+				{
+					id: "4E00000000000018"
+					item: "twilightforest:steeleaf_leggings"
+					type: "item"
+				}
+				{
+					id: "4E00000000000019"
+					item: "twilightforest:steeleaf_boots"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.14_twilight.95c0a50667098a5407b0}"
+			x: -5.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"3E00000000000002"
+				"3E00000000000008"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.14_twilight.a9601bc6f4c064ac1a1a}"
+				""
+				"{lanminecraft.reforged.quests.14_twilight.85223e1444ae970f0fc2}"
+				""
+				"{lanminecraft.reforged.quests.14_twilight.e7d16a2c338517adee96}"
+			]
+			icon: "twilightforest:naga_trophy"
+			id: "3E00000000000012"
+			min_width: 380
+			rewards: [
+				{
+					id: "5E00000000000012"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.14_twilight.f75e470b946e7e01711f}"
+			tasks: [
+				{
+					id: "4E00000000000020"
+					item: "twilightforest:naga_trophy"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.14_twilight.fc0549e53b21a8f768d5}"
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3E00000000000012"]
+			description: [
+				"{lanminecraft.reforged.quests.14_twilight.1ac36ecfb72449219ae8}"
+				""
+				"{lanminecraft.reforged.quests.14_twilight.5396d511736b9d5dc31f}"
+			]
+			icon: "twilightforest:naga_chestplate"
+			id: "3E00000000000013"
+			rewards: [
+				{
+					id: "5E00000000000013"
+					type: "xp"
+					xp: 120
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.14_twilight.bd4e82e5263c6491fa7f}"
+			tasks: [
+				{
+					id: "4E00000000000021"
+					item: "twilightforest:naga_chestplate"
+					type: "item"
+				}
+				{
+					id: "4E00000000000022"
+					item: "twilightforest:naga_leggings"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.14_twilight.42a0052bf1b6fb01cdb9}"
+			x: 3.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3E00000000000012"]
+			description: [
+				"{lanminecraft.reforged.quests.14_twilight.9e425717196ff926c8c8}"
+				""
+				"{lanminecraft.reforged.quests.14_twilight.63db0154e986a1a1abfd}"
+				""
+				"{lanminecraft.reforged.quests.14_twilight.b80a4e8b775ed527fe0a}"
+			]
+			icon: "twilightforest:lich_trophy"
+			id: "3E00000000000014"
+			min_width: 380
+			rewards: [
+				{
+					id: "5E00000000000014"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.14_twilight.b16ab906f05e470c630e}"
+			tasks: [
+				{
+					id: "4E00000000000023"
+					item: "twilightforest:lich_trophy"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.14_twilight.337f38bf7a5ad7d0581a}"
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3E00000000000014"]
+			description: [
+				"{lanminecraft.reforged.quests.14_twilight.2ff25bf6ad131f9048f8}"
+				""
+				"{lanminecraft.reforged.quests.14_twilight.9ce69805a6c41d7d03a6}"
+			]
+			icon: "twilightforest:lifedrain_scepter"
+			id: "3E00000000000015"
+			rewards: [
+				{
+					id: "5E00000000000015"
+					type: "xp"
+					xp: 150
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.14_twilight.125e967da67fa24afa7e}"
+			tasks: [
+				{
+					id: "4E00000000000024"
+					item: "twilightforest:lifedrain_scepter"
+					type: "item"
+				}
+				{
+					id: "4E00000000000025"
+					item: "twilightforest:zombie_scepter"
+					type: "item"
+				}
+				{
+					id: "4E00000000000026"
+					item: "twilightforest:twilight_scepter"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.14_twilight.bac55095859bc83cac20}"
+			x: 3.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3E00000000000014"]
+			description: [
+				"{lanminecraft.reforged.quests.14_twilight.28eaba3a8fdb00f68eb3}"
+				""
+				"{lanminecraft.reforged.quests.14_twilight.5b98b5a274a1ec0ab1ab}"
+			]
+			icon: "twilightforest:charm_of_life_1"
+			id: "3E00000000000016"
+			rewards: [
+				{
+					id: "5E00000000000016"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.14_twilight.778bb009c00d80471950}"
+			tasks: [
+				{
+					id: "4E00000000000027"
+					item: "twilightforest:charm_of_life_1"
+					type: "item"
+				}
+				{
+					id: "4E00000000000028"
+					item: "twilightforest:charm_of_keeping_1"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.14_twilight.536ae063db94420116be}"
+			x: 5.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3E00000000000014"]
+			description: [
+				"{lanminecraft.reforged.quests.14_twilight.6738a1831a9bf93dd099}"
+			]
+			icon: "twilightforest:maze_map"
+			id: "3E00000000000017"
+			rewards: [
+				{
+					id: "5E00000000000017"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.14_twilight.acd4e87f9f387a11c726}"
+			tasks: [
+				{
+					id: "4E00000000000029"
+					item: "twilightforest:maze_map"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.14_twilight.6a1ed03022ed07f66c33}"
+			x: -3.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"3E00000000000014"
+				"3E00000000000017"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.14_twilight.457dc8dad00bf5fe8b2d}"
+				""
+				"{lanminecraft.reforged.quests.14_twilight.f8cc7595d113df3e35fd}"
+			]
+			icon: "twilightforest:minoshroom_trophy"
+			id: "3E00000000000018"
+			min_width: 380
+			rewards: [
+				{
+					id: "5E00000000000018"
+					type: "xp"
+					xp: 350
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.14_twilight.7aef533372a5f4a5dadd}"
+			tasks: [
+				{
+					id: "4E00000000000030"
+					item: "twilightforest:minoshroom_trophy"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.14_twilight.128e2dbdcceeb58d325d}"
+			x: 0.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["3E00000000000018"]
+			description: [
+				"{lanminecraft.reforged.quests.14_twilight.27af9e3dc2f3e0e5d7b2}"
+			]
+			icon: "twilightforest:meef_stroganoff"
+			id: "3E00000000000019"
+			rewards: [
+				{
+					id: "5E00000000000019"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.14_twilight.abfa9b8ce603660036f8}"
+			tasks: [
+				{
+					count: 4L
+					id: "4E00000000000031"
+					item: "twilightforest:meef_stroganoff"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.14_twilight.94a9d315b03f10cf8774}"
+			x: 3.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["3E00000000000018"]
+			description: [
+				"{lanminecraft.reforged.quests.14_twilight.13d1b60c196ceff677b4}"
+			]
+			icon: "twilightforest:diamond_minotaur_axe"
+			id: "3E00000000000020"
+			rewards: [
+				{
+					id: "5E00000000000020"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.14_twilight.953a35618280b81c9b60}"
+			tasks: [
+				{
+					id: "4E00000000000032"
+					item: "twilightforest:diamond_minotaur_axe"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.14_twilight.66b6d4c293bd83d8d0ea}"
+			x: -3.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["3E00000000000018"]
+			description: [
+				"{lanminecraft.reforged.quests.14_twilight.e220e03cd893f6e87e3d}"
+				""
+				"{lanminecraft.reforged.quests.14_twilight.dc88c38452e58ee5177f}"
+				""
+				"{lanminecraft.reforged.quests.14_twilight.a32ad058490cc83f80f8}"
+			]
+			icon: "twilightforest:hydra_trophy"
+			id: "3E00000000000021"
+			min_width: 400
+			rewards: [
+				{
+					id: "5E00000000000021"
+					type: "xp"
+					xp: 450
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.14_twilight.e0b3454be37e9eb02152}"
+			tasks: [
+				{
+					id: "4E00000000000033"
+					item: "twilightforest:hydra_trophy"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.14_twilight.f6da6511c86a27da757e}"
+			x: 0.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3E00000000000021"]
+			description: [
+				"{lanminecraft.reforged.quests.14_twilight.2529d411b1b900ba155f}"
+			]
+			icon: "twilightforest:fiery_blood"
+			id: "3E00000000000022"
+			rewards: [
+				{
+					id: "5E00000000000022"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.14_twilight.bd3c2bf450ec341731f9}"
+			tasks: [
+				{
+					count: 8L
+					id: "4E00000000000034"
+					item: "twilightforest:fiery_blood"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.14_twilight.c3b66558640645b6fb29}"
+			x: 3.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3E00000000000022"]
+			description: [
+				"{lanminecraft.reforged.quests.14_twilight.fdf96d7445e90c9d7a71}"
+			]
+			icon: "twilightforest:fiery_ingot"
+			id: "3E00000000000023"
+			rewards: [
+				{
+					id: "5E00000000000023"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.14_twilight.4742abe55fc948643bcf}"
+			tasks: [
+				{
+					count: 8L
+					id: "4E00000000000035"
+					item: "twilightforest:fiery_ingot"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.14_twilight.0b383de2d1d7cc5e6a3f}"
+			x: 5.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3E00000000000023"]
+			description: [
+				"{lanminecraft.reforged.quests.14_twilight.9618350d0ba4f08b5bf8}"
+			]
+			icon: "twilightforest:fiery_chestplate"
+			id: "3E00000000000024"
+			rewards: [
+				{
+					id: "5E00000000000024"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.14_twilight.eed474402ef753e8b650}"
+			tasks: [
+				{
+					id: "4E00000000000036"
+					item: "twilightforest:fiery_helmet"
+					type: "item"
+				}
+				{
+					id: "4E00000000000037"
+					item: "twilightforest:fiery_chestplate"
+					type: "item"
+				}
+				{
+					id: "4E00000000000038"
+					item: "twilightforest:fiery_leggings"
+					type: "item"
+				}
+				{
+					id: "4E00000000000039"
+					item: "twilightforest:fiery_boots"
+					type: "item"
+				}
+				{
+					id: "4E00000000000040"
+					item: "twilightforest:fiery_sword"
+					type: "item"
+				}
+				{
+					id: "4E00000000000041"
+					item: "twilightforest:fiery_pickaxe"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.14_twilight.3a64615cd6a6fd7de5f7}"
+			x: 5.5d
+			y: 22.5d
+		}
+		{
+			dependencies: ["3E00000000000021"]
+			description: [
+				"{lanminecraft.reforged.quests.14_twilight.880897d3c82cc91e8b44}"
+			]
+			icon: "twilightforest:hydra_chop"
+			id: "3E00000000000025"
+			rewards: [
+				{
+					id: "5E00000000000025"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.14_twilight.f27ca9d4606f72576ea0}"
+			tasks: [
+				{
+					id: "4E00000000000042"
+					item: "twilightforest:hydra_chop"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.14_twilight.7b06442b166c8b2e9d4d}"
+			x: -3.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3E00000000000021"]
+			description: [
+				"{lanminecraft.reforged.quests.14_twilight.031ef14bddf002af3e4c}"
+				""
+				"{lanminecraft.reforged.quests.14_twilight.6d9dc852fb3598ce2008}"
+			]
+			icon: "twilightforest:knight_phantom_trophy"
+			id: "3E00000000000026"
+			min_width: 380
+			rewards: [
+				{
+					id: "5E00000000000026"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.14_twilight.9c6535677ec44866c9e7}"
+			tasks: [
+				{
+					id: "4E00000000000043"
+					item: "twilightforest:knight_phantom_trophy"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.14_twilight.477164a30b4fb9fdd8e1}"
+			x: 0.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["3E00000000000026"]
+			description: [
+				"{lanminecraft.reforged.quests.14_twilight.b5e138640b4c0a0c2250}"
+			]
+			icon: "twilightforest:knightmetal_ingot"
+			id: "3E00000000000027"
+			rewards: [
+				{
+					id: "5E00000000000027"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.14_twilight.1d9478187c014e2804c0}"
+			tasks: [
+				{
+					count: 12L
+					id: "4E00000000000044"
+					item: "twilightforest:knightmetal_ingot"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.14_twilight.1d038232e864164330fd}"
+			x: 3.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["3E00000000000027"]
+			description: [
+				"{lanminecraft.reforged.quests.14_twilight.42aff0a4db183e936be0}"
+			]
+			icon: "twilightforest:knightmetal_chestplate"
+			id: "3E00000000000028"
+			rewards: [
+				{
+					id: "5E00000000000028"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.14_twilight.ef79192dd274ec76095c}"
+			tasks: [
+				{
+					id: "4E00000000000045"
+					item: "twilightforest:knightmetal_helmet"
+					type: "item"
+				}
+				{
+					id: "4E00000000000046"
+					item: "twilightforest:knightmetal_chestplate"
+					type: "item"
+				}
+				{
+					id: "4E00000000000047"
+					item: "twilightforest:knightmetal_leggings"
+					type: "item"
+				}
+				{
+					id: "4E00000000000048"
+					item: "twilightforest:knightmetal_boots"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.14_twilight.2e14048cb971fd7d0169}"
+			x: 5.5d
+			y: 25.5d
+		}
+		{
+			dependencies: ["3E00000000000026"]
+			description: [
+				"{lanminecraft.reforged.quests.14_twilight.2e14f675db9dba714e63}"
+			]
+			icon: "twilightforest:phantom_chestplate"
+			id: "3E00000000000029"
+			rewards: [
+				{
+					id: "5E00000000000029"
+					type: "xp"
+					xp: 180
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.14_twilight.b1650417a87b2c01b224}"
+			tasks: [
+				{
+					id: "4E00000000000049"
+					item: "twilightforest:phantom_helmet"
+					type: "item"
+				}
+				{
+					id: "4E00000000000050"
+					item: "twilightforest:phantom_chestplate"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.14_twilight.8ad4cb5fe40d3ea5a9a9}"
+			x: 3.0d
+			y: 25.5d
+		}
+		{
+			dependencies: ["3E00000000000026"]
+			description: [
+				"{lanminecraft.reforged.quests.14_twilight.13fa6ee0b9bb2531184b}"
+				""
+				"{lanminecraft.reforged.quests.14_twilight.944c5c8df87cf219fc14}"
+				""
+				"{lanminecraft.reforged.quests.14_twilight.f6e756fbac23a181a6e7}"
+			]
+			icon: "twilightforest:ur_ghast_trophy"
+			id: "3E00000000000030"
+			min_width: 400
+			rewards: [
+				{
+					id: "5E00000000000030"
+					type: "xp"
+					xp: 600
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.14_twilight.67bfd1e9e5d07ab143b0}"
+			tasks: [
+				{
+					id: "4E00000000000051"
+					item: "twilightforest:ur_ghast_trophy"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.14_twilight.a0805ea0fc1fa933d036}"
+			x: 0.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["3E00000000000030"]
+			description: [
+				"{lanminecraft.reforged.quests.14_twilight.49d332bbe96c8901920b}"
+			]
+			icon: "twilightforest:carminite"
+			id: "3E00000000000031"
+			rewards: [
+				{
+					id: "5E00000000000031"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.14_twilight.2816a7180aea6d3e356d}"
+			tasks: [
+				{
+					count: 8L
+					id: "4E00000000000052"
+					item: "twilightforest:carminite"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.14_twilight.ea6c3ed2080a8218ef9d}"
+			x: 3.0d
+			y: 28.5d
+		}
+		{
+			dependencies: ["3E00000000000030"]
+			description: [
+				"{lanminecraft.reforged.quests.14_twilight.b56bf59a8cd653868cef}"
+			]
+			icon: "twilightforest:lamp_of_cinders"
+			id: "3E00000000000032"
+			rewards: [
+				{
+					id: "5E00000000000032"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.14_twilight.04c2c4de83a66be61bce}"
+			tasks: [
+				{
+					id: "4E00000000000053"
+					item: "twilightforest:lamp_of_cinders"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.14_twilight.f050ed223fa6f7a7037d}"
+			x: -3.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["3E00000000000030"]
+			description: [
+				"{lanminecraft.reforged.quests.14_twilight.940d3afa7c7bbb1c5ffc}"
+				""
+				"{lanminecraft.reforged.quests.14_twilight.75fe7319e4c8280dd360}"
+			]
+			icon: "twilightforest:alpha_yeti_trophy"
+			id: "3E00000000000033"
+			min_width: 380
+			rewards: [
+				{
+					id: "5E00000000000033"
+					type: "xp"
+					xp: 700
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.14_twilight.e81b5541ae23dcd34517}"
+			tasks: [
+				{
+					id: "4E00000000000054"
+					item: "twilightforest:alpha_yeti_trophy"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.14_twilight.7ccda6f0b4b372f6d3f1}"
+			x: 0.0d
+			y: 29.0d
+		}
+		{
+			dependencies: ["3E00000000000033"]
+			description: [
+				"{lanminecraft.reforged.quests.14_twilight.db74bee81d81d228c06b}"
+			]
+			icon: "twilightforest:yeti_chestplate"
+			id: "3E00000000000034"
+			rewards: [
+				{
+					id: "5E00000000000034"
+					type: "xp"
+					xp: 250
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.14_twilight.ef79192dd274ec76095c}"
+			tasks: [
+				{
+					id: "4E00000000000055"
+					item: "twilightforest:yeti_helmet"
+					type: "item"
+				}
+				{
+					id: "4E00000000000056"
+					item: "twilightforest:yeti_chestplate"
+					type: "item"
+				}
+				{
+					id: "4E00000000000057"
+					item: "twilightforest:yeti_leggings"
+					type: "item"
+				}
+				{
+					id: "4E00000000000058"
+					item: "twilightforest:yeti_boots"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.14_twilight.8ebf848fb7d8b829546d}"
+			x: 3.0d
+			y: 31.5d
+		}
+		{
+			dependencies: ["3E00000000000033"]
+			description: [
+				"{lanminecraft.reforged.quests.14_twilight.6943144880da02a4ea6e}"
+				""
+				"{lanminecraft.reforged.quests.14_twilight.88aa3239c16f5dc24fc0}"
+				""
+				"{lanminecraft.reforged.quests.14_twilight.be50065d650b57fe7914}"
+			]
+			icon: "twilightforest:snow_queen_trophy"
+			id: "3E00000000000035"
+			min_width: 400
+			rewards: [
+				{
+					id: "5E00000000000035"
+					type: "xp"
+					xp: 900
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.14_twilight.dacd20904a67c6ecf752}"
+			tasks: [
+				{
+					id: "4E00000000000059"
+					item: "twilightforest:snow_queen_trophy"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.14_twilight.eb7d972d2ffefe7ddcc2}"
+			x: 0.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["3E00000000000035"]
+			description: [
+				"{lanminecraft.reforged.quests.14_twilight.4b5e86632cd0e71a6c22}"
+			]
+			icon: "twilightforest:arctic_chestplate"
+			id: "3E00000000000036"
+			rewards: [
+				{
+					id: "5E00000000000036"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.14_twilight.ef79192dd274ec76095c}"
+			tasks: [
+				{
+					id: "4E00000000000060"
+					item: "twilightforest:arctic_helmet"
+					type: "item"
+				}
+				{
+					id: "4E00000000000061"
+					item: "twilightforest:arctic_chestplate"
+					type: "item"
+				}
+				{
+					id: "4E00000000000062"
+					item: "twilightforest:arctic_leggings"
+					type: "item"
+				}
+				{
+					id: "4E00000000000063"
+					item: "twilightforest:arctic_boots"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.14_twilight.5b9819055e22ccd23bab}"
+			x: 3.0d
+			y: 34.5d
+		}
+		{
+			dependencies: ["3E00000000000033"]
+			description: [
+				"{lanminecraft.reforged.quests.14_twilight.7a7ee7e1ff4b5658332f}"
+				""
+				"{lanminecraft.reforged.quests.14_twilight.9a47cdd168acd26c1439}"
+			]
+			icon: "twilightforest:ender_bow"
+			id: "3E00000000000037"
+			rewards: [
+				{
+					id: "5E00000000000037"
+					type: "xp"
+					xp: 250
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.14_twilight.bdfd9f29a9bae5ec573f}"
+			tasks: [
+				{
+					id: "4E00000000000064"
+					item: "twilightforest:triple_bow"
+					type: "item"
+				}
+				{
+					id: "4E00000000000065"
+					item: "twilightforest:seeker_bow"
+					type: "item"
+				}
+				{
+					id: "4E00000000000066"
+					item: "twilightforest:ice_bow"
+					type: "item"
+				}
+				{
+					id: "4E00000000000067"
+					item: "twilightforest:ender_bow"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.14_twilight.57b2feaf8feec78f7f2d}"
+			x: -3.0d
+			y: 29.0d
+		}
+		{
+			dependencies: ["3E00000000000037"]
+			description: [
+				"{lanminecraft.reforged.quests.14_twilight.61f08ce9d2df373a7964}"
+			]
+			icon: "twilightforest:glass_sword"
+			id: "3E00000000000038"
+			rewards: [
+				{
+					id: "5E00000000000038"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.14_twilight.7254441624bc150b5502}"
+			tasks: [
+				{
+					id: "4E00000000000068"
+					item: "twilightforest:glass_sword"
+					type: "item"
+				}
+				{
+					id: "4E00000000000069"
+					item: "twilightforest:ice_sword"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.14_twilight.b3bb98cd1f360c19e4b3}"
+			x: -5.5d
+			y: 29.0d
+		}
+		{
+			dependencies: ["3E00000000000035"]
+			description: [
+				"{lanminecraft.reforged.quests.14_twilight.8ae3b2bd2b52f9afc29c}"
+			]
+			icon: "twilightforest:mazebreaker_pickaxe"
+			id: "3E00000000000039"
+			rewards: [
+				{
+					id: "5E00000000000039"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.14_twilight.34cebe10ee114ce40842}"
+			tasks: [
+				{
+					id: "4E00000000000070"
+					item: "twilightforest:mazebreaker_pickaxe"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.14_twilight.a2c944a6cb43e979432b}"
+			x: -3.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["3E00000000000035"]
+			description: [
+				"{lanminecraft.reforged.quests.14_twilight.2a36a774ade2171f3ffc}"
+			]
+			icon: "twilightforest:peacock_feather_fan"
+			id: "3E00000000000040"
+			rewards: [
+				{
+					id: "5E00000000000040"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.14_twilight.863068fcd6fe899a99f4}"
+			tasks: [
+				{
+					id: "4E00000000000071"
+					item: "twilightforest:peacock_feather_fan"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.14_twilight.7427914a3d219e461284}"
+			x: -5.5d
+			y: 32.0d
+		}
+		{
+			dependencies: ["3E00000000000006"]
+			description: [
+				"{lanminecraft.reforged.quests.14_twilight.4f05884068a4550974da}"
+				""
+				"{lanminecraft.reforged.quests.14_twilight.5108eb761a3e8578b1d1}"
+			]
+			icon: "twilightforest:time_sapling"
+			id: "3E00000000000041"
+			rewards: [
+				{
+					id: "5E00000000000041"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.14_twilight.d10d9ad3aeb5e5cfc632}"
+			tasks: [
+				{
+					id: "4E00000000000072"
+					item: "twilightforest:time_sapling"
+					type: "item"
+				}
+				{
+					id: "4E00000000000073"
+					item: "twilightforest:transformation_sapling"
+					type: "item"
+				}
+				{
+					id: "4E00000000000074"
+					item: "twilightforest:mining_sapling"
+					type: "item"
+				}
+				{
+					id: "4E00000000000075"
+					item: "twilightforest:sorting_sapling"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.14_twilight.88b641be8dc7ff7afb5f}"
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3E00000000000041"]
+			description: [
+				"{lanminecraft.reforged.quests.14_twilight.7cd82f1e85f3f41ac133}"
+				""
+				"{lanminecraft.reforged.quests.14_twilight.9288a90e1119fab9a890}"
+			]
+			icon: "twilightforest:experiment_115"
+			id: "3E00000000000042"
+			rewards: [
+				{
+					id: "5E00000000000042"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.14_twilight.79d9c211f862f34cc30d}"
+			tasks: [
+				{
+					count: 4L
+					id: "4E00000000000076"
+					item: "twilightforest:experiment_115"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.14_twilight.0a937c953c092b591e20}"
+			x: 6.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"3E00000000000035"
+				"3E00000000000036"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.14_twilight.681e082e81f6a72c6860}"
+				""
+				"{lanminecraft.reforged.quests.14_twilight.aca2c99a1c48a866fb12}"
+				""
+				"{lanminecraft.reforged.quests.14_twilight.050de6c71c36a25c73a8}"
+			]
+			icon: "twilightforest:quest_ram_trophy"
+			id: "3E00000000000043"
+			min_width: 400
+			rewards: [
+				{
+					id: "5E00000000000043"
+					type: "xp"
+					xp: 800
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.14_twilight.4b0528d8b3afc35cdb80}"
+			tasks: [
+				{
+					id: "4E00000000000077"
+					item: "twilightforest:quest_ram_trophy"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.14_twilight.dca647e916eeb59a1d42}"
+			x: 0.0d
+			y: 35.0d
+		}
+		{
+			dependencies: ["3E00000000000043"]
+			description: [
+				"{lanminecraft.reforged.quests.14_twilight.cd73b968153727ca354a}"
+				""
+				"{lanminecraft.reforged.quests.14_twilight.2910a2e224df91449b06}"
+			]
+			icon: "twilightforest:snow_queen_trophy"
+			id: "3E00000000000044"
+			min_width: 420
+			rewards: [
+				{
+					id: "5E00000000000044"
+					type: "xp"
+					xp: 1500
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.14_twilight.7e1a5d120255994965b4}"
+			tasks: [
+				{
+					id: "4E00000000000078"
+					item: "twilightforest:naga_trophy"
+					type: "item"
+				}
+				{
+					id: "4E00000000000079"
+					item: "twilightforest:lich_trophy"
+					type: "item"
+				}
+				{
+					id: "4E00000000000080"
+					item: "twilightforest:minoshroom_trophy"
+					type: "item"
+				}
+				{
+					id: "4E00000000000081"
+					item: "twilightforest:hydra_trophy"
+					type: "item"
+				}
+				{
+					id: "4E00000000000082"
+					item: "twilightforest:knight_phantom_trophy"
+					type: "item"
+				}
+				{
+					id: "4E00000000000083"
+					item: "twilightforest:ur_ghast_trophy"
+					type: "item"
+				}
+				{
+					id: "4E00000000000084"
+					item: "twilightforest:alpha_yeti_trophy"
+					type: "item"
+				}
+				{
+					id: "4E00000000000085"
+					item: "twilightforest:snow_queen_trophy"
+					type: "item"
+				}
+				{
+					id: "4E00000000000086"
+					item: "twilightforest:quest_ram_trophy"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.14_twilight.6609425655fd60170e31}"
+			x: 0.0d
+			y: 38.0d
+		}
+		{
+			dependencies: ["3E00000000000044"]
+			description: [
+				"{lanminecraft.reforged.quests.14_twilight.a55facfceb57709d231c}"
+				""
+				"{lanminecraft.reforged.quests.14_twilight.a98785d74bf80164fc82}"
+				""
+				"{lanminecraft.reforged.quests.14_twilight.f7c65e169b792fc97d3a}"
+			]
+			icon: "minecraft:diamond"
+			id: "3E00000000000045"
+			min_width: 420
+			rewards: [
+				{
+					id: "5E00000000000045"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.14_twilight.9b9a8d05a7ec353bda84}"
+			tasks: [
+				{
+					id: "4E00000000000087"
+					title: "{lanminecraft.reforged.quests.14_twilight.9b9a8d05a7ec353bda84}"
+					type: "checkmark"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.14_twilight.76900f1bfd16c8d4dd3d}"
+			x: 0.0d
+			y: 41.0d
+		}
+	]
+	subtitle: ["{lanminecraft.reforged.quests.14_twilight.329f2f52378e253aacd4}"]
+	title: "{lanminecraft.reforged.quests.14_twilight.f4a157715cf2f616af9a}"
+}

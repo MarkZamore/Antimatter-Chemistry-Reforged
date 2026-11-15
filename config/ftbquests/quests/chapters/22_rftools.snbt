@@ -1,0 +1,563 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 320
+	default_quest_shape: ""
+	filename: "22_rftools"
+	group: "1000000000000001"
+	hide_quest_until_deps_visible: true
+	icon: "rftoolsutility:matter_transmitter"
+	id: "2000000000000016"
+	order_index: 22
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3400000000000005"]
+			description: [
+				"{lanminecraft.reforged.quests.22_rftools.cc368c4c198bba6bf23c}"
+				""
+				"{lanminecraft.reforged.quests.22_rftools.20c67ea8f19e3453a697}"
+				""
+				"{lanminecraft.reforged.quests.22_rftools.1e0f391fa7788bb05c1b}"
+			]
+			hide_until_deps_complete: true
+			icon: "rftoolsbase:machine_frame"
+			id: "6600000000000001"
+			min_width: 470
+			rewards: [
+				{
+					id: "8600000000000001"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.22_rftools.9b9a8d05a7ec353bda84}"
+			tasks: [
+				{
+					id: "7600000000000001"
+					title: "{lanminecraft.reforged.quests.22_rftools.5ad3dbd1242a4cea217e}"
+					type: "checkmark"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.22_rftools.0e4c47b1815c448a7020}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6600000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.22_rftools.bd7e0f5ae7b4e2946d99}"
+				""
+				"{lanminecraft.reforged.quests.22_rftools.53ffc3a224f1cecb42a3}"
+				""
+				"{lanminecraft.reforged.quests.22_rftools.bf5b2cdb262502455a8e}"
+			]
+			icon: "rftoolsbase:dimensionalshard"
+			id: "6600000000000002"
+			min_width: 470
+			rewards: [
+				{
+					id: "8600000000000002"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.22_rftools.fa521c090babc61c99b9}"
+			tasks: [
+				{
+					count: 32L
+					id: "7600000000000002"
+					item: "rftoolsbase:dimensionalshard"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.22_rftools.137973c90e0852b1fbb0}"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6600000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.22_rftools.562662774a4212567d85}"
+				""
+				"{lanminecraft.reforged.quests.22_rftools.31a94e5bb1d7ab0e34e9}"
+			]
+			icon: "rftoolsbase:machine_base"
+			id: "6600000000000003"
+			min_width: 440
+			rewards: [
+				{
+					id: "8600000000000003"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.22_rftools.dabb3f70b836464b7f60}"
+			tasks: [
+				{
+					count: 16L
+					id: "7600000000000003"
+					item: "rftoolsbase:machine_frame"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "7600000000000004"
+					item: "rftoolsbase:machine_base"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.22_rftools.88a77047b12cdb5c5cc7}"
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6600000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.22_rftools.d9e7a021744e82b3865d}"
+				""
+				"{lanminecraft.reforged.quests.22_rftools.54de4825ee1d9817d387}"
+			]
+			icon: "rftoolsbase:machine_infuser"
+			id: "6600000000000004"
+			min_width: 460
+			rewards: [
+				{
+					id: "8600000000000004"
+					type: "xp"
+					xp: 350
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.22_rftools.3d34b182f7c1fcb642f8}"
+			tasks: [
+				{
+					id: "7600000000000005"
+					item: "rftoolsbase:machine_infuser"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7600000000000006"
+					item: "rftoolsbase:infused_diamond"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7600000000000007"
+					item: "rftoolsbase:infused_enderpearl"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.22_rftools.74a96a1837c042c153bc}"
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6600000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.22_rftools.91a18c943d7b74a6389e}"
+				""
+				"{lanminecraft.reforged.quests.22_rftools.8d8b370c8d3ee74ce348}"
+			]
+			icon: "rftoolsbase:smartwrench"
+			id: "6600000000000005"
+			min_width: 430
+			rewards: [
+				{
+					id: "8600000000000005"
+					type: "xp"
+					xp: 150
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.22_rftools.57f64bf9715866ab48f4}"
+			tasks: [
+				{
+					id: "7600000000000008"
+					item: "rftoolsbase:smartwrench"
+					type: "item"
+				}
+				{
+					id: "7600000000000009"
+					item: "rftoolspower:power_monitor"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.22_rftools.6e04b89ceb27d9034b4c}"
+			x: -10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6600000000000003"]
+			description: [
+				"{lanminecraft.reforged.quests.22_rftools.50c49e04041bd4783b28}"
+				""
+				"{lanminecraft.reforged.quests.22_rftools.4d7f69a600cf6c07ca88}"
+				""
+				"{lanminecraft.reforged.quests.22_rftools.41279b64c21b85bb609c}"
+			]
+			icon: "rftoolspower:dimensionalcell"
+			id: "6600000000000006"
+			min_width: 480
+			rewards: [
+				{
+					id: "8600000000000006"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.22_rftools.3fda716fbdbcc61ad8fa}"
+			tasks: [
+				{
+					count: 2L
+					id: "7600000000000010"
+					item: "rftoolspower:dimensionalcell_simple"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7600000000000011"
+					item: "rftoolspower:dimensionalcell"
+					type: "item"
+				}
+				{
+					id: "7600000000000012"
+					item: "rftoolspower:powercell_card"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.22_rftools.56b2e0e66289bb6e9ce8}"
+			x: -8.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6600000000000004"]
+			description: [
+				"{lanminecraft.reforged.quests.22_rftools.d812744cfd90642375d6}"
+				""
+				"{lanminecraft.reforged.quests.22_rftools.16ed0c03ea202b438191}"
+				""
+				"{lanminecraft.reforged.quests.22_rftools.de0fbf9808ab6389f8bb}"
+			]
+			icon: "rftoolspower:endergenic"
+			id: "6600000000000007"
+			min_width: 480
+			optional: true
+			rewards: [
+				{
+					id: "8600000000000007"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.22_rftools.57f64bf9715866ab48f4}"
+			tasks: [
+				{
+					id: "7600000000000013"
+					item: "rftoolspower:blazing_generator"
+					type: "item"
+				}
+				{
+					id: "7600000000000014"
+					item: "rftoolspower:endergenic"
+					type: "item"
+				}
+				{
+					id: "7600000000000015"
+					item: "rftoolspower:pearl_injector"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.22_rftools.19d4d6c8e04266e3cb31}"
+			x: -3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6600000000000003"]
+			description: [
+				"{lanminecraft.reforged.quests.22_rftools.449331aa2dddc2c313f1}"
+				""
+				"{lanminecraft.reforged.quests.22_rftools.5cd2b73d1b0ae2d745f5}"
+				""
+				"{lanminecraft.reforged.quests.22_rftools.f141777eeccaa79a4fa9}"
+			]
+			icon: "rftoolsutility:matter_transmitter"
+			id: "6600000000000008"
+			min_width: 480
+			rewards: [
+				{
+					id: "8600000000000008"
+					type: "xp"
+					xp: 900
+				}
+			]
+			shape: "hexagon"
+			size: 2.5d
+			subtitle: "{lanminecraft.reforged.quests.22_rftools.4cce6f6e10de55c3317f}"
+			tasks: [
+				{
+					id: "7600000000000016"
+					item: "rftoolsutility:matter_transmitter"
+					type: "item"
+				}
+				{
+					id: "7600000000000017"
+					item: "rftoolsutility:matter_receiver"
+					type: "item"
+				}
+				{
+					id: "7600000000000018"
+					item: "rftoolsutility:dialing_device"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.22_rftools.8808a29637ef0f177d9e}"
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6600000000000003"]
+			description: [
+				"{lanminecraft.reforged.quests.22_rftools.ee077c3b58fad142711d}"
+				""
+				"{lanminecraft.reforged.quests.22_rftools.ad9b1763333784788ee9}"
+			]
+			icon: "rftoolsutility:advanced_charged_porter"
+			id: "6600000000000009"
+			min_width: 450
+			optional: true
+			rewards: [
+				{
+					id: "8600000000000009"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.22_rftools.57f64bf9715866ab48f4}"
+			tasks: [
+				{
+					id: "7600000000000019"
+					item: "rftoolsutility:charged_porter"
+					type: "item"
+				}
+				{
+					id: "7600000000000020"
+					item: "rftoolsutility:advanced_charged_porter"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.22_rftools.80430881317bbeaf94f1}"
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6600000000000003"]
+			description: [
+				"{lanminecraft.reforged.quests.22_rftools.cbfb053755e8238538ce}"
+				""
+				"{lanminecraft.reforged.quests.22_rftools.6ee401978381891a8217}"
+			]
+			icon: "rftoolsutility:screen"
+			id: "6600000000000010"
+			min_width: 470
+			rewards: [
+				{
+					id: "8600000000000010"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.22_rftools.71ebaa73d138ee28cf2e}"
+			tasks: [
+				{
+					count: 2L
+					id: "7600000000000021"
+					item: "rftoolsutility:screen"
+					type: "item"
+				}
+				{
+					id: "7600000000000022"
+					item: "rftoolsutility:screen_controller"
+					type: "item"
+				}
+				{
+					id: "7600000000000023"
+					item: "rftoolsutility:energy_module"
+					type: "item"
+				}
+				{
+					id: "7600000000000024"
+					item: "rftoolsutility:inventory_module"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.22_rftools.6e56137e21d3222a2e31}"
+			x: -5.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["6600000000000003"]
+			description: [
+				"{lanminecraft.reforged.quests.22_rftools.d945e1f80281d50d387c}"
+				""
+				"{lanminecraft.reforged.quests.22_rftools.a3b8fb35a1d601ec7c47}"
+			]
+			icon: "rftoolsutility:crafter1"
+			id: "6600000000000011"
+			min_width: 450
+			optional: true
+			rewards: [
+				{
+					id: "8600000000000011"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.22_rftools.b1f37552ee7bf0c6beac}"
+			tasks: [
+				{
+					id: "7600000000000025"
+					item: "rftoolsutility:crafter1"
+					type: "item"
+				}
+				{
+					id: "7600000000000026"
+					item: "rftoolsutility:crafter3"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.22_rftools.adedc646019442f15514}"
+			x: 0.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["6600000000000004"]
+			description: [
+				"{lanminecraft.reforged.quests.22_rftools.9fa2d06767979f72e87d}"
+				""
+				"{lanminecraft.reforged.quests.22_rftools.0bce0db861d72ecfa488}"
+				""
+				"{lanminecraft.reforged.quests.22_rftools.aafa941a2c9ac404d3f7}"
+			]
+			icon: "rftoolsutility:spawner"
+			id: "6600000000000012"
+			min_width: 480
+			optional: true
+			rewards: [
+				{
+					id: "8600000000000012"
+					type: "xp"
+					xp: 600
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.22_rftools.41e727f066238ffc47f4}"
+			tasks: [
+				{
+					id: "7600000000000027"
+					item: "rftoolsutility:spawner"
+					type: "item"
+				}
+				{
+					id: "7600000000000028"
+					item: "rftoolsutility:matter_beamer"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.22_rftools.89bb4efe4151b8b53624}"
+			x: 5.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["6600000000000004"]
+			description: [
+				"{lanminecraft.reforged.quests.22_rftools.3397bb747353c9a335bc}"
+				""
+				"{lanminecraft.reforged.quests.22_rftools.c906484d35f06bf95ce2}"
+			]
+			icon: "rftoolsutility:flight_module"
+			id: "6600000000000013"
+			min_width: 450
+			optional: true
+			rewards: [
+				{
+					id: "8600000000000013"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.22_rftools.57f64bf9715866ab48f4}"
+			tasks: [
+				{
+					id: "7600000000000029"
+					item: "rftoolsutility:flight_module"
+					type: "item"
+				}
+				{
+					id: "7600000000000030"
+					item: "rftoolsutility:featherfalling_module"
+					type: "item"
+				}
+				{
+					id: "7600000000000031"
+					item: "rftoolsutility:environmental_controller"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.22_rftools.09c0d73acdd0e2a8bf28}"
+			x: 10.0d
+			y: 17.0d
+		}
+		{
+			dependencies: [
+				"6600000000000008"
+				"6600000000000006"
+				"6600000000000010"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.22_rftools.752a8f9301a8b3580c13}"
+				""
+				"{lanminecraft.reforged.quests.22_rftools.fb05d0f258ae2ed4e116}"
+				""
+				"{lanminecraft.reforged.quests.22_rftools.4e93da5eb4adf6a4949e}"
+			]
+			icon: "rftoolsutility:dialing_device"
+			id: "6600000000000014"
+			min_width: 480
+			rewards: [
+				{
+					id: "8600000000000014"
+					type: "xp"
+					xp: 1500
+				}
+			]
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "{lanminecraft.reforged.quests.22_rftools.459ccf7fc35c77092496}"
+			tasks: [
+				{
+					count: 2L
+					id: "7600000000000032"
+					item: "rftoolsutility:matter_transmitter"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7600000000000033"
+					item: "rftoolsutility:matter_receiver"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7600000000000034"
+					item: "rftoolspower:dimensionalcell"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.22_rftools.7ebc409add26ebb6230e}"
+			x: 0.0d
+			y: 22.0d
+		}
+	]
+	subtitle: ["{lanminecraft.reforged.quests.22_rftools.0e4c47b1815c448a7020}"]
+	title: "{lanminecraft.reforged.quests.22_rftools.88848ea2795373e7d545}"
+}

@@ -1,0 +1,489 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 320
+	default_quest_shape: ""
+	filename: "23_apotheosis"
+	group: "1000000000000001"
+	hide_quest_until_deps_visible: true
+	icon: "apotheosis:sigil_of_socketing"
+	id: "2000000000000017"
+	order_index: 23
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3300000000000004"]
+			description: [
+				"{lanminecraft.reforged.quests.23_apotheosis.d4bd4e26b4bac09790fd}"
+				""
+				"{lanminecraft.reforged.quests.23_apotheosis.78b28240410c897436b3}"
+				""
+				"{lanminecraft.reforged.quests.23_apotheosis.dd0653844b0665740be8}"
+				""
+				"{lanminecraft.reforged.quests.23_apotheosis.b0910c82e4da966d0f68}"
+			]
+			hide_until_deps_complete: true
+			icon: "apotheosis:seashelf"
+			id: "6700000000000001"
+			min_width: 480
+			rewards: [
+				{
+					id: "8700000000000001"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.23_apotheosis.9b9a8d05a7ec353bda84}"
+			tasks: [
+				{
+					id: "7700000000000001"
+					title: "{lanminecraft.reforged.quests.23_apotheosis.5ad3dbd1242a4cea217e}"
+					type: "checkmark"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.23_apotheosis.53b7fd6d6d4c782ee2f9}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6700000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.23_apotheosis.5809eef127ae191063c6}"
+				""
+				"{lanminecraft.reforged.quests.23_apotheosis.5e4c20206670701dce0c}"
+				""
+				"{lanminecraft.reforged.quests.23_apotheosis.0f088c572a5b06ca9e2b}"
+			]
+			icon: "apotheosis:hellshelf"
+			id: "6700000000000002"
+			min_width: 470
+			rewards: [
+				{
+					id: "8700000000000002"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.23_apotheosis.dda8d013f54aa5e35b01}"
+			tasks: [
+				{
+					count: 4L
+					id: "7700000000000002"
+					item: "apotheosis:seashelf"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7700000000000003"
+					item: "apotheosis:hellshelf"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7700000000000004"
+					item: "apotheosis:endshelf"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.23_apotheosis.74f3b4f39c054e216918}"
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6700000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.23_apotheosis.f79df3059c4ff22d22c9}"
+				""
+				"{lanminecraft.reforged.quests.23_apotheosis.42d0cbbeacc04997c3e0}"
+			]
+			icon: "apotheosis:library"
+			id: "6700000000000003"
+			min_width: 460
+			rewards: [
+				{
+					id: "8700000000000003"
+					type: "xp"
+					xp: 350
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.23_apotheosis.410f9536222df465d3af}"
+			tasks: [
+				{
+					id: "7700000000000005"
+					item: "apotheosis:library"
+					type: "item"
+				}
+				{
+					id: "7700000000000006"
+					item: "apotheosis:ender_library"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.23_apotheosis.05eabfc820f475e0d4f3}"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6700000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.23_apotheosis.978a8131e10efe243584}"
+				""
+				"{lanminecraft.reforged.quests.23_apotheosis.bcc871a1114348050d91}"
+			]
+			icon: "apotheosis:weapon_tome"
+			id: "6700000000000004"
+			min_width: 450
+			optional: true
+			rewards: [
+				{
+					id: "8700000000000004"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.23_apotheosis.57f64bf9715866ab48f4}"
+			tasks: [
+				{
+					id: "7700000000000007"
+					item: "apotheosis:weapon_tome"
+					type: "item"
+				}
+				{
+					id: "7700000000000008"
+					item: "apotheosis:pickaxe_tome"
+					type: "item"
+				}
+				{
+					id: "7700000000000009"
+					item: "apotheosis:scrap_tome"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.23_apotheosis.fb108fd01bdf48403a14}"
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6700000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.23_apotheosis.97e2c116bea18c917334}"
+				""
+				"{lanminecraft.reforged.quests.23_apotheosis.1889e3d51ad36e6c0136}"
+				""
+				"{lanminecraft.reforged.quests.23_apotheosis.01ccb07121bf12394380}"
+			]
+			icon: "apotheosis:reforging_table"
+			id: "6700000000000005"
+			min_width: 470
+			rewards: [
+				{
+					id: "8700000000000005"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.23_apotheosis.8b436cb3f89521bfd30b}"
+			tasks: [
+				{
+					id: "7700000000000010"
+					item: "apotheosis:simple_reforging_table"
+					type: "item"
+				}
+				{
+					id: "7700000000000011"
+					item: "apotheosis:reforging_table"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7700000000000012"
+					item: "apotheosis:common_material"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7700000000000013"
+					item: "apotheosis:rare_material"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.23_apotheosis.12c9c08fcd41010af71e}"
+			x: -5.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6700000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.23_apotheosis.11a0774c27e8dbf86962}"
+				""
+				"{lanminecraft.reforged.quests.23_apotheosis.4743207a98e5290e555a}"
+			]
+			icon: "apotheosis:gem_dust"
+			id: "6700000000000006"
+			min_width: 470
+			rewards: [
+				{
+					id: "8700000000000006"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.23_apotheosis.3d1ecd6f2b4bd7718b40}"
+			tasks: [
+				{
+					id: "7700000000000014"
+					item: "apotheosis:gem_cutting_table"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "7700000000000015"
+					item: "apotheosis:gem_dust"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7700000000000016"
+					item: "apotheosis:gem_fused_slate"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.23_apotheosis.6024329694ab96e59f99}"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"6700000000000006"
+				"6700000000000005"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.23_apotheosis.3f4cb2d7a133d29952de}"
+				""
+				"{lanminecraft.reforged.quests.23_apotheosis.50fa3cb75ce0d50f25f6}"
+				""
+				"{lanminecraft.reforged.quests.23_apotheosis.d7daddd74441faf639b2}"
+				""
+				"{lanminecraft.reforged.quests.23_apotheosis.7c385bdbb5255002e18d}"
+			]
+			icon: "apotheosis:sigil_of_socketing"
+			id: "6700000000000007"
+			min_width: 490
+			rewards: [
+				{
+					id: "8700000000000007"
+					type: "xp"
+					xp: 900
+				}
+			]
+			shape: "hexagon"
+			size: 2.5d
+			subtitle: "{lanminecraft.reforged.quests.23_apotheosis.57f64bf9715866ab48f4}"
+			tasks: [
+				{
+					count: 3L
+					id: "7700000000000017"
+					item: "apotheosis:sigil_of_socketing"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.23_apotheosis.3809c4770041fdaf513a}"
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["6700000000000006"]
+			description: [
+				"{lanminecraft.reforged.quests.23_apotheosis.42302120bab15ae2ffa3}"
+				""
+				"{lanminecraft.reforged.quests.23_apotheosis.8bc2ff971a8a8dfb4465}"
+			]
+			icon: "apotheosis:sigil_of_withdrawal"
+			id: "6700000000000008"
+			min_width: 450
+			optional: true
+			rewards: [
+				{
+					id: "8700000000000008"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.23_apotheosis.57f64bf9715866ab48f4}"
+			tasks: [
+				{
+					id: "7700000000000018"
+					item: "apotheosis:sigil_of_withdrawal"
+					type: "item"
+				}
+				{
+					id: "7700000000000019"
+					item: "apotheosis:sigil_of_unnaming"
+					type: "item"
+				}
+				{
+					id: "7700000000000020"
+					item: "apotheosis:sigil_of_rebirth"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.23_apotheosis.009ac0df50c0138e5f88}"
+			x: 6.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["6700000000000005"]
+			description: [
+				"{lanminecraft.reforged.quests.23_apotheosis.57b294613d22fbef9a5d}"
+				""
+				"{lanminecraft.reforged.quests.23_apotheosis.fe426e67e516219abf9d}"
+			]
+			icon: "apotheosis:vial_of_extraction"
+			id: "6700000000000009"
+			min_width: 450
+			optional: true
+			rewards: [
+				{
+					id: "8700000000000009"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.23_apotheosis.57f64bf9715866ab48f4}"
+			tasks: [
+				{
+					id: "7700000000000021"
+					item: "apotheosis:vial_of_extraction"
+					type: "item"
+				}
+				{
+					id: "7700000000000022"
+					item: "apotheosis:vial_of_expulsion"
+					type: "item"
+				}
+				{
+					id: "7700000000000023"
+					item: "apotheosis:potion_charm"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.23_apotheosis.f82b2f9e34a7471219ba}"
+			x: -6.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["6700000000000007"]
+			description: [
+				"{lanminecraft.reforged.quests.23_apotheosis.5229b0f3236e953b9709}"
+				""
+				"{lanminecraft.reforged.quests.23_apotheosis.64c296a9f668e93f5d63}"
+				""
+				"{lanminecraft.reforged.quests.23_apotheosis.2ce29cbbd510dbc62021}"
+			]
+			icon: "minecraft:spawner"
+			id: "6700000000000010"
+			min_width: 480
+			optional: true
+			rewards: [
+				{
+					id: "8700000000000010"
+					type: "xp"
+					xp: 600
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.23_apotheosis.0d382044e80ba6309943}"
+			tasks: [
+				{
+					id: "7700000000000024"
+					item: "minecraft:spawner"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.23_apotheosis.89bb4efe4151b8b53624}"
+			x: -3.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["6700000000000007"]
+			description: [
+				"{lanminecraft.reforged.quests.23_apotheosis.a50bc7fe4af767b70a30}"
+				""
+				"{lanminecraft.reforged.quests.23_apotheosis.ac1ba5ddb2f337886486}"
+			]
+			icon: "apotheosis:boss_summoner"
+			id: "6700000000000011"
+			min_width: 470
+			optional: true
+			rewards: [
+				{
+					id: "8700000000000011"
+					type: "xp"
+					xp: 800
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.23_apotheosis.8d206b713cbd467c6e8f}"
+			tasks: [
+				{
+					id: "7700000000000025"
+					item: "apotheosis:boss_summoner"
+					type: "item"
+				}
+				{
+					id: "7700000000000026"
+					item: "apotheosis:mythic_material"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.23_apotheosis.e384fe84b4d3ed8a9b7c}"
+			x: 3.0d
+			y: 19.0d
+		}
+		{
+			dependencies: [
+				"6700000000000007"
+				"6700000000000005"
+				"6700000000000003"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.23_apotheosis.9087983c0ef5e0ffb156}"
+				""
+				"{lanminecraft.reforged.quests.23_apotheosis.ab349e49b434fa75e7df}"
+				""
+				"{lanminecraft.reforged.quests.23_apotheosis.7e33dfcf83a139827589}"
+			]
+			icon: "apotheosis:gem_fused_slate"
+			id: "6700000000000012"
+			min_width: 490
+			rewards: [
+				{
+					id: "8700000000000012"
+					type: "xp"
+					xp: 1500
+				}
+			]
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "{lanminecraft.reforged.quests.23_apotheosis.1a5456f0074543601f7d}"
+			tasks: [
+				{
+					count: 8L
+					id: "7700000000000027"
+					item: "apotheosis:sigil_of_socketing"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7700000000000028"
+					item: "apotheosis:epic_material"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.23_apotheosis.bffee72b729c2435961d}"
+			x: 0.0d
+			y: 24.0d
+		}
+	]
+	subtitle: ["{lanminecraft.reforged.quests.23_apotheosis.9dda3326fdb11f6e033e}"]
+	title: "{lanminecraft.reforged.quests.23_apotheosis.6a0e0caf54fb7d0aa945}"
+}

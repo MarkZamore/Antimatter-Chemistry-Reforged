@@ -1,0 +1,876 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 340
+	default_quest_shape: ""
+	filename: "26_factory_must_grow"
+	group: "1000000000000001"
+	hide_quest_until_deps_visible: true
+	icon: "tfmg:steel_mechanism"
+	id: "200000000000001A"
+	order_index: 26
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6000000000000022"]
+			description: [
+				"{lanminecraft.reforged.quests.26_factory_must_grow.686b6ee915f566a321f1}"
+				""
+				"{lanminecraft.reforged.quests.26_factory_must_grow.e9e9e970d2a4e82e1c2a}"
+				""
+				"{lanminecraft.reforged.quests.26_factory_must_grow.1d478e64a1bb50b02015}"
+				""
+				"{lanminecraft.reforged.quests.26_factory_must_grow.14fc6bb86d74be404769}"
+			]
+			hide_until_deps_complete: true
+			icon: "tfmg:steel_mechanism"
+			id: "6A00000000000001"
+			min_width: 480
+			rewards: [
+				{
+					id: "8A00000000000001"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.26_factory_must_grow.9b9a8d05a7ec353bda84}"
+			tasks: [
+				{
+					id: "7A00000000000001"
+					title: "{lanminecraft.reforged.quests.26_factory_must_grow.5ad3dbd1242a4cea217e}"
+					type: "checkmark"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.26_factory_must_grow.d30375e1c12a4c42532e}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A00000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.26_factory_must_grow.5b72c91122bbb3e70ea8}"
+				""
+				"{lanminecraft.reforged.quests.26_factory_must_grow.88ae997064e467346d2d}"
+			]
+			icon: "tfmg:cast_iron_ingot"
+			id: "6A00000000000002"
+			rewards: [
+				{
+					id: "8A00000000000002"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.26_factory_must_grow.c28ad5b459c49f497f28}"
+			tasks: [
+				{
+					count: 32L
+					id: "7A00000000000002"
+					item: "tfmg:cast_iron_ingot"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.26_factory_must_grow.557791bbeaa8e5ab377f}"
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6A00000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.26_factory_must_grow.405127c71cc9b6a9c5f2}"
+				""
+				"{lanminecraft.reforged.quests.26_factory_must_grow.eb27641aa4fe81077c0d}"
+				""
+				"{lanminecraft.reforged.quests.26_factory_must_grow.26cfd449433145f0e67e}"
+			]
+			icon: "tfmg:coal_coke"
+			id: "6A00000000000003"
+			rewards: [
+				{
+					id: "8A00000000000003"
+					type: "xp"
+					xp: 150
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.26_factory_must_grow.7954ea4172e12a7b82e9}"
+			tasks: [
+				{
+					count: 8L
+					id: "7A00000000000003"
+					item: "tfmg:coke_oven"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "7A00000000000004"
+					item: "tfmg:coal_coke"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.26_factory_must_grow.911e902e0864af3cea40}"
+			x: -6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6A00000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.26_factory_must_grow.380e3665268f1029699d}"
+				""
+				"{lanminecraft.reforged.quests.26_factory_must_grow.fb54177bb49f537d3f7d}"
+				""
+				"{lanminecraft.reforged.quests.26_factory_must_grow.9efd50c071162d4c6bac}"
+			]
+			icon: "tfmg:fireproof_bricks"
+			id: "6A00000000000004"
+			rewards: [
+				{
+					id: "8A00000000000004"
+					type: "xp"
+					xp: 150
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.26_factory_must_grow.a71223dd9948d763aea7}"
+			tasks: [
+				{
+					count: 32L
+					id: "7A00000000000005"
+					item: "tfmg:fireproof_bricks"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.26_factory_must_grow.680ae52304af3f5d8a9d}"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6A00000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.26_factory_must_grow.ff8f0d5277dc18a82449}"
+				""
+				"{lanminecraft.reforged.quests.26_factory_must_grow.80b23a2b7b4e0165884c}"
+				""
+				"{lanminecraft.reforged.quests.26_factory_must_grow.5a5ab56c2c763e91cdc7}"
+			]
+			icon: "tfmg:limesand"
+			id: "6A00000000000005"
+			rewards: [
+				{
+					id: "8A00000000000005"
+					type: "xp"
+					xp: 120
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.26_factory_must_grow.20989cf0274461be39e4}"
+			tasks: [
+				{
+					count: 32L
+					id: "7A00000000000006"
+					item: "tfmg:limesand"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.26_factory_must_grow.f5edfb1fdf449300af6a}"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"6A00000000000003"
+				"6A00000000000004"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.26_factory_must_grow.002f1c094cb4100f04dc}"
+				""
+				"{lanminecraft.reforged.quests.26_factory_must_grow.c50f33204e2a5afafa5f}"
+				""
+				"{lanminecraft.reforged.quests.26_factory_must_grow.48e3eec773a672bdbdd4}"
+			]
+			icon: "tfmg:blast_stove"
+			id: "6A00000000000006"
+			rewards: [
+				{
+					id: "8A00000000000006"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.26_factory_must_grow.c88bfe4691a8b0289faa}"
+			tasks: [
+				{
+					count: 3L
+					id: "7A00000000000007"
+					item: "tfmg:blast_stove"
+					type: "item"
+				}
+				{
+					id: "7A00000000000008"
+					item: "tfmg:air_intake"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.26_factory_must_grow.1bcf00b61e8bfc4bf7aa}"
+			x: -4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"6A00000000000006"
+				"6A00000000000005"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.26_factory_must_grow.fce8d522b6101de34f48}"
+				""
+				"{lanminecraft.reforged.quests.26_factory_must_grow.154b354610a087158751}"
+				""
+				"{lanminecraft.reforged.quests.26_factory_must_grow.9ffc7ef9e7fb055aef7e}"
+				""
+				"{lanminecraft.reforged.quests.26_factory_must_grow.082cbc9879da0ec958b7}"
+			]
+			icon: "tfmg:blast_furnace_output"
+			id: "6A00000000000007"
+			min_width: 460
+			rewards: [
+				{
+					id: "8A00000000000007"
+					type: "xp"
+					xp: 400
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.26_factory_must_grow.1b632925c4d4d2ac031f}"
+			tasks: [
+				{
+					id: "7A00000000000009"
+					item: "tfmg:blast_furnace_output"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7A00000000000010"
+					item: "tfmg:blast_furnace_hatch"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7A00000000000011"
+					item: "tfmg:blast_furnace_reinforcement"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.26_factory_must_grow.d7e0b556904f2068c384}"
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6A00000000000007"]
+			description: [
+				"{lanminecraft.reforged.quests.26_factory_must_grow.171db88ca68bf9ce8baa}"
+				""
+				"{lanminecraft.reforged.quests.26_factory_must_grow.1821eefd21d3d12e53de}"
+				""
+				"{lanminecraft.reforged.quests.26_factory_must_grow.422f348def66c2c7c5a0}"
+			]
+			icon: "tfmg:casting_basin"
+			id: "6A00000000000008"
+			rewards: [
+				{
+					id: "8A00000000000008"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.26_factory_must_grow.2d627bf9e0c7651daef3}"
+			tasks: [
+				{
+					id: "7A00000000000012"
+					item: "tfmg:casting_basin"
+					type: "item"
+				}
+				{
+					id: "7A00000000000013"
+					title: "{lanminecraft.reforged.quests.26_factory_must_grow.fa80ed75f66780bd6587}"
+					type: "checkmark"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.26_factory_must_grow.f131c13b6f0b5bc17d33}"
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6A00000000000008"]
+			description: [
+				"{lanminecraft.reforged.quests.26_factory_must_grow.cca4b2c0aaf84e13b754}"
+				""
+				"{lanminecraft.reforged.quests.26_factory_must_grow.d90cd643b7a84c51dba5}"
+				""
+				"{lanminecraft.reforged.quests.26_factory_must_grow.d18caecd4e2e44285a76}"
+			]
+			icon: "tfmg:steel_mechanism"
+			id: "6A00000000000009"
+			rewards: [
+				{
+					id: "8A00000000000009"
+					type: "xp"
+					xp: 400
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.26_factory_must_grow.7ff24b992933c95611a4}"
+			tasks: [
+				{
+					count: 16L
+					id: "7A00000000000014"
+					item: "tfmg:steel_mechanism"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.26_factory_must_grow.8622270fdd6b74fecbbd}"
+			x: -4.0d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"6A00000000000008"
+				"6A00000000000003"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.26_factory_must_grow.c7d54e4058f4a00434d8}"
+				""
+				"{lanminecraft.reforged.quests.26_factory_must_grow.8ba4af280778ce38c7a2}"
+			]
+			icon: "tfmg:heavy_machinery_casing"
+			id: "6A00000000000010"
+			rewards: [
+				{
+					id: "8A00000000000010"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.26_factory_must_grow.114b03739f9adde775a6}"
+			tasks: [
+				{
+					count: 16L
+					id: "7A00000000000015"
+					item: "tfmg:heavy_machinery_casing"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.26_factory_must_grow.dba7e24c772ea932d518}"
+			x: 0.0d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"6A00000000000009"
+				"6A00000000000010"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.26_factory_must_grow.a19c93d5b61bdfe48a50}"
+				""
+				"{lanminecraft.reforged.quests.26_factory_must_grow.5d10265d37a720da7514}"
+				""
+				"{lanminecraft.reforged.quests.26_factory_must_grow.0e539caaf71bf7371f6f}"
+			]
+			icon: "tfmg:steel_chemical_vat"
+			id: "6A00000000000011"
+			min_width: 440
+			rewards: [
+				{
+					id: "8A00000000000011"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.26_factory_must_grow.54ab3f898feb31147ccf}"
+			tasks: [
+				{
+					count: 2L
+					id: "7A00000000000016"
+					item: "tfmg:steel_chemical_vat"
+					type: "item"
+				}
+				{
+					id: "7A00000000000017"
+					item: "tfmg:industrial_mixer"
+					type: "item"
+				}
+				{
+					id: "7A00000000000018"
+					item: "tfmg:mixer_blade"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.26_factory_must_grow.ad24db160b95df827ce7}"
+			x: 4.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["6A00000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.26_factory_must_grow.432805ee78b7c016162c}"
+				""
+				"{lanminecraft.reforged.quests.26_factory_must_grow.ca2fc24938b83d3e9ea9}"
+				""
+				"{lanminecraft.reforged.quests.26_factory_must_grow.3d5d5f4bda34fe927502}"
+			]
+			icon: "alchemistry:syncrude"
+			id: "6A00000000000012"
+			min_width: 460
+			rewards: [
+				{
+					id: "8A00000000000012"
+					type: "xp"
+					xp: 250
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.26_factory_must_grow.a7a05adf1ee14110a6f5}"
+			tasks: [
+				{
+					count: 4L
+					id: "7A00000000000019"
+					item: "alchemistry:syncrude"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.26_factory_must_grow.cc6c766cfbd474a38f2c}"
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6A00000000000012"]
+			description: [
+				"{lanminecraft.reforged.quests.26_factory_must_grow.75e74ccb8d8bb135dedc}"
+				""
+				"{lanminecraft.reforged.quests.26_factory_must_grow.7b4b58abfc196747cc52}"
+			]
+			icon: "tfmg:crude_oil_bucket"
+			id: "6A00000000000013"
+			rewards: [
+				{
+					id: "8A00000000000013"
+					type: "xp"
+					xp: 150
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.26_factory_must_grow.53a3c75a94893c89cb2e}"
+			tasks: [
+				{
+					count: 2L
+					id: "7A00000000000020"
+					item: "tfmg:crude_oil_bucket"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.26_factory_must_grow.3678f157bc41b845cf6b}"
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"6A00000000000013"
+				"6A00000000000009"
+				"6A00000000000010"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.26_factory_must_grow.28a6341af215e159a807}"
+				""
+				"{lanminecraft.reforged.quests.26_factory_must_grow.8cee312649c21b99e070}"
+				""
+				"{lanminecraft.reforged.quests.26_factory_must_grow.13d98eb678c8ea4ba2dc}"
+			]
+			icon: "tfmg:steel_distillation_controller"
+			id: "6A00000000000014"
+			min_width: 460
+			rewards: [
+				{
+					id: "8A00000000000014"
+					type: "xp"
+					xp: 400
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.26_factory_must_grow.0e96486069ca191fca20}"
+			tasks: [
+				{
+					id: "7A00000000000021"
+					item: "tfmg:steel_distillation_controller"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "7A00000000000022"
+					item: "tfmg:steel_distillation_output"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "7A00000000000023"
+					item: "tfmg:industrial_pipe"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.26_factory_must_grow.4dc699f2ce3fecb999c6}"
+			x: 8.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["6A00000000000014"]
+			description: [
+				"{lanminecraft.reforged.quests.26_factory_must_grow.52afa6bc6879cb24bb5f}"
+				""
+				"{lanminecraft.reforged.quests.26_factory_must_grow.c2fb4ef52361e5fab4b8}"
+				""
+				"{lanminecraft.reforged.quests.26_factory_must_grow.8c5fe3fff46a9d51e290}"
+			]
+			icon: "tfmg:diesel_bucket"
+			id: "6A00000000000015"
+			min_width: 440
+			rewards: [
+				{
+					id: "8A00000000000015"
+					type: "xp"
+					xp: 350
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.26_factory_must_grow.36a40e165ac7fdc4940d}"
+			tasks: [
+				{
+					id: "7A00000000000024"
+					item: "tfmg:diesel_bucket"
+					type: "item"
+				}
+				{
+					id: "7A00000000000025"
+					item: "tfmg:gasoline_bucket"
+					type: "item"
+				}
+				{
+					id: "7A00000000000026"
+					item: "tfmg:kerosene_bucket"
+					type: "item"
+				}
+				{
+					id: "7A00000000000027"
+					item: "tfmg:lpg_bucket"
+					type: "item"
+				}
+				{
+					id: "7A00000000000028"
+					item: "tfmg:naphtha_bucket"
+					type: "item"
+				}
+				{
+					id: "7A00000000000029"
+					item: "tfmg:heavy_oil_bucket"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.26_factory_must_grow.2d61a69ac6209de72e8a}"
+			x: 4.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["6A00000000000015"]
+			description: [
+				"{lanminecraft.reforged.quests.26_factory_must_grow.83f3d08841656724b275}"
+				""
+				"{lanminecraft.reforged.quests.26_factory_must_grow.d3d06c2f9bf3be11cadc}"
+				""
+				"{lanminecraft.reforged.quests.26_factory_must_grow.a1277a4c505c3dc2886d}"
+			]
+			icon: "tfmg:large_engine"
+			id: "6A00000000000016"
+			min_width: 460
+			rewards: [
+				{
+					id: "8A00000000000016"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.26_factory_must_grow.61b60e9bebe19943d053}"
+			tasks: [
+				{
+					id: "7A00000000000030"
+					item: "tfmg:large_engine"
+					type: "item"
+				}
+				{
+					id: "7A00000000000031"
+					item: "tfmg:exhaust"
+					type: "item"
+				}
+				{
+					id: "7A00000000000032"
+					item: "tfmg:lubrication_oil_bucket"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.26_factory_must_grow.0a3408c47c3796fc4274}"
+			x: 0.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["6A00000000000009"]
+			description: [
+				"{lanminecraft.reforged.quests.26_factory_must_grow.16134909382cb8663d00}"
+				""
+				"{lanminecraft.reforged.quests.26_factory_must_grow.32c0bf6f466c42b50f50}"
+				""
+				"{lanminecraft.reforged.quests.26_factory_must_grow.c0d3a4627ef98167e725}"
+			]
+			icon: "tfmg:generator"
+			id: "6A00000000000017"
+			min_width: 460
+			rewards: [
+				{
+					id: "8A00000000000017"
+					type: "xp"
+					xp: 350
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.26_factory_must_grow.83935b7d4ea06d2c97ee}"
+			tasks: [
+				{
+					id: "7A00000000000033"
+					item: "tfmg:generator"
+					type: "item"
+				}
+				{
+					id: "7A00000000000034"
+					item: "tfmg:converter"
+					type: "item"
+				}
+				{
+					id: "7A00000000000035"
+					item: "tfmg:voltmeter"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.26_factory_must_grow.05ff6237997a9ef51d53}"
+			x: -6.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"6A00000000000011"
+				"6A00000000000015"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.26_factory_must_grow.77c5295340ceb9594752}"
+				""
+				"{lanminecraft.reforged.quests.26_factory_must_grow.7f6897ff6a8437eebb9b}"
+			]
+			icon: "tfmg:rubber_sheet"
+			id: "6A00000000000018"
+			rewards: [
+				{
+					id: "8A00000000000018"
+					type: "xp"
+					xp: 250
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.26_factory_must_grow.5f01c1a1fa3762a97e05}"
+			tasks: [
+				{
+					count: 8L
+					id: "7A00000000000036"
+					item: "tfmg:rubber_sheet"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.26_factory_must_grow.2201e1bb8e6b308fa055}"
+			x: 8.0d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"6A00000000000011"
+				"6A00000000000008"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.26_factory_must_grow.8cf8493453327b3cb0f3}"
+				""
+				"{lanminecraft.reforged.quests.26_factory_must_grow.a43bedf80da03fc1bad6}"
+				""
+				"{lanminecraft.reforged.quests.26_factory_must_grow.86f6c599b618f6d8a423}"
+			]
+			icon: "tfmg:plastic_sheet"
+			id: "6A00000000000019"
+			min_width: 460
+			rewards: [
+				{
+					id: "8A00000000000019"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.26_factory_must_grow.230de9ec5feab7f20bb1}"
+			tasks: [
+				{
+					count: 12L
+					id: "7A00000000000037"
+					item: "tfmg:plastic_sheet"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.26_factory_must_grow.b83700147fd748ac3e56}"
+			x: 4.0d
+			y: 28.0d
+		}
+		{
+			dependencies: [
+				"6A00000000000019"
+				"6A00000000000017"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.26_factory_must_grow.1d7ce282cf2f22fdc154}"
+				""
+				"{lanminecraft.reforged.quests.26_factory_must_grow.71cee1dcfdc3d6049965}"
+				""
+				"{lanminecraft.reforged.quests.26_factory_must_grow.d7c45b6425495abb4055}"
+				""
+				"{lanminecraft.reforged.quests.26_factory_must_grow.e27a5e2e06ce086d3c27}"
+			]
+			icon: "tfmg:circuit_board"
+			id: "6A00000000000020"
+			min_width: 480
+			rewards: [
+				{
+					id: "8A00000000000020"
+					type: "xp"
+					xp: 450
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.26_factory_must_grow.62e5573ce917ff621660}"
+			tasks: [
+				{
+					count: 2L
+					id: "7A00000000000038"
+					item: "tfmg:circuit_board"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.26_factory_must_grow.2a6df65ba9974e52f32d}"
+			x: 0.0d
+			y: 28.0d
+		}
+		{
+			dependencies: [
+				"6A00000000000016"
+				"6A00000000000020"
+				"6A00000000000018"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.26_factory_must_grow.f50eb2e9fce278a8505e}"
+				""
+				"{lanminecraft.reforged.quests.26_factory_must_grow.a29f82ed9200cf6ffc35}"
+				""
+				"{lanminecraft.reforged.quests.26_factory_must_grow.5c0c62bd7ce501bbaf66}"
+				""
+				"{lanminecraft.reforged.quests.26_factory_must_grow.0c3a3b5d7afb1a5d3ecb}"
+			]
+			icon: "tfmg:engine_controller"
+			id: "6A00000000000021"
+			min_width: 500
+			rewards: [
+				{
+					id: "8A00000000000021"
+					type: "xp"
+					xp: 3000
+				}
+			]
+			shape: "hexagon"
+			size: 2.5d
+			subtitle: "{lanminecraft.reforged.quests.26_factory_must_grow.95b55f0e1993a2676b28}"
+			tasks: [
+				{
+					id: "7A00000000000039"
+					item: "tfmg:engine_controller"
+					type: "item"
+				}
+				{
+					id: "7A00000000000040"
+					item: "tfmg:transmission"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.26_factory_must_grow.93a4c3764c5e460c1622}"
+			x: 0.0d
+			y: 33.0d
+		}
+		{
+			dependencies: [
+				"6A00000000000008"
+				"6A00000000000005"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.26_factory_must_grow.2087a70b7d481c5d222a}"
+				""
+				"{lanminecraft.reforged.quests.26_factory_must_grow.d9e8499ac17ce9661eb0}"
+			]
+			icon: "tfmg:concrete"
+			id: "6A00000000000022"
+			optional: true
+			rewards: [
+				{
+					id: "8A00000000000022"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.26_factory_must_grow.7a1195760675a9f73ca3}"
+			tasks: [
+				{
+					count: 64L
+					id: "7A00000000000041"
+					item: "tfmg:concrete"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.26_factory_must_grow.fbb34a2104d88e1044b0}"
+			x: -6.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["6A00000000000015"]
+			description: [
+				"{lanminecraft.reforged.quests.26_factory_must_grow.735c48dfd93f15040539}"
+				""
+				"{lanminecraft.reforged.quests.26_factory_must_grow.a8ac0a594750bfc26c73}"
+				""
+				"{lanminecraft.reforged.quests.26_factory_must_grow.0011cf8bc27575bf6dab}"
+			]
+			icon: "tfmg:asphalt"
+			id: "6A00000000000023"
+			optional: true
+			rewards: [
+				{
+					id: "8A00000000000023"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.26_factory_must_grow.753c3c606dc0fa659280}"
+			tasks: [
+				{
+					count: 64L
+					id: "7A00000000000042"
+					item: "tfmg:asphalt"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.26_factory_must_grow.f80f9854775b904118ed}"
+			x: -6.0d
+			y: 33.0d
+		}
+	]
+	subtitle: ["{lanminecraft.reforged.quests.26_factory_must_grow.f2edb474adeddfa99881}"]
+	title: "{lanminecraft.reforged.quests.26_factory_must_grow.001a464d6671f7535e28}"
+}

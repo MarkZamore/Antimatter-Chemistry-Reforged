@@ -1,0 +1,415 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 340
+	default_quest_shape: ""
+	filename: "25_cryo_accelerator"
+	group: "1000000000000001"
+	hide_quest_until_deps_visible: true
+	icon: "alchemistry:cryo_chamber_controller"
+	id: "2000000000000019"
+	order_index: 25
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3600000000000016"]
+			description: [
+				"{lanminecraft.reforged.quests.25_cryo_accelerator.96a169a7f162df334025}"
+				""
+				"{lanminecraft.reforged.quests.25_cryo_accelerator.e21d0e1d67311758e5e9}"
+				""
+				"{lanminecraft.reforged.quests.25_cryo_accelerator.bc36dc2a15fd60dc3c92}"
+				""
+				"{lanminecraft.reforged.quests.25_cryo_accelerator.5ef4c9775c290f2431f9}"
+			]
+			hide_until_deps_complete: true
+			icon: "alchemistry:cryo_chamber_controller"
+			id: "6900000000000001"
+			min_width: 480
+			rewards: [
+				{
+					id: "8900000000000001"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.25_cryo_accelerator.9b9a8d05a7ec353bda84}"
+			tasks: [
+				{
+					id: "7900000000000001"
+					title: "{lanminecraft.reforged.quests.25_cryo_accelerator.5ad3dbd1242a4cea217e}"
+					type: "checkmark"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.25_cryo_accelerator.623eb57c402e90e78bde}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6900000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.25_cryo_accelerator.e1987a1943e8dc781657}"
+				""
+				"{lanminecraft.reforged.quests.25_cryo_accelerator.d27facce74b764349513}"
+			]
+			icon: "alchemistry:cryo_core"
+			id: "6900000000000002"
+			rewards: [
+				{
+					id: "8900000000000002"
+					type: "xp"
+					xp: 120
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.25_cryo_accelerator.52da7e0be6606f4135a6}"
+			tasks: [
+				{
+					count: 3L
+					id: "7900000000000002"
+					item: "alchemistry:cryo_core"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.25_cryo_accelerator.f986947f84153158f15e}"
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6900000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.25_cryo_accelerator.0b95b9200099099cc086}"
+				""
+				"{lanminecraft.reforged.quests.25_cryo_accelerator.b54aafe7fbf51523e081}"
+				""
+				"{lanminecraft.reforged.quests.25_cryo_accelerator.6e8ee0c1d4fe2a7042ae}"
+				""
+				"{lanminecraft.reforged.quests.25_cryo_accelerator.f67a7763b7fba36b7808}"
+				""
+				"{lanminecraft.reforged.quests.25_cryo_accelerator.9883869c2098e808cd6d}"
+			]
+			icon: "alchemistry:cryo_chamber_controller"
+			id: "6900000000000003"
+			min_width: 440
+			rewards: [
+				{
+					id: "8900000000000003"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.25_cryo_accelerator.c5323258780ed1828ecd}"
+			tasks: [
+				{
+					id: "7900000000000003"
+					item: "alchemistry:cryo_chamber_controller"
+					type: "item"
+				}
+				{
+					id: "7900000000000004"
+					title: "{lanminecraft.reforged.quests.25_cryo_accelerator.fc3dae336d9df03e5d97}"
+					type: "checkmark"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.25_cryo_accelerator.d311b355259ac9d70476}"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6900000000000003"]
+			description: [
+				"{lanminecraft.reforged.quests.25_cryo_accelerator.21a388feec0dfe4f032f}"
+				""
+				"{lanminecraft.reforged.quests.25_cryo_accelerator.30ce90a8562bc7b05163}"
+				""
+				"{lanminecraft.reforged.quests.25_cryo_accelerator.2c2933e62a00cb0b78a1}"
+			]
+			icon: "alchemistry:ybco_blend"
+			id: "6900000000000004"
+			rewards: [
+				{
+					id: "8900000000000004"
+					type: "xp"
+					xp: 150
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.25_cryo_accelerator.3feceae042012d71f087}"
+			tasks: [
+				{
+					count: 4L
+					id: "7900000000000005"
+					item: "alchemistry:ybco_blend"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.25_cryo_accelerator.3aaa439671e043539cde}"
+			x: -5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6900000000000004"]
+			description: [
+				"{lanminecraft.reforged.quests.25_cryo_accelerator.e81b4c8e867816ecbc37}"
+				""
+				"{lanminecraft.reforged.quests.25_cryo_accelerator.b8907141e267945cc694}"
+				""
+				"{lanminecraft.reforged.quests.25_cryo_accelerator.107233e2265dc1ac3b30}"
+				""
+				"{lanminecraft.reforged.quests.25_cryo_accelerator.7c755b2834e4e68f24b4}"
+			]
+			icon: "alchemistry:superconductor_ybco"
+			id: "6900000000000005"
+			rewards: [
+				{
+					id: "8900000000000005"
+					type: "xp"
+					xp: 250
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.25_cryo_accelerator.2de2aff552c42a98a62e}"
+			tasks: [
+				{
+					count: 4L
+					id: "7900000000000006"
+					item: "alchemistry:superconductor_ybco"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.25_cryo_accelerator.cfaa8979ca0324614a6a}"
+			x: -5.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["6900000000000003"]
+			description: [
+				"{lanminecraft.reforged.quests.25_cryo_accelerator.b368c45018eeda2b12c5}"
+				""
+				"{lanminecraft.reforged.quests.25_cryo_accelerator.3b742a629d8c37eb59cf}"
+			]
+			icon: "alchemistry:nbti_alloy"
+			id: "6900000000000006"
+			rewards: [
+				{
+					id: "8900000000000006"
+					type: "xp"
+					xp: 150
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.25_cryo_accelerator.137f49b1c3f339318a26}"
+			tasks: [
+				{
+					count: 2L
+					id: "7900000000000007"
+					item: "alchemistry:nbti_alloy"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.25_cryo_accelerator.6d3cef0ccb5a7c797195}"
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6900000000000006"]
+			description: [
+				"{lanminecraft.reforged.quests.25_cryo_accelerator.92b5635bcf772280417a}"
+				""
+				"{lanminecraft.reforged.quests.25_cryo_accelerator.861bace76688831eda5c}"
+				""
+				"{lanminecraft.reforged.quests.25_cryo_accelerator.62e721395910155887e8}"
+			]
+			icon: "alchemistry:nbti_cable"
+			id: "6900000000000007"
+			rewards: [
+				{
+					id: "8900000000000007"
+					type: "xp"
+					xp: 250
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.25_cryo_accelerator.6dca9eb70c677d37be31}"
+			tasks: [
+				{
+					count: 8L
+					id: "7900000000000008"
+					item: "alchemistry:nbti_cable"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.25_cryo_accelerator.28299e32c9f73f0eece7}"
+			x: 5.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["6900000000000007"]
+			description: [
+				"{lanminecraft.reforged.quests.25_cryo_accelerator.e3613a812d2b7c970293}"
+				""
+				"{lanminecraft.reforged.quests.25_cryo_accelerator.1125d770250b19ac528d}"
+			]
+			icon: "nuclearscience:electromagnet"
+			id: "6900000000000008"
+			rewards: [
+				{
+					id: "8900000000000008"
+					type: "xp"
+					xp: 250
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.25_cryo_accelerator.68dd91c7fb46f5316b6f}"
+			tasks: [
+				{
+					count: 16L
+					id: "7900000000000009"
+					item: "nuclearscience:electromagnet"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.25_cryo_accelerator.6dd8d3c91e20c497e7f9}"
+			x: 5.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["6900000000000008"]
+			description: [
+				"{lanminecraft.reforged.quests.25_cryo_accelerator.762b9d2728b0e8982dcd}"
+				""
+				"{lanminecraft.reforged.quests.25_cryo_accelerator.9adaa175b64703a0710e}"
+				""
+				"{lanminecraft.reforged.quests.25_cryo_accelerator.590391c9d61ffeaef324}"
+			]
+			icon: "nuclearscience:particleinjector"
+			id: "6900000000000009"
+			min_width: 440
+			rewards: [
+				{
+					id: "8900000000000009"
+					type: "xp"
+					xp: 400
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.25_cryo_accelerator.45f0efcf7fae74b3c1ac}"
+			tasks: [
+				{
+					id: "7900000000000010"
+					item: "nuclearscience:particleinjector"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7900000000000011"
+					item: "nuclearscience:electromagneticbooster"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.25_cryo_accelerator.e80b7b8fa4cb4b636cb1}"
+			x: 0.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["6900000000000009"]
+			description: [
+				"{lanminecraft.reforged.quests.25_cryo_accelerator.a1bd837c2ea4548a8b3a}"
+				""
+				"{lanminecraft.reforged.quests.25_cryo_accelerator.c13e0060e32641626a60}"
+				""
+				"{lanminecraft.reforged.quests.25_cryo_accelerator.42ce8d4386149c2805ee}"
+			]
+			icon: "nuclearscience:cellantimattersmall"
+			id: "6900000000000010"
+			rewards: [
+				{
+					id: "8900000000000010"
+					type: "xp"
+					xp: 400
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.25_cryo_accelerator.da22c0492d176ca5d775}"
+			tasks: [
+				{
+					id: "7900000000000012"
+					item: "nuclearscience:cellantimattersmall"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.25_cryo_accelerator.f99e4dacd1b945db896f}"
+			x: -4.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["6900000000000009"]
+			description: [
+				"{lanminecraft.reforged.quests.25_cryo_accelerator.836edcb6dd80d8f63766}"
+				""
+				"{lanminecraft.reforged.quests.25_cryo_accelerator.b0296455ce78d9bc3cc8}"
+				""
+				"{lanminecraft.reforged.quests.25_cryo_accelerator.f8d7a1c0a601758015a1}"
+				""
+				"{lanminecraft.reforged.quests.25_cryo_accelerator.da9e0b33af383b971cfc}"
+			]
+			icon: "nuclearscience:celldarkmatter"
+			id: "6900000000000011"
+			min_width: 460
+			rewards: [
+				{
+					id: "8900000000000011"
+					type: "xp"
+					xp: 800
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.25_cryo_accelerator.206dbfa73ddb0fc4deac}"
+			tasks: [
+				{
+					id: "7900000000000013"
+					item: "nuclearscience:celldarkmatter"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.25_cryo_accelerator.5a0f0bb8be9bca1f81c1}"
+			x: 4.0d
+			y: 26.0d
+		}
+		{
+			dependencies: [
+				"6900000000000010"
+				"6900000000000011"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.25_cryo_accelerator.f0083f5295bae7fc9ba2}"
+				""
+				"{lanminecraft.reforged.quests.25_cryo_accelerator.adac8539774dc6950026}"
+			]
+			icon: "nuclearscience:cellantimatterverylarge"
+			id: "6900000000000012"
+			optional: true
+			rewards: [
+				{
+					id: "8900000000000012"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.25_cryo_accelerator.faaec9727d14ae32fed6}"
+			tasks: [
+				{
+					id: "7900000000000014"
+					item: "nuclearscience:cellantimatterverylarge"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.25_cryo_accelerator.c263d9a99e76c38dc935}"
+			x: 0.0d
+			y: 30.0d
+		}
+	]
+	subtitle: ["{lanminecraft.reforged.quests.25_cryo_accelerator.623eb57c402e90e78bde}"]
+	title: "{lanminecraft.reforged.quests.25_cryo_accelerator.260113ed07afa89dc420}"
+}

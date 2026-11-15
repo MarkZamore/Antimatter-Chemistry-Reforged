@@ -1,0 +1,539 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 320
+	default_quest_shape: ""
+	filename: "20_otherside"
+	group: "1000000000000001"
+	hide_quest_until_deps_visible: true
+	icon: "deeperdarker:warden_chestplate"
+	id: "2000000000000014"
+	order_index: 20
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3400000000000005"]
+			description: [
+				"{lanminecraft.reforged.quests.20_otherside.db93cf484af20e159134}"
+				""
+				"{lanminecraft.reforged.quests.20_otherside.ef6e6cce0aa9e1edd2c5}"
+				""
+				"{lanminecraft.reforged.quests.20_otherside.6c1ed98f7e2dcc95e1d9}"
+			]
+			hide_until_deps_complete: true
+			icon: "deeperdarker:sculk_stone"
+			id: "6400000000000001"
+			min_width: 480
+			rewards: [
+				{
+					id: "8400000000000001"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.20_otherside.9b9a8d05a7ec353bda84}"
+			tasks: [
+				{
+					id: "7400000000000001"
+					title: "{lanminecraft.reforged.quests.20_otherside.5ad3dbd1242a4cea217e}"
+					type: "checkmark"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.20_otherside.6fc50142154369c7e064}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6400000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.20_otherside.02571698bb482f47411b}"
+				""
+				"{lanminecraft.reforged.quests.20_otherside.d157a7f7169e91152194}"
+				""
+				"{lanminecraft.reforged.quests.20_otherside.cf1bb2fbaae8da3dab7d}"
+			]
+			icon: "minecraft:reinforced_deepslate"
+			id: "6400000000000002"
+			min_width: 460
+			rewards: [
+				{
+					id: "8400000000000002"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.20_otherside.fb4aff439acda1402c10}"
+			tasks: [
+				{
+					count: 10L
+					id: "7400000000000002"
+					item: "minecraft:reinforced_deepslate"
+					type: "item"
+				}
+				{
+					id: "7400000000000003"
+					item: "deeperdarker:heart_of_the_deep"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.20_otherside.5e4a5e7abf6e418ba9b9}"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6400000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.20_otherside.a18e99ddb7b484a72fc4}"
+				""
+				"{lanminecraft.reforged.quests.20_otherside.ef454805531b905b9440}"
+				""
+				"{lanminecraft.reforged.quests.20_otherside.cc828a15821f98b68bfa}"
+			]
+			icon: "deeperdarker:heart_of_the_deep"
+			id: "6400000000000003"
+			min_width: 460
+			rewards: [
+				{
+					id: "8400000000000003"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.20_otherside.6162e283c5ea76ec851e}"
+			tasks: [
+				{
+					id: "7400000000000004"
+					title: "{lanminecraft.reforged.quests.20_otherside.f527e3a92102afb081e9}"
+					type: "checkmark"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.20_otherside.d1020f285be63b8620f3}"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6400000000000003"]
+			description: [
+				"{lanminecraft.reforged.quests.20_otherside.3135b33999c2b43947df}"
+				""
+				"{lanminecraft.reforged.quests.20_otherside.cc7b791b27cf4998cbb0}"
+			]
+			icon: "deeperdarker:gloomslate"
+			id: "6400000000000004"
+			min_width: 460
+			rewards: [
+				{
+					id: "8400000000000004"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.20_otherside.41bbb1d57d20e41005de}"
+			tasks: [
+				{
+					count: 64L
+					id: "7400000000000005"
+					item: "deeperdarker:sculk_stone"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "7400000000000006"
+					item: "deeperdarker:gloomslate"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.20_otherside.829ac27b7090cd2563b5}"
+			x: -6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6400000000000003"]
+			description: [
+				"{lanminecraft.reforged.quests.20_otherside.b96fe533e90437df6498}"
+				""
+				"{lanminecraft.reforged.quests.20_otherside.1c2bac43381689191cef}"
+			]
+			icon: "deeperdarker:echo_sapling"
+			id: "6400000000000005"
+			min_width: 440
+			rewards: [
+				{
+					id: "8400000000000005"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.20_otherside.dc22c3698a1a15e1d5be}"
+			tasks: [
+				{
+					count: 16L
+					id: "7400000000000007"
+					item: "deeperdarker:echo_log"
+					type: "item"
+				}
+				{
+					id: "7400000000000008"
+					item: "deeperdarker:echo_sapling"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7400000000000009"
+					item: "deeperdarker:bloom_berries"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.20_otherside.cf3cd046e1c39716ff3b}"
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6400000000000003"]
+			description: [
+				"{lanminecraft.reforged.quests.20_otherside.434a49126704c0e9f996}"
+				""
+				"{lanminecraft.reforged.quests.20_otherside.5e951dde9dff11601364}"
+			]
+			icon: "deeperdarker:soul_dust"
+			id: "6400000000000006"
+			min_width: 460
+			rewards: [
+				{
+					id: "8400000000000006"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.20_otherside.d33bfdcb378bf4a4a896}"
+			tasks: [
+				{
+					count: 16L
+					id: "7400000000000010"
+					item: "deeperdarker:soul_dust"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7400000000000011"
+					item: "deeperdarker:sculk_bone"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "7400000000000012"
+					item: "deeperdarker:resonarium"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.20_otherside.88d93fefb41f27006189}"
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6400000000000006"]
+			description: [
+				"{lanminecraft.reforged.quests.20_otherside.129964f655a3713b303e}"
+				""
+				"{lanminecraft.reforged.quests.20_otherside.92d5c72054ed27568da4}"
+				""
+				"{lanminecraft.reforged.quests.20_otherside.9a142c3884736bb7f729}"
+			]
+			icon: "minecraft:scute"
+			id: "6400000000000007"
+			min_width: 470
+			rewards: [
+				{
+					id: "8400000000000007"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.20_otherside.d8ef0ae4dbc72cc19f51}"
+			tasks: [
+				{
+					count: 8L
+					id: "7400000000000013"
+					item: "minecraft:scute"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.20_otherside.b98b2716807ce6628001}"
+			x: 6.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["6400000000000007"]
+			description: [
+				"{lanminecraft.reforged.quests.20_otherside.75a8846610d52b215014}"
+				""
+				"{lanminecraft.reforged.quests.20_otherside.19d4a3175dce0b0e3aa9}"
+			]
+			icon: "deeperdarker:resonarium_chestplate"
+			id: "6400000000000008"
+			min_width: 450
+			rewards: [
+				{
+					id: "8400000000000008"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.20_otherside.5424fc279a6edbda4787}"
+			tasks: [
+				{
+					count: 2L
+					id: "7400000000000014"
+					item: "deeperdarker:resonarium_plate"
+					type: "item"
+				}
+				{
+					id: "7400000000000015"
+					item: "deeperdarker:resonarium_chestplate"
+					type: "item"
+				}
+				{
+					id: "7400000000000016"
+					item: "deeperdarker:resonarium_pickaxe"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.20_otherside.8878e774579ae068ee95}"
+			x: 3.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["6400000000000004"]
+			description: [
+				"{lanminecraft.reforged.quests.20_otherside.d29be86a2b9fd20776c9}"
+				""
+				"{lanminecraft.reforged.quests.20_otherside.cb1eea35f93dd773b5af}"
+				""
+				"{lanminecraft.reforged.quests.20_otherside.987029336f2bc6c43ce0}"
+			]
+			icon: "deeperdarker:warden_carapace"
+			id: "6400000000000009"
+			min_width: 470
+			rewards: [
+				{
+					id: "8400000000000009"
+					type: "xp"
+					xp: 700
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.20_otherside.4438115d0437fef6d209}"
+			tasks: [
+				{
+					count: 4L
+					id: "7400000000000017"
+					item: "deeperdarker:warden_carapace"
+					type: "item"
+				}
+				{
+					id: "7400000000000018"
+					item: "deeperdarker:reinforced_echo_shard"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.20_otherside.1c4ef7a6f4685e326c47}"
+			x: -3.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["6400000000000009"]
+			description: [
+				"{lanminecraft.reforged.quests.20_otherside.8215208387681472d748}"
+				""
+				"{lanminecraft.reforged.quests.20_otherside.c94cd2d47c2a294a8bba}"
+				""
+				"{lanminecraft.reforged.quests.20_otherside.9b5732c5f43ed8fbb183}"
+			]
+			icon: "deeperdarker:warden_chestplate"
+			id: "6400000000000010"
+			min_width: 470
+			rewards: [
+				{
+					id: "8400000000000010"
+					type: "xp"
+					xp: 1500
+				}
+			]
+			shape: "hexagon"
+			size: 2.5d
+			subtitle: "{lanminecraft.reforged.quests.20_otherside.b25b24b99d31b10d1533}"
+			tasks: [
+				{
+					id: "7400000000000019"
+					item: "deeperdarker:warden_chestplate"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.20_otherside.4dff5fc352740708a6d8}"
+			x: -3.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["6400000000000009"]
+			description: [
+				"{lanminecraft.reforged.quests.20_otherside.56722fe547f9cc650cd3}"
+				""
+				"{lanminecraft.reforged.quests.20_otherside.c508c98941ae5fb833b0}"
+			]
+			icon: "deeperdarker:warden_pickaxe"
+			id: "6400000000000011"
+			min_width: 440
+			optional: true
+			rewards: [
+				{
+					id: "8400000000000011"
+					type: "xp"
+					xp: 800
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.20_otherside.2ee11db7d77ed6bab604}"
+			tasks: [
+				{
+					id: "7400000000000020"
+					item: "deeperdarker:warden_pickaxe"
+					type: "item"
+				}
+				{
+					id: "7400000000000021"
+					item: "deeperdarker:warden_sword"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.20_otherside.00c71174a9c2b1b77fd9}"
+			x: -9.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"6400000000000006"
+				"6400000000000008"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.20_otherside.debd6437bf4bfb33fd27}"
+				""
+				"{lanminecraft.reforged.quests.20_otherside.c2d07cfff4c044a9338f}"
+			]
+			icon: "deeperdarker:soul_elytra"
+			id: "6400000000000012"
+			min_width: 450
+			optional: true
+			rewards: [
+				{
+					id: "8400000000000012"
+					type: "xp"
+					xp: 700
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.20_otherside.57f64bf9715866ab48f4}"
+			tasks: [
+				{
+					id: "7400000000000022"
+					item: "deeperdarker:soul_crystal"
+					type: "item"
+				}
+				{
+					id: "7400000000000023"
+					item: "deeperdarker:soul_elytra"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.20_otherside.f4546a21a87c77122b2e}"
+			x: 3.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["6400000000000006"]
+			description: [
+				"{lanminecraft.reforged.quests.20_otherside.b6264ccb026b801b424c}"
+				""
+				"{lanminecraft.reforged.quests.20_otherside.ca365a3caae0f9c8df25}"
+			]
+			icon: "deeperdarker:sculk_transmitter"
+			id: "6400000000000013"
+			min_width: 440
+			optional: true
+			rewards: [
+				{
+					id: "8400000000000013"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.20_otherside.57f64bf9715866ab48f4}"
+			tasks: [
+				{
+					id: "7400000000000024"
+					item: "deeperdarker:sculk_transmitter"
+					type: "item"
+				}
+				{
+					id: "7400000000000025"
+					item: "deeperdarker:heart_of_the_deep"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.20_otherside.7f4f0ae536b03814bc8e}"
+			x: 9.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"6400000000000010"
+				"6400000000000008"
+				"6400000000000004"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.20_otherside.8d6b7ed60fd1e9738854}"
+				""
+				"{lanminecraft.reforged.quests.20_otherside.75df2b9a503e60f0641f}"
+				""
+				"{lanminecraft.reforged.quests.20_otherside.ceee452d02ac2f3bd50d}"
+			]
+			icon: "deeperdarker:warden_helmet"
+			id: "6400000000000014"
+			min_width: 480
+			rewards: [
+				{
+					id: "8400000000000014"
+					type: "xp"
+					xp: 2000
+				}
+			]
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "{lanminecraft.reforged.quests.20_otherside.30a3ba3656df00eb3ef4}"
+			tasks: [
+				{
+					id: "7400000000000026"
+					item: "deeperdarker:warden_helmet"
+					type: "item"
+				}
+				{
+					id: "7400000000000027"
+					item: "deeperdarker:warden_chestplate"
+					type: "item"
+				}
+				{
+					id: "7400000000000028"
+					item: "deeperdarker:warden_leggings"
+					type: "item"
+				}
+				{
+					id: "7400000000000029"
+					item: "deeperdarker:warden_boots"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.20_otherside.c696cb4c57441ecdac43}"
+			x: 0.0d
+			y: 28.0d
+		}
+	]
+	subtitle: ["{lanminecraft.reforged.quests.20_otherside.56648a21bb381683947c}"]
+	title: "{lanminecraft.reforged.quests.20_otherside.a0b76db84d3b86f2288b}"
+}

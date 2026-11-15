@@ -1,0 +1,1856 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 320
+	default_quest_shape: ""
+	filename: "15_infinity"
+	group: "1000000000000001"
+	hide_quest_until_deps_visible: true
+	icon: "avaritia:infinity_ingot"
+	id: "200000000000000F"
+	order_index: 30
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3D00000000000059"]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.39c23ad74f7b67421274}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.d076fc33817fb1c51d83}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.7974ab5faddc2d612cba}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.fd9e0b2bc4e1a6191a7e}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.f42833ad795470bafe61}"
+			]
+			hide_until_deps_complete: true
+			icon: "kubejs:pack_certificate"
+			id: "3F00000000000001"
+			min_width: 460
+			rewards: [
+				{
+					id: "5F00000000000001"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.9b9a8d05a7ec353bda84}"
+			tasks: [
+				{
+					id: "4F00000000000001"
+					title: "{lanminecraft.reforged.quests.15_infinity.5ad3dbd1242a4cea217e}"
+					type: "checkmark"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.86846f67dd19ad454801}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3F00000000000001"
+				"3300000000000135"
+				"3D00000000000025"
+				"6000000000000022"
+				"3400000000000F20"
+				"3400000000000F21"
+				"3A00000000000F20"
+				"3A00000000000F21"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.61a801276b9db996128c}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.1a66e576696897afef0b}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.9736ac8ccb8f1390809a}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.c434427c15f8805e23f2}"
+			]
+			icon: "create:precision_mechanism"
+			id: "3F00000000000002"
+			min_width: 400
+			rewards: [
+				{
+					id: "5F00000000000002"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.2f2116ebf7b5fa83a364}"
+			tasks: [
+				{
+					id: "4F00000000000002"
+					item: "mekanism:antiprotonic_nucleosynthesizer"
+					type: "item"
+				}
+				{
+					id: "4F00000000000003"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+				{
+					id: "4F00000000000004"
+					item: "megacells:cell_component_256m"
+					type: "item"
+				}
+				{
+					id: "4F00000000000005"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+				{
+					id: "4F00000000000006"
+					item: "tconstruct:manyullyn_ingot"
+					type: "item"
+				}
+				{
+					id: "4F00000000000007"
+					item: "pneumaticcraft:jet_boots_upgrade_5"
+					type: "item"
+				}
+				{
+					id: "4F00000000000008"
+					item: "industrialforegoing:infinity_drill"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.81848c923ed13386c01c}"
+			x: -12.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"3F00000000000001"
+				"6200000000000016"
+				"6600000000000008"
+				"3500000000000F20"
+				"3500000000000F21"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.9f0feed8919fd69a9aa3}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.340919d33ca8d897cf12}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.092cd3cac36a16b24989}"
+			]
+			icon: "draconicevolution:chaotic_chestpiece"
+			id: "3F00000000000003"
+			min_width: 400
+			rewards: [
+				{
+					id: "5F00000000000003"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.ff88707c2ff8d609d53b}"
+			tasks: [
+				{
+					id: "4F00000000000009"
+					item: "draconicevolution:chaotic_chestpiece"
+					type: "item"
+				}
+				{
+					id: "4F00000000000010"
+					item: "nuclearcraft:fusion_core"
+					type: "item"
+				}
+				{
+					id: "4F00000000000011"
+					item: "powah:battery_nitro"
+					type: "item"
+				}
+				{
+					id: "4F00000000000012"
+					item: "rftoolsutility:matter_transmitter"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.faed935a85d346842cb6}"
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"3F00000000000001"
+				"3400000000000161"
+				"3700000000000003"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.ec5107dded5a7824f0ab}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.95917f35d5e8a71b80eb}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.369ffaf12c00d8ee9226}"
+			]
+			icon: "kubejs:contained_annihilation"
+			id: "3F00000000000004"
+			min_width: 400
+			rewards: [
+				{
+					id: "5F00000000000004"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.39479287efd469d4f93e}"
+			tasks: [
+				{
+					id: "4F00000000000013"
+					item: "alchemistry:dissolver_cascade"
+					type: "item"
+				}
+				{
+					id: "4F00000000000014"
+					item: "extendedcrafting:ultimate_singularity"
+					type: "item"
+				}
+				{
+					id: "4F00000000000015"
+					item: "kubejs:contained_annihilation"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.769b0a0444de9fd3ce61}"
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"3F00000000000001"
+				"6100000000000017"
+				"6500000000000008"
+				"6700000000000007"
+				"3A00000000000F22"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.bc40eee75df73261dc6c}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.c159e0fe4b29a41e7c5b}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.abc82f11df5d4b6b515f}"
+			]
+			icon: "forbidden_arcanus:eternal_stella"
+			id: "3F00000000000005"
+			min_width: 400
+			rewards: [
+				{
+					id: "5F00000000000005"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.ff88707c2ff8d609d53b}"
+			tasks: [
+				{
+					id: "4F00000000000016"
+					item: "ars_nouveau:archmage_spell_book"
+					type: "item"
+				}
+				{
+					id: "4F00000000000017"
+					item: "malum:soul_stained_steel_ingot"
+					type: "item"
+				}
+				{
+					id: "4F00000000000018"
+					item: "forbidden_arcanus:eternal_stella"
+					type: "item"
+				}
+				{
+					id: "4F00000000000019"
+					item: "apotheosis:sigil_of_socketing"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.8881dc11c3b69694d241}"
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"3F00000000000001"
+				"3E00000000000035"
+				"6300000000000010"
+				"6400000000000010"
+				"6800000000000006"
+				"3B00000000000F20"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.8d03b89a52f4d29893bf}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.e7c944a5f55eaadc0125}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.8d8e3a03867f4771c021}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.fc8afbfaa801edb51356}"
+			]
+			icon: "twilightforest:snow_queen_trophy"
+			id: "3F00000000000006"
+			min_width: 400
+			rewards: [
+				{
+					id: "5F00000000000006"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.dbe426bd52249bd302b3}"
+			tasks: [
+				{
+					id: "4F00000000000020"
+					item: "twilightforest:snow_queen_trophy"
+					type: "item"
+				}
+				{
+					id: "4F00000000000021"
+					item: "deeperdarker:warden_chestplate"
+					type: "item"
+				}
+				{
+					id: "4F00000000000022"
+					item: "ad_astra:calorite_ingot"
+					type: "item"
+				}
+				{
+					id: "4F00000000000023"
+					item: "hostilenetworks:end_prediction"
+					type: "item"
+				}
+				{
+					id: "4F00000000000024"
+					item: "sophisticatedstorage:netherite_barrel"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.8e1ae9f7112020c68b76}"
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"3F00000000000002"
+				"3F00000000000003"
+				"3F00000000000004"
+				"3F00000000000005"
+				"3F00000000000006"
+				"3F00000000000049"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.031a2b05ddb2c1a49a4e}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.781ea9c736bc034eafc7}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.27998b69bf3acf1402ff}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.d03cbae1b6ce2b2caad1}"
+			]
+			icon: "kubejs:pack_certificate"
+			id: "3F00000000000007"
+			min_width: 460
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/gamestage add {p} infinity"
+					elevate_perms: true
+					id: "5F00000000000007"
+					title: "{lanminecraft.reforged.quests.15_infinity.48b86cfe64bea2392640}"
+					type: "command"
+				}
+				{
+					id: "5F00000000000008"
+					type: "xp"
+					xp: 2000
+				}
+			]
+			shape: "hexagon"
+			size: 2.5d
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.971d2fab12db63a43756}"
+			tasks: [
+				{
+					id: "4F00000000000025"
+					item: "kubejs:pack_certificate"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.2a93a8a442e305e84da0}"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3F00000000000007"]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.18dde1d5b11f258ef7e7}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.25320a7cb573a5ce613c}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.846f70c0dada7e578da8}"
+			]
+			icon: "avaritia:end_crafting_table"
+			id: "3F00000000000008"
+			min_width: 400
+			rewards: [
+				{
+					id: "5F00000000000009"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.69e161d457c8265fd05d}"
+			tasks: [
+				{
+					id: "4F00000000000026"
+					item: "avaritia:compressed_crafting_table"
+					type: "item"
+				}
+				{
+					id: "4F00000000000027"
+					item: "avaritia:double_compressed_crafting_table"
+					type: "item"
+				}
+				{
+					id: "4F00000000000028"
+					item: "avaritia:nether_crafting_table"
+					type: "item"
+				}
+				{
+					id: "4F00000000000029"
+					item: "avaritia:end_crafting_table"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.d6d8c89de0541a256cd4}"
+			x: -4.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["3F00000000000007"]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.4769953854f9ada8084e}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.a989ea58725a8ac26a12}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.ef0afee16ba208d30ba8}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.64fe96800f755c3b4e56}"
+			]
+			icon: "minecraft:heart_of_the_sea"
+			id: "3F00000000000009"
+			min_width: 420
+			rewards: [
+				{
+					id: "5F00000000000010"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.d2d20381a96731cfb09a}"
+			tasks: [
+				{
+					id: "4F00000000000030"
+					item: "minecraft:heart_of_the_sea"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.5ba427c2513895c38e5b}"
+			x: 4.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"3F00000000000008"
+				"3F00000000000009"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.921bc22f87f4a2f68f24}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.ea04f3812565f5b56f2e}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.4bf29492fc24e6e5558a}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.078d336284eaf331fd77}"
+			]
+			icon: "avaritia:extreme_crafting_table"
+			id: "3F00000000000010"
+			min_width: 460
+			rewards: [
+				{
+					id: "5F00000000000011"
+					type: "xp"
+					xp: 1500
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.409f7ca2b66bc4eaad94}"
+			tasks: [
+				{
+					id: "4F00000000000031"
+					item: "avaritia:extreme_crafting_table"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.aac6e4f28d380d68080c}"
+			x: 0.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["3F00000000000010"]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.f663c60e6605e3c41611}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.93bb3dc5d8ee43ce6dc3}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.0fbcb46f3b43364c113c}"
+			]
+			icon: "nuclearscience:cellantimattersmall"
+			id: "3F00000000000011"
+			min_width: 440
+			rewards: [
+				{
+					id: "5F00000000000012"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.af71a62edd8e4d131dac}"
+			tasks: [
+				{
+					id: "4F00000000000032"
+					item: "avaritia:neutron_ingot"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.c177476d867634c58853}"
+			x: 0.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["3F00000000000011"]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.a69bd84102a4f5159e52}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.db57649b126ab7c0a5e9}"
+			]
+			icon: "avaritia:diamond_lattice"
+			id: "3F00000000000012"
+			rewards: [
+				{
+					id: "5F00000000000013"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.4d16e09d11df625ff5e0}"
+			tasks: [
+				{
+					count: 64L
+					id: "4F00000000000033"
+					item: "avaritia:diamond_lattice"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.73e585f5ba3d0b6508b3}"
+			x: -9.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["3F00000000000011"]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.eb579e006b069b9cd437}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.e9dc423af24a926967ab}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.96893d3377cafc7ed6e6}"
+			]
+			icon: "avaritia:crystal_matrix_ingot"
+			id: "3F00000000000013"
+			min_width: 400
+			rewards: [
+				{
+					id: "5F00000000000014"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.1e15fa3075476c641868}"
+			tasks: [
+				{
+					count: 64L
+					id: "4F00000000000034"
+					item: "avaritia:crystal_matrix_ingot"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.0905dca67c877f60bea2}"
+			x: -3.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["3F00000000000011"]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.8c364ddbb3be6f8fc1e6}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.1519556dbece09ce5113}"
+			]
+			icon: "avaritia:neutron_ingot"
+			id: "3F00000000000014"
+			rewards: [
+				{
+					id: "5F00000000000015"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.1e15fa3075476c641868}"
+			tasks: [
+				{
+					count: 64L
+					id: "4F00000000000035"
+					item: "avaritia:neutron_ingot"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.1a5a7c5c921dc053c116}"
+			x: 3.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["3F00000000000011"]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.3f45df42193d06a836dd}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.7792bfb28ced9db4aad8}"
+			]
+			icon: "avaritia:record_fragment"
+			id: "3F00000000000015"
+			min_width: 400
+			rewards: [
+				{
+					id: "5F00000000000016"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.1adbf07d72cfca34bd81}"
+			tasks: [
+				{
+					count: 32L
+					id: "4F00000000000036"
+					item: "avaritia:record_fragment"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.6973ccfc40ffb7f7aa68}"
+			x: 9.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["3F00000000000011"]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.e41242f0831e724a9381}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.e194d8793cd19869e3f2}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.ab0c03ebdf325618743f}"
+			]
+			icon: "avaritia:endest_pearl"
+			id: "3F00000000000016"
+			min_width: 420
+			rewards: [
+				{
+					id: "5F00000000000017"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.495c86064265ba49ba79}"
+			tasks: [
+				{
+					id: "4F00000000000037"
+					item: "avaritia:endest_pearl"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.7b69b7af9f4f1a9eb7f2}"
+			x: -3.0d
+			y: 29.0d
+		}
+		{
+			dependencies: ["3F00000000000011"]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.8ba856bbf4dace333bac}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.f5272f6dafcde6a043a6}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.fee79fa5e0c652304828}"
+			]
+			icon: "avaritia:cosmic_meatballs"
+			id: "3F00000000000017"
+			min_width: 400
+			rewards: [
+				{
+					id: "5F00000000000018"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.657a77fb92ef0a3d5102}"
+			tasks: [
+				{
+					id: "4F00000000000038"
+					item: "avaritia:cosmic_meatballs"
+					type: "item"
+				}
+				{
+					id: "4F00000000000039"
+					item: "avaritia:ultimate_stew"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.c1fe1d9cbcdcc2ec3ce3}"
+			x: 3.0d
+			y: 29.0d
+		}
+		{
+			dependencies: [
+				"3F00000000000012"
+				"3F00000000000013"
+				"3F00000000000014"
+				"3F00000000000015"
+				"3F00000000000016"
+				"3F00000000000017"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.2623a38933284849c2eb}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.42f2459fb308352224de}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.d555a78715f92aebf686}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.b8f99c56559fc7cc4f84}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.350c1bccc5ec173b1c73}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.eba352bd49cfb4d3d28d}"
+			]
+			icon: "avaritia:infinity_catalyst"
+			id: "3F00000000000018"
+			min_width: 460
+			rewards: [
+				{
+					id: "5F00000000000019"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.11436d1eab7bf7791f7a}"
+			tasks: [
+				{
+					count: 16L
+					id: "4F00000000000040"
+					item: "avaritia:infinity_catalyst"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.7f3eec332d77436c3a0f}"
+			x: 0.0d
+			y: 33.0d
+		}
+		{
+			dependencies: ["3F00000000000018"]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.314d858a92742cb7debe}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.2e0c2c0ae65c18cae7e2}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.a9550edcf9450ab32f23}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.1e8f5598c5402ceb0832}"
+			]
+			icon: "avaritia:infinity_ingot"
+			id: "3F00000000000019"
+			min_width: 460
+			rewards: [
+				{
+					id: "5F00000000000020"
+					type: "xp"
+					xp: 3000
+				}
+			]
+			shape: "hexagon"
+			size: 2.5d
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.5fbf7a2cdca189c2b69a}"
+			tasks: [
+				{
+					id: "4F00000000000041"
+					item: "avaritia:infinity_ingot"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.976be5c40cf83eabeba3}"
+			x: 0.0d
+			y: 37.0d
+		}
+		{
+			dependencies: ["3F00000000000019"]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.30c62857d1a802bf6302}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.90b7e5b157a520e2ed6c}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.c1535bd32aad31fd6531}"
+			]
+			icon: "avaritia:infinity_helmet"
+			id: "3F00000000000020"
+			min_width: 380
+			rewards: [
+				{
+					id: "5F00000000000021"
+					type: "xp"
+					xp: 800
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.23b5a79b8a830d60237f}"
+			tasks: [
+				{
+					id: "4F00000000000042"
+					item: "avaritia:infinity_helmet"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.ddce61fc35b7ef5ce22e}"
+			x: -9.0d
+			y: 42.0d
+		}
+		{
+			dependencies: ["3F00000000000019"]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.404dbd960752fe2bb75b}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.080902ee21adc8e778fd}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.c1535bd32aad31fd6531}"
+			]
+			icon: "avaritia:infinity_chestplate"
+			id: "3F00000000000021"
+			min_width: 380
+			rewards: [
+				{
+					id: "5F00000000000022"
+					type: "xp"
+					xp: 800
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.1557e54af66e3f8bd52a}"
+			tasks: [
+				{
+					id: "4F00000000000043"
+					item: "avaritia:infinity_chestplate"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.3a2045dfe51c3cbfa60b}"
+			x: -3.0d
+			y: 42.0d
+		}
+		{
+			dependencies: ["3F00000000000019"]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.ba1592dfb9601bbaa54a}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.afdb5bd41ab6f5012c11}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.c1535bd32aad31fd6531}"
+			]
+			icon: "avaritia:infinity_pants"
+			id: "3F00000000000022"
+			min_width: 380
+			rewards: [
+				{
+					id: "5F00000000000023"
+					type: "xp"
+					xp: 800
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.0cc51eac080f3b9d0650}"
+			tasks: [
+				{
+					id: "4F00000000000044"
+					item: "avaritia:infinity_pants"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.d1127a5a7064763cec1c}"
+			x: 3.0d
+			y: 42.0d
+		}
+		{
+			dependencies: ["3F00000000000019"]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.aabfa28bd89ced0812bc}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.7bccb1b5d36f7ab09b19}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.c1535bd32aad31fd6531}"
+			]
+			icon: "avaritia:infinity_boots"
+			id: "3F00000000000023"
+			min_width: 380
+			rewards: [
+				{
+					id: "5F00000000000024"
+					type: "xp"
+					xp: 800
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.d8916cd5dcc99989c8b1}"
+			tasks: [
+				{
+					id: "4F00000000000045"
+					item: "avaritia:infinity_boots"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.1c8ebdcc2c8e4302eccd}"
+			x: 9.0d
+			y: 42.0d
+		}
+		{
+			dependencies: ["3F00000000000019"]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.23742ab6bb68f3a37cca}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.63e956ea40299329399b}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.03cd678774fab9b6a84e}"
+			]
+			icon: "avaritia:infinity_pickaxe"
+			id: "3F00000000000024"
+			min_width: 380
+			rewards: [
+				{
+					id: "5F00000000000025"
+					type: "xp"
+					xp: 800
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.0cc51eac080f3b9d0650}"
+			tasks: [
+				{
+					id: "4F00000000000046"
+					item: "avaritia:infinity_pickaxe"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.522804f7bb2bdd6f57a2}"
+			x: -12.0d
+			y: 46.0d
+		}
+		{
+			dependencies: ["3F00000000000019"]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.2afb81f27bdb7695f5a7}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.ee4bab59de88ee5742bb}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.03cd678774fab9b6a84e}"
+			]
+			icon: "avaritia:infinity_sword"
+			id: "3F00000000000025"
+			min_width: 380
+			rewards: [
+				{
+					id: "5F00000000000026"
+					type: "xp"
+					xp: 800
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.54a1417a569c2da606b3}"
+			tasks: [
+				{
+					id: "4F00000000000047"
+					item: "avaritia:infinity_sword"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.eb242cc48aefd73e076e}"
+			x: -6.0d
+			y: 46.0d
+		}
+		{
+			dependencies: ["3F00000000000019"]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.754810f3e460ae0bef3c}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.0774e83eed910ad26f6a}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.03cd678774fab9b6a84e}"
+			]
+			icon: "avaritia:infinity_axe"
+			id: "3F00000000000026"
+			min_width: 380
+			rewards: [
+				{
+					id: "5F00000000000027"
+					type: "xp"
+					xp: 800
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.33aa30c008f61452f932}"
+			tasks: [
+				{
+					id: "4F00000000000048"
+					item: "avaritia:infinity_axe"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.3b43af26b075cb0c02d8}"
+			x: 0.0d
+			y: 46.0d
+		}
+		{
+			dependencies: ["3F00000000000019"]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.5c28051234a112fee1e8}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.30d83e7b69bbe0712aa2}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.03cd678774fab9b6a84e}"
+			]
+			icon: "avaritia:infinity_shovel"
+			id: "3F00000000000027"
+			min_width: 380
+			rewards: [
+				{
+					id: "5F00000000000028"
+					type: "xp"
+					xp: 800
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.3c33ac6c3513778f9db6}"
+			tasks: [
+				{
+					id: "4F00000000000049"
+					item: "avaritia:infinity_shovel"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.3414d7e5dce3921a5ee6}"
+			x: 6.0d
+			y: 46.0d
+		}
+		{
+			dependencies: ["3F00000000000019"]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.e086d6b8bbb2f632e4f3}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.bb2bc8f0179da48e938e}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.03cd678774fab9b6a84e}"
+			]
+			icon: "avaritia:infinity_hoe"
+			id: "3F00000000000028"
+			min_width: 380
+			rewards: [
+				{
+					id: "5F00000000000029"
+					type: "xp"
+					xp: 800
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.3c33ac6c3513778f9db6}"
+			tasks: [
+				{
+					id: "4F00000000000050"
+					item: "avaritia:infinity_hoe"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.385bfc253109a79f8102}"
+			x: 12.0d
+			y: 46.0d
+		}
+		{
+			dependencies: ["3F00000000000019"]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.2fa190cec73196b1f14b}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.dca2eb4df1f8922d3b04}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.0a57fe5d5072bfb7eb2f}"
+			]
+			icon: "avaritia:infinity_bow"
+			id: "3F00000000000029"
+			min_width: 380
+			rewards: [
+				{
+					id: "5F00000000000030"
+					type: "xp"
+					xp: 800
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.d8916cd5dcc99989c8b1}"
+			tasks: [
+				{
+					id: "4F00000000000051"
+					item: "avaritia:infinity_bow"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.d94c957725913e4fc961}"
+			x: -6.0d
+			y: 50.0d
+		}
+		{
+			dependencies: ["3F00000000000019"]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.a1a4de98afcdfb15552e}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.99bd27771a538077f67b}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.0a57fe5d5072bfb7eb2f}"
+			]
+			icon: "avaritia:infinity_crossbow"
+			id: "3F00000000000030"
+			min_width: 380
+			rewards: [
+				{
+					id: "5F00000000000031"
+					type: "xp"
+					xp: 800
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.121b259544c115d88f18}"
+			tasks: [
+				{
+					id: "4F00000000000052"
+					item: "avaritia:infinity_crossbow"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.5ebaa0fae51c5b03a63a}"
+			x: 0.0d
+			y: 50.0d
+		}
+		{
+			dependencies: ["3F00000000000019"]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.aa493c632140f2b1c0c3}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.7fa6f46aa5800ba21647}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.0a57fe5d5072bfb7eb2f}"
+			]
+			icon: "avaritia:infinity_trident"
+			id: "3F00000000000031"
+			min_width: 380
+			rewards: [
+				{
+					id: "5F00000000000032"
+					type: "xp"
+					xp: 800
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.985b24761db45582864e}"
+			tasks: [
+				{
+					id: "4F00000000000053"
+					item: "avaritia:infinity_trident"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.80299cc2817d1ed09ebf}"
+			x: 6.0d
+			y: 50.0d
+		}
+		{
+			dependencies: ["3F00000000000019"]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.ab44386120622d9f53a0}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.ff2e63d2cc67d92fce54}"
+			]
+			icon: "avaritia:infinity_shield"
+			id: "3F00000000000032"
+			min_width: 380
+			rewards: [
+				{
+					id: "5F00000000000033"
+					type: "xp"
+					xp: 800
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.121b259544c115d88f18}"
+			tasks: [
+				{
+					id: "4F00000000000054"
+					item: "avaritia:infinity_shield"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.ee26d25429aadfd85ac4}"
+			x: -3.0d
+			y: 54.0d
+		}
+		{
+			dependencies: ["3F00000000000019"]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.4844af5c625d1a17a375}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.a04060fb5ea904ecdc90}"
+			]
+			icon: "avaritia:infinity_umbrella"
+			id: "3F00000000000033"
+			min_width: 380
+			rewards: [
+				{
+					id: "5F00000000000034"
+					type: "xp"
+					xp: 800
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.d8916cd5dcc99989c8b1}"
+			tasks: [
+				{
+					id: "4F00000000000055"
+					item: "avaritia:infinity_umbrella"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.cc533abec9e1500d356c}"
+			x: 3.0d
+			y: 54.0d
+		}
+		{
+			dependencies: ["3F00000000000019"]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.1d72e728318787a63f70}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.9ba7823477940b4dddf7}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.6386a8be30548e8693aa}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.bfd5ad66083a687ce292}"
+			]
+			icon: "avaritia:upgrade_smithing_template"
+			id: "3F00000000000034"
+			min_width: 460
+			rewards: [
+				{
+					id: "5F00000000000035"
+					type: "xp"
+					xp: 1200
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.495c86064265ba49ba79}"
+			tasks: [
+				{
+					id: "4F00000000000056"
+					item: "avaritia:upgrade_smithing_template"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.abeb6a7de3214af22074}"
+			x: -4.0d
+			y: 58.0d
+		}
+		{
+			dependencies: ["3F00000000000019"]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.9fa10cc08584ea3ddd57}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.910405db0e9f2c6495f3}"
+			]
+			icon: "avaritia:extreme_smithing_table"
+			id: "3F00000000000035"
+			min_width: 420
+			rewards: [
+				{
+					id: "5F00000000000036"
+					type: "xp"
+					xp: 1200
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.356ae0dc71dad7398cfa}"
+			tasks: [
+				{
+					id: "4F00000000000057"
+					item: "avaritia:extreme_smithing_table"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.91e69f3772273e655c94}"
+			x: 4.0d
+			y: 58.0d
+		}
+		{
+			dependencies: [
+				"3F00000000000034"
+				"3F00000000000035"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.5498be2cb71879956c85}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.3bb27b44e3ce834239a2}"
+			]
+			icon: "avaritia:infinity_elytra"
+			id: "3F00000000000036"
+			min_width: 400
+			rewards: [
+				{
+					id: "5F00000000000037"
+					type: "xp"
+					xp: 900
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.30f28aa2c5cef29d0e2e}"
+			tasks: [
+				{
+					id: "4F00000000000058"
+					item: "avaritia:infinity_elytra"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.3b3f0425c6aca2ee273c}"
+			x: -9.0d
+			y: 62.0d
+		}
+		{
+			dependencies: [
+				"3F00000000000034"
+				"3F00000000000035"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.757bd583f8f78a71dbaa}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.3b21564d5c4d2935f2b6}"
+			]
+			icon: "avaritia:infinity_totem"
+			id: "3F00000000000037"
+			min_width: 400
+			rewards: [
+				{
+					id: "5F00000000000038"
+					type: "xp"
+					xp: 900
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.30f28aa2c5cef29d0e2e}"
+			tasks: [
+				{
+					id: "4F00000000000059"
+					item: "avaritia:infinity_totem"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.7fab4a6620b1cd7bb89f}"
+			x: -3.0d
+			y: 62.0d
+		}
+		{
+			dependencies: [
+				"3F00000000000034"
+				"3F00000000000035"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.258cf15adf47bfeb8c3c}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.ce1509df896eee3c24ca}"
+			]
+			icon: "avaritia:infinity_bucket"
+			id: "3F00000000000038"
+			min_width: 400
+			rewards: [
+				{
+					id: "5F00000000000039"
+					type: "xp"
+					xp: 900
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.30f28aa2c5cef29d0e2e}"
+			tasks: [
+				{
+					id: "4F00000000000060"
+					item: "avaritia:infinity_bucket"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.bf0f4893b36e41255584}"
+			x: 3.0d
+			y: 62.0d
+		}
+		{
+			dependencies: [
+				"3F00000000000034"
+				"3F00000000000035"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.fb5577b77254093cb71a}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.ebaec27dc79b86287016}"
+			]
+			icon: "avaritia:infinity_clock"
+			id: "3F00000000000039"
+			min_width: 400
+			rewards: [
+				{
+					id: "5F00000000000040"
+					type: "xp"
+					xp: 900
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.30f28aa2c5cef29d0e2e}"
+			tasks: [
+				{
+					id: "4F00000000000061"
+					item: "avaritia:infinity_clock"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.2f5f2af53d629a0bc697}"
+			x: 9.0d
+			y: 62.0d
+		}
+		{
+			dependencies: [
+				"3F00000000000034"
+				"3F00000000000035"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.5401f9f171ef68e470b5}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.6a7f70e752cc6a89be16}"
+			]
+			icon: "avaritia:infinity_chest"
+			id: "3F00000000000040"
+			min_width: 400
+			rewards: [
+				{
+					id: "5F00000000000041"
+					type: "xp"
+					xp: 900
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.306d7c88ced054865041}"
+			tasks: [
+				{
+					id: "4F00000000000062"
+					item: "avaritia:infinity_chest"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.97f1642cd0690ff2eda5}"
+			x: -6.0d
+			y: 66.0d
+		}
+		{
+			dependencies: [
+				"3F00000000000034"
+				"3F00000000000035"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.3daed23dc1eeae4fc7fd}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.616d2e2a22f36378674c}"
+			]
+			icon: "avaritia:extreme_anvil"
+			id: "3F00000000000041"
+			min_width: 400
+			rewards: [
+				{
+					id: "5F00000000000042"
+					type: "xp"
+					xp: 900
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.54fb63710a9c347c7974}"
+			tasks: [
+				{
+					id: "4F00000000000063"
+					item: "avaritia:extreme_anvil"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.052b3c132225f9d3546b}"
+			x: 0.0d
+			y: 66.0d
+		}
+		{
+			dependencies: [
+				"3F00000000000034"
+				"3F00000000000035"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.a00c22ae31f4733b3926}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.974b0c031fbee22184fe}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.d0ae40d4551a4ba29aad}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.5312fb92fa84d390a72d}"
+			]
+			icon: "avaritia:endless_cake"
+			id: "3F00000000000042"
+			min_width: 460
+			optional: true
+			rewards: [
+				{
+					id: "5F00000000000043"
+					type: "xp"
+					xp: 1500
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.3ad8a878599715bbbc17}"
+			tasks: [
+				{
+					id: "4F00000000000064"
+					item: "avaritia:endless_cake"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.2e43904670417ea9b3a7}"
+			x: 6.0d
+			y: 66.0d
+		}
+		{
+			dependencies: ["3F00000000000019"]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.f45d2413f984ffba7786}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.ccc8902d4bbbc8697ee5}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.6fe0828108b7cfdefeaf}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.9327427e09ad11384037}"
+			]
+			icon: "avaritia:eternal_singularity"
+			id: "3F00000000000043"
+			min_width: 460
+			optional: true
+			rewards: [
+				{
+					id: "5F00000000000044"
+					type: "xp"
+					xp: 1500
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.d81a79688c9a89b03cdb}"
+			tasks: [
+				{
+					id: "4F00000000000065"
+					item: "avaritia:eternal_singularity"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.e7c5d7250481b44ae82d}"
+			x: -6.0d
+			y: 70.0d
+		}
+		{
+			dependencies: ["3F00000000000018"]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.cff67f81b719027e4c33}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.ca10cf3b271f4492680c}"
+			]
+			icon: "avaritia:neutron_ring"
+			id: "3F00000000000044"
+			min_width: 400
+			optional: true
+			rewards: [
+				{
+					id: "5F00000000000045"
+					type: "xp"
+					xp: 700
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.356ae0dc71dad7398cfa}"
+			tasks: [
+				{
+					id: "4F00000000000066"
+					item: "avaritia:neutron_ring"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.b5d8ab61ce651c0229bc}"
+			x: 0.0d
+			y: 70.0d
+		}
+		{
+			dependencies: ["3F00000000000043"]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.cb6f0a2dc427e3ef5e49}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.617f853141b75ad0d6f1}"
+			]
+			icon: "avaritia:infinity_upgrade"
+			id: "3F00000000000045"
+			min_width: 400
+			optional: true
+			rewards: [
+				{
+					id: "5F00000000000046"
+					type: "xp"
+					xp: 1200
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.356ae0dc71dad7398cfa}"
+			tasks: [
+				{
+					id: "4F00000000000067"
+					item: "avaritia:infinity_upgrade"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.e2cb4eab30a31fed4def}"
+			x: 6.0d
+			y: 70.0d
+		}
+		{
+			dependencies: ["3F00000000000043"]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.ad537887bbace5d55480}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.16746e0211dea86148c5}"
+			]
+			icon: "avaritia:star_fuel"
+			id: "3F00000000000046"
+			min_width: 400
+			optional: true
+			rewards: [
+				{
+					id: "5F00000000000047"
+					type: "xp"
+					xp: 900
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.356ae0dc71dad7398cfa}"
+			tasks: [
+				{
+					id: "4F00000000000068"
+					item: "avaritia:star_fuel"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.931e3b1dcabceda06d79}"
+			x: 0.0d
+			y: 74.0d
+		}
+		{
+			dependencies: ["3F00000000000019"]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.d37dadc2fcd446065d01}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.8498ba958c2171a98259}"
+			]
+			icon: "avaritia:infinity"
+			id: "3F00000000000047"
+			min_width: 400
+			optional: true
+			rewards: [
+				{
+					id: "5F00000000000048"
+					type: "xp"
+					xp: 1500
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.e0f04b9ef8fc730ecec2}"
+			tasks: [
+				{
+					id: "4F00000000000069"
+					item: "avaritia:infinity"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.f23cab5b94e097be32e8}"
+			x: -6.0d
+			y: 74.0d
+		}
+		{
+			dependencies: [
+				"3F00000000000020"
+				"3F00000000000021"
+				"3F00000000000022"
+				"3F00000000000023"
+				"3F00000000000024"
+				"3F00000000000025"
+				"3F00000000000026"
+				"3F00000000000027"
+				"3F00000000000028"
+				"3F00000000000029"
+				"3F00000000000030"
+				"3F00000000000031"
+				"3F00000000000032"
+				"3F00000000000033"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.ced105e3f13913481692}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.0039a162eb40a2ea356e}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.76b43f00b05272ffad3b}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.6be207d24458523d9fae}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.99dd7da0cb3aaeb10b10}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.3a2524a031e4d620577c}"
+			]
+			icon: "avaritia:infinity_chestplate"
+			id: "3F00000000000048"
+			min_width: 500
+			rewards: [
+				{
+					id: "5F00000000000049"
+					type: "xp"
+					xp: 10000
+				}
+			]
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.781fc1b991aed6780b98}"
+			tasks: [
+				{
+					id: "4F00000000000070"
+					item: "avaritia:infinity_helmet"
+					type: "item"
+				}
+				{
+					id: "4F00000000000071"
+					item: "avaritia:infinity_chestplate"
+					type: "item"
+				}
+				{
+					id: "4F00000000000072"
+					item: "avaritia:infinity_pants"
+					type: "item"
+				}
+				{
+					id: "4F00000000000073"
+					item: "avaritia:infinity_boots"
+					type: "item"
+				}
+				{
+					id: "4F00000000000074"
+					item: "avaritia:infinity_sword"
+					type: "item"
+				}
+				{
+					id: "4F00000000000075"
+					item: "avaritia:infinity_pickaxe"
+					type: "item"
+				}
+				{
+					id: "4F00000000000076"
+					item: "avaritia:infinity_axe"
+					type: "item"
+				}
+				{
+					id: "4F00000000000077"
+					item: "avaritia:infinity_shovel"
+					type: "item"
+				}
+				{
+					id: "4F00000000000078"
+					item: "avaritia:infinity_bow"
+					type: "item"
+				}
+				{
+					id: "4F00000000000079"
+					item: "avaritia:infinity_trident"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.d0067cad9a63e0813759}"
+			x: 0.0d
+			y: 79.0d
+		}
+		{
+			dependencies: [
+				"3F00000000000001"
+				"6900000000000011"
+				"6A00000000000021"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.d2ed002c56b08ce9cd84}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.b31aa3339d235a25719b}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.d0931d0e7388f7ee3f21}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.c9743c9e4817b3d986e0}"
+			]
+			icon: "nuclearscience:celldarkmatter"
+			id: "3F00000000000049"
+			min_width: 400
+			rewards: [
+				{
+					id: "5F00000000000050"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.1114b7ff037bff982d75}"
+			tasks: [
+				{
+					id: "4F00000000000080"
+					item: "nuclearscience:celldarkmatter"
+					type: "item"
+				}
+				{
+					id: "4F00000000000081"
+					item: "tfmg:engine_controller"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.15_infinity.ab1a781d90aa7d3abe87}"
+			x: 12.5d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3F00000000000007"]
+			description: [
+				"{lanminecraft.reforged.quests.15_infinity.5b3a2fd0a121b3ec1b67}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.510837e4e12c2724dbe5}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.51ff32e2092838ebddd3}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.ce9a07353214c7d7e637}"
+				""
+				"{lanminecraft.reforged.quests.15_infinity.c21ecdd5d42bfdeeb97e}"
+			]
+			icon: "minecraft:redstone_torch"
+			id: "3F00000000000F10"
+			min_width: 380
+			optional: true
+			repeat_cooldown: 60L
+			rewards: [{
+				command: "/gamestage add {p} infinity"
+				elevate_perms: true
+				id: "5F00000000000F10"
+				player_command: false
+				title: "{lanminecraft.reforged.quests.15_infinity.65f7c57d2d9c41313c76}"
+				type: "command"
+			}]
+			shape: "diamond"
+			subtitle: "{lanminecraft.reforged.quests.15_infinity.228542f8870a4043009c}"
+			tasks: [{
+				id: "4F00000000000F10"
+				title: "{lanminecraft.reforged.quests.15_infinity.2cb3e2e1bb1637fdefe8}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.15_infinity.2186b5614f4d91cd22d3}"
+			x: 12.0d
+			y: 9.0d
+		}
+	]
+	subtitle: ["{lanminecraft.reforged.quests.15_infinity.cb48c590d06b48216e24}"]
+	title: "{lanminecraft.reforged.quests.15_infinity.68acddf6f6bcb10c0a68}"
+}

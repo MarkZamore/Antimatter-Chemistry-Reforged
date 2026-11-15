@@ -1,0 +1,945 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 320
+	default_quest_shape: ""
+	filename: "18_draconic"
+	group: "1000000000000001"
+	hide_quest_until_deps_visible: true
+	icon: "draconicevolution:awakened_core"
+	id: "2000000000000012"
+	order_index: 18
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3500000000000013"]
+			description: [
+				"{lanminecraft.reforged.quests.18_draconic.6811c2b81e18347859a6}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.ea87a5930bb94ec89d3f}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.3d2b0f8054da1114d58c}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.ebab0c10f0c217069038}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.a27573b052012a59601d}"
+			]
+			hide_until_deps_complete: true
+			icon: "draconicevolution:draconium_ingot"
+			id: "6200000000000001"
+			min_width: 470
+			rewards: [
+				{
+					id: "8200000000000001"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.18_draconic.9b9a8d05a7ec353bda84}"
+			tasks: [
+				{
+					id: "7200000000000001"
+					title: "{lanminecraft.reforged.quests.18_draconic.5ad3dbd1242a4cea217e}"
+					type: "checkmark"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.18_draconic.90e215b1187ad6ced3e8}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6200000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.18_draconic.fdf16dee0ab9a3333e30}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.89da73980b27fbbe1607}"
+			]
+			icon: "draconicevolution:draconium_ingot"
+			id: "6200000000000002"
+			min_width: 420
+			rewards: [
+				{
+					id: "8200000000000002"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.18_draconic.1e15fa3075476c641868}"
+			tasks: [
+				{
+					count: 64L
+					id: "7200000000000002"
+					item: "draconicevolution:draconium_ingot"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7200000000000003"
+					item: "draconicevolution:draconium_block"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.18_draconic.e44643807118995e19c6}"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6200000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.18_draconic.799c1ae072399259d4bb}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.1936019162d473574010}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.2263a8f53575dba3e5c8}"
+			]
+			icon: "draconicevolution:draconium_core"
+			id: "6200000000000003"
+			min_width: 420
+			rewards: [
+				{
+					id: "8200000000000003"
+					type: "xp"
+					xp: 250
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.18_draconic.0de91b3554de3bb87bce}"
+			tasks: [
+				{
+					count: 8L
+					id: "7200000000000004"
+					item: "draconicevolution:draconium_core"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.18_draconic.3f7d2106f76eea231535}"
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6200000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.18_draconic.8b533cad092f714a86de}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.ca2c75adfe4485ffd622}"
+			]
+			icon: "draconicevolution:generator"
+			id: "6200000000000004"
+			min_width: 420
+			rewards: [
+				{
+					id: "8200000000000004"
+					type: "xp"
+					xp: 150
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.18_draconic.35b8d30ec4cf10097836}"
+			tasks: [
+				{
+					id: "7200000000000005"
+					item: "draconicevolution:generator"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.18_draconic.762abc3ff650b042f542}"
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"6200000000000003"
+				"6200000000000004"
+				"6000000000000022"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.18_draconic.bd3a84158500e8cfe1b3}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.e6ef54a648eab63d621d}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.5f3b31ecbe66334977c8}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.74fc2275749cda0e971c}"
+			]
+			icon: "draconicevolution:crafting_core"
+			id: "6200000000000005"
+			min_width: 470
+			rewards: [
+				{
+					id: "8200000000000005"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.18_draconic.2f4dd4164c36f7369c9a}"
+			tasks: [
+				{
+					id: "7200000000000006"
+					item: "draconicevolution:crafting_core"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7200000000000007"
+					item: "draconicevolution:basic_crafting_injector"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.18_draconic.7955af2849ce3e923c7b}"
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"6200000000000005"
+				"3200000000000121"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.18_draconic.0b90e0eac78b81f49f46}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.883a344314e41adde307}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.1362d9cf70b56b317ce7}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.49fab2727fd92c9b56a4}"
+			]
+			icon: "draconicevolution:wyvern_core"
+			id: "6200000000000006"
+			min_width: 470
+			rewards: [
+				{
+					id: "8200000000000006"
+					type: "xp"
+					xp: 600
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.18_draconic.0de91b3554de3bb87bce}"
+			tasks: [
+				{
+					count: 8L
+					id: "7200000000000008"
+					item: "draconicevolution:wyvern_core"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.18_draconic.b6fd590a79f00586913a}"
+			x: -5.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["6200000000000005"]
+			description: [
+				"{lanminecraft.reforged.quests.18_draconic.f752533f6f19b732831d}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.f673ad295ce15fa31a50}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.83935d65c5fae810e9c8}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.ac717c0eea799f50b6cb}"
+			]
+			icon: "draconicevolution:energy_core"
+			id: "6200000000000007"
+			min_width: 470
+			rewards: [
+				{
+					id: "8200000000000007"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.18_draconic.2d587f95fa1b0cfacdbe}"
+			tasks: [
+				{
+					id: "7200000000000009"
+					item: "draconicevolution:energy_core"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7200000000000010"
+					item: "draconicevolution:energy_core_stabilizer"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7200000000000011"
+					item: "draconicevolution:energy_pylon"
+					type: "item"
+				}
+				{
+					id: "7200000000000012"
+					item: "draconicevolution:crystal_binder"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.18_draconic.d3b9ea6de9ecef308d31}"
+			x: 5.0d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"6200000000000006"
+				"6200000000000020"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.18_draconic.5fa1e1b5db3da877f88d}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.994d041a9c1b1fcad2df}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.a5ce28cc594f1c88bec8}"
+			]
+			icon: "draconicevolution:wyvern_chestpiece"
+			id: "6200000000000008"
+			min_width: 440
+			rewards: [
+				{
+					id: "8200000000000008"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.18_draconic.878792594adf1e90ea52}"
+			tasks: [
+				{
+					id: "7200000000000013"
+					item: "draconicevolution:wyvern_pickaxe"
+					type: "item"
+				}
+				{
+					id: "7200000000000014"
+					item: "draconicevolution:wyvern_sword"
+					type: "item"
+				}
+				{
+					id: "7200000000000015"
+					item: "draconicevolution:wyvern_chestpiece"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.18_draconic.8da18e8d6e50134df612}"
+			x: -8.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["6200000000000006"]
+			description: [
+				"{lanminecraft.reforged.quests.18_draconic.0831dd40145d18a8a667}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.c151087166efb0a13a44}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.134b0b533275ee1869ab}"
+			]
+			icon: "draconicevolution:dragon_heart"
+			id: "6200000000000009"
+			min_width: 470
+			rewards: [
+				{
+					id: "8200000000000009"
+					type: "xp"
+					xp: 800
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.18_draconic.9bfbfbc4f34a738587d2}"
+			tasks: [
+				{
+					id: "7200000000000016"
+					item: "draconicevolution:dragon_heart"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.18_draconic.bbb9d2883a2b8fc88f1b}"
+			x: 0.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"6200000000000009"
+				"6200000000000007"
+				"6100000000000005"
+				"6200000000000020"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.18_draconic.dee9e99635956fb0777b}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.d6860b177ecab545c3d0}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.e4868438fb1f190a9dc1}"
+			]
+			icon: "draconicevolution:awakened_core"
+			id: "6200000000000010"
+			min_width: 470
+			rewards: [
+				{
+					id: "8200000000000010"
+					type: "xp"
+					xp: 900
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.18_draconic.9b085d89e3530e59c804}"
+			tasks: [
+				{
+					count: 16L
+					id: "7200000000000017"
+					item: "draconicevolution:awakened_draconium_ingot"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7200000000000018"
+					item: "draconicevolution:awakened_core"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.18_draconic.1f2df866fe064df574bb}"
+			x: 0.0d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"6200000000000010"
+				"6200000000000021"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.18_draconic.cd5ce0250e2831503fb5}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.5d60a6ed541aa401170f}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.8a9e74808219e9edae78}"
+			]
+			icon: "draconicevolution:draconic_chestpiece"
+			id: "6200000000000011"
+			min_width: 440
+			rewards: [
+				{
+					id: "8200000000000011"
+					type: "xp"
+					xp: 800
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.18_draconic.878792594adf1e90ea52}"
+			tasks: [
+				{
+					id: "7200000000000019"
+					item: "draconicevolution:draconic_pickaxe"
+					type: "item"
+				}
+				{
+					id: "7200000000000020"
+					item: "draconicevolution:draconic_sword"
+					type: "item"
+				}
+				{
+					id: "7200000000000021"
+					item: "draconicevolution:draconic_chestpiece"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.18_draconic.4b64d463801d921288ca}"
+			x: -6.0d
+			y: 28.0d
+		}
+		{
+			dependencies: [
+				"6200000000000010"
+				"6200000000000021"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.18_draconic.0800370df01ab4b96333}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.89046ae94f783f009f78}"
+			]
+			icon: "draconicevolution:draconic_staff"
+			id: "6200000000000012"
+			min_width: 440
+			optional: true
+			rewards: [
+				{
+					id: "8200000000000012"
+					type: "xp"
+					xp: 800
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.18_draconic.356ae0dc71dad7398cfa}"
+			tasks: [
+				{
+					id: "7200000000000022"
+					item: "draconicevolution:draconic_staff"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.18_draconic.32b14ce89266ffa22193}"
+			x: 6.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["6200000000000015"]
+			description: [
+				"{lanminecraft.reforged.quests.18_draconic.faa7cdc3d4398176127d}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.1537b0f1f090d42c883e}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.8136379143e4019dbfcf}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.c636a3f6aa2b252124c7}"
+			]
+			icon: "draconicevolution:reactor_core"
+			id: "6200000000000013"
+			min_width: 480
+			optional: true
+			rewards: [
+				{
+					id: "8200000000000013"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.18_draconic.c76b22d022fd7b17044f}"
+			tasks: [
+				{
+					id: "7200000000000023"
+					item: "draconicevolution:reactor_core"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7200000000000024"
+					item: "draconicevolution:reactor_stabilizer"
+					type: "item"
+				}
+				{
+					id: "7200000000000025"
+					item: "draconicevolution:reactor_injector"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.18_draconic.8baffcb2ed8755b4f71c}"
+			x: 6.0d
+			y: 41.0d
+		}
+		{
+			dependencies: ["6200000000000011"]
+			description: [
+				"{lanminecraft.reforged.quests.18_draconic.66772b28927f2245a6c9}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.6bd1a3dcddd5bde0a9c5}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.d756b1bb6e8c91c0241d}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.42656ec311d15a3dbdaf}"
+			]
+			icon: "draconicevolution:chaos_shard"
+			id: "6200000000000014"
+			min_width: 490
+			rewards: [
+				{
+					id: "8200000000000014"
+					type: "xp"
+					xp: 1500
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.18_draconic.7d2b6e2ee0919e663c31}"
+			tasks: [
+				{
+					id: "7200000000000026"
+					item: "draconicevolution:chaos_shard"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.18_draconic.a7dfc1f7318c745afc42}"
+			x: 0.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["6200000000000014"]
+			description: [
+				"{lanminecraft.reforged.quests.18_draconic.ede2a4e98bac5b8b3f58}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.3460b3d8a30bab95c3f0}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.b4f6c17c51d3af6df7cf}"
+			]
+			icon: "draconicevolution:chaotic_core"
+			id: "6200000000000015"
+			min_width: 460
+			rewards: [
+				{
+					id: "8200000000000015"
+					type: "xp"
+					xp: 1500
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.18_draconic.84309da8e52cae9fa16a}"
+			tasks: [
+				{
+					count: 4L
+					id: "7200000000000027"
+					item: "draconicevolution:chaotic_core"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7200000000000028"
+					item: "draconicevolution:chaotic_crafting_injector"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.18_draconic.20fb7f789beeb4b2d0e3}"
+			x: 0.0d
+			y: 36.0d
+		}
+		{
+			dependencies: ["6200000000000015"]
+			description: [
+				"{lanminecraft.reforged.quests.18_draconic.0ad17dde2409b027f4b1}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.002f38b9680d55e3cbc1}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.74994d2ca21a16637904}"
+			]
+			icon: "draconicevolution:chaotic_chestpiece"
+			id: "6200000000000016"
+			min_width: 470
+			rewards: [
+				{
+					id: "8200000000000016"
+					type: "xp"
+					xp: 2500
+				}
+			]
+			shape: "hexagon"
+			size: 2.5d
+			subtitle: "{lanminecraft.reforged.quests.18_draconic.112bf82b71ec6f2eb6e0}"
+			tasks: [
+				{
+					id: "7200000000000029"
+					item: "draconicevolution:chaotic_chestpiece"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.18_draconic.d08a3fab707a9e2e471e}"
+			x: 0.0d
+			y: 41.0d
+		}
+		{
+			dependencies: ["6200000000000015"]
+			description: [
+				"{lanminecraft.reforged.quests.18_draconic.f6f418f5cf15c447bf33}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.ca69bfb12c18898cb336}"
+			]
+			icon: "draconicevolution:chaotic_staff"
+			id: "6200000000000017"
+			min_width: 440
+			optional: true
+			rewards: [
+				{
+					id: "8200000000000017"
+					type: "xp"
+					xp: 1500
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.18_draconic.878792594adf1e90ea52}"
+			tasks: [
+				{
+					id: "7200000000000030"
+					item: "draconicevolution:chaotic_pickaxe"
+					type: "item"
+				}
+				{
+					id: "7200000000000031"
+					item: "draconicevolution:chaotic_sword"
+					type: "item"
+				}
+				{
+					id: "7200000000000032"
+					item: "draconicevolution:chaotic_staff"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.18_draconic.6c050a89497cf6f1ad21}"
+			x: -6.0d
+			y: 41.0d
+		}
+		{
+			dependencies: ["6200000000000010"]
+			description: [
+				"{lanminecraft.reforged.quests.18_draconic.4eb7443988d2a401db27}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.5531baa861a8b98e6c8b}"
+			]
+			icon: "draconicevolution:dislocator"
+			id: "6200000000000018"
+			min_width: 450
+			optional: true
+			rewards: [
+				{
+					id: "8200000000000018"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.18_draconic.878792594adf1e90ea52}"
+			tasks: [
+				{
+					id: "7200000000000033"
+					item: "draconicevolution:dislocator"
+					type: "item"
+				}
+				{
+					id: "7200000000000034"
+					item: "draconicevolution:magnet"
+					type: "item"
+				}
+				{
+					id: "7200000000000035"
+					item: "draconicevolution:grinder"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.18_draconic.0fc8e3abb2e40eed53ad}"
+			x: 6.0d
+			y: 36.0d
+		}
+		{
+			dependencies: [
+				"6200000000000016"
+				"6200000000000006"
+				"6200000000000007"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.18_draconic.a0f12134b3cd9a8970b1}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.b4a435a05560a1a2cbcb}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.f4832b729b916fb1b4aa}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.c13d5179a3bb5c231af6}"
+			]
+			icon: "draconicevolution:wyvern_core"
+			id: "6200000000000019"
+			min_width: 480
+			rewards: [
+				{
+					id: "8200000000000019"
+					type: "xp"
+					xp: 3000
+				}
+			]
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "{lanminecraft.reforged.quests.18_draconic.ce2befb123ec460c0cd5}"
+			tasks: [
+				{
+					count: 64L
+					id: "7200000000000036"
+					item: "draconicevolution:wyvern_core"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.18_draconic.1f7b027b50eedb2bcb75}"
+			x: 0.0d
+			y: 46.0d
+		}
+		{
+			dependencies: [
+				"6200000000000005"
+				"6200000000000006"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.18_draconic.42cf3b5a68c818663e52}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.3ef50564e22407856a70}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.e681ac8247c9f413b19f}"
+			]
+			icon: "draconicevolution:wyvern_crafting_injector"
+			id: "6200000000000020"
+			min_width: 460
+			rewards: [
+				{
+					id: "8200000000000020"
+					type: "xp"
+					xp: 600
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.18_draconic.e0e46b9cbec0e5059832}"
+			tasks: [
+				{
+					count: 10L
+					id: "7200000000000037"
+					item: "draconicevolution:wyvern_crafting_injector"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.18_draconic.7bfdd73aa869702ca72f}"
+			x: -4.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["6200000000000010"]
+			description: [
+				"{lanminecraft.reforged.quests.18_draconic.9e3326c255464929cadf}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.089f39cef8de0ed4904d}"
+			]
+			icon: "draconicevolution:awakened_crafting_injector"
+			id: "6200000000000021"
+			min_width: 460
+			rewards: [
+				{
+					id: "8200000000000021"
+					type: "xp"
+					xp: 900
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.18_draconic.fd87891e56b29fd422b6}"
+			tasks: [
+				{
+					count: 12L
+					id: "7200000000000038"
+					item: "draconicevolution:awakened_crafting_injector"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.18_draconic.7ad2f86a68c6a27aa859}"
+			x: 4.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["6200000000000020"]
+			description: [
+				"{lanminecraft.reforged.quests.18_draconic.c98150dd80f0badff4fc}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.a1028c9c1ea600aaae40}"
+			]
+			icon: "draconicevolution:draconium_chest"
+			id: "6200000000000022"
+			min_width: 420
+			optional: true
+			rewards: [
+				{
+					id: "8200000000000022"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.18_draconic.878792594adf1e90ea52}"
+			tasks: [
+				{
+					id: "7200000000000039"
+					item: "draconicevolution:draconium_chest"
+					type: "item"
+				}
+				{
+					id: "7200000000000040"
+					item: "draconicevolution:wyvern_capacitor"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.18_draconic.9239c83edc54645c31ed}"
+			x: -9.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["6200000000000008"]
+			description: [
+				"{lanminecraft.reforged.quests.18_draconic.a219e492a5c03ceb5574}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.0c087971e098dda40dc9}"
+			]
+			icon: "draconicadditions:wyvern_necklace"
+			id: "6200000000000023"
+			min_width: 440
+			optional: true
+			rewards: [
+				{
+					id: "8200000000000023"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.18_draconic.35a4196e76db0754f078}"
+			tasks: [
+				{
+					id: "7200000000000041"
+					item: "draconicadditions:wyvern_necklace"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.18_draconic.8f48621d7ec6171672f7}"
+			x: -12.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["6200000000000015"]
+			description: [
+				"{lanminecraft.reforged.quests.18_draconic.c95ebf78ceea2c7dc27f}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.a383e96d3efa8f1ee6d9}"
+			]
+			icon: "draconicadditions:chaos_liquifier"
+			id: "6200000000000024"
+			min_width: 460
+			optional: true
+			rewards: [
+				{
+					id: "8200000000000024"
+					type: "xp"
+					xp: 800
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.18_draconic.b428bef7f419ed861ba9}"
+			tasks: [
+				{
+					id: "7200000000000042"
+					item: "draconicadditions:chaos_container"
+					type: "item"
+				}
+				{
+					id: "7200000000000043"
+					item: "draconicadditions:chaos_liquifier"
+					type: "item"
+				}
+				{
+					id: "7200000000000044"
+					item: "draconicadditions:chaos_crystalizer"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.18_draconic.f7921a0803e0763ca4e5}"
+			x: -6.0d
+			y: 36.0d
+		}
+		{
+			dependencies: ["6200000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.18_draconic.cdb75482dc566667145c}"
+				""
+				"{lanminecraft.reforged.quests.18_draconic.0a898f17fd31bf4f2f1d}"
+			]
+			icon: "draconicadditions:infused_potato_chest"
+			id: "6200000000000025"
+			min_width: 420
+			optional: true
+			rewards: [
+				{
+					id: "8200000000000025"
+					type: "xp"
+					xp: 150
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.18_draconic.87425985ea1615c5d7bd}"
+			tasks: [
+				{
+					id: "7200000000000045"
+					item: "draconicadditions:infused_potato_chest"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.18_draconic.73ece7a66298d30c1765}"
+			x: 9.0d
+			y: 8.0d
+		}
+	]
+	subtitle: ["{lanminecraft.reforged.quests.18_draconic.6ff3b4f7686f9dd7501f}"]
+	title: "{lanminecraft.reforged.quests.18_draconic.952dadb0f43ff1c06ce3}"
+}

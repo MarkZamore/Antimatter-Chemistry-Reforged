@@ -1,0 +1,4060 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: ""
+	filename: "08_compounds"
+	group: "1000000000000001"
+	hide_quest_until_deps_visible: true
+	icon: "chemlib:sulfuric_acid"
+	id: "2000000000000008"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3300000000000004"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.1464812d7886642d6f66}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.94cf502cb9008ac2780f}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.38bf9b994df773f0c488}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.2d688e9b0973d87a61f8}"
+			]
+			hide_until_deps_complete: true
+			icon: "chemlib:sulfuric_acid"
+			id: "3800000000000001"
+			min_width: 380
+			rewards: [{
+				id: "5800000000000001"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.39c7c702790999470f2b}"
+			tasks: [{
+				id: "4800000000000001"
+				title: "{lanminecraft.reforged.quests.08_compounds.5ad3dbd1242a4cea217e}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.699b1645417d317ebec5}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3800000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.41b5bc0c08f603b12730}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.9aa809b956ea5f9e636a}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.b1f73b6dcd17b7a75873}"
+			]
+			icon: "chemlib:sulfuric_acid"
+			id: "3800000000000002"
+			min_width: 350
+			rewards: [{
+				id: "5800000000000002"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.d9932d4d903f6b09dc49}"
+			tasks: [{
+				count: 16L
+				id: "4800000000000002"
+				item: "chemlib:sulfuric_acid"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.fa20c2f2877c238f7733}"
+			x: -21.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3800000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.06ad957a4c566a117ec9}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.895d7f60b7db86bec4a3}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.ceb24ead7ea794dbf89c}"
+			]
+			icon: "chemlib:sulfur_trioxide"
+			id: "3800000000000003"
+			rewards: [{
+				id: "5800000000000003"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.066c454cb34e5b8ddf31}"
+			tasks: [{
+				count: 8L
+				id: "4800000000000003"
+				item: "chemlib:sulfur_trioxide"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.0339527775dd9899a154}"
+			x: -23.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3800000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.3ee6da304be12d2fdafc}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.5d6ae89921ae63f7950c}"
+			]
+			icon: "chemlib:hydrochloric_acid"
+			id: "3800000000000004"
+			rewards: [{
+				id: "5800000000000004"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.480e4f037e63d8dfffea}"
+			tasks: [{
+				count: 16L
+				id: "4800000000000004"
+				item: "chemlib:hydrochloric_acid"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.daa92b41a7c3d80ba3b5}"
+			x: -21.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3800000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.881fe1a59e006ca0536a}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.5c4f61d0c18fbd09343d}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.27624b174b066a01249c}"
+			]
+			icon: "chemlib:nitric_acid"
+			id: "3800000000000005"
+			rewards: [{
+				id: "5800000000000005"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.8cadc04e1c2ead50a64a}"
+			tasks: [{
+				count: 16L
+				id: "4800000000000005"
+				item: "chemlib:nitric_acid"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.f7d0d2e8ea92ef2a8c8b}"
+			x: -19.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3800000000000004"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.fd8adabb1bb1a26547af}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.898a5a218992faecdbe8}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.99061ec3fddfcd2e040d}"
+			]
+			icon: "chemlib:phosphoric_acid"
+			id: "3800000000000006"
+			rewards: [{
+				id: "5800000000000006"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.969fd5d464da48257a83}"
+			tasks: [{
+				count: 16L
+				id: "4800000000000006"
+				item: "chemlib:phosphoric_acid"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.a678988fbed85785f891}"
+			x: -21.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3800000000000003"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.0dc5406cc87bf57c4c1f}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.dd99f588524ee8b97339}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.f53d55cb589bd9fa196d}"
+			]
+			icon: "chemlib:sulfur_dioxide"
+			id: "3800000000000007"
+			optional: true
+			rewards: [{
+				id: "5800000000000007"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.3b998c6ddbefe36e6ac3}"
+			tasks: [{
+				count: 16L
+				id: "4800000000000007"
+				item: "chemlib:sulfur_dioxide"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.b8fd0097700c67f1647e}"
+			x: -23.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3800000000000007"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.d2bf15513231defd5db8}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.4379bcb08a2b08dc00f5}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.83f8ab3242d2c90c1b7a}"
+			]
+			icon: "chemlib:acetic_acid"
+			id: "3800000000000008"
+			optional: true
+			rewards: [{
+				id: "5800000000000008"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.edf25299484a924eb89f}"
+			tasks: [{
+				count: 16L
+				id: "4800000000000008"
+				item: "chemlib:acetic_acid"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.d4603c2f45593153b060}"
+			x: -23.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3800000000000005"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.197fb6e16d76dd62103c}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.5e04f31946812a70a694}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.62a12520f9832d298763}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.01992981438854d24e0f}"
+			]
+			icon: "chemlib:acetylsalicylic_acid"
+			id: "3800000000000009"
+			min_width: 350
+			rewards: [{
+				id: "5800000000000009"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.344bd7016b86bda43dea}"
+			tasks: [{
+				count: 16L
+				id: "4800000000000009"
+				item: "chemlib:acetylsalicylic_acid"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.1fd9d8185721da79d3b3}"
+			x: -19.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3800000000000006"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.9429d6280eb057def145}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.96894ddb5f831b3efef3}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.a0a5d224ae07469bdd05}"
+			]
+			icon: "chemlib:hydrogen_sulfide"
+			id: "3800000000000010"
+			optional: true
+			rewards: [{
+				id: "5800000000000010"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.f7968a60890c1b95df38}"
+			tasks: [{
+				count: 8L
+				id: "4800000000000010"
+				item: "chemlib:hydrogen_sulfide"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.05e73c13f2dc245d4fce}"
+			x: -21.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3800000000000008"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.ebc9b327137895c8169e}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.c61b212c4636700566ff}"
+			]
+			icon: "chemlib:sodium_bisulfate"
+			id: "3800000000000011"
+			optional: true
+			rewards: [{
+				id: "5800000000000011"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.603666e94ce878ecc743}"
+			tasks: [{
+				count: 8L
+				id: "4800000000000011"
+				item: "chemlib:sodium_bisulfate"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.29173ec94d663488d6aa}"
+			x: -23.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3800000000000010"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.2b068d12f4b230b80236}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.2a2f384807bf5c6f8cf9}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.16f29c89db6a5da86741}"
+			]
+			icon: "minecraft:chest"
+			id: "3800000000000012"
+			min_width: 340
+			rewards: [{
+				id: "5800000000000012"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.207c31f72e20e7845356}"
+			tasks: [{
+				id: "4800000000000012"
+				title: "{lanminecraft.reforged.quests.08_compounds.b26dbb1b90ec2a44c636}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.5277d901e2ce01356aa8}"
+			x: -21.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3800000000000009"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.a12c968e2d65c57a4392}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.aa9865b53ac67bfe24a4}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.bd40d3c8d2f3f56f7b46}"
+			]
+			icon: "mekanism:chemical_infuser"
+			id: "3800000000000013"
+			min_width: 360
+			rewards: [{
+				id: "5800000000000013"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.ad618f40f30e363d3825}"
+			tasks: [
+				{
+					id: "4800000000000013"
+					item: "mekanism:chemical_infuser"
+					type: "item"
+				}
+				{
+					id: "4800000000000014"
+					title: "{lanminecraft.reforged.quests.08_compounds.91e312b5b5ffc79e19ba}"
+					type: "checkmark"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.08_compounds.a358a23fa9ab6b62a78b}"
+			x: -19.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"3800000000000012"
+				"3800000000000013"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.39c1c3759f62b049a70f}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.38fdd5b3fb1d95640ea6}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.5ed5d2853cf153f87a72}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.0b15e41baf8ba8d5f532}"
+			]
+			icon: "mekanism:hydrofluoric_acid_bucket"
+			id: "3800000000000014"
+			min_width: 400
+			rewards: [{
+				id: "5800000000000014"
+				type: "xp"
+				xp: 60
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.68ed6313ded2c9374e80}"
+			tasks: [
+				{
+					count: 8L
+					id: "4800000000000015"
+					item: "mekanism:fluorite_gem"
+					type: "item"
+				}
+				{
+					id: "4800000000000016"
+					item: "mekanism:hydrofluoric_acid_bucket"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.08_compounds.036bb691e6eb661806eb}"
+			x: -21.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["3800000000000013"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.8d2fac3d73a97ecfaa4b}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.fee6f7ed5743bcf2d6c3}"
+			]
+			icon: "chemlib:sodium_sulfate"
+			id: "3800000000000015"
+			optional: true
+			rewards: [{
+				id: "5800000000000015"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.fde7b4bdfbd1a2b118e1}"
+			tasks: [{
+				count: 8L
+				id: "4800000000000017"
+				item: "chemlib:sodium_sulfate"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.447958172d17dde4a30f}"
+			x: -19.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3800000000000014"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.4acce83bd9a8f2017007}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.7cd5e2c9f9a56682ed91}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.2c6c74fc8b5812391e0a}"
+			]
+			icon: "alchemistry:dissolver"
+			id: "3800000000000016"
+			min_width: 350
+			rewards: [{
+				id: "5800000000000016"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.57d33b6dffd626cd7ce1}"
+			tasks: [
+				{
+					count: 64L
+					id: "4800000000000018"
+					item: "chemlib:sulfuric_acid"
+					type: "item"
+				}
+				{
+					id: "4800000000000019"
+					title: "{lanminecraft.reforged.quests.08_compounds.e779637ea3b2480194b7}"
+					type: "checkmark"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.08_compounds.20fe5a980e501994fee0}"
+			x: -21.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["3800000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.ac9123fc47628ccccf5e}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.8ce77448aa89afacf00b}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.a84cedec25983c96fe56}"
+			]
+			icon: "chemlib:hydroxide"
+			id: "3800000000000017"
+			min_width: 360
+			rewards: [{
+				id: "5800000000000017"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.5b76403793696258e46b}"
+			tasks: [
+				{
+					count: 32L
+					id: "4800000000000020"
+					item: "chemlib:hydroxide"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "4800000000000021"
+					item: "chemlib:carbonate"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4800000000000022"
+					item: "chemlib:nitrate"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4800000000000023"
+					item: "chemlib:phosphate"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4800000000000024"
+					item: "chemlib:amide"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.08_compounds.6b226444201eb9ed43f3}"
+			x: -15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3800000000000017"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.031ca25fa710b9bf8784}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.12aad3c7876dfb280f6e}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.f0ec2fba802823e05046}"
+			]
+			icon: "chemlib:sodium_hydroxide"
+			id: "3800000000000018"
+			rewards: [{
+				id: "5800000000000018"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.ff41115023e931efa8c4}"
+			tasks: [{
+				count: 32L
+				id: "4800000000000025"
+				item: "chemlib:sodium_hydroxide"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.4654fb91252147aada38}"
+			x: -17.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3800000000000017"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.cedae1eee18005d97b8a}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.fac2a13fe142c0a17baa}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.8730caa677880607ccdb}"
+			]
+			icon: "chemlib:calcium_oxide"
+			id: "3800000000000019"
+			min_width: 350
+			rewards: [{
+				id: "5800000000000019"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.129e1e5daca97ee768f8}"
+			tasks: [
+				{
+					count: 16L
+					id: "4800000000000026"
+					item: "chemlib:calcium_oxide"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4800000000000027"
+					item: "chemlib:calcium_hydroxide"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.08_compounds.70b120e327e053e796b0}"
+			x: -15.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3800000000000017"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.13e891de4f72bc9bc7aa}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.2f4296807ed35c2f9acc}"
+			]
+			icon: "chemlib:potassium_hydroxide"
+			id: "3800000000000020"
+			optional: true
+			rewards: [{
+				id: "5800000000000020"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.11b3be870c691a83690b}"
+			tasks: [{
+				count: 16L
+				id: "4800000000000028"
+				item: "chemlib:potassium_hydroxide"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.65d7e0fc4c5f136e659c}"
+			x: -13.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3800000000000019"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.2bdf356a4e1d89f171d9}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.b6601c159c99ca983ddd}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.a7a87d79c68558fc32d3}"
+			]
+			icon: "chemlib:lithium_hydroxide"
+			id: "3800000000000021"
+			min_width: 360
+			rewards: [{
+				id: "5800000000000021"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.4b0682d0136f1475ae35}"
+			tasks: [{
+				count: 16L
+				id: "4800000000000029"
+				item: "chemlib:lithium_hydroxide"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.9408ae129c836e5e4117}"
+			x: -15.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3800000000000018"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.39affc9efe07ca9eaa42}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.ee96c0e7841993aba8e4}"
+			]
+			icon: "chemlib:barium_hydroxide"
+			id: "3800000000000022"
+			optional: true
+			rewards: [{
+				id: "5800000000000022"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.168c7e43e366e5274cbd}"
+			tasks: [
+				{
+					count: 8L
+					id: "4800000000000030"
+					item: "chemlib:barium_hydroxide"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4800000000000031"
+					item: "chemlib:ammonium_chloride"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.08_compounds.3848224c62f39028bd74}"
+			x: -17.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3800000000000020"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.e642b1e62d16ca3e7c3e}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.71a8410f5a760fe17ca5}"
+			]
+			icon: "chemlib:aluminum_hydroxide"
+			id: "3800000000000023"
+			min_width: 340
+			optional: true
+			rewards: [{
+				id: "5800000000000023"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.6a717e5c611c4f7ecdb0}"
+			tasks: [
+				{
+					count: 4L
+					id: "4800000000000032"
+					item: "chemlib:magnesium_hydroxide"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4800000000000033"
+					item: "chemlib:aluminum_hydroxide"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4800000000000034"
+					item: "chemlib:zinc_hydroxide"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4800000000000035"
+					item: "chemlib:copper_ii_hydroxide"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4800000000000036"
+					item: "chemlib:manganese_hydroxide"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.08_compounds.bbabee009bc35c194180}"
+			x: -13.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3800000000000021"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.3f95f8650685889f6b2d}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.eda52da00afb5ab01414}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.2b1119e78a28e176e835}"
+			]
+			icon: "chemlib:sodium_chloride"
+			id: "3800000000000024"
+			min_width: 340
+			rewards: [{
+				id: "5800000000000024"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.637c42a49ad121b1e352}"
+			tasks: [{
+				count: 64L
+				id: "4800000000000037"
+				item: "chemlib:sodium_chloride"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.150fe5514030b1434a5d}"
+			x: -15.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3800000000000022"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.d4877b23bc7a9b23c4f1}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.2fd44bb2d2ddf096ffdf}"
+			]
+			icon: "chemlib:calcium_chloride"
+			id: "3800000000000025"
+			optional: true
+			rewards: [{
+				id: "5800000000000025"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.e6f441b7efbd4a8917f0}"
+			tasks: [{
+				count: 16L
+				id: "4800000000000038"
+				item: "chemlib:calcium_chloride"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.67d2a32c91b8a7146e88}"
+			x: -17.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3800000000000023"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.2ca50c4a7d40fe0a09a6}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.da0ffa2349291272b006}"
+			]
+			icon: "chemlib:magnesium_chloride"
+			id: "3800000000000026"
+			optional: true
+			rewards: [{
+				id: "5800000000000026"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.17af229a5f2b8b8a91c5}"
+			tasks: [{
+				count: 16L
+				id: "4800000000000039"
+				item: "chemlib:magnesium_chloride"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.4e3a8f4abd312e376a9c}"
+			x: -13.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3800000000000024"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.125c91b94fa14301efbe}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.567938762c2f8bb8084a}"
+			]
+			icon: "chemlib:potassium_chloride"
+			id: "3800000000000027"
+			optional: true
+			rewards: [{
+				id: "5800000000000027"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.e5f2e6ef426ba6fb0911}"
+			tasks: [{
+				count: 16L
+				id: "4800000000000040"
+				item: "chemlib:potassium_chloride"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.21234297c380ca942c4d}"
+			x: -15.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3800000000000024"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.23e60d90192cf8357e11}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.6f7f1a555b9091b2244e}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.d3739457065b305428aa}"
+			]
+			icon: "chemlib:calcium_carbonate"
+			id: "3800000000000028"
+			min_width: 350
+			rewards: [{
+				id: "5800000000000028"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.2d6904cc00ffbaad1cb9}"
+			tasks: [{
+				count: 64L
+				id: "4800000000000041"
+				item: "chemlib:calcium_carbonate"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.65b8cd120d15bd87dbe3}"
+			x: -15.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["3800000000000028"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.376d341fdf7d7236bc7c}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.4c05297500d53965f555}"
+			]
+			icon: "chemlib:sodium_carbonate"
+			id: "3800000000000029"
+			min_width: 340
+			optional: true
+			rewards: [{
+				id: "5800000000000029"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.705d969f6df6a9247a7d}"
+			tasks: [
+				{
+					count: 16L
+					id: "4800000000000042"
+					item: "chemlib:sodium_carbonate"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4800000000000043"
+					item: "chemlib:potassium_carbonate"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.08_compounds.5a4fc06b96270d82fc30}"
+			x: -17.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3800000000000028"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.28e6e7af155868579966}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.903dd9bfe821575d23b0}"
+			]
+			icon: "chemlib:lithium_carbonate"
+			id: "3800000000000030"
+			optional: true
+			rewards: [{
+				id: "5800000000000030"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.8ae440267f9ff8f09f00}"
+			tasks: [{
+				count: 16L
+				id: "4800000000000044"
+				item: "chemlib:lithium_carbonate"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.43abfe10384a503a0f8f}"
+			x: -13.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3800000000000028"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.7e27a3f43aeffbce22d1}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.d10e8d9e877b7c4ee218}"
+			]
+			icon: "chemlib:magnesium_carbonate"
+			id: "3800000000000031"
+			optional: true
+			rewards: [{
+				id: "5800000000000031"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.9cc9522dca9a93d25dc7}"
+			tasks: [{
+				count: 16L
+				id: "4800000000000045"
+				item: "chemlib:magnesium_carbonate"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.0dbc2bab0feb3856f597}"
+			x: -15.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["3800000000000029"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.b1a208a3d0bb089fd00b}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.4ffd8775767a0aabda8f}"
+			]
+			icon: "chemlib:copper_carbonate"
+			id: "3800000000000032"
+			optional: true
+			rewards: [{
+				id: "5800000000000032"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.bba39f3b814653385308}"
+			tasks: [{
+				count: 8L
+				id: "4800000000000046"
+				item: "chemlib:copper_carbonate"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.c24ec52cc456b331a41d}"
+			x: -17.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3800000000000030"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.ed1ce7fccea18e20fd87}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.e6cb0fb53032e214e5f1}"
+			]
+			icon: "chemlib:strontium_carbonate"
+			id: "3800000000000033"
+			optional: true
+			rewards: [{
+				id: "5800000000000033"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.b4ba3cea46cf6cb339f5}"
+			tasks: [
+				{
+					count: 8L
+					id: "4800000000000047"
+					item: "chemlib:strontium_carbonate"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4800000000000048"
+					item: "chemlib:barium_carbonate"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.08_compounds.4bfbf959e4469ec28e36}"
+			x: -13.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3800000000000031"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.da3a2f9bf0b52bb49b90}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.b62185b1142439f2f082}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.0ff7853aed4a1d424e1e}"
+			]
+			icon: "chemlib:iron_carbonate"
+			id: "3800000000000034"
+			min_width: 340
+			optional: true
+			rewards: [{
+				id: "5800000000000034"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.f715b4b78616865756ba}"
+			tasks: [
+				{
+					count: 4L
+					id: "4800000000000049"
+					item: "chemlib:iron_carbonate"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4800000000000050"
+					item: "chemlib:manganese_carbonate"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4800000000000051"
+					item: "chemlib:zinc_carbonate"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4800000000000052"
+					item: "chemlib:cobalt_carbonate"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4800000000000053"
+					item: "chemlib:lead_carbonate"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.08_compounds.69bae82eb8082742a815}"
+			x: -15.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["3800000000000034"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.f0353529755abcf81dfa}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.b8aed74711e3ae8882ba}"
+			]
+			icon: "chemlib:iron_ii_sulfate"
+			id: "3800000000000035"
+			min_width: 350
+			rewards: [{
+				id: "5800000000000035"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.e56f9ccc53465fe6ce33}"
+			tasks: [{
+				count: 16L
+				id: "4800000000000054"
+				item: "chemlib:iron_ii_sulfate"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.c516cb81eeceefa5aa66}"
+			x: -15.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["3800000000000035"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.1dfe7390275cbd8b6bee}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.836781fba9771d0088ad}"
+			]
+			icon: "chemlib:copper_ii_sulfate"
+			id: "3800000000000036"
+			optional: true
+			rewards: [{
+				id: "5800000000000036"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.643e6fe4617965e38fa7}"
+			tasks: [{
+				count: 16L
+				id: "4800000000000055"
+				item: "chemlib:copper_ii_sulfate"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.fc2ffd3bf5fa05c1e048}"
+			x: -17.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3800000000000035"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.e1665b84cd8f27b7695f}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.c2ea21b303624e020377}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.d4c2d1320de666f2feb9}"
+			]
+			icon: "chemlib:lead_sulfate"
+			id: "3800000000000037"
+			optional: true
+			rewards: [{
+				id: "5800000000000037"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.7f2d927831260a654779}"
+			tasks: [{
+				count: 8L
+				id: "4800000000000056"
+				item: "chemlib:lead_sulfate"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.7b00eda6f570fc4617fd}"
+			x: -13.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3800000000000035"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.ae816fd5cba4fea6afb2}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.0f8106f8eee63efe0a6f}"
+			]
+			icon: "chemlib:calcium_sulfate"
+			id: "3800000000000038"
+			optional: true
+			rewards: [{
+				id: "5800000000000038"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.cf7f1c75102868d98f50}"
+			tasks: [{
+				count: 32L
+				id: "4800000000000057"
+				item: "chemlib:calcium_sulfate"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.d56561496d086f1d0aac}"
+			x: -15.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["3800000000000036"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.519c8b649e7c552e62dd}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.92b1529180012102fed0}"
+			]
+			icon: "chemlib:magnesium_sulfate"
+			id: "3800000000000039"
+			optional: true
+			rewards: [{
+				id: "5800000000000039"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.1638a21216660414fdac}"
+			tasks: [
+				{
+					count: 8L
+					id: "4800000000000058"
+					item: "chemlib:magnesium_sulfate"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4800000000000059"
+					item: "chemlib:sodium_sulfate"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.08_compounds.1567559d06b8beaf8357}"
+			x: -17.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["3800000000000037"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.d72d83e51e67deaaa8c6}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.b5f269dd61eb5f676369}"
+			]
+			icon: "chemlib:potassium_sulfate"
+			id: "3800000000000040"
+			min_width: 340
+			optional: true
+			rewards: [{
+				id: "5800000000000040"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.9dd1d9d92d36a37fd3f2}"
+			tasks: [
+				{
+					count: 4L
+					id: "4800000000000060"
+					item: "chemlib:lithium_sulfate"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4800000000000061"
+					item: "chemlib:potassium_sulfate"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4800000000000062"
+					item: "chemlib:zinc_sulfate"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4800000000000063"
+					item: "chemlib:nickel_sulfate"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4800000000000064"
+					item: "chemlib:tin_sulfate"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.08_compounds.6e24b2ff53fe799935af}"
+			x: -13.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["3800000000000038"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.1acc187f29fbeda96c41}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.540093dc52cf581f4e52}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.ab658e6e49c6eb1ef1ab}"
+			]
+			icon: "chemlib:barium_sulfate"
+			id: "3800000000000041"
+			rewards: [{
+				id: "5800000000000041"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.f8d40b49f16dabc2644a}"
+			tasks: [{
+				count: 8L
+				id: "4800000000000065"
+				item: "chemlib:barium_sulfate"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.961f520c0471919ed986}"
+			x: -15.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["3800000000000041"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.43fcf8a8fe1df1fdae7c}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.58d94ed56cd78b67315e}"
+			]
+			icon: "chemlib:potassium_permanganate"
+			id: "3800000000000042"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5800000000000042"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.bc3fd545e49f3991fd17}"
+			tasks: [
+				{
+					count: 8L
+					id: "4800000000000066"
+					item: "chemlib:potassium_permanganate"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4800000000000067"
+					item: "chemlib:potassium_dichromate"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.08_compounds.80e3cf797e45c02e4e4a}"
+			x: -15.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["3800000000000042"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.7f99eed678beab073528}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.75eea6dc687a9ae9e41e}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.d13656dc99339ab15262}"
+			]
+			icon: "chemlib:potassium_cyanide"
+			id: "3800000000000043"
+			min_width: 380
+			rewards: [{
+				id: "5800000000000043"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.c11f56dbfd1da675c8f4}"
+			tasks: [
+				{
+					count: 8L
+					id: "4800000000000068"
+					item: "chemlib:potassium_cyanide"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4800000000000069"
+					item: "chemlib:potassium_ethyl_xanthate"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.08_compounds.9d7c39cb42f08b3f1181}"
+			x: -17.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["3800000000000042"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.1f31dc7b8808a363da2f}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.ee56499c32953253c687}"
+			]
+			icon: "chemlib:diammonium_phosphate"
+			id: "3800000000000044"
+			optional: true
+			rewards: [{
+				id: "5800000000000044"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.51e656b31b1c1634b319}"
+			tasks: [{
+				count: 8L
+				id: "4800000000000070"
+				item: "chemlib:diammonium_phosphate"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.65e17c3d18478593515f}"
+			x: -13.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["3800000000000043"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.93b570386db73ccae6b2}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.b9c1c2c896e8f1d9823a}"
+			]
+			icon: "chemlib:lead_sulfide"
+			id: "3800000000000045"
+			min_width: 340
+			optional: true
+			rewards: [{
+				id: "5800000000000045"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.660412b107a4b9aa685b}"
+			tasks: [{
+				count: 16L
+				id: "4800000000000071"
+				item: "chemlib:lead_sulfide"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.ff095e1fa0a5a00155a7}"
+			x: -15.0d
+			y: 27.0d
+		}
+		{
+			dependencies: ["3800000000000045"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.412b489cfc63c34c5890}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.3f01a6e9ecbeab52e9b3}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.f72714d202611a77ddbb}"
+			]
+			icon: "chemlib:zinc_sulfide"
+			id: "3800000000000046"
+			min_width: 350
+			rewards: [{
+				id: "5800000000000046"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.86f19bc2c3b78c2cbdff}"
+			tasks: [{
+				count: 16L
+				id: "4800000000000072"
+				item: "chemlib:zinc_sulfide"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.f8f7b03799e3b38af1c2}"
+			x: -17.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["3800000000000045"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.3165da33b755c03f27b0}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.0bf2d024734e2d5eed13}"
+			]
+			icon: "chemlib:copper_i_sulfide"
+			id: "3800000000000047"
+			min_width: 330
+			optional: true
+			rewards: [{
+				id: "5800000000000047"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.c4736171fdb5116279f6}"
+			tasks: [
+				{
+					count: 4L
+					id: "4800000000000073"
+					item: "chemlib:copper_i_sulfide"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4800000000000074"
+					item: "chemlib:nickel_sulfide"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4800000000000075"
+					item: "chemlib:calcium_sulfide"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4800000000000076"
+					item: "chemlib:barium_sulfide"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.08_compounds.302b8b0645ebf30a8f26}"
+			x: -13.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["3800000000000046"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.e79c786e20f93ac4a8e3}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.d475d811d32691ac1d43}"
+			]
+			icon: "chemlib:nickel_chloride"
+			id: "3800000000000048"
+			optional: true
+			rewards: [{
+				id: "5800000000000048"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.eb8c9a8eeb6e7cf3728b}"
+			tasks: [
+				{
+					count: 8L
+					id: "4800000000000077"
+					item: "chemlib:nickel_chloride"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4800000000000078"
+					item: "chemlib:nickel_oxide"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.08_compounds.e322c7410ec133b494d6}"
+			x: -15.0d
+			y: 29.0d
+		}
+		{
+			dependencies: ["3800000000000047"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.02ac06365baf1f2bde5c}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.ad45b48c72223e6335ee}"
+			]
+			icon: "chemlib:cadmium_sulfate"
+			id: "3800000000000049"
+			min_width: 340
+			optional: true
+			rewards: [{
+				id: "5800000000000049"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.3788786f7fd72cdee06c}"
+			tasks: [
+				{
+					count: 4L
+					id: "4800000000000079"
+					item: "chemlib:cadmium_sulfate"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4800000000000080"
+					item: "chemlib:cadmium_carbonate"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4800000000000081"
+					item: "chemlib:cadmium_nitrate"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4800000000000082"
+					item: "chemlib:cadmium_hydroxide"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.08_compounds.4f348bc71e7ef5b16248}"
+			x: -13.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["3800000000000048"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.324fa4abb286ebc93d79}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.d2c46738fae17f7ea6c8}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.0129950cbdc8e275d83d}"
+			]
+			icon: "chemlib:manganese_sulfate"
+			id: "3800000000000050"
+			min_width: 340
+			optional: true
+			rewards: [{
+				id: "5800000000000050"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.4000352105c6750c886d}"
+			tasks: [
+				{
+					count: 8L
+					id: "4800000000000083"
+					item: "chemlib:manganese_sulfate"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4800000000000084"
+					item: "chemlib:manganese_nitrate"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.08_compounds.f54b53a0773082f47627}"
+			x: -15.0d
+			y: 31.0d
+		}
+		{
+			dependencies: ["3800000000000049"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.ac182ea8a0e5a4218997}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.32170469bb48c073c262}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.b795d1c3edc73e8a0b79}"
+			]
+			icon: "chemlib:strontium_sulfate"
+			id: "3800000000000051"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5800000000000051"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.7f0332a6ebf607fcf059}"
+			tasks: [{
+				count: 8L
+				id: "4800000000000085"
+				item: "chemlib:strontium_sulfate"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.b4192a354226aa5648db}"
+			x: -13.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["3800000000000050"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.c412c0b37d4e62d5f73e}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.a381bf70e38a419b1cf6}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.7c2108e1bd01b46041a9}"
+			]
+			icon: "chemlib:water"
+			id: "3800000000000052"
+			min_width: 340
+			rewards: [{
+				id: "5800000000000052"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.798e31d5583819b247ba}"
+			tasks: [{
+				count: 64L
+				id: "4800000000000086"
+				item: "chemlib:water"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.a7d8baf61a6e2a9dd503}"
+			x: -15.0d
+			y: 33.0d
+		}
+		{
+			dependencies: ["3800000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.b967561fa9cb05a93274}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.837dcdcf88a778de483c}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.0c6f775427d97727a8f2}"
+			]
+			icon: "chemlib:iron_oxide"
+			id: "3800000000000053"
+			min_width: 360
+			rewards: [{
+				id: "5800000000000053"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.45f2d5645007f8b0b243}"
+			tasks: [{
+				count: 64L
+				id: "4800000000000087"
+				item: "chemlib:iron_oxide"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.a4f731a6e3a26d3e24b0}"
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3800000000000053"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.73ec3f7320e6238027da}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.6150dfc5d76a486c1e51}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.2fbfff4650c4f0005b5b}"
+			]
+			icon: "chemlib:aluminum_oxide"
+			id: "3800000000000054"
+			min_width: 350
+			rewards: [{
+				id: "5800000000000054"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.ef17ae9af6a08c944eec}"
+			tasks: [{
+				count: 64L
+				id: "4800000000000088"
+				item: "chemlib:aluminum_oxide"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.784692c03e6fe2a80fa7}"
+			x: -11.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3800000000000053"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.614046daddc5743daf6d}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.ecb8ac4fda79f7a26d19}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.6157df1e62244a1edde9}"
+			]
+			icon: "minecraft:obsidian"
+			id: "3800000000000055"
+			min_width: 360
+			rewards: [{
+				id: "5800000000000055"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.9cc7efdcf7ecb95366c7}"
+			tasks: [{
+				count: 16L
+				id: "4800000000000089"
+				item: "chemlib:sodium_oxide"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.3fdac60b0fa21c28cc94}"
+			x: -9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3800000000000053"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.67724c1d40c692454c55}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.6983fb558ac5ab39caf6}"
+			]
+			icon: "chemlib:magnesium_oxide"
+			id: "3800000000000056"
+			optional: true
+			rewards: [{
+				id: "5800000000000056"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.ada991b16c3ddf70242a}"
+			tasks: [{
+				count: 16L
+				id: "4800000000000090"
+				item: "chemlib:magnesium_oxide"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.65737d58b5b6ef030aec}"
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3800000000000055"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.ae9350c6e50f5e8b3a76}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.a55068d91e9a1862f2df}"
+			]
+			icon: "alchemistry:reactor_glass"
+			id: "3800000000000057"
+			min_width: 340
+			rewards: [{
+				id: "5800000000000057"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.6a328b581945533e3e62}"
+			tasks: [{
+				count: 32L
+				id: "4800000000000091"
+				item: "chemlib:lead_oxide"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.ed95e4baa78a5acbaa54}"
+			x: -9.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3800000000000054"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.51d567224db275a425c6}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.06a4e4cfb4f0c09b9472}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.ed3e9ac77272fd9202b0}"
+			]
+			icon: "chemlib:titanium_oxide"
+			id: "3800000000000058"
+			min_width: 350
+			rewards: [{
+				id: "5800000000000058"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.c2541425a273b35b574e}"
+			tasks: [{
+				count: 16L
+				id: "4800000000000092"
+				item: "chemlib:titanium_oxide"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.f50456f4558691758615}"
+			x: -11.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3800000000000056"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.6230113d6af969c5f2b6}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.c95ca9a5a50e0f06e7e3}"
+			]
+			icon: "chemlib:zinc_oxide"
+			id: "3800000000000059"
+			optional: true
+			rewards: [{
+				id: "5800000000000059"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.fa7d77e414b08817fc58}"
+			tasks: [{
+				count: 16L
+				id: "4800000000000093"
+				item: "chemlib:zinc_oxide"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.72472d4b839439ffca87}"
+			x: -7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3800000000000057"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.8fbb7620d352e840f616}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.8f9db1500a29ff950814}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.595291e9e533bdff2067}"
+			]
+			icon: "chemlib:manganese_oxide"
+			id: "3800000000000060"
+			min_width: 350
+			rewards: [{
+				id: "5800000000000060"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.08ced69e70d0aff6711d}"
+			tasks: [{
+				count: 16L
+				id: "4800000000000094"
+				item: "chemlib:manganese_oxide"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.8f8365ddc78c9fceb5d5}"
+			x: -9.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3800000000000060"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.5d071f46160b69f320b3}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.c20a06f33a6749ddaf40}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.2b539357afe30ba0b8cc}"
+			]
+			icon: "chemlib:carbon_monoxide"
+			id: "3800000000000061"
+			min_width: 360
+			rewards: [{
+				id: "5800000000000061"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.8c44bb18ccd3729bab71}"
+			tasks: [
+				{
+					count: 16L
+					id: "4800000000000095"
+					item: "chemlib:carbon_dioxide"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4800000000000096"
+					item: "chemlib:carbon_monoxide"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.08_compounds.ab62894da494c21debbc}"
+			x: -9.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3800000000000058"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.80c8833ca3415557612e}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.1b3a0431ea751f01b10a}"
+			]
+			icon: "chemlib:nitric_oxide"
+			id: "3800000000000062"
+			min_width: 340
+			optional: true
+			rewards: [{
+				id: "5800000000000062"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.227636c5bf27b9a5c8a4}"
+			tasks: [
+				{
+					count: 8L
+					id: "4800000000000097"
+					item: "chemlib:nitric_oxide"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4800000000000098"
+					item: "chemlib:nitrogen_dioxide"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.08_compounds.16184872aecc1a9ee372}"
+			x: -11.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3800000000000059"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.47a431a2077b3895227a}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.c4d4555924f6cb0a3ba6}"
+			]
+			icon: "chemlib:copper_i_oxide"
+			id: "3800000000000063"
+			optional: true
+			rewards: [{
+				id: "5800000000000063"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.02d64060a0756e8a8c88}"
+			tasks: [{
+				count: 8L
+				id: "4800000000000099"
+				item: "chemlib:copper_i_oxide"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.b7c926f7733b36369283}"
+			x: -7.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3800000000000061"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.62c6e8e6beb78bfe1d2b}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.05c8e397ee7a5b9c3197}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.a19275b695430a1c16a0}"
+			]
+			icon: "chemlib:iron_ii_oxide"
+			id: "3800000000000064"
+			min_width: 350
+			rewards: [{
+				id: "5800000000000064"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.80dd57e7f313ef259a01}"
+			tasks: [{
+				count: 16L
+				id: "4800000000000100"
+				item: "chemlib:iron_ii_oxide"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.b28c1b77f54ed2af209a}"
+			x: -9.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["3800000000000062"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.3815eebccf7dd6ff32b0}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.5a3ca82250654087ff09}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.13d09f546648a12b99c5}"
+			]
+			icon: "chemlib:chromium_oxide"
+			id: "3800000000000065"
+			optional: true
+			rewards: [{
+				id: "5800000000000065"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.de7fee44f2044fb2dae1}"
+			tasks: [{
+				count: 8L
+				id: "4800000000000101"
+				item: "chemlib:chromium_oxide"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.1d1c816d9da78a56f2a3}"
+			x: -11.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3800000000000063"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.ef278254647201d8067f}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.6c0083f61dad1490ada2}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.4c74beb22c43cb92d9e6}"
+			]
+			icon: "chemlib:antimony_trioxide"
+			id: "3800000000000066"
+			optional: true
+			rewards: [{
+				id: "5800000000000066"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.5cbc8e6961066b1d9fc7}"
+			tasks: [{
+				count: 8L
+				id: "4800000000000102"
+				item: "chemlib:antimony_trioxide"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.e86db7889c9ef17c83a5}"
+			x: -7.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3800000000000064"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.fb75442165e16c71db43}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.fe6c7590ac62a5735ab5}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.46645be910fb27183677}"
+			]
+			icon: "chemlib:beryllium_oxide"
+			id: "3800000000000067"
+			min_width: 340
+			optional: true
+			rewards: [{
+				id: "5800000000000067"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.20461052637a05182372}"
+			tasks: [{
+				count: 8L
+				id: "4800000000000103"
+				item: "chemlib:beryllium_oxide"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.65d6367efa1c41f53533}"
+			x: -9.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["3800000000000067"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.9b547e74db196a19741c}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.a3aefb121558a2593ce1}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.82ac9151ae85276ab040}"
+			]
+			icon: "chemlib:tin_oxide"
+			id: "3800000000000068"
+			min_width: 340
+			optional: true
+			rewards: [{
+				id: "5800000000000068"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.073141f217a927c82c66}"
+			tasks: [
+				{
+					count: 4L
+					id: "4800000000000104"
+					item: "chemlib:tin_oxide"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4800000000000105"
+					item: "chemlib:strontium_oxide"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4800000000000106"
+					item: "chemlib:barium_oxide"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4800000000000107"
+					item: "chemlib:lithium_oxide"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4800000000000108"
+					item: "chemlib:potassium_oxide"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4800000000000109"
+					item: "chemlib:rubidium_oxide"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.08_compounds.f2e3785125f031f12d14}"
+			x: -9.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["3800000000000068"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.e9615f40af4b75c0e1d4}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.1ab4aba54a12653d3f80}"
+			]
+			icon: "chemlib:mullite"
+			id: "3800000000000069"
+			optional: true
+			rewards: [{
+				id: "5800000000000069"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.772b12f0d622a6b5d533}"
+			tasks: [{
+				count: 16L
+				id: "4800000000000110"
+				item: "chemlib:mullite"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.1877f1f4d4cb92c150e7}"
+			x: -9.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["3800000000000069"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.d786098d04da2f12b339}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.3fcb26d3a84edb40dd69}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.09f653977f9978bda726}"
+			]
+			icon: "minecraft:emerald"
+			id: "3800000000000070"
+			min_width: 360
+			rewards: [{
+				id: "5800000000000070"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.59588c985b9995c07f7e}"
+			tasks: [{
+				count: 32L
+				id: "4800000000000111"
+				item: "chemlib:beryl"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.2a78b4dfb78ea7b6d24a}"
+			x: -9.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["3800000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.b5563e073dcc17db6c62}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.ac05f3214b9f47b3f106}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.c00fa173772b61237305}"
+			]
+			icon: "chemlib:polyvinyl_chloride"
+			id: "3800000000000071"
+			min_width: 370
+			rewards: [{
+				id: "5800000000000071"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.4ee46bcad8c88ecccd94}"
+			tasks: [{
+				count: 64L
+				id: "4800000000000112"
+				item: "chemlib:polyvinyl_chloride"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.42e1a5fe266adc20508a}"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3800000000000071"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.fcfe56057b75161f1d2a}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.dd0d6dbca5d19835b108}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.c91a5198e000f6d70512}"
+			]
+			icon: "chemlib:ethylene"
+			id: "3800000000000072"
+			min_width: 360
+			rewards: [{
+				id: "5800000000000072"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.c969a4eb151f3a6c4013}"
+			tasks: [{
+				count: 64L
+				id: "4800000000000113"
+				item: "chemlib:ethylene"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.dbf6352e0c05c3a6751c}"
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3800000000000071"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.508e5f20c6df3793d30a}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.2cadd8bffd594a72e76d}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.bcde96d304f831e7ef73}"
+			]
+			icon: "chemlib:cellulose"
+			id: "3800000000000073"
+			min_width: 350
+			rewards: [{
+				id: "5800000000000073"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.c938d577f040712f87bc}"
+			tasks: [{
+				count: 64L
+				id: "4800000000000114"
+				item: "chemlib:cellulose"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.383d0c72b3eb07e7076a}"
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3800000000000071"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.3f4bdffc64bec642841c}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.3a8ec96be009f093e6ca}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.802cddf3985167bfd4f9}"
+			]
+			icon: "chemlib:chitin"
+			id: "3800000000000074"
+			min_width: 340
+			rewards: [{
+				id: "5800000000000074"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.4e45cdd9cca872ea6d55}"
+			tasks: [{
+				count: 32L
+				id: "4800000000000115"
+				item: "chemlib:chitin"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.441447c3f8ced5ecd2a2}"
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3800000000000072"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.10fbaf0adfa219533374}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.5ded31ac6fac8230e528}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.534541feb139196b2f6a}"
+			]
+			icon: "industrialforegoing:plastic"
+			id: "3800000000000075"
+			min_width: 350
+			rewards: [{
+				id: "5800000000000075"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.d1a12b77522a92dd7d19}"
+			tasks: [{
+				count: 8L
+				id: "4800000000000116"
+				item: "industrialforegoing:plastic"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.02856d1847f45549a6ac}"
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3800000000000073"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.dc8833fe82293c34d80b}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.7561215b3b2f02660613}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.5d8e90a93152ecf54120}"
+			]
+			icon: "chemlib:keratin"
+			id: "3800000000000076"
+			min_width: 350
+			rewards: [{
+				id: "5800000000000076"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.bce6899f1f8ec5b96bb5}"
+			tasks: [{
+				count: 32L
+				id: "4800000000000117"
+				item: "chemlib:keratin"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.5a346efa77582fcdff79}"
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3800000000000074"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.bf748fc2a06f7401a556}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.7f5adf2481a0a5dc451b}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.cd1d28c779a0eda11560}"
+			]
+			icon: "chemlib:starch"
+			id: "3800000000000077"
+			min_width: 340
+			optional: true
+			rewards: [{
+				id: "5800000000000077"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.bbbbf3f0a53f8ec76228}"
+			tasks: [{
+				count: 32L
+				id: "4800000000000118"
+				item: "chemlib:starch"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.1109e6d0629384f47e7b}"
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3800000000000076"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.028441122b870f1db866}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.466a461c258d51abf0ee}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.8dc7c0e7d01c7ebe3f97}"
+			]
+			icon: "chemlib:carbon_disulfide"
+			id: "3800000000000078"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5800000000000078"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.32047d6282ac3a063ba6}"
+			tasks: [{
+				count: 8L
+				id: "4800000000000119"
+				item: "chemlib:carbon_disulfide"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.0f41d6a1f4449bc35865}"
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"3800000000000078"
+				"3800000000000077"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.820b514b858d54a5cae9}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.c06aed4f65473fff0ad3}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.29895bfb93ea059b3c84}"
+			]
+			icon: "chemlib:polyvinyl_chloride"
+			id: "3800000000000079"
+			min_width: 370
+			optional: true
+			rewards: [{
+				id: "5800000000000079"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.b643d328c46dc39403ac}"
+			tasks: [{
+				id: "4800000000000120"
+				title: "{lanminecraft.reforged.quests.08_compounds.5ad3dbd1242a4cea217e}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.a53deb4227afc68b2315}"
+			x: -3.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3800000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.41f6faccbcfc984b7e1b}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.8c57dc8885a7256582d9}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.b429b7175846bd9241b0}"
+			]
+			icon: "chemlib:methane"
+			id: "3800000000000080"
+			min_width: 360
+			rewards: [{
+				id: "5800000000000080"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.9aafb962688c18275b7d}"
+			tasks: [
+				{
+					count: 16L
+					id: "4800000000000121"
+					item: "chemlib:methane"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4800000000000122"
+					item: "chemlib:ethane"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4800000000000123"
+					item: "chemlib:propane"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4800000000000124"
+					item: "chemlib:butane"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.08_compounds.fe2b077fef6ffe833cf0}"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3800000000000080"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.7194d83f82c21e437573}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.178598674cc33a59bc89}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.5c03e3515d81a7c67a19}"
+			]
+			icon: "chemlib:hexane"
+			id: "3800000000000081"
+			min_width: 340
+			optional: true
+			rewards: [{
+				id: "5800000000000081"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.a9cbc3d7d954170d042b}"
+			tasks: [
+				{
+					count: 8L
+					id: "4800000000000125"
+					item: "chemlib:pentane"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4800000000000126"
+					item: "chemlib:hexane"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.08_compounds.aed853fb11f39db448d0}"
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3800000000000080"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.201a00cf60e8e2c4c79f}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.b865a0379ecef0159235}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.ff3fe7b1a2e97cff91cc}"
+			]
+			icon: "chemlib:acetylene"
+			id: "3800000000000082"
+			min_width: 350
+			rewards: [{
+				id: "5800000000000082"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.bfada5cd7d1c31e67e24}"
+			tasks: [{
+				count: 32L
+				id: "4800000000000127"
+				item: "chemlib:acetylene"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.93cc23794a415077f314}"
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3800000000000080"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.a2f45a8e1c034aec6922}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.0a72dd531409be705b71}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.f184bc6ce298c13a126b}"
+			]
+			icon: "chemlib:ethanol"
+			id: "3800000000000083"
+			min_width: 350
+			rewards: [{
+				id: "5800000000000083"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.c63f4063d191f0f4390b}"
+			tasks: [{
+				count: 32L
+				id: "4800000000000128"
+				item: "chemlib:ethanol"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.94af0502519153d6ee1d}"
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3800000000000083"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.3f1ed6909a7e9c0d3462}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.0c835b088288cdb3c523}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.02af61516707b03dbb88}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.058a6d6faa224e86070d}"
+			]
+			icon: "chemlib:urea"
+			id: "3800000000000084"
+			min_width: 370
+			rewards: [{
+				id: "5800000000000084"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.b8e9d106ebacc7bd8484}"
+			tasks: [{
+				count: 32L
+				id: "4800000000000129"
+				item: "chemlib:urea"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.e24a38a2641be9ecd800}"
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3800000000000082"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.93d5a9f1febf51b5881f}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.9f735065dc56fc6381a4}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.2ac782e997f38d608c09}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.94e9297fd8c46c42b19d}"
+			]
+			icon: "chemlib:ammonia"
+			id: "3800000000000085"
+			min_width: 400
+			rewards: [{
+				id: "5800000000000085"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.e32b1e1c09a640a4eab0}"
+			tasks: [{
+				count: 64L
+				id: "4800000000000130"
+				item: "chemlib:ammonia"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.d483f7929554a8610957}"
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3800000000000085"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.1b05586cca45c5481bd8}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.60bc09ea265f40125dfb}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.cdad3d44261047f9f1b9}"
+			]
+			icon: "chemlib:ammonium"
+			id: "3800000000000086"
+			min_width: 340
+			optional: true
+			rewards: [{
+				id: "5800000000000086"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.1eb942df17ff8209f42d}"
+			tasks: [
+				{
+					count: 16L
+					id: "4800000000000131"
+					item: "chemlib:ammonium"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4800000000000132"
+					item: "chemlib:amide"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.08_compounds.13e365125f5883ee2670}"
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3800000000000081"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.893b8046fa978202eb39}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.d00ededdffd676b6e825}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.4199da2c402a2c09b7e2}"
+			]
+			icon: "chemlib:methane"
+			id: "3800000000000087"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5800000000000087"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.9e9363b2d075ad6e77d1}"
+			tasks: [{
+				count: 64L
+				id: "4800000000000133"
+				item: "chemlib:methane"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.992a982780f0775b5099}"
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3800000000000086"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.51bb562cdcaad19e8495}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.35e2d9682ccb5875d861}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.ad6529908ecef63a9f9b}"
+			]
+			icon: "minecraft:apple"
+			id: "3800000000000088"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5800000000000088"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.5c55df33dbd3e3fec344}"
+			tasks: [{
+				count: 16L
+				id: "4800000000000134"
+				item: "chemlib:ethylene"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.65ac0fc60480c883efef}"
+			x: 5.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3800000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.8759d778c0c005cd920c}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.4560dce5c48e05a8a008}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.ed6dc60362b1b1150c62}"
+			]
+			icon: "chemlib:protein"
+			id: "3800000000000089"
+			min_width: 360
+			rewards: [{
+				id: "5800000000000089"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.ed575b36f2ada1433211}"
+			tasks: [{
+				count: 64L
+				id: "4800000000000135"
+				item: "chemlib:protein"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.6235373cb697f2a7a289}"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3800000000000089"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.94bac619572c6fbe7e82}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.a32ec1efe8492df20ba2}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.c5fc5b0243a19757212f}"
+			]
+			icon: "chemlib:triglyceride"
+			id: "3800000000000090"
+			min_width: 350
+			rewards: [{
+				id: "5800000000000090"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.dbdc74c89024e98777fa}"
+			tasks: [{
+				count: 32L
+				id: "4800000000000136"
+				item: "chemlib:triglyceride"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.ddcdda5ac2be57d4e9c1}"
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3800000000000089"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.87b6e3fb136b3e477167}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.d925615f59099625fc43}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.fa67b5d55b0a6bdda18a}"
+			]
+			icon: "chemlib:sucrose"
+			id: "3800000000000091"
+			min_width: 350
+			rewards: [{
+				id: "5800000000000091"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.a8f229680758eb635af4}"
+			tasks: [{
+				count: 64L
+				id: "4800000000000137"
+				item: "chemlib:sucrose"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.36ae8256d3933d006010}"
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3800000000000089"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.1810b02ad64543e72680}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.555cd779b9490c63e498}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.689e2f82eca5c7b8833a}"
+			]
+			icon: "minecraft:bone"
+			id: "3800000000000092"
+			min_width: 360
+			rewards: [{
+				id: "5800000000000092"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.397c2690399daa30d5d6}"
+			tasks: [{
+				count: 32L
+				id: "4800000000000138"
+				item: "chemlib:hydroxylapatite"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.f950109fcbe642a759a2}"
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"3800000000000090"
+				"3800000000000091"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.19fd723ea807d599981d}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.73ffee7a4f4f6d647c9a}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.6215bc6c7f7d9183dbf5}"
+			]
+			icon: "minecraft:apple"
+			id: "3800000000000093"
+			min_width: 360
+			rewards: [{
+				id: "5800000000000093"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.62fa02b9ef40967e797e}"
+			tasks: [
+				{
+					count: 8L
+					id: "4800000000000139"
+					item: "minecraft:apple"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4800000000000140"
+					item: "minecraft:potato"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4800000000000141"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4800000000000142"
+					item: "minecraft:beetroot"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.08_compounds.650a8fbf7848b5e57208}"
+			x: 9.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3800000000000090"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.11631934fe4f1f2d2edf}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.f48d0f0da4102c4ec3f2}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.fd576ada8d765d8e58de}"
+			]
+			icon: "chemlib:caffeine"
+			id: "3800000000000094"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5800000000000094"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.dcb79adb32dd42f93205}"
+			tasks: [{
+				count: 16L
+				id: "4800000000000143"
+				item: "chemlib:caffeine"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.7b306dc1611baabaf98c}"
+			x: 7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3800000000000091"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.97e2f0525ff1facad254}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.2123c5482023b9ed41ff}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.b27fa51b1b0c029daccd}"
+			]
+			icon: "chemlib:beta_carotene"
+			id: "3800000000000095"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5800000000000095"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.c5424aba3c5a33ff8bf0}"
+			tasks: [{
+				count: 16L
+				id: "4800000000000144"
+				item: "chemlib:beta_carotene"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.08b72d2ea79596e41d32}"
+			x: 11.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3800000000000093"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.1e020689ba2260e80bfa}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.c607172ee7fb2781fc22}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.541f976f8070021d1692}"
+			]
+			icon: "chemlib:epinephrine"
+			id: "3800000000000096"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5800000000000096"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.17cd5a6aabdbe0879abd}"
+			tasks: [{
+				count: 8L
+				id: "4800000000000145"
+				item: "chemlib:epinephrine"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.2608729251008c9658e7}"
+			x: 9.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3800000000000094"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.97d06e39d71151557faa}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.89bfe16916fd156234a6}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.b04974e30e303f677d0d}"
+			]
+			icon: "chemlib:cucurbitacin"
+			id: "3800000000000097"
+			min_width: 340
+			optional: true
+			rewards: [{
+				id: "5800000000000097"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.512d26af836fa012f5d1}"
+			tasks: [{
+				count: 8L
+				id: "4800000000000146"
+				item: "chemlib:cucurbitacin"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.3d28a1f19a226ed48fb4}"
+			x: 7.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3800000000000095"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.6057265461fe2adc81bc}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.7c2d409cafe310596c3a}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.3f9c0ccab412d31cc7e1}"
+			]
+			icon: "minecraft:milk_bucket"
+			id: "3800000000000098"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5800000000000098"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.c62efbc94f6511552806}"
+			tasks: [
+				{
+					id: "4800000000000147"
+					item: "minecraft:milk_bucket"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4800000000000148"
+					item: "minecraft:egg"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.08_compounds.0ebb59c2af9532111ce5}"
+			x: 11.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3800000000000096"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.9eaf3cfc9205a04d69ea}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.72f19453926b7e2acc57}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.92e7be01d42dca2a89c7}"
+			]
+			icon: "minecraft:cobweb"
+			id: "3800000000000099"
+			min_width: 340
+			optional: true
+			rewards: [{
+				id: "5800000000000099"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.3313650a4ad8c7835f20}"
+			tasks: [
+				{
+					count: 8L
+					id: "4800000000000149"
+					item: "minecraft:cobweb"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4800000000000150"
+					item: "minecraft:slime_ball"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.08_compounds.188065ad035b59c98682}"
+			x: 9.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3800000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.2ca19e898a0bbea7d8f1}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.78630ab68eee9442cd06}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.4f79e3367f9fe221efc4}"
+			]
+			icon: "chemlib:potassium_nitrate"
+			id: "3800000000000100"
+			min_width: 360
+			rewards: [{
+				id: "5800000000000100"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.f0d44080724c7f8c96ad}"
+			tasks: [{
+				count: 64L
+				id: "4800000000000151"
+				item: "chemlib:potassium_nitrate"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.5760006b9ecd457d69f1}"
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3800000000000100"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.200e3514eb98c95baa27}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.5008814a1543dffc4b33}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.061f03ff49e2290a0a81}"
+			]
+			icon: "chemlib:nitric_acid"
+			id: "3800000000000101"
+			min_width: 370
+			rewards: [{
+				id: "5800000000000101"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.f8d2319deaa6cab60b6e}"
+			tasks: [
+				{
+					count: 16L
+					id: "4800000000000152"
+					item: "chemlib:nitric_acid"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4800000000000153"
+					item: "chemlib:sulfuric_acid"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.08_compounds.d562db1c86068788bd08}"
+			x: 13.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3800000000000100"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.0cd3dc90a91db0fdb23d}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.b8d418e7c4dff69de929}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.605d462a0504b9cccd3f}"
+			]
+			icon: "minecraft:tnt"
+			id: "3800000000000102"
+			min_width: 360
+			rewards: [{
+				id: "5800000000000102"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.7748e370ef5a7381504d}"
+			tasks: [{
+				count: 8L
+				id: "4800000000000154"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.3d8a6ea370d59ddb6c92}"
+			x: 15.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3800000000000100"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.6b92e0b01b9a3fea026e}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.b76cb341ecac5922ed30}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.4de395dd61849ec29b8a}"
+			]
+			icon: "chemlib:sodium_nitrate"
+			id: "3800000000000103"
+			min_width: 360
+			rewards: [{
+				id: "5800000000000103"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.9e97e0d82fe0bd591090}"
+			tasks: [{
+				count: 32L
+				id: "4800000000000155"
+				item: "chemlib:sodium_nitrate"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.49d8a13af0213d4f4c98}"
+			x: 17.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3800000000000102"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.5899e325471abfcfecdc}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.c5aafd30a2304e3297a9}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.ea3bd1e6fdd092ec0135}"
+			]
+			icon: "chemlib:strontium_nitrate"
+			id: "3800000000000104"
+			min_width: 370
+			rewards: [{
+				id: "5800000000000104"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.11ce176cdce90fbd5257}"
+			tasks: [
+				{
+					count: 8L
+					id: "4800000000000156"
+					item: "chemlib:strontium_nitrate"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4800000000000157"
+					item: "chemlib:barium_nitrate"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4800000000000158"
+					item: "chemlib:copper_nitrate"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4800000000000159"
+					item: "chemlib:lithium_nitrate"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.08_compounds.ff9d02163bdae3f84021}"
+			x: 15.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3800000000000101"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.35a5444ce09461799515}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.3248ffc80a5b6b58e29e}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.c6468927817eccd3b669}"
+			]
+			icon: "chemlib:calcium_nitrate"
+			id: "3800000000000105"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5800000000000105"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.572f1330680f2e25ce2b}"
+			tasks: [{
+				count: 16L
+				id: "4800000000000160"
+				item: "chemlib:calcium_nitrate"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.ada7cc1c815c517f1a9a}"
+			x: 13.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3800000000000103"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.f110e72b70a5d255986e}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.fecaa26e279727842c2d}"
+			]
+			icon: "chemlib:lead_nitrate"
+			id: "3800000000000106"
+			min_width: 340
+			optional: true
+			rewards: [{
+				id: "5800000000000106"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.fa88f185e6065b6d228d}"
+			tasks: [
+				{
+					count: 4L
+					id: "4800000000000161"
+					item: "chemlib:lead_nitrate"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4800000000000162"
+					item: "chemlib:zinc_nitrate"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4800000000000163"
+					item: "chemlib:iron_iii_nitrate"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4800000000000164"
+					item: "chemlib:aluminum_nitrate"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4800000000000165"
+					item: "chemlib:manganese_nitrate"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.08_compounds.36891cf449c03f95ab40}"
+			x: 17.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3800000000000104"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.31377450e98606d0aebc}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.95f6cd16a60efdb9561d}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.bb121aa6b4bc1e047650}"
+			]
+			icon: "chemlib:iron_disulfide"
+			id: "3800000000000107"
+			min_width: 350
+			rewards: [{
+				id: "5800000000000107"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.4c3ff8066b8086d6f793}"
+			tasks: [{
+				count: 16L
+				id: "4800000000000166"
+				item: "chemlib:iron_disulfide"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.b663d029d0a7512b113f}"
+			x: 15.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3800000000000105"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.4a6278b6a6c920c5897b}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.989849d4e1fa416aed69}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.f7f72d83e7005004eaf3}"
+			]
+			icon: "chemlib:cesium_nitrate"
+			id: "3800000000000108"
+			min_width: 340
+			optional: true
+			rewards: [{
+				id: "5800000000000108"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.0cfa8e8f09f0fab53588}"
+			tasks: [
+				{
+					count: 4L
+					id: "4800000000000167"
+					item: "chemlib:rubidium_nitrate"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4800000000000168"
+					item: "chemlib:cesium_nitrate"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4800000000000169"
+					item: "chemlib:beryllium_nitrate"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4800000000000170"
+					item: "chemlib:magnesium_nitrate"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.08_compounds.5556d33a600db2c36002}"
+			x: 13.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3800000000000106"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.5c6209988842d54bd7fc}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.9058137ecc899a50b2fa}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.c110db781b9c91cf9232}"
+			]
+			icon: "minecraft:rail"
+			id: "3800000000000109"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5800000000000109"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.f2fe14aa2399c43ada2e}"
+			tasks: [
+				{
+					count: 32L
+					id: "4800000000000171"
+					item: "chemlib:iron_oxide"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "4800000000000172"
+					item: "chemlib:aluminum"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.08_compounds.f419f09cc78df1b76515}"
+			x: 17.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3800000000000107"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.1f11b5cf240ac4533de7}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.5204fb3cd1226674762f}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.8355695431a6136728f6}"
+			]
+			icon: "chemlib:sulfur"
+			id: "3800000000000110"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5800000000000110"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.19e86eca24ae23b070ec}"
+			tasks: [{
+				count: 64L
+				id: "4800000000000173"
+				item: "chemlib:sulfur"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.ab9f78471758c40bcc46}"
+			x: 15.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3800000000000110"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.3fc05fe7b910e8898f06}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.8f77c7dce079b9df5ec1}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.4136c5975eecdf920623}"
+			]
+			icon: "chemlib:graphite"
+			id: "3800000000000111"
+			min_width: 360
+			rewards: [{
+				id: "5800000000000111"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.f6f0c241b75ff09125ea}"
+			tasks: [{
+				count: 64L
+				id: "4800000000000174"
+				item: "chemlib:graphite"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.4bbff29f42a71a9f6e48}"
+			x: 15.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["3800000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.eeb511d64d341170ca4a}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.323d5af5eff0272127ae}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.5c8032c0774b61cca3c1}"
+			]
+			icon: "chemlib:mercury_sulfide"
+			id: "3800000000000112"
+			min_width: 390
+			rewards: [{
+				id: "5800000000000112"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.47118c73c64508278b6a}"
+			tasks: [{
+				count: 16L
+				id: "4800000000000175"
+				item: "chemlib:mercury_sulfide"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.a5ee61f9f5bc94fa41c0}"
+			x: 21.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3800000000000112"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.cb8430223e57e9bc3780}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.91904311ec5d8baa9d41}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.5c51c32d09e621b655d3}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.c980bae4cd7ada9aa0f0}"
+			]
+			icon: "chemlib:han_purple"
+			id: "3800000000000113"
+			min_width: 380
+			rewards: [{
+				id: "5800000000000113"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.4deb8b4923032d17469b}"
+			tasks: [{
+				count: 16L
+				id: "4800000000000176"
+				item: "chemlib:han_purple"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.ca2d7d1f0819baa62ea1}"
+			x: 19.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3800000000000112"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.47342199af72ccb3c39a}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.3281b10adb3cfb033558}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.124c8c1ee5248d40cf9b}"
+			]
+			icon: "minecraft:lapis_lazuli"
+			id: "3800000000000114"
+			min_width: 380
+			rewards: [{
+				id: "5800000000000114"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.21b9e5ffb36807385d50}"
+			tasks: [{
+				count: 16L
+				id: "4800000000000177"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.7e0be1804991e9817510}"
+			x: 21.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3800000000000112"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.3130e93b53ba515ab45d}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.fa7298d8092bb2fcfb5e}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.39305820d6cfd15b34f4}"
+			]
+			icon: "chemlib:cadmium_sulfide"
+			id: "3800000000000115"
+			min_width: 350
+			rewards: [{
+				id: "5800000000000115"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.5c171c79770753b15ed9}"
+			tasks: [{
+				count: 8L
+				id: "4800000000000178"
+				item: "chemlib:cadmium_sulfide"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.fdef49e0cf9260081ede}"
+			x: 23.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3800000000000113"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.24847475701f8418f353}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.bffd92aa396bd377ee48}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.29549c364fda91f179b8}"
+			]
+			icon: "chemlib:arsenic_sulfide"
+			id: "3800000000000116"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5800000000000116"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.50722edddd1b1d88fa3e}"
+			tasks: [{
+				count: 8L
+				id: "4800000000000179"
+				item: "chemlib:arsenic_sulfide"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.4a4944e01d7e05ba7b9a}"
+			x: 19.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3800000000000115"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.848ced56d73054d077be}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.ba734a1af2f2de78e3da}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.26ff1714d2ba05744977}"
+			]
+			icon: "chemlib:cobalt_aluminate"
+			id: "3800000000000117"
+			min_width: 360
+			optional: true
+			rewards: [{
+				id: "5800000000000117"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.895886001ebcc7c9f237}"
+			tasks: [{
+				count: 8L
+				id: "4800000000000180"
+				item: "chemlib:cobalt_aluminate"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.ebc82f97d1d760f72a72}"
+			x: 23.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3800000000000114"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.f7f5fb437e52d32ebf0f}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.428ed22e0d12c56fec45}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.0d1b42e48fefe53c1d20}"
+			]
+			icon: "chemlib:lead_carbonate"
+			id: "3800000000000118"
+			min_width: 370
+			rewards: [{
+				id: "5800000000000118"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.2616da6d1c6814f718c4}"
+			tasks: [{
+				count: 16L
+				id: "4800000000000181"
+				item: "chemlib:lead_carbonate"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.3acab6034422dbaf94a9}"
+			x: 21.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3800000000000116"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.948a9db2f13f915bacde}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.2229d8bf73120e934785}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.393ee4429bdbe0be472e}"
+			]
+			icon: "chemlib:antimony_trisulfide"
+			id: "3800000000000119"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5800000000000119"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.beda9fb6aca8c7b45d7b}"
+			tasks: [{
+				count: 8L
+				id: "4800000000000182"
+				item: "chemlib:antimony_trisulfide"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.dd8e11c41960f46a7e8e}"
+			x: 19.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3800000000000117"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.6edb87cd1de2cbc9d24d}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.e80880551eae7ce4fc19}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.f8040ba952af3f24dec0}"
+			]
+			icon: "chemlib:calcium_sulfide"
+			id: "3800000000000120"
+			min_width: 370
+			optional: true
+			rewards: [{
+				id: "5800000000000120"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.2b0408156dc7e7d18af2}"
+			tasks: [
+				{
+					count: 8L
+					id: "4800000000000183"
+					item: "chemlib:calcium_sulfide"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4800000000000184"
+					item: "chemlib:barium_sulfide"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.08_compounds.9dbc75022844c2722a99}"
+			x: 23.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3800000000000118"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.708139c2f8cd02d5a783}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.9cf1865a047c18cf72aa}"
+			]
+			icon: "chemlib:lead_iodide"
+			id: "3800000000000121"
+			min_width: 360
+			rewards: [{
+				id: "5800000000000121"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.e79aced56899ace0b451}"
+			tasks: [{
+				count: 8L
+				id: "4800000000000185"
+				item: "chemlib:lead_iodide"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.effe98ef249ef4bce68a}"
+			x: 21.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3800000000000119"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.6467cbef3bf3cf91ccc4}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.724b92f77076884c659b}"
+			]
+			icon: "chemlib:copper_chloride"
+			id: "3800000000000122"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5800000000000122"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.91374e3e9455cc648dc4}"
+			tasks: [{
+				count: 16L
+				id: "4800000000000186"
+				item: "chemlib:copper_chloride"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.f301db943706a1360552}"
+			x: 19.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3800000000000120"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.73fcfeeaaf67a77a9b6e}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.0d53a88da9cbb36f2d2a}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.13692126c5c05b22d4d8}"
+			]
+			icon: "chemlib:iron_iii_nitrate"
+			id: "3800000000000123"
+			min_width: 360
+			optional: true
+			rewards: [{
+				id: "5800000000000123"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.d91ff6991eb8ecc13afe}"
+			tasks: [{
+				count: 8L
+				id: "4800000000000187"
+				item: "chemlib:iron_iii_nitrate"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.1d5b234eaea329c828a1}"
+			x: 23.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3800000000000121"]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.664894a32f32fa48a3f0}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.f1a00f90ec8ed618ec47}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.711d27b743fe9b5041a6}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.973179745c6b46bafc8e}"
+			]
+			icon: "minecraft:blue_dye"
+			id: "3800000000000124"
+			min_width: 390
+			rewards: [{
+				id: "5800000000000124"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.a99dbfce88be3a4d7faf}"
+			tasks: [
+				{
+					count: 8L
+					id: "4800000000000188"
+					item: "minecraft:blue_dye"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4800000000000189"
+					item: "minecraft:white_dye"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.08_compounds.5f46f352b5f2b7489805}"
+			x: 21.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"3800000000000124"
+				"3800000000000122"
+				"3800000000000123"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.7584761f093d3489f79d}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.c4979ca9a8a6eb37edbb}"
+			]
+			icon: "chemlib:han_purple"
+			id: "3800000000000125"
+			min_width: 360
+			optional: true
+			rewards: [{
+				id: "5800000000000125"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.03002ac9a31c24e008f8}"
+			tasks: [
+				{
+					id: "4800000000000190"
+					item: "chemlib:mercury_sulfide"
+					type: "item"
+				}
+				{
+					id: "4800000000000191"
+					item: "chemlib:han_purple"
+					type: "item"
+				}
+				{
+					id: "4800000000000192"
+					item: "chemlib:cobalt_aluminate"
+					type: "item"
+				}
+				{
+					id: "4800000000000193"
+					item: "chemlib:cadmium_sulfide"
+					type: "item"
+				}
+				{
+					id: "4800000000000194"
+					item: "chemlib:arsenic_sulfide"
+					type: "item"
+				}
+				{
+					id: "4800000000000195"
+					item: "chemlib:antimony_trisulfide"
+					type: "item"
+				}
+				{
+					id: "4800000000000196"
+					item: "chemlib:lead_carbonate"
+					type: "item"
+				}
+				{
+					id: "4800000000000197"
+					item: "chemlib:chromium_oxide"
+					type: "item"
+				}
+				{
+					id: "4800000000000198"
+					item: "chemlib:lead_iodide"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.08_compounds.08fdcd497a59905e3115}"
+			x: 21.0d
+			y: 17.0d
+		}
+		{
+			dependencies: [
+				"3800000000000016"
+				"3800000000000052"
+				"3800000000000070"
+				"3800000000000079"
+				"3800000000000088"
+				"3800000000000099"
+				"3800000000000111"
+				"3800000000000125"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.08_compounds.bc4b27bd7e8f297a333d}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.394b7ec41f60c5c936a7}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.3153354ab6bf7cab407a}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.983179391b3d42b2c5f7}"
+				""
+				"{lanminecraft.reforged.quests.08_compounds.3d6d0f75c58fbef05e55}"
+			]
+			icon: "chemlib:periodic_table"
+			id: "3800000000000126"
+			min_width: 380
+			rewards: [{
+				id: "5800000000000126"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.08_compounds.4e55116fb261ce1afd38}"
+			tasks: [{
+				id: "4800000000000199"
+				title: "{lanminecraft.reforged.quests.08_compounds.feddb37aad3721e07cc5}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.08_compounds.2a0797b4717bda89ea35}"
+			x: 0.0d
+			y: 20.0d
+		}
+	]
+	subtitle: ["{lanminecraft.reforged.quests.08_compounds.f9ec7d4fc65bbbb46ffa}"]
+	title: "{lanminecraft.reforged.quests.08_compounds.e5859308e0230df3b311}"
+}

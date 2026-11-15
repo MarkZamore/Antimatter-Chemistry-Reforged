@@ -1,0 +1,2254 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: ""
+	filename: "02_energy"
+	group: "1000000000000001"
+	hide_quest_until_deps_visible: true
+	icon: "mekanismgenerators:heat_generator"
+	id: "2000000000000002"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3100000000000008"]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.c5373c9028195fe3410e}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.747ebd52642845a18541}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.0c476e724dcf335fa0b4}"
+			]
+			hide_until_deps_complete: true
+			icon: "mekanismgenerators:heat_generator"
+			id: "3200000000000001"
+			rewards: [{
+				id: "5200000000000001"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.02_energy.75bd13f31ef72498a7a5}"
+			tasks: [{
+				id: "4200000000000001"
+				title: "{lanminecraft.reforged.quests.02_energy.fd9a7ab918de13753b86}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.afe376db8265387c77b1}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3200000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.988ff2f8733ac8f82fb9}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.61bc31d918512e5fd334}"
+			]
+			icon: "chemlib:cellulose"
+			id: "3200000000000002"
+			rewards: [{
+				id: "5200000000000002"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.4da177540b57838ff6fa}"
+			tasks: [{
+				count: 4L
+				id: "4200000000000002"
+				item: "chemlib:cellulose"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.21c10ca88d82df5f808d}"
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3200000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.eb524f0eb7b1277f2b1c}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.cde7131709ca69d346c8}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.0548c732be562427ad2b}"
+			]
+			icon: "minecraft:oak_sapling"
+			id: "3200000000000003"
+			rewards: [{
+				id: "5200000000000003"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.5d842add99362abcdedf}"
+			tasks: [{
+				count: 2L
+				id: "4200000000000003"
+				item: "minecraft:oak_sapling"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.947e4acd6a248d9aa81a}"
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3200000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.66f998b00e57f622cd48}"
+				"{lanminecraft.reforged.quests.02_energy.428b769671ba30a0772f}"
+				"{lanminecraft.reforged.quests.02_energy.efe003a31827ba30ec1e}"
+				"{lanminecraft.reforged.quests.02_energy.b1202ad5c57f0de70dd6}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.b79a52ae054f1a957393}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.d56b1b42f22efd88c593}"
+			]
+			icon: "minecraft:dirt"
+			id: "3200000000000004"
+			rewards: [{
+				id: "5200000000000004"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.a9d784f9025a31ffbea9}"
+			tasks: [{
+				count: 4L
+				id: "4200000000000004"
+				item: "minecraft:dirt"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.8d897775a3e81f90e1c0}"
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"3200000000000003"
+				"3200000000000004"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.5067c51098c85e86d29e}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.76e3cb1d058cbc4cd885}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.f7b3ba955c8ce9f81ecb}"
+			]
+			icon: "minecraft:oak_planks"
+			id: "3200000000000005"
+			rewards: [
+				{
+					count: 4
+					id: "5200000000000005"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+				{
+					id: "5200000000000006"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.5d98f9481af697297fec}"
+			tasks: [{
+				count: 16L
+				id: "4200000000000005"
+				item: "minecraft:oak_planks"
+				title: "{lanminecraft.reforged.quests.02_energy.4defa5a990816de6f819}"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.7659ec536d335c1eec49}"
+			x: -6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3200000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.cc1e220908cc2e470904}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.b85e57fad67f25ee877b}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.d1fc3fda623a79224485}"
+			]
+			icon: "minecraft:deepslate"
+			id: "3200000000000006"
+			rewards: [{
+				id: "5200000000000007"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.2868bbb4b7c061d23050}"
+			tasks: [{
+				count: 24L
+				id: "4200000000000006"
+				item: "minecraft:deepslate"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.6ddb51ceaddcc486f09d}"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3200000000000006"]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.3dc80de4f4fba43cea08}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.0e4570214547947d4a56}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.f368b211e0672b9b80f7}"
+			]
+			icon: "minecraft:furnace"
+			id: "3200000000000007"
+			rewards: [{
+				id: "5200000000000008"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.629afbf3352bbe2cb541}"
+			tasks: [{
+				count: 3L
+				id: "4200000000000007"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.4e18ec1c5899bb181f82}"
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3200000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.85d21091bb64f9f7e50b}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.450624f82c27d3072b6e}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.9811010892c6b1b4fb53}"
+			]
+			icon: "minecraft:coal"
+			id: "3200000000000008"
+			rewards: [{
+				id: "5200000000000009"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.78470f74909d903d626d}"
+			tasks: [{
+				count: 16L
+				id: "4200000000000008"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.6b7793b974be0b9b1ece}"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3200000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.80f36824ab6117802508}"
+				"{lanminecraft.reforged.quests.02_energy.9d073fb148b57a1d0877}"
+				"{lanminecraft.reforged.quests.02_energy.15d207a54f4644194733}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.6b5c2004945e7a2378b8}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.7ece0dc1164bdcd41bdd}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.b2043b9fee5d99d3f3f1}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.51237f2d9a515fab630d}"
+			]
+			icon: "chemlib:osmium"
+			id: "3200000000000009"
+			rewards: [{
+				id: "5200000000000010"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.02_energy.63f0d8735a57fcef030b}"
+			tasks: [{
+				id: "4200000000000009"
+				title: "{lanminecraft.reforged.quests.02_energy.2606eb892df1e86e55d9}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.d90fc9318100dacc93e9}"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3200000000000009"]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.c78986e676043a5b84f6}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.2547b72ddf8015cae0f7}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.6c8af619be84a59b7c3f}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.ffb3c071c8d452de06f4}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.7005b02f1d8d2f8edcce}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.c7664e29f9f7b019f35b}"
+			]
+			icon: "alchemistry:enricher"
+			id: "3200000000000146"
+			rewards: [{
+				id: "5200000000000148"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.02_energy.caed8956186ea0d09151}"
+			tasks: [
+				{
+					id: "4200000000000157"
+					item: "alchemistry:enricher"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4200000000000158"
+					item: "alchemistry:trace_concentrate"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.02_energy.3cac211aace1da352073}"
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3200000000000146"]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.6720673c3105fd820e47}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.8bf268d163966da7e117}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.1777f69cf67b14a641c0}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.272c3ecb6dccfe7b6ea9}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.8c98322c02bb01241986}"
+			]
+			icon: "chemlib:osmium_ingot"
+			id: "3200000000000010"
+			rewards: [{
+				id: "5200000000000011"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.00706abe92a2844b4261}"
+			tasks: [{
+				count: 2L
+				id: "045389DA87D620E9"
+				item: "chemlib:osmium_ingot"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.590e60867222dc766463}"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3200000000000009"]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.dbd1be4e49efe14e8cfa}"
+				"{lanminecraft.reforged.quests.02_energy.0273e763c0c88c50d780}"
+				"{lanminecraft.reforged.quests.02_energy.e7824cf7ce5cd189041b}"
+				"{lanminecraft.reforged.quests.02_energy.77935dbd1472f1584072}"
+				"{lanminecraft.reforged.quests.02_energy.9e3bae402cd4a4c1c1d8}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.e7ab765dca3ac97b530c}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.76f5d4799a3e725cdeca}"
+			]
+			icon: "minecraft:redstone"
+			id: "3200000000000011"
+			rewards: [
+				{
+					count: 16
+					id: "5200000000000012"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "5200000000000013"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.804693e52a28ebb25ee8}"
+			tasks: [{
+				count: 32L
+				id: "4200000000000011"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.dd73f61953fa8bbb1649}"
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3200000000000009"]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.9b12cf5e655c99c787fc}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.8273220d9d2aa73e481b}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.fc863678e14957e3901a}"
+			]
+			icon: "mekanism:ingot_bronze"
+			id: "3200000000000012"
+			rewards: [{
+				id: "5200000000000014"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.de57deebad2b6fa4ea2b}"
+			tasks: [{
+				count: 8L
+				id: "31E269FC84050DE0"
+				item: "mekanism:ingot_bronze"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.f6bac0e4b8d7e387b902}"
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3200000000000009"]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.4c8b90d9173c9b97de3c}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.1c5c3a67fac808eaddc9}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.b3ddda8671b261511c77}"
+			]
+			icon: "thermal:invar_ingot"
+			id: "3200000000000013"
+			rewards: [{
+				id: "5200000000000015"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.51f22f4d76854feec1ba}"
+			tasks: [{
+				count: 8L
+				id: "4200000000000013"
+				item: "thermal:invar_ingot"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.3173eb900179f6172fd6}"
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3200000000000012"
+				"3200000000000013"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.2a5ebd1132d21b9c7652}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.2c7b4d7e03347ffc6f7a}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.731b650eecb8da1977cc}"
+			]
+			icon: "thermal:electrum_ingot"
+			id: "3200000000000014"
+			rewards: [{
+				id: "5200000000000016"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.b271d8c5991b365dcb43}"
+			tasks: [{
+				count: 4L
+				id: "4200000000000014"
+				item: "thermal:electrum_ingot"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.495d968560e7ee7c9ef4}"
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"3200000000000005"
+				"3200000000000007"
+				"3200000000000008"
+				"3200000000000010"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.9c8df5bc2a23f3229945}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.58c59335502ba707a24f}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.c2102645a7a790f9ef6d}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.c319c939805e814de8a2}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.f71d6c2a6fa50031e306}"
+			]
+			icon: "mekanismgenerators:heat_generator"
+			id: "3200000000000015"
+			rewards: [
+				{
+					count: 32
+					id: "5200000000000017"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/gamestage add {p} energy"
+					elevate_perms: true
+					id: "5200000000000018"
+					title: "{lanminecraft.reforged.quests.02_energy.9fc2d640faf34bd6e130}"
+					type: "command"
+				}
+				{
+					id: "5200000000000019"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.02_energy.1c87f57d704f7515048c}"
+			tasks: [{
+				id: "4200000000000015"
+				item: "mekanismgenerators:heat_generator"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.af12a9ac5ab797420a90}"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3200000000000015"]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.acc85039c8afe16322f3}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.2423222531d082622e61}"
+				"{lanminecraft.reforged.quests.02_energy.d4da6c4d4cf8e028c7ac}"
+				"{lanminecraft.reforged.quests.02_energy.eecfc12fff7acb6b5510}"
+				"{lanminecraft.reforged.quests.02_energy.b69f273b1cc12718939a}"
+				"{lanminecraft.reforged.quests.02_energy.6f97d2d194059a07bafa}"
+				"{lanminecraft.reforged.quests.02_energy.82437aa7389d7381cf63}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.f6ec1b1f76a6b281de26}"
+			]
+			icon: "mekanismgenerators:solar_generator"
+			id: "3200000000000016"
+			rewards: [{
+				id: "5200000000000020"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.02_energy.cc3d1883ebd8a80d816f}"
+			tasks: [{
+				id: "4200000000000016"
+				title: "{lanminecraft.reforged.quests.02_energy.5ad3dbd1242a4cea217e}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.1e4541eeba7fd140074d}"
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"3200000000000011"
+				"3200000000000015"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.6164c24b647db4b13f68}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.7284c70d411ce25e1b59}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.7ace94a1551a1defa439}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.8173bef4eac5404c4e49}"
+			]
+			icon: "mekanism:metallurgic_infuser"
+			id: "3200000000000017"
+			rewards: [{
+				id: "5200000000000021"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.71a50725dcc746dda271}"
+			tasks: [{
+				id: "4200000000000017"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.363ad38fd96ee0b6cfd6}"
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3200000000000017"]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.a38df108bc4c9dfae336}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.ba9e23f6551796476e00}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.d9d1f3297e28749511f4}"
+			]
+			icon: "mekanism:alloy_infused"
+			id: "3200000000000018"
+			rewards: [{
+				id: "5200000000000022"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.ff2455d4c02e8a0e88fa}"
+			tasks: [{
+				count: 8L
+				id: "4200000000000018"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.ab3dc9fbfca824f246eb}"
+			x: -2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"3200000000000010"
+				"3200000000000017"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.7ee68b098ae4da879ab0}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.36f8463ed2f940816659}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.e16622414c21d9634c0c}"
+			]
+			icon: "mekanism:basic_control_circuit"
+			id: "3200000000000019"
+			rewards: [{
+				id: "5200000000000023"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.66fd854f291ec6dca0e6}"
+			tasks: [{
+				count: 4L
+				id: "4200000000000019"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.80475e66f80dbd10c682}"
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"3200000000000018"
+				"3200000000000019"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.1f49be8b8748a7302e62}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.ce12bc5c42ebbf7caddd}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.38489aa31119a9751d0c}"
+			]
+			icon: "mekanism:steel_casing"
+			id: "3200000000000020"
+			rewards: [{
+				id: "5200000000000024"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.02_energy.6016e8cf51292de979d0}"
+			tasks: [{
+				id: "4200000000000020"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.f56f5c5a0f1768575164}"
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3200000000000020"]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.ccfaa9b0da0794a31b7e}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.6549a19a6445ba9b5c57}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.0d6241f1d5aceea58519}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.1e5123a714137a91b851}"
+			]
+			icon: "mekanism:enrichment_chamber"
+			id: "3200000000000021"
+			rewards: [{
+				id: "5200000000000025"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.8c41d4da49e3299b1769}"
+			tasks: [
+				{
+					id: "4200000000000021"
+					item: "mekanism:enrichment_chamber"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4200000000000022"
+					item: "mekanism:enriched_redstone"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.02_energy.57641f6c5e582afeab6d}"
+			x: -3.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3200000000000018"]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.7ecc526aaf0b1f5aa8b5}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.c3e5ae530ad306796317}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.b18c67a9183538282af9}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.4014aa59bf417e0ccf9b}"
+			]
+			icon: "mekanism:energy_tablet"
+			id: "3200000000000022"
+			rewards: [{
+				id: "5200000000000026"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.a6059051d9c8601959f3}"
+			tasks: [{
+				count: 2L
+				id: "4200000000000023"
+				item: "mekanism:energy_tablet"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.a0e7434d97563d515ad2}"
+			x: 2.0d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"3200000000000020"
+				"3200000000000022"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.59ef13ba07c64e21226d}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.f4baa58b671739601d46}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.bb5c79c1e68f0af2d89d}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.bf9ac5630f479454af82}"
+			]
+			icon: "mekanism:basic_energy_cube"
+			id: "3200000000000023"
+			rewards: [{
+				id: "5200000000000027"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.e21ad390e52295aead60}"
+			tasks: [{
+				id: "4200000000000024"
+				item: "mekanism:basic_energy_cube"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.ae0014c68a1e7e396d76}"
+			x: 0.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["3200000000000020"]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.166cf34642903ffd18a4}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.9c651cfe80e967b562af}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.ea2b29c2a886917d7b5c}"
+			]
+			icon: "mekanism:electrolytic_separator"
+			id: "3200000000000024"
+			rewards: [{
+				id: "5200000000000028"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.caab7fc19962a3516ddb}"
+			tasks: [{
+				id: "4200000000000025"
+				item: "mekanism:electrolytic_separator"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.f7987e4db9650b6137ef}"
+			x: 4.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["3200000000000024"]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.9233ef11ff858c31a516}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.824c58dcc5b95cb0d05e}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.b5072b200b9a47a8c486}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.58ca077a184e857bcac6}"
+			]
+			icon: "mekanismgenerators:gas_burning_generator"
+			id: "3200000000000025"
+			rewards: [
+				{
+					count: 4
+					id: "5200000000000029"
+					item: "mekanism:alloy_infused"
+					type: "item"
+				}
+				{
+					id: "5200000000000030"
+					type: "xp"
+					xp: 40
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.85a92a04ae72c51126e7}"
+			tasks: [{
+				id: "4200000000000026"
+				item: "mekanismgenerators:gas_burning_generator"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.bb046295117779522fbc}"
+			x: 4.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3200000000000007"]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.3e754aabc4bd84b93331}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.8900fcd4cd78a44ac48e}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.5dc07a9209dd91cdb69c}"
+			]
+			icon: "botanypots:terracotta_botany_pot"
+			id: "3200000000000101"
+			rewards: [{
+				id: "5200000000000101"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.3700ada5167e3eaca6c0}"
+			tasks: [{
+				id: "4200000000000101"
+				item: "botanypots:terracotta_botany_pot"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.b6543c8adfab6a647910}"
+			x: -10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"3200000000000101"
+				"3200000000000004"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.e4d59382edf86abc17ba}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.5de2ff84a6448cf294e2}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.50dfa9a439aaa5f9585b}"
+			]
+			icon: "minecraft:wheat"
+			id: "3200000000000102"
+			rewards: [
+				{
+					count: 4
+					id: "5200000000000102"
+					item: "minecraft:dirt"
+					type: "item"
+				}
+				{
+					id: "5200000000000103"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.a84ad2cb001499f30ee0}"
+			tasks: [{
+				count: 16L
+				id: "4200000000000102"
+				item: "minecraft:wheat"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.6dcfe9ac59f52af61e20}"
+			x: -11.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3200000000000102"]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.9bc1028239ee317cf623}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.162a4c2f9977abf51fb1}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.9b523ed4f0c9b37d281a}"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:stone_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3200000000000103"
+			rewards: [{
+				id: "5200000000000104"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.80f30dd3187b47d77134}"
+			tasks: [{
+				id: "4200000000000103"
+				item: {
+					Count: 1
+					id: "minecraft:stone_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.8911597ff8398213a019}"
+			x: -9.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3200000000000102"]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.3dd0a8c62b375eb700ed}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.267083ed9a9dcd33941b}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.55224ab5fb668f1ebfa2}"
+			]
+			icon: "minecraft:potato"
+			id: "3200000000000104"
+			rewards: [{
+				id: "5200000000000105"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.d3e15169e53394da9a2a}"
+			tasks: [{
+				count: 32L
+				id: "4200000000000104"
+				item: "minecraft:potato"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.7e54cea4dc091221f126}"
+			x: -13.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3200000000000101"]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.d1ba03a74736e07c9282}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.4591000fea8b8d19e380}"
+			]
+			icon: "minecraft:cactus"
+			id: "3200000000000105"
+			rewards: [{
+				id: "5200000000000106"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.e2e613237bcdef58c906}"
+			tasks: [{
+				count: 16L
+				id: "4200000000000105"
+				item: "minecraft:cactus"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.cd4eeeeeda447e768015}"
+			x: -13.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"3200000000000101"
+				"3200000000000006"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.6646f43bc261a81f7562}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.647df550ba526b1b24bb}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.252f6ab64a1058b350eb}"
+			]
+			icon: "minecraft:brown_mushroom"
+			id: "3200000000000106"
+			rewards: [{
+				id: "5200000000000107"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.039b038aca59b8f2fe75}"
+			tasks: [{
+				count: 16L
+				id: "4200000000000106"
+				item: "minecraft:brown_mushroom"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.342da85b86602d19f33d}"
+			x: -11.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"3200000000000102"
+				"3200000000000106"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.592468d89f73ac0ed97a}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.e97287d0f66fdf29dce8}"
+			]
+			icon: "minecraft:hay_block"
+			id: "3200000000000107"
+			rewards: [{
+				id: "5200000000000108"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.350ec6f02701f514fe57}"
+			tasks: [{
+				count: 4L
+				id: "4200000000000107"
+				item: "minecraft:hay_block"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.d8c8381825c64156d1cb}"
+			x: -9.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3200000000000102"]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.fbd2727f3b74aa2a483c}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.99d598c2f0ea4d7d6e2f}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.29b7afefd67ee417a03f}"
+			]
+			icon: "minecraft:bone_meal"
+			id: "3200000000000108"
+			rewards: [{
+				id: "5200000000000109"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.3ee16d62db7e9fa3c662}"
+			tasks: [{
+				count: 16L
+				id: "4200000000000108"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.5a439bd3c88829828484}"
+			x: -13.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3200000000000102"]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.89df73867e76989bfae4}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.a0c4cfdab58d1f45aae3}"
+			]
+			icon: "minecraft:glow_berries"
+			id: "3200000000000109"
+			rewards: [{
+				id: "5200000000000110"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.4384d672512b6ad53678}"
+			tasks: [{
+				count: 16L
+				id: "4200000000000109"
+				item: "minecraft:glow_berries"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.3d77c1e2d068c36bee50}"
+			x: -11.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"3200000000000103"
+				"3200000000000107"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.b5cb982a77445c5874b8}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.dd7c1a931b7189ccf31d}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.b1daffb408681d599e1f}"
+			]
+			icon: "botanypots:terracotta_hopper_botany_pot"
+			id: "3200000000000110"
+			rewards: [
+				{
+					count: 2
+					id: "5200000000000111"
+					item: "botanypots:terracotta_botany_pot"
+					type: "item"
+				}
+				{
+					id: "5200000000000112"
+					type: "xp"
+					xp: 30
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.e347942dc0a229f6c31f}"
+			tasks: [{
+				id: "4200000000000110"
+				item: "botanypots:terracotta_hopper_botany_pot"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.ad9e1767d2b2167ab872}"
+			x: -12.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"3200000000000106"
+				"3200000000000017"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.30b94631cbf084d1b73d}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.d16faee4292452ba812d}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.98cc2c19f855940887da}"
+			]
+			icon: "minecraft:mycelium"
+			id: "3200000000000111"
+			rewards: [{
+				id: "5200000000000113"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.bb21dabfdf8baa470b63}"
+			tasks: [{
+				count: 4L
+				id: "4200000000000111"
+				item: "minecraft:mycelium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.d6026521d7aa2a712a4d}"
+			x: -12.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3200000000000009"]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.d81c0557c20f7c32917f}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.3a82c7343d8fe5b58f07}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.02c0ce22250ecc5a2b12}"
+			]
+			icon: "chemlib:silver"
+			id: "3200000000000112"
+			rewards: [{
+				id: "5200000000000114"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.02_energy.e68d3641598ba4940617}"
+			tasks: [
+				{
+					count: 16L
+					id: "4200000000000112"
+					item: "chemlib:tin"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4200000000000113"
+					item: "chemlib:nickel"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4200000000000114"
+					item: "chemlib:silver"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.02_energy.1b3f6fc0016bda664df1}"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3200000000000112"]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.3a19502e2412dba6e836}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.870ce107848fd1946bc2}"
+			]
+			icon: "chemlib:tin_ingot"
+			id: "3200000000000113"
+			rewards: [{
+				id: "5200000000000115"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.ae041b83847f23e60d5d}"
+			tasks: [
+				{
+					id: "3F6E2D70FD8097C6"
+					item: "chemlib:tin_ingot"
+					type: "item"
+				}
+				{
+					id: "4C64F8D6E6EC2775"
+					item: "chemlib:silver_ingot"
+					type: "item"
+				}
+				{
+					id: "72480C6CC426FC4F"
+					item: "chemlib:nickel_ingot"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.02_energy.13919cc3dec31ab6d8f5}"
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3200000000000113"]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.c6109c945f6f72a56276}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.c8a422fabd1ae201b21b}"
+			]
+			icon: "thermal:constantan_ingot"
+			id: "3200000000000114"
+			rewards: [{
+				id: "5200000000000116"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.7264b57102a3760f3ce8}"
+			tasks: [{
+				count: 8L
+				id: "4200000000000118"
+				item: "thermal:constantan_ingot"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.a037eb7ed482cce0dbe7}"
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"3200000000000113"
+				"3200000000000015"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.9de7751510a7a9d0756f}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.34f8c9fb4d06007b599c}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.aa0cff100200c7d034cb}"
+			]
+			icon: "thermal:constantan_dust"
+			id: "3200000000000115"
+			rewards: [{
+				id: "5200000000000117"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.74703b957a1ce79d6208}"
+			tasks: [{
+				count: 2L
+				id: "4200000000000119"
+				item: "thermal:constantan_dust"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.8cbb96750c95bd9189d7}"
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3200000000000114"]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.2acd2ed921782a809182}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.97d5afcf98c253c2b8d7}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.45b5e286ea7a490aad5c}"
+			]
+			icon: "chemlib:lead_ingot"
+			id: "3200000000000116"
+			rewards: [{
+				id: "5200000000000118"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.02_energy.1a7893162848dde99d40}"
+			tasks: [{
+				id: "4200000000000120"
+				title: "{lanminecraft.reforged.quests.02_energy.5ad3dbd1242a4cea217e}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.d650228fb62b791aa1a3}"
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"3200000000000019"
+				"3200000000000018"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.363f9359eb92a51d767a}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.c9b5128f6532a4a66bd2}"
+			]
+			icon: "mekanism:advanced_control_circuit"
+			id: "3200000000000117"
+			rewards: [{
+				id: "5200000000000119"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.82639328c2e1cfef7a39}"
+			tasks: [{
+				count: 4L
+				id: "4200000000000121"
+				item: "mekanism:advanced_control_circuit"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.831a737dcfc305889882}"
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"3200000000000018"
+				"3200000000000021"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.f096d0f5622cba5573e6}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.a9c9d4af2203925420db}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.39741daf53c2955d3fc8}"
+			]
+			icon: "mekanism:alloy_reinforced"
+			id: "3200000000000118"
+			rewards: [{
+				id: "5200000000000120"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.ea93c963ec1ff59176d4}"
+			tasks: [{
+				count: 4L
+				id: "4200000000000122"
+				item: "mekanism:alloy_reinforced"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.90957cffd9a8d75387b7}"
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3200000000000020"]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.0dac08be924bfa70f13e}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.316c77f59f9f43447071}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.fe1c46c47d4af9a1f553}"
+			]
+			icon: "mekanism:ingot_refined_obsidian"
+			id: "3200000000000119"
+			rewards: [{
+				id: "5200000000000121"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.ace774ec95531df588e2}"
+			tasks: [{
+				count: 2L
+				id: "4200000000000123"
+				item: "mekanism:ingot_refined_obsidian"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.74ce083a451fc5af5699}"
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"3200000000000118"
+				"3200000000000119"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.9d794e609eb329365197}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.59528b3b6eb794427f60}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.b8daaddd41a760731160}"
+			]
+			icon: "mekanism:alloy_atomic"
+			id: "3200000000000120"
+			rewards: [{
+				id: "5200000000000122"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.e5696f227f1233bf56d9}"
+			tasks: [{
+				count: 2L
+				id: "4200000000000124"
+				item: "mekanism:alloy_atomic"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.21c154d8258354ec0949}"
+			x: 6.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"3200000000000117"
+				"3200000000000118"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.c0579317a72d174cff20}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.fa3a2d498a26039e0175}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.5a6b060ca4e41246d26a}"
+			]
+			icon: "mekanism:elite_control_circuit"
+			id: "3200000000000121"
+			rewards: [{
+				id: "5200000000000123"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.8545907118f2d203e67d}"
+			tasks: [{
+				count: 2L
+				id: "4200000000000125"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.af34cf02a8a84b4e1d13}"
+			x: 4.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"3200000000000121"
+				"3200000000000120"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.612976a7479e207338f3}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.4df67c077fcec3d33d90}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.d14a9175d29d08cec17a}"
+			]
+			icon: "mekanism:ultimate_control_circuit"
+			id: "3200000000000122"
+			rewards: [{
+				id: "5200000000000124"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.02_energy.656ea4c9142a94dfe904}"
+			tasks: [{
+				id: "4200000000000126"
+				item: "mekanism:ultimate_control_circuit"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.a89a76dfbcdbc140fb47}"
+			x: 4.0d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"3200000000000117"
+				"3200000000000119"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.95580bd42ac6124c9ec6}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.5bd05aaa94383dd0bb63}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.5677b6674f2096b9aa5f}"
+			]
+			icon: "mekanism:osmium_compressor"
+			id: "3200000000000123"
+			rewards: [{
+				id: "5200000000000125"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.815206c980970ba804fa}"
+			tasks: [{
+				id: "4200000000000127"
+				item: "mekanism:osmium_compressor"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.6ab882881622dadd36ae}"
+			x: 8.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"3200000000000021"
+				"3200000000000117"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.6b3daf5ba52f18b7b181}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.8d7765c39a2ea9fb03e5}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.0cf311a0d1568ef263a5}"
+			]
+			icon: "mekanism:basic_enriching_factory"
+			id: "3200000000000124"
+			rewards: [{
+				id: "5200000000000126"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.a06b392529604217a567}"
+			tasks: [{
+				id: "4200000000000128"
+				item: "mekanism:basic_enriching_factory"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.2c7f638a0d615d18d710}"
+			x: 10.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"3200000000000124"
+				"3200000000000121"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.2f65d3f3f9b26ff89223}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.d706b39424d206a48789}"
+			]
+			icon: "mekanism:advanced_tier_installer"
+			id: "3200000000000125"
+			rewards: [{
+				id: "5200000000000127"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.9a4c8df3930a5486f985}"
+			tasks: [{
+				id: "4200000000000129"
+				item: "mekanism:advanced_tier_installer"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.3227631acc7a6b0b4dbd}"
+			x: 10.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3200000000000023"]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.bc230995ea13a2bf4788}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.570a29d20e3ec2cafe7d}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.1f52f16f034d194f6135}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.37455ae8a528eaf8d5db}"
+			]
+			icon: "mekanismgenerators:heat_generator"
+			id: "3200000000000126"
+			rewards: [{
+				id: "5200000000000128"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.02_energy.ec872ce6b824b075efff}"
+			tasks: [{
+				count: 4L
+				id: "4200000000000130"
+				item: "mekanismgenerators:heat_generator"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.ab3109c28b90c493fd62}"
+			x: 0.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3200000000000023"]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.4afa779a580276c24515}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.d170cb6dd0ea8d74744c}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.854233840ba54a0c5e77}"
+			]
+			icon: "mekanism:basic_universal_cable"
+			id: "3200000000000127"
+			rewards: [{
+				id: "5200000000000129"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.d861400407cacd6c648e}"
+			tasks: [{
+				count: 16L
+				id: "4200000000000131"
+				item: "mekanism:basic_universal_cable"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.458868c88ec3f292a661}"
+			x: -2.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"3200000000000127"
+				"3200000000000118"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.400186a6ed4acd23d88b}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.4b51725f64a91400d716}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.0e4b0561a0998955c859}"
+			]
+			icon: "mekanism:elite_universal_cable"
+			id: "3200000000000128"
+			rewards: [{
+				id: "5200000000000130"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.15b0dbd8922a8a0ba6b5}"
+			tasks: [
+				{
+					count: 8L
+					id: "4200000000000132"
+					item: "mekanism:advanced_universal_cable"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4200000000000133"
+					item: "mekanism:elite_universal_cable"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.02_energy.878f6e011b20aa6ca7b6}"
+			x: -4.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3200000000000127"]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.cb1c93d17e02980cd802}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.dae37995e6027ed81df7}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.bbdabb0ca1d1d5d1e0d8}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.528fa0ffa19cd14937d5}"
+			]
+			icon: "mekanism:basic_pressurized_tube"
+			id: "3200000000000129"
+			rewards: [{
+				id: "5200000000000131"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.9da24d761d617926251a}"
+			tasks: [
+				{
+					count: 8L
+					id: "4200000000000134"
+					item: "mekanism:basic_mechanical_pipe"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4200000000000135"
+					item: "mekanism:basic_pressurized_tube"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4200000000000136"
+					item: "mekanism:basic_logistical_transporter"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4200000000000137"
+					item: "mekanism:basic_thermodynamic_conductor"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.02_energy.fab3e9965ff9b2174a43}"
+			x: -6.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"3200000000000023"
+				"3200000000000118"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.088cc198b33993337ab8}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.3d41420971cc9abf30ef}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.9fc01c5e0098ae3a3c36}"
+			]
+			icon: "mekanism:advanced_energy_cube"
+			id: "3200000000000130"
+			rewards: [{
+				id: "5200000000000132"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.87ff6396fca7d9542672}"
+			tasks: [{
+				id: "4200000000000138"
+				item: "mekanism:advanced_energy_cube"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.e8b8d8553a5b2866b2f4}"
+			x: 0.0d
+			y: 22.0d
+		}
+		{
+			dependencies: [
+				"3200000000000130"
+				"3200000000000118"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.9f2d7c320eb58878ef45}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.f11f38072bd514f890a6}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.b1716a118e124acc3e4d}"
+			]
+			icon: "mekanism:elite_energy_cube"
+			id: "3200000000000131"
+			rewards: [{
+				id: "5200000000000133"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.c58a659a15e1500db2bf}"
+			tasks: [{
+				id: "4200000000000139"
+				item: "mekanism:elite_energy_cube"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.77113acb6fc2abb81276}"
+			x: 0.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["3200000000000131"]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.8b073cd40fdbf2beb8b3}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.70bccc9ac5112f1928cf}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.50c0d7c186874c5d6d89}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.ed518043584452e03d2a}"
+			]
+			icon: "mekanism:induction_casing"
+			id: "3200000000000132"
+			rewards: [{
+				id: "5200000000000134"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.ad0ed5b4b7b5f46aa9cd}"
+			tasks: [{
+				count: 4L
+				id: "4200000000000140"
+				item: "mekanism:induction_casing"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.71e125349314395b3ac4}"
+			x: 2.0d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"3200000000000024"
+				"3200000000000117"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.0dbfa62bb8f52867f3b0}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.74aec61a2638a62b41fd}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.a1ea6d364a99241f5d97}"
+			]
+			icon: "mekanism:thermal_evaporation_controller"
+			id: "3200000000000133"
+			rewards: [{
+				id: "5200000000000135"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.49f82abdc0ce6db0d89e}"
+			tasks: [{
+				id: "4200000000000141"
+				item: "mekanism:thermal_evaporation_controller"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.5b60fbf89d90738a8d61}"
+			x: -2.0d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"3200000000000126"
+				"3200000000000113"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.d9319f5414362ddea621}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.c1616d830363d11daa75}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.0c4a71f36bc6f7cc4949}"
+			]
+			icon: "mekanism:resistive_heater"
+			id: "3200000000000134"
+			rewards: [{
+				id: "5200000000000136"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.343103286d7f21ba8d0f}"
+			tasks: [{
+				id: "4200000000000142"
+				item: "mekanism:resistive_heater"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.b8d6d971f8ca118c22a3}"
+			x: -4.0d
+			y: 22.0d
+		}
+		{
+			dependencies: [
+				"3200000000000021"
+				"3200000000000023"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.d7ba5e0b1a6c40b3d671}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.ef5c3fe3958e6ddf9008}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.66cbdc2e8c3a00730fe4}"
+			]
+			icon: "mekanism:upgrade_speed"
+			id: "3200000000000135"
+			rewards: [{
+				id: "5200000000000137"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.67628895adf5e47f039d}"
+			tasks: [
+				{
+					count: 2L
+					id: "4200000000000143"
+					item: "mekanism:upgrade_speed"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4200000000000144"
+					item: "mekanism:upgrade_energy"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.02_energy.16d61fc1f4e3a4c3efa8}"
+			x: -6.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["3200000000000021"]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.37432a537b751a392773}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.53a7a1858a4a7e2fc9a9}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.c6d1d2a810f59545f37b}"
+			]
+			icon: "mekanism:enriched_carbon"
+			id: "3200000000000136"
+			rewards: [{
+				id: "5200000000000138"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.a680591f7d03aeab6152}"
+			tasks: [
+				{
+					count: 8L
+					id: "4200000000000145"
+					item: "mekanism:enriched_carbon"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4200000000000146"
+					item: "mekanism:enriched_tin"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.02_energy.da43c7dcf3a29ad974da}"
+			x: 6.0d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"3200000000000021"
+				"3200000000000005"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.6be6cd16fa92020ef0e9}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.02688b5136b0897ae7eb}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.6a516ac9e757bae1d4a8}"
+			]
+			icon: "minecraft:charcoal"
+			id: "3200000000000137"
+			rewards: [{
+				id: "5200000000000139"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.c34cd82bcaae9988b0aa}"
+			tasks: [{
+				count: 16L
+				id: "4200000000000148"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.e22384b012fa173e6d50}"
+			x: 8.0d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"3200000000000020"
+				"3200000000000005"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.65238bf77386cfa63e03}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.82991440653fbe3fbd14}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.2f35ab4e9f1199858b8d}"
+			]
+			icon: "mekanism:precision_sawmill"
+			id: "3200000000000138"
+			rewards: [{
+				id: "5200000000000140"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.a4669d985e2b651d5a60}"
+			tasks: [{
+				id: "4200000000000149"
+				item: "mekanism:precision_sawmill"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.0b0de2bdc5ef8fc749f5}"
+			x: 10.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["3200000000000021"]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.b327683b93d2c2139136}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.05ba5f68b24193084e91}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.c98848834a0f33ad1bed}"
+			]
+			icon: "mekanism:energized_smelter"
+			id: "3200000000000139"
+			rewards: [{
+				id: "5200000000000141"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.a1e4f94f3e5c1421c919}"
+			tasks: [{
+				id: "4200000000000150"
+				item: "mekanism:energized_smelter"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.33dc5841eaa0aaf6dde4}"
+			x: 6.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"3200000000000024"
+				"3200000000000117"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.c48be3ca7f8c97741e68}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.b96164d169b2f5a439cd}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.3fcf9d42f3a3d1da7858}"
+			]
+			icon: "mekanism:chemical_oxidizer"
+			id: "3200000000000140"
+			rewards: [{
+				id: "5200000000000142"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.20cc715b1d6f65375788}"
+			tasks: [{
+				id: "4200000000000151"
+				item: "mekanism:chemical_oxidizer"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.743413c41e1e3523feeb}"
+			x: 8.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3200000000000140"]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.b7ea4085927a0b1f65f2}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.e0b990219dc02c181d1b}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.bd84e2780ec29490e788}"
+			]
+			icon: "mekanism:chemical_infuser"
+			id: "3200000000000141"
+			rewards: [{
+				id: "5200000000000143"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.80f63ff19ff822f41831}"
+			tasks: [{
+				id: "4200000000000152"
+				item: "mekanism:chemical_infuser"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.1209e60c0fc89e06bca0}"
+			x: 10.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"3200000000000024"
+				"3200000000000117"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.3aa84fc30fd6767d61ae}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.f7b3b3b8d1ccb7f62b61}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.5421cb49d25c2a583901}"
+			]
+			icon: "mekanism:rotary_condensentrator"
+			id: "3200000000000143"
+			rewards: [{
+				id: "5200000000000144"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.89c4c36947a43c2ef108}"
+			tasks: [{
+				id: "4200000000000153"
+				item: "mekanism:rotary_condensentrator"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.6a25f39eecdb1024d9b5}"
+			x: 6.0d
+			y: 22.0d
+		}
+		{
+			dependencies: [
+				"3200000000000141"
+				"3200000000000143"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.0db6c48afbc059a78c98}"
+				"{lanminecraft.reforged.quests.02_energy.35005d7dfa18826947fb}"
+				"{lanminecraft.reforged.quests.02_energy.a6075534da111a02ed17}"
+				"{lanminecraft.reforged.quests.02_energy.1cb9037fdb072ee47794}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.5c085f480445c2c5ab7b}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.d62dc4d127de38ee2e6c}"
+			]
+			icon: "mekanism:sulfuric_acid_bucket"
+			id: "3200000000000142"
+			rewards: [{
+				id: "5200000000000145"
+				type: "xp"
+				xp: 45
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.02_energy.fa3195eafefd116e6dcb}"
+			tasks: [{
+				id: "4200000000000154"
+				item: "mekanism:sulfuric_acid_bucket"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.630a3be959a7ecbb952b}"
+			x: 10.0d
+			y: 22.0d
+		}
+		{
+			dependencies: [
+				"3200000000000024"
+				"3200000000000129"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.661a9b3461f36246faf8}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.64f1b8e0ada204b8f76c}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.1cea011b51de19ecb99d}"
+			]
+			icon: "mekanism:basic_chemical_tank"
+			id: "3200000000000144"
+			rewards: [{
+				id: "5200000000000146"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.02_energy.872de93f84946c3f7ff7}"
+			tasks: [{
+				count: 2L
+				id: "4200000000000155"
+				item: "mekanism:basic_chemical_tank"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.70630499f7a91e9649d1}"
+			x: 12.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["3200000000000021"]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.c38c2c3c6e37377fcd71}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.80bc0b253f5bf508d7b2}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.8b38bd7f5989c43c69ff}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.83788f7de460c0694623}"
+			]
+			icon: "mekanism:purification_chamber"
+			id: "3200000000000145"
+			rewards: [{
+				id: "5200000000000147"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.02_energy.e87b7de1df81c23096b6}"
+			tasks: [{
+				id: "4200000000000156"
+				title: "{lanminecraft.reforged.quests.02_energy.5ad3dbd1242a4cea217e}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.7f199632e1418a8db5da}"
+			x: 12.0d
+			y: 18.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3200000000000015"]
+			description: [
+				"{lanminecraft.reforged.quests.02_energy.cb310e6472fc707ed8b1}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.b35a7abddb191ff4ef72}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.51ff32e2092838ebddd3}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.6e81a74300158f9158d0}"
+				""
+				"{lanminecraft.reforged.quests.02_energy.26183df97f7e21a2d5c4}"
+			]
+			icon: "minecraft:redstone_torch"
+			id: "3200000000000F10"
+			min_width: 380
+			optional: true
+			repeat_cooldown: 60L
+			rewards: [{
+				command: "/gamestage add {p} energy"
+				elevate_perms: true
+				id: "5200000000000F10"
+				player_command: false
+				title: "{lanminecraft.reforged.quests.02_energy.0dce0326440ef772ba49}"
+				type: "command"
+			}]
+			shape: "diamond"
+			subtitle: "{lanminecraft.reforged.quests.02_energy.228542f8870a4043009c}"
+			tasks: [{
+				id: "4200000000000F10"
+				title: "{lanminecraft.reforged.quests.02_energy.2cb3e2e1bb1637fdefe8}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.02_energy.0b88a596ea0c94b52d63}"
+			x: 16.0d
+			y: 24.0d
+		}
+	]
+	subtitle: ["{lanminecraft.reforged.quests.02_energy.77a167fa4786079eec32}"]
+	title: "{lanminecraft.reforged.quests.02_energy.a20ca53621d5445454cd}"
+}

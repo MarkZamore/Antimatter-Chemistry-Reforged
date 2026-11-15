@@ -1,0 +1,2078 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: ""
+	filename: "12_challenges"
+	group: "1000000000000001"
+	hide_quest_until_deps_visible: true
+	icon: "avaritia:infinity_ingot"
+	id: "200000000000000C"
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"3700000000000019"
+				"3900000000000059"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.27403fa0a92463d0168e}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.a44f8e205db64ac87e01}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.2797c484eced8a09d646}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.ba1af914ac06c981436d}"
+			]
+			hide_until_deps_complete: true
+			icon: "kubejs:antimatter"
+			id: "3C00000000000001"
+			min_width: 380
+			optional: true
+			rewards: [{
+				id: "5C00000000000001"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.9b88e61623ad7e39e217}"
+			tasks: [{
+				id: "4C00000000000001"
+				title: "{lanminecraft.reforged.quests.12_challenges.9b9a8d05a7ec353bda84}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.22c3e189b741f184f224}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C00000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.7ba2ac416f889b1d6e74}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.ddbaf08c7855d3a95cec}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.dc505d4f6ecc56dd9b9b}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.a3deb7a3b0d91ac44a69}"
+			]
+			icon: "kubejs:antimatter_shard"
+			id: "3C00000000000002"
+			min_width: 400
+			optional: true
+			rewards: [{
+				id: "5C00000000000002"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.59d044fede93fb732f18}"
+			tasks: [{
+				id: "4C00000000000002"
+				title: "{lanminecraft.reforged.quests.12_challenges.9b9a8d05a7ec353bda84}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.3ac1a9ec4fa7a9fa612a}"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3C00000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.bcfebffcb095fbb5d798}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.ca7f42e8ebee9315372a}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.c35aee240991c754ec75}"
+			]
+			icon: "avaritia:double_compressed_crafting_table"
+			id: "3C00000000000003"
+			optional: true
+			rewards: [{
+				id: "5C00000000000003"
+				type: "xp"
+				xp: 60
+			}]
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.08fe40e9760e233aff9b}"
+			tasks: [{
+				id: "4C00000000000003"
+				item: "avaritia:double_compressed_crafting_table"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.4626a50ee110ecf45628}"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3C00000000000003"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.105899fcf5de2153b959}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.65fc636f0e78923a5c8f}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.31441fbbbee3dff1bd1a}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.bff587f1408e78c72f49}"
+			]
+			icon: "avaritia:sculk_crafting_table"
+			id: "3C00000000000004"
+			min_width: 400
+			optional: true
+			rewards: [
+				{
+					id: "5C00000000000004"
+					item: "avaritia:sculk_crafting_table"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5C00000000000005"
+					item: "minecraft:sculk"
+					type: "item"
+				}
+				{
+					id: "5C00000000000006"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.0aa6e45b03f468219ff9}"
+			tasks: [{
+				consume_items: true
+				id: "4C00000000000004"
+				item: "kubejs:antimatter"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.3c392a6fcbb958f23a6f}"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3C00000000000004"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.01317c195312205705ef}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.b89682777450b7ac69e0}"
+			]
+			icon: "minecraft:crying_obsidian"
+			id: "3C00000000000005"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5C00000000000007"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.4b3b0651d818746b2d2b}"
+			tasks: [{
+				count: 6L
+				id: "4C00000000000005"
+				item: "minecraft:crying_obsidian"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.c6b88d0de4d2f48d4a22}"
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3C00000000000005"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.226af2d6876fc676e8b9}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.0e0ae3736b5663ba1e84}"
+			]
+			icon: "avaritia:nether_crafting_table"
+			id: "3C00000000000006"
+			optional: true
+			rewards: [{
+				id: "5C00000000000008"
+				type: "xp"
+				xp: 80
+			}]
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.52cc16112f198afb8236}"
+			tasks: [{
+				id: "4C00000000000006"
+				item: "avaritia:nether_crafting_table"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.92b8ecbf4244c2bee35c}"
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["3C00000000000006"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.acacfff87c94b5543ede}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.de26f834815769e4f70d}"
+			]
+			icon: "avaritia:end_crafting_table"
+			id: "3C00000000000007"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5C00000000000009"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.b374a226a2f4708745a6}"
+			tasks: [{
+				id: "4C00000000000007"
+				item: "avaritia:end_crafting_table"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.8a1d164e9d70000d2086}"
+			x: 0.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["3C00000000000007"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.ec69407ba6d80e90e448}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.6fb376d211ca0b490142}"
+			]
+			icon: "avaritia:diamond_lattice"
+			id: "3C00000000000008"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5C00000000000010"
+				type: "xp"
+				xp: 60
+			}]
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.e5827d7651e33b3f4506}"
+			tasks: [{
+				count: 32L
+				id: "4C00000000000008"
+				item: "avaritia:diamond_lattice"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.73e585f5ba3d0b6508b3}"
+			x: -3.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["3C00000000000008"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.83726417e8c94ef1e83e}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.568dddea8c448f7c2859}"
+			]
+			icon: "avaritia:crystal_matrix_ingot"
+			id: "3C00000000000009"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5C00000000000011"
+				type: "xp"
+				xp: 120
+			}]
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.e1d7c61b77bb383452f4}"
+			tasks: [{
+				id: "4C00000000000009"
+				item: "avaritia:crystal_matrix"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.0905dca67c877f60bea2}"
+			x: -3.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["3C00000000000007"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.32c4173bb28d890f9bdd}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.81e035b14bbac5faadfa}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.0319e0ae580b3a9409fa}"
+			]
+			icon: "minecraft:heart_of_the_sea"
+			id: "3C00000000000010"
+			min_width: 400
+			optional: true
+			rewards: [{
+				id: "5C00000000000012"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.418522be5688606b8da9}"
+			tasks: [{
+				id: "4C00000000000010"
+				item: "minecraft:heart_of_the_sea"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.f21e64d3abac85569d62}"
+			x: 3.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["3C00000000000004"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.d9631f1d15e07d341e81}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.5b127e451fffd2430666}"
+			]
+			icon: "minecraft:recovery_compass"
+			id: "3C00000000000011"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5C00000000000013"
+				type: "xp"
+				xp: 80
+			}]
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.1b8e4ed3f33e3cb4087f}"
+			tasks: [{
+				id: "4C00000000000011"
+				item: "minecraft:recovery_compass"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.c80fa8abe15460f9683a}"
+			x: -6.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["3C00000000000011"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.3b0ce1879f09dd28df7f}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.52cbd22ef986aca4d597}"
+			]
+			icon: "minecraft:reinforced_deepslate"
+			id: "3C00000000000012"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5C00000000000014"
+				type: "xp"
+				xp: 80
+			}]
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.587d95d031bb886cb84f}"
+			tasks: [{
+				count: 4L
+				id: "4C00000000000012"
+				item: "minecraft:reinforced_deepslate"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.1eb8004eac2925754852}"
+			x: -6.0d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"3C00000000000009"
+				"3C00000000000010"
+				"3C00000000000012"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.b05ae0ccc43965ccb9e1}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.fc1fc143b7014e940e9d}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.8083945a75183331743c}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.407c5e2061a0482e4a02}"
+			]
+			icon: "avaritia:extreme_crafting_table"
+			id: "3C00000000000013"
+			min_width: 400
+			optional: true
+			rewards: [{
+				id: "5C00000000000015"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.37575ef375faf41e71de}"
+			tasks: [{
+				id: "4C00000000000013"
+				item: "avaritia:extreme_crafting_table"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.0272305cde02650b6445}"
+			x: 0.0d
+			y: 27.0d
+		}
+		{
+			dependencies: ["3C00000000000013"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.f4d0c0c8d7cc4e54f22f}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.26436c193457fa95a5e4}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.435aa95e348805fc5209}"
+			]
+			icon: "avaritia:neutron_collector"
+			id: "3C00000000000014"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5C00000000000016"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.242161d3ea7f05708240}"
+			tasks: [{
+				id: "4C00000000000014"
+				item: "avaritia:neutron_collector"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.dd5995bcf15961bbb9a8}"
+			x: 0.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["3C00000000000014"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.b6fda51dbcebbb2031e6}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.3e719b2920f55eaccc24}"
+			]
+			icon: "avaritia:neutron_ingot"
+			id: "3C00000000000015"
+			optional: true
+			rewards: [{
+				id: "5C00000000000017"
+				type: "xp"
+				xp: 150
+			}]
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.333f1cae05e76ba107d1}"
+			tasks: [{
+				id: "4C00000000000015"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.21113ca1113c9a3e0400}"
+			x: 0.0d
+			y: 33.0d
+		}
+		{
+			dependencies: ["3C00000000000015"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.9712be11c4d6897f0f83}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.60d7136f3dffcadbb0cc}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.9067d1ef945a842714c1}"
+			]
+			icon: "avaritia:densest_neutron_collector"
+			id: "3C00000000000016"
+			min_width: 380
+			optional: true
+			rewards: [{
+				id: "5C00000000000018"
+				type: "xp"
+				xp: 250
+			}]
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.eb735728252f39c8f823}"
+			tasks: [{
+				id: "4C00000000000016"
+				item: "avaritia:densest_neutron_collector"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.861b1cbd57299aa4c48a}"
+			x: -3.0d
+			y: 36.0d
+		}
+		{
+			dependencies: ["3C00000000000015"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.47a2dd3fee368f0206d5}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.7cd01b325c4e3ff09e15}"
+			]
+			icon: "avaritia:neutron_compressor"
+			id: "3C00000000000017"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5C00000000000019"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.f09479541192a8e08647}"
+			tasks: [{
+				id: "4C00000000000017"
+				item: "avaritia:neutron_compressor"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.75e948e4bdda1b4ea664}"
+			x: 3.0d
+			y: 36.0d
+		}
+		{
+			dependencies: ["3C00000000000017"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.717da73996fb43178a3a}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.7ed9f8d7b4a4edf13632}"
+			]
+			icon: "minecraft:bedrock"
+			id: "3C00000000000018"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5C00000000000020"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.8ed12e753095ac2b2e1e}"
+			tasks: [{
+				id: "4C00000000000018"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.4b7159920f77bc83cf84}"
+			x: 6.0d
+			y: 36.0d
+		}
+		{
+			dependencies: ["3C00000000000013"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.c559e00c88946ad8974f}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.ea4f61aa23c6b10a5011}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.37cc4d760a4b67e41813}"
+			]
+			icon: "minecraft:music_disc_pigstep"
+			id: "3C00000000000019"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5C00000000000021"
+				type: "xp"
+				xp: 120
+			}]
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.e5aa98d1523c888c923b}"
+			tasks: [{
+				id: "4C00000000000019"
+				item: "minecraft:music_disc_pigstep"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.34f9ff2d39df0e2f6a71}"
+			x: 6.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["3C00000000000015"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.9034a03fe5f4787963ae}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.39db513f4fd11f71a04a}"
+			]
+			icon: "avaritia:endest_pearl"
+			id: "3C00000000000020"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5C00000000000022"
+				type: "xp"
+				xp: 150
+			}]
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.f3466b73047018482787}"
+			tasks: [{
+				id: "4C00000000000020"
+				item: "avaritia:endest_pearl"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.7b69b7af9f4f1a9eb7f2}"
+			x: 3.0d
+			y: 39.0d
+		}
+		{
+			dependencies: [
+				"3C00000000000018"
+				"3C00000000000020"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.e7145eae133b1048092b}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.0c1d6d0da09350118393}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.33e98efc4e0cd885c3dd}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.e0cd3f08a5a74a505422}"
+			]
+			icon: "avaritia:infinity_catalyst"
+			id: "3C00000000000021"
+			min_width: 400
+			optional: true
+			rewards: [
+				{
+					id: "5C00000000000023"
+					item: "avaritia:infinity_catalyst"
+					type: "item"
+				}
+				{
+					id: "5C00000000000024"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.559275847e787becc893}"
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "4C00000000000021"
+					item: "kubejs:antimatter"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4C00000000000022"
+					item: "minecraft:bedrock"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4C00000000000023"
+					item: "avaritia:endest_pearl"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4C00000000000024"
+					item: "avaritia:neutron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4C00000000000025"
+					item: "avaritia:crystal_matrix_ingot"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.12_challenges.7f3eec332d77436c3a0f}"
+			x: 0.0d
+			y: 42.0d
+		}
+		{
+			dependencies: ["3C00000000000021"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.621c0cb89a51a6c4b1f9}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.96f79c90a343994bf140}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.b93ae929b909369bcaf5}"
+			]
+			icon: "minecraft:ancient_debris"
+			id: "3C00000000000022"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5C00000000000025"
+				type: "xp"
+				xp: 150
+			}]
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.db80cc466f9249419c4e}"
+			tasks: [{
+				count: 64L
+				id: "4C00000000000026"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.94f9190f8be28f235525}"
+			x: -3.0d
+			y: 45.0d
+		}
+		{
+			dependencies: ["3C00000000000021"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.4cb67f2dfcba2bd53334}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.9763019b83e866fb3242}"
+			]
+			icon: "avaritia:neutron_ring"
+			id: "3C00000000000023"
+			optional: true
+			rewards: [{
+				id: "5C00000000000026"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.8b78d0eafcc36928d212}"
+			tasks: [{
+				id: "4C00000000000027"
+				item: "avaritia:neutron_ring"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.b5d8ab61ce651c0229bc}"
+			x: 3.0d
+			y: 45.0d
+		}
+		{
+			dependencies: ["3C00000000000021"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.e9546bc733d9ef3fa65d}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.98352029ca9b87da4d16}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.771a73798d7f2ae30fcc}"
+			]
+			icon: "kubejs:antimatter"
+			id: "3C00000000000024"
+			min_width: 350
+			optional: true
+			rewards: [
+				{
+					count: 10
+					id: "5C00000000000027"
+					item: "avaritia:infinity_catalyst"
+					type: "item"
+				}
+				{
+					id: "5C00000000000028"
+					type: "xp"
+					xp: 800
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.8ad5c55613d4f7c8d7f2}"
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					id: "4C00000000000028"
+					item: "kubejs:antimatter"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "4C00000000000029"
+					item: "avaritia:neutron_ingot"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.12_challenges.146a884bbdcd04523391}"
+			x: 0.0d
+			y: 45.0d
+		}
+		{
+			dependencies: ["3C00000000000024"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.141f6505713832e95bb1}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.754771f496f5b14dc8bc}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.6fd1d219309a5b6763b8}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.751c8a9e4f0beaa98acf}"
+			]
+			icon: "avaritia:infinity_ingot"
+			id: "3C00000000000025"
+			min_width: 400
+			optional: true
+			rewards: [{
+				id: "5C00000000000029"
+				type: "xp"
+				xp: 1000
+			}]
+			shape: "gear"
+			size: 3.0d
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.ceabbe5564d673363d0d}"
+			tasks: [{
+				id: "4C00000000000030"
+				item: "avaritia:infinity_ingot"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.976be5c40cf83eabeba3}"
+			x: 0.0d
+			y: 48.0d
+		}
+		{
+			dependencies: ["3C00000000000025"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.25667b5784649cdb08f0}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.0cee7b55d6e14e85f7a6}"
+			]
+			icon: "avaritia:infinity_pickaxe"
+			id: "3C00000000000026"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5C00000000000030"
+				type: "xp"
+				xp: 400
+			}]
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.91c561391cf861153885}"
+			tasks: [{
+				id: "4C00000000000031"
+				item: "avaritia:infinity_pickaxe"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.f28ecf2b1db4c197522c}"
+			x: -3.0d
+			y: 48.0d
+		}
+		{
+			dependencies: ["3C00000000000025"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.93b652a9fc77172610a1}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.3e4a5aada096358ce918}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.04bd3089975570bb152c}"
+			]
+			icon: "avaritia:upgrade_smithing_template"
+			id: "3C00000000000027"
+			min_width: 400
+			optional: true
+			rewards: [{
+				id: "5C00000000000031"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.45cbb181326ab32dee7c}"
+			tasks: [{
+				id: "4C00000000000032"
+				title: "{lanminecraft.reforged.quests.12_challenges.6c0d14e791cc1a983e24}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.e08839cdaa0b544346c3}"
+			x: 3.0d
+			y: 48.0d
+		}
+		{
+			dependencies: ["3C00000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.e9a25ae86af4440f92af}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.de4bb9b298fdee0c1380}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.4a076dde2c612e5d205d}"
+			]
+			icon: "extendedcrafting:singularity"
+			id: "3C00000000000028"
+			optional: true
+			rewards: [{
+				id: "5C00000000000032"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.88ceb01a56dce6d2a275}"
+			tasks: [{
+				id: "4C00000000000033"
+				title: "{lanminecraft.reforged.quests.12_challenges.9b9a8d05a7ec353bda84}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.d5a2e919b0bf0e0c8060}"
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3C00000000000028"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.e039f1de355426362ad0}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.9d29840446a082f69345}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.61842fff3d8c2ef19568}"
+			]
+			icon: "chemlib:technetium"
+			id: "3C00000000000029"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5C00000000000033"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.9763d2efa62b7e28f06f}"
+			tasks: [{
+				id: "4C00000000000034"
+				title: "{lanminecraft.reforged.quests.12_challenges.35266de99da9a62385d9}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.bef946d6eed792d9b0d4}"
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3C00000000000028"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.d962f09b0521c009dba5}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.abf36b508a4f71276349}"
+			]
+			icon: "chemlib:oganesson"
+			id: "3C00000000000030"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5C00000000000034"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.d765cb46e6ae39d42a27}"
+			tasks: [{
+				id: "4C00000000000035"
+				title: "{lanminecraft.reforged.quests.12_challenges.b160f15b439c6d7269f7}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.2bc49e5ff34c9f88c7cc}"
+			x: 15.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"3C00000000000029"
+				"3C00000000000030"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.6fb3ff16616953ddfd07}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.26deacf33a5ec84fa600}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.108f1316dfcd367f2518}"
+			]
+			icon: "extendedcrafting:ultimate_singularity"
+			id: "3C00000000000031"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5C00000000000035"
+				type: "xp"
+				xp: 400
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.b3733a078191c382b116}"
+			tasks: [{
+				id: "4C00000000000036"
+				title: "{lanminecraft.reforged.quests.12_challenges.1ffc00a256f8f693873f}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.326a0f3489527250d934}"
+			x: 12.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3C00000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.d1ca2d53d28251810597}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.3fdb9b930d9e56b2d9cd}"
+			]
+			icon: "chemlib:periodic_table"
+			id: "3C00000000000032"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5C00000000000036"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.7ddba7f5dd612c6e0dc2}"
+			tasks: [{
+				id: "4C00000000000037"
+				title: "{lanminecraft.reforged.quests.12_challenges.80ac95bc99984d854bf0}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.551ffed5ef01404e2c76}"
+			x: 12.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["3C00000000000032"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.701b0ffd30ab986ecebe}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.12ae0fddb2d642908c3c}"
+			]
+			icon: "chemlib:sodium_chloride"
+			id: "3C00000000000033"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5C00000000000037"
+				type: "xp"
+				xp: 300
+			}]
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.ef45cbc76389e67698a0}"
+			tasks: [{
+				id: "4C00000000000038"
+				title: "{lanminecraft.reforged.quests.12_challenges.475d5ed6c344e1f655e6}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.699b1645417d317ebec5}"
+			x: 12.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3C00000000000032"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.b2904e4725c4b2c47f1e}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.b9e3f1413d7a458e5b5d}"
+			]
+			icon: "alchemistry:dissolver"
+			id: "3C00000000000034"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5C00000000000038"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.47cf7865045cef288916}"
+			tasks: [
+				{
+					id: "4C00000000000039"
+					item: "alchemistry:dissolver"
+					type: "item"
+				}
+				{
+					id: "4C00000000000040"
+					item: "alchemistry:combiner"
+					type: "item"
+				}
+				{
+					id: "4C00000000000041"
+					item: "alchemistry:compactor"
+					type: "item"
+				}
+				{
+					id: "4C00000000000042"
+					item: "alchemistry:atomizer"
+					type: "item"
+				}
+				{
+					id: "4C00000000000043"
+					item: "alchemistry:liquifier"
+					type: "item"
+				}
+				{
+					id: "4C00000000000044"
+					item: "alchemistry:fission_chamber_controller"
+					type: "item"
+				}
+				{
+					id: "4C00000000000045"
+					item: "alchemistry:fusion_chamber_controller"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.12_challenges.3d2a680cfa875da7d9b7}"
+			x: 9.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3C00000000000034"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.93113cc79603812bc347}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.7aedd8f7c4409930109e}"
+			]
+			icon: "mekanism:ultimate_enriching_factory"
+			id: "3C00000000000035"
+			optional: true
+			rewards: [{
+				id: "5C00000000000039"
+				type: "xp"
+				xp: 250
+			}]
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.e74afca9805236b9cb3f}"
+			tasks: [
+				{
+					id: "4C00000000000046"
+					item: "mekanism:basic_enriching_factory"
+					type: "item"
+				}
+				{
+					id: "4C00000000000047"
+					item: "mekanism:advanced_enriching_factory"
+					type: "item"
+				}
+				{
+					id: "4C00000000000048"
+					item: "mekanism:elite_enriching_factory"
+					type: "item"
+				}
+				{
+					id: "4C00000000000049"
+					item: "mekanism:ultimate_enriching_factory"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.12_challenges.90e215b1187ad6ced3e8}"
+			x: 9.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["3C00000000000032"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.0c9a1bcc7ca8867eb8af}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.7c82588540e382407283}"
+			]
+			icon: "powah:reactor_nitro"
+			id: "3C00000000000036"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5C00000000000040"
+				type: "xp"
+				xp: 250
+			}]
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.e2cca1927a9cc96e1f0a}"
+			tasks: [
+				{
+					id: "4C00000000000050"
+					item: "powah:reactor_starter"
+					type: "item"
+				}
+				{
+					id: "4C00000000000051"
+					item: "powah:reactor_basic"
+					type: "item"
+				}
+				{
+					id: "4C00000000000052"
+					item: "powah:reactor_hardened"
+					type: "item"
+				}
+				{
+					id: "4C00000000000053"
+					item: "powah:reactor_blazing"
+					type: "item"
+				}
+				{
+					id: "4C00000000000054"
+					item: "powah:reactor_niotic"
+					type: "item"
+				}
+				{
+					id: "4C00000000000055"
+					item: "powah:reactor_spirited"
+					type: "item"
+				}
+				{
+					id: "4C00000000000056"
+					item: "powah:reactor_nitro"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.12_challenges.f5ef3a635179f429faa1}"
+			x: 15.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3C00000000000033"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.405c98a84f319b42cfdb}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.9136eca1ebe8de97a684}"
+			]
+			icon: "industrialforegoing:common_black_hole_unit"
+			id: "3C00000000000037"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5C00000000000041"
+				type: "xp"
+				xp: 250
+			}]
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.ebe9f699fa04ce7782f6}"
+			tasks: [
+				{
+					id: "4C00000000000057"
+					item: "ironchest:diamond_chest"
+					type: "item"
+				}
+				{
+					id: "4C00000000000058"
+					item: "ae2:drive"
+					type: "item"
+				}
+				{
+					id: "4C00000000000059"
+					item: "megacells:bulk_item_cell"
+					type: "item"
+				}
+				{
+					id: "4C00000000000060"
+					item: "mekanism:qio_drive_array"
+					type: "item"
+				}
+				{
+					id: "4C00000000000061"
+					item: "industrialforegoing:common_black_hole_unit"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.12_challenges.63073e3a279a6836ee1c}"
+			x: 12.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["3C00000000000036"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.8a4f8bf40c4ac16a4712}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.4ac2e47e991d7254e9c2}"
+			]
+			icon: "extendedcrafting:ultimate_table"
+			id: "3C00000000000038"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5C00000000000042"
+				type: "xp"
+				xp: 250
+			}]
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.f0ad86dcdbaf06326c6c}"
+			tasks: [
+				{
+					id: "4C00000000000062"
+					item: "extendedcrafting:basic_table"
+					type: "item"
+				}
+				{
+					id: "4C00000000000063"
+					item: "extendedcrafting:advanced_table"
+					type: "item"
+				}
+				{
+					id: "4C00000000000064"
+					item: "extendedcrafting:elite_table"
+					type: "item"
+				}
+				{
+					id: "4C00000000000065"
+					item: "extendedcrafting:ultimate_table"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.12_challenges.d08f8aad04254e71104d}"
+			x: 15.0d
+			y: 19.0d
+		}
+		{
+			dependencies: [
+				"3C00000000000035"
+				"3C00000000000037"
+				"3C00000000000038"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.3d21173fe4d8912f3126}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.7b7a03cfc7d183b1b181}"
+			]
+			icon: "minecraft:item_frame"
+			id: "3C00000000000039"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5C00000000000043"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.f4e6da36259be93ab712}"
+			tasks: [{
+				id: "4C00000000000066"
+				title: "{lanminecraft.reforged.quests.12_challenges.c429008e7da2881e8d95}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.d71cdf71c4a54cc2fe54}"
+			x: 12.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["3C00000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.9d6d5d77c51494cf233b}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.bc2f96a4c83fe62a4069}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.0c60623c29198ca50fda}"
+			]
+			icon: "kubejs:white_antimatter"
+			id: "3C00000000000040"
+			min_width: 380
+			optional: true
+			rewards: [{
+				id: "5C00000000000044"
+				type: "xp"
+				xp: 150
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.ad3210e44c275720e6a3}"
+			tasks: [{
+				id: "4C00000000000067"
+				title: "{lanminecraft.reforged.quests.12_challenges.43955b478d9cb8750f59}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.16609d8abd88af0013cc}"
+			x: -12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3C00000000000040"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.7714772df4fdb8f2c4c0}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.e5d553f0fc84c950a67c}"
+			]
+			icon: "megacells:item_storage_cell_256m"
+			id: "3C00000000000041"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5C00000000000045"
+				type: "xp"
+				xp: 250
+			}]
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.f826a57da371b96fb03c}"
+			tasks: [{
+				id: "4C00000000000068"
+				item: "megacells:item_storage_cell_256m"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.8d6ca992754caadb0b86}"
+			x: -15.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3C00000000000040"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.cae5bb18c3bdfc55e1f5}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.463606c4542280fb103b}"
+			]
+			icon: "mekanismgenerators:fusion_reactor_controller"
+			id: "3C00000000000042"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5C00000000000046"
+				type: "xp"
+				xp: 300
+			}]
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.8dc20e15232f8d03b910}"
+			tasks: [
+				{
+					id: "4C00000000000069"
+					item: "mekanismgenerators:fusion_reactor_controller"
+					type: "item"
+				}
+				{
+					id: "4C00000000000070"
+					title: "{lanminecraft.reforged.quests.12_challenges.4d163de7f0312af753ea}"
+					type: "checkmark"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.12_challenges.eaa6a00d6ba28cf876b7}"
+			x: -9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"3C00000000000042"
+				"3C00000000000056"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.ed65d9c136ce80a2e548}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.9ee614d3170070f58c95}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.ecb3e0306f7bc9570ba2}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.239bd3c8e31b490a88e9}"
+			]
+			icon: "draconicevolution:reactor_core"
+			id: "3C00000000000043"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5C00000000000047"
+				type: "xp"
+				xp: 400
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.0dff3b9a42a3a5dae004}"
+			tasks: [{
+				id: "4C00000000000071"
+				item: "draconicevolution:reactor_core"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.292fe6f236ecd88a3ed9}"
+			x: -8.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["3C00000000000040"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.f6f214aea2c85bf75b54}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.4171fefb95d3bdaf7998}"
+			]
+			icon: "minecraft:firework_rocket"
+			id: "3C00000000000044"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5C00000000000048"
+				type: "xp"
+				xp: 300
+			}]
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.f1800ac129a2e7afcfa4}"
+			tasks: [{
+				id: "4C00000000000072"
+				stat: "minecraft:aviate_one_cm"
+				type: "stat"
+				value: 10000000
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.b731ef79738b6c18d030}"
+			x: -15.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3C00000000000040"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.89e94a5267f39c47e0dc}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.dc6453696e8dd3d54a74}"
+			]
+			icon: "minecraft:nether_star"
+			id: "3C00000000000045"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5C00000000000049"
+				type: "xp"
+				xp: 350
+			}]
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.98f4e14b70dcf547ba6e}"
+			tasks: [{
+				count: 64L
+				id: "4C00000000000073"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.25e3de29ef3bbe6e3368}"
+			x: -12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3C00000000000045"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.e8d415302421e66b653b}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.43af886b6859894395ac}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.b368adc457fb87fd8d2e}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.004ad8ccc1422dff24e9}"
+			]
+			icon: "kubejs:antimatter"
+			id: "3C00000000000046"
+			min_width: 400
+			optional: true
+			rewards: [{
+				id: "5C00000000000050"
+				type: "xp"
+				xp: 400
+			}]
+			shape: "diamond"
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.a1ec8bcf72c9c275d31a}"
+			tasks: [{
+				id: "4C00000000000074"
+				title: "{lanminecraft.reforged.quests.12_challenges.3c160e4c8bc0478fcf69}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.ca6073143c456aa211fc}"
+			x: -12.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3C00000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.d4c1d4593807b4dab640}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.7905dbdd2e07e8484a8e}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.1203a9d9fb5f207edd89}"
+			]
+			icon: "minecraft:paper"
+			id: "3C00000000000047"
+			optional: true
+			rewards: [{
+				id: "5C00000000000051"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.bdcc296089886d0594ee}"
+			tasks: [{
+				id: "4C00000000000075"
+				title: "{lanminecraft.reforged.quests.12_challenges.9b9a8d05a7ec353bda84}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.8e6eece41ca20006278f}"
+			x: 24.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3C00000000000047"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.639e13a29822c5751e9c}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.f053b94ff6eec5642829}"
+			]
+			icon: "ae2:controller"
+			id: "3C00000000000048"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5C00000000000052"
+				type: "xp"
+				xp: 300
+			}]
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.fd5ad60277d6567fb90e}"
+			tasks: [{
+				id: "4C00000000000076"
+				title: "{lanminecraft.reforged.quests.12_challenges.cdcbb546b3503769ff79}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.a5b3016a2e593637fe5f}"
+			x: 21.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3C00000000000047"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.7d10c34e7c1a69062964}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.8c4de18d1413c29a7917}"
+			]
+			icon: "mekanism:steel_casing"
+			id: "3C00000000000049"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5C00000000000053"
+				type: "xp"
+				xp: 300
+			}]
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.5f76106254b5da6afcdf}"
+			tasks: [{
+				id: "4C00000000000077"
+				title: "{lanminecraft.reforged.quests.12_challenges.beba3819feb33dc361d2}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.a5fc40ab9a8c28fc2b52}"
+			x: 24.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3C00000000000047"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.85b08832ecea0c824de0}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.92146ab22fe1d59866d5}"
+			]
+			icon: "alchemistry:dissolver"
+			id: "3C00000000000050"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5C00000000000054"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.8a3f23c41277cc720c5f}"
+			tasks: [{
+				id: "4C00000000000078"
+				title: "{lanminecraft.reforged.quests.12_challenges.35667221b5920e66ecb2}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.8c9fd3c188c515b8eeb7}"
+			x: 27.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3C00000000000050"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.302ab7b3f69eb85d7f47}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.dc3edf5dedc7c5be861f}"
+			]
+			icon: "minecraft:hopper"
+			id: "3C00000000000051"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5C00000000000055"
+				type: "xp"
+				xp: 400
+			}]
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.ac4c96cff5316af9362a}"
+			tasks: [{
+				id: "4C00000000000079"
+				title: "{lanminecraft.reforged.quests.12_challenges.7737e6ad39bdb076eff6}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.afa8a3f3f7cf7076bc93}"
+			x: 27.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3C00000000000048"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.2587c218d054e3c9edae}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.8cc90bcbcfd220989ca7}"
+			]
+			icon: "minecraft:furnace"
+			id: "3C00000000000052"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5C00000000000056"
+				type: "xp"
+				xp: 350
+			}]
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.180dcd21c47f7375d636}"
+			tasks: [{
+				id: "4C00000000000080"
+				title: "{lanminecraft.reforged.quests.12_challenges.01804f494dc183508ea4}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.8b5d3f382e374fa32133}"
+			x: 21.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3C00000000000047"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.0fdd69581f115d31ae9e}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.e9a04c160846f27cc857}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.be531cccdc64e9b4ed73}"
+			]
+			icon: "minecraft:totem_of_undying"
+			id: "3C00000000000053"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5C00000000000057"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.66da023a616556c9819c}"
+			tasks: [{
+				id: "4C00000000000081"
+				title: "{lanminecraft.reforged.quests.12_challenges.cc0fada8d3ebf746224b}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.5b847cdc24b378aafaf2}"
+			x: 24.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3C00000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.0f08a362691a8529239d}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.c5411c40a47f7bbdce5a}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.6dfb3c7317b3fea8915f}"
+			]
+			icon: "draconicevolution:chaos_crystal"
+			id: "3C00000000000054"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5C00000000000058"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.9af54cdc07c52198b398}"
+			tasks: [{
+				id: "4C00000000000082"
+				title: "{lanminecraft.reforged.quests.12_challenges.633c1aa56f45f4523439}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.8154288da736e103f1d7}"
+			x: -12.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["3C00000000000054"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.26c88e4e20b95d7115d9}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.9f560cb4d945391b90e2}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.3c4a102896056459f4a5}"
+			]
+			icon: "draconicevolution:chaotic_core"
+			id: "3C00000000000055"
+			min_width: 380
+			optional: true
+			rewards: [{
+				id: "5C00000000000059"
+				type: "xp"
+				xp: 600
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.c630f7c0b8dbb4245e4e}"
+			tasks: [{
+				entity: "draconicevolution:draconic_guardian"
+				id: "4C00000000000083"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.5e827e9d1b56676ad22d}"
+			x: -12.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["3C00000000000055"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.537e4542b36e0fed2c51}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.f6b96c3759510a57b1f9}"
+			]
+			icon: "draconicevolution:chaos_shard"
+			id: "3C00000000000056"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5C00000000000060"
+				type: "xp"
+				xp: 300
+			}]
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.ae7ee2d27f19d767b059}"
+			tasks: [{
+				id: "4C00000000000084"
+				item: "draconicevolution:chaos_shard"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.5ca8ebb5fd74e72489b3}"
+			x: -12.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["3C00000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.8add5e27782039348f5a}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.aac79a6554c417c49e5a}"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:elytra"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3C00000000000057"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5C00000000000061"
+				type: "xp"
+				xp: 250
+			}]
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.f02e2a1bd4675ca76024}"
+			tasks: [{
+				id: "4C00000000000085"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.d80f7da094e11c894ecd}"
+			x: -16.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["3C00000000000057"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.d1ccf47b12d3d03e0cf6}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.d87e2a11c45cecaf0a0e}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.be328836e9288100ac08}"
+			]
+			icon: "minecraft:dragon_egg"
+			id: "3C00000000000058"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5C00000000000062"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.885dff031fbf916444da}"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "4C00000000000086"
+				type: "kill"
+				value: 8L
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.b47420579b221eaa965d}"
+			x: -16.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["3C00000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.178b40932d171bc940c4}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.655eebeb2b4e5f396d56}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.21f35e058861ea1cc0c5}"
+			]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "3C00000000000059"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5C00000000000063"
+				type: "xp"
+				xp: 300
+			}]
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.dee51d2b069101736b40}"
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "4C00000000000087"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.650b2d3da1bfcba4cf80}"
+			x: -8.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["3C00000000000057"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.aed9f8ebe551243f0265}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.96d9e90518588f69f69e}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.8fe29b7d2a4c9a291cf6}"
+			]
+			icon: "apotheosis:ender_library"
+			id: "3C00000000000060"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5C00000000000064"
+				type: "xp"
+				xp: 400
+			}]
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.b7d835e3359754849d3b}"
+			tasks: [{
+				id: "4C00000000000088"
+				title: "{lanminecraft.reforged.quests.12_challenges.beb89f30ba136e168a44}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.05eabfc820f475e0d4f3}"
+			x: -16.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["3C00000000000025"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.0747333268a690a1caed}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.d1557921bde2ae794b3d}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.a0569d446e41be36543e}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.e7299f68c7c5a47d3857}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.9ef640e75d458b76ad0f}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.94a87a8a10c7c20771d8}"
+			]
+			icon: "kubejs:enshrined_soul"
+			id: "3C00000000000100"
+			min_width: 420
+			optional: true
+			rewards: [{
+				id: "5C00000000000100"
+				type: "xp"
+				xp: 1000
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.727e4477e7959a5c2f9b}"
+			tasks: [{
+				id: "4C00000000000100"
+				item: "kubejs:enshrined_soul"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.12_challenges.982fd50a2a7043a12ef3}"
+			x: 0.0d
+			y: 51.0d
+		}
+		{
+			dependencies: ["3C00000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.9e862560be4cc4d2bc35}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.8e32ac78caf49ace9e30}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.0dcd40161c7920c09d9b}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.688af1c1465afc62c719}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.342c14ccf2b66383feb7}"
+			]
+			icon: "minecraft:cooked_chicken"
+			id: "3C00000000000F30"
+			min_width: 460
+			optional: true
+			rewards: [{
+				id: "5C00000000000F30"
+				type: "xp"
+				xp: 600
+			}]
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.b428d9e9a1bc5cead352}"
+			tasks: [
+				{
+					count: 64L
+					id: "4C00000000000F30"
+					item: "minecraft:cooked_chicken"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.12_challenges.04abaccb1fcefc59cddc}"
+			x: -20.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3C00000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.6d1e60cdbf64e8a2178e}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.19ef143dac7d08b5bdcc}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.fad62171869bb0a2bfa9}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.9fb7a29550817776f3b0}"
+			]
+			icon: "minecraft:redstone"
+			id: "3C00000000000F31"
+			min_width: 460
+			optional: true
+			rewards: [{
+				id: "5C00000000000F31"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.d88f6d8372f4d54ecfa2}"
+			tasks: [
+				{
+					id: "4C00000000000F34"
+					title: "{lanminecraft.reforged.quests.12_challenges.df786320d86f14645052}"
+					type: "checkmark"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.12_challenges.ee7d4d628c9b7565eb78}"
+			x: -20.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3C00000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.e56f181d9e2e9998082c}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.23dba1d1965d6cab7fef}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.02ecad2424fa0242e2cb}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.eb494d46112b87ccd40e}"
+			]
+			icon: "kubejs:magnetic_trap"
+			id: "3C00000000000F32"
+			min_width: 460
+			optional: true
+			rewards: [{
+				id: "5C00000000000F32"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.92a0d9f8f1dd7f886533}"
+			tasks: [
+				{
+					count: 8L
+					id: "4C00000000000F38"
+					item: "kubejs:magnetic_trap"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.12_challenges.a4ba89c5c54825ef2cb5}"
+			x: -20.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3C00000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.12_challenges.9c5656b763299590d66f}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.0bb7f90f0a7dbb96e2d4}"
+				""
+				"{lanminecraft.reforged.quests.12_challenges.b565acc06c286d6618e0}"
+			]
+			icon: "minecraft:iron_door"
+			id: "3C00000000000F33"
+			min_width: 460
+			optional: true
+			rewards: [{
+				id: "5C00000000000F33"
+				type: "xp"
+				xp: 400
+			}]
+			subtitle: "{lanminecraft.reforged.quests.12_challenges.35c08650e4fe123aeefa}"
+			tasks: [
+				{
+					count: 4L
+					id: "4C00000000000F3C"
+					item: "minecraft:iron_door"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.12_challenges.66209daae0213831b194}"
+			x: -20.0d
+			y: 16.0d
+		}
+	]
+	subtitle: ["{lanminecraft.reforged.quests.12_challenges.9507b15876135d720c46}"]
+	title: "{lanminecraft.reforged.quests.12_challenges.51de4b3db6c157ab7696}"
+}

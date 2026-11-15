@@ -1,0 +1,805 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 320
+	default_quest_shape: ""
+	filename: "17_ars_nouveau"
+	group: "1000000000000001"
+	hide_quest_until_deps_visible: true
+	icon: "ars_nouveau:archmage_spell_book"
+	id: "2000000000000011"
+	order_index: 17
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3300000000000004"]
+			description: [
+				"{lanminecraft.reforged.quests.17_ars_nouveau.3eaf0d169a737a2b329b}"
+				""
+				"{lanminecraft.reforged.quests.17_ars_nouveau.bedd1cfb070bf353cbc9}"
+				""
+				"{lanminecraft.reforged.quests.17_ars_nouveau.be797d35b673978bfa35}"
+				""
+				"{lanminecraft.reforged.quests.17_ars_nouveau.d09d776a10b9775f283d}"
+			]
+			hide_until_deps_complete: true
+			icon: "ars_nouveau:source_gem"
+			id: "6100000000000001"
+			min_width: 470
+			rewards: [
+				{
+					id: "8100000000000001"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.17_ars_nouveau.9b9a8d05a7ec353bda84}"
+			tasks: [
+				{
+					id: "7100000000000001"
+					title: "{lanminecraft.reforged.quests.17_ars_nouveau.5ad3dbd1242a4cea217e}"
+					type: "checkmark"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.17_ars_nouveau.96ee65acbc0b820648fd}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6100000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.17_ars_nouveau.171587d5cde4f5d9c42d}"
+				""
+				"{lanminecraft.reforged.quests.17_ars_nouveau.0abb943ef21497c8dd39}"
+			]
+			icon: "ars_nouveau:red_archwood_sapling"
+			id: "6100000000000002"
+			min_width: 440
+			rewards: [
+				{
+					id: "8100000000000002"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.17_ars_nouveau.6151400d0150cf3f5cda}"
+			tasks: [
+				{
+					id: "7100000000000002"
+					item: "ars_nouveau:red_archwood_sapling"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.17_ars_nouveau.fd0a1b509695221a244c}"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6100000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.17_ars_nouveau.45403733c7f4d3b84bcb}"
+				""
+				"{lanminecraft.reforged.quests.17_ars_nouveau.a6cb7e983a4eb2ab4779}"
+				""
+				"{lanminecraft.reforged.quests.17_ars_nouveau.53849afb012b42811891}"
+			]
+			icon: "ars_nouveau:archwood_planks"
+			id: "6100000000000003"
+			min_width: 440
+			rewards: [
+				{
+					id: "8100000000000003"
+					type: "xp"
+					xp: 250
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.17_ars_nouveau.a5311da275d770335046}"
+			tasks: [
+				{
+					count: 64L
+					id: "7100000000000003"
+					item: "ars_nouveau:archwood_planks"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.17_ars_nouveau.dabcd67041d614339367}"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6100000000000003"]
+			description: [
+				"{lanminecraft.reforged.quests.17_ars_nouveau.e7d3032d0e9c2c7d94bc}"
+				""
+				"{lanminecraft.reforged.quests.17_ars_nouveau.54ac67ad766f6b743345}"
+			]
+			icon: "ars_nouveau:imbuement_chamber"
+			id: "6100000000000004"
+			min_width: 440
+			rewards: [
+				{
+					id: "8100000000000004"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.17_ars_nouveau.c4b48412d203d5720bc0}"
+			tasks: [
+				{
+					id: "7100000000000004"
+					item: "ars_nouveau:imbuement_chamber"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.17_ars_nouveau.5919720a11103e0f0ab0}"
+			x: -4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6100000000000003"]
+			description: [
+				"{lanminecraft.reforged.quests.17_ars_nouveau.e5479bc1698e6e14f88c}"
+				""
+				"{lanminecraft.reforged.quests.17_ars_nouveau.632209436f08facbb31b}"
+				""
+				"{lanminecraft.reforged.quests.17_ars_nouveau.a142887906ab82835fda}"
+			]
+			icon: "ars_nouveau:source_gem"
+			id: "6100000000000005"
+			min_width: 460
+			rewards: [
+				{
+					id: "8100000000000005"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.17_ars_nouveau.4d16e09d11df625ff5e0}"
+			tasks: [
+				{
+					count: 64L
+					id: "7100000000000005"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.17_ars_nouveau.f20b648f888bde37a13d}"
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6100000000000004"]
+			description: [
+				"{lanminecraft.reforged.quests.17_ars_nouveau.4cbde79ad85f2fe83bd0}"
+				""
+				"{lanminecraft.reforged.quests.17_ars_nouveau.647ac58a928540babbf3}"
+			]
+			icon: "ars_nouveau:source_jar"
+			id: "6100000000000006"
+			min_width: 440
+			rewards: [
+				{
+					id: "8100000000000006"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.17_ars_nouveau.3eefd771ea2abe9fb38c}"
+			tasks: [
+				{
+					count: 4L
+					id: "7100000000000006"
+					item: "ars_nouveau:source_jar"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7100000000000007"
+					item: "ars_nouveau:relay"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.17_ars_nouveau.3f18daef2ed719fa70f4}"
+			x: -4.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["6100000000000004"]
+			description: [
+				"{lanminecraft.reforged.quests.17_ars_nouveau.3b33084ef9db73534e5e}"
+				""
+				"{lanminecraft.reforged.quests.17_ars_nouveau.b55b42c9bc7508b3c05d}"
+				""
+				"{lanminecraft.reforged.quests.17_ars_nouveau.0cd5dcebe584a13b6823}"
+			]
+			icon: "ars_nouveau:volcanic_sourcelink"
+			id: "6100000000000007"
+			min_width: 460
+			rewards: [
+				{
+					id: "8100000000000007"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.17_ars_nouveau.833e59a937a8bda3dd6c}"
+			tasks: [
+				{
+					id: "7100000000000008"
+					item: "ars_nouveau:volcanic_sourcelink"
+					type: "item"
+				}
+				{
+					id: "7100000000000009"
+					item: "ars_nouveau:mycelial_sourcelink"
+					type: "item"
+				}
+				{
+					id: "7100000000000010"
+					item: "ars_nouveau:vitalic_sourcelink"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.17_ars_nouveau.30b82b622ebe7de0d929}"
+			x: 4.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["6100000000000005"]
+			description: [
+				"{lanminecraft.reforged.quests.17_ars_nouveau.cc0c4ceb9d72c9025142}"
+				""
+				"{lanminecraft.reforged.quests.17_ars_nouveau.d60b2b9adec434b5d53a}"
+				""
+				"{lanminecraft.reforged.quests.17_ars_nouveau.2655e2d498c1d1060c0d}"
+			]
+			icon: "ars_nouveau:novice_spell_book"
+			id: "6100000000000008"
+			min_width: 460
+			rewards: [
+				{
+					id: "8100000000000008"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.17_ars_nouveau.55d7ac31afcf7c1b933c}"
+			tasks: [
+				{
+					id: "7100000000000011"
+					item: "ars_nouveau:novice_spell_book"
+					type: "item"
+				}
+				{
+					id: "7100000000000012"
+					item: "ars_nouveau:scribes_table"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7100000000000013"
+					item: "ars_nouveau:spell_parchment"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.17_ars_nouveau.063446fa6c1847344a2b}"
+			x: -6.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"6100000000000005"
+				"6100000000000006"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.17_ars_nouveau.3680cc7070113b2c2b96}"
+				""
+				"{lanminecraft.reforged.quests.17_ars_nouveau.c558bcac9a36aff2d41b}"
+				""
+				"{lanminecraft.reforged.quests.17_ars_nouveau.3d169ef3a7ba09c7aef4}"
+			]
+			icon: "ars_nouveau:enchanting_apparatus"
+			id: "6100000000000009"
+			min_width: 460
+			rewards: [
+				{
+					id: "8100000000000009"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.17_ars_nouveau.18ab2469a8fafafc854f}"
+			tasks: [
+				{
+					id: "7100000000000014"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7100000000000015"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7100000000000016"
+					item: "ars_nouveau:arcane_pedestal"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.17_ars_nouveau.713c83cf4bd78aafb4a6}"
+			x: 0.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["6100000000000008"]
+			description: [
+				"{lanminecraft.reforged.quests.17_ars_nouveau.bff174f69c5a7560c359}"
+				""
+				"{lanminecraft.reforged.quests.17_ars_nouveau.7816cac6f86be4e0fba5}"
+			]
+			icon: "ars_nouveau:dominion_wand"
+			id: "6100000000000010"
+			min_width: 420
+			rewards: [
+				{
+					id: "8100000000000010"
+					type: "xp"
+					xp: 250
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.17_ars_nouveau.878792594adf1e90ea52}"
+			tasks: [
+				{
+					id: "7100000000000017"
+					item: "ars_nouveau:dominion_wand"
+					type: "item"
+				}
+				{
+					id: "7100000000000018"
+					item: "ars_nouveau:warp_scroll"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.17_ars_nouveau.d2195f8b963eebb85ef0}"
+			x: 6.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"6100000000000009"
+				"6100000000000008"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.17_ars_nouveau.85b76e5bbe2b704a0f04}"
+				""
+				"{lanminecraft.reforged.quests.17_ars_nouveau.e726b0c527dc34787641}"
+			]
+			icon: "ars_nouveau:basic_spell_turret"
+			id: "6100000000000011"
+			min_width: 440
+			rewards: [
+				{
+					id: "8100000000000011"
+					type: "xp"
+					xp: 350
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.17_ars_nouveau.7da3f41454cffdc19fae}"
+			tasks: [
+				{
+					count: 4L
+					id: "7100000000000019"
+					item: "ars_nouveau:basic_spell_turret"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7100000000000020"
+					item: "ars_nouveau:spell_turret"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.17_ars_nouveau.0d96364d9ae7131afe1b}"
+			x: -3.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["6100000000000009"]
+			description: [
+				"{lanminecraft.reforged.quests.17_ars_nouveau.bb644c7826cb562b19eb}"
+				""
+				"{lanminecraft.reforged.quests.17_ars_nouveau.2e97bf60688b7734a29d}"
+			]
+			icon: "ars_nouveau:magebloom_fiber"
+			id: "6100000000000012"
+			min_width: 440
+			rewards: [
+				{
+					id: "8100000000000012"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.17_ars_nouveau.74fd581f93a5b80d813b}"
+			tasks: [
+				{
+					count: 16L
+					id: "7100000000000021"
+					item: "ars_nouveau:magebloom_fiber"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7100000000000022"
+					item: "ars_nouveau:blank_thread"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.17_ars_nouveau.9698199f0830b23e2bb5}"
+			x: 3.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["6100000000000012"]
+			description: [
+				"{lanminecraft.reforged.quests.17_ars_nouveau.c4aa28aba35fd85fdcab}"
+				""
+				"{lanminecraft.reforged.quests.17_ars_nouveau.e56cbad0c3f70d44b504}"
+				""
+				"{lanminecraft.reforged.quests.17_ars_nouveau.9eb61bd35e5a9909a2da}"
+			]
+			icon: "ars_nouveau:sorcerer_robes"
+			id: "6100000000000013"
+			min_width: 440
+			optional: true
+			rewards: [
+				{
+					id: "8100000000000013"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.17_ars_nouveau.5aff5a1d4067a5dc584e}"
+			tasks: [
+				{
+					id: "7100000000000023"
+					item: "ars_nouveau:sorcerer_hood"
+					type: "item"
+				}
+				{
+					id: "7100000000000024"
+					item: "ars_nouveau:sorcerer_robes"
+					type: "item"
+				}
+				{
+					id: "7100000000000025"
+					item: "ars_nouveau:sorcerer_leggings"
+					type: "item"
+				}
+				{
+					id: "7100000000000026"
+					item: "ars_nouveau:sorcerer_boots"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.17_ars_nouveau.2cf664617c2df11b7fd5}"
+			x: 3.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["6100000000000009"]
+			description: [
+				"{lanminecraft.reforged.quests.17_ars_nouveau.4c09c60d002a2a89592d}"
+				""
+				"{lanminecraft.reforged.quests.17_ars_nouveau.5791c1b9e9ea5987f995}"
+				""
+				"{lanminecraft.reforged.quests.17_ars_nouveau.18a435112b1886d90de8}"
+			]
+			icon: "ars_nouveau:starbuncle_charm"
+			id: "6100000000000014"
+			min_width: 470
+			rewards: [
+				{
+					id: "8100000000000014"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.17_ars_nouveau.5f43f2c24bb78677835e}"
+			tasks: [
+				{
+					id: "7100000000000027"
+					item: "ars_nouveau:starbuncle_charm"
+					type: "item"
+				}
+				{
+					id: "7100000000000028"
+					item: "ars_nouveau:whirlisprig_charm"
+					type: "item"
+				}
+				{
+					id: "7100000000000029"
+					item: "ars_nouveau:drygmy_charm"
+					type: "item"
+				}
+				{
+					id: "7100000000000030"
+					item: "ars_nouveau:wixie_charm"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.17_ars_nouveau.c37f76d207f1a4f6ff9e}"
+			x: -6.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["6100000000000014"]
+			description: [
+				"{lanminecraft.reforged.quests.17_ars_nouveau.16a09858bdf5387e0707}"
+				""
+				"{lanminecraft.reforged.quests.17_ars_nouveau.9caf8c8ba34e0defca9f}"
+			]
+			icon: "ars_nouveau:ritual_brazier"
+			id: "6100000000000015"
+			min_width: 460
+			rewards: [
+				{
+					id: "8100000000000015"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.17_ars_nouveau.f4a75ba1ce0a2d3717d6}"
+			tasks: [
+				{
+					id: "7100000000000031"
+					item: "ars_nouveau:ritual_brazier"
+					type: "item"
+				}
+				{
+					id: "7100000000000032"
+					item: "ars_nouveau:ritual_forestation"
+					type: "item"
+				}
+				{
+					id: "7100000000000033"
+					item: "ars_nouveau:summon_focus"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.17_ars_nouveau.d0439c7258c7a1ab8c9a}"
+			x: -6.0d
+			y: 32.0d
+		}
+		{
+			dependencies: [
+				"6100000000000015"
+				"6100000000000011"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.17_ars_nouveau.d5e86202c52af4bb3f2a}"
+				""
+				"{lanminecraft.reforged.quests.17_ars_nouveau.68638985dd6d53896bbe}"
+				""
+				"{lanminecraft.reforged.quests.17_ars_nouveau.69434c03d751caa0430c}"
+			]
+			icon: "ars_nouveau:wilden_tribute"
+			id: "6100000000000016"
+			min_width: 470
+			rewards: [
+				{
+					id: "8100000000000016"
+					type: "xp"
+					xp: 800
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.17_ars_nouveau.8d206b713cbd467c6e8f}"
+			tasks: [
+				{
+					id: "7100000000000034"
+					item: "ars_nouveau:wilden_tribute"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.17_ars_nouveau.d6f7777d4788166af751}"
+			x: 0.0d
+			y: 36.0d
+		}
+		{
+			dependencies: ["6100000000000016"]
+			description: [
+				"{lanminecraft.reforged.quests.17_ars_nouveau.2cbd9d772fb02b525b19}"
+				""
+				"{lanminecraft.reforged.quests.17_ars_nouveau.047fc50b2052bed190d5}"
+				""
+				"{lanminecraft.reforged.quests.17_ars_nouveau.c59a2a4368e4d764f323}"
+			]
+			icon: "ars_nouveau:archmage_spell_book"
+			id: "6100000000000017"
+			min_width: 470
+			rewards: [
+				{
+					id: "8100000000000017"
+					type: "xp"
+					xp: 1500
+				}
+			]
+			shape: "hexagon"
+			size: 2.5d
+			subtitle: "{lanminecraft.reforged.quests.17_ars_nouveau.a67e5cb6b8f4076442a5}"
+			tasks: [
+				{
+					id: "7100000000000035"
+					item: "ars_nouveau:archmage_spell_book"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.17_ars_nouveau.dfc6fe93a7e95c2b4bf2}"
+			x: 0.0d
+			y: 41.0d
+		}
+		{
+			dependencies: ["6100000000000009"]
+			description: [
+				"{lanminecraft.reforged.quests.17_ars_nouveau.ecd1e20068c29bd68331}"
+				""
+				"{lanminecraft.reforged.quests.17_ars_nouveau.aef74efdd14fd08f75f4}"
+			]
+			icon: "ars_nouveau:enchanters_sword"
+			id: "6100000000000018"
+			min_width: 440
+			optional: true
+			rewards: [
+				{
+					id: "8100000000000018"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.17_ars_nouveau.878792594adf1e90ea52}"
+			tasks: [
+				{
+					id: "7100000000000036"
+					item: "ars_nouveau:enchanters_sword"
+					type: "item"
+				}
+				{
+					id: "7100000000000037"
+					item: "ars_nouveau:spell_bow"
+					type: "item"
+				}
+				{
+					id: "7100000000000038"
+					item: "ars_nouveau:enchanters_shield"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.17_ars_nouveau.7cd53e95c61db70df236}"
+			x: -6.0d
+			y: 41.0d
+		}
+		{
+			dependencies: [
+				"6100000000000006"
+				"6100000000000009"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.17_ars_nouveau.6e9403945cb5b9a1a65b}"
+				""
+				"{lanminecraft.reforged.quests.17_ars_nouveau.30928f25fcc3de079a95}"
+			]
+			icon: "arseng:source_acceptor"
+			id: "6100000000000019"
+			min_width: 460
+			optional: true
+			rewards: [
+				{
+					id: "8100000000000019"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.17_ars_nouveau.4892c938f4d2c67e24cf}"
+			tasks: [
+				{
+					id: "7100000000000039"
+					item: "arseng:source_acceptor"
+					type: "item"
+				}
+				{
+					id: "7100000000000040"
+					item: "arseng:source_storage_cell_1k"
+					type: "item"
+				}
+				{
+					id: "7100000000000041"
+					item: "arseng:me_source_jar"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.17_ars_nouveau.2298f5a854c2dfb391a9}"
+			x: 6.0d
+			y: 36.0d
+		}
+		{
+			dependencies: ["6100000000000008"]
+			description: [
+				"{lanminecraft.reforged.quests.17_ars_nouveau.faad9a5673184bd8205c}"
+				""
+				"{lanminecraft.reforged.quests.17_ars_nouveau.3f814c33d7c2818292a6}"
+			]
+			icon: "ars_elemental:air_focus"
+			id: "6100000000000020"
+			min_width: 440
+			optional: true
+			rewards: [
+				{
+					id: "8100000000000020"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.17_ars_nouveau.276182a97ea1b6cb3e83}"
+			tasks: [
+				{
+					id: "7100000000000042"
+					item: "ars_elemental:air_focus"
+					type: "item"
+				}
+				{
+					id: "7100000000000043"
+					item: "ars_elemental:air_robes"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.17_ars_nouveau.ddbf8e0bd40f1ba29f64}"
+			x: 6.0d
+			y: 41.0d
+		}
+		{
+			dependencies: [
+				"6100000000000017"
+				"6100000000000005"
+				"6100000000000007"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.17_ars_nouveau.840c19734fc8f6f35cbb}"
+				""
+				"{lanminecraft.reforged.quests.17_ars_nouveau.70703eecfe838242cf69}"
+				""
+				"{lanminecraft.reforged.quests.17_ars_nouveau.9c959f38a3972be2e7e1}"
+				""
+				"{lanminecraft.reforged.quests.17_ars_nouveau.4c26f90548c6f2188891}"
+			]
+			icon: "ars_nouveau:source_gem_block"
+			id: "6100000000000021"
+			min_width: 480
+			rewards: [
+				{
+					id: "8100000000000021"
+					type: "xp"
+					xp: 2500
+				}
+			]
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "{lanminecraft.reforged.quests.17_ars_nouveau.daa8e1435c2ad8031877}"
+			tasks: [
+				{
+					count: 512L
+					id: "7100000000000044"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.17_ars_nouveau.961612e1fa7ae358e713}"
+			x: 0.0d
+			y: 46.0d
+		}
+	]
+	subtitle: ["{lanminecraft.reforged.quests.17_ars_nouveau.2c0e94ef275988bd75e7}"]
+	title: "{lanminecraft.reforged.quests.17_ars_nouveau.311a2e944618446a9bd6}"
+}

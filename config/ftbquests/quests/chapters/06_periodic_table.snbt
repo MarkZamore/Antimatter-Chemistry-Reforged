@@ -1,0 +1,5682 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: ""
+	filename: "06_periodic_table"
+	group: "1000000000000001"
+	hide_quest_until_deps_visible: true
+	icon: "chemlib:periodic_table"
+	id: "2000000000000006"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3500000000000013"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.b335a48a531cd82461d7}"
+				"{lanminecraft.reforged.quests.06_periodic_table.0b400cf1f476e504e6ab}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.f70ca99356df3a820991}"
+				"{lanminecraft.reforged.quests.06_periodic_table.c2a24cc0e8cfb6ada1ae}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.604a1027113955a3e606}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.ad9557d83cc81f268ee5}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.f201ad19ea7f2fd8d86e}"
+			]
+			hide_until_deps_complete: true
+			icon: "alchemistry:fission_chamber_controller"
+			id: "3600000000000001"
+			min_width: 350
+			rewards: [
+				{
+					id: "5600000000000001"
+					item: "chemlib:periodic_table"
+					type: "item"
+				}
+				{
+					id: "5600000000000002"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.14229eab795dcdf0db82}"
+			tasks: [
+				{
+					count: 62L
+					id: "4600000000000001"
+					item: "alchemistry:reactor_casing"
+					type: "item"
+				}
+				{
+					id: "4600000000000002"
+					title: "{lanminecraft.reforged.quests.06_periodic_table.9df021bece3970d94770}"
+					type: "checkmark"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.2775ea429b3a106f79c0}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3600000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.794edcc257e3aa16da3c}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.5ce81a23f1b3b906de1c}"
+				"{lanminecraft.reforged.quests.06_periodic_table.1570d810d4ec596a8094}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.e1f30df6f5f13cd391be}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.66ddd1f25d7273d34dfb}"
+			]
+			icon: "kubejs:white_antimatter"
+			id: "3600000000000002"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000003"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.98b7ea34b8acb84411cb}"
+			tasks: [{
+				count: 4L
+				id: "4600000000000003"
+				item: "kubejs:white_antimatter"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.8cc214e2f821d2ae4a81}"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3600000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.958da313cb6afb72800e}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.6c016c11c030defca9bc}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.7a9545c969777f5539be}"
+				"{lanminecraft.reforged.quests.06_periodic_table.c0a76308736db64a75d9}"
+			]
+			icon: "chemlib:hydrogen"
+			id: "3600000000000003"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000004"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.2a1e3f50fba35b17de2a}"
+			tasks: [
+				{
+					count: 64L
+					id: "4600000000000004"
+					item: "chemlib:hydrogen"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "4600000000000005"
+					item: "chemlib:helium"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4600000000000006"
+					item: "chemlib:beryllium"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4600000000000007"
+					item: "chemlib:boron"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.b2e97dfcf4455386ee8f}"
+			x: -10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3600000000000003"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.e6434ca8da221f9e6ec3}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.09a4915b672e2bdd9b96}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.0f7b0b51d4fe5a00c0cb}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.2959e2091d3a27411849}"
+			]
+			icon: "chemlib:cesium"
+			id: "3600000000000004"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000005"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.5157c456342fdddbddfa}"
+			tasks: [
+				{
+					count: 16L
+					id: "4600000000000008"
+					item: "chemlib:lithium"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4600000000000009"
+					item: "chemlib:sodium"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4600000000000010"
+					item: "chemlib:potassium"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4600000000000011"
+					item: "chemlib:rubidium"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4600000000000012"
+					item: "chemlib:cesium"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.5f8becc47d7279ebcd5a}"
+			x: -10.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3600000000000004"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.4d0a04ae92f012793783}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.3ba3f62ad1dbfc9f04aa}"
+				"{lanminecraft.reforged.quests.06_periodic_table.2648545dadbcf86ff220}"
+				"{lanminecraft.reforged.quests.06_periodic_table.c9165eae4254247e7f4e}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.4f28bfc81dfeb0811585}"
+			]
+			icon: "chemlib:francium"
+			id: "3600000000000005"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000006"
+				type: "xp"
+				xp: 60
+			}]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.5e6b6c8ee3106baf06a7}"
+			tasks: [{
+				count: 4L
+				id: "4600000000000013"
+				item: "chemlib:francium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.0088026f83663f04724e}"
+			x: -10.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3600000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.6f9b11b484398f7046b4}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.49f6ced1a2c09c701011}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.bd074d0bfd95bc09ba8f}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.2b4310cdf7db04082163}"
+			]
+			icon: "chemlib:xenon"
+			id: "3600000000000006"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000007"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.db69eacad2c59bbf2082}"
+			tasks: [
+				{
+					count: 16L
+					id: "4600000000000014"
+					item: "chemlib:neon"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4600000000000015"
+					item: "chemlib:argon"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4600000000000016"
+					item: "chemlib:krypton"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4600000000000017"
+					item: "chemlib:xenon"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000018"
+					item: "chemlib:radon"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.506980f160d6f6134a1a}"
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3600000000000006"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.749565c0ce94b482055f}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.fcb37a11cc7156bddbca}"
+				"{lanminecraft.reforged.quests.06_periodic_table.b94fca69adc5500a5b0c}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.dbba3b70655bf54aff18}"
+				"{lanminecraft.reforged.quests.06_periodic_table.c973d44ae76d16d4d194}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.ada27f94dd1860d9717b}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.1a29f2b23e42e2d52281}"
+			]
+			icon: "chemlib:fluorine"
+			id: "3600000000000007"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000008"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.b2ac6c4187d59bb9813d}"
+			tasks: [
+				{
+					count: 16L
+					id: "4600000000000019"
+					item: "chemlib:fluorine"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4600000000000020"
+					item: "chemlib:chlorine"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4600000000000021"
+					item: "chemlib:bromine"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4600000000000022"
+					item: "chemlib:iodine"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000023"
+					item: "chemlib:astatine"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.5f7f2e23627168add627}"
+			x: -6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3600000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.933957cfaab94134a873}"
+				"{lanminecraft.reforged.quests.06_periodic_table.270e1a76a4f1ccf439bc}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.e0763805c66d896989b2}"
+				"{lanminecraft.reforged.quests.06_periodic_table.44ef10af8c2654b42b3f}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.b8821efec36c26e62fdb}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.bff603cccf18d88d04a0}"
+			]
+			icon: "chemlib:technetium"
+			id: "3600000000000008"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000009"
+				type: "xp"
+				xp: 60
+			}]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.2a37ef45e6d70242c5eb}"
+			tasks: [{
+				count: 16L
+				id: "4600000000000024"
+				item: "chemlib:technetium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.7585e5b05116f5d0b70f}"
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3600000000000008"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.0bdc3e476371cffbcccc}"
+				"{lanminecraft.reforged.quests.06_periodic_table.a4a0f66917366588c234}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.8ff8ecf79f82ea695a91}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.16658b7bd0aa882af627}"
+			]
+			icon: "chemlib:osmium"
+			id: "3600000000000009"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000010"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.567b4a8072019c7e23fe}"
+			tasks: [
+				{
+					count: 8L
+					id: "4600000000000025"
+					item: "chemlib:ruthenium"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000026"
+					item: "chemlib:rhodium"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000027"
+					item: "chemlib:palladium"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000028"
+					item: "chemlib:osmium"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000029"
+					item: "chemlib:iridium"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000030"
+					item: "chemlib:platinum"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.5d6eeae778afa786ffcb}"
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3600000000000009"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.196b424360cdcd67335f}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.506af6fb3335eef14e88}"
+				"{lanminecraft.reforged.quests.06_periodic_table.eadc450eb8233f59cee9}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.add6d9cfd789b73a5439}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.3556ca224e84a4b42417}"
+			]
+			icon: "chemlib:tungsten"
+			id: "3600000000000010"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000011"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.c7e3d5201d3fe636cc37}"
+			tasks: [
+				{
+					count: 16L
+					id: "4600000000000031"
+					item: "chemlib:zirconium"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4600000000000032"
+					item: "chemlib:hafnium"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4600000000000033"
+					item: "chemlib:tungsten"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000034"
+					item: "chemlib:rhenium"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.d45b8a1669cbf90472dc}"
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3600000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.bd300522b46d44210d9d}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.5b87798bf56fb44aba99}"
+				"{lanminecraft.reforged.quests.06_periodic_table.8622b01e8abdc4e169fb}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.e6a10ada92b65e2b88dc}"
+				"{lanminecraft.reforged.quests.06_periodic_table.2e0f96a746d51bd2a1a1}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.5c245dfe472e66dd4468}"
+			]
+			icon: "chemlib:neodymium"
+			id: "3600000000000011"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000012"
+				type: "xp"
+				xp: 75
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.75f853d8da767739ad53}"
+			tasks: [
+				{
+					count: 4L
+					id: "4600000000000035"
+					item: "chemlib:lanthanum"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4600000000000036"
+					item: "chemlib:cerium"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4600000000000037"
+					item: "chemlib:praseodymium"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4600000000000038"
+					item: "chemlib:neodymium"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4600000000000039"
+					item: "chemlib:samarium"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4600000000000040"
+					item: "chemlib:europium"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4600000000000041"
+					item: "chemlib:gadolinium"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4600000000000042"
+					item: "chemlib:terbium"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4600000000000043"
+					item: "chemlib:dysprosium"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4600000000000044"
+					item: "chemlib:holmium"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4600000000000045"
+					item: "chemlib:erbium"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4600000000000046"
+					item: "chemlib:thulium"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4600000000000047"
+					item: "chemlib:ytterbium"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4600000000000048"
+					item: "chemlib:lutetium"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.1e16cb84569b62f57366}"
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3600000000000011"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.967d37f46458e4ee82b4}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.56a2d626fdf7090590cd}"
+				"{lanminecraft.reforged.quests.06_periodic_table.0a50a63a4169005a832c}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.3f08470db99f346f4b24}"
+				"{lanminecraft.reforged.quests.06_periodic_table.215779bce1e4a6199e37}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.eec66854cdb9b4b1f118}"
+			]
+			icon: "chemlib:promethium"
+			id: "3600000000000012"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000013"
+				type: "xp"
+				xp: 60
+			}]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.f92316a3f7fe174ba07e}"
+			tasks: [{
+				count: 4L
+				id: "4600000000000049"
+				item: "chemlib:promethium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.58a7beabf5f1182cf0ef}"
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3600000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.5e8cf388af2ac3ebd105}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.f619f444f6d8b3a57256}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.8f2b8bb6b600a83153e4}"
+			]
+			icon: "chemlib:uranium"
+			id: "3600000000000013"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000014"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.b354e812af231c42c195}"
+			tasks: [
+				{
+					count: 32L
+					id: "4600000000000050"
+					item: "chemlib:thorium"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "4600000000000051"
+					item: "chemlib:uranium"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.af6944bb24c4fe8f1370}"
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3600000000000013"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.007e475bbcb110b86744}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.8bac037181c103368a19}"
+				"{lanminecraft.reforged.quests.06_periodic_table.5342ca8bbbc64f733fdd}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.0a83ed559827f8760e92}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.b378b65e10181b265bb8}"
+			]
+			icon: "chemlib:radium"
+			id: "3600000000000014"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000015"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.ba7ef399a1ea42898d5b}"
+			tasks: [
+				{
+					count: 8L
+					id: "4600000000000089"
+					item: "chemlib:polonium"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000052"
+					item: "chemlib:radium"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000053"
+					item: "chemlib:actinium"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000054"
+					item: "chemlib:protactinium"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.56da6c25bba3f2e1dc9a}"
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3600000000000014"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.36de58cdc9c7671aec9c}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.c83ff0ea5a3a51a554d7}"
+				"{lanminecraft.reforged.quests.06_periodic_table.4afa99cd6c895c8606c3}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.3216a8d96df05c234050}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.cc4cee91a2636d2fa6c7}"
+			]
+			icon: "chemlib:plutonium"
+			id: "3600000000000015"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000016"
+				type: "xp"
+				xp: 60
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.2b325b4d1da2bb4ce55e}"
+			tasks: [
+				{
+					count: 8L
+					id: "4600000000000055"
+					item: "chemlib:neptunium"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000056"
+					item: "chemlib:plutonium"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.1772d4552cef277a130a}"
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3600000000000015"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.87273a354923db75e7fc}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.8ede86bf38b57d37f88c}"
+				"{lanminecraft.reforged.quests.06_periodic_table.a93de4d66be0ef04d84a}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.830812d23c719db441e3}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.d74976d704116a6dcd71}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.4e504ef3ea24fefbc3d8}"
+			]
+			icon: "chemlib:americium"
+			id: "3600000000000016"
+			min_width: 350
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/gamestage add {p} synthesis"
+					elevate_perms: true
+					id: "5600000000000017"
+					type: "command"
+				}
+				{
+					id: "5600000000000018"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.e666195eda991c1e80b4}"
+			tasks: [{
+				count: 4L
+				id: "4600000000000057"
+				item: "chemlib:americium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.6d9fefac4845e72007ce}"
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3600000000000016"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.6b90fa052514c0827474}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.6bcfcb3fdcd8fc4c5188}"
+				"{lanminecraft.reforged.quests.06_periodic_table.6ba3a49263e715106eaa}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.6649ccee187bbbf13658}"
+			]
+			icon: "chemlib:californium"
+			id: "3600000000000017"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000019"
+				type: "xp"
+				xp: 75
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.4ae2aa901b2aa14b99f8}"
+			tasks: [
+				{
+					count: 2L
+					id: "4600000000000058"
+					item: "chemlib:curium"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4600000000000059"
+					item: "chemlib:berkelium"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4600000000000060"
+					item: "chemlib:californium"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4600000000000061"
+					item: "chemlib:einsteinium"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4600000000000062"
+					item: "chemlib:fermium"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.0e544aa1437ba11990b3}"
+			x: 4.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["3600000000000017"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.dec97214b731a706b1f8}"
+				"{lanminecraft.reforged.quests.06_periodic_table.05b4e98e4abd5704ddab}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.75ac51a6cbb197e74944}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.18ca266591b9fc9b0a47}"
+				"{lanminecraft.reforged.quests.06_periodic_table.e76888aa5675f6dca46f}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.e18799b9b3a384caa5e9}"
+			]
+			icon: "chemlib:mendelevium"
+			id: "3600000000000018"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000020"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.734e221fd20af048ff4e}"
+			tasks: [{
+				count: 2L
+				id: "4600000000000063"
+				item: "chemlib:mendelevium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.1e594f8418599189ead2}"
+			x: 7.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["3600000000000017"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.2f678b7d36985e30f4e2}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.ac2b8faafa2138967a6c}"
+				"{lanminecraft.reforged.quests.06_periodic_table.7e6f3fbb307a30786255}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.7a7e9fd1c484dfab3b82}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.4891ea69222ee288ca2f}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.0f074b1b707f0216f933}"
+			]
+			icon: "chemlib:copernicium"
+			id: "3600000000000019"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000021"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.73e407915a6fd4996f1c}"
+			tasks: [
+				{
+					id: "4600000000000064"
+					item: "chemlib:nobelium"
+					type: "item"
+				}
+				{
+					id: "4600000000000065"
+					item: "chemlib:lawrencium"
+					type: "item"
+				}
+				{
+					id: "4600000000000066"
+					item: "chemlib:rutherfordium"
+					type: "item"
+				}
+				{
+					id: "4600000000000067"
+					item: "chemlib:dubnium"
+					type: "item"
+				}
+				{
+					id: "4600000000000068"
+					item: "chemlib:seaborgium"
+					type: "item"
+				}
+				{
+					id: "4600000000000069"
+					item: "chemlib:bohrium"
+					type: "item"
+				}
+				{
+					id: "4600000000000070"
+					item: "chemlib:hassium"
+					type: "item"
+				}
+				{
+					id: "4600000000000071"
+					item: "chemlib:meitnerium"
+					type: "item"
+				}
+				{
+					id: "4600000000000072"
+					item: "chemlib:darmstadtium"
+					type: "item"
+				}
+				{
+					id: "4600000000000073"
+					item: "chemlib:roentgenium"
+					type: "item"
+				}
+				{
+					id: "4600000000000074"
+					item: "chemlib:copernicium"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.b676d6917ffc25d8ac4a}"
+			x: 4.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["3600000000000019"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.53ad6b40b4fceebb8555}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.9e5fd86664beecaf4799}"
+				"{lanminecraft.reforged.quests.06_periodic_table.9825ede5d44c4684bada}"
+				"{lanminecraft.reforged.quests.06_periodic_table.49ecda8642831ca4e676}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.0287900772f401f31f40}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.cfb298557fb9ab55ffc7}"
+				"{lanminecraft.reforged.quests.06_periodic_table.9b7a7016a8323df43392}"
+			]
+			icon: "chemlib:flerovium"
+			id: "3600000000000020"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000022"
+				type: "xp"
+				xp: 150
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.bd4341f923485c19aa31}"
+			tasks: [
+				{
+					id: "4600000000000075"
+					item: "chemlib:nihonium"
+					type: "item"
+				}
+				{
+					id: "4600000000000076"
+					item: "chemlib:flerovium"
+					type: "item"
+				}
+				{
+					id: "4600000000000077"
+					item: "chemlib:moscovium"
+					type: "item"
+				}
+				{
+					id: "4600000000000078"
+					item: "chemlib:livermorium"
+					type: "item"
+				}
+				{
+					id: "4600000000000079"
+					item: "chemlib:tennessine"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.d0b468904c50b1f43595}"
+			x: 4.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["3600000000000020"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.0506212acab11ca1c541}"
+				"{lanminecraft.reforged.quests.06_periodic_table.764515069338d9f5f41e}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.bd3958e08c1670b528e8}"
+				"{lanminecraft.reforged.quests.06_periodic_table.449459192c6897ef9ba1}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.97034c2de65ac9b2aafe}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.86e549fb0594698b23fe}"
+				"{lanminecraft.reforged.quests.06_periodic_table.4eba9687a343387d39bc}"
+			]
+			icon: "chemlib:oganesson"
+			id: "3600000000000021"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000023"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.4ff36f8f345f990f8d98}"
+			tasks: [{
+				count: 2L
+				id: "4600000000000080"
+				item: "chemlib:oganesson"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.d3e42134eea9e933af44}"
+			x: 4.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["3600000000000008"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.a20a8f7ec3f29e5226c2}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.09f6016923a792693008}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.a26d303199ba37a03b6e}"
+				"{lanminecraft.reforged.quests.06_periodic_table.003c882fcbf3bbd9c635}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.323750bcb67fb5b3c7e4}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.cfc815c32dc45fb99786}"
+			]
+			icon: "chemlib:gallium"
+			id: "3600000000000022"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5600000000000024"
+				type: "xp"
+				xp: 75
+			}]
+			shape: "diamond"
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.9244bdf37384e1cceb49}"
+			tasks: [
+				{
+					count: 4L
+					id: "4600000000000081"
+					item: "chemlib:scandium"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4600000000000082"
+					item: "chemlib:gallium"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4600000000000083"
+					item: "chemlib:germanium"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.7b4418ec6061c7263b61}"
+			x: -8.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3600000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.1452fb6a54a717500848}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.e8ce2af9988cca973943}"
+				"{lanminecraft.reforged.quests.06_periodic_table.eeabf969094165c4a283}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.4119a95dffe7e55a3eb5}"
+				"{lanminecraft.reforged.quests.06_periodic_table.5fea905f247bc8fddd26}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.9535ecef59215e492d0f}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.4824ce0e3a0a60bb4061}"
+			]
+			icon: "minecraft:dragon_breath"
+			id: "3600000000000026"
+			min_width: 400
+			rewards: [{
+				id: "5600000000000028"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.6be92fb56acd402eabf5}"
+			tasks: [
+				{
+					dimension: "minecraft:the_end"
+					id: "4600000000000090"
+					title: "{lanminecraft.reforged.quests.06_periodic_table.c27d3337c85d44c09b17}"
+					type: "dimension"
+				}
+				{
+					count: 16L
+					id: "4600000000000091"
+					item: "chemlib:lutetium"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000092"
+					item: "minecraft:dragon_breath"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.801f4f9670c0123890f0}"
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"3600000000000005"
+				"3600000000000007"
+				"3600000000000010"
+				"3600000000000012"
+				"3600000000000015"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.5c27111d2643adde5229}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.be9da3d73dd8e220c50e}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.ab0d9f0eb0506ca6296c}"
+				"{lanminecraft.reforged.quests.06_periodic_table.ddb98af7a24f1d0eb9a9}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.e5e5230e4b193d08967f}"
+			]
+			icon: "extendedcrafting:compressor"
+			id: "3600000000000023"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000025"
+				type: "xp"
+				xp: 150
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.f5044b35c7587e9eb4f2}"
+			tasks: [
+				{
+					id: "4600000000000084"
+					item: "extendedcrafting:compressor"
+					type: "item"
+				}
+				{
+					id: "4600000000000085"
+					item: "extendedcrafting:ultimate_catalyst"
+					type: "item"
+				}
+				{
+					id: "4600000000000086"
+					item: "extendedcrafting:singularity"
+					title: "{lanminecraft.reforged.quests.06_periodic_table.db5c68e5cc5e348f030a}"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.3d1c6658cc9c0ce417dc}"
+			x: -3.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"3600000000000021"
+				"3600000000000023"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.07c06538721687434d2e}"
+				"{lanminecraft.reforged.quests.06_periodic_table.e5e798b7cf1b4735a70e}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.651a6c8cf83d54335ae3}"
+				"{lanminecraft.reforged.quests.06_periodic_table.b2a28cb30212e3d6be01}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.d803e96ebb853d6095f7}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.08e7dde15ba28a1d788a}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.c10217b7e920febb46f0}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.c9637dd99bd1627e8cc4}"
+			]
+			icon: "extendedcrafting:singularity"
+			id: "3600000000000024"
+			min_width: 400
+			rewards: [{
+				id: "5600000000000026"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.ddec11a240ad70345cd0}"
+			tasks: [{
+				id: "4600000000000087"
+				title: "{lanminecraft.reforged.quests.06_periodic_table.aa7000ff13943ed15e64}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.fc457d42d767a3f3eb24}"
+			x: 0.5d
+			y: 21.0d
+		}
+		{
+			dependencies: ["3600000000000024"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.b83a018db794b657a825}"
+				"{lanminecraft.reforged.quests.06_periodic_table.249f70b63499731a3f2c}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.62eaf87b96a1bd5f1e3e}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.9bb8130e647de17bab53}"
+				"{lanminecraft.reforged.quests.06_periodic_table.7bb6fd2ac24a9a66767a}"
+				"{lanminecraft.reforged.quests.06_periodic_table.d4f0d93b57f165893a19}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.5db93688c955bf581d55}"
+				"{lanminecraft.reforged.quests.06_periodic_table.566ba87c86ee60230685}"
+				"{lanminecraft.reforged.quests.06_periodic_table.227f2bd7f07e760e18ba}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.5fa276a06578faa88c32}"
+				"{lanminecraft.reforged.quests.06_periodic_table.cf9bc6c9ed5e29e6b09d}"
+			]
+			icon: "chemlib:periodic_table"
+			id: "3600000000000025"
+			min_width: 400
+			rewards: [{
+				id: "5600000000000027"
+				type: "xp"
+				xp: 750
+			}]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.386988cf35e838d4c833}"
+			tasks: [{
+				id: "4600000000000088"
+				title: "{lanminecraft.reforged.quests.06_periodic_table.dfff66ee4ed645c3772f}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.942d61b184e16528d6be}"
+			x: 0.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["3600000000000003"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.4e5064415cd7f7747ef3}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.aac456452973324135e4}"
+			]
+			icon: "chemlib:hydrogen"
+			id: "3600000000000101"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000101"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.b7b663638475954081fe}"
+			tasks: [{
+				count: 128L
+				id: "4600000000000101"
+				item: "chemlib:hydrogen"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.c48b92b7ff8138dabe77}"
+			x: -14.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3600000000000101"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.8bc06a1d99a479210b4f}"
+				"{lanminecraft.reforged.quests.06_periodic_table.eb26f06fe63cafa028d4}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.3d4f41269f16da6d4c1b}"
+			]
+			icon: "chemlib:hydrogen"
+			id: "3600000000000102"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5600000000000102"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "diamond"
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.32b4d48a0a1a66c6bb56}"
+			tasks: [{
+				count: 128L
+				id: "4600000000000102"
+				item: "chemlib:hydrogen"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.53cd03a80530b8ae8d81}"
+			x: -14.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3600000000000101"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.e37202e21abc1363d084}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.38b1a0fb85e0497df2ef}"
+			]
+			icon: "chemlib:helium"
+			id: "3600000000000103"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000103"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.b56ea533871359d53475}"
+			tasks: [{
+				count: 64L
+				id: "4600000000000103"
+				item: "chemlib:helium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.5e6d3a81a3b78e630116}"
+			x: -14.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3600000000000103"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.31bceb8687ddb3714021}"
+				"{lanminecraft.reforged.quests.06_periodic_table.8a6492a49135a4b9a8ae}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.83acc426eba12eabc57e}"
+			]
+			icon: "chemlib:lithium"
+			id: "3600000000000104"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000104"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.fdb544019cfde06dd0fc}"
+			tasks: [{
+				count: 32L
+				id: "4600000000000104"
+				item: "chemlib:lithium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.8d520f4d7deedd57ed5a}"
+			x: -17.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3600000000000103"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.951f8a0b7f91a05b5444}"
+				"{lanminecraft.reforged.quests.06_periodic_table.75a86d6f5b9044b49226}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.08ca288dc3929b56cec6}"
+			]
+			icon: "chemlib:beryllium"
+			id: "3600000000000105"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000105"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.d53601a32265ed6aad30}"
+			tasks: [{
+				count: 32L
+				id: "4600000000000105"
+				item: "chemlib:beryllium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.452cfb55367aae5a526b}"
+			x: -17.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3600000000000103"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.4e70b0bfd3ce50a5ed7a}"
+				"{lanminecraft.reforged.quests.06_periodic_table.9a1800fcbb5ea2387e5e}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.ac8c85862be409b81082}"
+			]
+			icon: "chemlib:boron"
+			id: "3600000000000106"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000106"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.7cb644438cbd07e44cb9}"
+			tasks: [{
+				count: 32L
+				id: "4600000000000106"
+				item: "chemlib:boron"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.fdcef023ddb2f21eb3ad}"
+			x: -17.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3600000000000103"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.f83fff12547b74c3a4bd}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.8d92b9d9d1ec7ff36760}"
+			]
+			icon: "chemlib:carbon"
+			id: "3600000000000107"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000107"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.6b3865539e9eaf09c90f}"
+			tasks: [{
+				count: 64L
+				id: "4600000000000107"
+				item: "chemlib:carbon"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.e26929a58e152543b280}"
+			x: -14.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3600000000000107"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.6cbfb0633e17dd3ee672}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.0e75edfa92e43daeb1fe}"
+			]
+			icon: "chemlib:carbon"
+			id: "3600000000000108"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5600000000000108"
+				type: "xp"
+				xp: 35
+			}]
+			shape: "diamond"
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.f1f385e3dd452089712a}"
+			tasks: [{
+				count: 64L
+				id: "4600000000000108"
+				item: "chemlib:carbon"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.9c2be764a82adb4ae03d}"
+			x: -19.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3600000000000107"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.cd778667cc388fb543be}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.d937edf73e3e90ab1e75}"
+			]
+			icon: "chemlib:nitrogen"
+			id: "3600000000000109"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000109"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.84b5476e49d91a0a12c2}"
+			tasks: [
+				{
+					count: 32L
+					id: "4600000000000109"
+					item: "chemlib:carbon"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4600000000000110"
+					item: "chemlib:nitrogen"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.68379d565816c2c4d6fa}"
+			x: -19.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3600000000000107"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.5a09fc65dfbd2a82ce68}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.346ddd4fe56e76d5423c}"
+			]
+			icon: "chemlib:nitrogen"
+			id: "3600000000000110"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000110"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.245d0488fac8fd9911e3}"
+			tasks: [{
+				count: 64L
+				id: "4600000000000111"
+				item: "chemlib:nitrogen"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.701dab6435435eed2c94}"
+			x: -14.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3600000000000110"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.4ef2b6e9f03e6c7a668f}"
+				"{lanminecraft.reforged.quests.06_periodic_table.444f1097f506daa638c8}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.bdd3d35c8e31f9dda2c4}"
+			]
+			icon: "chemlib:oxygen"
+			id: "3600000000000111"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000111"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.0ea213eccaa40756ec6b}"
+			tasks: [{
+				count: 64L
+				id: "4600000000000112"
+				item: "chemlib:oxygen"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.d70bdbb70715f11394bb}"
+			x: -14.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3600000000000111"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.c1ae83b25cee22f4c2b1}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.583952c75c1590ae3998}"
+			]
+			icon: "chemlib:calcium"
+			id: "3600000000000112"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000112"
+				type: "xp"
+				xp: 60
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.57664c9cf9ff97bda601}"
+			tasks: [
+				{
+					count: 64L
+					id: "4600000000000113"
+					item: "chemlib:oxygen"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "4600000000000114"
+					item: "chemlib:carbon"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "4600000000000115"
+					item: "chemlib:hydrogen"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "4600000000000116"
+					item: "chemlib:nitrogen"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "4600000000000117"
+					item: "chemlib:calcium"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4600000000000118"
+					item: "chemlib:phosphorus"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.5213f8caf540c5d124c4}"
+			x: -17.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3600000000000004"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.459162ca0d783fe373dd}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.1ebae68bc69543d0729b}"
+			]
+			icon: "chemlib:sodium"
+			id: "3600000000000113"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000113"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.62cce4ec0553542bb083}"
+			tasks: [{
+				count: 32L
+				id: "4600000000000119"
+				item: "chemlib:sodium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.ad69acd530a431cadca2}"
+			x: -14.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3600000000000113"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.cf83fa7ede0a02471463}"
+				"{lanminecraft.reforged.quests.06_periodic_table.a8b0b35592c997f2caff}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.aae4708c47a28ccc9c46}"
+			]
+			icon: "chemlib:potassium"
+			id: "3600000000000114"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000114"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.d1255e0c71b10cc21dc7}"
+			tasks: [{
+				count: 32L
+				id: "4600000000000120"
+				item: "chemlib:potassium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.8c50c2131fbf324e44d3}"
+			x: -14.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3600000000000113"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.93602f28135a0192b7c9}"
+				"{lanminecraft.reforged.quests.06_periodic_table.ca444523d3bdea13289e}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.e319d0897539ea766e03}"
+			]
+			icon: "chemlib:cesium"
+			id: "3600000000000115"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000115"
+				type: "xp"
+				xp: 45
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.db7ec53a574a5abc36c0}"
+			tasks: [{
+				count: 16L
+				id: "4600000000000121"
+				item: "chemlib:cesium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.7ed7ee2aaab4f1d40525}"
+			x: -17.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3600000000000113"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.882b66312a3be297323e}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.f1dca79926b1ce7c0ecd}"
+			]
+			icon: "chemlib:rubidium"
+			id: "3600000000000116"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000116"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.ba803e8e4793b90e148d}"
+			tasks: [{
+				count: 16L
+				id: "4600000000000122"
+				item: "chemlib:rubidium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.bc0d9171b57bca66d7b6}"
+			x: -17.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3600000000000116"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.68a64d91206b8673b3b1}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.787e5c2ddfab47ee6089}"
+			]
+			icon: "chemlib:mercury"
+			id: "3600000000000117"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000117"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.a6b75f037645541685db}"
+			tasks: [
+				{
+					count: 8L
+					id: "4600000000000123"
+					item: "chemlib:mercury"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000124"
+					item: "chemlib:bromine"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000125"
+					item: "chemlib:gallium"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000126"
+					item: "chemlib:cesium"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000127"
+					item: "chemlib:rubidium"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.314b74051195231ae25f}"
+			x: -19.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3600000000000004"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.d1dd30881caf8f495676}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.008a201e1315113c3494}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.d081caeed1423c7f09ea}"
+			]
+			icon: "chemlib:magnesium"
+			id: "3600000000000118"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000118"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.b6306a92027235ecf025}"
+			tasks: [{
+				count: 32L
+				id: "4600000000000128"
+				item: "chemlib:magnesium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.b8c3818770eb66430436}"
+			x: -14.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["3600000000000118"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.5713310c330e53678154}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.dfb3897ea1f850fa87cd}"
+			]
+			icon: "chemlib:calcium"
+			id: "3600000000000119"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000119"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.37aa93d1f409004c0e7e}"
+			tasks: [{
+				count: 32L
+				id: "4600000000000129"
+				item: "chemlib:calcium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.90ec866c8d13b2f66c5b}"
+			x: -17.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["3600000000000119"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.09615ab4ef7c4fc76ae1}"
+				"{lanminecraft.reforged.quests.06_periodic_table.fefcb2e17520c32a9b82}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.9f260a068d76f2b2ddea}"
+			]
+			icon: "chemlib:strontium"
+			id: "3600000000000120"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000120"
+				type: "xp"
+				xp: 45
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.4373ee1293e0c2f518cd}"
+			tasks: [{
+				count: 16L
+				id: "4600000000000130"
+				item: "chemlib:strontium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.5d8af23e665109e54ee9}"
+			x: -14.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3600000000000119"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.6e8d83fef939319b3946}"
+				"{lanminecraft.reforged.quests.06_periodic_table.15eb9daaec417f275368}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.fa5d713c65682e92715e}"
+			]
+			icon: "chemlib:barium"
+			id: "3600000000000121"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000121"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.f6f5dba2362f1462a39f}"
+			tasks: [{
+				count: 16L
+				id: "4600000000000131"
+				item: "chemlib:barium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.3969c38b8aa7acbbaefd}"
+			x: -17.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"3600000000000120"
+				"3600000000000121"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.501f556d7124e85393da}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.c4a4236347f7e0afda45}"
+			]
+			icon: "chemlib:calcium"
+			id: "3600000000000122"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000122"
+				type: "xp"
+				xp: 60
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.45758d7c1c9250cc82c5}"
+			tasks: [
+				{
+					count: 8L
+					id: "4600000000000132"
+					item: "chemlib:beryllium"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4600000000000133"
+					item: "chemlib:magnesium"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4600000000000134"
+					item: "chemlib:calcium"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000135"
+					item: "chemlib:strontium"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000136"
+					item: "chemlib:barium"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4600000000000137"
+					item: "chemlib:radium"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.ecbf4f7123fb896e0e1e}"
+			x: -17.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["3600000000000121"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.9dc6024a9316ed6ff754}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.317430dc51d883d5090e}"
+			]
+			icon: "chemlib:strontium"
+			id: "3600000000000123"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000123"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.aeb5a7d0e545541e5c07}"
+			tasks: [
+				{
+					count: 8L
+					id: "4600000000000138"
+					item: "chemlib:lithium"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000139"
+					item: "chemlib:sodium"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000140"
+					item: "chemlib:potassium"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000141"
+					item: "chemlib:strontium"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000142"
+					item: "chemlib:barium"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000143"
+					item: "chemlib:copper"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.f9896d553add9b3f183a}"
+			x: -19.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3600000000000006"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.5b0912dc08590a823ead}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.e10d5b130fb6d35e6c24}"
+			]
+			icon: "chemlib:neon"
+			id: "3600000000000124"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000124"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.ef981bae4075261afa93}"
+			tasks: [{
+				count: 32L
+				id: "4600000000000144"
+				item: "chemlib:neon"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.a5f9750869d81b4044ba}"
+			x: -9.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3600000000000006"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.0c8b353a0ac2032ec650}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.b9368d3920646bd8619d}"
+			]
+			icon: "chemlib:argon"
+			id: "3600000000000125"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000125"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.9d83939ff7b5ed96049a}"
+			tasks: [{
+				count: 32L
+				id: "4600000000000145"
+				item: "chemlib:argon"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.79377f399d656cf10b66}"
+			x: -11.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3600000000000125"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.cb64f37d2eccbe51fb6b}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.827e3a2d0f411c51e1a4}"
+			]
+			icon: "chemlib:krypton"
+			id: "3600000000000126"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000126"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.de17ea0dc944033b96f6}"
+			tasks: [{
+				count: 32L
+				id: "4600000000000146"
+				item: "chemlib:krypton"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.ea0ebce79db9ab319a05}"
+			x: -11.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3600000000000124"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.06e4bd6fc1dee76455c0}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.6db0d5b08e9cfa9b9aea}"
+			]
+			icon: "chemlib:xenon"
+			id: "3600000000000127"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000127"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.3c4a1312730d5fb6a96a}"
+			tasks: [{
+				count: 32L
+				id: "4600000000000147"
+				item: "chemlib:xenon"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.b494e5eee80f0f290120}"
+			x: -9.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3600000000000007"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.b42c5a1c3051ac4dbba1}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.f30c1ac3b8cc42120469}"
+			]
+			icon: "chemlib:fluorine"
+			id: "3600000000000128"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000128"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.2d4f75c2ccfb03092966}"
+			tasks: [{
+				count: 32L
+				id: "4600000000000148"
+				item: "chemlib:fluorine"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.54b5f825b77b242d243e}"
+			x: -9.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["3600000000000007"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.eb8f323ac2e156437331}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.e6c1fc8a5a0eecf54c58}"
+			]
+			icon: "chemlib:chlorine"
+			id: "3600000000000129"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000129"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.a0a6683e0b0287c08661}"
+			tasks: [{
+				count: 32L
+				id: "4600000000000149"
+				item: "chemlib:chlorine"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.229dbd255872cbf24e88}"
+			x: -11.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["3600000000000129"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.f9b01963cd732fedcb1f}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.f842bc34aad5b0a2db07}"
+			]
+			icon: "chemlib:bromine"
+			id: "3600000000000130"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000130"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.b2d4dd41652b3a927e6d}"
+			tasks: [{
+				count: 16L
+				id: "4600000000000150"
+				item: "chemlib:bromine"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.3ae87b5a7f12e19f6f47}"
+			x: -11.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3600000000000129"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.0b0eda758b02c02644e5}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.92741eaabfb12dbb11de}"
+			]
+			icon: "chemlib:iodine"
+			id: "3600000000000131"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000131"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.752b9d6ba26b54921d2e}"
+			tasks: [{
+				count: 16L
+				id: "4600000000000151"
+				item: "chemlib:iodine"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.8a93fb92e6f9b23e51b6}"
+			x: -9.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3600000000000007"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.428cf8db2ff3770b2463}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.67cd3cfbcf8b90b06942}"
+			]
+			icon: "chemlib:sulfur"
+			id: "3600000000000132"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000132"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.efa0f9109d8e9e4903e0}"
+			tasks: [{
+				count: 32L
+				id: "4600000000000152"
+				item: "chemlib:sulfur"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.a005be01b5f6f2356649}"
+			x: -13.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3600000000000132"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.d3c3bc58e58fbc958d3e}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.852fa8a713e88c364610}"
+			]
+			icon: "chemlib:selenium"
+			id: "3600000000000133"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000133"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.6fadfc9f49c2c0e5c655}"
+			tasks: [{
+				count: 16L
+				id: "4600000000000153"
+				item: "chemlib:selenium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.f70e31b1c069ba7122b9}"
+			x: -13.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3600000000000133"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.6eccee284098ace416f5}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.9b595f43532a6eedb831}"
+			]
+			icon: "chemlib:tellurium"
+			id: "3600000000000134"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000134"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.f2e0195a983b5739cdc5}"
+			tasks: [{
+				count: 16L
+				id: "4600000000000154"
+				item: "chemlib:tellurium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.be273b25ea2c37b9363d}"
+			x: -13.0d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"3600000000000133"
+				"3600000000000134"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.cb6b9579ad254004ebbc}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.a09d54ab6a27ddbbe7a1}"
+			]
+			icon: "chemlib:sulfur"
+			id: "3600000000000135"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000135"
+				type: "xp"
+				xp: 55
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.024fc7b70058158354c3}"
+			tasks: [
+				{
+					count: 32L
+					id: "4600000000000155"
+					item: "chemlib:oxygen"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "4600000000000156"
+					item: "chemlib:sulfur"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000157"
+					item: "chemlib:selenium"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000158"
+					item: "chemlib:tellurium"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4600000000000159"
+					item: "chemlib:polonium"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.ec06b13f907ac3e3117d}"
+			x: -13.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3600000000000007"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.2897f7b37d5f1d09b7ee}"
+				"{lanminecraft.reforged.quests.06_periodic_table.aaa113226cb3a8441a37}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.31d9ebc6cbe698c000f4}"
+			]
+			icon: "chemlib:phosphorus"
+			id: "3600000000000136"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000136"
+				type: "xp"
+				xp: 45
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.e2e1e4b340ac67d93716}"
+			tasks: [{
+				count: 32L
+				id: "4600000000000160"
+				item: "chemlib:phosphorus"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.f7737a3569d29f740866}"
+			x: -13.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["3600000000000136"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.0a1d117144578b34af06}"
+				"{lanminecraft.reforged.quests.06_periodic_table.4f71e589f21d92c94d51}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.de9f44829920893763ee}"
+			]
+			icon: "chemlib:arsenic"
+			id: "3600000000000137"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000137"
+				type: "xp"
+				xp: 45
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.612782a8564e1b09446b}"
+			tasks: [{
+				count: 16L
+				id: "4600000000000161"
+				item: "chemlib:arsenic"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.94b97e0728562ae72558}"
+			x: -11.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["3600000000000137"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.2147d915fd03d4b2ed90}"
+				"{lanminecraft.reforged.quests.06_periodic_table.6b9359862088fd398b3c}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.fa0ee008289665cc0999}"
+			]
+			icon: "chemlib:antimony"
+			id: "3600000000000138"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000138"
+				type: "xp"
+				xp: 45
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.056abb8085cdf230bd91}"
+			tasks: [{
+				count: 16L
+				id: "4600000000000162"
+				item: "chemlib:antimony"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.d45e3f4e7255a789ac46}"
+			x: -9.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["3600000000000138"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.a20dc92e5fb62e2f5738}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.2b624fbbd8534ea25e8d}"
+			]
+			icon: "chemlib:bismuth"
+			id: "3600000000000139"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000139"
+				type: "xp"
+				xp: 45
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.1c5143e4ab8618c0fca5}"
+			tasks: [{
+				count: 16L
+				id: "4600000000000163"
+				item: "chemlib:bismuth"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.01b13fd1e8a025bb74b4}"
+			x: -13.0d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"3600000000000138"
+				"3600000000000139"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.bd558d4ed7c28d794dce}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.10902506dea58409e798}"
+			]
+			icon: "chemlib:phosphorus"
+			id: "3600000000000140"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000140"
+				type: "xp"
+				xp: 55
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.e3ea0af7c7cf599e3222}"
+			tasks: [
+				{
+					count: 32L
+					id: "4600000000000164"
+					item: "chemlib:nitrogen"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4600000000000165"
+					item: "chemlib:phosphorus"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000166"
+					item: "chemlib:arsenic"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000167"
+					item: "chemlib:antimony"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000168"
+					item: "chemlib:bismuth"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.d0f9bb146bad8288d36d}"
+			x: -11.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["3600000000000009"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.8f7def89820666b5e8fc}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.a8e30bc2c77cfa3dfb9d}"
+			]
+			icon: "chemlib:scandium"
+			id: "3600000000000141"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000141"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.aad309f73f42abc6cf80}"
+			tasks: [{
+				count: 8L
+				id: "4600000000000169"
+				item: "chemlib:scandium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.3c55cc3139ce0ba39411}"
+			x: -6.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3600000000000009"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.4a69e3bb6c0039593274}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.0edab4644383a3e59278}"
+			]
+			icon: "chemlib:titanium"
+			id: "3600000000000142"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000142"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.da76bf919dcc05070eb3}"
+			tasks: [{
+				count: 32L
+				id: "4600000000000170"
+				item: "chemlib:titanium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.d0e1ae13bb1c15a8b754}"
+			x: -4.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3600000000000009"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.7a523739176a4d107900}"
+				"{lanminecraft.reforged.quests.06_periodic_table.af90dcfec252962075f3}"
+				"{lanminecraft.reforged.quests.06_periodic_table.a1c3ff6155217d469cfb}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.1dfbc39894b93ad3ddf2}"
+			]
+			icon: "chemlib:vanadium"
+			id: "3600000000000143"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000143"
+				type: "xp"
+				xp: 45
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.e546a26ef275c59f9b72}"
+			tasks: [{
+				count: 16L
+				id: "4600000000000171"
+				item: "chemlib:vanadium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.86e790ba63c7f2350997}"
+			x: -2.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3600000000000142"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.7cab2c9b4e07fbbc444f}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.2bc8885f23ee04d6cc03}"
+			]
+			icon: "chemlib:chromium"
+			id: "3600000000000144"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000144"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.80cc4480655183fb6189}"
+			tasks: [{
+				count: 16L
+				id: "4600000000000172"
+				item: "chemlib:chromium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.7421c394d90e12fb1ffe}"
+			x: -6.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["3600000000000142"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.21bc7494d51414b20f00}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.3582cd8939083fe80dae}"
+			]
+			icon: "chemlib:manganese"
+			id: "3600000000000145"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000145"
+				type: "xp"
+				xp: 45
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.b7bd505080f78c44a0d9}"
+			tasks: [{
+				count: 32L
+				id: "4600000000000173"
+				item: "chemlib:manganese"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.1eb7ab80769ce1bbf345}"
+			x: -4.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["3600000000000142"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.389262d0b9b0653a6214}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.7e514857beb1291a3585}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.09472039418f2b3da201}"
+			]
+			icon: "chemlib:iron"
+			id: "3600000000000146"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000146"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.9d581f2db3e9d1da1854}"
+			tasks: [{
+				count: 64L
+				id: "4600000000000174"
+				item: "chemlib:iron"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.e1f8b4a04a4385820656}"
+			x: -2.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["3600000000000146"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.2e98e5dcae5e4fb2fe08}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.7d6de4b68974544d3ea6}"
+			]
+			icon: "chemlib:iron"
+			id: "3600000000000147"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000147"
+				type: "xp"
+				xp: 45
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.8832ecb10df8d26e9c05}"
+			tasks: [
+				{
+					count: 32L
+					id: "4600000000000175"
+					item: "chemlib:iron"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "4600000000000176"
+					item: "chemlib:copper"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.d2abe640f67c593f9349}"
+			x: -6.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3600000000000146"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.93adebf98b6cdadc123a}"
+				"{lanminecraft.reforged.quests.06_periodic_table.cef1fa520156e1341bdf}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.b4365f405ca204833a01}"
+			]
+			icon: "chemlib:cobalt"
+			id: "3600000000000148"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000148"
+				type: "xp"
+				xp: 45
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.092653fc5f5df36e60e5}"
+			tasks: [{
+				count: 16L
+				id: "4600000000000177"
+				item: "chemlib:cobalt"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.7733aa4b4e2942a56111}"
+			x: -4.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3600000000000148"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.682bc6902d5629150ad7}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.5d6cee270b7f26c3db8b}"
+			]
+			icon: "chemlib:nickel"
+			id: "3600000000000149"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000149"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.f6967eb91ea661697051}"
+			tasks: [{
+				count: 16L
+				id: "4600000000000178"
+				item: "chemlib:nickel"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.b71fa687f26047352b2b}"
+			x: -2.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3600000000000149"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.515d4338916d98d00e6a}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.94baca2feb51532a77f9}"
+			]
+			icon: "chemlib:copper"
+			id: "3600000000000150"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000150"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.82864b56976d0a117fbf}"
+			tasks: [{
+				count: 32L
+				id: "4600000000000179"
+				item: "chemlib:copper"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.16637a6d5a7ce396a654}"
+			x: -6.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["3600000000000150"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.e82d8873d28062a0a54e}"
+				"{lanminecraft.reforged.quests.06_periodic_table.11d77cc75d126ffed2e1}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.e25ecd160fc0cf8721da}"
+			]
+			icon: "chemlib:zinc"
+			id: "3600000000000151"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000151"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.8b40a66317c33b632776}"
+			tasks: [{
+				count: 32L
+				id: "4600000000000180"
+				item: "chemlib:zinc"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.29125ff8c20f0ce9950a}"
+			x: -4.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["3600000000000150"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.a980c14fef39338e0672}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.68fd5a8fed5cae99911b}"
+			]
+			icon: "chemlib:silver"
+			id: "3600000000000152"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000152"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.607aa8b966247dbe4b05}"
+			tasks: [
+				{
+					count: 32L
+					id: "4600000000000181"
+					item: "chemlib:copper"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4600000000000182"
+					item: "chemlib:silver"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4600000000000183"
+					item: "chemlib:gold"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.04cdbba9a9aa47713750}"
+			x: -2.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["3600000000000010"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.f877db3162db8b3e18c7}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.5c2d62c5753da63cbb22}"
+			]
+			icon: "chemlib:yttrium"
+			id: "3600000000000153"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000153"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.5220bf12598b78fba1bc}"
+			tasks: [{
+				count: 16L
+				id: "4600000000000184"
+				item: "chemlib:yttrium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.55546ef962f5715de12e}"
+			x: -6.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["3600000000000010"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.9d622cc45a2f2a5200c0}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.25957ebf85c88cc7706e}"
+			]
+			icon: "chemlib:zirconium"
+			id: "3600000000000154"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000154"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.d89d5274d2b8b4b71df3}"
+			tasks: [{
+				count: 16L
+				id: "4600000000000185"
+				item: "chemlib:zirconium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.b583df38519f87fd390d}"
+			x: -4.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["3600000000000010"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.ba6c561e71ae9f64cc1f}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.49c2bae5aee8f0b7e664}"
+			]
+			icon: "chemlib:niobium"
+			id: "3600000000000155"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000155"
+				type: "xp"
+				xp: 45
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.16d727806b499f86e764}"
+			tasks: [{
+				count: 16L
+				id: "4600000000000186"
+				item: "chemlib:niobium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.9bad4d8fe7f1dc9ceec9}"
+			x: -2.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["3600000000000155"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.e0e4a5d8c7a95e0fba1e}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.7b08d7cb0369df2f6ca8}"
+			]
+			icon: "chemlib:molybdenum"
+			id: "3600000000000156"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000156"
+				type: "xp"
+				xp: 45
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.a234b9c8b8be843d19cc}"
+			tasks: [{
+				count: 16L
+				id: "4600000000000187"
+				item: "chemlib:molybdenum"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.5127c5b0dbc1708e54ec}"
+			x: -6.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["3600000000000155"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.8282164a9ff405f5ee5f}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.072fbb9d6f68f2193464}"
+			]
+			icon: "chemlib:ruthenium"
+			id: "3600000000000157"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000157"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.17ec1343fcf4574a15d2}"
+			tasks: [{
+				count: 8L
+				id: "4600000000000188"
+				item: "chemlib:ruthenium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.657624e43946cf20a721}"
+			x: -4.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["3600000000000155"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.c283fcd4c38366acb553}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.0165ebc4d4cc3a5acfd9}"
+			]
+			icon: "chemlib:rhodium"
+			id: "3600000000000158"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000158"
+				type: "xp"
+				xp: 45
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.e90185c27e49fb5351e8}"
+			tasks: [{
+				count: 8L
+				id: "4600000000000189"
+				item: "chemlib:rhodium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.7e0be1804991e9817510}"
+			x: -2.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["3600000000000158"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.ee994f7e7577ed57a6de}"
+				"{lanminecraft.reforged.quests.06_periodic_table.c855384c39cdae587c55}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.b32446cdf68b231de092}"
+			]
+			icon: "chemlib:palladium"
+			id: "3600000000000159"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000159"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.63b5a63ebf325527ce3a}"
+			tasks: [{
+				count: 8L
+				id: "4600000000000190"
+				item: "chemlib:palladium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.ee08909058ff8a3e2c26}"
+			x: -6.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["3600000000000158"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.95d091d9c7e127f539b4}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.3379fdd5fc62f7ab74a9}"
+			]
+			icon: "chemlib:silver"
+			id: "3600000000000160"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000160"
+				type: "xp"
+				xp: 45
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.c4f38584a5d4ee442363}"
+			tasks: [{
+				count: 16L
+				id: "4600000000000191"
+				item: "chemlib:silver"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.d710bac245795c28b6f1}"
+			x: -4.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["3600000000000160"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.d1d538ea526f7d495790}"
+				"{lanminecraft.reforged.quests.06_periodic_table.f0b26074120bcf7f2558}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.4c8a202c949badce89a5}"
+			]
+			icon: "chemlib:cadmium"
+			id: "3600000000000161"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000161"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.cd8b339a46bbe424e747}"
+			tasks: [{
+				count: 8L
+				id: "4600000000000192"
+				item: "chemlib:cadmium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.31371bba3427a704b27f}"
+			x: -2.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["3600000000000161"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.9bf1f75fbb94f7fa8c83}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.f90ce8c4b54d910a9a0a}"
+			]
+			icon: "chemlib:hafnium"
+			id: "3600000000000162"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000162"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.79c5dcb2267dd1f2ca1e}"
+			tasks: [{
+				count: 16L
+				id: "4600000000000193"
+				item: "chemlib:hafnium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.e9251ad074dcf8656457}"
+			x: -6.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["3600000000000161"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.5b7e0ec74d07a2f6b395}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.74e08990ebefc2ca2344}"
+			]
+			icon: "chemlib:tantalum"
+			id: "3600000000000163"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000163"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.b855d44c4bac51a8f7ba}"
+			tasks: [{
+				count: 16L
+				id: "4600000000000194"
+				item: "chemlib:tantalum"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.9acd5ac44fcf20b268be}"
+			x: -4.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["3600000000000161"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.7b14b21a6deb10ef5b22}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.1a2734d24b8138d6d7af}"
+			]
+			icon: "chemlib:tungsten"
+			id: "3600000000000164"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000164"
+				type: "xp"
+				xp: 45
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.16c1536e34e31f560114}"
+			tasks: [{
+				count: 32L
+				id: "4600000000000195"
+				item: "chemlib:tungsten"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.ed45bff4072a65d20fc3}"
+			x: -2.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["3600000000000164"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.24a901f511deac154877}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.beaa734b2ecb7eb8dfe7}"
+			]
+			icon: "chemlib:rhenium"
+			id: "3600000000000165"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000165"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.84ac649890871cfd559c}"
+			tasks: [{
+				count: 8L
+				id: "4600000000000196"
+				item: "chemlib:rhenium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.a80f08ef57a6bfa666ff}"
+			x: -6.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["3600000000000164"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.ffe072bc9de4092665b8}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.3f9e86bae15fe19aab35}"
+			]
+			icon: "chemlib:osmium"
+			id: "3600000000000166"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000166"
+				type: "xp"
+				xp: 45
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.099fe598d48615622fd0}"
+			tasks: [{
+				count: 8L
+				id: "4600000000000197"
+				item: "chemlib:osmium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.ce17d292a21a57104285}"
+			x: -4.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["3600000000000164"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.8024fe977b3c019f550d}"
+				"{lanminecraft.reforged.quests.06_periodic_table.cc83ceccb2a9da393cb8}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.e5c8ac65af25d0557af0}"
+			]
+			icon: "chemlib:platinum"
+			id: "3600000000000167"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000167"
+				type: "xp"
+				xp: 45
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.f58f5d3b026b75aab88d}"
+			tasks: [{
+				count: 16L
+				id: "4600000000000198"
+				item: "chemlib:platinum"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.a33bed8602438f51a551}"
+			x: -2.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["3600000000000167"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.fa2249e9922ba61d36fb}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.832904d85e5e30d0b662}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.a3166d5384823c305b63}"
+			]
+			icon: "chemlib:gold"
+			id: "3600000000000168"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000168"
+				type: "xp"
+				xp: 55
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.1fc0d6dd32a49c4609e4}"
+			tasks: [{
+				count: 16L
+				id: "4600000000000199"
+				item: "chemlib:gold"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.629d244a9f63b204871b}"
+			x: -6.0d
+			y: 34.0d
+		}
+		{
+			dependencies: ["3600000000000167"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.7ce976608f0ee6a22fc0}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.9af024a97ad4d8c08836}"
+			]
+			icon: "chemlib:mercury"
+			id: "3600000000000169"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000169"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.450289981b8313541713}"
+			tasks: [{
+				count: 16L
+				id: "4600000000000200"
+				item: "chemlib:mercury"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.1e9f4085eaa7776aea63}"
+			x: -4.0d
+			y: 34.0d
+		}
+		{
+			dependencies: [
+				"3600000000000164"
+				"3600000000000163"
+				"3600000000000165"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.370c31df123f6a7bf97e}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.d17dd35d858e86774550}"
+			]
+			icon: "chemlib:tungsten"
+			id: "3600000000000170"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000170"
+				type: "xp"
+				xp: 65
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.e98a7b0d725639a4a76b}"
+			tasks: [
+				{
+					count: 16L
+					id: "4600000000000201"
+					item: "chemlib:tungsten"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4600000000000202"
+					item: "chemlib:rhenium"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4600000000000203"
+					item: "chemlib:osmium"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000204"
+					item: "chemlib:tantalum"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000205"
+					item: "chemlib:molybdenum"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000206"
+					item: "chemlib:niobium"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000207"
+					item: "chemlib:hafnium"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.8a5d131a3bc19497b02e}"
+			x: -2.0d
+			y: 34.0d
+		}
+		{
+			dependencies: ["3600000000000168"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.f7af3d104810f8b5e528}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.5363d7f0a80aacdbf46c}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.25679af62c1f859034b9}"
+			]
+			icon: "chemlib:aluminum"
+			id: "3600000000000171"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000171"
+				type: "xp"
+				xp: 45
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.50ff19444abadfd4ca7b}"
+			tasks: [{
+				count: 32L
+				id: "4600000000000208"
+				item: "chemlib:aluminum"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.7e0be1804991e9817510}"
+			x: -6.0d
+			y: 36.0d
+		}
+		{
+			dependencies: ["3600000000000171"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.07cb636f7b84dfe68e85}"
+				"{lanminecraft.reforged.quests.06_periodic_table.27e0d0d4104b84c5e601}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.0e47847fd244ba8d7d81}"
+			]
+			icon: "chemlib:gallium"
+			id: "3600000000000172"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000172"
+				type: "xp"
+				xp: 45
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.05a4b98231d52c21a6a4}"
+			tasks: [{
+				count: 8L
+				id: "4600000000000209"
+				item: "chemlib:gallium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.f0f970a1d7f8088a7ded}"
+			x: -4.0d
+			y: 36.0d
+		}
+		{
+			dependencies: ["3600000000000172"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.30590be2c2ce9208fad1}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.7f7199c422db9ac3d547}"
+			]
+			icon: "chemlib:germanium"
+			id: "3600000000000173"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000173"
+				type: "xp"
+				xp: 45
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.23bfaa9e6c674a57870b}"
+			tasks: [{
+				count: 16L
+				id: "4600000000000210"
+				item: "chemlib:germanium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.273e4401e8d025e9ea23}"
+			x: -2.0d
+			y: 36.0d
+		}
+		{
+			dependencies: ["3600000000000173"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.4305594b330a260b97fb}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.d0b7eac1efefcb605dad}"
+			]
+			icon: "chemlib:indium"
+			id: "3600000000000174"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000174"
+				type: "xp"
+				xp: 45
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.36e038f07a6d0c02a264}"
+			tasks: [{
+				count: 8L
+				id: "4600000000000211"
+				item: "chemlib:indium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.ec92bc7f450a227cc200}"
+			x: -6.0d
+			y: 38.0d
+		}
+		{
+			dependencies: ["3600000000000173"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.f57d2b05af5fe3f1f0ac}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.14b78c23776c97d8c667}"
+			]
+			icon: "chemlib:tin"
+			id: "3600000000000175"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000175"
+				type: "xp"
+				xp: 45
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.94a83a5f5f0f58ebfbaf}"
+			tasks: [{
+				count: 32L
+				id: "4600000000000212"
+				item: "chemlib:tin"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.b5612b337a3f77421c21}"
+			x: -4.0d
+			y: 38.0d
+		}
+		{
+			dependencies: ["3600000000000169"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.0e7a3c22f43f02e2d245}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.af90460fbf8a0928911e}"
+			]
+			icon: "chemlib:thallium"
+			id: "3600000000000176"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000176"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.6c86efb829c2857726a4}"
+			tasks: [{
+				count: 8L
+				id: "4600000000000213"
+				item: "chemlib:thallium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.b6bc6b57a814f98acbb9}"
+			x: -2.0d
+			y: 38.0d
+		}
+		{
+			dependencies: ["3600000000000176"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.c4652939958b863eff8f}"
+				"{lanminecraft.reforged.quests.06_periodic_table.210dc4d945e6881f7a73}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.5d8365de575bff766a0c}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.c2a37593ce96fc7c01b9}"
+			]
+			icon: "chemlib:lead"
+			id: "3600000000000177"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000177"
+				type: "xp"
+				xp: 60
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.e5c1638b7569a62f3dc8}"
+			tasks: [{
+				count: 32L
+				id: "4600000000000214"
+				item: "chemlib:lead"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.95273d47baa42c37373b}"
+			x: -6.0d
+			y: 40.0d
+		}
+		{
+			dependencies: ["3600000000000173"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.c261b31604ac13577c65}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.f0dce10b1020c09f129b}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.b747cc311e95109291fc}"
+			]
+			icon: "chemlib:silicon"
+			id: "3600000000000178"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000178"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.634d09da6b171ebf1b83}"
+			tasks: [{
+				count: 64L
+				id: "4600000000000215"
+				item: "chemlib:silicon"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.848913ff390dbdb24dab}"
+			x: -4.0d
+			y: 40.0d
+		}
+		{
+			dependencies: [
+				"3600000000000178"
+				"3600000000000173"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.405ff2be773ec1636f6a}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.48a24b233e1ce8bbdb36}"
+			]
+			icon: "chemlib:silicon"
+			id: "3600000000000179"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000179"
+				type: "xp"
+				xp: 60
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.d898beec88a40e86acdd}"
+			tasks: [
+				{
+					count: 16L
+					id: "4600000000000216"
+					item: "chemlib:boron"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "4600000000000217"
+					item: "chemlib:silicon"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000218"
+					item: "chemlib:germanium"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000219"
+					item: "chemlib:arsenic"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000220"
+					item: "chemlib:antimony"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000221"
+					item: "chemlib:tellurium"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.93abb15d6d875a0345ba}"
+			x: -2.0d
+			y: 40.0d
+		}
+		{
+			dependencies: ["3600000000000011"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.d62a5f33e039a43415f5}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.20f22f21486605782edb}"
+			]
+			icon: "chemlib:lanthanum"
+			id: "3600000000000180"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000180"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.9469f3a3c8d16f4df13a}"
+			tasks: [{
+				count: 8L
+				id: "4600000000000222"
+				item: "chemlib:lanthanum"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.83bc1eaa647deeb50b47}"
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3600000000000180"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.a69e5c02171a7813d8dd}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.bcc408731ce9434035b8}"
+			]
+			icon: "chemlib:cerium"
+			id: "3600000000000181"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000181"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.d25d06e9c89e662f3533}"
+			tasks: [{
+				count: 8L
+				id: "4600000000000223"
+				item: "chemlib:cerium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.028d2b449cf17b7f74b5}"
+			x: 0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3600000000000180"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.cc3fbe303abcd0199ef8}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.db1dffc09f62822ad06d}"
+			]
+			icon: "chemlib:praseodymium"
+			id: "3600000000000182"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000182"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.58384e5d8752e9b7a8e5}"
+			tasks: [{
+				count: 8L
+				id: "4600000000000224"
+				item: "chemlib:praseodymium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.744907ca8a6aef51903c}"
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3600000000000182"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.974a90e17eba7a5e15e2}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.d31ae4be863863f8f628}"
+			]
+			icon: "chemlib:neodymium"
+			id: "3600000000000183"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000183"
+				type: "xp"
+				xp: 45
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.6df649fe0c7197c6ee32}"
+			tasks: [{
+				count: 16L
+				id: "4600000000000225"
+				item: "chemlib:neodymium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.3e41a751b4b59f75e87a}"
+			x: 0.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3600000000000182"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.3fc4e76089204c708105}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.d352cc5b982fc23ca9b0}"
+			]
+			icon: "chemlib:samarium"
+			id: "3600000000000184"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000184"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.946935d4201afa4df987}"
+			tasks: [{
+				count: 8L
+				id: "4600000000000226"
+				item: "chemlib:samarium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.2ffce20c1d33f4c7ef7a}"
+			x: 2.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3600000000000183"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.79a83edf56025d7d6737}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.4f0bea39ce1ab783aea7}"
+			]
+			icon: "chemlib:gadolinium"
+			id: "3600000000000185"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000185"
+				type: "xp"
+				xp: 45
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.a4b29026acde4f6d73d4}"
+			tasks: [{
+				count: 8L
+				id: "4600000000000227"
+				item: "chemlib:gadolinium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.4f9240a2d3e5f26812b5}"
+			x: -1.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3600000000000185"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.b82d67ffddee5ef6d755}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.8321dce979c4010b2e5c}"
+			]
+			icon: "chemlib:terbium"
+			id: "3600000000000186"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000186"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.1342e9bececa489134e7}"
+			tasks: [{
+				count: 8L
+				id: "4600000000000228"
+				item: "chemlib:terbium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.70db2eb4501e3198bc05}"
+			x: 0.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["3600000000000185"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.c8a3a1576d4bc86c0c6e}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.6d7ab8d30c8e2e873fd2}"
+			]
+			icon: "chemlib:dysprosium"
+			id: "3600000000000187"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000187"
+				type: "xp"
+				xp: 45
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.59b2c2d39caed91a4d6e}"
+			tasks: [{
+				count: 8L
+				id: "4600000000000229"
+				item: "chemlib:dysprosium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.882d6f7c180ba29d0d4e}"
+			x: 2.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["3600000000000187"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.497b7ab27a4ca4bbbed2}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.1f7b1c19f78829bb664b}"
+			]
+			icon: "chemlib:holmium"
+			id: "3600000000000188"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000188"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.e5aa20c7a16c8070c9e6}"
+			tasks: [{
+				count: 8L
+				id: "4600000000000230"
+				item: "chemlib:holmium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.06fe4b88552e71bedecf}"
+			x: 0.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["3600000000000187"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.8e23301c74ee84aa1d22}"
+				"{lanminecraft.reforged.quests.06_periodic_table.ea0fd2bc9c5611f54a1f}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.ad0ff8b09499a0831927}"
+			]
+			icon: "chemlib:erbium"
+			id: "3600000000000189"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000189"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.17b5a81d86b38655ec09}"
+			tasks: [{
+				count: 8L
+				id: "4600000000000231"
+				item: "chemlib:erbium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.a80f7029a0ca7baf3466}"
+			x: 2.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["3600000000000189"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.6c1338c543afe8afbe52}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.f21725ced16e40525c27}"
+			]
+			icon: "chemlib:thulium"
+			id: "3600000000000190"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000190"
+				type: "xp"
+				xp: 45
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.a1a651fe60a7ce172108}"
+			tasks: [{
+				count: 8L
+				id: "4600000000000232"
+				item: "chemlib:thulium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.39e2cf17bae01a4e24a4}"
+			x: 0.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["3600000000000189"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.e0813e18d14aca97cc16}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.06baa5c823be2bda90a9}"
+			]
+			icon: "chemlib:ytterbium"
+			id: "3600000000000191"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000191"
+				type: "xp"
+				xp: 45
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.76e5c16a1b27c37f50a8}"
+			tasks: [{
+				count: 8L
+				id: "4600000000000233"
+				item: "chemlib:ytterbium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.558b3e85d2aa75781a4e}"
+			x: 2.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["3600000000000191"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.3caa05cb45da91336ab0}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.368c82ca6a890a652a22}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.9f92c18bc9443a1bb7d4}"
+			]
+			icon: "chemlib:lutetium"
+			id: "3600000000000192"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000192"
+				type: "xp"
+				xp: 45
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.d15985625cae5e677890}"
+			tasks: [{
+				count: 8L
+				id: "4600000000000234"
+				item: "chemlib:lutetium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.4772cfcd6f2843e2e706}"
+			x: 2.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["3600000000000013"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.63de50b4279738b0ef5c}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.5dd47a16b14f96a498b9}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.0ba99ce10130ff5374f5}"
+			]
+			icon: "chemlib:thorium"
+			id: "3600000000000193"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000193"
+				type: "xp"
+				xp: 45
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.1cfbc7d3b464cc41ecc4}"
+			tasks: [{
+				count: 16L
+				id: "4600000000000235"
+				item: "chemlib:thorium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.cdc12fd532213aaa9539}"
+			x: 6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3600000000000013"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.51df130fa3af4d51e7fa}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.c18a8fda62ff0eeb1ac5}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.67d8c8c5dfbaa729c738}"
+			]
+			icon: "chemlib:uranium"
+			id: "3600000000000194"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000194"
+				type: "xp"
+				xp: 45
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.763463b784a6fa0c53bc}"
+			tasks: [{
+				count: 16L
+				id: "4600000000000236"
+				item: "chemlib:uranium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.71e10e3dd2ce5dab1208}"
+			x: 8.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3600000000000015"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.ddcbc9f687f0223dec22}"
+				"{lanminecraft.reforged.quests.06_periodic_table.b2a2e88192e76100224e}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.ec225376fe62e37e73a0}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.850c8219d41d80ad6d14}"
+			]
+			icon: "chemlib:plutonium"
+			id: "3600000000000195"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000195"
+				type: "xp"
+				xp: 55
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.72cd3997fa0172e75a3c}"
+			tasks: [{
+				count: 8L
+				id: "4600000000000237"
+				item: "chemlib:plutonium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.04e2249e20ae51a714ed}"
+			x: 6.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3600000000000017"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.bd0bd0b5f5ae88b56639}"
+				"{lanminecraft.reforged.quests.06_periodic_table.5789d5799b9d54367aec}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.f8ee252b781275059ba3}"
+			]
+			icon: "chemlib:einsteinium"
+			id: "3600000000000196"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000196"
+				type: "xp"
+				xp: 55
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.27d89fe3dc7160fafdd3}"
+			tasks: [{
+				count: 2L
+				id: "4600000000000238"
+				item: "chemlib:einsteinium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.b2424e5aeb7bc3249d24}"
+			x: 6.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3600000000000018"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.1afab478267a043f4762}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.100e72a1cd22f329974e}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.144b9c3214449981a11c}"
+			]
+			icon: "chemlib:nobelium"
+			id: "3600000000000197"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000197"
+				type: "xp"
+				xp: 60
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.4f2ec4d2cd92cd3e2590}"
+			tasks: [{
+				id: "4600000000000239"
+				item: "chemlib:nobelium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.184af4861e282595a9e0}"
+			x: 8.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["3600000000000019"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.91c478e935a8e961021d}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.a55c43cac455ffc2c68d}"
+			]
+			icon: "chemlib:lawrencium"
+			id: "3600000000000198"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000198"
+				type: "xp"
+				xp: 60
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.638ccb7ffbf3d3d6ab83}"
+			tasks: [{
+				id: "4600000000000240"
+				item: "chemlib:lawrencium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.8752b7080452bf86efe2}"
+			x: 6.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["3600000000000019"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.90a61347f94e1e4fcdf3}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.8a7767db606fc2c13939}"
+			]
+			icon: "chemlib:seaborgium"
+			id: "3600000000000199"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000199"
+				type: "xp"
+				xp: 60
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.bd1c89dcc4d9a4d5f22a}"
+			tasks: [{
+				id: "4600000000000241"
+				item: "chemlib:seaborgium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.e12cb2e56545ac10a284}"
+			x: 8.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["3600000000000019"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.ec1beba67ebb05314888}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.f324df4f91c67af0ae31}"
+			]
+			icon: "chemlib:hassium"
+			id: "3600000000000200"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000200"
+				type: "xp"
+				xp: 60
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.f91850c4bcbd82d1a363}"
+			tasks: [{
+				id: "4600000000000242"
+				item: "chemlib:hassium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.d4ecf7a068c931a4b397}"
+			x: 6.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["3600000000000019"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.2026e2d52d6f9fda74c2}"
+				"{lanminecraft.reforged.quests.06_periodic_table.dc42bd970a63f47ba2cf}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.724fbdab465c53d32458}"
+			]
+			icon: "chemlib:meitnerium"
+			id: "3600000000000201"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000201"
+				type: "xp"
+				xp: 60
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.2ee908255eed7f5ea8c1}"
+			tasks: [{
+				id: "4600000000000243"
+				item: "chemlib:meitnerium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.ab1d717fd28f49b6decb}"
+			x: 8.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["3600000000000019"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.8e5a23e04162db64ec07}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.7748047d06ea02e82944}"
+			]
+			icon: "chemlib:roentgenium"
+			id: "3600000000000202"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000202"
+				type: "xp"
+				xp: 60
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.9f48f77fd87e6ac5601d}"
+			tasks: [{
+				id: "4600000000000244"
+				item: "chemlib:roentgenium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.ced94d6004bc2f5e4029}"
+			x: 6.5d
+			y: 21.0d
+		}
+		{
+			dependencies: ["3600000000000020"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.b96f151fb86df5fd32fc}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.82aac4f0b468ea1c6192}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.1cce3f419f5cc42add03}"
+			]
+			icon: "chemlib:moscovium"
+			id: "3600000000000203"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000203"
+				type: "xp"
+				xp: 60
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.4e0f6e26d5588348f942}"
+			tasks: [{
+				id: "4600000000000245"
+				item: "chemlib:moscovium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.38e1f144c255ef6c6849}"
+			x: 8.5d
+			y: 21.0d
+		}
+		{
+			dependencies: ["3600000000000026"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.d1e3e627654e99e20b36}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.75258cb8c3fc30a72132}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.1dafdc0d28684dc01583}"
+			]
+			icon: "minecraft:netherrack"
+			id: "3600000000000204"
+			min_width: 400
+			rewards: [{
+				id: "5600000000000204"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.b5e02ab6af31209d4a2f}"
+			tasks: [
+				{
+					dimension: "minecraft:the_nether"
+					id: "4600000000000246"
+					title: "{lanminecraft.reforged.quests.06_periodic_table.72c1a821752bc4f2c9f3}"
+					type: "dimension"
+				}
+				{
+					count: 16L
+					id: "4600000000000247"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.aa0a136f12f7548434da}"
+			x: 10.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3600000000000204"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.f0f80122240142ba9a1a}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.f02ff3620a813f9be29e}"
+			]
+			icon: "minecraft:ghast_tear"
+			id: "3600000000000205"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000205"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.0cdca1036ff3fd997af9}"
+			tasks: [{
+				count: 4L
+				id: "4600000000000248"
+				item: "minecraft:ghast_tear"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.be517fe1e46d9818527a}"
+			x: 10.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3600000000000204"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.e7361a9688f7684e1c3c}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.fc6c903d0a5b34dc8c0e}"
+			]
+			icon: "minecraft:quartz"
+			id: "3600000000000206"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000206"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.6a3f0a673b075b48a0b6}"
+			tasks: [{
+				count: 32L
+				id: "4600000000000249"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.19aee54a1438a4535f52}"
+			x: 10.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3600000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.82f4c8b0ac9fc2dbd29e}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.bc0db7031ca954da3ecb}"
+			]
+			icon: "kubejs:white_antimatter"
+			id: "3600000000000207"
+			min_width: 400
+			rewards: [{
+				id: "5600000000000207"
+				type: "xp"
+				xp: 120
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.2709563963eff6dd71c8}"
+			tasks: [
+				{
+					count: 64L
+					id: "4600000000000250"
+					item: "chemlib:iron"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "4600000000000251"
+					item: "chemlib:carbon"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "4600000000000252"
+					item: "chemlib:silicon"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "4600000000000253"
+					item: "chemlib:oxygen"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "4600000000000254"
+					item: "chemlib:hydrogen"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "4600000000000255"
+					item: "chemlib:calcium"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "4600000000000256"
+					item: "chemlib:aluminum"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "4600000000000257"
+					item: "chemlib:sodium"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "4600000000000258"
+					item: "chemlib:copper"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "4600000000000259"
+					item: "chemlib:sulfur"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "4600000000000260"
+					item: "chemlib:nitrogen"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4600000000000261"
+					item: "chemlib:gold"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4600000000000262"
+					item: "chemlib:magnesium"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4600000000000263"
+					item: "chemlib:potassium"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4600000000000264"
+					item: "chemlib:phosphorus"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4600000000000265"
+					item: "chemlib:titanium"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4600000000000266"
+					item: "chemlib:chlorine"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4600000000000267"
+					item: "chemlib:manganese"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000268"
+					item: "chemlib:strontium"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000269"
+					item: "chemlib:zinc"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000270"
+					item: "chemlib:tin"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000271"
+					item: "chemlib:nickel"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000272"
+					item: "chemlib:osmium"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000273"
+					item: "chemlib:silver"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000274"
+					item: "chemlib:platinum"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.aafea17b59ef73b5dd97}"
+			x: 12.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3600000000000207"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.1b23e3d12b958af0f2db}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.9a9b4ef1796a30c4060d}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.fe21030603e665cc4af0}"
+			]
+			icon: "chemlib:iron"
+			id: "3600000000000208"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000208"
+				type: "xp"
+				xp: 60
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.1edcd6e2476afc6730c1}"
+			tasks: [
+				{
+					count: 16L
+					id: "4600000000000275"
+					item: "chemlib:iron"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000276"
+					item: "chemlib:gold"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000277"
+					item: "chemlib:silver"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000278"
+					item: "chemlib:lead"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000279"
+					item: "chemlib:tin"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000280"
+					item: "chemlib:antimony"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000281"
+					item: "chemlib:tungsten"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000282"
+					item: "chemlib:potassium"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000283"
+					item: "chemlib:sodium"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000284"
+					item: "chemlib:mercury"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000285"
+					item: "chemlib:copper"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.b10b2cbf37f05be63a6f}"
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3600000000000208"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.b2c468d14d4b9c4bb83f}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.d0b14cb26307e71656b3}"
+			]
+			icon: "chemlib:germanium"
+			id: "3600000000000209"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000209"
+				type: "xp"
+				xp: 60
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.b78ba67fe8b75f666f15}"
+			tasks: [
+				{
+					count: 8L
+					id: "4600000000000286"
+					item: "chemlib:copper"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4600000000000287"
+					item: "chemlib:scandium"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4600000000000288"
+					item: "chemlib:gallium"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4600000000000289"
+					item: "chemlib:germanium"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4600000000000290"
+					item: "chemlib:ruthenium"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4600000000000291"
+					item: "chemlib:hafnium"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4600000000000292"
+					item: "chemlib:lutetium"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4600000000000293"
+					item: "chemlib:americium"
+					type: "item"
+				}
+				{
+					id: "4600000000000294"
+					item: "chemlib:californium"
+					type: "item"
+				}
+				{
+					id: "4600000000000295"
+					item: "chemlib:darmstadtium"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.1939cc5ea9d130673f09}"
+			x: 17.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3600000000000209"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.a7a21455011463839f18}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.c3b11e9f2b68b1785e77}"
+			]
+			icon: "chemlib:mendelevium"
+			id: "3600000000000210"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000210"
+				type: "xp"
+				xp: 60
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.59cf89906e46a6ea061b}"
+			tasks: [
+				{
+					count: 4L
+					id: "4600000000000296"
+					item: "chemlib:samarium"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4600000000000297"
+					item: "chemlib:gadolinium"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4600000000000298"
+					item: "chemlib:curium"
+					type: "item"
+				}
+				{
+					id: "4600000000000299"
+					item: "chemlib:einsteinium"
+					type: "item"
+				}
+				{
+					id: "4600000000000300"
+					item: "chemlib:fermium"
+					type: "item"
+				}
+				{
+					id: "4600000000000301"
+					item: "chemlib:mendelevium"
+					type: "item"
+				}
+				{
+					id: "4600000000000302"
+					item: "chemlib:nobelium"
+					type: "item"
+				}
+				{
+					id: "4600000000000303"
+					item: "chemlib:seaborgium"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.5bd686350e7b36b83ac5}"
+			x: 12.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3600000000000210"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.77af398b441bc72cc2fa}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.04f07bf3cc39f7aecc27}"
+			]
+			icon: "chemlib:helium"
+			id: "3600000000000211"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000211"
+				type: "xp"
+				xp: 60
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.eb923e008e3f5eff87b0}"
+			tasks: [
+				{
+					count: 32L
+					id: "4600000000000304"
+					item: "chemlib:helium"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000305"
+					item: "chemlib:selenium"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000306"
+					item: "chemlib:tellurium"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000307"
+					item: "chemlib:cerium"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000308"
+					item: "chemlib:palladium"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000309"
+					item: "chemlib:uranium"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4600000000000310"
+					item: "chemlib:neptunium"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4600000000000311"
+					item: "chemlib:plutonium"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.08aa5c473978633ca25c}"
+			x: 15.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3600000000000211"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.45e945c031d4fcbb50e5}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.896a5aef18e92e344ecd}"
+			]
+			icon: "chemlib:cesium"
+			id: "3600000000000212"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000212"
+				type: "xp"
+				xp: 60
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.266fafa9c0257b6846f5}"
+			tasks: [
+				{
+					count: 8L
+					id: "4600000000000312"
+					item: "chemlib:cesium"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000313"
+					item: "chemlib:krypton"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000314"
+					item: "chemlib:platinum"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4600000000000315"
+					item: "chemlib:iridium"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.14026e5ab8fe115cc4d9}"
+			x: 17.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3600000000000207"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.de399faf4e43207c67ce}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.e5ba50217cec06977f99}"
+			]
+			icon: "chemlib:gold"
+			id: "3600000000000213"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000213"
+				type: "xp"
+				xp: 60
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.7a1c41d0c60c40761fdd}"
+			tasks: [
+				{
+					count: 16L
+					id: "4600000000000316"
+					item: "chemlib:gold"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4600000000000317"
+					item: "chemlib:silver"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4600000000000318"
+					item: "chemlib:copper"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4600000000000319"
+					item: "chemlib:iron"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4600000000000320"
+					item: "chemlib:tin"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4600000000000321"
+					item: "chemlib:lead"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4600000000000322"
+					item: "chemlib:mercury"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.72b867335bc4d659a479}"
+			x: 12.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3600000000000213"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.e1957d358194d49a81ac}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.56551b07544f04e2cd1d}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.a0134b0f77805c565f2f}"
+			]
+			icon: "chemlib:rubidium"
+			id: "3600000000000214"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000214"
+				type: "xp"
+				xp: 60
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.539554c6b78afa3c11a5}"
+			tasks: [
+				{
+					count: 8L
+					id: "4600000000000323"
+					item: "chemlib:cesium"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000324"
+					item: "chemlib:rubidium"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000325"
+					item: "chemlib:thallium"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000326"
+					item: "chemlib:indium"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4600000000000327"
+					item: "chemlib:helium"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.75fa0259858f948c8d31}"
+			x: 15.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3600000000000214"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.e1bf608d0b91af59e9f5}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.ab4a312f5e746cf6a69f}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.aeb858a9fe8902b5abcb}"
+			]
+			icon: "chemlib:cadmium"
+			id: "3600000000000215"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000215"
+				type: "xp"
+				xp: 60
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.4fb993628d1e91bd30e8}"
+			tasks: [
+				{
+					count: 16L
+					id: "4600000000000328"
+					item: "chemlib:lead"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000329"
+					item: "chemlib:cadmium"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000330"
+					item: "chemlib:chromium"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000331"
+					item: "chemlib:arsenic"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000332"
+					item: "chemlib:mercury"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000333"
+					item: "chemlib:cobalt"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.bb037799cf33c0675118}"
+			x: 17.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3600000000000207"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.25ae35ef683e11dbdfce}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.eef8bcfe14d8fa4ce6e1}"
+			]
+			icon: "chemlib:cobalt"
+			id: "3600000000000216"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000216"
+				type: "xp"
+				xp: 60
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.24c5debcd3dc676b039f}"
+			tasks: [
+				{
+					count: 32L
+					id: "4600000000000334"
+					item: "chemlib:iron"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000335"
+					item: "chemlib:cobalt"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000336"
+					item: "chemlib:nickel"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4600000000000337"
+					item: "chemlib:gadolinium"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.753830368215297cdd51}"
+			x: 12.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3600000000000216"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.96ac04a65cf09ec49fc2}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.64430e61a01e7af9d942}"
+			]
+			icon: "chemlib:niobium"
+			id: "3600000000000217"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000217"
+				type: "xp"
+				xp: 60
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.15d997973f334a239a31}"
+			tasks: [
+				{
+					count: 8L
+					id: "4600000000000338"
+					item: "chemlib:mercury"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000339"
+					item: "chemlib:niobium"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.0d1dfd828e59d2171f6e}"
+			x: 15.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3600000000000216"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.67efd25bd97035dd94a0}"
+				"{lanminecraft.reforged.quests.06_periodic_table.82cc5dbd71df697d67a6}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.e4adaf35364bf69f2b67}"
+			]
+			icon: "chemlib:phosphorus"
+			id: "3600000000000218"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000218"
+				type: "xp"
+				xp: 60
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.d9ff1dc1377273ca4b8b}"
+			tasks: [
+				{
+					count: 32L
+					id: "4600000000000340"
+					item: "chemlib:carbon"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4600000000000341"
+					item: "chemlib:phosphorus"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4600000000000342"
+					item: "chemlib:sulfur"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "4600000000000343"
+					item: "chemlib:oxygen"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4600000000000344"
+					item: "chemlib:tin"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4600000000000345"
+					item: "chemlib:plutonium"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.d504731581abea322b61}"
+			x: 17.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3600000000000218"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.d8a2e5c4c50bc5dbe8cb}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.744944c9b3d31828673e}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.3ead8441657a97ae2f8d}"
+			]
+			icon: "chemlib:platinum"
+			id: "3600000000000219"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000219"
+				type: "xp"
+				xp: 65
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.8198b443cffc6ed1fff2}"
+			tasks: [
+				{
+					count: 16L
+					id: "4600000000000346"
+					item: "chemlib:gold"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000347"
+					item: "chemlib:platinum"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000348"
+					item: "chemlib:uranium"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000349"
+					item: "chemlib:thorium"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.8fc5228aaaac4b3cb97c}"
+			x: 12.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3600000000000207"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.aeec35956bb202cb3ff5}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.099c8176e94965430645}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.4ad662d0d5335177f5f0}"
+			]
+			icon: "chemlib:oxygen"
+			id: "3600000000000220"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000220"
+				type: "xp"
+				xp: 65
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.0b27cf932286a8986b8a}"
+			tasks: [
+				{
+					count: 64L
+					id: "4600000000000350"
+					item: "chemlib:oxygen"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "4600000000000351"
+					item: "chemlib:hydrogen"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.6bd662c819dcf506e3b2}"
+			x: 15.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3600000000000219"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.a8825cdfb2df5557c55f}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.fe7d311007450dc360c4}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.1ac138275af90c4be9e5}"
+			]
+			icon: "chemlib:oganesson"
+			id: "3600000000000221"
+			min_width: 400
+			rewards: [{
+				id: "5600000000000221"
+				type: "xp"
+				xp: 150
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.16bc116ca432849d0809}"
+			tasks: [
+				{
+					count: 2L
+					id: "4600000000000352"
+					item: "chemlib:americium"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4600000000000353"
+					item: "chemlib:curium"
+					type: "item"
+				}
+				{
+					id: "4600000000000354"
+					item: "chemlib:berkelium"
+					type: "item"
+				}
+				{
+					id: "4600000000000355"
+					item: "chemlib:californium"
+					type: "item"
+				}
+				{
+					id: "4600000000000356"
+					item: "chemlib:einsteinium"
+					type: "item"
+				}
+				{
+					id: "4600000000000357"
+					item: "chemlib:fermium"
+					type: "item"
+				}
+				{
+					id: "4600000000000358"
+					item: "chemlib:mendelevium"
+					type: "item"
+				}
+				{
+					id: "4600000000000359"
+					item: "chemlib:nobelium"
+					type: "item"
+				}
+				{
+					id: "4600000000000360"
+					item: "chemlib:lawrencium"
+					type: "item"
+				}
+				{
+					id: "4600000000000361"
+					item: "chemlib:rutherfordium"
+					type: "item"
+				}
+				{
+					id: "4600000000000362"
+					item: "chemlib:dubnium"
+					type: "item"
+				}
+				{
+					id: "4600000000000363"
+					item: "chemlib:seaborgium"
+					type: "item"
+				}
+				{
+					id: "4600000000000364"
+					item: "chemlib:bohrium"
+					type: "item"
+				}
+				{
+					id: "4600000000000365"
+					item: "chemlib:hassium"
+					type: "item"
+				}
+				{
+					id: "4600000000000366"
+					item: "chemlib:meitnerium"
+					type: "item"
+				}
+				{
+					id: "4600000000000367"
+					item: "chemlib:darmstadtium"
+					type: "item"
+				}
+				{
+					id: "4600000000000368"
+					item: "chemlib:roentgenium"
+					type: "item"
+				}
+				{
+					id: "4600000000000369"
+					item: "chemlib:copernicium"
+					type: "item"
+				}
+				{
+					id: "4600000000000370"
+					item: "chemlib:nihonium"
+					type: "item"
+				}
+				{
+					id: "4600000000000371"
+					item: "chemlib:flerovium"
+					type: "item"
+				}
+				{
+					id: "4600000000000372"
+					item: "chemlib:moscovium"
+					type: "item"
+				}
+				{
+					id: "4600000000000373"
+					item: "chemlib:livermorium"
+					type: "item"
+				}
+				{
+					id: "4600000000000374"
+					item: "chemlib:tennessine"
+					type: "item"
+				}
+				{
+					id: "4600000000000375"
+					item: "chemlib:oganesson"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.7072c9b1dadeb2d1d5e1}"
+			x: 17.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3600000000000207"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.5c0fcd4e3cfecfed3bde}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.d49cf26aaaff7634a124}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.31d28341b923a10b3fc6}"
+			]
+			icon: "chemlib:neon"
+			id: "3600000000000222"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000222"
+				type: "xp"
+				xp: 65
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.568c3fc860031a526f7c}"
+			tasks: [
+				{
+					count: 8L
+					id: "4600000000000376"
+					item: "chemlib:lithium"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000377"
+					item: "chemlib:beryllium"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000378"
+					item: "chemlib:boron"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000379"
+					item: "chemlib:carbon"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000380"
+					item: "chemlib:nitrogen"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000381"
+					item: "chemlib:oxygen"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000382"
+					item: "chemlib:fluorine"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000383"
+					item: "chemlib:neon"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000384"
+					item: "chemlib:sodium"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4600000000000385"
+					item: "chemlib:magnesium"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.1e700105e5e218e069e8}"
+			x: 12.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["3600000000000207"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.909d86f04824327818fb}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.84046c843ec9f947ace6}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.33e81d65d34cb79f6d39}"
+			]
+			icon: "extendedcrafting:singularity"
+			id: "3600000000000223"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000223"
+				type: "xp"
+				xp: 70
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.ac2bc0dc0d874a3a90a3}"
+			tasks: [{
+				id: "4600000000000386"
+				item: "extendedcrafting:singularity"
+				title: "{lanminecraft.reforged.quests.06_periodic_table.db5c68e5cc5e348f030a}"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.565f3dbf3a528fc6699b}"
+			x: 15.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["3600000000000223"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.9c4a9a16e1c070439bf7}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.73f659933a94408e5a42}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.b98d9e0f005aa547ee19}"
+			]
+			icon: "minecraft:chest"
+			id: "3600000000000224"
+			min_width: 350
+			rewards: [{
+				id: "5600000000000224"
+				type: "xp"
+				xp: 70
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.9368dc659e6455272a8f}"
+			tasks: [{
+				id: "4600000000000387"
+				title: "{lanminecraft.reforged.quests.06_periodic_table.57d4a550922a6aebfa9b}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.56a4d79de8781532a2f1}"
+			x: 17.5d
+			y: 13.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3600000000000016"]
+			description: [
+				"{lanminecraft.reforged.quests.06_periodic_table.27ddd980d3397125a05c}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.562457c11b4b092f5ceb}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.bce8a9be6a86fb011fc0}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.6e81a74300158f9158d0}"
+				""
+				"{lanminecraft.reforged.quests.06_periodic_table.088af37a5ea028ce7682}"
+			]
+			icon: "minecraft:redstone_torch"
+			id: "3600000000000F10"
+			min_width: 380
+			optional: true
+			repeat_cooldown: 60L
+			rewards: [{
+				command: "/gamestage add {p} synthesis"
+				elevate_perms: true
+				id: "5600000000000F10"
+				player_command: false
+				title: "{lanminecraft.reforged.quests.06_periodic_table.ce886c8f8655a13c5fd6}"
+				type: "command"
+			}]
+			shape: "diamond"
+			subtitle: "{lanminecraft.reforged.quests.06_periodic_table.228542f8870a4043009c}"
+			tasks: [{
+				id: "4600000000000F10"
+				title: "{lanminecraft.reforged.quests.06_periodic_table.2cb3e2e1bb1637fdefe8}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.06_periodic_table.0b0c7db4cdb3828c784a}"
+			x: 19.5d
+			y: 40.0d
+		}
+	]
+	subtitle: ["{lanminecraft.reforged.quests.06_periodic_table.f7000025877869b7a71f}"]
+	title: "{lanminecraft.reforged.quests.06_periodic_table.d2b3736c792c36f61d5c}"
+}

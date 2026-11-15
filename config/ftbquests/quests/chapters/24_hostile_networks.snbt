@@ -1,0 +1,304 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 320
+	default_quest_shape: ""
+	filename: "24_hostile_networks"
+	group: "1000000000000001"
+	hide_quest_until_deps_visible: true
+	icon: "hostilenetworks:deep_learner"
+	id: "2000000000000018"
+	order_index: 24
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3400000000000005"]
+			description: [
+				"{lanminecraft.reforged.quests.24_hostile_networks.b2ba64a021893d5da6a9}"
+				""
+				"{lanminecraft.reforged.quests.24_hostile_networks.dd7cbaf4cdfeedd4e5c7}"
+				""
+				"{lanminecraft.reforged.quests.24_hostile_networks.b6ce0d661df472af30d3}"
+				""
+				"{lanminecraft.reforged.quests.24_hostile_networks.5c85f762b83832d2bb88}"
+			]
+			hide_until_deps_complete: true
+			icon: "hostilenetworks:blank_data_model"
+			id: "6800000000000001"
+			min_width: 480
+			rewards: [
+				{
+					id: "8800000000000001"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.24_hostile_networks.9b9a8d05a7ec353bda84}"
+			tasks: [
+				{
+					id: "7800000000000001"
+					title: "{lanminecraft.reforged.quests.24_hostile_networks.5ad3dbd1242a4cea217e}"
+					type: "checkmark"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.24_hostile_networks.39d16b7ab6a0e2165e74}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6800000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.24_hostile_networks.b79085528f0dd5365191}"
+				""
+				"{lanminecraft.reforged.quests.24_hostile_networks.1d55f001f771b8e333a9}"
+				""
+				"{lanminecraft.reforged.quests.24_hostile_networks.7ecc65268bd1e036bcc7}"
+			]
+			icon: "hostilenetworks:deep_learner"
+			id: "6800000000000002"
+			min_width: 470
+			rewards: [
+				{
+					id: "8800000000000002"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.24_hostile_networks.f8ef7a8eef2c339e916b}"
+			tasks: [
+				{
+					id: "7800000000000002"
+					item: "hostilenetworks:deep_learner"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7800000000000003"
+					item: "hostilenetworks:blank_data_model"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.24_hostile_networks.804ae1034cd9add76c7e}"
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6800000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.24_hostile_networks.2ba63d2638fce1b069ac}"
+				""
+				"{lanminecraft.reforged.quests.24_hostile_networks.bff941f3b9c5b41a08de}"
+				""
+				"{lanminecraft.reforged.quests.24_hostile_networks.1a3e1b3ea43e8e1d6cbf}"
+			]
+			icon: "hostilenetworks:sim_chamber"
+			id: "6800000000000003"
+			min_width: 470
+			rewards: [
+				{
+					id: "8800000000000003"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.24_hostile_networks.53db3828ba84d8ceaa05}"
+			tasks: [
+				{
+					id: "7800000000000004"
+					item: "hostilenetworks:sim_chamber"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7800000000000005"
+					item: "hostilenetworks:prediction_matrix"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.24_hostile_networks.35c8a95cf8ccb5746640}"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"6800000000000002"
+				"6800000000000003"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.24_hostile_networks.b959f27e9c12a4afa9fa}"
+				""
+				"{lanminecraft.reforged.quests.24_hostile_networks.82337ef68496cfdff58c}"
+			]
+			icon: "hostilenetworks:loot_fabricator"
+			id: "6800000000000004"
+			min_width: 470
+			rewards: [
+				{
+					id: "8800000000000004"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.24_hostile_networks.5cc1de25dac250e8069f}"
+			tasks: [
+				{
+					id: "7800000000000006"
+					item: "hostilenetworks:loot_fabricator"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "7800000000000007"
+					item: "hostilenetworks:prediction"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.24_hostile_networks.2df36169d6df8162b310}"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6800000000000004"]
+			description: [
+				"{lanminecraft.reforged.quests.24_hostile_networks.c549a90f4db4df3f568c}"
+				""
+				"{lanminecraft.reforged.quests.24_hostile_networks.aaf7badd970d077409ba}"
+				""
+				"{lanminecraft.reforged.quests.24_hostile_networks.ee50605a39dc33bb9a44}"
+			]
+			icon: "hostilenetworks:data_model"
+			id: "6800000000000005"
+			min_width: 480
+			rewards: [
+				{
+					id: "8800000000000005"
+					type: "xp"
+					xp: 700
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.24_hostile_networks.9082ff75cce2ea77fd2a}"
+			tasks: [
+				{
+					count: 8L
+					id: "7800000000000008"
+					item: "hostilenetworks:overworld_prediction"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7800000000000009"
+					item: "hostilenetworks:nether_prediction"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.24_hostile_networks.3aea0e5790cee1a3714e}"
+			x: -5.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6800000000000005"]
+			description: [
+				"{lanminecraft.reforged.quests.24_hostile_networks.b24462972f2e96544b00}"
+				""
+				"{lanminecraft.reforged.quests.24_hostile_networks.8018844ec8842746c6e8}"
+				""
+				"{lanminecraft.reforged.quests.24_hostile_networks.565c1fdb44ede82b15e3}"
+				""
+				"{lanminecraft.reforged.quests.24_hostile_networks.b85e6d28e13603461bb3}"
+			]
+			icon: "hostilenetworks:end_prediction"
+			id: "6800000000000006"
+			min_width: 490
+			rewards: [
+				{
+					id: "8800000000000006"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "hexagon"
+			size: 2.5d
+			subtitle: "{lanminecraft.reforged.quests.24_hostile_networks.57f64bf9715866ab48f4}"
+			tasks: [
+				{
+					id: "7800000000000010"
+					item: "hostilenetworks:end_prediction"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.24_hostile_networks.96550adab884fd6f66ce}"
+			x: 0.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["6800000000000005"]
+			description: [
+				"{lanminecraft.reforged.quests.24_hostile_networks.5bba9fe413b4d9fe51b0}"
+				""
+				"{lanminecraft.reforged.quests.24_hostile_networks.aac51fd082504ad101cd}"
+			]
+			icon: "hostilenetworks:twilight_prediction"
+			id: "6800000000000007"
+			min_width: 450
+			optional: true
+			rewards: [
+				{
+					id: "8800000000000007"
+					type: "xp"
+					xp: 600
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.24_hostile_networks.57f64bf9715866ab48f4}"
+			tasks: [
+				{
+					id: "7800000000000011"
+					item: "hostilenetworks:twilight_prediction"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.24_hostile_networks.ab4b487b88718a7b895d}"
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"6800000000000006"
+				"6800000000000004"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.24_hostile_networks.a72f7a01f9d50ee90ec2}"
+				""
+				"{lanminecraft.reforged.quests.24_hostile_networks.9647bbb5679f1f3d51c9}"
+				""
+				"{lanminecraft.reforged.quests.24_hostile_networks.359d8bc0f9134f8d51ad}"
+			]
+			icon: "hostilenetworks:sim_chamber"
+			id: "6800000000000008"
+			min_width: 490
+			rewards: [
+				{
+					id: "8800000000000008"
+					type: "xp"
+					xp: 1500
+				}
+			]
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "{lanminecraft.reforged.quests.24_hostile_networks.b867a30ab87dad0f9a1c}"
+			tasks: [
+				{
+					count: 64L
+					id: "7800000000000012"
+					item: "hostilenetworks:prediction"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.24_hostile_networks.ade08cefa3bcba8a105f}"
+			x: 0.0d
+			y: 21.0d
+		}
+	]
+	subtitle: ["{lanminecraft.reforged.quests.24_hostile_networks.39d16b7ab6a0e2165e74}"]
+	title: "{lanminecraft.reforged.quests.24_hostile_networks.bdea8157dec7dba6548e}"
+}

@@ -1,0 +1,1368 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: ""
+	filename: "07_antimatter"
+	group: "1000000000000001"
+	hide_quest_until_deps_visible: true
+	icon: "kubejs:antimatter"
+	id: "2000000000000007"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"3600000000000024"
+				"3800000000000126"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"{lanminecraft.reforged.quests.07_antimatter.0a7d494202f81ebaf131}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.ccd3847ee4d1d751a6de}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.09ed9c9e9e0b5e4f6862}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.cad7100636c5ff4ed46e}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.52e222db7b965b0a9c1e}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.8f3e4c71f0c9121964e8}"
+			]
+			hide_until_deps_complete: true
+			icon: "kubejs:white_antimatter"
+			id: "3700000000000001"
+			min_width: 350
+			rewards: [{
+				id: "5700000000000001"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.07_antimatter.4283d2e6808ab0840df6}"
+			tasks: [{
+				id: "4700000000000001"
+				title: "{lanminecraft.reforged.quests.07_antimatter.28ca9cd52b49cfef7808}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.07_antimatter.371cb539e377e5bab523}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3700000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.07_antimatter.14379e8b3cd7e34c0955}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.011ca652e1ecac314b59}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.28d7634eff37fc0a39d7}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.eb4973a46b9deff4ae6b}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.bf786157058a387f70f8}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.c4a7b548a048e8e94328}"
+			]
+			icon: "minecraft:glowstone_dust"
+			id: "3700000000000002"
+			min_width: 380
+			rewards: [{
+				id: "5700000000000002"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			subtitle: "{lanminecraft.reforged.quests.07_antimatter.e046ff6b7736541181af}"
+			tasks: [{
+				id: "4700000000000002"
+				title: "{lanminecraft.reforged.quests.07_antimatter.9b9a8d05a7ec353bda84}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.07_antimatter.d2e5176ae8d94bb46890}"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3700000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.07_antimatter.aa168d9423be8ba453c4}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.a5bf6e37665960b99c93}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.fa374da0e2bca1476bdd}"
+			]
+			icon: "extendedcrafting:ultimate_singularity"
+			id: "3700000000000003"
+			rewards: [{
+				id: "5700000000000003"
+				type: "xp"
+				xp: 150
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.07_antimatter.6c6f4792cd1cfcd06b39}"
+			tasks: [{
+				id: "4700000000000003"
+				item: "extendedcrafting:ultimate_singularity"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.07_antimatter.83c55052957c80f13eb0}"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3700000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.07_antimatter.4a5b3bb69b7076813c10}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.496292b45dd6a9eea465}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.6a12d11ed14b2bbdfe54}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.bfd399e30cea732156ba}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.353c2b1381c6db47f799}"
+			]
+			icon: "chemlib:oganesson"
+			id: "3700000000000004"
+			min_width: 380
+			rewards: [{
+				id: "5700000000000004"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{lanminecraft.reforged.quests.07_antimatter.790df01f1c49aac02ed8}"
+			tasks: [{
+				count: 6L
+				id: "4700000000000004"
+				item: "chemlib:oganesson"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.07_antimatter.c2c1254ef9c8271dfd89}"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3700000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.07_antimatter.170bf536fc436ff2f343}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.fb14fe82721381d75490}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.f85babd898e644aa62c0}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.30821eeef947bf60c57c}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.7f297d843ccd16471ce6}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.cb0d7ad09b16cb5cb60f}"
+			]
+			icon: "minecraft:golden_carrot"
+			id: "3700000000000005"
+			min_width: 380
+			optional: true
+			rewards: [{
+				id: "5700000000000005"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "heart"
+			subtitle: "{lanminecraft.reforged.quests.07_antimatter.6da40cacbaaded396ba0}"
+			tasks: [{
+				id: "4700000000000005"
+				title: "{lanminecraft.reforged.quests.07_antimatter.9b9a8d05a7ec353bda84}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.07_antimatter.dcb2407a7c664d8b5656}"
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3700000000000003"]
+			description: [
+				"{lanminecraft.reforged.quests.07_antimatter.206f16296f60cdde80d1}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.ae68b41bd94c859424f9}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.c2162eb8d116529bd79a}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.7bf4181db196e148639c}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.10875792a945b3e7f572}"
+			]
+			icon: "extendedcrafting:ultimate_singularity"
+			id: "3700000000000006"
+			min_width: 350
+			rewards: [{
+				id: "5700000000000006"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.07_antimatter.de26cb348603a937df54}"
+			tasks: [{
+				count: 2L
+				id: "4700000000000006"
+				item: "extendedcrafting:ultimate_singularity"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.07_antimatter.86712661c0305f249eec}"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3700000000000004"]
+			description: [
+				"{lanminecraft.reforged.quests.07_antimatter.1596c35d7f42a0cf15e3}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.da46a15629191efba29f}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.bf5c0580a9103db202d6}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.49f87c40d77c57653333}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.90e415d995fd097a1b27}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.743907297481ab172ba4}"
+			]
+			icon: "alchemistry:fusion_chamber_controller"
+			id: "3700000000000007"
+			min_width: 350
+			rewards: [{
+				id: "5700000000000007"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "square"
+			subtitle: "{lanminecraft.reforged.quests.07_antimatter.cfbf2c72112d4a1cb164}"
+			tasks: [{
+				id: "4700000000000007"
+				title: "{lanminecraft.reforged.quests.07_antimatter.d3f1e5ca9013d24bfc7c}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.07_antimatter.811d793c6d6cc3738b34}"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3700000000000007"]
+			description: [
+				"{lanminecraft.reforged.quests.07_antimatter.8a04fe0b04bb601aa5cf}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.7a3537b9f14f2313d7aa}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.359adb5bd9b3b026df74}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.7bc3b90540be9ac03416}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.74b06df9adc1ff8bde86}"
+				"{lanminecraft.reforged.quests.07_antimatter.dda34b1c778425ce7a94}"
+				"{lanminecraft.reforged.quests.07_antimatter.911943a2a9f10a9c6940}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.515438f9edc1223e8d22}"
+			]
+			icon: "chemlib:unobtainium"
+			id: "3700000000000008"
+			min_width: 400
+			rewards: [
+				{
+					auto: "invisible"
+					id: "5700000000000008"
+					type: "custom"
+				}
+				{
+					id: "5700000000000009"
+					type: "xp"
+					xp: 400
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.07_antimatter.47b3ebd6c130368d5658}"
+			tasks: [{
+				id: "4700000000000008"
+				item: "chemlib:unobtainium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.07_antimatter.693490e4a3d92a87ccd3}"
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3700000000000008"]
+			description: [
+				"{lanminecraft.reforged.quests.07_antimatter.2930b42f53fbbef01735}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.10f57a932c316f3d7224}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.8dc96132249c7c2bbe19}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.7cb5dc521d31bbdba3f9}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.bd4948a4047252057d48}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.077ebbb8287102d3006b}"
+			]
+			icon: "minecraft:spyglass"
+			id: "3700000000000009"
+			min_width: 400
+			optional: true
+			rewards: [{
+				id: "5700000000000010"
+				type: "xp"
+				xp: 75
+			}]
+			shape: "heart"
+			subtitle: "{lanminecraft.reforged.quests.07_antimatter.6da40cacbaaded396ba0}"
+			tasks: [{
+				id: "4700000000000009"
+				title: "{lanminecraft.reforged.quests.07_antimatter.9b9a8d05a7ec353bda84}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.07_antimatter.daa228fe3b2fc63df296}"
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3700000000000008"]
+			description: [
+				"{lanminecraft.reforged.quests.07_antimatter.b1a7f89551f9f43a40b1}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.a62b6eddd71088a0306d}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.408a290da86648402073}"
+			]
+			icon: "chemlib:asinine"
+			id: "3700000000000010"
+			optional: true
+			rewards: [{
+				id: "5700000000000011"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "heart"
+			subtitle: "{lanminecraft.reforged.quests.07_antimatter.f818b4e3e4f6c1f24c02}"
+			tasks: [{
+				id: "4700000000000010"
+				item: "chemlib:asinine"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.07_antimatter.b696373c7fe09cff0723}"
+			x: -5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3700000000000008"]
+			description: [
+				"{lanminecraft.reforged.quests.07_antimatter.ce70260f292c2875547b}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.0b9d13313471711e3701}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.e9134920813605b6a4d4}"
+			]
+			icon: "chemlib:ammonium_dichromate"
+			id: "3700000000000011"
+			optional: true
+			rewards: [{
+				id: "5700000000000012"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "heart"
+			subtitle: "{lanminecraft.reforged.quests.07_antimatter.b7f14da94e1d291db0e0}"
+			tasks: [{
+				id: "4700000000000011"
+				item: "chemlib:ammonium_dichromate"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.07_antimatter.37bc928e1a0eb99d8c60}"
+			x: -5.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3700000000000008"]
+			description: [
+				"{lanminecraft.reforged.quests.07_antimatter.4502b6c1e3861a9cbe48}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.e816736e176dc7966830}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.94f6e3b080f52031402e}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.b004a92256b701c79f2a}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.b5f7e7e1b7f524353d96}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.9e4aed6017826b3c333a}"
+			]
+			icon: "chemlib:unobtainium_oxide"
+			id: "3700000000000012"
+			min_width: 380
+			rewards: [{
+				id: "5700000000000013"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "diamond"
+			subtitle: "{lanminecraft.reforged.quests.07_antimatter.9ea7ea6e3777847f80b0}"
+			tasks: [{
+				id: "4700000000000012"
+				item: "chemlib:unobtainium_oxide"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.07_antimatter.f45c7418444fa08dad18}"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3700000000000012"]
+			description: [
+				"{lanminecraft.reforged.quests.07_antimatter.3e886fd917415a82a628}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.e72c3fb90d6c7b2c804d}"
+				"{lanminecraft.reforged.quests.07_antimatter.c959ed99db9d7f00bb9e}"
+				"{lanminecraft.reforged.quests.07_antimatter.550a6d1b561885146566}"
+				"{lanminecraft.reforged.quests.07_antimatter.284563492093a54459ba}"
+				"{lanminecraft.reforged.quests.07_antimatter.5daca9206d520bba927a}"
+				"{lanminecraft.reforged.quests.07_antimatter.dd7b692a380ace25918f}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.801832ea2f418bca4970}"
+			]
+			icon: "chemlib:unobtainium_oxide"
+			id: "3700000000000013"
+			min_width: 350
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/gamestage add {p} antimatter"
+					elevate_perms: true
+					id: "5700000000000200"
+					title: "{lanminecraft.reforged.quests.07_antimatter.d6df4109c86d8358942d}"
+					type: "command"
+				}
+				{
+					id: "5700000000000014"
+					type: "xp"
+					xp: 150
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.07_antimatter.509d28812882cf6f6ac6}"
+			tasks: [{
+				count: 3L
+				id: "4700000000000013"
+				item: "chemlib:unobtainium_oxide"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.07_antimatter.acdf4ba12783a192726f}"
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"3700000000000006"
+				"3700000000000013"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.07_antimatter.2ee5fb4f95c9cb89082e}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.b75d116ab003b139d533}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.bfed3bdc943bb5638dbd}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.5b84cca55864921a2097}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.f90f0280c4fde2ed1c1a}"
+			]
+			icon: "kubejs:antimatter_shard"
+			id: "3700000000000014"
+			min_width: 400
+			rewards: [{
+				id: "5700000000000015"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.07_antimatter.4bca877f563bd59fce2e}"
+			tasks: [{
+				count: 4L
+				id: "4700000000000014"
+				item: "kubejs:antimatter_shard"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.07_antimatter.fd4497a7562fe587c9bd}"
+			x: 1.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["3700000000000014"]
+			description: [
+				"{lanminecraft.reforged.quests.07_antimatter.256b51c047035f7a6c1c}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.6be94068923afe5a7d55}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.e3f4bb9b541659d51ddf}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.3c53cf9ea3e12aa771cd}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.82ca3124969e3231f68e}"
+			]
+			icon: "minecraft:lodestone"
+			id: "3700000000000015"
+			min_width: 380
+			optional: true
+			rewards: [{
+				id: "5700000000000016"
+				type: "xp"
+				xp: 75
+			}]
+			shape: "square"
+			subtitle: "{lanminecraft.reforged.quests.07_antimatter.6cc2cd73ae480f7fc335}"
+			tasks: [{
+				id: "4700000000000015"
+				title: "{lanminecraft.reforged.quests.07_antimatter.9b9a8d05a7ec353bda84}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.07_antimatter.d6a35860efeda3c3350d}"
+			x: 4.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["3700000000000014"]
+			description: [
+				"{lanminecraft.reforged.quests.07_antimatter.01a8495cc68132b3ff12}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.92302cdafdcfece875b3}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.6b6b29c04cb656453aca}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.ff480de61cdd79803cd0}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.a0df23032019c12e0c0e}"
+			]
+			icon: "alchemistry:dissolver"
+			id: "3700000000000016"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5700000000000017"
+				type: "xp"
+				xp: 75
+			}]
+			shape: "square"
+			subtitle: "{lanminecraft.reforged.quests.07_antimatter.81a9718dd346eff0bdb3}"
+			tasks: [{
+				id: "4700000000000016"
+				title: "{lanminecraft.reforged.quests.07_antimatter.958c360734b78ef019fb}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.07_antimatter.a93bcfa90d69842c1298}"
+			x: -1.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["3700000000000014"]
+			description: [
+				"{lanminecraft.reforged.quests.07_antimatter.84fdae86fb3b671f914b}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.9541d058983e7ab8265a}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.192b02b6f9ae1dbf6945}"
+			]
+			icon: "kubejs:antimatter_shard"
+			id: "3700000000000017"
+			rewards: [{
+				id: "5700000000000018"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "{lanminecraft.reforged.quests.07_antimatter.7071d2ec76d1ebf5f581}"
+			tasks: [{
+				count: 8L
+				id: "4700000000000017"
+				item: "kubejs:antimatter_shard"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.07_antimatter.3095e57675adaacff630}"
+			x: 1.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["3700000000000017"]
+			description: [
+				"{lanminecraft.reforged.quests.07_antimatter.aa7312dc37a52cada541}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.d79a603ebc7f9dc6e075}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.76ee82679ee39807df26}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.a7c82cf43b8447cc85c3}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.3068ef67308268fa14ae}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.5af9170676bed8e94784}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.b646305f1cbde770b20c}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.6cd754bdbcb5a75190b7}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.9cccd3e004d1929d86a7}"
+			]
+			icon: "minecraft:nether_star"
+			id: "3700000000000018"
+			min_width: 400
+			rewards: [{
+				id: "5700000000000019"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.07_antimatter.09025bfe8a9f56d452c0}"
+			tasks: [{
+				id: "4700000000000018"
+				title: "{lanminecraft.reforged.quests.07_antimatter.9b9a8d05a7ec353bda84}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.07_antimatter.9107aeda76baf6fe6e17}"
+			x: 1.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["3700000000000018"]
+			description: [
+				"{lanminecraft.reforged.quests.07_antimatter.3e40c8dae4c4971b1c7f}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.e6b5194bcabaea391b45}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.c12530d93932cb757208}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.61d5480744449bd9fea3}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.e0c112ab81f7f341f8d2}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.ba1a1437696f6dd6acc2}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.adf8ed21e777d22159ae}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.a04ea4f50bd1111edffe}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.758aa1002dda5d14aef2}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.7ed589c04d69d2042066}"
+			]
+			icon: "kubejs:antimatter"
+			id: "3700000000000019"
+			min_width: 400
+			rewards: [
+				{
+					auto: "invisible"
+					description: "{lanminecraft.reforged.quests.07_antimatter.ba1a1437696f6dd6acc2}"
+					id: "5700000000000020"
+					title: "{lanminecraft.reforged.quests.07_antimatter.4c90b8cfb059d81a005c}"
+					type: "toast"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @a [{\"selector\":\"@s\",\"bold\":true,\"color\":\"light_purple\"},{\"text\":\" crafted Antimatter. The world is alive again.\",\"color\":\"gold\"}]"
+					elevate_perms: true
+					id: "5700000000000021"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @a at @s run playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 1 1"
+					elevate_perms: true
+					id: "5700000000000022"
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "gear"
+			size: 3.0d
+			subtitle: "{lanminecraft.reforged.quests.07_antimatter.1b1c3dcf03195a86165e}"
+			tasks: [{
+				id: "4700000000000019"
+				item: "kubejs:antimatter"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.07_antimatter.8a48dfbe40d953eba257}"
+			x: 1.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["3700000000000019"]
+			description: [
+				"{lanminecraft.reforged.quests.07_antimatter.b9e6a801094ce89222cf}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.ea7b6d00abc4877f9dea}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.2c1824dee36d664e3c98}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.108e0f759535573e5362}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.d4cedb39d4a8ae1ec679}"
+			]
+			icon: "kubejs:antimatter"
+			id: "3700000000000020"
+			optional: true
+			rewards: [{
+				id: "5700000000000023"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "{lanminecraft.reforged.quests.07_antimatter.3b77c3630b27caf79c58}"
+			tasks: [{
+				count: 2L
+				id: "4700000000000020"
+				item: "kubejs:antimatter"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.07_antimatter.b2ca488f030b4e466c52}"
+			x: 4.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["3700000000000020"]
+			description: [
+				"{lanminecraft.reforged.quests.07_antimatter.f9fcb5fc8b53f1a9e66a}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.78d5b5b0d01cfcecdd66}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.9890ac8b0568edcdf8d9}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.3f08949239ca6db67055}"
+			]
+			icon: "kubejs:antimatter"
+			id: "3700000000000021"
+			optional: true
+			rewards: [{
+				id: "5700000000000024"
+				type: "xp"
+				xp: 1000
+			}]
+			shape: "heart"
+			subtitle: "{lanminecraft.reforged.quests.07_antimatter.0561e905a42f16bec6c7}"
+			tasks: [{
+				count: 4L
+				id: "4700000000000021"
+				item: "kubejs:antimatter"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.07_antimatter.82e0e5b98d340577a68c}"
+			x: 4.5d
+			y: 22.5d
+		}
+		{
+			dependencies: ["3700000000000019"]
+			description: [
+				"{lanminecraft.reforged.quests.07_antimatter.645adea865a94204c07d}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.54c1cb32cb2def124cfa}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.f18477b52eaf53422d70}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.df182694a95d94ddf89f}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.e578191792c6d8c30a49}"
+			]
+			icon: "mekanism:pellet_antimatter"
+			id: "3700000000000022"
+			min_width: 380
+			optional: true
+			rewards: [{
+				id: "5700000000000025"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{lanminecraft.reforged.quests.07_antimatter.20016fee8ab4f374c389}"
+			tasks: [{
+				id: "4700000000000022"
+				title: "{lanminecraft.reforged.quests.07_antimatter.5ad3dbd1242a4cea217e}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.07_antimatter.0e0f5d704f54aee36544}"
+			x: -1.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["3700000000000004"]
+			description: [
+				"{lanminecraft.reforged.quests.07_antimatter.b140d78b2260e48ce6aa}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.3dfac8d974cdd96509be}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.b13661cac3587b3e4f76}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.9c40d0686cd3d9b697c4}"
+			]
+			icon: "chemlib:uranium"
+			id: "3700000000000101"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5700000000000101"
+				type: "xp"
+				xp: 60
+			}]
+			subtitle: "{lanminecraft.reforged.quests.07_antimatter.2446a9c12efd4ac90fc1}"
+			tasks: [{
+				count: 6L
+				id: "4700000000000101"
+				item: "chemlib:uranium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.07_antimatter.98599a0576f01129c3cc}"
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3700000000000004"]
+			description: [
+				"{lanminecraft.reforged.quests.07_antimatter.26e6b35d51852252f67f}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.dd041732025d81c443d4}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.24a8f57511c75f51fc24}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.4b17a3540463bbbca816}"
+			]
+			icon: "minecraft:dragon_breath"
+			id: "3700000000000102"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5700000000000102"
+				type: "xp"
+				xp: 60
+			}]
+			shape: "diamond"
+			subtitle: "{lanminecraft.reforged.quests.07_antimatter.e8180a5b4a30c447b438}"
+			tasks: [{
+				id: "4700000000000102"
+				item: "minecraft:dragon_breath"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.07_antimatter.415897f85a31e11b8918}"
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3700000000000004"]
+			description: [
+				"{lanminecraft.reforged.quests.07_antimatter.bdb9d02ad441a7fbdaba}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.279018e8d83cdaf73fe3}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.636311c8fa8381b0735f}"
+			]
+			icon: "chemlib:hydrogen"
+			id: "3700000000000103"
+			min_width: 350
+			rewards: [{
+				id: "5700000000000103"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{lanminecraft.reforged.quests.07_antimatter.3e342fa7c7343c760480}"
+			tasks: [{
+				count: 6L
+				id: "4700000000000103"
+				item: "chemlib:hydrogen"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.07_antimatter.32d5427780ef6a04b5cd}"
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3700000000000012"]
+			description: [
+				"{lanminecraft.reforged.quests.07_antimatter.cad1544af8ed8d7a7cfe}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.ded4d9e31c83955fe67c}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.a57648332e25b382daf6}"
+			]
+			icon: "alchemistry:fusion_chamber_controller"
+			id: "3700000000000104"
+			min_width: 350
+			rewards: [{
+				id: "5700000000000104"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "{lanminecraft.reforged.quests.07_antimatter.a0631d8d2d59f4870d41}"
+			tasks: [{
+				id: "4700000000000104"
+				title: "{lanminecraft.reforged.quests.07_antimatter.460502be300cfa25847b}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.07_antimatter.3db390340dadad143703}"
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3700000000000003"]
+			description: [
+				"{lanminecraft.reforged.quests.07_antimatter.2f820f72998a822e850f}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.277088e456bc77ef59a4}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.d639f9b47d4dce9425a3}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.2beb730075004fce12a4}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.e2c530fbfab89d2e0a6c}"
+			]
+			icon: "kubejs:white_antimatter"
+			id: "3700000000000105"
+			min_width: 400
+			rewards: [{
+				id: "5700000000000105"
+				type: "xp"
+				xp: 150
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.07_antimatter.723be91f7420c6aa789a}"
+			tasks: [{
+				id: "4700000000000105"
+				title: "{lanminecraft.reforged.quests.07_antimatter.7a0e20775c40ae2b6a30}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.07_antimatter.7aa761a92b845f1c8b24}"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3700000000000105"]
+			description: [
+				"{lanminecraft.reforged.quests.07_antimatter.93f4e0904a269904b590}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.4215c967a6acd40e1cbc}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.3eb7f34e3a5ea963ddbe}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.514bc16dab4f15a04140}"
+			]
+			icon: "chemlib:tungsten"
+			id: "3700000000000106"
+			min_width: 400
+			rewards: [{
+				id: "5700000000000106"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{lanminecraft.reforged.quests.07_antimatter.35c9055cbdcb489899c6}"
+			tasks: [{
+				count: 64L
+				id: "4700000000000106"
+				item: "chemlib:tungsten"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.07_antimatter.d3c8ec896daacbe5df71}"
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3700000000000105"]
+			description: [
+				"{lanminecraft.reforged.quests.07_antimatter.dae01353bc77a64f35a8}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.63a07d9d4a418ccc1c35}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.90f16191235b5a3fb0eb}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.0aad7d73c3b423a45871}"
+			]
+			icon: "chemlib:beryllium"
+			id: "3700000000000107"
+			min_width: 400
+			rewards: [{
+				id: "5700000000000107"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{lanminecraft.reforged.quests.07_antimatter.742209855b0af7759a5d}"
+			tasks: [{
+				count: 64L
+				id: "4700000000000107"
+				item: "chemlib:beryllium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.07_antimatter.0091c60a7eeeb7ef1e21}"
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3700000000000107"]
+			description: [
+				"{lanminecraft.reforged.quests.07_antimatter.158cf7cd9ea4d3b2bfd0}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.7b8a2d1fae83905d4bda}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.998f395685b09e2f1f24}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.eb8fed5453196df1ee76}"
+			]
+			icon: "chemlib:platinum"
+			id: "3700000000000108"
+			min_width: 400
+			rewards: [{
+				id: "5700000000000108"
+				type: "xp"
+				xp: 120
+			}]
+			subtitle: "{lanminecraft.reforged.quests.07_antimatter.49a8e94b67e89f71bc3b}"
+			tasks: [{
+				count: 64L
+				id: "4700000000000108"
+				item: "chemlib:platinum"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.07_antimatter.642b8b9748e72fac1ce2}"
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3700000000000003"]
+			description: [
+				"{lanminecraft.reforged.quests.07_antimatter.2cf1cc1f1cd7e61be239}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.0a1741badc34619a7bae}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.40dd1438b14a244ac2b5}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.91f55176329c73b1733e}"
+			]
+			icon: "alchemistry:reactor_casing"
+			id: "3700000000000109"
+			min_width: 400
+			rewards: [{
+				id: "5700000000000109"
+				type: "xp"
+				xp: 150
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.07_antimatter.1788d1034802444d1986}"
+			tasks: [{
+				count: 124L
+				id: "4700000000000109"
+				item: "alchemistry:reactor_casing"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.07_antimatter.2e2b1bf17c8c5f1818cc}"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3700000000000109"]
+			description: [
+				"{lanminecraft.reforged.quests.07_antimatter.96b7d1ab820d4ea9e899}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.044f0dd888926f329730}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.4a175f05249ee6788ed9}"
+			]
+			icon: "extendedcrafting:compressor"
+			id: "3700000000000110"
+			min_width: 380
+			rewards: [{
+				id: "5700000000000110"
+				type: "xp"
+				xp: 120
+			}]
+			subtitle: "{lanminecraft.reforged.quests.07_antimatter.878d9bea801234bcd0be}"
+			tasks: [{
+				count: 2L
+				id: "4700000000000110"
+				item: "extendedcrafting:compressor"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.07_antimatter.af2be74719e3484f0cf8}"
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3700000000000109"]
+			description: [
+				"{lanminecraft.reforged.quests.07_antimatter.689d744c197d71b7f2e7}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.5d6f199601022003420b}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.fa1121069286fe75ebce}"
+			]
+			icon: "extendedcrafting:ultimate_auto_table"
+			id: "3700000000000111"
+			min_width: 380
+			rewards: [{
+				id: "5700000000000111"
+				type: "xp"
+				xp: 150
+			}]
+			subtitle: "{lanminecraft.reforged.quests.07_antimatter.549987cd566d9080460b}"
+			tasks: [{
+				id: "4700000000000111"
+				item: "extendedcrafting:ultimate_auto_table"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.07_antimatter.a54aee2272610aea9938}"
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3700000000000110"]
+			description: [
+				"{lanminecraft.reforged.quests.07_antimatter.397956e13a63d733ee8a}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.b62950a6436cf6159200}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.a73f4b02616b2c8c5d0a}"
+			]
+			icon: "draconicevolution:energy_core"
+			id: "3700000000000112"
+			min_width: 380
+			optional: true
+			rewards: [{
+				id: "5700000000000112"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "{lanminecraft.reforged.quests.07_antimatter.5873c367991eb5c9bcd1}"
+			tasks: [{
+				id: "4700000000000112"
+				item: "draconicevolution:energy_core"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.07_antimatter.0634824a7a9a814f5ac2}"
+			x: 11.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3700000000000004"]
+			description: [
+				"{lanminecraft.reforged.quests.07_antimatter.d824c3b28e6b9924681b}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.f87291758aeb1a284057}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.f428e9f828f16f644af3}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.d3b55002f9d7aef74eba}"
+			]
+			icon: "draconicevolution:awakened_draconium_ingot"
+			id: "3700000000000113"
+			min_width: 380
+			optional: true
+			rewards: [{
+				id: "5700000000000113"
+				type: "xp"
+				xp: 150
+			}]
+			shape: "diamond"
+			subtitle: "{lanminecraft.reforged.quests.07_antimatter.78d7151a30f3cbb7f68c}"
+			tasks: [{
+				id: "4700000000000113"
+				item: "draconicevolution:awakened_draconium_ingot"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.07_antimatter.595ee0d963fa970d9196}"
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3700000000000008"]
+			description: [
+				"{lanminecraft.reforged.quests.07_antimatter.a1057ca1c612d4cdaf3c}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.5bf8a4c7c48f0abb40dd}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.b13557ecad269ffd5f41}"
+			]
+			icon: "chemlib:unobtainium"
+			id: "3700000000000114"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5700000000000114"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "heart"
+			subtitle: "{lanminecraft.reforged.quests.07_antimatter.154f71ce8c75710e80da}"
+			tasks: [{
+				id: "4700000000000114"
+				title: "{lanminecraft.reforged.quests.07_antimatter.9b9a8d05a7ec353bda84}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.07_antimatter.bf215379b6f0e8bbfe0a}"
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3700000000000005"]
+			description: [
+				"{lanminecraft.reforged.quests.07_antimatter.77e97650a90683e23ac9}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.3203b9ce94102f0c4149}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.6f8717f234d3fdc112fd}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.2a6a348b52d11c14935a}"
+			]
+			icon: "minecraft:feather"
+			id: "3700000000000115"
+			min_width: 380
+			optional: true
+			rewards: [{
+				id: "5700000000000115"
+				type: "xp"
+				xp: 75
+			}]
+			shape: "heart"
+			subtitle: "{lanminecraft.reforged.quests.07_antimatter.6da40cacbaaded396ba0}"
+			tasks: [{
+				id: "4700000000000115"
+				title: "{lanminecraft.reforged.quests.07_antimatter.9b9a8d05a7ec353bda84}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.07_antimatter.0a542cc894ebc9586494}"
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3700000000000115"]
+			description: [
+				"{lanminecraft.reforged.quests.07_antimatter.0c15f1732ca3fc8363a4}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.9a2f511ba2c6e11dc999}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.e7b57f903f2a1fab6195}"
+			]
+			icon: "minecraft:amethyst_shard"
+			id: "3700000000000116"
+			min_width: 380
+			optional: true
+			rewards: [{
+				id: "5700000000000116"
+				type: "xp"
+				xp: 75
+			}]
+			shape: "heart"
+			subtitle: "{lanminecraft.reforged.quests.07_antimatter.6da40cacbaaded396ba0}"
+			tasks: [{
+				id: "4700000000000116"
+				title: "{lanminecraft.reforged.quests.07_antimatter.9b9a8d05a7ec353bda84}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.07_antimatter.caacdda60b9693e10c0c}"
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3700000000000019"]
+			description: [
+				"{lanminecraft.reforged.quests.07_antimatter.c8dd4b733a31e0ad8aba}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.9de1004996fff518f924}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.c9400ab64e3ba4cc3a52}"
+			]
+			icon: "kubejs:antimatter"
+			id: "3700000000000117"
+			min_width: 380
+			optional: true
+			rewards: [{
+				id: "5700000000000117"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "{lanminecraft.reforged.quests.07_antimatter.e16c3cc58bc9dc1d2fdc}"
+			tasks: [{
+				id: "4700000000000117"
+				title: "{lanminecraft.reforged.quests.07_antimatter.9b9a8d05a7ec353bda84}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.07_antimatter.c3fab595aebb7f98d3d1}"
+			x: -1.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["3700000000000117"]
+			description: [
+				"{lanminecraft.reforged.quests.07_antimatter.ace880afb7b16b4ca575}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.92f6d3b8cadf0bb12ab7}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.22cf16ddd0fd1bab455b}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.039496e0285924773223}"
+			]
+			icon: "minecraft:filled_map"
+			id: "3700000000000118"
+			min_width: 380
+			optional: true
+			rewards: [{
+				id: "5700000000000118"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "heart"
+			subtitle: "{lanminecraft.reforged.quests.07_antimatter.653d26c17571d5921cde}"
+			tasks: [{
+				id: "4700000000000118"
+				title: "{lanminecraft.reforged.quests.07_antimatter.c037c15990c592791fc9}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.07_antimatter.91672bafeacf53a29867}"
+			x: -1.5d
+			y: 25.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3700000000000013"]
+			description: [
+				"{lanminecraft.reforged.quests.07_antimatter.6a9d7ed1689a9bd5ac28}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.c72b22d48a4ed2cb78d2}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.51ff32e2092838ebddd3}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.9db7f51b9d30400dedc1}"
+				""
+				"{lanminecraft.reforged.quests.07_antimatter.fba1f0a3e6c05f4788ea}"
+			]
+			icon: "minecraft:redstone_torch"
+			id: "3700000000000F10"
+			min_width: 380
+			optional: true
+			repeat_cooldown: 60L
+			rewards: [{
+				command: "/gamestage add {p} antimatter"
+				elevate_perms: true
+				id: "5700000000000F10"
+				player_command: false
+				title: "{lanminecraft.reforged.quests.07_antimatter.87cd4e725b8c6dd4c883}"
+				type: "command"
+			}]
+			shape: "diamond"
+			subtitle: "{lanminecraft.reforged.quests.07_antimatter.228542f8870a4043009c}"
+			tasks: [{
+				id: "4700000000000F10"
+				title: "{lanminecraft.reforged.quests.07_antimatter.2cb3e2e1bb1637fdefe8}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.07_antimatter.9b949d4bc36b8c373eae}"
+			x: 3.0d
+			y: 11.0d
+		}
+	]
+	subtitle: ["{lanminecraft.reforged.quests.07_antimatter.e0d4a46cbf30351c2421}"]
+	title: "{lanminecraft.reforged.quests.07_antimatter.af548cf289fe642883b7}"
+}

@@ -1,0 +1,1402 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 320
+	default_quest_shape: ""
+	filename: "16_create"
+	group: "1000000000000001"
+	hide_quest_until_deps_visible: true
+	icon: "create:precision_mechanism"
+	id: "2000000000000010"
+	order_index: 16
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3300000000000004"]
+			description: [
+				"{lanminecraft.reforged.quests.16_create.baf1920ed8faebda1105}"
+				""
+				"{lanminecraft.reforged.quests.16_create.e889eb70391d7c0d1b46}"
+				""
+				"{lanminecraft.reforged.quests.16_create.6f7003c9e0b4b2453958}"
+				""
+				"{lanminecraft.reforged.quests.16_create.2ee2b25226743934b94a}"
+			]
+			hide_until_deps_complete: true
+			icon: "create:cogwheel"
+			id: "6000000000000001"
+			min_width: 460
+			rewards: [
+				{
+					id: "8000000000000001"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.16_create.9b9a8d05a7ec353bda84}"
+			tasks: [
+				{
+					id: "7000000000000001"
+					title: "{lanminecraft.reforged.quests.16_create.5ad3dbd1242a4cea217e}"
+					type: "checkmark"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.16_create.9495cdf7d489b3ddb34b}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6000000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.16_create.d5cff31d0a054d1c9a1b}"
+				""
+				"{lanminecraft.reforged.quests.16_create.bc42d5acac4b45eda798}"
+				""
+				"{lanminecraft.reforged.quests.16_create.da3bef6a9466056fc0cc}"
+			]
+			icon: "create:andesite_alloy"
+			id: "6000000000000002"
+			min_width: 400
+			rewards: [
+				{
+					id: "8000000000000002"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.16_create.4d16e09d11df625ff5e0}"
+			tasks: [
+				{
+					count: 64L
+					id: "7000000000000002"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.16_create.e99120aa6e89e428e830}"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6000000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.16_create.b196e30a9dbb968f83e7}"
+				""
+				"{lanminecraft.reforged.quests.16_create.86157ff1199a1343074b}"
+				""
+				"{lanminecraft.reforged.quests.16_create.0c6a1e3e526a463f86b9}"
+			]
+			icon: "create:shaft"
+			id: "6000000000000003"
+			min_width: 400
+			rewards: [
+				{
+					id: "8000000000000003"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.16_create.ac231762deacb036a99c}"
+			tasks: [
+				{
+					count: 32L
+					id: "7000000000000003"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "7000000000000004"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "7000000000000005"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.16_create.942fecc25c93b9e8b301}"
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6000000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.16_create.9bc91ef78270600e31bd}"
+				""
+				"{lanminecraft.reforged.quests.16_create.025ec569d9466156f89f}"
+				""
+				"{lanminecraft.reforged.quests.16_create.d3dad4e106db2de5cd24}"
+			]
+			icon: "create:large_water_wheel"
+			id: "6000000000000004"
+			min_width: 420
+			rewards: [
+				{
+					id: "8000000000000004"
+					type: "xp"
+					xp: 150
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.16_create.70b41a93dd1016741293}"
+			tasks: [
+				{
+					id: "7000000000000006"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					id: "7000000000000007"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "7000000000000008"
+					item: "create:sail_frame"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.16_create.c655658a7b70ec6b9bec}"
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"6000000000000003"
+				"6000000000000004"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.16_create.6ee36a24f6073da27d87}"
+				""
+				"{lanminecraft.reforged.quests.16_create.fd04afa7daacd1f8c349}"
+				""
+				"{lanminecraft.reforged.quests.16_create.85b866f680ef4c015a6c}"
+			]
+			icon: "create:rotation_speed_controller"
+			id: "6000000000000005"
+			min_width: 420
+			rewards: [
+				{
+					id: "8000000000000005"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.16_create.878792594adf1e90ea52}"
+			tasks: [
+				{
+					count: 4L
+					id: "7000000000000009"
+					item: "create:gearbox"
+					type: "item"
+				}
+				{
+					id: "7000000000000010"
+					item: "create:rotation_speed_controller"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.16_create.5153ac557fcfa7989d16}"
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6000000000000005"]
+			description: [
+				"{lanminecraft.reforged.quests.16_create.3fffd1361a1c851dca77}"
+				""
+				"{lanminecraft.reforged.quests.16_create.15ce2dc9f295927acd3a}"
+			]
+			icon: "create:mechanical_press"
+			id: "6000000000000006"
+			min_width: 400
+			rewards: [
+				{
+					id: "8000000000000006"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.16_create.356ae0dc71dad7398cfa}"
+			tasks: [
+				{
+					id: "7000000000000011"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.16_create.3fcf969a69113e717a04}"
+			x: -8.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["6000000000000005"]
+			description: [
+				"{lanminecraft.reforged.quests.16_create.e23c040d6fd7c5bb7dee}"
+				""
+				"{lanminecraft.reforged.quests.16_create.116ffe6292b86e336774}"
+				""
+				"{lanminecraft.reforged.quests.16_create.c05cd1033123b5275364}"
+			]
+			icon: "create:mechanical_mixer"
+			id: "6000000000000007"
+			min_width: 420
+			rewards: [
+				{
+					id: "8000000000000007"
+					type: "xp"
+					xp: 250
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.16_create.c731176ab1e1127271bb}"
+			tasks: [
+				{
+					id: "7000000000000012"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "7000000000000013"
+					item: "create:basin"
+					type: "item"
+				}
+				{
+					id: "7000000000000014"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.16_create.8050831d6a19379a6285}"
+			x: -4.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["6000000000000005"]
+			description: [
+				"{lanminecraft.reforged.quests.16_create.03febdec786502025a32}"
+				""
+				"{lanminecraft.reforged.quests.16_create.45e6cca18a6b694fea9f}"
+			]
+			icon: "create:mechanical_saw"
+			id: "6000000000000008"
+			min_width: 400
+			rewards: [
+				{
+					id: "8000000000000008"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.16_create.878792594adf1e90ea52}"
+			tasks: [
+				{
+					id: "7000000000000015"
+					item: "create:mechanical_saw"
+					type: "item"
+				}
+				{
+					id: "7000000000000016"
+					item: "create:millstone"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.16_create.79b46aabdb514eec580b}"
+			x: 0.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["6000000000000005"]
+			description: [
+				"{lanminecraft.reforged.quests.16_create.e0c0c46095bad3d0bdfa}"
+				""
+				"{lanminecraft.reforged.quests.16_create.577e1d2943bbd1546819}"
+			]
+			icon: "create:crushing_wheel"
+			id: "6000000000000009"
+			min_width: 400
+			rewards: [
+				{
+					id: "8000000000000009"
+					type: "xp"
+					xp: 250
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.16_create.878792594adf1e90ea52}"
+			tasks: [
+				{
+					id: "7000000000000017"
+					item: "create:mechanical_drill"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7000000000000018"
+					item: "create:crushing_wheel"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.16_create.2bdfa37fb0ace4eebbbd}"
+			x: 4.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["6000000000000005"]
+			description: [
+				"{lanminecraft.reforged.quests.16_create.0be2e76b601ebaaa0283}"
+				""
+				"{lanminecraft.reforged.quests.16_create.70905792cedc53da5e47}"
+			]
+			icon: "create:depot"
+			id: "6000000000000010"
+			min_width: 400
+			rewards: [
+				{
+					id: "8000000000000010"
+					type: "xp"
+					xp: 150
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.16_create.878792594adf1e90ea52}"
+			tasks: [
+				{
+					count: 8L
+					id: "7000000000000019"
+					item: "create:depot"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7000000000000020"
+					item: "create:chute"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7000000000000021"
+					item: "create:andesite_funnel"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.16_create.e22bec6f3054c5ce8bb3}"
+			x: 8.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["6000000000000006"]
+			description: [
+				"{lanminecraft.reforged.quests.16_create.ec82004b8585ba3d3f90}"
+				""
+				"{lanminecraft.reforged.quests.16_create.abcdeef6bb2ebe467df7}"
+			]
+			icon: "create:goggles"
+			id: "6000000000000011"
+			min_width: 420
+			rewards: [
+				{
+					id: "8000000000000011"
+					type: "xp"
+					xp: 150
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.16_create.9ce682703108154ebffe}"
+			tasks: [
+				{
+					id: "7000000000000022"
+					item: "create:goggles"
+					type: "item"
+				}
+				{
+					id: "7000000000000023"
+					item: "create:wrench"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.16_create.0f6ddb37483ae646fc70}"
+			x: -8.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["6000000000000007"]
+			description: [
+				"{lanminecraft.reforged.quests.16_create.fff913b2053caae0da86}"
+				""
+				"{lanminecraft.reforged.quests.16_create.6ab0575465e2e6570c73}"
+			]
+			icon: "create:brass_ingot"
+			id: "6000000000000012"
+			min_width: 400
+			rewards: [
+				{
+					id: "8000000000000012"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.16_create.1e15fa3075476c641868}"
+			tasks: [
+				{
+					count: 64L
+					id: "7000000000000024"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.16_create.54fb636380fa6abc133f}"
+			x: -4.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"6000000000000012"
+				"6000000000000008"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.16_create.b10a1e253440bb56ab17}"
+				""
+				"{lanminecraft.reforged.quests.16_create.a3d0a924bc69a8bba95f}"
+			]
+			icon: "create:brass_casing"
+			id: "6000000000000013"
+			min_width: 400
+			rewards: [
+				{
+					id: "8000000000000013"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.16_create.a629cca8f8e41b6320de}"
+			tasks: [
+				{
+					count: 16L
+					id: "7000000000000025"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "7000000000000026"
+					item: "create:copper_casing"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "7000000000000027"
+					item: "create:brass_casing"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.16_create.66a2fd62fa3ca9ba545e}"
+			x: 0.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["6000000000000013"]
+			description: [
+				"{lanminecraft.reforged.quests.16_create.8dc2d4f3e111445af430}"
+				""
+				"{lanminecraft.reforged.quests.16_create.04d3ba1cfe8e628930d1}"
+				""
+				"{lanminecraft.reforged.quests.16_create.c194ede4438f579fbdc6}"
+			]
+			icon: "create:deployer"
+			id: "6000000000000014"
+			min_width: 440
+			rewards: [
+				{
+					id: "8000000000000014"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.16_create.0de91b3554de3bb87bce}"
+			tasks: [
+				{
+					count: 8L
+					id: "7000000000000028"
+					item: "create:deployer"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.16_create.51c2540747190c7abf08}"
+			x: -6.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["6000000000000013"]
+			description: [
+				"{lanminecraft.reforged.quests.16_create.2a386fb0a5230e26f766}"
+				""
+				"{lanminecraft.reforged.quests.16_create.5f7eb78a5424bcbc5ccc}"
+			]
+			icon: "create:encased_fan"
+			id: "6000000000000015"
+			min_width: 440
+			rewards: [
+				{
+					id: "8000000000000015"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.16_create.9049617e3241efb48ec9}"
+			tasks: [
+				{
+					count: 4L
+					id: "7000000000000029"
+					item: "create:encased_fan"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.16_create.4e8e0ef87638ff5ae2eb}"
+			x: -2.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["6000000000000013"]
+			description: [
+				"{lanminecraft.reforged.quests.16_create.039ea1db74ffa2fc3f0c}"
+				""
+				"{lanminecraft.reforged.quests.16_create.503311514b7171724086}"
+			]
+			icon: "create:mechanical_arm"
+			id: "6000000000000016"
+			min_width: 420
+			rewards: [
+				{
+					id: "8000000000000016"
+					type: "xp"
+					xp: 350
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.16_create.dc1fb87e822a7c86f274}"
+			tasks: [
+				{
+					count: 4L
+					id: "7000000000000030"
+					item: "create:mechanical_arm"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.16_create.57003be346537ce77633}"
+			x: 2.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["6000000000000013"]
+			description: [
+				"{lanminecraft.reforged.quests.16_create.a508cd72b45bc44e3be1}"
+				""
+				"{lanminecraft.reforged.quests.16_create.7c6502ed35d20f97e10d}"
+			]
+			icon: "create:item_vault"
+			id: "6000000000000017"
+			min_width: 400
+			rewards: [
+				{
+					id: "8000000000000017"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.16_create.878792594adf1e90ea52}"
+			tasks: [
+				{
+					count: 4L
+					id: "7000000000000031"
+					item: "create:item_vault"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7000000000000032"
+					item: "create:smart_chute"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7000000000000033"
+					item: "create:portable_storage_interface"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.16_create.bccdec65058b2e9247b5}"
+			x: 6.0d
+			y: 28.0d
+		}
+		{
+			dependencies: [
+				"6000000000000014"
+				"6000000000000015"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.16_create.3dbeca6e6d31a5223fc5}"
+				""
+				"{lanminecraft.reforged.quests.16_create.df3b9802620a27303b61}"
+				""
+				"{lanminecraft.reforged.quests.16_create.cd957c94d83f2408ffd2}"
+			]
+			icon: "create:polished_rose_quartz"
+			id: "6000000000000018"
+			min_width: 420
+			rewards: [
+				{
+					id: "8000000000000018"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.16_create.b04ae5697a5654d6551e}"
+			tasks: [
+				{
+					count: 16L
+					id: "7000000000000034"
+					item: "create:rose_quartz"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "7000000000000035"
+					item: "create:polished_rose_quartz"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7000000000000036"
+					item: "create:electron_tube"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.16_create.4a31658f474d96135196}"
+			x: -4.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["6000000000000018"]
+			description: [
+				"{lanminecraft.reforged.quests.16_create.6546bf129aaa37db0fb7}"
+				""
+				"{lanminecraft.reforged.quests.16_create.f0732c8f82800bf810fe}"
+			]
+			icon: "create:redstone_link"
+			id: "6000000000000019"
+			min_width: 400
+			rewards: [
+				{
+					id: "8000000000000019"
+					type: "xp"
+					xp: 250
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.16_create.878792594adf1e90ea52}"
+			tasks: [
+				{
+					count: 4L
+					id: "7000000000000037"
+					item: "create:redstone_link"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7000000000000038"
+					item: "create:display_link"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7000000000000039"
+					item: "create:crafting_blueprint"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.16_create.7b3ec095d1938c0f7559}"
+			x: 2.0d
+			y: 32.0d
+		}
+		{
+			dependencies: [
+				"6000000000000016"
+				"6000000000000018"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.16_create.c6510d201a6d552eadd4}"
+				""
+				"{lanminecraft.reforged.quests.16_create.90ac6e3e785c848233a0}"
+			]
+			icon: "create:mechanical_crafter"
+			id: "6000000000000020"
+			min_width: 440
+			rewards: [
+				{
+					id: "8000000000000020"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.16_create.14fa9de306e13581a95e}"
+			tasks: [
+				{
+					count: 9L
+					id: "7000000000000040"
+					item: "create:mechanical_crafter"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.16_create.aba05221f1eb620b92c2}"
+			x: -3.0d
+			y: 36.0d
+		}
+		{
+			dependencies: [
+				"6000000000000014"
+				"6000000000000016"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.16_create.702d69085878a1d1fa25}"
+				""
+				"{lanminecraft.reforged.quests.16_create.532c85cd22c424e08e15}"
+				""
+				"{lanminecraft.reforged.quests.16_create.7c6514c507f251c559f7}"
+			]
+			icon: "create:depot"
+			id: "6000000000000021"
+			min_width: 460
+			rewards: [
+				{
+					id: "8000000000000021"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.16_create.42dd2c697ac24c25a594}"
+			tasks: [
+				{
+					count: 3L
+					id: "7000000000000041"
+					item: "create:deployer"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "7000000000000042"
+					item: "create:depot"
+					type: "item"
+				}
+				{
+					id: "7000000000000043"
+					item: "create:mechanical_arm"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.16_create.367f35be82ad170e49aa}"
+			x: 3.0d
+			y: 36.0d
+		}
+		{
+			dependencies: [
+				"6000000000000020"
+				"6000000000000021"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.16_create.f50eb2e9fce278a8505e}"
+				""
+				"{lanminecraft.reforged.quests.16_create.2a01b1778e802be4287c}"
+				""
+				"{lanminecraft.reforged.quests.16_create.b07a73ba653911cf6109}"
+				""
+				"{lanminecraft.reforged.quests.16_create.93d07623362245c0d38b}"
+				""
+				"{lanminecraft.reforged.quests.16_create.37c88ff15ff9711135cb}"
+				""
+				"{lanminecraft.reforged.quests.16_create.a4f1d3058de7201d9506}"
+			]
+			icon: "create:precision_mechanism"
+			id: "6000000000000022"
+			min_width: 480
+			rewards: [
+				{
+					id: "8000000000000022"
+					type: "xp"
+					xp: 1500
+				}
+			]
+			shape: "hexagon"
+			size: 2.5d
+			subtitle: "{lanminecraft.reforged.quests.16_create.6151400d0150cf3f5cda}"
+			tasks: [
+				{
+					id: "7000000000000044"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.16_create.bef29cd6a26445309da2}"
+			x: 0.0d
+			y: 41.0d
+		}
+		{
+			dependencies: ["6000000000000022"]
+			description: [
+				"{lanminecraft.reforged.quests.16_create.8796c0fb5083d9342c94}"
+				""
+				"{lanminecraft.reforged.quests.16_create.30fe2ed3feaba7a15de3}"
+			]
+			icon: "createaddition:alternator"
+			id: "6000000000000023"
+			min_width: 440
+			rewards: [
+				{
+					id: "8000000000000023"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.16_create.84374f59655c7af840b1}"
+			tasks: [
+				{
+					id: "7000000000000045"
+					item: "createaddition:alternator"
+					type: "item"
+				}
+				{
+					id: "7000000000000046"
+					item: "createaddition:electric_motor"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.16_create.1ade60abe93f5cfce908}"
+			x: -6.0d
+			y: 46.0d
+		}
+		{
+			dependencies: ["6000000000000023"]
+			description: [
+				"{lanminecraft.reforged.quests.16_create.22b38e3b81dfee52ab9a}"
+				""
+				"{lanminecraft.reforged.quests.16_create.7c3ca6ec043727695786}"
+			]
+			icon: "createaddition:large_connector"
+			id: "6000000000000024"
+			min_width: 400
+			rewards: [
+				{
+					id: "8000000000000024"
+					type: "xp"
+					xp: 250
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.16_create.447569f2854cd61cbb6b}"
+			tasks: [
+				{
+					count: 8L
+					id: "7000000000000047"
+					item: "createaddition:connector"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7000000000000048"
+					item: "createaddition:large_connector"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7000000000000049"
+					item: "createaddition:redstone_relay"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.16_create.269d0b8073618c12c94d}"
+			x: -1.0d
+			y: 46.0d
+		}
+		{
+			dependencies: ["6000000000000023"]
+			description: [
+				"{lanminecraft.reforged.quests.16_create.b607feb130ba09ef7177}"
+				""
+				"{lanminecraft.reforged.quests.16_create.15e991da1bcb5bc50363}"
+			]
+			icon: "createaddition:rolling_mill"
+			id: "6000000000000025"
+			min_width: 420
+			rewards: [
+				{
+					id: "8000000000000025"
+					type: "xp"
+					xp: 350
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.16_create.878792594adf1e90ea52}"
+			tasks: [
+				{
+					id: "7000000000000050"
+					item: "createaddition:rolling_mill"
+					type: "item"
+				}
+				{
+					id: "7000000000000051"
+					item: "createaddition:tesla_coil"
+					type: "item"
+				}
+				{
+					id: "7000000000000052"
+					item: "createaddition:accumulator"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.16_create.5c6924bf9212c8ac76f1}"
+			x: 4.0d
+			y: 46.0d
+		}
+		{
+			dependencies: ["6000000000000023"]
+			description: [
+				"{lanminecraft.reforged.quests.16_create.ce665d5aac7a80604e83}"
+				""
+				"{lanminecraft.reforged.quests.16_create.a67a2767bd7347a9ddbf}"
+			]
+			icon: "createaddition:bioethanol_bucket"
+			id: "6000000000000026"
+			min_width: 420
+			optional: true
+			rewards: [
+				{
+					id: "8000000000000026"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.16_create.bca712a852070a8c4ac1}"
+			tasks: [
+				{
+					count: 16L
+					id: "7000000000000053"
+					item: "createaddition:biomass_pellet"
+					type: "item"
+				}
+				{
+					id: "7000000000000054"
+					item: "createaddition:bioethanol_bucket"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.16_create.a97b28b05d860d9a929a}"
+			x: 9.0d
+			y: 46.0d
+		}
+		{
+			dependencies: ["6000000000000024"]
+			description: [
+				"{lanminecraft.reforged.quests.16_create.19b38bdf5bbfd73bce23}"
+				""
+				"{lanminecraft.reforged.quests.16_create.2c236a2c8a5200f53fa0}"
+			]
+			icon: "createaddition:digital_adapter"
+			id: "6000000000000027"
+			min_width: 420
+			optional: true
+			rewards: [
+				{
+					id: "8000000000000027"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.16_create.878792594adf1e90ea52}"
+			tasks: [
+				{
+					id: "7000000000000055"
+					item: "createaddition:digital_adapter"
+					type: "item"
+				}
+				{
+					id: "7000000000000056"
+					item: "createaddition:portable_energy_interface"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.16_create.08749fdcea4f448e9a4c}"
+			x: -1.0d
+			y: 50.0d
+		}
+		{
+			dependencies: ["6000000000000022"]
+			description: [
+				"{lanminecraft.reforged.quests.16_create.e2db766de60a189ed0e5}"
+				""
+				"{lanminecraft.reforged.quests.16_create.a28b5c1b402d3fba855e}"
+			]
+			icon: "create:steam_engine"
+			id: "6000000000000028"
+			min_width: 440
+			rewards: [
+				{
+					id: "8000000000000028"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.16_create.bcaba1c6db1a701cd5c9}"
+			tasks: [
+				{
+					count: 4L
+					id: "7000000000000057"
+					item: "create:steam_engine"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "7000000000000058"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7000000000000059"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.16_create.059daf398beeb3f98473}"
+			x: -6.0d
+			y: 54.0d
+		}
+		{
+			dependencies: ["6000000000000028"]
+			description: [
+				"{lanminecraft.reforged.quests.16_create.c92427898f623cf2adee}"
+				""
+				"{lanminecraft.reforged.quests.16_create.3d053fd4467cb01e745a}"
+				""
+				"{lanminecraft.reforged.quests.16_create.8966b10abe83c4e5353c}"
+			]
+			icon: "create:track"
+			id: "6000000000000029"
+			min_width: 440
+			optional: true
+			rewards: [
+				{
+					id: "8000000000000029"
+					type: "xp"
+					xp: 500
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.16_create.6bcc9934b386d9b2ce34}"
+			tasks: [
+				{
+					count: 64L
+					id: "7000000000000060"
+					item: "create:track"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7000000000000061"
+					item: "create:steam_whistle"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.16_create.88980154513d74131c5e}"
+			x: 0.0d
+			y: 54.0d
+		}
+		{
+			dependencies: ["6000000000000028"]
+			description: [
+				"{lanminecraft.reforged.quests.16_create.be338dac0c533f6b25db}"
+				""
+				"{lanminecraft.reforged.quests.16_create.58835c51b62b937b53dd}"
+			]
+			icon: "create:elevator_pulley"
+			id: "6000000000000030"
+			min_width: 420
+			rewards: [
+				{
+					id: "8000000000000030"
+					type: "xp"
+					xp: 350
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.16_create.878792594adf1e90ea52}"
+			tasks: [
+				{
+					id: "7000000000000062"
+					item: "create:elevator_pulley"
+					type: "item"
+				}
+				{
+					id: "7000000000000063"
+					item: "create:clockwork_bearing"
+					type: "item"
+				}
+				{
+					id: "7000000000000064"
+					item: "create:mechanical_roller"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.16_create.56cd48373c68d105d040}"
+			x: 6.0d
+			y: 54.0d
+		}
+		{
+			dependencies: [
+				"6000000000000012"
+				"6000000000000018"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.16_create.d7c5b362046fc71a39d5}"
+				""
+				"{lanminecraft.reforged.quests.16_create.290f504e26b988094239}"
+			]
+			icon: "create:extendo_grip"
+			id: "6000000000000031"
+			min_width: 420
+			optional: true
+			rewards: [
+				{
+					id: "8000000000000031"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.16_create.878792594adf1e90ea52}"
+			tasks: [
+				{
+					id: "7000000000000065"
+					item: "create:extendo_grip"
+					type: "item"
+				}
+				{
+					id: "7000000000000066"
+					item: "create:potato_cannon"
+					type: "item"
+				}
+				{
+					id: "7000000000000067"
+					item: "create:copper_backtank"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.16_create.028366166d019e3f7017}"
+			x: -3.0d
+			y: 58.0d
+		}
+		{
+			dependencies: ["6000000000000016"]
+			description: [
+				"{lanminecraft.reforged.quests.16_create.74a7d3ca36c495b49003}"
+				""
+				"{lanminecraft.reforged.quests.16_create.ee552e4e087740dd5b45}"
+			]
+			icon: "create:mechanical_harvester"
+			id: "6000000000000032"
+			min_width: 440
+			optional: true
+			rewards: [
+				{
+					id: "8000000000000032"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.16_create.39ef92687263a2183d00}"
+			tasks: [
+				{
+					count: 2L
+					id: "7000000000000068"
+					item: "create:mechanical_harvester"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7000000000000069"
+					item: "create:sturdy_sheet"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.16_create.beb651dfd0fdef88819b}"
+			x: 3.0d
+			y: 58.0d
+		}
+		{
+			dependencies: [
+				"6000000000000022"
+				"6000000000000023"
+				"6000000000000028"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.16_create.b8c6487664b6a00b699b}"
+				""
+				"{lanminecraft.reforged.quests.16_create.3879b11bae6cd6c05a4b}"
+				""
+				"{lanminecraft.reforged.quests.16_create.4a51dba190388e27e2ad}"
+				""
+				"{lanminecraft.reforged.quests.16_create.fe9303b7615ee72a8ff2}"
+			]
+			icon: "create:precision_mechanism"
+			id: "6000000000000033"
+			min_width: 480
+			rewards: [
+				{
+					id: "8000000000000033"
+					type: "xp"
+					xp: 3000
+				}
+			]
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "{lanminecraft.reforged.quests.16_create.7fd60cbbcb2d1a9ce1f6}"
+			tasks: [
+				{
+					count: 64L
+					id: "7000000000000070"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.16_create.7962a8926a79917e9ecf}"
+			x: 0.0d
+			y: 63.0d
+		}
+		{
+			dependencies: ["6000000000000013"]
+			description: [
+				"{lanminecraft.reforged.quests.16_create.c0151b3dca393b8eb3b5}"
+				""
+				"{lanminecraft.reforged.quests.16_create.7d1c216f525578f773c9}"
+				""
+				"{lanminecraft.reforged.quests.16_create.1449eeb126104e87f563}"
+				""
+				"{lanminecraft.reforged.quests.16_create.c69378534fca8c0695f1}"
+			]
+			icon: "create_enchantment_industry:disenchanter"
+			id: "6000000000000034"
+			min_width: 440
+			rewards: [
+				{
+					id: "8000000000000034"
+					type: "xp"
+					xp: 250
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.16_create.53daebcc51c6a5534427}"
+			tasks: [
+				{
+					id: "7000000000000071"
+					item: "create_enchantment_industry:disenchanter"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.16_create.a7125c57522c2ec17cf9}"
+			x: 13.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["6000000000000034"]
+			description: [
+				"{lanminecraft.reforged.quests.16_create.dcb9e9755da85723a865}"
+				""
+				"{lanminecraft.reforged.quests.16_create.0f1027447359e6883cec}"
+				""
+				"{lanminecraft.reforged.quests.16_create.59a7a270da7a3645f33f}"
+			]
+			icon: "create_enchantment_industry:enchanting_guide"
+			id: "6000000000000035"
+			min_width: 440
+			rewards: [
+				{
+					id: "8000000000000035"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.16_create.92c4e26006615fc9c492}"
+			tasks: [
+				{
+					id: "7000000000000072"
+					item: "create_enchantment_industry:enchanting_guide"
+					type: "item"
+				}
+				{
+					id: "7000000000000073"
+					title: "{lanminecraft.reforged.quests.16_create.5847db1805973d64dade}"
+					type: "checkmark"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.16_create.d79cfe9b0b372f633837}"
+			x: 11.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["6000000000000035"]
+			description: [
+				"{lanminecraft.reforged.quests.16_create.288464124aec39c25444}"
+				""
+				"{lanminecraft.reforged.quests.16_create.aa6a1c9c96d6e915f608}"
+				""
+				"{lanminecraft.reforged.quests.16_create.caad68b5bfa4bb8d6d17}"
+			]
+			icon: "create_enchantment_industry:hyper_experience_bottle"
+			id: "6000000000000036"
+			min_width: 440
+			optional: true
+			rewards: [
+				{
+					id: "8000000000000036"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.16_create.66170d40fada8696fa78}"
+			tasks: [
+				{
+					count: 4L
+					id: "7000000000000074"
+					item: "create_enchantment_industry:hyper_experience_bottle"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.16_create.02194c3f4cf4c2ca4c1b}"
+			x: 11.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["6000000000000034"]
+			description: [
+				"{lanminecraft.reforged.quests.16_create.cf508ee6b21e90ca51e8}"
+				""
+				"{lanminecraft.reforged.quests.16_create.7fe0a5d427d7e3d77004}"
+			]
+			icon: "create_enchantment_industry:printer"
+			id: "6000000000000037"
+			min_width: 440
+			optional: true
+			rewards: [
+				{
+					id: "8000000000000037"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.16_create.00c829ed5ca59a61ae40}"
+			tasks: [
+				{
+					id: "7000000000000075"
+					item: "create_enchantment_industry:printer"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.16_create.024eac5b1a63e0f892e1}"
+			x: 15.0d
+			y: 28.0d
+		}
+	]
+	subtitle: ["{lanminecraft.reforged.quests.16_create.9495cdf7d489b3ddb34b}"]
+	title: "{lanminecraft.reforged.quests.16_create.53704eb5e2587edc6fc5}"
+}

@@ -1,0 +1,3929 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: ""
+	filename: "10_industrial_chemistry"
+	group: "1000000000000001"
+	hide_quest_until_deps_visible: true
+	icon: "alchemistry:combiner"
+	id: "200000000000000A"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3400000000000005"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.9c01d3ac627e746d08cd}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.46426c43e33688a2727a}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.281e3004279a96151669}"
+			]
+			hide_until_deps_complete: true
+			icon: "alchemistry:combiner"
+			id: "3A00000000000001"
+			min_width: 400
+			rewards: [{
+				id: "5A00000000000001"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.e42aa8b11d22e0463b42}"
+			tasks: [{
+				id: "4A00000000000001"
+				title: "{lanminecraft.reforged.quests.10_industrial_chemistry.9042f1b427b3b67dc6c9}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.4ff0e3179b31cae2d73f}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A00000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.2cab756344032e54fcee}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.69cb96bb607026245f29}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.462ff1b515c2250cf20b}"
+			]
+			icon: "chemlib:iron"
+			id: "3A00000000000002"
+			rewards: [{
+				id: "5A00000000000002"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.582bd496b5d380b5bce3}"
+			tasks: [{
+				count: 16L
+				id: "4A00000000000002"
+				item: "chemlib:iron"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.2e8beba00e0b22d53418}"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3A00000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.fe156e1f597ae989e369}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.8419c854dc970ffed598}"
+			]
+			icon: "chemlib:silicon"
+			id: "3A00000000000003"
+			rewards: [{
+				id: "5A00000000000003"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.ab5280e6130aa8748815}"
+			tasks: [{
+				count: 64L
+				id: "4A00000000000003"
+				item: "chemlib:silicon"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.20fe5a980e501994fee0}"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3A00000000000003"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.f6a5836604205e2b5df6}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.1e424a709304d9e97b7d}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.9b8af856f2ce69b8fbf8}"
+			]
+			icon: "alchemistry:dissolver"
+			id: "3A00000000000004"
+			rewards: [{
+				id: "5A00000000000004"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.8f2e3fbb445c3e99c487}"
+			tasks: [
+				{
+					id: "4A00000000000004"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/bronze"
+						}
+					}
+					title: "{lanminecraft.reforged.quests.10_industrial_chemistry.43f384392325712b162f}"
+					type: "item"
+				}
+				{
+					id: "4A00000000000005"
+					title: "{lanminecraft.reforged.quests.10_industrial_chemistry.a7a6271095d22c91d925}"
+					type: "checkmark"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.50c2db28a1a95f93978c}"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3A00000000000004"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.cf3e506f27ee42663700}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.d69e53aefbd9ef5f104b}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.5b325220059fe6cd569a}"
+			]
+			icon: "mekanism:ingot_bronze"
+			id: "3A00000000000005"
+			rewards: [{
+				id: "5A00000000000005"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.4e0f77776601862abd6e}"
+			tasks: [{
+				id: "4A00000000000006"
+				title: "{lanminecraft.reforged.quests.10_industrial_chemistry.9a1efa3717fd232f39ca}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.07cf914944f56f5f70f7}"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3A00000000000005"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.88a0827bf9a2328a1c3f}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.78850d9fe52cd2b62ec8}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.a98ccd9fc5a9bcea36d5}"
+			]
+			icon: "minecraft:redstone"
+			id: "3A00000000000006"
+			min_width: 380
+			rewards: [{
+				id: "5A00000000000006"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.83450671af71146f5650}"
+			tasks: [{
+				count: 16L
+				id: "4A00000000000007"
+				item: "chemlib:strontium_carbonate"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.56c009c1fb94c2dc2c39}"
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3A00000000000006"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.15869cfd5be9aff34bd4}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.8947a14e53fda3228432}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.724c1826dbd4a1524e03}"
+			]
+			icon: "mekanism:ingot_refined_glowstone"
+			id: "3A00000000000007"
+			rewards: [{
+				id: "5A00000000000007"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.c18cf0778f88efcdc8f2}"
+			tasks: [{
+				id: "4A00000000000008"
+				item: "mekanism:ingot_refined_glowstone"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.8c53dbacc10c14d11f82}"
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3A00000000000007"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.b1c7eafd418909fc78b7}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.12adeff86f2a0fbfb9f8}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.f197da2fe2e7665f19e9}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.a9e21f8c63fab9f8f07e}"
+			]
+			icon: "thermal:cured_rubber"
+			id: "3A00000000000008"
+			min_width: 380
+			rewards: [{
+				id: "5A00000000000008"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.195b8ff594d6759d6676}"
+			tasks: [{
+				id: "4A00000000000009"
+				title: "{lanminecraft.reforged.quests.10_industrial_chemistry.cff709aabab4459c8679}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.21c3e5a998e20ae47e1e}"
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3A00000000000008"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.b5872dcbae3f8317dcc3}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.da74519b1843d8b6abff}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.d21032d4fbe86da7acb5}"
+			]
+			icon: "nuclearcraft:uranium_235"
+			id: "3A00000000000009"
+			rewards: [{
+				id: "5A00000000000009"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.b9366edd3210ba66b4ad}"
+			tasks: [{
+				id: "4A00000000000010"
+				title: "{lanminecraft.reforged.quests.10_industrial_chemistry.83c70a28e380d15a9a2b}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.d71d73ded19365a425e1}"
+			x: 0.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3A00000000000009"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.7db063609513c29a5228}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.9b30de910f2926638db2}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.6b3f994e514ce2ab510d}"
+			]
+			icon: "alchemistry:compactor"
+			id: "3A00000000000010"
+			rewards: [{
+				id: "5A00000000000010"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.9452e756e31f734f2351}"
+			tasks: [{
+				id: "4A00000000000011"
+				title: "{lanminecraft.reforged.quests.10_industrial_chemistry.a98233314abaa1dd30e1}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.f9688b1bc1be073eb207}"
+			x: 0.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["3A00000000000010"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.cfaf813924e1de671322}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.8a104bf2cc42e9a684b2}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.5e85331352d337b80106}"
+			]
+			icon: "mekanism:alloy_atomic"
+			id: "3A00000000000011"
+			rewards: [{
+				id: "5A00000000000011"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.134a9e0f4701c7797556}"
+			tasks: [{
+				id: "4A00000000000012"
+				item: "mekanism:alloy_atomic"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.f6976d33498c241877b6}"
+			x: 0.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3A00000000000011"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.78d545c52ea10ef1e61a}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.7f0316ac73533f17c6bd}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.7d5ce93f1f8429c27687}"
+			]
+			icon: "xnet:controller"
+			id: "3A00000000000012"
+			min_width: 400
+			rewards: [{
+				id: "5A00000000000012"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.cd571a78c201773bbfe6}"
+			tasks: [
+				{
+					count: 8L
+					id: "4A00000000000013"
+					item: "alchemistry:dissolver"
+					type: "item"
+				}
+				{
+					id: "4A00000000000014"
+					title: "{lanminecraft.reforged.quests.10_industrial_chemistry.603f2b57a47f1f0a869a}"
+					type: "checkmark"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.a738fa75b6f74a91bceb}"
+			x: 0.0d
+			y: 22.0d
+		}
+		{
+			dependencies: [
+				"3A00000000000012"
+				"3A00000000000032"
+				"3A00000000000052"
+				"3A00000000000081"
+				"3A00000000000096"
+				"3A00000000000110"
+				"3A00000000000127"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.31ee7425331c6fdff89f}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.87207cd20569f8615ab0}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.3bf48b49718d367e15f5}"
+			]
+			icon: "chemlib:periodic_table"
+			id: "3A00000000000013"
+			min_width: 400
+			rewards: [
+				{
+					count: 2
+					id: "5A00000000000013"
+					item: "alchemistry:combiner"
+					type: "item"
+				}
+				{
+					id: "5A00000000000014"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.9361a58a768ce43b1be6}"
+			tasks: [
+				{
+					id: "4A00000000000015"
+					item: "thermal:signalum_ingot"
+					type: "item"
+				}
+				{
+					id: "4A00000000000016"
+					item: "mekanism:alloy_atomic"
+					type: "item"
+				}
+				{
+					id: "4A00000000000017"
+					item: "nuclearcraft:niobium_titanium_ingot"
+					type: "item"
+				}
+				{
+					id: "4A00000000000018"
+					item: "industrialforegoing:plastic"
+					type: "item"
+				}
+				{
+					id: "4A00000000000019"
+					item: "powah:crystal_niotic"
+					type: "item"
+				}
+				{
+					id: "4A00000000000020"
+					item: "forbidden_arcanus:deorum_ingot"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.59ea07d9d949ca93c504}"
+			x: 0.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["3A00000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.57a7e33ae8c3b0e776a2}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.6f4231992836039b9860}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.f4a2620a576d1ead6b57}"
+			]
+			icon: "industrialforegoing:plastic"
+			id: "3A00000000000090"
+			rewards: [{
+				id: "5A00000000000090"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.23d717470892b50f11ee}"
+			tasks: [{
+				count: 16L
+				id: "4A00000000000200"
+				item: "industrialforegoing:plastic"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.fa1056bbd6b26edefe12}"
+			x: -16.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3A00000000000090"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.c52a02be8897c76647d5}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.e2d8a9d5780fab90cfd5}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.3d5503aa7e85ef02061a}"
+			]
+			icon: "chemlib:polyvinyl_chloride"
+			id: "3A00000000000091"
+			rewards: [{
+				id: "5A00000000000091"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.557c1a130617c9d251a2}"
+			tasks: [{
+				count: 64L
+				id: "4A00000000000201"
+				item: "chemlib:polyvinyl_chloride"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.4e18757576e01e135cb7}"
+			x: -14.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3A00000000000090"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.851f2d8c71fdd7e4df66}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.fe8160a602fc18b99d25}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.43ddd89b8e60360576d6}"
+			]
+			icon: "industrialforegoing:dryrubber"
+			id: "3A00000000000092"
+			rewards: [{
+				id: "5A00000000000092"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.6aba4b460dd167115c8b}"
+			tasks: [{
+				count: 16L
+				id: "4A00000000000202"
+				item: "industrialforegoing:dryrubber"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.027730e4b7ac921ed500}"
+			x: -16.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3A00000000000091"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.058e650b3ac5541ca140}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.5df9c8d3ff777286e8f5}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.7071bdc158c02c2df893}"
+			]
+			icon: "industrialforegoing:pink_slime_ingot"
+			id: "3A00000000000093"
+			rewards: [{
+				id: "5A00000000000093"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.3d84664732c5d772e149}"
+			tasks: [{
+				count: 8L
+				id: "4A00000000000203"
+				item: "industrialforegoing:pink_slime_ingot"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.a4acd853048218956e8a}"
+			x: -14.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3A00000000000092"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.c5d42af9db19d80b6def}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.2a9f89859eaa564c4b94}"
+			]
+			icon: "industrialforegoing:fertilizer"
+			id: "3A00000000000094"
+			rewards: [{
+				id: "5A00000000000094"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.e547d3d921ddd64e0cc0}"
+			tasks: [{
+				count: 32L
+				id: "4A00000000000204"
+				item: "industrialforegoing:fertilizer"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.2898373abf033d30f033}"
+			x: -16.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3A00000000000093"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.48b64833d17bba2c1b38}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.149170145865b940c0f6}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.55424535d845263f1f48}"
+			]
+			icon: "industrialforegoing:machine_frame_pity"
+			id: "3A00000000000095"
+			optional: true
+			rewards: [{
+				id: "5A00000000000095"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.94c86afc6e22099ce44c}"
+			tasks: [{
+				id: "4A00000000000205"
+				item: "industrialforegoing:machine_frame_pity"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.12a55c99147d08012a40}"
+			x: -14.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3A00000000000094"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.29809b46b8d3d065e757}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.b2e0265177b6322a950c}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.d199e1d7b3c27a5d1405}"
+			]
+			icon: "industrialforegoing:latex_processing_unit"
+			id: "3A00000000000096"
+			min_width: 380
+			rewards: [{
+				id: "5A00000000000096"
+				type: "xp"
+				xp: 35
+			}]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.62f8f4336fe5f003d3e9}"
+			tasks: [{
+				id: "4A00000000000206"
+				item: "industrialforegoing:latex_processing_unit"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.ec4f0ff3693f2301013e}"
+			x: -16.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3A00000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.885aa41473e65e34c639}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.b60a8aaadd172215a4ac}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.71fe33f6ba78b45b81e6}"
+			]
+			icon: "chemlib:tin_ingot"
+			id: "3A00000000000020"
+			min_width: 380
+			rewards: [{
+				id: "5A00000000000020"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.d8a442659f67667d82f6}"
+			tasks: [
+				{
+					id: "4A00000000000021"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/tin"
+						}
+					}
+					title: "{lanminecraft.reforged.quests.10_industrial_chemistry.ab114245ceb5c3f8515c}"
+					type: "item"
+				}
+				{
+					id: "4A00000000000022"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/silver"
+						}
+					}
+					title: "{lanminecraft.reforged.quests.10_industrial_chemistry.2af63b94e3913289ddd2}"
+					type: "item"
+				}
+				{
+					id: "4A00000000000023"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/nickel"
+						}
+					}
+					title: "{lanminecraft.reforged.quests.10_industrial_chemistry.d1d44b1c52d05c951971}"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.60ea88c39cf88f6e7c11}"
+			x: -11.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3A00000000000020"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.7111780a97cf2a0b0087}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.eed6f65ff6168138b77f}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.6ea7bb06a29fac293903}"
+			]
+			icon: "mekanism:ingot_bronze"
+			id: "3A00000000000021"
+			rewards: [{
+				id: "5A00000000000021"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.033afdfeeb3150ea980d}"
+			tasks: [{
+				count: 8L
+				id: "4A00000000000024"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/bronze"
+					}
+				}
+				title: "{lanminecraft.reforged.quests.10_industrial_chemistry.43f384392325712b162f}"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.d9fa47d2d0e83459ff04}"
+			x: -11.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3A00000000000020"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.9c4fb4263efa035a490f}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.8ce28f48e09a92e9dcfd}"
+			]
+			icon: "thermal:constantan_ingot"
+			id: "3A00000000000022"
+			rewards: [{
+				id: "5A00000000000022"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.db945be19f8ce526e386}"
+			tasks: [{
+				count: 8L
+				id: "4A00000000000025"
+				item: "thermal:constantan_ingot"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.b611bbf2e70bd370af17}"
+			x: -10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3A00000000000021"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.524d96525d5bf15ce9ee}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.49ba029a322eef792180}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.985d9b30c01fa3a4041c}"
+			]
+			icon: "thermal:invar_ingot"
+			id: "3A00000000000023"
+			rewards: [{
+				id: "5A00000000000023"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.589f18f39448ccabce3d}"
+			tasks: [{
+				count: 8L
+				id: "4A00000000000026"
+				item: "thermal:invar_ingot"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.a400fc8d27cbc101aae0}"
+			x: -11.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3A00000000000022"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.e0471e7b0242d8b831b9}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.e1bab6b0d1f2ec99c114}"
+			]
+			icon: "thermal:electrum_ingot"
+			id: "3A00000000000024"
+			rewards: [{
+				id: "5A00000000000024"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.1df8b24c2c7005fca555}"
+			tasks: [{
+				count: 8L
+				id: "4A00000000000027"
+				item: "thermal:electrum_ingot"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.948e03d0a33c1be424c8}"
+			x: -10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3A00000000000023"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.a093fcb78c7987fa0635}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.030f1b02bf1be83c15f7}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.a24043c1030e1b7f8440}"
+			]
+			icon: "thermal:signalum_ingot"
+			id: "3A00000000000025"
+			rewards: [{
+				id: "5A00000000000025"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.94bad4c57b1547777d12}"
+			tasks: [{
+				count: 4L
+				id: "4A00000000000028"
+				item: "thermal:signalum_ingot"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.769f51b2ac5e773ea325}"
+			x: -11.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3A00000000000024"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.24012eda7d9a35201cf5}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.a8c2044f255cdea87d79}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.4f611aca5f50ad8ea6d3}"
+			]
+			icon: "thermal:lumium_ingot"
+			id: "3A00000000000026"
+			rewards: [{
+				id: "5A00000000000026"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.2f7a95eb363681957064}"
+			tasks: [{
+				count: 4L
+				id: "4A00000000000029"
+				item: "thermal:lumium_ingot"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.d2e75903cbbd2072c131}"
+			x: -10.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3A00000000000025"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.695fbc106f4317ba01cd}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.e1fcd0a84c5c0fd119df}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.4c49a297f5beb4e697e7}"
+			]
+			icon: "thermal:enderium_ingot"
+			id: "3A00000000000027"
+			rewards: [{
+				id: "5A00000000000027"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.543a9da537f3e6f2dd35}"
+			tasks: [{
+				count: 4L
+				id: "4A00000000000030"
+				item: "thermal:enderium_ingot"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.e8a31113c5ad72acc9c6}"
+			x: -11.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3A00000000000026"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.1beb6a7fabe7d744878b}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.af1bc987ab69c94d9a3a}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.ee428134a820c7dd28da}"
+			]
+			icon: "thermal:cinnabar"
+			id: "3A00000000000028"
+			rewards: [{
+				id: "5A00000000000028"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.a41e187c0bd867628635}"
+			tasks: [{
+				count: 8L
+				id: "4A00000000000031"
+				item: "thermal:cinnabar"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.84550037275908956407}"
+			x: -10.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3A00000000000027"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.8dd487891680f761408d}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.4ab09e4faebbaa15bb06}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.41f2f934ffa428c8becf}"
+			]
+			icon: "thermal:niter"
+			id: "3A00000000000029"
+			rewards: [{
+				id: "5A00000000000029"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.6c33a8154579f5d66f32}"
+			tasks: [
+				{
+					count: 8L
+					id: "4A00000000000032"
+					item: "thermal:niter"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4A00000000000033"
+					item: "thermal:sulfur"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.8976a67758b64eb0191c}"
+			x: -11.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3A00000000000028"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.7d394640cb78511b87f8}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.25a93ce93056e5a61458}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.ba93bf2019d44e9033f8}"
+			]
+			icon: "thermal:coal_coke"
+			id: "3A00000000000030"
+			rewards: [{
+				id: "5A00000000000030"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.1230c352ac7d592f4f8f}"
+			tasks: [{
+				count: 16L
+				id: "4A00000000000034"
+				item: "thermal:coal_coke"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.32f1d19751a3b5b6768d}"
+			x: -10.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3A00000000000029"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.b4c63a3998ec783e396f}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.ca95bd9e66a136624d4d}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.1a2f5256581147ec9bb5}"
+			]
+			icon: "thermal:cured_rubber"
+			id: "3A00000000000031"
+			rewards: [{
+				id: "5A00000000000031"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.a66335264783704c05b4}"
+			tasks: [{
+				count: 16L
+				id: "4A00000000000035"
+				item: "thermal:cured_rubber"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.fa4eeb346c76cf833ae5}"
+			x: -11.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3A00000000000030"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.7647f0032eb2a36f4066}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.bd153f1b542f20e0a5db}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.36f3435955e180e22459}"
+			]
+			icon: "thermal:rf_coil"
+			id: "3A00000000000032"
+			rewards: [{
+				id: "5A00000000000032"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.466a18fdc3847b235a88}"
+			tasks: [
+				{
+					count: 8L
+					id: "4A00000000000036"
+					item: "thermal:redstone_servo"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4A00000000000037"
+					item: "thermal:rf_coil"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.6571684138e4e99f0d14}"
+			x: -10.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3A00000000000031"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.64d2950f2463c2edd1f2}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.c4acef74adc5f1c4a416}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.e2c4b800d1c72c81673e}"
+			]
+			icon: "thermal:ruby"
+			id: "3A00000000000033"
+			optional: true
+			rewards: [{
+				id: "5A00000000000033"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.42df52fb1b9e2e6372eb}"
+			tasks: [{
+				id: "4A00000000000038"
+				title: "{lanminecraft.reforged.quests.10_industrial_chemistry.4f9115d1dd5f09ea7702}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.0829354d2de31b874df6}"
+			x: -11.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["3A00000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.8e0ee65a0805eec724c1}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.bbd1edd530ba4b72e35e}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.846790fe2bf3eb8879db}"
+			]
+			icon: "chemlib:osmium_ingot"
+			id: "3A00000000000040"
+			min_width: 380
+			rewards: [{
+				id: "5A00000000000040"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.588c99aa55c6f900be89}"
+			tasks: [{
+				count: 16L
+				id: "4A00000000000040"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/osmium"
+					}
+				}
+				title: "{lanminecraft.reforged.quests.10_industrial_chemistry.0890b0ab08914c601444}"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.d62c875521e98e40c361}"
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3A00000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.e13d67bb9f9cc4cc0a7f}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.039213e1cb37725c675b}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.58ddd7c591a024485ae0}"
+			]
+			icon: "mekanism:ingot_steel"
+			id: "3A00000000000041"
+			min_width: 380
+			rewards: [{
+				id: "5A00000000000041"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.542db9fc1189c09bf8a5}"
+			tasks: [{
+				count: 8L
+				id: "4A00000000000041"
+				item: "mekanism:ingot_steel"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.0d1f748b418340dae4ed}"
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3A00000000000040"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.906a28688ab41b3f2206}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.4780fe72965fd6d212d3}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.fe1d88b272e7e3afebe6}"
+			]
+			icon: "mekanism:steel_casing"
+			id: "3A00000000000042"
+			rewards: [{
+				id: "5A00000000000042"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.3e8bc4732247894add4c}"
+			tasks: [{
+				count: 4L
+				id: "4A00000000000042"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.f4e8be81c469e5ff1efb}"
+			x: -6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3A00000000000041"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.452c9a5564eaeafd04c2}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.4ff65e6dd400daa3234a}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.c23aceb000ba336b3a57}"
+			]
+			icon: "mekanism:alloy_infused"
+			id: "3A00000000000043"
+			rewards: [{
+				id: "5A00000000000043"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.63a67f466ebc7d5b153d}"
+			tasks: [{
+				count: 16L
+				id: "4A00000000000043"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.5562ebecaf4e6f4fcd07}"
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3A00000000000043"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.704ba0d42616d525388b}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.ca1d6733f606e872a2af}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.b991b9ea975caaecfad4}"
+			]
+			icon: "mekanism:alloy_reinforced"
+			id: "3A00000000000044"
+			rewards: [{
+				id: "5A00000000000044"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.f9ab96340c336e64052e}"
+			tasks: [{
+				count: 8L
+				id: "4A00000000000044"
+				item: "mekanism:alloy_reinforced"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.f7d8a1c8d8a673f4cbb7}"
+			x: -6.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3A00000000000044"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.97a1994053bcd5943a7e}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.24838cbf659f8d990ec3}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.40b0085cb1887f3d0246}"
+			]
+			icon: "mekanism:alloy_atomic"
+			id: "3A00000000000045"
+			min_width: 380
+			rewards: [{
+				id: "5A00000000000045"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.1cef7468766ed02c3568}"
+			tasks: [{
+				count: 4L
+				id: "4A00000000000045"
+				item: "mekanism:alloy_atomic"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.e1964004a96250065f0d}"
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3A00000000000043"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.20d0631673b005dd55b1}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.6fc2567532715d83935d}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.7749c0cf511d06bb5e83}"
+			]
+			icon: "mekanism:energy_tablet"
+			id: "3A00000000000046"
+			rewards: [{
+				id: "5A00000000000046"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.c19b61a5469fb64f2b1e}"
+			tasks: [
+				{
+					count: 16L
+					id: "4A00000000000046"
+					item: "mekanism:basic_control_circuit"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4A00000000000047"
+					item: "mekanism:energy_tablet"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.0493cc116f4873ee8eed}"
+			x: -6.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3A00000000000046"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.c751edccbbe7666ca1fc}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.2d640a1f2f803d1e8f2d}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.c41e3599748449c0a4e5}"
+			]
+			icon: "mekanism:electrolytic_core"
+			id: "3A00000000000047"
+			rewards: [{
+				id: "5A00000000000047"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.e022b56868b827304dc9}"
+			tasks: [{
+				count: 4L
+				id: "4A00000000000048"
+				item: "mekanism:electrolytic_core"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.9aa3315b1b34355a9315}"
+			x: -5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3A00000000000042"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.39bd14e562bfbd9329f2}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.45746b83bc02212b6b6c}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.b3cd7bbaca6c112f2d8e}"
+			]
+			icon: "mekanism:ingot_refined_obsidian"
+			id: "3A00000000000048"
+			min_width: 400
+			rewards: [{
+				id: "5A00000000000048"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.9f4853de66b3b172b32d}"
+			tasks: [{
+				count: 8L
+				id: "4A00000000000049"
+				item: "mekanism:ingot_refined_obsidian"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.6e3c3e5a38451fdbade2}"
+			x: -6.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3A00000000000047"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.b9edf44a072a92d1e03a}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.5fcb1609b65faa421b88}"
+			]
+			icon: "mekanism:hdpe_pellet"
+			id: "3A00000000000049"
+			rewards: [{
+				id: "5A00000000000049"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.c910741ea5f32e336d5b}"
+			tasks: [{
+				count: 32L
+				id: "4A00000000000050"
+				item: "mekanism:hdpe_pellet"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.b505a7f05f5b3c4a4226}"
+			x: -5.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3A00000000000047"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.6965821fe3765e76b376}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.1cc08cef0f16304aad86}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.4acb65ad267858565b48}"
+			]
+			icon: "mekanism:fluorite_gem"
+			id: "3A00000000000050"
+			rewards: [{
+				id: "5A00000000000050"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.f6d00bf97204f699854b}"
+			tasks: [{
+				count: 16L
+				id: "4A00000000000051"
+				item: "mekanism:fluorite_gem"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.edaa6bd8521b9dae0a46}"
+			x: -6.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3A00000000000050"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.82701ab5c34a3a31a038}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.a4a0fb788ba87103deba}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.93787cc4b803ee8934e7}"
+			]
+			icon: "mekanism:yellow_cake_uranium"
+			id: "3A00000000000051"
+			rewards: [{
+				id: "5A00000000000051"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.da298421207a720af502}"
+			tasks: [{
+				count: 8L
+				id: "4A00000000000052"
+				item: "mekanism:yellow_cake_uranium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.d16b3a6fe01996fb5f58}"
+			x: -5.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3A00000000000051"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.2b7868aa65ea60219430}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.7f9a7e773ce2601f772d}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.7ec6fd95aa84165ec27e}"
+			]
+			icon: "mekanism:pellet_polonium"
+			id: "3A00000000000052"
+			min_width: 400
+			rewards: [{
+				id: "5A00000000000052"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.f05bdfdc6d743f8e1d0d}"
+			tasks: [
+				{
+					id: "4A00000000000053"
+					item: "mekanism:pellet_polonium"
+					type: "item"
+				}
+				{
+					id: "4A00000000000054"
+					item: "mekanism:pellet_plutonium"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.8b77aabff8e07a9a949e}"
+			x: -6.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3A00000000000052"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.3ad073762716afcbe9db}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.29c69ea0197342d3a713}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.f23929bcb87de18e5b59}"
+			]
+			icon: "mekanism:pellet_antimatter"
+			id: "3A00000000000053"
+			optional: true
+			rewards: [{
+				id: "5A00000000000053"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.d2d4eb49f0243e2de9ee}"
+			tasks: [{
+				id: "4A00000000000055"
+				title: "{lanminecraft.reforged.quests.10_industrial_chemistry.ec09db1778cb65ea70a2}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.dafc3f19ac184155a1b8}"
+			x: -5.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3A00000000000049"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.285aa866da3adbbae271}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.fc356abc0d5ecb7e0913}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.dbb9b387da6997777567}"
+			]
+			icon: "chemlib:sodium_chloride"
+			id: "3A00000000000054"
+			optional: true
+			rewards: [{
+				id: "5A00000000000054"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.42ef6e8fe521beec997b}"
+			tasks: [{
+				id: "4A00000000000056"
+				title: "{lanminecraft.reforged.quests.10_industrial_chemistry.9da9451da52837cd5623}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.cf298257dfaa6c8649e8}"
+			x: -6.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["3A00000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.5e6786372322265365dc}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.7acf93a4bd5c4bf43fb5}"
+			]
+			icon: "ae2:silicon"
+			id: "3A00000000000100"
+			rewards: [{
+				id: "5A00000000000100"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.33cfb1848fad1efd31bc}"
+			tasks: [{
+				count: 32L
+				id: "4A00000000000100"
+				item: "ae2:silicon"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.8c71240e8307e1c020fb}"
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3A00000000000100"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.103c6b011c963b693c0b}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.261c1063d6a32e44ab32}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.dd8ea0b6232eb3d134de}"
+			]
+			icon: "ae2:certus_quartz_crystal"
+			id: "3A00000000000101"
+			rewards: [{
+				id: "5A00000000000101"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.c2c34ef4316a5e502058}"
+			tasks: [{
+				count: 32L
+				id: "4A00000000000101"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.9cc01b110735e1432238}"
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3A00000000000101"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.39c9f2bdf35bd5d4ff99}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.2bc102143949a785ed3c}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.097d5b324c2a3e5bba8e}"
+			]
+			icon: "ae2:fluix_crystal"
+			id: "3A00000000000102"
+			rewards: [{
+				id: "5A00000000000102"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.53afc2c292480581d688}"
+			tasks: [{
+				count: 32L
+				id: "4A00000000000102"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.a7e3c657699a4e8ef127}"
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3A00000000000101"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.208e666fa7233f74c22e}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.b7b8cef945c94b566820}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.0469f9ae1a54587e2014}"
+			]
+			icon: "ae2:sky_stone_block"
+			id: "3A00000000000103"
+			rewards: [{
+				id: "5A00000000000103"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.f97859db456ed204dda7}"
+			tasks: [{
+				count: 16L
+				id: "4A00000000000103"
+				item: "ae2:sky_stone_block"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.113ea33e2a26c92a7a94}"
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3A00000000000102"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.6b560e7a8fa4c3d78ac8}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.7382c7bac60a1720b948}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.e54a660a204fcaa299cd}"
+			]
+			icon: "ae2:logic_processor_press"
+			id: "3A00000000000104"
+			optional: true
+			rewards: [{
+				id: "5A00000000000104"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.7fb09b166bcb9a779bd8}"
+			tasks: [{
+				id: "4A00000000000104"
+				title: "{lanminecraft.reforged.quests.10_industrial_chemistry.68cd0e7bb6a60476a30f}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.007a17a3bd8dc2ac0c92}"
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3A00000000000103"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.ecd0bb9b7134d450c871}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.2914204836a532bbd8c9}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.bf574bc45eb86827dea4}"
+			]
+			icon: "powah:dielectric_paste"
+			id: "3A00000000000105"
+			min_width: 400
+			rewards: [{
+				id: "5A00000000000105"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.5bad911f5641002e84c0}"
+			tasks: [{
+				count: 32L
+				id: "4A00000000000105"
+				item: "powah:dielectric_paste"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.67388f848311d61d8879}"
+			x: 6.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3A00000000000105"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.e2384c73377a1573ed65}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.b77c912fcce0512cbb20}"
+			]
+			icon: "powah:steel_energized"
+			id: "3A00000000000106"
+			rewards: [{
+				id: "5A00000000000106"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.408e20f2a6adf5d13734}"
+			tasks: [{
+				count: 16L
+				id: "4A00000000000106"
+				item: "powah:steel_energized"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.c461fe51d7d01c335144}"
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3A00000000000105"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.d70dbc3216aaeed41344}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.181314186c502facc4b5}"
+			]
+			icon: "powah:uraninite"
+			id: "3A00000000000107"
+			rewards: [{
+				id: "5A00000000000107"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.4cba0da0da3c367531dc}"
+			tasks: [{
+				count: 16L
+				id: "4A00000000000107"
+				item: "powah:uraninite"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.a333819117b9c83ba51d}"
+			x: 6.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3A00000000000106"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.5a9f4d30f5d3a08b08dc}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.330699a7bec829a049af}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.b4abe684eb95cc41ba4a}"
+			]
+			icon: "powah:crystal_blazing"
+			id: "3A00000000000108"
+			rewards: [{
+				id: "5A00000000000108"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.de1501682463a8613100}"
+			tasks: [{
+				count: 8L
+				id: "4A00000000000108"
+				item: "powah:crystal_blazing"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.80ff77237466e1a91bfb}"
+			x: 5.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3A00000000000107"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.fcf824a9b120706419fa}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.1aec213b85131bb50559}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.e4257a4bf695e94561ef}"
+			]
+			icon: "powah:crystal_niotic"
+			id: "3A00000000000109"
+			rewards: [{
+				id: "5A00000000000109"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.5bae8c6ee8f796fba2ea}"
+			tasks: [{
+				count: 8L
+				id: "4A00000000000109"
+				item: "powah:crystal_niotic"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.151f131abb33c7f084f1}"
+			x: 6.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3A00000000000108"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.d2c774345967236b3f71}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.07941e94c8ef41f6cdfe}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.279f442379a60f54ebcd}"
+			]
+			icon: "powah:crystal_spirited"
+			id: "3A00000000000110"
+			rewards: [{
+				id: "5A00000000000110"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.32c20c5ae73dd22b7459}"
+			tasks: [{
+				count: 8L
+				id: "4A00000000000110"
+				item: "powah:crystal_spirited"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.44c51a2893d6a434a224}"
+			x: 5.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3A00000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.0c41caf6e18949cd92fa}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.b74d369607c14595f371}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.495dfa4db0573e636a8e}"
+			]
+			icon: "nuclearcraft:titanium_ingot"
+			id: "3A00000000000060"
+			min_width: 380
+			rewards: [{
+				id: "5A00000000000060"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.8699829adeadd7a609ce}"
+			tasks: [
+				{
+					id: "4A00000000000060"
+					item: "nuclearcraft:titanium_ingot"
+					type: "item"
+				}
+				{
+					id: "4A00000000000061"
+					item: "nuclearcraft:manganese_ingot"
+					type: "item"
+				}
+				{
+					id: "4A00000000000062"
+					item: "nuclearcraft:chromium_ingot"
+					type: "item"
+				}
+				{
+					id: "4A00000000000063"
+					item: "nuclearcraft:niobium_ingot"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.4dc53dba0e5ab28eb6b6}"
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3A00000000000060"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.3c977e8887005dffc0e9}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.a1f4923c05c5b4d81c64}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.b0744a33d87ea49ed080}"
+			]
+			icon: "chemlib:uranium_ingot"
+			id: "3A00000000000061"
+			min_width: 380
+			rewards: [{
+				id: "5A00000000000061"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.045ee686dd68a0ecbf4b}"
+			tasks: [
+				{
+					count: 8L
+					id: "4A00000000000064"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/uranium"
+						}
+					}
+					title: "{lanminecraft.reforged.quests.10_industrial_chemistry.b45e21c7061a2220362a}"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4A00000000000065"
+					item: "nuclearcraft:thorium_ingot"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.7270fecbbeabbbf32331}"
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3A00000000000060"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.f5c7a26a6a2076fa9e1b}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.57c8e3b708da4fab2525}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.585c3d37d2b088619ff3}"
+			]
+			icon: "nuclearcraft:boron_ingot"
+			id: "3A00000000000062"
+			rewards: [{
+				id: "5A00000000000062"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.0cc71ecfb0d2369ba1c5}"
+			tasks: [
+				{
+					count: 8L
+					id: "4A00000000000066"
+					item: "nuclearcraft:boron_ingot"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4A00000000000067"
+					item: "nuclearcraft:hafnium_ingot"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.420f5f6617010d9fcd34}"
+			x: 13.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3A00000000000060"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.039c449926a7e001eb83}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.b9c38722d72941a2b266}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.d2a6d0486c1f8c77ccef}"
+			]
+			icon: "nuclearcraft:beryllium_ingot"
+			id: "3A00000000000063"
+			min_width: 380
+			rewards: [{
+				id: "5A00000000000063"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.c59b8246d6fbf036b240}"
+			tasks: [
+				{
+					id: "4A00000000000068"
+					item: "nuclearcraft:beryllium_ingot"
+					type: "item"
+				}
+				{
+					id: "4A00000000000069"
+					item: "nuclearcraft:lithium_ingot"
+					type: "item"
+				}
+				{
+					id: "4A00000000000070"
+					item: "nuclearcraft:magnesium_ingot"
+					type: "item"
+				}
+				{
+					id: "4A00000000000071"
+					item: "nuclearcraft:calcium_ingot"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.8b872ce2774e4561f6f8}"
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3A00000000000060"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.0c2666dfc2b1dbb080d2}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.ed4782956ecc95c1167f}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.58fd8d82262148b28b77}"
+			]
+			icon: "nuclearcraft:hard_carbon_ingot"
+			id: "3A00000000000064"
+			rewards: [{
+				id: "5A00000000000064"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.ccf14d0c287c8f006dab}"
+			tasks: [
+				{
+					count: 16L
+					id: "4A00000000000072"
+					item: "nuclearcraft:graphite_ingot"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4A00000000000073"
+					item: "nuclearcraft:hard_carbon_ingot"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.783f24367c1d7e36639b}"
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3A00000000000062"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.14e73a439d8e7d8d3dce}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.a490e4ee1912ba4b6b7f}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.89ef4a40654ad16c5731}"
+			]
+			icon: "nuclearcraft:zirconium_ingot"
+			id: "3A00000000000065"
+			min_width: 400
+			rewards: [{
+				id: "5A00000000000065"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.93ff437a8bd6dd76193f}"
+			tasks: [{
+				count: 16L
+				id: "4A00000000000074"
+				item: "nuclearcraft:zirconium_ingot"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.f7d43a371e5a42698643}"
+			x: 13.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3A00000000000063"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.3d55b48634e76fad51e4}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.1fd45305359459cdebd6}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.71654a74cbef82cf25a4}"
+			]
+			icon: "mekanism:ingot_steel"
+			id: "3A00000000000066"
+			rewards: [{
+				id: "5A00000000000066"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.31909269d91e11e584c4}"
+			tasks: [{
+				count: 16L
+				id: "4A00000000000075"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
+				title: "{lanminecraft.reforged.quests.10_industrial_chemistry.0504d7c36a04043491bd}"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.f0ad784a567bd6abea57}"
+			x: 10.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3A00000000000066"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.80c4dd6111b62ee84db1}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.7ecd98487dd4562e8fd7}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.bf38f4ec9811de0168ff}"
+			]
+			icon: "nuclearcraft:carbon_manganese_ingot"
+			id: "3A00000000000067"
+			rewards: [{
+				id: "5A00000000000067"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.391ea56d81ffae19bd4d}"
+			tasks: [{
+				count: 16L
+				id: "4A00000000000076"
+				item: "nuclearcraft:carbon_manganese_ingot"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.7715c96580bfea207568}"
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3A00000000000067"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.0671884809d0e22cc37f}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.ba2de2cf3cbd8fc8d774}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.60781f67eeb240f0cb52}"
+			]
+			icon: "nuclearcraft:hsla_steel_ingot"
+			id: "3A00000000000068"
+			rewards: [{
+				id: "5A00000000000068"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.5b957db17b953d4e6fe1}"
+			tasks: [{
+				count: 16L
+				id: "4A00000000000077"
+				item: "nuclearcraft:hsla_steel_ingot"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.00aa1015e2a15f9ccc3d}"
+			x: 13.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3A00000000000066"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.0072a6e418ffeed7e92d}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.c1d3e47e5105f3ebeb5c}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.728ee64c95da994cae85}"
+			]
+			icon: "nuclearcraft:stainless_steel_ingot"
+			id: "3A00000000000069"
+			min_width: 380
+			rewards: [{
+				id: "5A00000000000069"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.4300af63d3eafd86e5a0}"
+			tasks: [{
+				count: 16L
+				id: "4A00000000000078"
+				item: "nuclearcraft:stainless_steel_ingot"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.ee850d69f6c701850713}"
+			x: 10.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3A00000000000062"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.582b885ea26cdceaada3}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.a1bd7a5de368ea3c0b2e}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.40d4b75c4d63157a0f40}"
+			]
+			icon: "nuclearcraft:ferroboron_ingot"
+			id: "3A00000000000070"
+			rewards: [{
+				id: "5A00000000000070"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.0b7fa154e8b91c2507b8}"
+			tasks: [{
+				count: 16L
+				id: "4A00000000000079"
+				item: "nuclearcraft:ferroboron_ingot"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.aeb163d317927f8a5506}"
+			x: 12.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3A00000000000070"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.2256c9d414252af698e6}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.14029396649db9523369}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.5c3a61611ede72f8a2df}"
+			]
+			icon: "nuclearcraft:extreme_ingot"
+			id: "3A00000000000071"
+			rewards: [{
+				id: "5A00000000000071"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.0dd64d080b93fafe6786}"
+			tasks: [
+				{
+					count: 8L
+					id: "4A00000000000080"
+					item: "nuclearcraft:tough_alloy_ingot"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4A00000000000081"
+					item: "nuclearcraft:extreme_ingot"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.4aa16fa6353db399551b}"
+			x: 13.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3A00000000000069"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.26adba46b80c12eac6e2}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.ff04d76dd14b03076e23}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.71e97f9468d2d049155e}"
+			]
+			icon: "nuclearcraft:nichrome_ingot"
+			id: "3A00000000000072"
+			min_width: 380
+			rewards: [{
+				id: "5A00000000000072"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.6c1c092760f6fd0a1f05}"
+			tasks: [{
+				count: 16L
+				id: "4A00000000000082"
+				item: "nuclearcraft:nichrome_ingot"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.45d743201d2009fb04df}"
+			x: 10.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3A00000000000065"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.6b6b04f07f8f89568584}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.52aaa5488169fe67bf46}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.1fc809b8effa04d89adf}"
+			]
+			icon: "nuclearcraft:zircaloy_ingot"
+			id: "3A00000000000073"
+			rewards: [{
+				id: "5A00000000000073"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.fe4ee7b67baf0eaf32ee}"
+			tasks: [{
+				count: 16L
+				id: "4A00000000000083"
+				item: "nuclearcraft:zircaloy_ingot"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.cb50b44355fcc1d94fab}"
+			x: 12.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3A00000000000071"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.13d3cdce6618ac727c9e}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.66de5b283edbafa90a98}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.9d649a370e937a89c276}"
+			]
+			icon: "nuclearcraft:niobium_titanium_ingot"
+			id: "3A00000000000074"
+			min_width: 400
+			rewards: [{
+				id: "5A00000000000074"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.e36a4bb17e77fc06aa35}"
+			tasks: [
+				{
+					count: 8L
+					id: "4A00000000000084"
+					item: "nuclearcraft:niobium_tin_ingot"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4A00000000000085"
+					item: "nuclearcraft:niobium_titanium_ingot"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.84b4c5059f29491ffe30}"
+			x: 13.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3A00000000000063"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.5582720e82d9c4492488}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.8ff88008be91b9ff0b5b}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.64dd64f10400dc5747e7}"
+			]
+			icon: "nuclearcraft:magnesium_diboride_ingot"
+			id: "3A00000000000075"
+			rewards: [{
+				id: "5A00000000000075"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.e1e2d011a92f2dc0addb}"
+			tasks: [{
+				count: 16L
+				id: "4A00000000000086"
+				item: "nuclearcraft:magnesium_diboride_ingot"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.d77632d412ac3e29b687}"
+			x: 10.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3A00000000000064"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.2b2d9e7e5387861af736}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.518f263bdfc65e2f9806}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.fb3c438258d685e7403e}"
+			]
+			icon: "nuclearcraft:silicon_carbide_ingot"
+			id: "3A00000000000076"
+			min_width: 380
+			rewards: [{
+				id: "5A00000000000076"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.d96ad96b0f0f6f7e330b}"
+			tasks: [
+				{
+					count: 8L
+					id: "4A00000000000087"
+					item: "nuclearcraft:silicon_carbide_ingot"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4A00000000000088"
+					item: "nuclearcraft:tungsten_carbide_ingot"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.97e1a762b718dce45d48}"
+			x: 12.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3A00000000000076"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.67d0ec415042c5371675}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.e6820cc4cbd89d3f6df5}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.b0b9de3a4ee207db4822}"
+			]
+			icon: "nuclearcraft:sic_sic_cmc_ingot"
+			id: "3A00000000000077"
+			min_width: 380
+			rewards: [{
+				id: "5A00000000000077"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.e32515a2ee3c0cb0efa3}"
+			tasks: [{
+				count: 8L
+				id: "4A00000000000089"
+				item: "nuclearcraft:sic_sic_cmc_ingot"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.47cbc270ef1fc10d0693}"
+			x: 13.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3A00000000000070"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.49e8c20cb533fdc17a55}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.86990560bcd3d19a72ba}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.03fb88cbeb5872a20024}"
+			]
+			icon: "nuclearcraft:boron_nitride_gem"
+			id: "3A00000000000078"
+			rewards: [{
+				id: "5A00000000000078"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.cf659400c3f9438bd141}"
+			tasks: [
+				{
+					count: 8L
+					id: "4A00000000000090"
+					item: "nuclearcraft:boron_nitride_gem"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4A00000000000091"
+					item: "nuclearcraft:boron_arsenide_gem"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.58b844d5abc5d7fa9f22}"
+			x: 10.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3A00000000000067"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.adba8fb453a3f9939a4d}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.cac21254cdf4b3884ec0}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.bfb025d89e062286a46a}"
+			]
+			icon: "nuclearcraft:manganese_dioxide_dust"
+			id: "3A00000000000079"
+			rewards: [{
+				id: "5A00000000000079"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.3ff298adfaa59ac8954f}"
+			tasks: [{
+				count: 16L
+				id: "4A00000000000092"
+				item: "nuclearcraft:manganese_dioxide_dust"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.28e6b2b065ed7b55be8a}"
+			x: 12.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3A00000000000063"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.de40a2c6ea27bdd78fac}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.734056aa0cff2a7a62d1}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.7a8747b7f815da61ecf1}"
+			]
+			icon: "nuclearcraft:calcium_sulfate_dust"
+			id: "3A00000000000080"
+			rewards: [{
+				id: "5A00000000000080"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.524d67dae905291a641d}"
+			tasks: [{
+				count: 16L
+				id: "4A00000000000093"
+				item: "nuclearcraft:calcium_sulfate_dust"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.08621f642a50f93a99cd}"
+			x: 13.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3A00000000000080"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.befb37816389589b4e7b}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.691522b4bda1dce879b5}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.d488c27d6806c490263b}"
+			]
+			icon: "mekanism:dust_fluorite"
+			id: "3A00000000000081"
+			min_width: 400
+			rewards: [{
+				id: "5A00000000000081"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.433636f150687f185a60}"
+			tasks: [
+				{
+					count: 8L
+					id: "4A00000000000094"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:dusts/fluorite"
+						}
+					}
+					title: "{lanminecraft.reforged.quests.10_industrial_chemistry.e054ce3090a1dcc6d8e3}"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4A00000000000095"
+					item: "nuclearcraft:sodium_fluoride_dust"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4A00000000000096"
+					item: "nuclearcraft:potassium_fluoride_dust"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4A00000000000097"
+					item: "nuclearcraft:borax_dust"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.79fcbb23d52b4bc1c52b}"
+			x: 10.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["3A00000000000061"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.aec0f3fd80b295f022cb}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.db55fb088133630166d2}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.19943fe3e0585c5541b9}"
+			]
+			icon: "nuclearcraft:isotope_separator"
+			id: "3A00000000000082"
+			min_width: 380
+			optional: true
+			rewards: [{
+				id: "5A00000000000082"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.c8dff4d991b9b635b42a}"
+			tasks: [{
+				id: "4A00000000000098"
+				title: "{lanminecraft.reforged.quests.10_industrial_chemistry.1d50fe45f8ac27dd542a}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.91bb6b3053db6fee72b8}"
+			x: 12.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["3A00000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.244a920a61ced74e0ee6}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.84567f9cc9bb950a52fa}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.0dc5926ac7c5c00e8169}"
+			]
+			icon: "forbidden_arcanus:darkstone"
+			id: "3A00000000000120"
+			min_width: 380
+			rewards: [{
+				id: "5A00000000000120"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.a69c0218b0b483620383}"
+			tasks: [{
+				count: 32L
+				id: "4A00000000000120"
+				item: "forbidden_arcanus:darkstone"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.bf0117f28f9fdc24df2c}"
+			x: 17.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3A00000000000120"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.556956ab91b75109aa00}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.7fa13344785465c2fc4c}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.e39675e3b26e876bdcfe}"
+			]
+			icon: "forbidden_arcanus:arcane_crystal"
+			id: "3A00000000000121"
+			min_width: 400
+			rewards: [{
+				id: "5A00000000000121"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.25b18ed08caa4799f48a}"
+			tasks: [{
+				count: 16L
+				id: "4A00000000000121"
+				item: "forbidden_arcanus:arcane_crystal"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.f5cac07bebf1ad57dbf5}"
+			x: 17.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3A00000000000121"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.410050796342fa4d821f}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.97c06554a645b6750266}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.513a1c7329ae57fe9368}"
+			]
+			icon: "forbidden_arcanus:mundabitur_dust"
+			id: "3A00000000000122"
+			min_width: 400
+			rewards: [{
+				id: "5A00000000000122"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.c18456563e37902d67a4}"
+			tasks: [
+				{
+					count: 8L
+					id: "4A00000000000122"
+					item: "forbidden_arcanus:mundabitur_dust"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4A00000000000123"
+					item: "forbidden_arcanus:corrupti_dust"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.ef07f73c7fc95b4c975c}"
+			x: 17.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3A00000000000122"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.bd7c3067023cdd302607}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.3289b9996b499b78a884}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.9a9e2186a7120966fa3e}"
+			]
+			icon: "forbidden_arcanus:deorum_ingot"
+			id: "3A00000000000123"
+			min_width: 400
+			rewards: [{
+				id: "5A00000000000123"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.68f637948fb6d489c191}"
+			tasks: [{
+				count: 8L
+				id: "4A00000000000124"
+				item: "forbidden_arcanus:deorum_ingot"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.426738716e3589e128d2}"
+			x: 17.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3A00000000000121"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.fa7f9afb4c9dda6435b1}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.0dd47192f6ec2c70992b}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.70d73405ce6142bf26f4}"
+			]
+			icon: "forbidden_arcanus:rune"
+			id: "3A00000000000124"
+			min_width: 380
+			rewards: [{
+				id: "5A00000000000124"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.bc3bec523de0b9b0be86}"
+			tasks: [{
+				count: 16L
+				id: "4A00000000000125"
+				item: "forbidden_arcanus:rune"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.97361cf7309cc7ca06d4}"
+			x: 17.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3A00000000000124"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.fc9a08c274c829eb5bee}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.e126ed5bba8ebd37bbac}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.77ada2c88992a1c308e7}"
+			]
+			icon: "forbidden_arcanus:xpetrified_orb"
+			id: "3A00000000000125"
+			rewards: [{
+				id: "5A00000000000125"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.68748fda6d48269c80e4}"
+			tasks: [{
+				count: 8L
+				id: "4A00000000000126"
+				item: "forbidden_arcanus:xpetrified_orb"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.bdb2cdd40ee64a0dd392}"
+			x: 17.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3A00000000000123"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.d0892ffac3a968adba3f}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.336212818fb7e5b5fd05}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.508baec9e921c1177bfb}"
+			]
+			icon: "forbidden_arcanus:stellarite_piece"
+			id: "3A00000000000126"
+			min_width: 400
+			rewards: [{
+				id: "5A00000000000126"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.78522a80f22e38f5b81e}"
+			tasks: [{
+				count: 8L
+				id: "4A00000000000127"
+				item: "forbidden_arcanus:stellarite_piece"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.9cd162d5b47c8dd05764}"
+			x: 17.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3A00000000000120"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.53135b958ce84e963b54}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.1f1acf667ab6bb9a4e7c}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.a9993b1c775757e80c86}"
+			]
+			icon: "forbidden_arcanus:edelwood_log"
+			id: "3A00000000000127"
+			rewards: [{
+				id: "5A00000000000127"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.0463314013dab06ff50a}"
+			tasks: [{
+				count: 16L
+				id: "4A00000000000128"
+				item: "forbidden_arcanus:edelwood_log"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.c8f2673648e9e4e63c0b}"
+			x: 17.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["3A00000000000126"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.52bb7f9a82565f995ec9}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.698deed7cd96b6d68645}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.482c10c0d42aef47e921}"
+			]
+			icon: "minecraft:spawner"
+			id: "3A00000000000128"
+			min_width: 380
+			optional: true
+			rewards: [{
+				id: "5A00000000000128"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.0a655575aeb818612736}"
+			tasks: [{
+				id: "4A00000000000129"
+				title: "{lanminecraft.reforged.quests.10_industrial_chemistry.456caa9fdd1a9733a2a4}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.4d511f527dcef4cf15b6}"
+			x: 17.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3A00000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.098245830d414cb86a27}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.fcdd615821b26226c086}"
+			]
+			icon: "pneumaticcraft:ingot_iron_compressed"
+			id: "3A00000000000201"
+			min_width: 400
+			rewards: [{
+				id: "5A00000000000301"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.a922975bcd9e67dfe896}"
+			tasks: [{
+				count: 16L
+				id: "4A00000000000301"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.1212ebf66ba6e0327c00}"
+			x: 22.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3A00000000000201"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.651debd300ffcda78d48}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.980d83bc22f200530301}"
+			]
+			icon: "pneumaticcraft:manometer"
+			id: "3A00000000000202"
+			min_width: 400
+			rewards: [{
+				id: "5A00000000000302"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.2d023e5337fc76cd4713}"
+			tasks: [{
+				id: "4A00000000000302"
+				item: "pneumaticcraft:manometer"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.5f03bc8af88840dd074d}"
+			x: 22.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3A00000000000202"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.fa78921c0f8afed2785d}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.720f79d07588c11631d8}"
+			]
+			icon: "pneumaticcraft:pressure_tube"
+			id: "3A00000000000203"
+			min_width: 400
+			rewards: [{
+				id: "5A00000000000303"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.96c1b18ecd89fc286342}"
+			tasks: [{
+				count: 16L
+				id: "4A00000000000303"
+				item: "pneumaticcraft:pressure_tube"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.e14b4d6cae710a58904d}"
+			x: 22.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3A00000000000203"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.8ab1950b62959e0f6edf}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.9a5c96556d28f575d18e}"
+			]
+			icon: "pneumaticcraft:air_compressor"
+			id: "3A00000000000204"
+			min_width: 400
+			rewards: [{
+				id: "5A00000000000304"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.f6e66a85be9947a563cd}"
+			tasks: [{
+				id: "4A00000000000304"
+				item: "pneumaticcraft:air_compressor"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.01c9cdfeb58ed5922212}"
+			x: 22.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3A00000000000204"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.b87852e1b2ddc8e6b64e}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.28afd39d02c9e23faa95}"
+			]
+			icon: "pneumaticcraft:vortex_tube"
+			id: "3A00000000000205"
+			min_width: 400
+			rewards: [{
+				id: "5A00000000000305"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.0ceca2b98efb590e6338}"
+			tasks: [{
+				id: "4A00000000000305"
+				item: "pneumaticcraft:vortex_tube"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.914ddc6a999b4fb8f9f3}"
+			x: 22.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3A00000000000205"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.cf5e2cdc5396f8b897fa}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.9c2edb4d994a063bfd34}"
+			]
+			icon: "pneumaticcraft:thermopneumatic_processing_plant"
+			id: "3A00000000000206"
+			min_width: 400
+			rewards: [{
+				id: "5A00000000000306"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.9a3cae3299b51718cf79}"
+			tasks: [{
+				id: "4A00000000000306"
+				item: "pneumaticcraft:thermopneumatic_processing_plant"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.704f6c246f75eda08aa7}"
+			x: 22.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3A00000000000206"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.a90946785e2421bbd53f}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.670f70fda65fa4c24d95}"
+			]
+			icon: "pneumaticcraft:yeast_culture_bucket"
+			id: "3A00000000000207"
+			min_width: 400
+			rewards: [{
+				id: "5A00000000000307"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.bb1558611d38add646b9}"
+			tasks: [{
+				id: "4A00000000000307"
+				item: "pneumaticcraft:yeast_culture_bucket"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.012dc64c8d7f066e3682}"
+			x: 22.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3A00000000000207"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.e4715f6dd7b7e1e5abbe}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.177dac8484f5c1ffb644}"
+			]
+			icon: "pneumaticcraft:ethanol_bucket"
+			id: "3A00000000000208"
+			min_width: 400
+			rewards: [{
+				id: "5A00000000000308"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.a2724636248e61e1046f}"
+			tasks: [{
+				id: "4A00000000000308"
+				item: "pneumaticcraft:ethanol_bucket"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.31679015ca3dcaa97078}"
+			x: 22.0d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"3A00000000000208"
+				"3A00000000000225"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.060b2ddadf6d8a8d36b2}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.197709f478f441229335}"
+			]
+			icon: "pneumaticcraft:biodiesel_bucket"
+			id: "3A00000000000209"
+			min_width: 400
+			rewards: [{
+				id: "5A00000000000309"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.4706bb8e1edf225ee2ba}"
+			tasks: [{
+				id: "4A00000000000309"
+				item: "pneumaticcraft:biodiesel_bucket"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.835a6c585f9f41d27ad2}"
+			x: 22.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["3A00000000000209"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.568501344c362408487f}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.3e093dc81c22ade114c0}"
+			]
+			icon: "pneumaticcraft:plastic"
+			id: "3A00000000000210"
+			min_width: 400
+			rewards: [{
+				id: "5A00000000000310"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.b266e108ea1d4703624a}"
+			tasks: [{
+				count: 16L
+				id: "4A00000000000310"
+				item: "pneumaticcraft:plastic"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.fc7917ea611e36f7640b}"
+			x: 22.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3A00000000000210"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.085f7d3464a9ebb81c42}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.61e3d86882c790bcc3c8}"
+			]
+			icon: "minecraft:emerald"
+			id: "3A00000000000211"
+			min_width: 400
+			rewards: [{
+				id: "5A00000000000311"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.fe5a9b18432637573e2e}"
+			tasks: [{
+				count: 8L
+				id: "4A00000000000311"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.335bc5e06590770fd229}"
+			x: 22.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["3A00000000000211"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.65505acb8640831a7330}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.fef5df4e06cb8c0747ad}"
+			]
+			icon: "pneumaticcraft:pcb_blueprint"
+			id: "3A00000000000212"
+			min_width: 400
+			rewards: [{
+				id: "5A00000000000312"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.dc29cdff06462af352a5}"
+			tasks: [{
+				id: "4A00000000000312"
+				item: "pneumaticcraft:pcb_blueprint"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.eaf27c7b3fa8a6bd102d}"
+			x: 22.0d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"3A00000000000212"
+				"3A00000000000219"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.6379139737353a2a73f1}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.4a0a44f4eaaede3a3429}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.5609322b85de65c0d195}"
+			]
+			icon: "pneumaticcraft:printed_circuit_board"
+			id: "3A00000000000213"
+			min_width: 400
+			rewards: [{
+				id: "5A00000000000313"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.2797f0c26cb9fbc8f541}"
+			tasks: [{
+				id: "4A00000000000313"
+				item: "pneumaticcraft:printed_circuit_board"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.c9e1f2d06720f0367a9b}"
+			x: 22.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["3A00000000000213"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.96fecf0c550c478598bb}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.407f8682620ed24eaed6}"
+			]
+			icon: "pneumaticcraft:drone"
+			id: "3A00000000000214"
+			min_width: 400
+			rewards: [{
+				id: "5A00000000000314"
+				type: "xp"
+				xp: 45
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.c6a1acb8df2c34d9dba2}"
+			tasks: [
+				{
+					id: "4A00000000000314"
+					item: "pneumaticcraft:drone"
+					type: "item"
+				}
+				{
+					id: "4A00000000000315"
+					item: "pneumaticcraft:programmer"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.2cbab20e45164cecc47f}"
+			x: 22.0d
+			y: 28.0d
+		}
+		{
+			dependencies: [
+				"3A00000000000214"
+				"3A00000000000224"
+				"3A00000000000232"
+				"3A00000000000233"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.561fb8919337fc105ffb}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.65453add0b556c2d6526}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.10923ead093042014c8d}"
+			]
+			icon: "pneumaticcraft:compressed_iron_block"
+			id: "3A00000000000215"
+			min_width: 400
+			rewards: [
+				{
+					count: 2
+					id: "5A00000000000315"
+					item: "pneumaticcraft:speed_upgrade"
+					type: "item"
+				}
+				{
+					id: "5A00000000000316"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.2cebe08a28fbf4199cf4}"
+			tasks: [
+				{
+					id: "4A00000000000316"
+					item: "pneumaticcraft:plastic"
+					type: "item"
+				}
+				{
+					id: "4A00000000000317"
+					item: "pneumaticcraft:printed_circuit_board"
+					type: "item"
+				}
+				{
+					id: "4A00000000000318"
+					item: "pneumaticcraft:drone"
+					type: "item"
+				}
+				{
+					id: "4A00000000000319"
+					item: "pneumaticcraft:biodiesel_bucket"
+					type: "item"
+				}
+				{
+					id: "4A00000000000320"
+					item: "pneumaticcraft:oil_bucket"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.39c17bad88ffe57c769a}"
+			x: 22.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["3A00000000000201"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.f7a91c25d651fa246dc9}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.4ba3e77481edfd6c82b8}"
+			]
+			icon: "pneumaticcraft:manual_compressor"
+			id: "3A00000000000216"
+			min_width: 380
+			rewards: [{
+				id: "5A00000000000317"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.b12e814350ff5b117e57}"
+			tasks: [{
+				id: "4A00000000000321"
+				item: "pneumaticcraft:manual_compressor"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.f6ba868d217676b271fd}"
+			x: 23.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3A00000000000203"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.974717c969713a6366c9}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.09b4f61c41909378e642}"
+			]
+			icon: "pneumaticcraft:safety_tube_module"
+			id: "3A00000000000217"
+			min_width: 380
+			rewards: [{
+				id: "5A00000000000318"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.609ddbea947a1c1b0504}"
+			tasks: [{
+				id: "4A00000000000322"
+				item: "pneumaticcraft:safety_tube_module"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.07f2229f2b795bb3be07}"
+			x: 23.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3A00000000000217"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.3c3e92708b586f86b025}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.4609bd70b3c4168b1a26}"
+			]
+			icon: "pneumaticcraft:regulator_tube_module"
+			id: "3A00000000000218"
+			rewards: [{
+				id: "5A00000000000319"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.a0a20547318815e7955b}"
+			tasks: [{
+				id: "4A00000000000323"
+				item: "pneumaticcraft:regulator_tube_module"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.5fde3b6567e78b7a7eff}"
+			x: 23.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3A00000000000204"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.1dfba87be166a703210a}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.6521060c58dc49fbbf13}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.fd8cc0cfe8d364acefe8}"
+			]
+			icon: "pneumaticcraft:pressure_chamber_valve"
+			id: "3A00000000000219"
+			min_width: 400
+			rewards: [{
+				id: "5A00000000000320"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.741530253fcaba7d3f61}"
+			tasks: [
+				{
+					count: 16L
+					id: "4A00000000000324"
+					item: "pneumaticcraft:pressure_chamber_wall"
+					type: "item"
+				}
+				{
+					id: "4A00000000000325"
+					title: "{lanminecraft.reforged.quests.10_industrial_chemistry.25e4c2a12bc6ec91ec71}"
+					type: "checkmark"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.59bbdba9021208576100}"
+			x: 23.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3A00000000000219"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.4ad69826d82c9ed9102a}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.30eadb523ca1c8a8e81c}"
+			]
+			icon: "pneumaticcraft:pressure_chamber_interface"
+			id: "3A00000000000220"
+			min_width: 380
+			rewards: [{
+				id: "5A00000000000321"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.4989772e5a7a7224e312}"
+			tasks: [{
+				count: 2L
+				id: "4A00000000000326"
+				item: "pneumaticcraft:pressure_chamber_interface"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.1ee6ec6e4d65ec98ce75}"
+			x: 23.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3A00000000000220"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.b1fbdaebdf0a0eb38247}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.352ae70db7f90c03af44}"
+			]
+			icon: "minecraft:diamond"
+			id: "3A00000000000221"
+			min_width: 400
+			optional: true
+			rewards: [{
+				id: "5A00000000000322"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.56c2086a152eba30d7a0}"
+			tasks: [{
+				id: "4A00000000000327"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.06faf3f8f209cb885f65}"
+			x: 23.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3A00000000000209"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.4311017189204894f4fb}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.d4f219816cc2cca17124}"
+			]
+			icon: "pneumaticcraft:lubricant_bucket"
+			id: "3A00000000000222"
+			rewards: [{
+				id: "5A00000000000323"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.9e13b77e564b273b3fe6}"
+			tasks: [{
+				id: "4A00000000000328"
+				item: "pneumaticcraft:lubricant_bucket"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.2c1ec4ba8af6200c1b80}"
+			x: 23.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["3A00000000000222"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.5c9254c455575087ff7d}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.7f55935e0ddddd893c2a}"
+			]
+			icon: "pneumaticcraft:speed_upgrade"
+			id: "3A00000000000223"
+			min_width: 400
+			rewards: [{
+				id: "5A00000000000324"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.2ec8535b6a7056ffdc02}"
+			tasks: [{
+				count: 2L
+				id: "4A00000000000329"
+				item: "pneumaticcraft:speed_upgrade"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.2a41da8c953d5e971c5e}"
+			x: 23.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["3A00000000000223"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.b06554423751c5eec452}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.92fb1d63777d9d5ad8ce}"
+			]
+			icon: "pneumaticcraft:upgrade_matrix"
+			id: "3A00000000000224"
+			rewards: [{
+				id: "5A00000000000325"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.9a0b537783bb9dfd9ddc}"
+			tasks: [{
+				count: 4L
+				id: "4A00000000000330"
+				item: "pneumaticcraft:upgrade_matrix"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.eab4d370b19e3199737b}"
+			x: 23.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["3A00000000000206"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.0ba0e145d2531981dd7b}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.9daf46e32f884dc38878}"
+			]
+			icon: "pneumaticcraft:vegetable_oil_bucket"
+			id: "3A00000000000225"
+			rewards: [{
+				id: "5A00000000000326"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.21b64fd04a9da402f632}"
+			tasks: [{
+				id: "4A00000000000331"
+				item: "pneumaticcraft:vegetable_oil_bucket"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.026ddd3b42d9bbd6a586}"
+			x: 25.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3A00000000000206"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.5af86a9846f11f58464e}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.db5c8571b7bba324d356}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.fc8d60e6172ed53affb6}"
+			]
+			icon: "pneumaticcraft:seismic_sensor"
+			id: "3A00000000000226"
+			min_width: 400
+			rewards: [{
+				id: "5A00000000000327"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.f65e557e77721c353d81}"
+			tasks: [{
+				id: "4A00000000000332"
+				title: "{lanminecraft.reforged.quests.10_industrial_chemistry.6b3de8ee371f6d201cbe}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.67e5d9b97a77235bc1d3}"
+			x: 25.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3A00000000000226"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.2d01c9405d7471f26d24}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.18d07feb6e26d702ad34}"
+			]
+			icon: "pneumaticcraft:oil_bucket"
+			id: "3A00000000000227"
+			min_width: 400
+			rewards: [{
+				id: "5A00000000000328"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.8ff881c4ba9e44541972}"
+			tasks: [{
+				id: "4A00000000000333"
+				item: "pneumaticcraft:oil_bucket"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.5e0807139ae9798aabf6}"
+			x: 25.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["3A00000000000227"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.092a14df60d9ac94cd3f}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.c09b58381e9976cee385}"
+			]
+			icon: "pneumaticcraft:refinery"
+			id: "3A00000000000228"
+			min_width: 400
+			rewards: [{
+				id: "5A00000000000329"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.00b1192197203186b219}"
+			tasks: [{
+				count: 4L
+				id: "4A00000000000334"
+				item: "pneumaticcraft:refinery_output"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.2038d1e6f8a3ce84a540}"
+			x: 25.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3A00000000000228"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.3aafc0adc0ea133fcf98}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.76f08ea4f32f137a95cb}"
+			]
+			icon: "pneumaticcraft:diesel_bucket"
+			id: "3A00000000000229"
+			min_width: 400
+			rewards: [{
+				id: "5A00000000000330"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.b5891e427d8d2fe039bb}"
+			tasks: [{
+				id: "4A00000000000335"
+				item: "pneumaticcraft:diesel_bucket"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.ca022908a2251d1e00db}"
+			x: 25.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["3A00000000000229"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.fbc3649123101ccff341}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.d41c321bc059beaeabcf}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.bd3a920b02374b182563}"
+			]
+			icon: "pneumaticcraft:lpg_bucket"
+			id: "3A00000000000230"
+			min_width: 400
+			rewards: [{
+				id: "5A00000000000331"
+				type: "xp"
+				xp: 35
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.da8d051ce9787faa1d1d}"
+			tasks: [{
+				id: "4A00000000000336"
+				item: "pneumaticcraft:lpg_bucket"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.b7bdecebff1a6d46a4c5}"
+			x: 25.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["3A00000000000229"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.90834acaffe784152aa4}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.b12cb36326ec246f2868}"
+			]
+			icon: "pneumaticcraft:kerosene_lamp"
+			id: "3A00000000000231"
+			min_width: 380
+			rewards: [{
+				id: "5A00000000000332"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.41749a1833d7671a8a9b}"
+			tasks: [{
+				id: "4A00000000000337"
+				item: "pneumaticcraft:kerosene_lamp"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.77fab8c9f61dd0f31740}"
+			x: 25.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["3A00000000000230"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.a9e8ac872ced8d7891fd}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.6d607524e04f6285dfd7}"
+			]
+			icon: "minecraft:emerald"
+			id: "3A00000000000232"
+			min_width: 400
+			optional: true
+			rewards: [{
+				id: "5A00000000000333"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.52253f2e6ecb9b296e60}"
+			tasks: [{
+				id: "4A00000000000338"
+				title: "{lanminecraft.reforged.quests.10_industrial_chemistry.97410c0e791de1b7961b}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.b6c06022047399745d4a}"
+			x: 25.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["3A00000000000214"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.d243e40c0bbb5120ddb2}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.0ef9bddd953ea4d7b582}"
+			]
+			icon: "pneumaticcraft:programmable_controller"
+			id: "3A00000000000233"
+			min_width: 400
+			rewards: [{
+				id: "5A00000000000334"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.8d32f305361329bd62d2}"
+			tasks: [{
+				id: "4A00000000000339"
+				item: "pneumaticcraft:programmable_controller"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.a6d75839b5ca3f0fc15c}"
+			x: 23.5d
+			y: 28.0d
+		}
+		{
+			dependencies: ["3A00000000000215"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.e9207c042b8d933c00b7}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.3e9fbfcf0c29b69d4766}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.d061d129cb8db43221cd}"
+			]
+			icon: "pneumaticcraft:jet_boots_upgrade_5"
+			id: "3A00000000000F20"
+			min_width: 470
+			rewards: [{
+				id: "5A00000000000F20"
+				type: "xp"
+				xp: 800
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.75313fdd98bf08c0e823}"
+			tasks: [{
+				id: "4A00000000000F20"
+				item: "pneumaticcraft:jet_boots_upgrade_5"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.0d02441b1ad859b8b576}"
+			x: 28.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3A00000000000215"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.87981e0fa15fd1c8479a}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.096b65d0559252948121}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.6437faadb75152c405dc}"
+			]
+			icon: "industrialforegoing:infinity_drill"
+			id: "3A00000000000F21"
+			min_width: 470
+			rewards: [{
+				id: "5A00000000000F21"
+				type: "xp"
+				xp: 800
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.356ae0dc71dad7398cfa}"
+			tasks: [{
+				id: "4A00000000000F21"
+				item: "industrialforegoing:infinity_drill"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.2380db754123ec8b97cc}"
+			x: 28.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3A00000000000215"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.e6e6c4f5d46ecf0fef06}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.e565010e0df59359f276}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.4d8e922b6194d87763bb}"
+			]
+			icon: "forbidden_arcanus:eternal_stella"
+			id: "3A00000000000F22"
+			min_width: 470
+			rewards: [{
+				id: "5A00000000000F22"
+				type: "xp"
+				xp: 800
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.ef0f877fc2cf4cc56528}"
+			tasks: [{
+				id: "4A00000000000F22"
+				item: "forbidden_arcanus:eternal_stella"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.8212ac13c8c4ca2f8784}"
+			x: 28.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3A00000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.f333cf6e0b349abf08c0}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.eea486fe7c045c8db7e1}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.1331c26d4b4133d3ee64}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.048044ffa19b4db91432}"
+			]
+			icon: "minecraft:cobweb"
+			id: "3A00000000000F30"
+			min_width: 460
+			optional: true
+			rewards: [{
+				id: "5A00000000000F30"
+				type: "xp"
+				xp: 300
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.71d98f9f303eb83364b6}"
+			tasks: [
+				{
+					entity: "minecraft:spider"
+					id: "4A00000000000F30"
+					type: "kill"
+					value: 20L
+				}
+			]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.e9663b15af50b5a937b6}"
+			x: -20.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3A00000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.ac5c68e5ddd30cbdc215}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.b8a0196a428e6f4c5aa3}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.8513ad4a5c37d94bc7f2}"
+			]
+			icon: "minecraft:blue_ice"
+			id: "3A00000000000F32"
+			min_width: 460
+			optional: true
+			rewards: [{
+				id: "5A00000000000F32"
+				type: "xp"
+				xp: 400
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.c469715a95934bae64e8}"
+			tasks: [
+				{
+					count: 64L
+					id: "4A00000000000F38"
+					item: "minecraft:blue_ice"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.6c7b9462fe1e6c7aead1}"
+			x: -20.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3A00000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.1e25068f11eaac5517ef}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.3b5f89ce12139ba0d84a}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.243eafb2dbfca72b8bde}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.6a4e1e3133e8a3e986fd}"
+			]
+			icon: "alchemistry:dissolver"
+			id: "3A00000000000F33"
+			min_width: 460
+			optional: true
+			rewards: [{
+				id: "5A00000000000F33"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.d7a2fc9cdd4cf7e7db40}"
+			tasks: [
+				{
+					count: 256L
+					id: "4A00000000000F3C"
+					item: "chemlib:silicon"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.9d8e60e36c1466863b82}"
+			x: -20.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3A00000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.07c9fe05fef9887cfe66}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.bd247d8621a6d38c4e48}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.59658f5d4ae8135ca28a}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.a917de241759122f6931}"
+				""
+				"{lanminecraft.reforged.quests.10_industrial_chemistry.2ec15b75e6b0c303a8c3}"
+			]
+			icon: "chemlib:sulfuric_acid"
+			id: "3A00000000000F31"
+			min_width: 460
+			optional: true
+			rewards: [{
+				id: "5A00000000000F31"
+				type: "xp"
+				xp: 400
+			}]
+			subtitle: "{lanminecraft.reforged.quests.10_industrial_chemistry.a7a10294313f3a239cf8}"
+			tasks: [
+				{
+					count: 64L
+					id: "4A00000000000F34"
+					item: "chemlib:sulfuric_acid"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.10_industrial_chemistry.7edc79ebc29ba30f28e2}"
+			x: -20.0d
+			y: 8.0d
+		}
+	]
+	subtitle: ["{lanminecraft.reforged.quests.10_industrial_chemistry.8b7fed75a17cb89da03d}"]
+	title: "{lanminecraft.reforged.quests.10_industrial_chemistry.f737cd28fec09cd1b463}"
+}

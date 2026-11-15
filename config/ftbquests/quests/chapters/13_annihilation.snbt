@@ -1,0 +1,2471 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: ""
+	filename: "13_annihilation"
+	group: "1000000000000001"
+	hide_quest_until_deps_visible: true
+	icon: "kubejs:contained_annihilation"
+	id: "200000000000000D"
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"3700000000000019"
+				"3A00000000000215"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.61361e1c8356946125c4}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.be0ec485faf1208e567d}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.e4d4e741463912ba570e}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.1e8e733f672d6eaf26e7}"
+			]
+			hide_until_deps_complete: true
+			icon: "mekanism:pellet_antimatter"
+			id: "3D00000000000001"
+			min_width: 420
+			rewards: [{
+				id: "5D00000000000001"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.9b9a8d05a7ec353bda84}"
+			tasks: [
+				{
+					id: "4D00000000000001"
+					title: "{lanminecraft.reforged.quests.13_annihilation.5ad3dbd1242a4cea217e}"
+					type: "checkmark"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.6690c7b51f8991fa0aec}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D00000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.5f2625a39ed3e81b4f46}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.20ff6452c3ba7bbf1890}"
+			]
+			icon: "mekanism:isotopic_centrifuge"
+			id: "3D00000000000002"
+			rewards: [{
+				id: "5D00000000000002"
+				type: "xp"
+				xp: 60
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.16e2bb7c6fb7c86746db}"
+			tasks: [
+				{
+					id: "4D00000000000002"
+					item: "mekanism:isotopic_centrifuge"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.cdd9cc0c83cf2266db5b}"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3D00000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.ec7e3d224d522f327b3c}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.4f0f9d4283eb02946886}"
+			]
+			icon: "mekanism:solar_neutron_activator"
+			id: "3D00000000000003"
+			rewards: [{
+				id: "5D00000000000003"
+				type: "xp"
+				xp: 60
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.48635ab2517a5fba94ee}"
+			tasks: [
+				{
+					id: "4D00000000000003"
+					item: "mekanism:solar_neutron_activator"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.270539cb22d3280309ee}"
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3D00000000000003"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.d302821fdb543c6f46d3}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.dff7b897c350edf47a24}"
+			]
+			icon: "mekanism:solar_neutron_activator"
+			id: "3D00000000000004"
+			rewards: [{
+				id: "5D00000000000004"
+				type: "xp"
+				xp: 80
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.c9ad3fe8c9bb7b52af09}"
+			tasks: [
+				{
+					count: 8L
+					id: "4D00000000000004"
+					item: "mekanism:solar_neutron_activator"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.5b57f816b023a81fd934}"
+			x: -2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3D00000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.5279a8101c0dd05f3b61}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.02117a1202acfb99f214}"
+			]
+			icon: "mekanism:pellet_plutonium"
+			id: "3D00000000000005"
+			rewards: [{
+				id: "5D00000000000005"
+				type: "xp"
+				xp: 60
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.5029677d79fe5b92cc05}"
+			tasks: [
+				{
+					count: 16L
+					id: "4D00000000000005"
+					item: "mekanism:pellet_plutonium"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.633e2df7669b41118daf}"
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3D00000000000004"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.0f582d32cec489d493a5}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.31f7c5d8c4415f91a657}"
+			]
+			icon: "mekanism:pellet_polonium"
+			id: "3D00000000000006"
+			rewards: [{
+				id: "5D00000000000006"
+				type: "xp"
+				xp: 80
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.895f47a35caf899871a3}"
+			tasks: [
+				{
+					count: 64L
+					id: "4D00000000000006"
+					item: "mekanism:pellet_polonium"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.7698a6c36ca5a4ce1ab7}"
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3D00000000000003"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.53d4a8702c0f304d72d2}"
+			]
+			icon: "mekanism:dust_fluorite"
+			id: "3D00000000000007"
+			rewards: [{
+				id: "5D00000000000007"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.c1a45e050c85dc011e44}"
+			tasks: [
+				{
+					count: 64L
+					id: "4D00000000000007"
+					item: "mekanism:dust_fluorite"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.32722becd79c3021c8c2}"
+			x: -5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3D00000000000005"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.dbfd6cabea0f56bc0722}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.9696509d41b5afbcd51f}"
+			]
+			icon: "mekanism:hdpe_sheet"
+			id: "3D00000000000008"
+			rewards: [{
+				id: "5D00000000000008"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.31fa689155f80bbe0279}"
+			tasks: [
+				{
+					count: 32L
+					id: "4D00000000000008"
+					item: "mekanism:hdpe_sheet"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.b83700147fd748ac3e56}"
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"3D00000000000005"
+				"3D00000000000008"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.f6f2282f7009632c1dd8}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.f6f50293cdf2c6e458d4}"
+			]
+			icon: "mekanism:sps_casing"
+			id: "3D00000000000009"
+			rewards: [{
+				id: "5D00000000000009"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.9a61d5a22cf708d617b6}"
+			tasks: [
+				{
+					count: 24L
+					id: "4D00000000000009"
+					item: "mekanism:sps_casing"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.0cd15f93dcf38bbdea27}"
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3D00000000000009"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.da1f23073fb99963d108}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.b4dde093848c74551426}"
+			]
+			icon: "mekanism:sps_casing"
+			id: "3D00000000000010"
+			rewards: [{
+				id: "5D00000000000010"
+				type: "xp"
+				xp: 120
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.1f1e162498048b3bb9ae}"
+			tasks: [
+				{
+					count: 48L
+					id: "4D00000000000010"
+					item: "mekanism:sps_casing"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.6356497c275ad3ccb8d9}"
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["3D00000000000009"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.8c8fe4c1ba726490fb6a}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.ba4d1f48ae607bb64ec9}"
+			]
+			icon: "mekanism:sps_port"
+			id: "3D00000000000011"
+			rewards: [{
+				id: "5D00000000000011"
+				type: "xp"
+				xp: 60
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.e45232713f806e6ee70d}"
+			tasks: [
+				{
+					count: 2L
+					id: "4D00000000000011"
+					item: "mekanism:sps_port"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.87632e2cb00fbfc32ad2}"
+			x: 2.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["3D00000000000005"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.c950a7fd47afd0e451a4}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.0713a7cf74be737b4ec0}"
+			]
+			icon: "mekanism:ultimate_control_circuit"
+			id: "3D00000000000012"
+			rewards: [{
+				id: "5D00000000000012"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.6000a1261bd495ad9804}"
+			tasks: [
+				{
+					count: 16L
+					id: "4D00000000000012"
+					item: "mekanism:ultimate_control_circuit"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.31fbfba1aca8426a06ad}"
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3D00000000000007"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.ccb9ae5bfc73d2639f43}"
+			]
+			icon: "mekanism:laser"
+			id: "3D00000000000013"
+			rewards: [{
+				id: "5D00000000000013"
+				type: "xp"
+				xp: 60
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.cc9dfdcecc8fc6c9a824}"
+			tasks: [
+				{
+					count: 4L
+					id: "4D00000000000013"
+					item: "mekanism:laser"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.985c7faaa3b8a8501604}"
+			x: -5.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"3D00000000000013"
+				"3D00000000000012"
+				"3D00000000000006"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.695a859cc8b0930ded37}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.99507b2b3be759d744e3}"
+			]
+			icon: "mekanism:supercharged_coil"
+			id: "3D00000000000014"
+			rewards: [{
+				id: "5D00000000000014"
+				type: "xp"
+				xp: 120
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.30c3fb353bf0ce31a539}"
+			tasks: [
+				{
+					count: 2L
+					id: "4D00000000000014"
+					item: "mekanism:supercharged_coil"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.c9fd3434baf13c4c6951}"
+			x: -2.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["3D00000000000014"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.ff268e33a511776e50aa}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.94e39bb735a8626210ad}"
+			]
+			icon: "mekanism:supercharged_coil"
+			id: "3D00000000000015"
+			rewards: [{
+				id: "5D00000000000015"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.45c34005040eff12ba0d}"
+			tasks: [
+				{
+					count: 8L
+					id: "4D00000000000015"
+					item: "mekanism:supercharged_coil"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.11f0d3d69cb966ef5cb4}"
+			x: -2.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["3D00000000000012"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.f903ecf5cad01a82fecd}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.5a6e0bcb283dc7af3107}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.d1c9664b7b7fdaf68a03}"
+			]
+			icon: "mekanism:basic_induction_cell"
+			id: "3D00000000000016"
+			min_width: 400
+			rewards: [{
+				id: "5D00000000000016"
+				type: "xp"
+				xp: 150
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.98c3233bfbe481f49fae}"
+			tasks: [
+				{
+					count: 4L
+					id: "4D00000000000016"
+					item: "mekanism:basic_induction_cell"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4D00000000000017"
+					item: "mekanism:basic_induction_provider"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.8b2ac40958ed4d80c168}"
+			x: 2.5d
+			y: 17.5d
+		}
+		{
+			dependencies: [
+				"3D00000000000010"
+				"3D00000000000011"
+				"3D00000000000015"
+				"3D00000000000016"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.275de94c04dac73f6ba8}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.9c355f26131faa22d718}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.6aba9c4e345c12017157}"
+			]
+			icon: "mekanism:sps_casing"
+			id: "3D00000000000017"
+			min_width: 420
+			rewards: [{
+				id: "5D00000000000017"
+				type: "xp"
+				xp: 400
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.4caf082008b6a3b07d74}"
+			tasks: [
+				{
+					id: "4D00000000000018"
+					title: "{lanminecraft.reforged.quests.13_annihilation.ad3e1325600b7a50e86f}"
+					type: "checkmark"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.ca80d03ea5964a70257e}"
+			x: 0.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3D00000000000017"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.ad99ca0d89677cc5cb32}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.524a548148bb7f31eae7}"
+			]
+			icon: "mekanism:pellet_antimatter"
+			id: "3D00000000000018"
+			rewards: [{
+				id: "5D00000000000018"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.887a905c4d62a85446bc}"
+			tasks: [
+				{
+					id: "4D00000000000019"
+					item: "mekanism:pellet_antimatter"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.be12efe021887198c52c}"
+			x: 0.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["3D00000000000018"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.47d60cb5205f7043af69}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.2bd61b52837f343d84da}"
+			]
+			icon: "mekanism:pellet_antimatter"
+			id: "3D00000000000019"
+			rewards: [{
+				id: "5D00000000000019"
+				type: "xp"
+				xp: 250
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.db0a21d973b1050d4525}"
+			tasks: [
+				{
+					count: 16L
+					id: "4D00000000000020"
+					item: "mekanism:pellet_antimatter"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.a5b7b3daf58c79ba0a39}"
+			x: -2.5d
+			y: 25.5d
+		}
+		{
+			dependencies: ["3D00000000000018"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.1d059cdc26833ad37c6f}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.2f306b8be0e91f894f4e}"
+			]
+			icon: "mekanism:pellet_antimatter"
+			id: "3D00000000000020"
+			rewards: [{
+				id: "5D00000000000020"
+				type: "xp"
+				xp: 400
+			}]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.e67d188cf85491814d43}"
+			tasks: [
+				{
+					count: 128L
+					id: "4D00000000000021"
+					item: "mekanism:pellet_antimatter"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.510426faae0eb1d85bd8}"
+			x: 2.5d
+			y: 25.5d
+		}
+		{
+			dependencies: [
+				"3D00000000000019"
+				"3D00000000000020"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.7e0dcd9b14e04185b00c}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.6956fddccfce1d258547}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.cca29db788cf4e0e07fb}"
+			]
+			icon: "mekanism:supercharged_coil"
+			id: "3D00000000000021"
+			min_width: 400
+			rewards: [{
+				id: "5D00000000000021"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.9b9a8d05a7ec353bda84}"
+			tasks: [
+				{
+					id: "4D00000000000022"
+					title: "{lanminecraft.reforged.quests.13_annihilation.5ad3dbd1242a4cea217e}"
+					type: "checkmark"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.1bcbf1dcad4ffe4950cd}"
+			x: 0.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["3D00000000000021"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.b267256ab29413fe910e}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.9c993614bbd67d5f98e9}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.d5641650632b3007d788}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.5cde96d83e06d126c4cb}"
+			]
+			icon: "minecraft:dragon_egg"
+			id: "3D00000000000022"
+			min_width: 420
+			rewards: [{
+				id: "5D00000000000022"
+				type: "xp"
+				xp: 150
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.9b9a8d05a7ec353bda84}"
+			tasks: [
+				{
+					id: "4D00000000000023"
+					title: "{lanminecraft.reforged.quests.13_annihilation.5ad3dbd1242a4cea217e}"
+					type: "checkmark"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.8229dc27e41c7fe589c0}"
+			x: 0.0d
+			y: 31.0d
+		}
+		{
+			dependencies: ["3D00000000000022"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.cb6d9bca4a6c039ccc3b}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.44e0e024b7af9fe1ce61}"
+			]
+			icon: "mekanism:chemical_oxidizer"
+			id: "3D00000000000023"
+			rewards: [{
+				id: "5D00000000000023"
+				type: "xp"
+				xp: 80
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.a9a8d282cd9fe8e06f44}"
+			tasks: [
+				{
+					id: "4D00000000000024"
+					item: "mekanism:chemical_oxidizer"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.7e78978a6ab9b6ce31b8}"
+			x: -3.0d
+			y: 33.5d
+		}
+		{
+			dependencies: ["3D00000000000022"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.927ba2f78c1421bffad7}"
+			]
+			icon: "mekanism:chemical_crystallizer"
+			id: "3D00000000000024"
+			rewards: [{
+				id: "5D00000000000024"
+				type: "xp"
+				xp: 80
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.e59e7adc5108d7dee3ec}"
+			tasks: [
+				{
+					id: "4D00000000000025"
+					item: "mekanism:chemical_crystallizer"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.e01480ccf17c92654260}"
+			x: 3.0d
+			y: 33.5d
+		}
+		{
+			dependencies: [
+				"3D00000000000023"
+				"3D00000000000024"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.ef0e6f67c67e0b423c54}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.62d7ed3bd6a0adb0e3ce}"
+			]
+			icon: "mekanism:antiprotonic_nucleosynthesizer"
+			id: "3D00000000000025"
+			rewards: [{
+				id: "5D00000000000025"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.eabcc0b374070bcf7da1}"
+			tasks: [
+				{
+					id: "4D00000000000026"
+					item: "mekanism:antiprotonic_nucleosynthesizer"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.e1ef3392520650bc03a9}"
+			x: 0.0d
+			y: 36.0d
+		}
+		{
+			dependencies: ["3D00000000000025"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.dbbb31cfa9647e97b9e6}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.98a3c8ca7a50926c1a8c}"
+			]
+			icon: "minecraft:yellow_wool"
+			id: "3D00000000000026"
+			rewards: [{
+				id: "5D00000000000026"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.9b9a8d05a7ec353bda84}"
+			tasks: [
+				{
+					id: "4D00000000000027"
+					title: "{lanminecraft.reforged.quests.13_annihilation.5ad3dbd1242a4cea217e}"
+					type: "checkmark"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.2e4e166ec862d1eb407a}"
+			x: -5.0d
+			y: 38.5d
+		}
+		{
+			dependencies: ["3D00000000000026"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.633563b3beeac99a17e8}"
+			]
+			icon: "minecraft:glowstone"
+			id: "3D00000000000027"
+			rewards: [{
+				id: "5D00000000000027"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.9e0cb0f3df83ea748951}"
+			tasks: [
+				{
+					count: 16L
+					id: "4D00000000000028"
+					item: "minecraft:glowstone"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.c9d0c3ab79a5942c7b1d}"
+			x: -5.0d
+			y: 41.0d
+		}
+		{
+			dependencies: ["3D00000000000026"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.c7fbab9fd1007a9a19d8}"
+			]
+			icon: "minecraft:lapis_block"
+			id: "3D00000000000028"
+			rewards: [{
+				id: "5D00000000000028"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.1da79ef3349dec111e8f}"
+			tasks: [
+				{
+					count: 8L
+					id: "4D00000000000029"
+					item: "minecraft:lapis_block"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.f74704a300c4ba7c18b1}"
+			x: -7.0d
+			y: 41.0d
+		}
+		{
+			dependencies: ["3D00000000000026"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.2b9fd80a5e3bcd538076}"
+			]
+			icon: "minecraft:redstone_block"
+			id: "3D00000000000029"
+			rewards: [{
+				id: "5D00000000000029"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.3456d702717f8516c7b3}"
+			tasks: [
+				{
+					count: 8L
+					id: "4D00000000000030"
+					item: "minecraft:redstone_block"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.2175a59f2ac5074fe639}"
+			x: -7.0d
+			y: 43.5d
+		}
+		{
+			dependencies: ["3D00000000000026"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.9996632eb02cdc60eba4}"
+			]
+			icon: "minecraft:quartz_block"
+			id: "3D00000000000030"
+			rewards: [{
+				id: "5D00000000000030"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.0d4350a8147acc137019}"
+			tasks: [
+				{
+					count: 8L
+					id: "4D00000000000031"
+					item: "minecraft:quartz_block"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.6dbfeeb207b36340969e}"
+			x: -5.0d
+			y: 43.5d
+		}
+		{
+			dependencies: ["3D00000000000025"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.bf32d736bd72fdfbb672}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.b5e61efa9d5f776faae3}"
+			]
+			icon: "minecraft:diamond"
+			id: "3D00000000000031"
+			rewards: [{
+				id: "5D00000000000031"
+				type: "xp"
+				xp: 60
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.b58fe656969a3f8f77df}"
+			tasks: [
+				{
+					count: 16L
+					id: "4D00000000000032"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.9fba84f422e5c7dc311a}"
+			x: -3.0d
+			y: 41.0d
+		}
+		{
+			dependencies: ["3D00000000000031"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.188018495f0c0db200a6}"
+			]
+			icon: "minecraft:emerald"
+			id: "3D00000000000032"
+			rewards: [{
+				id: "5D00000000000032"
+				type: "xp"
+				xp: 60
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.f3d3897c4e0c8d53bd64}"
+			tasks: [
+				{
+					count: 16L
+					id: "4D00000000000033"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.6e4722350a9923836770}"
+			x: -3.0d
+			y: 43.5d
+		}
+		{
+			dependencies: ["3D00000000000031"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.1bd3e060f16552c4ff69}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.32797c2fdbfc057ff3eb}"
+			]
+			icon: "minecraft:iron_ingot"
+			id: "3D00000000000033"
+			rewards: [{
+				id: "5D00000000000033"
+				type: "xp"
+				xp: 60
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.54c38f71d72e8b6b90b1}"
+			tasks: [
+				{
+					count: 32L
+					id: "4D00000000000034"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.191afbd3de6d24de2706}"
+			x: -3.0d
+			y: 46.0d
+		}
+		{
+			dependencies: ["3D00000000000025"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.3580d8efaadc04aaf7a4}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.964b566937a5709de701}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.dc4669d3eb5e9be3545e}"
+			]
+			icon: "minecraft:heart_of_the_sea"
+			id: "3D00000000000034"
+			min_width: 400
+			rewards: [{
+				id: "5D00000000000034"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.9b9a8d05a7ec353bda84}"
+			tasks: [
+				{
+					id: "4D00000000000035"
+					title: "{lanminecraft.reforged.quests.13_annihilation.5ad3dbd1242a4cea217e}"
+					type: "checkmark"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.72a4309220a15d71b102}"
+			x: 3.0d
+			y: 38.5d
+		}
+		{
+			dependencies: ["3D00000000000034"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.03594205287aba4b60e2}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.8b21ecf6088c25fde432}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.e3fad4cf3f234ec82a8a}"
+			]
+			icon: "minecraft:dragon_egg"
+			id: "3D00000000000035"
+			min_width: 400
+			rewards: [{
+				id: "5D00000000000035"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.c7dbd7cf0c3c4dd4537d}"
+			tasks: [
+				{
+					id: "4D00000000000036"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.bfb5fd9f10a38e1dd669}"
+			x: 3.0d
+			y: 41.0d
+		}
+		{
+			dependencies: ["3D00000000000034"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.9a67f11b774c69d9d924}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.c7c432f17c6769912d48}"
+			]
+			icon: "minecraft:trident"
+			id: "3D00000000000036"
+			rewards: [{
+				id: "5D00000000000036"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.e9faddc4b74615322239}"
+			tasks: [
+				{
+					id: "4D00000000000037"
+					item: "minecraft:trident"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.71c095b134e2d3b1af4b}"
+			x: 5.5d
+			y: 41.0d
+		}
+		{
+			dependencies: ["3D00000000000036"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.4c867a5cf46d67cdeb67}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.ca5b3b7c08f9bc2327ea}"
+			]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "3D00000000000037"
+			rewards: [{
+				id: "5D00000000000037"
+				type: "xp"
+				xp: 250
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.1b616784901695562f70}"
+			tasks: [
+				{
+					count: 3L
+					id: "4D00000000000038"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.a38d8a82a7a5a31a68b6}"
+			x: 5.5d
+			y: 43.5d
+		}
+		{
+			dependencies: ["3D00000000000035"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.a61049b3e420e275c5b0}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.36939191a05b44c67da8}"
+			]
+			icon: "minecraft:heart_of_the_sea"
+			id: "3D00000000000038"
+			rewards: [{
+				id: "5D00000000000038"
+				type: "xp"
+				xp: 250
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.9dec11a116b9afff9994}"
+			tasks: [
+				{
+					id: "4D00000000000039"
+					item: "minecraft:heart_of_the_sea"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.5ba427c2513895c38e5b}"
+			x: 3.0d
+			y: 43.5d
+		}
+		{
+			dependencies: ["3D00000000000038"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.8db6c907ec6bc6f579eb}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.a896a610ab43f284eb32}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.c7044c1dc336bf5541de}"
+			]
+			icon: "minecraft:nautilus_shell"
+			id: "3D00000000000039"
+			rewards: [{
+				id: "5D00000000000039"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.140213e4c3eb6a4b900b}"
+			tasks: [
+				{
+					count: 8L
+					id: "4D00000000000040"
+					item: "minecraft:nautilus_shell"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.a9b168d47f99621d6441}"
+			x: 3.0d
+			y: 46.0d
+		}
+		{
+			dependencies: ["3D00000000000036"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.10491edc5a564da2c4b4}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.06a078dcbd7a02ecc9f5}"
+			]
+			icon: "minecraft:phantom_membrane"
+			id: "3D00000000000040"
+			rewards: [{
+				id: "5D00000000000040"
+				type: "xp"
+				xp: 150
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.a2a6e98e496aa27b1133}"
+			tasks: [
+				{
+					count: 16L
+					id: "4D00000000000041"
+					item: "minecraft:phantom_membrane"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.2d8ae0d06da4a7b0f32d}"
+			x: 5.5d
+			y: 46.0d
+		}
+		{
+			dependencies: ["3D00000000000034"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.bd7c0f237627acd8019d}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.48399c478b5dfee8a860}"
+			]
+			icon: "minecraft:chorus_flower"
+			id: "3D00000000000041"
+			rewards: [{
+				id: "5D00000000000041"
+				type: "xp"
+				xp: 120
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.a465ede95dd6fb6b5cc0}"
+			tasks: [
+				{
+					count: 8L
+					id: "4D00000000000042"
+					item: "minecraft:chorus_flower"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.025ed34cd5a04f51d804}"
+			x: 0.0d
+			y: 46.0d
+		}
+		{
+			dependencies: ["3D00000000000041"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.8633bb495c17194da174}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.02cf18da4c3d81588171}"
+			]
+			icon: "minecraft:end_crystal"
+			id: "3D00000000000042"
+			rewards: [{
+				id: "5D00000000000042"
+				type: "xp"
+				xp: 180
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.a6be20eec01242d8ccd1}"
+			tasks: [
+				{
+					count: 4L
+					id: "4D00000000000043"
+					item: "minecraft:end_crystal"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.71ac4b553af0bf15ce55}"
+			x: 0.0d
+			y: 48.5d
+		}
+		{
+			dependencies: ["3D00000000000042"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.1d8feaa4f9b0e97162a2}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.1255de912179c41d1e76}"
+			]
+			icon: "minecraft:respawn_anchor"
+			id: "3D00000000000043"
+			rewards: [{
+				id: "5D00000000000043"
+				type: "xp"
+				xp: 120
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.ef5d16ebab3576a4746c}"
+			tasks: [
+				{
+					id: "4D00000000000044"
+					item: "minecraft:respawn_anchor"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.8e439c85ce936f9573c9}"
+			x: -1.0d
+			y: 51.0d
+		}
+		{
+			dependencies: ["3D00000000000042"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.81fde29810f0d1522b7e}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.ede346755106e74795f8}"
+			]
+			icon: "minecraft:enchanted_golden_apple"
+			id: "3D00000000000044"
+			rewards: [{
+				id: "5D00000000000044"
+				type: "xp"
+				xp: 150
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.e39acfbeef1fc3ee7754}"
+			tasks: [
+				{
+					count: 4L
+					id: "4D00000000000045"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.7598ebd26f74c1a835ec}"
+			x: 1.5d
+			y: 51.0d
+		}
+		{
+			dependencies: ["3D00000000000040"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.c751378dcb5910357f6e}"
+			]
+			icon: "minecraft:ender_chest"
+			id: "3D00000000000045"
+			rewards: [{
+				id: "5D00000000000045"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.ec397cdad83504087444}"
+			tasks: [
+				{
+					count: 4L
+					id: "4D00000000000046"
+					item: "minecraft:ender_chest"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.3b461c5cf3a1610e84af}"
+			x: 6.0d
+			y: 48.5d
+		}
+		{
+			dependencies: ["3D00000000000036"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.c09a98fda7e496209224}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.e1904560a01f3afdb9e9}"
+			]
+			icon: "minecraft:crying_obsidian"
+			id: "3D00000000000046"
+			rewards: [{
+				id: "5D00000000000046"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.03afecf687b818677362}"
+			tasks: [
+				{
+					id: "4D00000000000047"
+					item: "minecraft:crossbow"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4D00000000000048"
+					item: "minecraft:crying_obsidian"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.7b7d025edc278fbcdab1}"
+			x: 8.0d
+			y: 46.0d
+		}
+		{
+			dependencies: [
+				"3D00000000000037"
+				"3D00000000000039"
+				"3D00000000000043"
+				"3D00000000000044"
+				"3D00000000000045"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.d78266e8dd4018f28451}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.171103f3011e57caf17a}"
+			]
+			icon: "minecraft:dragon_egg"
+			id: "3D00000000000047"
+			min_width: 400
+			rewards: [{
+				id: "5D00000000000047"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.9190c6e4e7a05e68838b}"
+			tasks: [
+				{
+					id: "4D00000000000049"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+				{
+					id: "4D00000000000050"
+					item: "minecraft:trident"
+					type: "item"
+				}
+				{
+					id: "4D00000000000051"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+				{
+					id: "4D00000000000052"
+					item: "minecraft:heart_of_the_sea"
+					type: "item"
+				}
+				{
+					id: "4D00000000000053"
+					item: "minecraft:nautilus_shell"
+					type: "item"
+				}
+				{
+					id: "4D00000000000054"
+					item: "minecraft:phantom_membrane"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.59e1b6544c8358c9c5a1}"
+			x: 3.0d
+			y: 53.5d
+		}
+		{
+			dependencies: ["3D00000000000047"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.489e5f13ff01edd14b7c}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.2ca5c17613bf36e4c246}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.099e99698102e4b861d5}"
+			]
+			icon: "kubejs:annihilation_cell"
+			id: "3D00000000000048"
+			min_width: 420
+			rewards: [{
+				id: "5D00000000000048"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.9b9a8d05a7ec353bda84}"
+			tasks: [
+				{
+					id: "4D00000000000055"
+					title: "{lanminecraft.reforged.quests.13_annihilation.5ad3dbd1242a4cea217e}"
+					type: "checkmark"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.ba10334a896f1a32e413}"
+			x: 0.0d
+			y: 56.0d
+		}
+		{
+			dependencies: ["3D00000000000048"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.d24f0696944bca9336a0}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.c9d22ab98a356cd505e4}"
+			]
+			icon: "mekanism:alloy_atomic"
+			id: "3D00000000000049"
+			rewards: [{
+				id: "5D00000000000049"
+				type: "xp"
+				xp: 150
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.7d44a6a92fe002bee837}"
+			tasks: [
+				{
+					count: 64L
+					id: "4D00000000000056"
+					item: "mekanism:alloy_atomic"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.fc19dfe9974a58f27b05}"
+			x: -3.0d
+			y: 58.5d
+		}
+		{
+			dependencies: ["3D00000000000048"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.9a09c3c1598ce8aee204}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.6e31540fa68796f64d41}"
+			]
+			icon: "mekanism:ultimate_control_circuit"
+			id: "3D00000000000050"
+			rewards: [{
+				id: "5D00000000000050"
+				type: "xp"
+				xp: 150
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.84560b492961602ffe72}"
+			tasks: [
+				{
+					count: 64L
+					id: "4D00000000000057"
+					item: "mekanism:ultimate_control_circuit"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.0171759a69b1f0946b53}"
+			x: 3.0d
+			y: 58.5d
+		}
+		{
+			dependencies: [
+				"3D00000000000049"
+				"3D00000000000050"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.f3c75245ed27cadc1040}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.cc41a37f28449d3d2a8b}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.8c4581a8d4e299eb281e}"
+			]
+			icon: "kubejs:magnetic_trap"
+			id: "3D00000000000051"
+			min_width: 420
+			rewards: [{
+				id: "5D00000000000051"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.64cfc0887a281b7316b3}"
+			tasks: [
+				{
+					id: "4D00000000000058"
+					item: "kubejs:magnetic_trap"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.ec3fb6323471b4b35edb}"
+			x: 0.0d
+			y: 61.0d
+		}
+		{
+			dependencies: ["3D00000000000051"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.2a473ce0f7fd7054918d}"
+			]
+			icon: "kubejs:magnetic_trap"
+			id: "3D00000000000052"
+			rewards: [{
+				id: "5D00000000000052"
+				type: "xp"
+				xp: 120
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.07e2440f985e3bb54808}"
+			tasks: [
+				{
+					count: 8L
+					id: "4D00000000000059"
+					item: "kubejs:magnetic_trap"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.f0dbe7a459eb49d8efc3}"
+			x: -3.0d
+			y: 63.5d
+		}
+		{
+			dependencies: [
+				"3D00000000000051"
+				"3D00000000000086"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.a38957ef8b15b3ebb197}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.5a7ad7dcbaf6741b7b7d}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.c2345800050056ed02de}"
+			]
+			icon: "kubejs:annihilation_cell"
+			id: "3D00000000000053"
+			min_width: 420
+			rewards: [{
+				id: "5D00000000000053"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.9f8a8bcdc0beb3ef90b1}"
+			tasks: [
+				{
+					id: "4D00000000000060"
+					item: "kubejs:annihilation_cell"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.3fefe98f501aa4e666ae}"
+			x: 3.0d
+			y: 63.5d
+		}
+		{
+			dependencies: ["3D00000000000053"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.8181d899e6fb92a19099}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.ea3586ab31e64680e519}"
+			]
+			icon: "kubejs:annihilation_cell"
+			id: "3D00000000000054"
+			rewards: [{
+				id: "5D00000000000054"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.6e83cb1b1723aa296f24}"
+			tasks: [
+				{
+					count: 8L
+					id: "4D00000000000061"
+					item: "kubejs:annihilation_cell"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.0ac9c81362eed62fec3d}"
+			x: 3.0d
+			y: 66.0d
+		}
+		{
+			dependencies: [
+				"3D00000000000054"
+				"3D00000000000052"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.099b333e48b3abcee9ed}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.4e60ca66cd041117c21d}"
+			]
+			icon: "kubejs:annihilation_core"
+			id: "3D00000000000055"
+			rewards: [{
+				id: "5D00000000000055"
+				type: "xp"
+				xp: 400
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.affa8bba61ca8f22b82d}"
+			tasks: [
+				{
+					id: "4D00000000000062"
+					item: "kubejs:annihilation_core"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.1b83779c7b3ee60e060d}"
+			x: 0.0d
+			y: 68.5d
+		}
+		{
+			dependencies: ["3D00000000000052"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.c7c783fd55a680bc847e}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.2fcac787cc9964a95f35}"
+			]
+			icon: "kubejs:magnetic_trap"
+			id: "3D00000000000056"
+			rewards: [{
+				id: "5D00000000000056"
+				type: "xp"
+				xp: 300
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.573f53bd6ace417df0b3}"
+			tasks: [
+				{
+					count: 72L
+					id: "4D00000000000063"
+					item: "kubejs:magnetic_trap"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.04d1e9aa6669fa756021}"
+			x: -3.0d
+			y: 68.5d
+		}
+		{
+			dependencies: ["3D00000000000054"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.634acaa0e47cd537900f}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.1eba7822207e6614acd3}"
+			]
+			icon: "kubejs:annihilation_cell"
+			id: "3D00000000000057"
+			rewards: [{
+				id: "5D00000000000057"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.08635fabde042b1c1e63}"
+			tasks: [
+				{
+					count: 64L
+					id: "4D00000000000064"
+					item: "kubejs:annihilation_cell"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.2b03969ef7650239b5ad}"
+			x: 3.0d
+			y: 71.0d
+		}
+		{
+			dependencies: [
+				"3D00000000000055"
+				"3D00000000000057"
+				"3D00000000000056"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.19c1b197e78670fc05d1}"
+			]
+			icon: "kubejs:annihilation_core"
+			id: "3D00000000000058"
+			rewards: [{
+				id: "5D00000000000058"
+				type: "xp"
+				xp: 600
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.ca339d7f7bca50f351f3}"
+			tasks: [
+				{
+					count: 8L
+					id: "4D00000000000065"
+					item: "kubejs:annihilation_core"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.22bc62a9fb379efd7ce8}"
+			x: 0.0d
+			y: 73.5d
+		}
+		{
+			dependencies: ["3D00000000000058"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.40fcd9988b1de1a72b98}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.7cf969834fbea76bf5c9}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.c42047203a966bc3a2a5}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.f8ffff6cd77806be87d6}"
+			]
+			icon: "kubejs:contained_annihilation"
+			id: "3D00000000000059"
+			min_width: 420
+			rewards: [{
+				id: "5D00000000000059"
+				type: "xp"
+				xp: 1000
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.16e13d1b116df058b92e}"
+			tasks: [
+				{
+					id: "4D00000000000066"
+					item: "kubejs:contained_annihilation"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.eacc5c455f970b561332}"
+			x: 0.0d
+			y: 76.5d
+		}
+		{
+			dependencies: ["3D00000000000059"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.6773214555b1de017daa}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.6692454b70eb3e97fc57}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.75598cfb2925a074d4b6}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.f756f4d1a5e7d56e7e07}"
+			]
+			icon: "kubejs:antimatter"
+			id: "3D00000000000060"
+			min_width: 420
+			rewards: [{
+				id: "5D00000000000060"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.9b9a8d05a7ec353bda84}"
+			tasks: [
+				{
+					id: "4D00000000000067"
+					title: "{lanminecraft.reforged.quests.13_annihilation.9b9a8d05a7ec353bda84}"
+					type: "checkmark"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.7561d06c5c832112c4a5}"
+			x: 0.0d
+			y: 79.5d
+		}
+		{
+			dependencies: ["3D00000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.00d561fecaebdcc2488a}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.a5fd2aef82301fd8d82d}"
+			]
+			icon: "mekanism:pellet_polonium"
+			id: "3D00000000000061"
+			rewards: [{
+				id: "5D00000000000061"
+				type: "xp"
+				xp: 80
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.37e6fcd55e6c49dd9cc2}"
+			tasks: [
+				{
+					count: 64L
+					id: "4D00000000000068"
+					item: "mekanism:yellow_cake_uranium"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.4134b0f3f1273a8d5f65}"
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3D00000000000061"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.b38fb6a75fa7a1c3a420}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.9e8e3c6fe9de9eb8ef91}"
+			]
+			icon: "mekanism:advanced_chemical_tank"
+			id: "3D00000000000062"
+			rewards: [{
+				id: "5D00000000000062"
+				type: "xp"
+				xp: 80
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.7352daa1d0f02054fa1c}"
+			tasks: [
+				{
+					count: 8L
+					id: "4D00000000000069"
+					item: "mekanism:advanced_chemical_tank"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.4e32fe29c5f7a67ff782}"
+			x: 7.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3D00000000000062"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.52c7be0c2edc83308efa}"
+			]
+			icon: "mekanism:advanced_pressurized_tube"
+			id: "3D00000000000063"
+			rewards: [{
+				id: "5D00000000000063"
+				type: "xp"
+				xp: 60
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.1def7a5e2015792b73df}"
+			tasks: [
+				{
+					count: 64L
+					id: "4D00000000000070"
+					item: "mekanism:advanced_pressurized_tube"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.ec923f214d1a8b8a9abf}"
+			x: 7.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3D00000000000004"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.b81c19e40fee1b9a6589}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.bde93285f273c57bea6d}"
+			]
+			icon: "mekanism:solar_neutron_activator"
+			id: "3D00000000000064"
+			rewards: [{
+				id: "5D00000000000064"
+				type: "xp"
+				xp: 150
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.5b23157857c2e8784ada}"
+			tasks: [
+				{
+					count: 16L
+					id: "4D00000000000071"
+					item: "mekanism:solar_neutron_activator"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.84602b97f9d3a70e1673}"
+			x: -5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"3D00000000000006"
+				"3D00000000000064"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.e66cdb6a9b2efa07c0e7}"
+			]
+			icon: "mekanism:pellet_polonium"
+			id: "3D00000000000065"
+			rewards: [{
+				id: "5D00000000000065"
+				type: "xp"
+				xp: 250
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.022213ab6d2574999a2b}"
+			tasks: [
+				{
+					count: 256L
+					id: "4D00000000000072"
+					item: "mekanism:pellet_polonium"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.b429cea3b83df043ccfa}"
+			x: -5.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["3D00000000000011"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.5228fef69e97805fa5dc}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.32400091c99b80e88ac4}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.83b518e6a0ca3119f865}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.7aa9ea797779d7a2655b}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.2cbda1db509ecad022b4}"
+			]
+			icon: "mekanism:sps_port"
+			id: "3D00000000000066"
+			min_width: 400
+			rewards: [{
+				id: "5D00000000000066"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.9b9a8d05a7ec353bda84}"
+			tasks: [
+				{
+					id: "4D00000000000073"
+					title: "{lanminecraft.reforged.quests.13_annihilation.5ad3dbd1242a4cea217e}"
+					type: "checkmark"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.9eb388268aa80fd9558f}"
+			x: 2.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["3D00000000000015"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.5e5fff5eb8e841ec8a17}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.016068dde47b314e60ea}"
+			]
+			icon: "mekanism:supercharged_coil"
+			id: "3D00000000000067"
+			rewards: [{
+				id: "5D00000000000067"
+				type: "xp"
+				xp: 300
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.48007d0e3f1485d0bf0b}"
+			tasks: [
+				{
+					count: 16L
+					id: "4D00000000000074"
+					item: "mekanism:supercharged_coil"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.5f72c7117a3cbda1969c}"
+			x: -5.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["3D00000000000016"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.59223f637277280294f3}"
+			]
+			icon: "mekanism:elite_energy_cube"
+			id: "3D00000000000068"
+			rewards: [{
+				id: "5D00000000000068"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.0211917eb57a9d870c98}"
+			tasks: [
+				{
+					id: "4D00000000000075"
+					item: "mekanism:elite_energy_cube"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.7250a6c854152e450506}"
+			x: 5.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["3D00000000000017"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.6219187969a1841c96f4}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.9e62f5c83c2214a6c796}"
+			]
+			icon: "mekanism:sps_casing"
+			id: "3D00000000000069"
+			rewards: [{
+				id: "5D00000000000069"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.59006fb9460aa897df10}"
+			tasks: [
+				{
+					count: 96L
+					id: "4D00000000000076"
+					item: "mekanism:sps_casing"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.43ed7d987098933f52e9}"
+			x: 0.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["3D00000000000018"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.b174a9b1f99861f16df6}"
+			]
+			icon: "mekanism:elite_chemical_tank"
+			id: "3D00000000000070"
+			rewards: [{
+				id: "5D00000000000070"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.1737f4e8c0dc84a89790}"
+			tasks: [
+				{
+					count: 2L
+					id: "4D00000000000077"
+					item: "mekanism:elite_chemical_tank"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.1fcbd2d7dc8d289b04b5}"
+			x: 2.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["3D00000000000025"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.42f41401864540c6fa44}"
+			]
+			icon: "mekanism:upgrade_speed"
+			id: "3D00000000000071"
+			rewards: [{
+				id: "5D00000000000071"
+				type: "xp"
+				xp: 80
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.30c6c4587a8ee0ca6b01}"
+			tasks: [
+				{
+					count: 8L
+					id: "4D00000000000078"
+					item: "mekanism:upgrade_speed"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.b6030996ee532c8cda2c}"
+			x: 0.0d
+			y: 41.0d
+		}
+		{
+			dependencies: ["3D00000000000025"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.2559c6640c4194eae3f3}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.7b4346ea902f4cefdac5}"
+			]
+			icon: "mekanism:antiprotonic_nucleosynthesizer"
+			id: "3D00000000000072"
+			rewards: [{
+				id: "5D00000000000072"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.f7782822abddb500267f}"
+			tasks: [
+				{
+					count: 4L
+					id: "4D00000000000079"
+					item: "mekanism:antiprotonic_nucleosynthesizer"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.e071cee63d2ee0e66899}"
+			x: -1.0d
+			y: 38.5d
+		}
+		{
+			dependencies: ["3D00000000000041"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.5560b10746239ba9d370}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.9b548aa1169b3cb0dfcd}"
+			]
+			icon: "minecraft:beacon"
+			id: "3D00000000000073"
+			rewards: [{
+				id: "5D00000000000073"
+				type: "xp"
+				xp: 150
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.643253d0220d0d066173}"
+			tasks: [
+				{
+					count: 4L
+					id: "4D00000000000080"
+					item: "minecraft:beacon"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.70949cba6505033919a2}"
+			x: -1.0d
+			y: 48.5d
+		}
+		{
+			dependencies: ["3D00000000000039"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.76d321f54e1531574597}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.9345466f3bc31a2ebdbc}"
+			]
+			icon: "minecraft:conduit"
+			id: "3D00000000000074"
+			rewards: [{
+				id: "5D00000000000074"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.9a30ac906ebebc39d9bf}"
+			tasks: [
+				{
+					id: "4D00000000000081"
+					item: "minecraft:conduit"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.be125dd16b64cb6f6669}"
+			x: 3.0d
+			y: 48.5d
+		}
+		{
+			dependencies: ["3D00000000000046"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.57b77d4c981a795e0517}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.92a08742b81e38dd24f9}"
+			]
+			icon: "minecraft:elytra"
+			id: "3D00000000000075"
+			rewards: [{
+				id: "5D00000000000075"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.87b73e819584a6e51923}"
+			tasks: [
+				{
+					id: "4D00000000000082"
+					item: "minecraft:elytra"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4D00000000000083"
+					item: "minecraft:phantom_membrane"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.2694188078a260edb80c}"
+			x: 8.0d
+			y: 48.5d
+		}
+		{
+			dependencies: ["3D00000000000042"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.63181bbcca416f775688}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.126cdfb26a2334072851}"
+			]
+			icon: "minecraft:dragon_head"
+			id: "3D00000000000076"
+			min_width: 400
+			rewards: [{
+				id: "5D00000000000076"
+				type: "xp"
+				xp: 400
+			}]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.47a1f14b26e9ccaaaf1b}"
+			tasks: [
+				{
+					id: "4D00000000000084"
+					title: "{lanminecraft.reforged.quests.13_annihilation.002c39b17cbee65f57c2}"
+					type: "checkmark"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.1e164bd1892547726918}"
+			x: 0.0d
+			y: 51.0d
+		}
+		{
+			dependencies: ["3D00000000000030"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.c0e10c445f5011ca6076}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.bdccd3270a38fa02c004}"
+			]
+			icon: "minecraft:lapis_block"
+			id: "3D00000000000077"
+			rewards: [{
+				id: "5D00000000000077"
+				type: "xp"
+				xp: 120
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.ac231762deacb036a99c}"
+			tasks: [
+				{
+					count: 32L
+					id: "4D00000000000085"
+					item: "minecraft:glowstone"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "4D00000000000086"
+					item: "minecraft:lapis_block"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "4D00000000000087"
+					item: "minecraft:redstone_block"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "4D00000000000088"
+					item: "minecraft:quartz_block"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.2d7e5266715105981203}"
+			x: -7.0d
+			y: 46.0d
+		}
+		{
+			dependencies: [
+				"3D00000000000033"
+				"3D00000000000032"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.a26c4f7464f1cb9893e1}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.0b662fffa3bd719034ed}"
+			]
+			icon: "minecraft:emerald"
+			id: "3D00000000000078"
+			rewards: [{
+				id: "5D00000000000078"
+				type: "xp"
+				xp: 250
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.6e59f52f4929dc2be8a8}"
+			tasks: [
+				{
+					count: 64L
+					id: "4D00000000000089"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "4D00000000000090"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.79af53e61bf10f1a8a06}"
+			x: -3.0d
+			y: 48.5d
+		}
+		{
+			dependencies: ["3D00000000000048"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.294ef1d2f6351a0c3d91}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.5b67f04617f06f2a0394}"
+			]
+			icon: "alchemistry:reactor_glass"
+			id: "3D00000000000079"
+			rewards: [{
+				id: "5D00000000000079"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.88a2fed6e67bb5e77e11}"
+			tasks: [
+				{
+					count: 144L
+					id: "4D00000000000091"
+					item: "alchemistry:reactor_glass"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.632eccc4d25b551b3fdb}"
+			x: -6.0d
+			y: 58.5d
+		}
+		{
+			dependencies: ["3D00000000000048"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.c2402430718fc38f4d8c}"
+			]
+			icon: "mekanism:steel_casing"
+			id: "3D00000000000080"
+			rewards: [{
+				id: "5D00000000000080"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.234e0c9e088e04a5e090}"
+			tasks: [
+				{
+					count: 72L
+					id: "4D00000000000092"
+					item: "mekanism:steel_casing"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.38437c4ed5679e155e77}"
+			x: 6.0d
+			y: 58.5d
+		}
+		{
+			dependencies: ["3D00000000000052"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.2e238176cfb93a05d1fa}"
+			]
+			icon: "kubejs:magnetic_trap"
+			id: "3D00000000000081"
+			rewards: [{
+				id: "5D00000000000081"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.25bbc15f015923f07bf1}"
+			tasks: [
+				{
+					count: 32L
+					id: "4D00000000000093"
+					item: "kubejs:magnetic_trap"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.8e24c82556d531ad27d1}"
+			x: -3.0d
+			y: 66.0d
+		}
+		{
+			dependencies: ["3D00000000000054"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.d25f92ee78cd4ddfed36}"
+			]
+			icon: "kubejs:annihilation_cell"
+			id: "3D00000000000082"
+			rewards: [{
+				id: "5D00000000000082"
+				type: "xp"
+				xp: 350
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.ca327df48102df15f703}"
+			tasks: [
+				{
+					count: 32L
+					id: "4D00000000000094"
+					item: "kubejs:annihilation_cell"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.ebed02f5bc78bcb6ac58}"
+			x: 5.5d
+			y: 68.5d
+		}
+		{
+			dependencies: ["3D00000000000055"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.f2af5372b0a4ea04340e}"
+			]
+			icon: "kubejs:annihilation_core"
+			id: "3D00000000000083"
+			rewards: [{
+				id: "5D00000000000083"
+				type: "xp"
+				xp: 450
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.32d9dff7bebe420d941c}"
+			tasks: [
+				{
+					count: 4L
+					id: "4D00000000000095"
+					item: "kubejs:annihilation_core"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.eeaf493da087325c85aa}"
+			x: -3.0d
+			y: 71.0d
+		}
+		{
+			dependencies: ["3D00000000000058"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.b55d59826953b45868ff}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.b9b64bad2645c3847a44}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.548acff97db89c797877}"
+			]
+			icon: "minecraft:tnt"
+			id: "3D00000000000084"
+			min_width: 400
+			rewards: [{
+				id: "5D00000000000084"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.9b9a8d05a7ec353bda84}"
+			tasks: [
+				{
+					id: "4D00000000000096"
+					title: "{lanminecraft.reforged.quests.13_annihilation.5ad3dbd1242a4cea217e}"
+					type: "checkmark"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.1e0031b4bcb06dc9a8b0}"
+			x: 3.0d
+			y: 76.5d
+		}
+		{
+			dependencies: ["3D00000000000058"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.6cededb37916945a9e26}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.ac810b4ee284a5a317f4}"
+			]
+			icon: "kubejs:annihilation_core"
+			id: "3D00000000000085"
+			rewards: [{
+				id: "5D00000000000085"
+				type: "xp"
+				xp: 800
+			}]
+			shape: "diamond"
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.0de3196cacce0d64f30a}"
+			tasks: [
+				{
+					count: 16L
+					id: "4D00000000000097"
+					item: "kubejs:annihilation_core"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.13_annihilation.9dc671fb56a1db418717}"
+			x: -3.0d
+			y: 76.5d
+		}
+		{
+			dependencies: ["3D00000000000048"]
+			description: [
+				"{lanminecraft.reforged.quests.13_annihilation.7c9e7645288a8ee221ba}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.ebe86a5cf62f079b8ca9}"
+				""
+				"{lanminecraft.reforged.quests.13_annihilation.77f30496b2ef69abfd81}"
+			]
+			icon: "nuclearscience:cellantimattersmall"
+			id: "3D00000000000086"
+			rewards: [{
+				id: "5D00000000000086"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.13_annihilation.bbfbf6729a7c6460aa0f}"
+			tasks: [{
+				count: 2L
+				id: "4D00000000000098"
+				item: "nuclearscience:cellantimattersmall"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.13_annihilation.60d638326dfa3cd9bfef}"
+			x: 6.0d
+			y: 61.0d
+		}
+	]
+	subtitle: ["{lanminecraft.reforged.quests.13_annihilation.dd379a4e010f356e2870}"]
+	title: "{lanminecraft.reforged.quests.13_annihilation.63042e63227c66d55e11}"
+}

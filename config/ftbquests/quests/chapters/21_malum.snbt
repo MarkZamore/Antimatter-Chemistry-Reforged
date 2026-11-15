@@ -1,0 +1,442 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 320
+	default_quest_shape: ""
+	filename: "21_malum"
+	group: "1000000000000001"
+	hide_quest_until_deps_visible: true
+	icon: "malum:soul_stained_steel_ingot"
+	id: "2000000000000015"
+	order_index: 21
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3400000000000005"]
+			description: [
+				"{lanminecraft.reforged.quests.21_malum.211aff6244245bff36c4}"
+				""
+				"{lanminecraft.reforged.quests.21_malum.a9190ca5a567e12a992e}"
+				""
+				"{lanminecraft.reforged.quests.21_malum.f2ca0a0d7f3c7ddf1e1d}"
+				""
+				"{lanminecraft.reforged.quests.21_malum.cb0006f6693b9b333f97}"
+			]
+			hide_until_deps_complete: true
+			icon: "malum:umbral_spirit"
+			id: "6500000000000001"
+			min_width: 480
+			rewards: [
+				{
+					id: "8500000000000001"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.21_malum.9b9a8d05a7ec353bda84}"
+			tasks: [
+				{
+					id: "7500000000000001"
+					title: "{lanminecraft.reforged.quests.21_malum.5ad3dbd1242a4cea217e}"
+					type: "checkmark"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.21_malum.4cd8310e99d2b4b9f207}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6500000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.21_malum.908ae3dceb64e0eaba8e}"
+				""
+				"{lanminecraft.reforged.quests.21_malum.0d47064ca9add5b50738}"
+			]
+			icon: "malum:runewood_sapling"
+			id: "6500000000000002"
+			min_width: 460
+			rewards: [
+				{
+					id: "8500000000000002"
+					type: "xp"
+					xp: 250
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.21_malum.20b92d0d6eb2c469040b}"
+			tasks: [
+				{
+					id: "7500000000000002"
+					item: "malum:runewood_sapling"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "7500000000000003"
+					item: "malum:runewood_planks"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.21_malum.929e51b196257ae5eb57}"
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6500000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.21_malum.8d52b3b551391fa887ec}"
+				""
+				"{lanminecraft.reforged.quests.21_malum.8bd1199bc161731bcbb9}"
+				""
+				"{lanminecraft.reforged.quests.21_malum.66942a5189a53892a840}"
+			]
+			icon: "malum:processed_soulstone"
+			id: "6500000000000003"
+			min_width: 470
+			rewards: [
+				{
+					id: "8500000000000003"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.21_malum.8445dab5df5671b336d2}"
+			tasks: [
+				{
+					count: 16L
+					id: "7500000000000004"
+					item: "malum:processed_soulstone"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7500000000000005"
+					item: "malum:chunk_of_brilliance"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.21_malum.21122b50d30971e5bb70}"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"6500000000000002"
+				"6500000000000003"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.21_malum.34afea8d17e53799fae0}"
+				""
+				"{lanminecraft.reforged.quests.21_malum.42757daa329700642c66}"
+				""
+				"{lanminecraft.reforged.quests.21_malum.53402cd59db63496dbcb}"
+			]
+			icon: "malum:spirit_altar"
+			id: "6500000000000004"
+			min_width: 460
+			rewards: [
+				{
+					id: "8500000000000004"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.21_malum.16ba48b65e5e80099a54}"
+			tasks: [
+				{
+					id: "7500000000000006"
+					item: "malum:spirit_altar"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7500000000000007"
+					item: "malum:tainted_rock_item_pedestal"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.21_malum.7eddceed3a284d83c04d}"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6500000000000004"]
+			description: [
+				"{lanminecraft.reforged.quests.21_malum.4b84471e7f695978bb80}"
+				""
+				"{lanminecraft.reforged.quests.21_malum.8a671d2398339c0db50c}"
+			]
+			icon: "malum:soul_stained_steel_scythe"
+			id: "6500000000000005"
+			min_width: 470
+			rewards: [
+				{
+					id: "8500000000000005"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.21_malum.d5705e7a0477899061de}"
+			tasks: [
+				{
+					count: 4L
+					id: "7500000000000008"
+					item: "malum:spirit_jar"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7500000000000009"
+					item: "malum:hex_ash"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.21_malum.41f3eeee3d24b382ff87}"
+			x: -5.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6500000000000004"]
+			description: [
+				"{lanminecraft.reforged.quests.21_malum.01612ad34f2a8135ed42}"
+				""
+				"{lanminecraft.reforged.quests.21_malum.a620048ce47848e7dca7}"
+			]
+			icon: "malum:arcane_spirit"
+			id: "6500000000000006"
+			min_width: 480
+			rewards: [
+				{
+					id: "8500000000000006"
+					type: "xp"
+					xp: 600
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.21_malum.ad5ec670edb8ca5dbb05}"
+			tasks: [
+				{
+					id: "7500000000000010"
+					item: "malum:sacred_spirit"
+					type: "item"
+				}
+				{
+					id: "7500000000000011"
+					item: "malum:wicked_spirit"
+					type: "item"
+				}
+				{
+					id: "7500000000000012"
+					item: "malum:arcane_spirit"
+					type: "item"
+				}
+				{
+					id: "7500000000000013"
+					item: "malum:eldritch_spirit"
+					type: "item"
+				}
+				{
+					id: "7500000000000014"
+					item: "malum:infernal_spirit"
+					type: "item"
+				}
+				{
+					id: "7500000000000015"
+					item: "malum:aerial_spirit"
+					type: "item"
+				}
+				{
+					id: "7500000000000016"
+					item: "malum:aqueous_spirit"
+					type: "item"
+				}
+				{
+					id: "7500000000000017"
+					item: "malum:earthen_spirit"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.21_malum.d681754325931a9e2ad4}"
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6500000000000004"]
+			description: [
+				"{lanminecraft.reforged.quests.21_malum.e721c2ccdcb6eb11d874}"
+				""
+				"{lanminecraft.reforged.quests.21_malum.66a72d41b8a07155120e}"
+			]
+			icon: "malum:spirit_crucible"
+			id: "6500000000000007"
+			min_width: 450
+			rewards: [
+				{
+					id: "8500000000000007"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.21_malum.c4b48412d203d5720bc0}"
+			tasks: [
+				{
+					id: "7500000000000018"
+					item: "malum:spirit_crucible"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.21_malum.45ae9aeb349313dec034}"
+			x: 5.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"6500000000000006"
+				"6500000000000007"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.21_malum.b202be7f65d3ab38d53c}"
+				""
+				"{lanminecraft.reforged.quests.21_malum.8a0ca4115f4d7a8fa7be}"
+				""
+				"{lanminecraft.reforged.quests.21_malum.d236ddbf85ea019ec364}"
+			]
+			icon: "malum:soul_stained_steel_ingot"
+			id: "6500000000000008"
+			min_width: 470
+			rewards: [
+				{
+					id: "8500000000000008"
+					type: "xp"
+					xp: 1200
+				}
+			]
+			shape: "hexagon"
+			size: 2.5d
+			subtitle: "{lanminecraft.reforged.quests.21_malum.73b2dfaa3d30a82b8c0d}"
+			tasks: [
+				{
+					count: 8L
+					id: "7500000000000019"
+					item: "malum:soul_stained_steel_ingot"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.21_malum.6e47f88383bcd915011c}"
+			x: 0.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["6500000000000008"]
+			description: [
+				"{lanminecraft.reforged.quests.21_malum.c6ba79f0e0e4db9e396f}"
+				""
+				"{lanminecraft.reforged.quests.21_malum.a1566564939d53daa8a9}"
+			]
+			icon: "malum:soul_stained_steel_chestplate"
+			id: "6500000000000009"
+			min_width: 450
+			optional: true
+			rewards: [
+				{
+					id: "8500000000000009"
+					type: "xp"
+					xp: 800
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.21_malum.57f64bf9715866ab48f4}"
+			tasks: [
+				{
+					id: "7500000000000020"
+					item: "malum:soul_stained_steel_chestplate"
+					type: "item"
+				}
+				{
+					id: "7500000000000021"
+					item: "malum:soul_stained_steel_scythe"
+					type: "item"
+				}
+				{
+					id: "7500000000000022"
+					item: "malum:soul_stained_steel_knife"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.21_malum.d6eaec65e74285ce669c}"
+			x: -5.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["6500000000000008"]
+			description: [
+				"{lanminecraft.reforged.quests.21_malum.8ad2af83f922dbeb04df}"
+				""
+				"{lanminecraft.reforged.quests.21_malum.082ac8328e0015a54bd9}"
+				""
+				"{lanminecraft.reforged.quests.21_malum.0be5670f6aa462543d77}"
+				""
+				"{lanminecraft.reforged.quests.21_malum.0988f96c08deff333a17}"
+			]
+			icon: "malum:umbral_spirit"
+			id: "6500000000000010"
+			min_width: 490
+			optional: true
+			rewards: [
+				{
+					id: "8500000000000010"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.21_malum.5a2946185e109459003a}"
+			tasks: [
+				{
+					id: "7500000000000023"
+					item: "malum:umbral_spirit"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.21_malum.3f2cfaf7710f536ba75b}"
+			x: 5.0d
+			y: 21.0d
+		}
+		{
+			dependencies: [
+				"6500000000000008"
+				"6500000000000006"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.21_malum.4a81868a479adba2f9c8}"
+				""
+				"{lanminecraft.reforged.quests.21_malum.c3b61c652aba28dfbe54}"
+				""
+				"{lanminecraft.reforged.quests.21_malum.c48108850c350b712d80}"
+			]
+			icon: "malum:soul_stained_steel_ingot"
+			id: "6500000000000011"
+			min_width: 480
+			rewards: [
+				{
+					id: "8500000000000011"
+					type: "xp"
+					xp: 2000
+				}
+			]
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "{lanminecraft.reforged.quests.21_malum.9e19276a0d635f5ea4f0}"
+			tasks: [
+				{
+					count: 64L
+					id: "7500000000000024"
+					item: "malum:soul_stained_steel_ingot"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.21_malum.80597ec88dbb14f6859a}"
+			x: 0.0d
+			y: 26.0d
+		}
+	]
+	subtitle: ["{lanminecraft.reforged.quests.21_malum.4cd8310e99d2b4b9f207}"]
+	title: "{lanminecraft.reforged.quests.21_malum.136cdcb806cde289d627}"
+}

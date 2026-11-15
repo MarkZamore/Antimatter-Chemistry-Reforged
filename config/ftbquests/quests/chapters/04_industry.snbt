@@ -1,0 +1,2834 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: ""
+	filename: "04_industry"
+	group: "1000000000000001"
+	hide_quest_until_deps_visible: true
+	icon: "ae2:pattern_provider"
+	id: "2000000000000004"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3300000000000004"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.3a24b22e7ae969a778fc}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.b7307d7d9c0530ae6d7f}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.4c4b87bfa0366ffcb840}"
+			]
+			hide_until_deps_complete: true
+			icon: "alchemistry:dissolver"
+			id: "3400000000000001"
+			min_width: 420
+			rewards: [{
+				id: "5400000000000001"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.04_industry.82db33f4753082906d5b}"
+			tasks: [{
+				id: "4400000000000001"
+				title: "{lanminecraft.reforged.quests.04_industry.65038200acc9ff8eff8d}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.04_industry.ea2b0aac9ace3fce847f}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3400000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.ba84db871d1cc2286520}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.e67dff3419bdf4b878bb}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.efb4df6d66ef6a82deb7}"
+			]
+			icon: "pipez:item_pipe"
+			id: "3400000000000002"
+			rewards: [{
+				id: "5400000000000002"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "{lanminecraft.reforged.quests.04_industry.73f1a072868450bd68d5}"
+			tasks: [
+				{
+					id: "4400000000000002"
+					item: "pipez:item_pipe"
+					type: "item"
+				}
+				{
+					id: "4400000000000003"
+					item: "pipez:basic_upgrade"
+					type: "item"
+				}
+				{
+					id: "4400000000000004"
+					item: "pipez:wrench"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.04_industry.c8fd7f3dfb455a515408}"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3400000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.e7171bfde608444180fb}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.15c30e0d7cd6c3a4cb21}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.65bfec4159d1a54bedd5}"
+			]
+			icon: "xnet:controller"
+			id: "3400000000000003"
+			rewards: [{
+				id: "5400000000000003"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.04_industry.6b126784bfaf88846e9e}"
+			tasks: [
+				{
+					id: "4400000000000005"
+					item: "xnet:controller"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4400000000000006"
+					item: "xnet:netcable_red"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4400000000000007"
+					item: "xnet:connector_red"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.04_industry.e45f27c490e4991319af}"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3400000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.6e5be0a71bdf80cd7d2e}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.9534d3b60600e65c3a65}"
+			]
+			icon: "minecraft:chest"
+			id: "3400000000000004"
+			optional: true
+			rewards: [{
+				id: "5400000000000004"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.04_industry.4469093c955bffe2d598}"
+			tasks: [{
+				id: "4400000000000008"
+				title: "{lanminecraft.reforged.quests.04_industry.6603dc446bd2771b526a}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.04_industry.6a993231e266ac1f0948}"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3400000000000002"
+				"3400000000000003"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.e96a3e5534468e57781d}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.83d0a95b6fa1a02103b2}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.b5ec723c0b6e3ace9ae1}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.2ae922170ab5341e60ca}"
+			]
+			icon: "alchemistry:dissolver"
+			id: "3400000000000005"
+			rewards: [
+				{
+					count: 2
+					id: "5400000000000005"
+					item: "alchemistry:dissolver"
+					type: "item"
+				}
+				{
+					id: "5400000000000006"
+					type: "xp"
+					xp: 50
+				}
+				{
+					auto: "enabled"
+					command: "/gamestage add {p} industry"
+					elevate_perms: true
+					id: "5400000000000007"
+					silent: true
+					title: "{lanminecraft.reforged.quests.04_industry.be469e102690adb90be4}"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.04_industry.4de345c3306f08f23f89}"
+			tasks: [{
+				id: "4400000000000009"
+				title: "{lanminecraft.reforged.quests.04_industry.cd51095d38c8d48b971e}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.04_industry.17ae3d209646771e7173}"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3400000000000005"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.49df83756285005dc2dd}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.cd9fc5bf2f4e6eaac17f}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.4942d402813add69e4b3}"
+			]
+			icon: "powah:dielectric_paste"
+			id: "3400000000000006"
+			rewards: [{
+				id: "5400000000000008"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "{lanminecraft.reforged.quests.04_industry.6b22e5c56ce493843def}"
+			tasks: [{
+				count: 16L
+				id: "4400000000000010"
+				item: "powah:dielectric_paste"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.04_industry.afcb421e73174c1615e1}"
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3400000000000006"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.2669c9e069793d4ede48}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.0aada981206bfd67cb38}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.036225b04a652571c2b7}"
+			]
+			icon: "powah:uraninite"
+			id: "3400000000000007"
+			rewards: [{
+				id: "5400000000000009"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.04_industry.47d522ac6bd988f79290}"
+			tasks: [{
+				count: 8L
+				id: "4400000000000011"
+				item: "powah:uraninite"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.04_industry.e3ce93c9d92105b86e28}"
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3400000000000007"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.b11f2475e9eeff27eb3e}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.649468988e20874895b6}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.5a81a3fad989f4cd7f20}"
+			]
+			icon: "powah:reactor_basic"
+			id: "3400000000000008"
+			rewards: [{
+				id: "5400000000000010"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.04_industry.cb3503bf7eebc483f912}"
+			tasks: [{
+				id: "4400000000000012"
+				item: "powah:reactor_basic"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.04_industry.1fe16f0f52515c7d20b4}"
+			x: -4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3400000000000008"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.6527402377488d1d484c}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.a4f3269593f4dd05dd6f}"
+			]
+			icon: "powah:energy_cell_basic"
+			id: "3400000000000009"
+			optional: true
+			rewards: [{
+				id: "5400000000000011"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.04_industry.613d3c49ac807fde0a2c}"
+			tasks: [
+				{
+					id: "4400000000000013"
+					item: "powah:energy_cell_basic"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4400000000000014"
+					item: "powah:energy_cable_basic"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.04_industry.6d9e2467691f4e13d625}"
+			x: -4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3400000000000005"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.cffee380c08bd022b4d1}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.3c0fb9e255247d5d2a45}"
+			]
+			icon: "ae2:silicon"
+			id: "3400000000000010"
+			rewards: [{
+				id: "5400000000000012"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "{lanminecraft.reforged.quests.04_industry.90b17ec6e53c365deb3c}"
+			tasks: [{
+				count: 16L
+				id: "4400000000000015"
+				item: "ae2:silicon"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.04_industry.1804240bc9b5e5e46c9d}"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3400000000000010"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.d7a40c180a7e46cb5b5e}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.31a134acf789ed42cfbe}"
+			]
+			icon: "ae2:certus_quartz_crystal"
+			id: "3400000000000011"
+			rewards: [{
+				id: "5400000000000013"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.04_industry.848278c8d5c10f5bc22d}"
+			tasks: [{
+				count: 16L
+				id: "4400000000000016"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.04_industry.48df9b029a7fb81463d7}"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3400000000000011"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.837ed3a25e3ceecff274}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.40a293f0f28c4e464469}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.924fb553360baa7e1f4a}"
+			]
+			icon: "ae2:fluix_crystal"
+			id: "3400000000000012"
+			rewards: [{
+				id: "5400000000000014"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.04_industry.b61eb3a63a9af58d7ad3}"
+			tasks: [{
+				count: 16L
+				id: "4400000000000017"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.04_industry.cc440494bfa6692ba3bf}"
+			x: -1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3400000000000011"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.4a495d5fc9cea2dd3b95}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.62c6873c345aab3aa968}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.b5f202bfe06041fbb247}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.e877b0e8c196acbbb71f}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.2bb0423fa06df1edb8c2}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.f17887fb68af421796af}"
+			]
+			icon: "ae2:logic_processor_press"
+			id: "3400000000000013"
+			min_width: 460
+			rewards: [{
+				id: "5400000000000019"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.04_industry.37703b2ebdebcddcc54c}"
+			tasks: [
+				{
+					id: "4400000000000018"
+					item: "ae2:silicon_press"
+					type: "item"
+				}
+				{
+					id: "4400000000000019"
+					item: "ae2:logic_processor_press"
+					type: "item"
+				}
+				{
+					id: "4400000000000F40"
+					item: "ae2:calculation_processor_press"
+					type: "item"
+				}
+				{
+					id: "4400000000000F41"
+					item: "ae2:engineering_processor_press"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.04_industry.acb62feffaa3288effe1}"
+			x: 1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"3400000000000012"
+				"3400000000000013"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.02c4144f5befaa501e62}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.a5e406fa9949f16ebdfd}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.1684153f1b6ec03bf0d6}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.8e3fbfa02c6290266133}"
+			]
+			icon: "ae2:calculation_processor"
+			id: "3400000000000014"
+			rewards: [{
+				id: "5400000000000020"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.04_industry.e1bf7a76e365fbf53d3d}"
+			tasks: [
+				{
+					count: 16L
+					id: "4400000000000020"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4400000000000021"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4400000000000022"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.04_industry.59e20e062ae475fab58f}"
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3400000000000014"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.7942d7db0ab7e3e3598f}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.32bded33028558866362}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.c3f1e185da63a9e1be14}"
+			]
+			icon: "ae2:controller"
+			id: "3400000000000015"
+			rewards: [{
+				id: "5400000000000021"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.04_industry.5f53e20c2d234d30ba31}"
+			tasks: [
+				{
+					id: "4400000000000023"
+					item: "ae2:controller"
+					type: "item"
+				}
+				{
+					id: "4400000000000024"
+					item: "ae2:energy_acceptor"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.04_industry.116b2f26a37f345614c7}"
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3400000000000015"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.eb83a7c4ec7a49643336}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.72c7293b7498b7376edc}"
+			]
+			icon: "ae2:drive"
+			id: "3400000000000016"
+			rewards: [{
+				id: "5400000000000022"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.04_industry.ea0c289f5c3f707a8d4f}"
+			tasks: [
+				{
+					id: "4400000000000025"
+					item: "ae2:drive"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4400000000000026"
+					item: "ae2:item_storage_cell_1k"
+					type: "item"
+				}
+				{
+					id: "4400000000000027"
+					item: "ae2:terminal"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.04_industry.e9781e7c753e036311fa}"
+			x: -1.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3400000000000015"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.7bceeccc48b0b5bc6753}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.26314fc65e6e520f1f34}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.3955c2b6c25c851831b9}"
+			]
+			icon: "ae2:1k_crafting_storage"
+			id: "3400000000000017"
+			rewards: [{
+				id: "5400000000000023"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.04_industry.2d10b0142a5d269ee56a}"
+			tasks: [
+				{
+					count: 4L
+					id: "4400000000000028"
+					item: "ae2:crafting_unit"
+					type: "item"
+				}
+				{
+					id: "4400000000000029"
+					item: "ae2:1k_crafting_storage"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.04_industry.d2dce4b1c082b8b81b97}"
+			x: 1.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3400000000000016"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.caa2cc9470d70251d152}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.d9cd8b27e83eeee89328}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.8592203a64e7493ab5fd}"
+			]
+			icon: "ae2:import_bus"
+			id: "3400000000000018"
+			optional: true
+			rewards: [{
+				id: "5400000000000024"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.04_industry.a86fe228b52eae8a2b34}"
+			tasks: [
+				{
+					count: 2L
+					id: "4400000000000030"
+					item: "ae2:import_bus"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4400000000000031"
+					item: "ae2:export_bus"
+					type: "item"
+				}
+				{
+					id: "4400000000000032"
+					item: "ae2:storage_bus"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.04_industry.c7ca67fe0519225604f6}"
+			x: -4.0d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"3400000000000016"
+				"3400000000000017"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.af52d1c0322811eeed32}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.8311e8b3c769b298c449}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.2ac04666f90296cfaee1}"
+			]
+			icon: "ae2:pattern_encoding_terminal"
+			id: "3400000000000019"
+			rewards: [{
+				id: "5400000000000025"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.04_industry.ef3faa7fbf03944cf517}"
+			tasks: [
+				{
+					id: "4400000000000033"
+					item: "ae2:pattern_encoding_terminal"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "4400000000000034"
+					item: "ae2:blank_pattern"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.04_industry.6d82331bd65fa03efad7}"
+			x: 0.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["3400000000000019"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.04be73a6f882a0ff6894}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.f12593d110cb34d88c58}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.8a78676bbbd26cfeb4af}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.5c948af42c0712495a42}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.923ac0101c31c392998e}"
+			]
+			icon: "ae2:pattern_provider"
+			id: "3400000000000020"
+			min_width: 420
+			rewards: [
+				{
+					count: 2
+					id: "5400000000000026"
+					item: "ae2:pattern_provider"
+					type: "item"
+				}
+				{
+					id: "5400000000000027"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.04_industry.492fab0b44721dc95f43}"
+			tasks: [
+				{
+					count: 2L
+					id: "4400000000000035"
+					item: "ae2:pattern_provider"
+					type: "item"
+				}
+				{
+					id: "4400000000000036"
+					title: "{lanminecraft.reforged.quests.04_industry.911e0005992bbbeebbbe}"
+					type: "checkmark"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.04_industry.afa8a3f3f7cf7076bc93}"
+			x: 0.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3400000000000020"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.a597ddd8dbbe3dde3c29}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.f3028543d37690cb43d3}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.106214df4afa9faceaf9}"
+			]
+			icon: "alchemistry:compactor"
+			id: "3400000000000021"
+			rewards: [{
+				id: "5400000000000028"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.04_industry.93e7967e3ee1651d07a2}"
+			tasks: [
+				{
+					id: "4400000000000037"
+					item: "alchemistry:compactor"
+					type: "item"
+				}
+				{
+					id: "4400000000000038"
+					title: "{lanminecraft.reforged.quests.04_industry.e56d0c6731e224dc47a5}"
+					type: "checkmark"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.04_industry.5ea4cf3579f36b91dd7a}"
+			x: -1.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["3400000000000020"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.188c7319c80ce14b2d61}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.340ce06c451e9cb0c72d}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.942180269e66d8cef585}"
+			]
+			icon: "ae2:molecular_assembler"
+			id: "3400000000000022"
+			rewards: [{
+				id: "5400000000000029"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.04_industry.13a4f7b997a18411dded}"
+			tasks: [{
+				count: 4L
+				id: "4400000000000039"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.04_industry.467a84fc4b406789948e}"
+			x: 1.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["3400000000000020"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.d192175c61695ece04f1}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.60f45485d8b90704f7de}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.43e60ff9918cd08db403}"
+			]
+			icon: "industrialforegoing:plastic"
+			id: "3400000000000023"
+			rewards: [{
+				id: "5400000000000030"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.04_industry.57cc0a256a556f6050c0}"
+			tasks: [{
+				count: 8L
+				id: "4400000000000040"
+				item: "industrialforegoing:plastic"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.04_industry.1e411f195e801219b90f}"
+			x: 4.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["3400000000000023"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.65dce47097f9264f094c}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.c91631daa2bc1d8eabdd}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.af195b4df81304e3a701}"
+			]
+			icon: "industrialforegoing:machine_frame_pity"
+			id: "3400000000000024"
+			rewards: [{
+				id: "5400000000000031"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.04_industry.2cd0e03da46a40d32919}"
+			tasks: [{
+				id: "4400000000000041"
+				item: "industrialforegoing:machine_frame_pity"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.04_industry.b34756a6dca2ea517624}"
+			x: 4.0d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"3400000000000021"
+				"3400000000000022"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.08e94f3b27478e2eba2e}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.cd4a86d806f1f0b59c1e}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.316c2a087cc435f9ce36}"
+			]
+			icon: "kubejs:white_antimatter"
+			id: "3400000000000025"
+			min_width: 380
+			rewards: [
+				{
+					count: 4
+					id: "5400000000000032"
+					item: "ae2:crafting_accelerator"
+					type: "item"
+				}
+				{
+					id: "5400000000000033"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.04_industry.2d03b02e193f0e669f0d}"
+			tasks: [
+				{
+					count: 64L
+					id: "4400000000000042"
+					item: "kubejs:white_antimatter"
+					type: "item"
+				}
+				{
+					id: "4400000000000043"
+					title: "{lanminecraft.reforged.quests.04_industry.fe0b6c427a330108eaee}"
+					type: "checkmark"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.04_industry.29509a7a7035d6684d7f}"
+			x: 0.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["3400000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.a249ab46fe53c567a49d}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.a4a35aef5ab6e4e47bde}"
+			]
+			icon: "pipez:advanced_upgrade"
+			id: "3400000000000101"
+			rewards: [{
+				id: "5400000000000101"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.04_industry.707c7eb40f3351479991}"
+			tasks: [
+				{
+					id: "4400000000000101"
+					item: "pipez:improved_upgrade"
+					type: "item"
+				}
+				{
+					id: "4400000000000102"
+					item: "pipez:advanced_upgrade"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.04_industry.69d470a3f7b934239a11}"
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3400000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.a9863c5a2136faa09fcb}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.ab3de97d54458dbbcc20}"
+			]
+			icon: "pipez:item_pipe"
+			id: "3400000000000102"
+			rewards: [{
+				id: "5400000000000102"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.04_industry.70e24725a03484979bbd}"
+			tasks: [{
+				id: "4400000000000103"
+				title: "{lanminecraft.reforged.quests.04_industry.9c487402ce5a0d4c2bdd}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.04_industry.45954c0ae99ba3964335}"
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3400000000000101"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.bae7a7b877f09be510e2}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.0048a091cf5a98ee3c25}"
+			]
+			icon: "pipez:universal_pipe"
+			id: "3400000000000103"
+			rewards: [{
+				id: "5400000000000103"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.04_industry.fc6595db96b49ef9bb05}"
+			tasks: [{
+				count: 8L
+				id: "4400000000000104"
+				item: "pipez:universal_pipe"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.04_industry.6af5d983ef58d09d7dfd}"
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3400000000000102"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.3df98a3b6c4c05bb1a9a}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.7b36c93f0c8313b6fe82}"
+			]
+			icon: "pipez:filter_destination_tool"
+			id: "3400000000000104"
+			optional: true
+			rewards: [{
+				id: "5400000000000104"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "diamond"
+			subtitle: "{lanminecraft.reforged.quests.04_industry.76f964a06643854dd5d7}"
+			tasks: [{
+				id: "4400000000000105"
+				item: "pipez:filter_destination_tool"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.04_industry.17c34d044e9c2ea1b1ae}"
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3400000000000003"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.648da3b2ad50618e8ab5}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.f9cadecfd3dce21f36e6}"
+			]
+			icon: "xnet:controller"
+			id: "3400000000000105"
+			rewards: [{
+				id: "5400000000000105"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.04_industry.370f4beec706a00dff6d}"
+			tasks: [{
+				id: "4400000000000106"
+				title: "{lanminecraft.reforged.quests.04_industry.f7687a48bfbd959e01af}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.04_industry.80e29f9f83884b96620d}"
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3400000000000003"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.0fe3a40178e5b620498f}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.581447da1661d3672b2e}"
+			]
+			icon: "xnet:advanced_connector_red"
+			id: "3400000000000106"
+			rewards: [{
+				id: "5400000000000106"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.04_industry.02ee49fcdb22bb15decc}"
+			tasks: [{
+				id: "4400000000000107"
+				title: "{lanminecraft.reforged.quests.04_industry.2fa36e650c456183e8ea}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.04_industry.616683dc5062e461c020}"
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3400000000000105"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.a4a3ed3ef80ef3e54b11}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.2e55141cbeaa36b1de92}"
+			]
+			icon: "xnet:advanced_connector_red"
+			id: "3400000000000107"
+			rewards: [{
+				id: "5400000000000107"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.04_industry.7b6194082c97ccb958d7}"
+			tasks: [{
+				count: 4L
+				id: "4400000000000108"
+				item: "xnet:advanced_connector_red"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.04_industry.066252146ce5e5ce9ef1}"
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3400000000000106"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.daf49784a0a555d89ce5}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.3f9de46ff9309f988a6a}"
+			]
+			icon: "xnet:redstone_proxy"
+			id: "3400000000000108"
+			optional: true
+			rewards: [{
+				id: "5400000000000108"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			subtitle: "{lanminecraft.reforged.quests.04_industry.797d73f0bb0c4dd64645}"
+			tasks: [
+				{
+					id: "4400000000000109"
+					item: "xnet:redstone_proxy"
+					type: "item"
+				}
+				{
+					id: "4400000000000110"
+					title: "{lanminecraft.reforged.quests.04_industry.a88d9f9a5f502bbcb4e2}"
+					type: "checkmark"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.04_industry.18d7d5b67f15b94f0e09}"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3400000000000005"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.01bb3cb7c9cf2acc1412}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.4b408506a2514d43473c}"
+			]
+			icon: "laserio:laser_node"
+			id: "3400000000000109"
+			rewards: [{
+				id: "5400000000000109"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.04_industry.d0ddb5256c866ed92204}"
+			tasks: [
+				{
+					id: "4400000000000111"
+					item: "laserio:laser_node"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4400000000000112"
+					item: "laserio:laser_connector"
+					type: "item"
+				}
+				{
+					id: "4400000000000113"
+					item: "laserio:laser_wrench"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.04_industry.10cd607ae65fa0ef2b55}"
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3400000000000109"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.6e03033cd13545074448}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.66ab246597b4a8bb578d}"
+			]
+			icon: "laserio:card_item"
+			id: "3400000000000110"
+			rewards: [{
+				id: "5400000000000110"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.04_industry.dc1f01021903567b8776}"
+			tasks: [
+				{
+					count: 4L
+					id: "4400000000000114"
+					item: "laserio:card_item"
+					type: "item"
+				}
+				{
+					id: "4400000000000115"
+					title: "{lanminecraft.reforged.quests.04_industry.f02643d96e030d688672}"
+					type: "checkmark"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.04_industry.e6f8d7bcacdb98b95d36}"
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3400000000000110"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.9cb4a95b131ab4a098e5}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.f684e42003812ae39433}"
+			]
+			icon: "laserio:card_redstone"
+			id: "3400000000000111"
+			rewards: [{
+				id: "5400000000000111"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.04_industry.d24166c0a1e6aa9db611}"
+			tasks: [{
+				id: "4400000000000116"
+				title: "{lanminecraft.reforged.quests.04_industry.fbc4127f27a107068461}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.04_industry.a46dd0a2686fa8be74cd}"
+			x: 7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3400000000000110"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.24c1d7086e93cfcd5aed}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.1d9b021f96f3802d0455}"
+			]
+			icon: "laserio:overclocker_card"
+			id: "3400000000000112"
+			optional: true
+			rewards: [{
+				id: "5400000000000112"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "diamond"
+			subtitle: "{lanminecraft.reforged.quests.04_industry.3f42a1598792e95f3736}"
+			tasks: [{
+				count: 4L
+				id: "4400000000000117"
+				item: "laserio:overclocker_card"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.04_industry.d0dedd80a24a748910b2}"
+			x: 9.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3400000000000111"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.9f9ad1a738765f407bc2}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.9e222e90c140d931e17b}"
+			]
+			icon: "laserio:card_cloner"
+			id: "3400000000000113"
+			rewards: [{
+				id: "5400000000000113"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.04_industry.229c3a3ca145a0a61dd1}"
+			tasks: [
+				{
+					id: "4400000000000118"
+					item: "laserio:card_cloner"
+					type: "item"
+				}
+				{
+					id: "4400000000000119"
+					item: "laserio:card_holder"
+					type: "item"
+				}
+				{
+					id: "4400000000000120"
+					item: "laserio:filter_basic"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.04_industry.3b1088cc00624ca43d0e}"
+			x: 9.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3400000000000008"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.810cf9f5110a376758a3}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.80c98c4888fe37287689}"
+			]
+			icon: "powah:energizing_orb"
+			id: "3400000000000114"
+			rewards: [{
+				id: "5400000000000114"
+				type: "xp"
+				xp: 35
+			}]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.04_industry.d7a15a9a6725d3aa8ece}"
+			tasks: [
+				{
+					id: "4400000000000121"
+					item: "powah:energizing_orb"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4400000000000122"
+					item: "powah:energizing_rod_basic"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.04_industry.c3b10c78ac3adf27874b}"
+			x: -7.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3400000000000114"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.9a3f801c14aae1e78e75}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.34ebd935af336cf5dd83}"
+			]
+			icon: "powah:reactor_hardened"
+			id: "3400000000000115"
+			rewards: [{
+				id: "5400000000000115"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.04_industry.c5e931a95e1b28e9d266}"
+			tasks: [{
+				id: "4400000000000123"
+				item: "powah:reactor_hardened"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.04_industry.e90b9891cfe7e706f722}"
+			x: -7.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3400000000000114"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.8f2c1b3a954b9a33745c}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.8ae8e7d5a6de39c2d806}"
+			]
+			icon: "powah:capacitor_hardened"
+			id: "3400000000000116"
+			rewards: [{
+				id: "5400000000000116"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.04_industry.ddbd40c2760ded857abb}"
+			tasks: [
+				{
+					id: "4400000000000124"
+					item: "powah:capacitor_hardened"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4400000000000125"
+					item: "powah:energy_cable_hardened"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.04_industry.48ff03f554b896f1fde7}"
+			x: -9.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3400000000000009"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.c6d7a5ee87484e4c6192}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.9b2f70def942ec8a422c}"
+			]
+			icon: "powah:ender_cell_basic"
+			id: "3400000000000117"
+			optional: true
+			rewards: [{
+				id: "5400000000000117"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "diamond"
+			subtitle: "{lanminecraft.reforged.quests.04_industry.36d5c4fd26688ce0f90d}"
+			tasks: [
+				{
+					id: "4400000000000126"
+					item: "powah:ender_cell_basic"
+					type: "item"
+				}
+				{
+					id: "4400000000000127"
+					item: "powah:ender_gate_basic"
+					type: "item"
+				}
+				{
+					id: "4400000000000128"
+					item: "powah:binding_card"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.04_industry.93e82aaad6690ce85c55}"
+			x: -9.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["3400000000000015"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.4bd32b7956a21a8d2868}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.4d8db560c8145957c8bb}"
+			]
+			icon: "ae2:fluix_smart_cable"
+			id: "3400000000000118"
+			rewards: [{
+				id: "5400000000000118"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.04_industry.866770d655052ccead1f}"
+			tasks: [{
+				count: 16L
+				id: "4400000000000129"
+				item: "ae2:fluix_smart_cable"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.04_industry.98a16251ab99701c00d1}"
+			x: 2.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["3400000000000118"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.86bb4acdea8430ba8a0a}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.066d5d9774bdd9cdcb64}"
+			]
+			icon: "ae2:quartz_fiber"
+			id: "3400000000000119"
+			rewards: [{
+				id: "5400000000000119"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.04_industry.64a65a85dd06185a4f85}"
+			tasks: [{
+				count: 4L
+				id: "4400000000000130"
+				item: "ae2:quartz_fiber"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.04_industry.2229ef7673e7a6e83924}"
+			x: 5.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3400000000000118"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.0ce73cc3a475b922b7af}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.14727cbbab0d6f4c2993}"
+			]
+			icon: "ae2:interface"
+			id: "3400000000000120"
+			min_width: 360
+			rewards: [{
+				id: "5400000000000120"
+				type: "xp"
+				xp: 35
+			}]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.04_industry.ecda5b118dd278d99b99}"
+			tasks: [
+				{
+					count: 2L
+					id: "4400000000000131"
+					item: "ae2:interface"
+					type: "item"
+				}
+				{
+					id: "4400000000000132"
+					title: "{lanminecraft.reforged.quests.04_industry.8d578429e34f6c8fb5ca}"
+					type: "checkmark"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.04_industry.6e7fdd4b481fe6634584}"
+			x: 5.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3400000000000119"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.b9b0069f9144b6628508}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.a109d74181941e401d79}"
+			]
+			icon: "ae2:me_p2p_tunnel"
+			id: "3400000000000121"
+			rewards: [{
+				id: "5400000000000121"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.04_industry.899cad73bdc1f5d2ecd2}"
+			tasks: [
+				{
+					count: 4L
+					id: "4400000000000133"
+					item: "ae2:me_p2p_tunnel"
+					type: "item"
+				}
+				{
+					id: "4400000000000134"
+					item: "ae2:memory_card"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.04_industry.46c7cd59b00b34a03921}"
+			x: 7.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["3400000000000120"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.7475dfe88fbc8f81b347}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.b757fba6db662b3206a4}"
+			]
+			icon: "ae2:fe_p2p_tunnel"
+			id: "3400000000000122"
+			rewards: [{
+				id: "5400000000000122"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.04_industry.8358ec3194d9f3e4e36d}"
+			tasks: [
+				{
+					id: "4400000000000135"
+					item: "ae2:item_p2p_tunnel"
+					type: "item"
+				}
+				{
+					id: "4400000000000136"
+					item: "ae2:fluid_p2p_tunnel"
+					type: "item"
+				}
+				{
+					id: "4400000000000137"
+					item: "ae2:fe_p2p_tunnel"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.04_industry.cd29033e856b023f66c5}"
+			x: 7.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["3400000000000015"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.db9b261d77c7f4887b2c}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.1066b142c7b0906c9286}"
+			]
+			icon: "ae2:toggle_bus"
+			id: "3400000000000123"
+			optional: true
+			rewards: [{
+				id: "5400000000000123"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "diamond"
+			subtitle: "{lanminecraft.reforged.quests.04_industry.609f9594da8981a93585}"
+			tasks: [
+				{
+					id: "4400000000000138"
+					item: "ae2:toggle_bus"
+					type: "item"
+				}
+				{
+					id: "4400000000000139"
+					item: "ae2:inverted_toggle_bus"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.04_industry.21269e10a6a16be50615}"
+			x: 2.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["3400000000000016"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.4e63daa1f1829fbfceb1}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.b9370d685f5afb23e40a}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.72584a29d321484e5299}"
+			]
+			icon: "ae2:item_storage_cell_64k"
+			id: "3400000000000124"
+			min_width: 380
+			rewards: [{
+				id: "5400000000000124"
+				type: "xp"
+				xp: 35
+			}]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.04_industry.9cb344274763ae6e2f41}"
+			tasks: [
+				{
+					id: "4400000000000140"
+					item: "ae2:item_storage_cell_4k"
+					type: "item"
+				}
+				{
+					id: "4400000000000141"
+					item: "ae2:item_storage_cell_16k"
+					type: "item"
+				}
+				{
+					id: "4400000000000142"
+					item: "ae2:item_storage_cell_64k"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.04_industry.effcea2979cb5d56fedd}"
+			x: -4.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["3400000000000124"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.ef830e987b95b9ab317d}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.8c85b7f4d9e9ed634190}"
+			]
+			icon: "ae2:cell_workbench"
+			id: "3400000000000125"
+			rewards: [{
+				id: "5400000000000125"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.04_industry.7e009cfa02b85172ea61}"
+			tasks: [{
+				id: "4400000000000143"
+				item: "ae2:cell_workbench"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.04_industry.178319804b292d404e88}"
+			x: -6.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["3400000000000124"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.70453f0bb190fc2f36d7}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.53e63b17993a58fe19ba}"
+			]
+			icon: "ae2:drive"
+			id: "3400000000000126"
+			rewards: [{
+				id: "5400000000000126"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.04_industry.368559f8acc3405c5773}"
+			tasks: [{
+				id: "4400000000000144"
+				title: "{lanminecraft.reforged.quests.04_industry.ac23336ed3f481675421}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.04_industry.b41f6b8356b501abe0f6}"
+			x: -6.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["3400000000000125"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.96a227792f063a22c020}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.03d8bbd92be6c2186239}"
+			]
+			icon: "ae2:void_card"
+			id: "3400000000000127"
+			optional: true
+			rewards: [{
+				id: "5400000000000127"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "diamond"
+			subtitle: "{lanminecraft.reforged.quests.04_industry.a73dda5a11f61b248f70}"
+			tasks: [{
+				id: "4400000000000145"
+				item: "ae2:void_card"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.04_industry.14a710c9d250b5d2f6d8}"
+			x: -9.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3400000000000126"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.544b7d141262fcd16df8}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.a6aad030ebe82a859d50}"
+			]
+			icon: "ae2:fuzzy_card"
+			id: "3400000000000128"
+			optional: true
+			rewards: [{
+				id: "5400000000000128"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			subtitle: "{lanminecraft.reforged.quests.04_industry.5a5bb7e67b47631063f7}"
+			tasks: [
+				{
+					id: "4400000000000146"
+					item: "ae2:fuzzy_card"
+					type: "item"
+				}
+				{
+					id: "4400000000000147"
+					item: "ae2:inverter_card"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.04_industry.3c8b1ace219143802487}"
+			x: -9.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["3400000000000126"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.19b43e22a036363396aa}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.7e2c09a0ccfa9c339624}"
+			]
+			icon: "ae2:io_port"
+			id: "3400000000000129"
+			rewards: [{
+				id: "5400000000000129"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.04_industry.a3795d69eeac0af97164}"
+			tasks: [{
+				id: "4400000000000148"
+				item: "ae2:io_port"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.04_industry.f63a51c5b7e2bd8a2fc3}"
+			x: -6.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["3400000000000129"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.a1e0addd2751423fb65a}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.e822b05e80ce6fdbb9d1}"
+			]
+			icon: "ae2:condenser"
+			id: "3400000000000130"
+			rewards: [{
+				id: "5400000000000130"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.04_industry.392585993e765bce5afd}"
+			tasks: [{
+				id: "4400000000000149"
+				item: "ae2:condenser"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.04_industry.7c74daa999cb83a16b9d}"
+			x: -9.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3400000000000017"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.4e936aecfb0039941dea}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.f2c364d724a57de26fe1}"
+			]
+			icon: "ae2:16k_crafting_storage"
+			id: "3400000000000131"
+			rewards: [{
+				id: "5400000000000131"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.04_industry.fe0054e4eca94d1de36e}"
+			tasks: [
+				{
+					id: "4400000000000150"
+					item: "ae2:4k_crafting_storage"
+					type: "item"
+				}
+				{
+					id: "4400000000000151"
+					item: "ae2:16k_crafting_storage"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.04_industry.d91e1433d068e532f3b1}"
+			x: 4.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3400000000000131"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.ce1f6933166d2f812754}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.77cce7dde108adc49094}"
+			]
+			icon: "ae2:crafting_accelerator"
+			id: "3400000000000132"
+			rewards: [{
+				id: "5400000000000132"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.04_industry.43a24bf05fdba284dce4}"
+			tasks: [{
+				count: 8L
+				id: "4400000000000152"
+				item: "ae2:crafting_accelerator"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.04_industry.de74906cc54973bf1f74}"
+			x: 4.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["3400000000000131"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.ad5ce8f2f129cfbc4572}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.c4d960c3678163d4854f}"
+			]
+			icon: "ae2:crafting_unit"
+			id: "3400000000000133"
+			rewards: [{
+				id: "5400000000000133"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.04_industry.210586db1e46c4c827db}"
+			tasks: [{
+				id: "4400000000000153"
+				title: "{lanminecraft.reforged.quests.04_industry.69f7ab76b2622b829f1c}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.04_industry.1be18c87667a98ca09bb}"
+			x: 6.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["3400000000000132"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.50ea4fb43065557a9c12}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.bfd5144c1d35e17a76e5}"
+			]
+			icon: "ae2:pattern_access_terminal"
+			id: "3400000000000134"
+			rewards: [{
+				id: "5400000000000134"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.04_industry.b8afe5a4d9d6985a2bd2}"
+			tasks: [
+				{
+					id: "4400000000000154"
+					item: "ae2:pattern_access_terminal"
+					type: "item"
+				}
+				{
+					id: "4400000000000155"
+					item: "ae2:crafting_monitor"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.04_industry.42bef40c6ae46ab812a2}"
+			x: 6.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["3400000000000016"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.5f27b08755bd73ed8aa6}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.84b834baf1d77e125eed}"
+			]
+			icon: "ae2:crafting_terminal"
+			id: "3400000000000135"
+			rewards: [{
+				id: "5400000000000135"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.04_industry.eb4de1ae41f7c83ba853}"
+			tasks: [{
+				id: "4400000000000156"
+				item: "ae2:crafting_terminal"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.04_industry.ed631c4bcbb6ede2f78d}"
+			x: -2.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["3400000000000135"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.2882d3f3e317890ca834}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.19c95f796401d3ad0ea9}"
+			]
+			icon: "ae2:wireless_terminal"
+			id: "3400000000000136"
+			optional: true
+			rewards: [{
+				id: "5400000000000136"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "diamond"
+			subtitle: "{lanminecraft.reforged.quests.04_industry.f12b59c863216a24ec28}"
+			tasks: [
+				{
+					id: "4400000000000157"
+					item: "ae2:wireless_access_point"
+					type: "item"
+				}
+				{
+					id: "4400000000000158"
+					item: "ae2:wireless_terminal"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4400000000000159"
+					item: "ae2:wireless_booster"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.04_industry.4bbff41060cf2a98e142}"
+			x: -2.5d
+			y: 21.0d
+		}
+		{
+			dependencies: ["3400000000000135"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.5495c34ac840a8935dc6}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.d144fe0f4ffcd0ec29a7}"
+			]
+			icon: "ae2:storage_monitor"
+			id: "3400000000000137"
+			optional: true
+			rewards: [{
+				id: "5400000000000137"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "diamond"
+			subtitle: "{lanminecraft.reforged.quests.04_industry.478c5426fa6928373246}"
+			tasks: [
+				{
+					id: "4400000000000160"
+					item: "ae2:storage_monitor"
+					type: "item"
+				}
+				{
+					id: "4400000000000161"
+					item: "ae2:conversion_monitor"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.04_industry.b72eafc91698ea1fab6b}"
+			x: -4.5d
+			y: 21.0d
+		}
+		{
+			dependencies: ["3400000000000020"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.167040519f9726a53593}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.50332cd2a3c3c71a960b}"
+			]
+			icon: "appflux:harden_insulating_resin"
+			id: "3400000000000138"
+			min_width: 360
+			rewards: [{
+				id: "5400000000000138"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.04_industry.2b5c38a230f18a0715c1}"
+			tasks: [{
+				count: 8L
+				id: "4400000000000162"
+				item: "appflux:harden_insulating_resin"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.04_industry.e6cbe80ee0bc92ee2835}"
+			x: 2.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["3400000000000138"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.0bed6173259b59239a49}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.9951f80f152a4a2ab941}"
+			]
+			icon: "appflux:redstone_crystal"
+			id: "3400000000000139"
+			rewards: [{
+				id: "5400000000000139"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.04_industry.7b63717bc3b514550a31}"
+			tasks: [{
+				count: 4L
+				id: "4400000000000163"
+				item: "appflux:redstone_crystal"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.04_industry.d13c32fdba9d67a1efb4}"
+			x: 2.5d
+			y: 28.0d
+		}
+		{
+			dependencies: ["3400000000000139"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.d089ab4b6c965e0438ca}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.77c3a7a9b6c19cb3f2dc}"
+			]
+			icon: "appflux:energy_processor_press"
+			id: "3400000000000140"
+			min_width: 360
+			rewards: [{
+				id: "5400000000000140"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.04_industry.1d811a6b8c05af3ddbb2}"
+			tasks: [
+				{
+					id: "4400000000000164"
+					item: "ae2:charger"
+					type: "item"
+				}
+				{
+					id: "4400000000000165"
+					item: "appflux:energy_processor_press"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.04_industry.24a06266d5c2027f8213}"
+			x: 5.0d
+			y: 27.0d
+		}
+		{
+			dependencies: ["3400000000000140"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.6199ce09cdbacc3c1410}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.a7584f78ab076b1e5c00}"
+			]
+			icon: "appflux:energy_processor"
+			id: "3400000000000141"
+			rewards: [{
+				id: "5400000000000141"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.04_industry.c6ef5adb89fbcd2ef220}"
+			tasks: [{
+				count: 8L
+				id: "4400000000000166"
+				item: "appflux:energy_processor"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.04_industry.48d80df48befbd74e0fb}"
+			x: 5.0d
+			y: 29.0d
+		}
+		{
+			dependencies: ["3400000000000141"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.90f4113c6b0efb7792c2}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.98eb9779c8145e695ecf}"
+			]
+			icon: "appflux:fe_1k_cell"
+			id: "3400000000000142"
+			rewards: [{
+				id: "5400000000000142"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.04_industry.9bc6a1c0c3882bf710df}"
+			tasks: [
+				{
+					id: "4400000000000167"
+					item: "appflux:fe_1k_cell"
+					type: "item"
+				}
+				{
+					id: "4400000000000168"
+					item: "appflux:fe_cell_housing"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.04_industry.2f095c9236450af7f3ab}"
+			x: 7.5d
+			y: 28.0d
+		}
+		{
+			dependencies: ["3400000000000141"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.753b39a4a5fcfe1395cb}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.fa5f365def6385e1700b}"
+			]
+			icon: "appflux:flux_accessor"
+			id: "3400000000000143"
+			rewards: [{
+				id: "5400000000000143"
+				type: "xp"
+				xp: 35
+			}]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.04_industry.2c8bbe8e0e37fa05657e}"
+			tasks: [
+				{
+					id: "4400000000000169"
+					item: "appflux:flux_accessor"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4400000000000170"
+					item: "appflux:induction_card"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.04_industry.69dcafce21915b9e1714}"
+			x: 7.5d
+			y: 30.0d
+		}
+		{
+			dependencies: ["3400000000000025"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.8910a08383331fa1115c}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.b11ba9ec3d2cb2f91247}"
+			]
+			icon: "megacells:item_storage_cell_1m"
+			id: "3400000000000144"
+			min_width: 360
+			rewards: [
+				{
+					count: 2
+					id: "5400000000000201"
+					item: "ae2:item_storage_cell_4k"
+					type: "item"
+				}
+				{
+					id: "5400000000000144"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.04_industry.e22a4e5c260625615db6}"
+			tasks: [{
+				id: "4400000000000171"
+				title: "{lanminecraft.reforged.quests.04_industry.0ebc023d40dbdcb4df7e}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.04_industry.c6fb1d2564e950922368}"
+			x: -2.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["3400000000000144"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.f05ca4d3f7ad0adbf6ac}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.b51390565d0f7249ae01}"
+			]
+			icon: "ae2:singularity"
+			id: "3400000000000145"
+			rewards: [{
+				id: "5400000000000145"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.04_industry.23d31e34daad45a94c14}"
+			tasks: [{
+				id: "4400000000000172"
+				item: "ae2:singularity"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.04_industry.d7015d213294b3f459d5}"
+			x: -2.5d
+			y: 28.0d
+		}
+		{
+			dependencies: ["3400000000000145"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.d40434e640d5d014a716}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.0260e3bfc3bfc830383f}"
+			]
+			icon: "megacells:accumulation_processor_press"
+			id: "3400000000000146"
+			rewards: [{
+				id: "5400000000000146"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.04_industry.8e5785cf9a01cdac6f71}"
+			tasks: [{
+				id: "4400000000000173"
+				item: "megacells:accumulation_processor_press"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.04_industry.4a00cafaedf6ca5a541d}"
+			x: -5.0d
+			y: 27.0d
+		}
+		{
+			dependencies: ["3400000000000146"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.66edfe4b23673ca6756d}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.5a7c6d44f9b934329011}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.a5ce3443fbeee4d6b28e}"
+			]
+			icon: "megacells:sky_steel_ingot"
+			id: "3400000000000147"
+			min_width: 380
+			rewards: [{
+				id: "5400000000000147"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "gear"
+			size: 1.25d
+			subtitle: "{lanminecraft.reforged.quests.04_industry.3228a914e66679d3f0b3}"
+			tasks: [{
+				count: 8L
+				id: "4400000000000174"
+				item: "megacells:sky_steel_ingot"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.04_industry.5bb5e6ad2e47ca1e02b6}"
+			x: -5.0d
+			y: 29.0d
+		}
+		{
+			dependencies: ["3400000000000147"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.9cdb9941784434170646}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.416d9b39f97ebe7a6395}"
+			]
+			icon: "megacells:item_storage_cell_1m"
+			id: "3400000000000148"
+			rewards: [{
+				id: "5400000000000148"
+				type: "xp"
+				xp: 45
+			}]
+			subtitle: "{lanminecraft.reforged.quests.04_industry.59cca128702fc03f3382}"
+			tasks: [
+				{
+					id: "4400000000000175"
+					item: "megacells:mega_item_cell_housing"
+					type: "item"
+				}
+				{
+					id: "4400000000000176"
+					item: "megacells:item_storage_cell_1m"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.04_industry.c19ccbaef347b8e45e1f}"
+			x: -7.5d
+			y: 28.0d
+		}
+		{
+			dependencies: ["3400000000000148"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.8ec0c123fb1cde27979e}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.cc0246aa120d298e2f9a}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.5628990d870f7b251ed1}"
+			]
+			icon: "megacells:bulk_item_cell"
+			id: "3400000000000149"
+			min_width: 360
+			rewards: [{
+				id: "5400000000000149"
+				type: "xp"
+				xp: 45
+			}]
+			subtitle: "{lanminecraft.reforged.quests.04_industry.2ba6fbcfd0864a39ca88}"
+			tasks: [
+				{
+					id: "4400000000000177"
+					item: "megacells:bulk_item_cell"
+					type: "item"
+				}
+				{
+					id: "4400000000000178"
+					item: "megacells:compression_card"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.04_industry.d4ba71fa57c43fec3b6c}"
+			x: -7.5d
+			y: 30.0d
+		}
+		{
+			dependencies: ["3400000000000147"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.2a155a25be2117273583}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.c1c0af98efe34c67ccfd}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.9c8421127ec996eddfd2}"
+			]
+			icon: "megacells:mega_pattern_provider"
+			id: "3400000000000150"
+			min_width: 380
+			rewards: [
+				{
+					count: 2
+					id: "5400000000000202"
+					item: "megacells:mega_crafting_accelerator"
+					type: "item"
+				}
+				{
+					id: "5400000000000150"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "{lanminecraft.reforged.quests.04_industry.a9352df518e271a5ec17}"
+			tasks: [
+				{
+					id: "4400000000000179"
+					item: "megacells:mega_pattern_provider"
+					type: "item"
+				}
+				{
+					id: "4400000000000180"
+					item: "megacells:mega_crafting_unit"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.04_industry.511816606811a13723d0}"
+			x: -2.5d
+			y: 30.0d
+		}
+		{
+			dependencies: ["3400000000000024"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.a1ae179e18b502747120}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.710e99b4f515c73fdee9}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.553ae305495ab7741eea}"
+			]
+			icon: "industrialforegoing:conveyor"
+			id: "3400000000000151"
+			rewards: [{
+				id: "5400000000000151"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.04_industry.f86983c0229f90879740}"
+			tasks: [{
+				count: 24L
+				id: "4400000000000181"
+				item: "industrialforegoing:conveyor"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.04_industry.faa73b0e67bdf2c9521f}"
+			x: 7.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["3400000000000151"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.ead77cb78505dc44753d}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.4c52258885feb731d709}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.d725231fdbf0c27c9e7c}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.61bafed772c9603bf777}"
+			]
+			icon: "industrialforegoing:conveyor_extraction_upgrade"
+			id: "3400000000000152"
+			min_width: 360
+			rewards: [{
+				id: "5400000000000152"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.04_industry.2367ed82db03a13c4f78}"
+			tasks: [
+				{
+					id: "4400000000000182"
+					item: "industrialforegoing:conveyor_extraction_upgrade"
+					type: "item"
+				}
+				{
+					id: "4400000000000183"
+					item: "industrialforegoing:conveyor_insertion_upgrade"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.04_industry.f7fd36f560f35c85d7ae}"
+			x: 7.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["3400000000000151"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.b0a42c9e14423d21efa3}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.bd82466d83cbf2a10b26}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.326563745c0d0f775151}"
+			]
+			icon: "industrialforegoing:latex_processing_unit"
+			id: "3400000000000153"
+			min_width: 360
+			rewards: [{
+				id: "5400000000000153"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.04_industry.4ec8b60aa8705d8fdf54}"
+			tasks: [
+				{
+					id: "4400000000000184"
+					item: "industrialforegoing:fluid_extractor"
+					type: "item"
+				}
+				{
+					id: "4400000000000185"
+					item: "industrialforegoing:latex_processing_unit"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.04_industry.d33ebe52597be34669f3}"
+			x: 9.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["3400000000000152"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.e71171c6947483394189}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.7acd9b0e01d91daa63e5}"
+			]
+			icon: "industrialforegoing:dissolution_chamber"
+			id: "3400000000000154"
+			min_width: 360
+			rewards: [{
+				id: "5400000000000154"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.04_industry.d80d1add1849d210b110}"
+			tasks: [
+				{
+					id: "4400000000000186"
+					item: "industrialforegoing:dissolution_chamber"
+					type: "item"
+				}
+				{
+					id: "4400000000000187"
+					title: "{lanminecraft.reforged.quests.04_industry.e7fa5c124bb24212c16d}"
+					type: "checkmark"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.04_industry.bd5db3c9548069b05c33}"
+			x: 9.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["3400000000000152"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.2395369fa3c43b8b074d}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.a814ea58585f3806a7f2}"
+			]
+			icon: "industrialforegoing:pity_black_hole_unit"
+			id: "3400000000000155"
+			optional: true
+			rewards: [{
+				id: "5400000000000155"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			subtitle: "{lanminecraft.reforged.quests.04_industry.57469e5fc406dcf4818a}"
+			tasks: [{
+				id: "4400000000000188"
+				item: "industrialforegoing:pity_black_hole_unit"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.04_industry.1b821b88d7fc2883ced6}"
+			x: 9.5d
+			y: 26.0d
+		}
+		# ─────────────────────────────────────────────────────────────────────
+		# ВЕТКА · ЯРУСЫ МАШИН (патч Alchemistry 2.3.4-piglin.2)
+		# ─────────────────────────────────────────────────────────────────────
+		{
+			dependencies: ["3400000000000005"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.b95ffc7efc29c1ced3ce}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.d78a037690aa15d5f329}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.a22db6ad17e38b22458b}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.7866464eadb46d2d8dbb}"
+			]
+			icon: "alchemistry:dissolver_industrial"
+			id: "3400000000000160"
+			min_width: 400
+			rewards: [
+				{
+					id: "5400000000000900"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.04_industry.c982df0d4656be5f70f5}"
+			tasks: [{
+				id: "4400000000000900"
+				item: "alchemistry:dissolver_industrial"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.04_industry.7faccd37eeb85d69a097}"
+			x: 13.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["3400000000000160"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.a2682f1b65ec8b25b3b6}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.dc75797993ce7e8cc007}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.20e23247fefd96c5c872}"
+			]
+			icon: "alchemistry:dissolver_cascade"
+			id: "3400000000000161"
+			min_width: 400
+			rewards: [
+				{
+					id: "5400000000000901"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.04_industry.dcd44553d9433dda8b59}"
+			tasks: [{
+				id: "4400000000000901"
+				item: "alchemistry:dissolver_cascade"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.04_industry.e51f3064a090dbb3d64e}"
+			x: 13.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["3400000000000160"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.720aa1e40a6cc6285aa4}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.ce0626ed4dbb50103e11}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.129e49ad1e244e470c91}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.7f2e099e11d8fd8b4f30}"
+			]
+			icon: "alchemistry:combiner_cascade"
+			id: "3400000000000162"
+			min_width: 420
+			rewards: [
+				{
+					id: "5400000000000902"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.04_industry.2c68c049c60976392df1}"
+			tasks: [
+				{
+					id: "4400000000000902"
+					item: "alchemistry:combiner_industrial"
+					type: "item"
+				}
+				{
+					id: "4400000000000903"
+					item: "alchemistry:combiner_cascade"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.04_industry.6fe91a67f8325dacb0ef}"
+			x: 16.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["3400000000000162"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.ba401176b8342fdac86c}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.90eb63ba408524207b47}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.1d45a948c9937d48d89c}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.073d2672d774805714c0}"
+			]
+			icon: "alchemistry:compactor_cascade"
+			id: "3400000000000163"
+			min_width: 420
+			rewards: [{
+				id: "5400000000000903"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.04_industry.f377765a4c1257a7697b}"
+			tasks: [
+				{
+					id: "4400000000000904"
+					item: "alchemistry:compactor_industrial"
+					type: "item"
+				}
+				{
+					id: "4400000000000905"
+					item: "alchemistry:compactor_cascade"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.04_industry.62574854b8b59043f355}"
+			x: 19.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["3400000000000162"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.743f8c8772b99eddb3fe}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.8f4fc4261e21536e50e1}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.c1b3a29eca1f2f545e19}"
+			]
+			icon: "alchemistry:atomizer_cascade"
+			id: "3400000000000164"
+			min_width: 420
+			rewards: [{
+				id: "5400000000000904"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.04_industry.17b522b927da16ad75b1}"
+			tasks: [
+				{
+					id: "4400000000000906"
+					item: "alchemistry:atomizer_industrial"
+					type: "item"
+				}
+				{
+					id: "4400000000000907"
+					item: "alchemistry:atomizer_cascade"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.04_industry.4bd2438f18ee98ed8bdd}"
+			x: 19.0d
+			y: 25.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3400000000000005"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.70ea8d0ec9602cd17465}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.57a41d2799fd0306bfb3}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.51ff32e2092838ebddd3}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.6e81a74300158f9158d0}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.4b545f6e79d6daa9e826}"
+			]
+			icon: "minecraft:redstone_torch"
+			id: "3400000000000F10"
+			min_width: 380
+			optional: true
+			repeat_cooldown: 60L
+			rewards: [{
+				command: "/gamestage add {p} industry"
+				elevate_perms: true
+				id: "5400000000000F10"
+				player_command: false
+				title: "{lanminecraft.reforged.quests.04_industry.3dd88ba7d2a1b81d0adb}"
+				type: "command"
+			}]
+			shape: "diamond"
+			subtitle: "{lanminecraft.reforged.quests.04_industry.228542f8870a4043009c}"
+			tasks: [{
+				id: "4400000000000F10"
+				title: "{lanminecraft.reforged.quests.04_industry.2cb3e2e1bb1637fdefe8}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.04_industry.153f01c5d9c9f5a8fb81}"
+			x: 11.5d
+			y: 30.0d
+		}
+		{
+			dependencies: ["3400000000000005"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.bf5fcd7f77ae136ec634}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.b4324bae0ca5f494b6d3}"
+				"{lanminecraft.reforged.quests.04_industry.7ed0f3b5751514c000ed}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.959992bf73357b662cdb}"
+			]
+			icon: "ae2:quantum_link"
+			id: "3400000000000F20"
+			min_width: 470
+			rewards: [{
+				id: "5400000000000F20"
+				type: "xp"
+				xp: 800
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.04_industry.7853583e65ce6a6d5547}"
+			tasks: [{
+				id: "4400000000000F20"
+				item: "ae2:quantum_link"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.04_industry.1113de19fe0d98b9433b}"
+			x: 22.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3400000000000005"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.692798cb15c869426fa5}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.69b7e2d022680176eb01}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.8c6764ba24a220acb56b}"
+			]
+			icon: "megacells:cell_component_256m"
+			id: "3400000000000F21"
+			min_width: 470
+			rewards: [{
+				id: "5400000000000F21"
+				type: "xp"
+				xp: 800
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.04_industry.13a4ba562f0246005381}"
+			tasks: [{
+				id: "4400000000000F21"
+				item: "megacells:cell_component_256m"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.04_industry.243cf4018006425c318a}"
+			x: 22.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3400000000000124"]
+			description: [
+				"{lanminecraft.reforged.quests.04_industry.eb9dede0128d166272b9}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.3be24095eb2c7434a045}"
+				""
+				"{lanminecraft.reforged.quests.04_industry.d53cf2fc3b3d8d38d6fa}"
+			]
+			icon: "appmek:chemical_storage_cell_1k"
+			id: "3400000000000165"
+			rewards: [{
+				id: "5400000000000905"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.04_industry.a019b6b7ba164b3968cb}"
+			tasks: [
+				{
+					id: "4400000000000908"
+					item: "appmek:chemical_cell_housing"
+					type: "item"
+				}
+				{
+					id: "4400000000000909"
+					item: "appmek:chemical_storage_cell_1k"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.04_industry.2c2d7e1a1617cc2a869f}"
+			x: -2.0d
+			y: 13.0d
+		}
+	]
+	subtitle: ["{lanminecraft.reforged.quests.04_industry.00e5d893ea5d32756f6b}"]
+	title: "{lanminecraft.reforged.quests.04_industry.12ce2dab130d8162e756}"
+}

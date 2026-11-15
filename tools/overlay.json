@@ -12,6 +12,783 @@
     }
   ],
   "authorArchiveSha256": "23e5968067ad91b55e60bbd85ecd0de3b5a8a46cf7d06f6684c8d565f0d62580",
+  "bookLocalization": [
+    {
+      "before": {
+        "sha256": "433a33d045bac2204cfaeb143ed842fb9a254d40d31636324798be166047641c",
+        "sizeBytes": 77
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapter_groups.snbt": {
+          "sha256": "433a33d045bac2204cfaeb143ed842fb9a254d40d31636324798be166047641c",
+          "sizeBytes": 77
+        }
+      },
+      "output": {
+        "sha256": "0d8070de0207e4da96848ced2dd01096ddf7ba7da79691bf7254252660cc603c",
+        "sizeBytes": 132
+      },
+      "path": "config/ftbquests/quests/chapter_groups.snbt"
+    },
+    {
+      "before": {
+        "sha256": "c04a8b6f03ab704d54c4e56e291415ed13926c8ada2a4fa43c2da9900c69feea",
+        "sizeBytes": 20817
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/00_welcome.snbt": {
+          "sha256": "c04a8b6f03ab704d54c4e56e291415ed13926c8ada2a4fa43c2da9900c69feea",
+          "sizeBytes": 20817
+        }
+      },
+      "output": {
+        "sha256": "9ec7ab9f2599e271b2165baf231e27fe0f2b6f48119f019d672f6fbc96fc17e1",
+        "sizeBytes": 13764
+      },
+      "path": "config/ftbquests/quests/chapters/00_welcome.snbt"
+    },
+    {
+      "before": {
+        "sha256": "d0b88672e46faebce1f01127b118143329c2c0b8f3c1e905ee8c7236083da71c",
+        "sizeBytes": 56406
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/01_survival.snbt": {
+          "sha256": "d0b88672e46faebce1f01127b118143329c2c0b8f3c1e905ee8c7236083da71c",
+          "sizeBytes": 56406
+        }
+      },
+      "output": {
+        "sha256": "c978b5a84315d80e173431c8fb925aaac948705ef2aa96571cee22b249f0cdaf",
+        "sizeBytes": 38025
+      },
+      "path": "config/ftbquests/quests/chapters/01_survival.snbt"
+    },
+    {
+      "before": {
+        "sha256": "1a51d91ff0c1bd59b71d1e7e7cf0f8892a52a9b9a06160f9dde1be39b96e15ae",
+        "sizeBytes": 84377
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/02_energy.snbt": {
+          "sha256": "1a51d91ff0c1bd59b71d1e7e7cf0f8892a52a9b9a06160f9dde1be39b96e15ae",
+          "sizeBytes": 84377
+        }
+      },
+      "output": {
+        "sha256": "b50991cca0ecbad0b81a07f5dfc23c8da02348ab3bba7e877e7f9d9f98f48bdd",
+        "sizeBytes": 57942
+      },
+      "path": "config/ftbquests/quests/chapters/02_energy.snbt"
+    },
+    {
+      "before": {
+        "sha256": "882ec08ec7ceea807a421392da5cb21620c38237ffd8f8c2d435a8060578ee70",
+        "sizeBytes": 75376
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/03_tools.snbt": {
+          "sha256": "882ec08ec7ceea807a421392da5cb21620c38237ffd8f8c2d435a8060578ee70",
+          "sizeBytes": 75376
+        }
+      },
+      "output": {
+        "sha256": "6af5d3b53c9e82771be6055a5cc2da76383919775df0afdc5558ade374106945",
+        "sizeBytes": 49588
+      },
+      "path": "config/ftbquests/quests/chapters/03_tools.snbt"
+    },
+    {
+      "before": {
+        "sha256": "b9eabc437babb3681dad1d78e3e0c7ee0c9583c32de7607f481c76380afa9025",
+        "sizeBytes": 93598
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/04_industry.snbt": {
+          "sha256": "b9eabc437babb3681dad1d78e3e0c7ee0c9583c32de7607f481c76380afa9025",
+          "sizeBytes": 93598
+        }
+      },
+      "output": {
+        "sha256": "67916ae83a1d3a9f8dc9ac26641714ba27cf4dc34cb05d1b6aa091f8492214fc",
+        "sizeBytes": 71069
+      },
+      "path": "config/ftbquests/quests/chapters/04_industry.snbt"
+    },
+    {
+      "before": {
+        "sha256": "0568aa1249989dc74477e1ba92b67be9341603b47ed14113b04ed0a8cf30c8a3",
+        "sizeBytes": 83511
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/05_core.snbt": {
+          "sha256": "0568aa1249989dc74477e1ba92b67be9341603b47ed14113b04ed0a8cf30c8a3",
+          "sizeBytes": 83511
+        }
+      },
+      "output": {
+        "sha256": "2d903568bb722d4cdd619ce57d5e7d50e4d896ac8f88fc67a91b79cfa1c6ab2f",
+        "sizeBytes": 57643
+      },
+      "path": "config/ftbquests/quests/chapters/05_core.snbt"
+    },
+    {
+      "before": {
+        "sha256": "0169b5e275c198bdf1e1371b1b4373b312b5d7174f0c1e8898d735b809714ca2",
+        "sizeBytes": 189139
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/06_periodic_table.snbt": {
+          "sha256": "0169b5e275c198bdf1e1371b1b4373b312b5d7174f0c1e8898d735b809714ca2",
+          "sizeBytes": 189139
+        }
+      },
+      "output": {
+        "sha256": "59005f89eb253c4dc00fecd920b7873fb998c478c173b8aec278237233885829",
+        "sizeBytes": 139538
+      },
+      "path": "config/ftbquests/quests/chapters/06_periodic_table.snbt"
+    },
+    {
+      "before": {
+        "sha256": "23ce03afcdd365b41343790a6a0356c8053cc73520053c61b7c8e284e3512bba",
+        "sizeBytes": 57798
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/07_antimatter.snbt": {
+          "sha256": "23ce03afcdd365b41343790a6a0356c8053cc73520053c61b7c8e284e3512bba",
+          "sizeBytes": 57798
+        }
+      },
+      "output": {
+        "sha256": "87bc10376abac25e1189ec34de550401624b79b763ef4cfbb04440c9d3e7939a",
+        "sizeBytes": 39263
+      },
+      "path": "config/ftbquests/quests/chapters/07_antimatter.snbt"
+    },
+    {
+      "before": {
+        "sha256": "40bc3e377a06d1b7f12a928f75711ef1c4c5786b8d9ca6539df1ee1efed6651e",
+        "sizeBytes": 150804
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/08_compounds.snbt": {
+          "sha256": "40bc3e377a06d1b7f12a928f75711ef1c4c5786b8d9ca6539df1ee1efed6651e",
+          "sizeBytes": 150804
+        }
+      },
+      "output": {
+        "sha256": "ce0f64965e1f6050e07edce108375e308d915ee87bbc6b05527876a63bd06e1d",
+        "sizeBytes": 101390
+      },
+      "path": "config/ftbquests/quests/chapters/08_compounds.snbt"
+    },
+    {
+      "before": {
+        "sha256": "72ee26255c4300e7a25599281a66b6ffc5a56243254e8787bbd1051fc11e60df",
+        "sizeBytes": 68490
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/09_nether_end.snbt": {
+          "sha256": "72ee26255c4300e7a25599281a66b6ffc5a56243254e8787bbd1051fc11e60df",
+          "sizeBytes": 68490
+        }
+      },
+      "output": {
+        "sha256": "9d24b04f27b877deff388f46e2dbbdb83cf0f565e0b2e56ab97064e84f0217cf",
+        "sizeBytes": 51412
+      },
+      "path": "config/ftbquests/quests/chapters/09_nether_end.snbt"
+    },
+    {
+      "before": {
+        "sha256": "706c745ae01252b415acd5b26df131c155def2eed6e34bac23ceec365a26e8b2",
+        "sizeBytes": 135154
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/10_industrial_chemistry.snbt": {
+          "sha256": "706c745ae01252b415acd5b26df131c155def2eed6e34bac23ceec365a26e8b2",
+          "sizeBytes": 135154
+        }
+      },
+      "output": {
+        "sha256": "63a762ed47429117c475fce207662b36f605c04244caeaa2fe2657ef01bf70d2",
+        "sizeBytes": 109994
+      },
+      "path": "config/ftbquests/quests/chapters/10_industrial_chemistry.snbt"
+    },
+    {
+      "before": {
+        "sha256": "02301c56464f9789da04f8866645a4482f807b37bdd5f357b623bd06b878b952",
+        "sizeBytes": 56626
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/11_settlement.snbt": {
+          "sha256": "02301c56464f9789da04f8866645a4482f807b37bdd5f357b623bd06b878b952",
+          "sizeBytes": 56626
+        }
+      },
+      "output": {
+        "sha256": "cd59211067508e13262e0c22efe78a47e2543c13db668fe2b95a326149e9b316",
+        "sizeBytes": 47082
+      },
+      "path": "config/ftbquests/quests/chapters/11_settlement.snbt"
+    },
+    {
+      "before": {
+        "sha256": "a4ef7533572f6fdc2eb482bb0db23084e4dcaffd17b7b5d3ea3c7b72f8275924",
+        "sizeBytes": 67607
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/12_challenges.snbt": {
+          "sha256": "a4ef7533572f6fdc2eb482bb0db23084e4dcaffd17b7b5d3ea3c7b72f8275924",
+          "sizeBytes": 67607
+        }
+      },
+      "output": {
+        "sha256": "e2f9d174f5aef88133f7ce08a24cd9bb9f8fa55ebb50faa95a8f12838fb898a8",
+        "sizeBytes": 53910
+      },
+      "path": "config/ftbquests/quests/chapters/12_challenges.snbt"
+    },
+    {
+      "before": {
+        "sha256": "5b4a35222d4e91171b9448a2dc21b735f80770c94e86cead672d92cc2cf64d00",
+        "sizeBytes": 69200
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/13_annihilation.snbt": {
+          "sha256": "5b4a35222d4e91171b9448a2dc21b735f80770c94e86cead672d92cc2cf64d00",
+          "sizeBytes": 69200
+        }
+      },
+      "output": {
+        "sha256": "b8ed437ee59254938fed838aea20dbf29350613821dd2d428be957fb33c40763",
+        "sizeBytes": 63954
+      },
+      "path": "config/ftbquests/quests/chapters/13_annihilation.snbt"
+    },
+    {
+      "before": {
+        "sha256": "f1036b7ac51e0337e96a735f809e4f848d79614ac8bb387c146b82a838b86f57",
+        "sizeBytes": 36829
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/14_twilight.snbt": {
+          "sha256": "f1036b7ac51e0337e96a735f809e4f848d79614ac8bb387c146b82a838b86f57",
+          "sizeBytes": 36829
+        }
+      },
+      "output": {
+        "sha256": "2ba42fc0a189a9fb05df2748b588f4a71bac4872bbaf88c80da86e3bed7e22b3",
+        "sizeBytes": 36455
+      },
+      "path": "config/ftbquests/quests/chapters/14_twilight.snbt"
+    },
+    {
+      "before": {
+        "sha256": "91c59d7b4488fcafbc272c1fe2239d6d3c71568894171a90e1f7db8257c560e5",
+        "sizeBytes": 52293
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/15_infinity.snbt": {
+          "sha256": "91c59d7b4488fcafbc272c1fe2239d6d3c71568894171a90e1f7db8257c560e5",
+          "sizeBytes": 52293
+        }
+      },
+      "output": {
+        "sha256": "1ebfb400119a483affc19472a2ef07641d42e98bc4485de64af869f122ce0c31",
+        "sizeBytes": 45881
+      },
+      "path": "config/ftbquests/quests/chapters/15_infinity.snbt"
+    },
+    {
+      "before": {
+        "sha256": "90cf3bfd31ad4593dd8b4d8c1a2d83912d10ee724f1bda14c23ae8cb59350a29",
+        "sizeBytes": 37265
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/16_create.snbt": {
+          "sha256": "90cf3bfd31ad4593dd8b4d8c1a2d83912d10ee724f1bda14c23ae8cb59350a29",
+          "sizeBytes": 37265
+        }
+      },
+      "output": {
+        "sha256": "3a59fb855d5b30a5b523c3143bc4a8893b6eed2fe6959eb79b0536edf1e0556c",
+        "sizeBytes": 32905
+      },
+      "path": "config/ftbquests/quests/chapters/16_create.snbt"
+    },
+    {
+      "before": {
+        "sha256": "568e8a4e1d05ae1ec9c069712093e37228c5e687899b78e0388bd9e6b74ea6a0",
+        "sizeBytes": 22156
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/17_ars_nouveau.snbt": {
+          "sha256": "568e8a4e1d05ae1ec9c069712093e37228c5e687899b78e0388bd9e6b74ea6a0",
+          "sizeBytes": 22156
+        }
+      },
+      "output": {
+        "sha256": "d8ff9bfc4ad8805743c47e17798c15e5cbe0f982f947115608918eacb94d9822",
+        "sizeBytes": 19717
+      },
+      "path": "config/ftbquests/quests/chapters/17_ars_nouveau.snbt"
+    },
+    {
+      "before": {
+        "sha256": "1c21f4505b59313052ba1e48369ae1eb0d88f62093081e874f6eafdf4fbc77ab",
+        "sizeBytes": 28393
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/18_draconic.snbt": {
+          "sha256": "1c21f4505b59313052ba1e48369ae1eb0d88f62093081e874f6eafdf4fbc77ab",
+          "sizeBytes": 28393
+        }
+      },
+      "output": {
+        "sha256": "734782e238687c5926337ad32e91af20bf7dc64438053db53a9733aaa75e9578",
+        "sizeBytes": 23487
+      },
+      "path": "config/ftbquests/quests/chapters/18_draconic.snbt"
+    },
+    {
+      "before": {
+        "sha256": "ed0785384011bf576698ce4756ccce8db8e83e854d59d1a7ea24afe5b8c8fdef",
+        "sizeBytes": 16809
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/19_ad_astra.snbt": {
+          "sha256": "ed0785384011bf576698ce4756ccce8db8e83e854d59d1a7ea24afe5b8c8fdef",
+          "sizeBytes": 16809
+        }
+      },
+      "output": {
+        "sha256": "d501a3c03779aa0cfa19df865f45d3d721f8521f88b642ee3258e0a1a22370ef",
+        "sizeBytes": 14466
+      },
+      "path": "config/ftbquests/quests/chapters/19_ad_astra.snbt"
+    },
+    {
+      "before": {
+        "sha256": "7a7c57d9c9791dc2a9e97f31f3d49f650957cb7337469f140d2a3811c4948b44",
+        "sizeBytes": 15036
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/20_otherside.snbt": {
+          "sha256": "7a7c57d9c9791dc2a9e97f31f3d49f650957cb7337469f140d2a3811c4948b44",
+          "sizeBytes": 15036
+        }
+      },
+      "output": {
+        "sha256": "b08eaf4ac75bcccea26897930adcf2785c78fe4f81c70a7397808b51aacc5904",
+        "sizeBytes": 13125
+      },
+      "path": "config/ftbquests/quests/chapters/20_otherside.snbt"
+    },
+    {
+      "before": {
+        "sha256": "410b4c2e9faf667c7739c6758e24dd7e6201138f749dc91da3be1f11adc7f545",
+        "sizeBytes": 12011
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/21_malum.snbt": {
+          "sha256": "410b4c2e9faf667c7739c6758e24dd7e6201138f749dc91da3be1f11adc7f545",
+          "sizeBytes": 12011
+        }
+      },
+      "output": {
+        "sha256": "140071dd46eef55091c39a2891a1f53a853fa802bc05044e5d3681110e850f1a",
+        "sizeBytes": 10426
+      },
+      "path": "config/ftbquests/quests/chapters/21_malum.snbt"
+    },
+    {
+      "before": {
+        "sha256": "990ad4be881026b56c58a60cad4c18454b4fdfd56390bc25c837259850f48fa0",
+        "sizeBytes": 15046
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/22_rftools.snbt": {
+          "sha256": "990ad4be881026b56c58a60cad4c18454b4fdfd56390bc25c837259850f48fa0",
+          "sizeBytes": 15046
+        }
+      },
+      "output": {
+        "sha256": "695d90780dd7b629da489ac82b97ab3a296c1060ef8cc75c882d06c58d0110a6",
+        "sizeBytes": 13536
+      },
+      "path": "config/ftbquests/quests/chapters/22_rftools.snbt"
+    },
+    {
+      "before": {
+        "sha256": "04063b84b8eae77e0a8900aa2dc47250b84cf36563edc5ff4b3539334128d292",
+        "sizeBytes": 12985
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/23_apotheosis.snbt": {
+          "sha256": "04063b84b8eae77e0a8900aa2dc47250b84cf36563edc5ff4b3539334128d292",
+          "sizeBytes": 12985
+        }
+      },
+      "output": {
+        "sha256": "7ac594dd18591aaf9ffb5b2954d46ac24988f0313f78e42f8234e9d0e03f63d9",
+        "sizeBytes": 11819
+      },
+      "path": "config/ftbquests/quests/chapters/23_apotheosis.snbt"
+    },
+    {
+      "before": {
+        "sha256": "2232e600ff13fceb5eacc1e9c9b88e76fdcb809dcec77d724f2215205b4b3dcd",
+        "sizeBytes": 8565
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/24_hostile_networks.snbt": {
+          "sha256": "2232e600ff13fceb5eacc1e9c9b88e76fdcb809dcec77d724f2215205b4b3dcd",
+          "sizeBytes": 8565
+        }
+      },
+      "output": {
+        "sha256": "d5124465c873fe8bd5fc02e518c65cc6bd29bc669797a41ebcfd64b729ef4797",
+        "sizeBytes": 7972
+      },
+      "path": "config/ftbquests/quests/chapters/24_hostile_networks.snbt"
+    },
+    {
+      "before": {
+        "sha256": "2c0167c1141d666b51662557a8e567946ea46412aa260d573de4b50fad35ac8c",
+        "sizeBytes": 13916
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/25_cryo_accelerator.snbt": {
+          "sha256": "2c0167c1141d666b51662557a8e567946ea46412aa260d573de4b50fad35ac8c",
+          "sizeBytes": 13916
+        }
+      },
+      "output": {
+        "sha256": "f98b579d3ff21d24b018181bb94b004f4d27a7bde3bfd9633ee15bed19d3b5de",
+        "sizeBytes": 11136
+      },
+      "path": "config/ftbquests/quests/chapters/25_cryo_accelerator.snbt"
+    },
+    {
+      "before": {
+        "sha256": "28e577d6f608ed1780b6dbb21c9d69267d01f2ca627c59bb8e51f74d7997ad66",
+        "sizeBytes": 25880
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/26_factory_must_grow.snbt": {
+          "sha256": "28e577d6f608ed1780b6dbb21c9d69267d01f2ca627c59bb8e51f74d7997ad66",
+          "sizeBytes": 25880
+        }
+      },
+      "output": {
+        "sha256": "907980809e150ca45be735a3866be6371c56d0ded3a3792c864b83fa19cee2b7",
+        "sizeBytes": 21938
+      },
+      "path": "config/ftbquests/quests/chapters/26_factory_must_grow.snbt"
+    },
+    {
+      "before": {
+        "sha256": "99cc265dee8693fa344a6a7554ee8f5071c9d698d3c07c13e7a9616498e1d024",
+        "sizeBytes": 6743
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/27_contracts.snbt": {
+          "sha256": "99cc265dee8693fa344a6a7554ee8f5071c9d698d3c07c13e7a9616498e1d024",
+          "sizeBytes": 6743
+        }
+      },
+      "output": {
+        "sha256": "0045d28452b2fee7be3c132271c64512c609a5cd28bce09ac4c02b929fde8810",
+        "sizeBytes": 7220
+      },
+      "path": "config/ftbquests/quests/chapters/27_contracts.snbt"
+    },
+    {
+      "inputs": {
+        "config/ftbquests/quests/chapter_groups.snbt": {
+          "sha256": "433a33d045bac2204cfaeb143ed842fb9a254d40d31636324798be166047641c",
+          "sizeBytes": 77
+        },
+        "config/ftbquests/quests/chapters/00_welcome.snbt": {
+          "sha256": "c04a8b6f03ab704d54c4e56e291415ed13926c8ada2a4fa43c2da9900c69feea",
+          "sizeBytes": 20817
+        },
+        "config/ftbquests/quests/chapters/01_survival.snbt": {
+          "sha256": "d0b88672e46faebce1f01127b118143329c2c0b8f3c1e905ee8c7236083da71c",
+          "sizeBytes": 56406
+        },
+        "config/ftbquests/quests/chapters/02_energy.snbt": {
+          "sha256": "1a51d91ff0c1bd59b71d1e7e7cf0f8892a52a9b9a06160f9dde1be39b96e15ae",
+          "sizeBytes": 84377
+        },
+        "config/ftbquests/quests/chapters/03_tools.snbt": {
+          "sha256": "882ec08ec7ceea807a421392da5cb21620c38237ffd8f8c2d435a8060578ee70",
+          "sizeBytes": 75376
+        },
+        "config/ftbquests/quests/chapters/04_industry.snbt": {
+          "sha256": "b9eabc437babb3681dad1d78e3e0c7ee0c9583c32de7607f481c76380afa9025",
+          "sizeBytes": 93598
+        },
+        "config/ftbquests/quests/chapters/05_core.snbt": {
+          "sha256": "0568aa1249989dc74477e1ba92b67be9341603b47ed14113b04ed0a8cf30c8a3",
+          "sizeBytes": 83511
+        },
+        "config/ftbquests/quests/chapters/06_periodic_table.snbt": {
+          "sha256": "0169b5e275c198bdf1e1371b1b4373b312b5d7174f0c1e8898d735b809714ca2",
+          "sizeBytes": 189139
+        },
+        "config/ftbquests/quests/chapters/07_antimatter.snbt": {
+          "sha256": "23ce03afcdd365b41343790a6a0356c8053cc73520053c61b7c8e284e3512bba",
+          "sizeBytes": 57798
+        },
+        "config/ftbquests/quests/chapters/08_compounds.snbt": {
+          "sha256": "40bc3e377a06d1b7f12a928f75711ef1c4c5786b8d9ca6539df1ee1efed6651e",
+          "sizeBytes": 150804
+        },
+        "config/ftbquests/quests/chapters/09_nether_end.snbt": {
+          "sha256": "72ee26255c4300e7a25599281a66b6ffc5a56243254e8787bbd1051fc11e60df",
+          "sizeBytes": 68490
+        },
+        "config/ftbquests/quests/chapters/10_industrial_chemistry.snbt": {
+          "sha256": "706c745ae01252b415acd5b26df131c155def2eed6e34bac23ceec365a26e8b2",
+          "sizeBytes": 135154
+        },
+        "config/ftbquests/quests/chapters/11_settlement.snbt": {
+          "sha256": "02301c56464f9789da04f8866645a4482f807b37bdd5f357b623bd06b878b952",
+          "sizeBytes": 56626
+        },
+        "config/ftbquests/quests/chapters/12_challenges.snbt": {
+          "sha256": "a4ef7533572f6fdc2eb482bb0db23084e4dcaffd17b7b5d3ea3c7b72f8275924",
+          "sizeBytes": 67607
+        },
+        "config/ftbquests/quests/chapters/13_annihilation.snbt": {
+          "sha256": "5b4a35222d4e91171b9448a2dc21b735f80770c94e86cead672d92cc2cf64d00",
+          "sizeBytes": 69200
+        },
+        "config/ftbquests/quests/chapters/14_twilight.snbt": {
+          "sha256": "f1036b7ac51e0337e96a735f809e4f848d79614ac8bb387c146b82a838b86f57",
+          "sizeBytes": 36829
+        },
+        "config/ftbquests/quests/chapters/15_infinity.snbt": {
+          "sha256": "91c59d7b4488fcafbc272c1fe2239d6d3c71568894171a90e1f7db8257c560e5",
+          "sizeBytes": 52293
+        },
+        "config/ftbquests/quests/chapters/16_create.snbt": {
+          "sha256": "90cf3bfd31ad4593dd8b4d8c1a2d83912d10ee724f1bda14c23ae8cb59350a29",
+          "sizeBytes": 37265
+        },
+        "config/ftbquests/quests/chapters/17_ars_nouveau.snbt": {
+          "sha256": "568e8a4e1d05ae1ec9c069712093e37228c5e687899b78e0388bd9e6b74ea6a0",
+          "sizeBytes": 22156
+        },
+        "config/ftbquests/quests/chapters/18_draconic.snbt": {
+          "sha256": "1c21f4505b59313052ba1e48369ae1eb0d88f62093081e874f6eafdf4fbc77ab",
+          "sizeBytes": 28393
+        },
+        "config/ftbquests/quests/chapters/19_ad_astra.snbt": {
+          "sha256": "ed0785384011bf576698ce4756ccce8db8e83e854d59d1a7ea24afe5b8c8fdef",
+          "sizeBytes": 16809
+        },
+        "config/ftbquests/quests/chapters/20_otherside.snbt": {
+          "sha256": "7a7c57d9c9791dc2a9e97f31f3d49f650957cb7337469f140d2a3811c4948b44",
+          "sizeBytes": 15036
+        },
+        "config/ftbquests/quests/chapters/21_malum.snbt": {
+          "sha256": "410b4c2e9faf667c7739c6758e24dd7e6201138f749dc91da3be1f11adc7f545",
+          "sizeBytes": 12011
+        },
+        "config/ftbquests/quests/chapters/22_rftools.snbt": {
+          "sha256": "990ad4be881026b56c58a60cad4c18454b4fdfd56390bc25c837259850f48fa0",
+          "sizeBytes": 15046
+        },
+        "config/ftbquests/quests/chapters/23_apotheosis.snbt": {
+          "sha256": "04063b84b8eae77e0a8900aa2dc47250b84cf36563edc5ff4b3539334128d292",
+          "sizeBytes": 12985
+        },
+        "config/ftbquests/quests/chapters/24_hostile_networks.snbt": {
+          "sha256": "2232e600ff13fceb5eacc1e9c9b88e76fdcb809dcec77d724f2215205b4b3dcd",
+          "sizeBytes": 8565
+        },
+        "config/ftbquests/quests/chapters/25_cryo_accelerator.snbt": {
+          "sha256": "2c0167c1141d666b51662557a8e567946ea46412aa260d573de4b50fad35ac8c",
+          "sizeBytes": 13916
+        },
+        "config/ftbquests/quests/chapters/26_factory_must_grow.snbt": {
+          "sha256": "28e577d6f608ed1780b6dbb21c9d69267d01f2ca627c59bb8e51f74d7997ad66",
+          "sizeBytes": 25880
+        },
+        "config/ftbquests/quests/chapters/27_contracts.snbt": {
+          "sha256": "99cc265dee8693fa344a6a7554ee8f5071c9d698d3c07c13e7a9616498e1d024",
+          "sizeBytes": 6743
+        },
+        "config/ftbquests/quests/data.snbt": {
+          "sha256": "3c688bb9ac725f2c554269a27296a80f9cb43532712fa2685d0e2a1a27041268",
+          "sizeBytes": 577
+        },
+        "mods/ftb-library-forge-2001.2.13.jar": {
+          "fileId": 8226927,
+          "projectId": 404465,
+          "sha256": "41810281b65336265cae2c88412022d02f2f0a3f28c66a06173d86f98acf14a7",
+          "sizeBytes": 780558
+        },
+        "mods/ftb-quests-forge-2001.4.22.jar": {
+          "fileId": 8078538,
+          "projectId": 289412,
+          "sha256": "9ea9d159a78a2724cfe0457b024680fdb52a2126eff9cfa5280a30578f647a68",
+          "sizeBytes": 1255469
+        }
+      },
+      "output": {
+        "sha256": "ec4fa3a6e78cea00f8f95bae4e2c1c87937d04a4dfbc9893f8cc4c37fd1ddf2d",
+        "sizeBytes": 1307010
+      },
+      "path": "kubejs/assets/reforged_quests/lang/en_us.json"
+    },
+    {
+      "inputs": {
+        "config/ftbquests/quests/chapter_groups.snbt": {
+          "sha256": "433a33d045bac2204cfaeb143ed842fb9a254d40d31636324798be166047641c",
+          "sizeBytes": 77
+        },
+        "config/ftbquests/quests/chapters/00_welcome.snbt": {
+          "sha256": "c04a8b6f03ab704d54c4e56e291415ed13926c8ada2a4fa43c2da9900c69feea",
+          "sizeBytes": 20817
+        },
+        "config/ftbquests/quests/chapters/01_survival.snbt": {
+          "sha256": "d0b88672e46faebce1f01127b118143329c2c0b8f3c1e905ee8c7236083da71c",
+          "sizeBytes": 56406
+        },
+        "config/ftbquests/quests/chapters/02_energy.snbt": {
+          "sha256": "1a51d91ff0c1bd59b71d1e7e7cf0f8892a52a9b9a06160f9dde1be39b96e15ae",
+          "sizeBytes": 84377
+        },
+        "config/ftbquests/quests/chapters/03_tools.snbt": {
+          "sha256": "882ec08ec7ceea807a421392da5cb21620c38237ffd8f8c2d435a8060578ee70",
+          "sizeBytes": 75376
+        },
+        "config/ftbquests/quests/chapters/04_industry.snbt": {
+          "sha256": "b9eabc437babb3681dad1d78e3e0c7ee0c9583c32de7607f481c76380afa9025",
+          "sizeBytes": 93598
+        },
+        "config/ftbquests/quests/chapters/05_core.snbt": {
+          "sha256": "0568aa1249989dc74477e1ba92b67be9341603b47ed14113b04ed0a8cf30c8a3",
+          "sizeBytes": 83511
+        },
+        "config/ftbquests/quests/chapters/06_periodic_table.snbt": {
+          "sha256": "0169b5e275c198bdf1e1371b1b4373b312b5d7174f0c1e8898d735b809714ca2",
+          "sizeBytes": 189139
+        },
+        "config/ftbquests/quests/chapters/07_antimatter.snbt": {
+          "sha256": "23ce03afcdd365b41343790a6a0356c8053cc73520053c61b7c8e284e3512bba",
+          "sizeBytes": 57798
+        },
+        "config/ftbquests/quests/chapters/08_compounds.snbt": {
+          "sha256": "40bc3e377a06d1b7f12a928f75711ef1c4c5786b8d9ca6539df1ee1efed6651e",
+          "sizeBytes": 150804
+        },
+        "config/ftbquests/quests/chapters/09_nether_end.snbt": {
+          "sha256": "72ee26255c4300e7a25599281a66b6ffc5a56243254e8787bbd1051fc11e60df",
+          "sizeBytes": 68490
+        },
+        "config/ftbquests/quests/chapters/10_industrial_chemistry.snbt": {
+          "sha256": "706c745ae01252b415acd5b26df131c155def2eed6e34bac23ceec365a26e8b2",
+          "sizeBytes": 135154
+        },
+        "config/ftbquests/quests/chapters/11_settlement.snbt": {
+          "sha256": "02301c56464f9789da04f8866645a4482f807b37bdd5f357b623bd06b878b952",
+          "sizeBytes": 56626
+        },
+        "config/ftbquests/quests/chapters/12_challenges.snbt": {
+          "sha256": "a4ef7533572f6fdc2eb482bb0db23084e4dcaffd17b7b5d3ea3c7b72f8275924",
+          "sizeBytes": 67607
+        },
+        "config/ftbquests/quests/chapters/13_annihilation.snbt": {
+          "sha256": "5b4a35222d4e91171b9448a2dc21b735f80770c94e86cead672d92cc2cf64d00",
+          "sizeBytes": 69200
+        },
+        "config/ftbquests/quests/chapters/14_twilight.snbt": {
+          "sha256": "f1036b7ac51e0337e96a735f809e4f848d79614ac8bb387c146b82a838b86f57",
+          "sizeBytes": 36829
+        },
+        "config/ftbquests/quests/chapters/15_infinity.snbt": {
+          "sha256": "91c59d7b4488fcafbc272c1fe2239d6d3c71568894171a90e1f7db8257c560e5",
+          "sizeBytes": 52293
+        },
+        "config/ftbquests/quests/chapters/16_create.snbt": {
+          "sha256": "90cf3bfd31ad4593dd8b4d8c1a2d83912d10ee724f1bda14c23ae8cb59350a29",
+          "sizeBytes": 37265
+        },
+        "config/ftbquests/quests/chapters/17_ars_nouveau.snbt": {
+          "sha256": "568e8a4e1d05ae1ec9c069712093e37228c5e687899b78e0388bd9e6b74ea6a0",
+          "sizeBytes": 22156
+        },
+        "config/ftbquests/quests/chapters/18_draconic.snbt": {
+          "sha256": "1c21f4505b59313052ba1e48369ae1eb0d88f62093081e874f6eafdf4fbc77ab",
+          "sizeBytes": 28393
+        },
+        "config/ftbquests/quests/chapters/19_ad_astra.snbt": {
+          "sha256": "ed0785384011bf576698ce4756ccce8db8e83e854d59d1a7ea24afe5b8c8fdef",
+          "sizeBytes": 16809
+        },
+        "config/ftbquests/quests/chapters/20_otherside.snbt": {
+          "sha256": "7a7c57d9c9791dc2a9e97f31f3d49f650957cb7337469f140d2a3811c4948b44",
+          "sizeBytes": 15036
+        },
+        "config/ftbquests/quests/chapters/21_malum.snbt": {
+          "sha256": "410b4c2e9faf667c7739c6758e24dd7e6201138f749dc91da3be1f11adc7f545",
+          "sizeBytes": 12011
+        },
+        "config/ftbquests/quests/chapters/22_rftools.snbt": {
+          "sha256": "990ad4be881026b56c58a60cad4c18454b4fdfd56390bc25c837259850f48fa0",
+          "sizeBytes": 15046
+        },
+        "config/ftbquests/quests/chapters/23_apotheosis.snbt": {
+          "sha256": "04063b84b8eae77e0a8900aa2dc47250b84cf36563edc5ff4b3539334128d292",
+          "sizeBytes": 12985
+        },
+        "config/ftbquests/quests/chapters/24_hostile_networks.snbt": {
+          "sha256": "2232e600ff13fceb5eacc1e9c9b88e76fdcb809dcec77d724f2215205b4b3dcd",
+          "sizeBytes": 8565
+        },
+        "config/ftbquests/quests/chapters/25_cryo_accelerator.snbt": {
+          "sha256": "2c0167c1141d666b51662557a8e567946ea46412aa260d573de4b50fad35ac8c",
+          "sizeBytes": 13916
+        },
+        "config/ftbquests/quests/chapters/26_factory_must_grow.snbt": {
+          "sha256": "28e577d6f608ed1780b6dbb21c9d69267d01f2ca627c59bb8e51f74d7997ad66",
+          "sizeBytes": 25880
+        },
+        "config/ftbquests/quests/chapters/27_contracts.snbt": {
+          "sha256": "99cc265dee8693fa344a6a7554ee8f5071c9d698d3c07c13e7a9616498e1d024",
+          "sizeBytes": 6743
+        },
+        "config/ftbquests/quests/data.snbt": {
+          "sha256": "3c688bb9ac725f2c554269a27296a80f9cb43532712fa2685d0e2a1a27041268",
+          "sizeBytes": 577
+        },
+        "mods/ftb-library-forge-2001.2.13.jar": {
+          "fileId": 8226927,
+          "projectId": 404465,
+          "sha256": "41810281b65336265cae2c88412022d02f2f0a3f28c66a06173d86f98acf14a7",
+          "sizeBytes": 780558
+        },
+        "mods/ftb-quests-forge-2001.4.22.jar": {
+          "fileId": 8078538,
+          "projectId": 289412,
+          "sha256": "9ea9d159a78a2724cfe0457b024680fdb52a2126eff9cfa5280a30578f647a68",
+          "sizeBytes": 1255469
+        }
+      },
+      "output": {
+        "sha256": "7b612cd3d59eb3284c38e9aef3a4e81c6039bb8e0cb67039202d102dea772fc6",
+        "sizeBytes": 1842413
+      },
+      "path": "kubejs/assets/reforged_quests/lang/ru_ru.json"
+    }
+  ],
   "descriptorSha256": "776044931259cd918db0493a4b3baed95770fdb627faf79e251bc4be9c487505",
   "patches": [
     {

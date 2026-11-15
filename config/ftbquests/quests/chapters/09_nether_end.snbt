@@ -1,0 +1,1941 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: ""
+	filename: "09_nether_end"
+	group: "1000000000000001"
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:crimson_fungus"
+	id: "2000000000000009"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3500000000000013"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.8f1db94e8557a602b542}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.78ffc97732edb71afe0a}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.1abeb4bd604b32660b04}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.05a4669a30e164328713}"
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:crimson_fungus"
+			id: "3900000000000001"
+			min_width: 400
+			rewards: [{
+				id: "5900000000000001"
+				type: "xp"
+				xp: 60
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.725097ff709c4675b9b5}"
+			tasks: [{
+				id: "4900000000000001"
+				title: "{lanminecraft.reforged.quests.09_nether_end.febdcb1529f992545e51}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.623520d2835e42143465}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3900000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.3d530fe7dc92a0a9b839}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.c2e630f54277969b5a3b}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.8ee44b9fcb5da1ea7f7b}"
+			]
+			icon: "minecraft:fire_charge"
+			id: "3900000000000002"
+			min_width: 350
+			rewards: [{
+				id: "5900000000000002"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.aa036aad1f4ecddd0d4a}"
+			tasks: [{
+				id: "4900000000000002"
+				title: "{lanminecraft.reforged.quests.09_nether_end.f93d064f5e432ff31798}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.ed56614027afdcfb76ac}"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3900000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.56c12e9d2a192d1f3cb1}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.97a2a1010b7782987d03}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.1554f2aad4782397a2f2}"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:golden_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3900000000000003"
+			rewards: [{
+				id: "5900000000000003"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.382821d83c75200f95dc}"
+			tasks: [{
+				id: "4900000000000003"
+				item: {
+					Count: 1
+					id: "minecraft:golden_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.5986ef4fe264d12b7ef9}"
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3900000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.f9f03751647585d1f376}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.404c02c4c82611a1d6a8}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.049f9107b70fe3b2ad22}"
+			]
+			icon: "minecraft:ender_chest"
+			id: "3900000000000004"
+			min_width: 350
+			rewards: [{
+				id: "5900000000000004"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.f06869d3f8195ed40391}"
+			tasks: [{
+				id: "4900000000000004"
+				item: "minecraft:ender_chest"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.1bbe1a2c5636411afee1}"
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3900000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.8d261ca9bf5593422ea0}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.e430b9ced7b6ab4d126f}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.136949885ae0fc5c464d}"
+			]
+			icon: "minecraft:brewing_stand"
+			id: "3900000000000005"
+			rewards: [
+				{
+					count: 3
+					id: "5900000000000005"
+					item: "minecraft:glass_bottle"
+					type: "item"
+				}
+				{
+					id: "5900000000000006"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.9373b623bf7e43d1f3d6}"
+			tasks: [{
+				id: "4900000000000005"
+				item: "minecraft:brewing_stand"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.afe0e3c682d17135f770}"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3900000000000005"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.19eac0acc17db59a3462}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.38566be591c62eea2643}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.82881c0191cb86102396}"
+			]
+			icon: "minecraft:magma_cream"
+			id: "3900000000000006"
+			min_width: 350
+			rewards: [{
+				id: "5900000000000007"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.d74d8119296d49205e4c}"
+			tasks: [{
+				count: 8L
+				id: "4900000000000006"
+				item: "minecraft:magma_cream"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.6274f7466f61acd120dd}"
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3900000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.84dee47d6d575f360983}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.96ff127df8f58148fa46}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.a60e4314e82934095df5}"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:warped_fungus_on_a_stick"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3900000000000007"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5900000000000008"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.a08a8fa1080c5a7038b1}"
+			tasks: [{
+				id: "4900000000000007"
+				item: {
+					Count: 1
+					id: "minecraft:warped_fungus_on_a_stick"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.99e6bceafba00b967ad4}"
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3900000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.01b4df007cb11c0b9974}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.883fcf2c0ba37a84fcc0}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.a1a463d20bd1b26d5727}"
+			]
+			icon: "minecraft:netherrack"
+			id: "3900000000000008"
+			min_width: 350
+			rewards: [{
+				id: "5900000000000009"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.973510f9d3f856f6e3a2}"
+			tasks: [{
+				biome: "minecraft:nether_wastes"
+				id: "4900000000000008"
+				title: "{lanminecraft.reforged.quests.09_nether_end.3e27ba107d1332bf2d92}"
+				type: "biome"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.23f9340fa9d554aada7e}"
+			x: -18.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3900000000000008"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.92bb6b82c3901c46263e}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.93423ce273b19a5ea073}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.cc8b5518a3a10aee66d4}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.8ec9096673e4e3ae6b6f}"
+			]
+			icon: "minecraft:nether_bricks"
+			id: "3900000000000009"
+			min_width: 400
+			rewards: [{
+				id: "5900000000000010"
+				type: "xp"
+				xp: 35
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.489bbdba4950a640f90e}"
+			tasks: [{
+				count: 64L
+				id: "4900000000000009"
+				item: "minecraft:nether_bricks"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.f98dfb3be43ecfcff894}"
+			x: -21.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3900000000000008"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.25225781c404ccf0cb97}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.3391bc8ffb2bd8f862de}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.828dda6d93f3197e1408}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.a02c2fe703431494d421}"
+			]
+			icon: "minecraft:soul_sand"
+			id: "3900000000000010"
+			min_width: 350
+			rewards: [{
+				id: "5900000000000011"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.d1587b8009be6910bae8}"
+			tasks: [
+				{
+					biome: "minecraft:soul_sand_valley"
+					id: "4900000000000010"
+					title: "{lanminecraft.reforged.quests.09_nether_end.fb8f7baac13eed9d11ff}"
+					type: "biome"
+				}
+				{
+					count: 64L
+					id: "4900000000000011"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.09_nether_end.9e1b553bc798df4d1078}"
+			x: -18.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3900000000000010"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.bdf2aa86f708054dc98f}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.27a8fa0080322c85901a}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.9a9db2ccba53cb3603ac}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.e5d513dc0fcbfbfaf3aa}"
+			]
+			icon: "minecraft:ghast_tear"
+			id: "3900000000000011"
+			min_width: 350
+			rewards: [{
+				id: "5900000000000012"
+				type: "xp"
+				xp: 45
+			}]
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.19de7980cc9fd5d1a792}"
+			tasks: [
+				{
+					entity: "minecraft:ghast"
+					id: "4900000000000012"
+					type: "kill"
+					value: 8L
+				}
+				{
+					count: 4L
+					id: "4900000000000013"
+					item: "minecraft:ghast_tear"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.09_nether_end.76f0067ac138ea350808}"
+			x: -21.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3900000000000008"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.bf591d6b90f678137982}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.d9fb7c57dc837f651058}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.94058d8be85112f57436}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.75bfe4713ce14c1c5eed}"
+			]
+			icon: "minecraft:nether_wart_block"
+			id: "3900000000000012"
+			min_width: 400
+			rewards: [{
+				id: "5900000000000013"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.b335c1209cf3f56f5978}"
+			tasks: [
+				{
+					biome: "minecraft:crimson_forest"
+					id: "4900000000000014"
+					title: "{lanminecraft.reforged.quests.09_nether_end.0fda5c7e2a61555410c1}"
+					type: "biome"
+				}
+				{
+					count: 16L
+					id: "4900000000000015"
+					item: "minecraft:nether_wart_block"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.09_nether_end.01f8a8bb784252cc279b}"
+			x: -18.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3900000000000008"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.42e671b23cd468530011}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.09d1662b21bf5b36d700}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.4dd5b089cb4a2487bef3}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.b0fff226d26086f318c8}"
+			]
+			icon: "minecraft:warped_wart_block"
+			id: "3900000000000013"
+			min_width: 400
+			rewards: [{
+				id: "5900000000000014"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.505e46ee3628c46cff57}"
+			tasks: [
+				{
+					biome: "minecraft:warped_forest"
+					id: "4900000000000016"
+					title: "{lanminecraft.reforged.quests.09_nether_end.da0b3e54a1c389b45c5e}"
+					type: "biome"
+				}
+				{
+					count: 16L
+					id: "4900000000000017"
+					item: "minecraft:warped_wart_block"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.09_nether_end.c51553f947b7e80d8fa1}"
+			x: -15.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3900000000000008"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.6dbb77345f88c1e95159}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.74804950441aa95006fb}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.118d8d40ca562fe04370}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.2609966af94fca9ce433}"
+			]
+			icon: "minecraft:blackstone"
+			id: "3900000000000014"
+			min_width: 400
+			rewards: [{
+				id: "5900000000000015"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.3bdfa23faab1465b4e0e}"
+			tasks: [
+				{
+					biome: "minecraft:basalt_deltas"
+					id: "4900000000000018"
+					title: "{lanminecraft.reforged.quests.09_nether_end.04f10c126b401900535c}"
+					type: "biome"
+				}
+				{
+					count: 64L
+					id: "4900000000000019"
+					item: "minecraft:blackstone"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.09_nether_end.744be4ae542d3da1867d}"
+			x: -18.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3900000000000012"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.627299c5028021130d06}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.0793042ff746a66a7194}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.8e4efdfef3afd4cf3224}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.eedb0ded567196b217a3}"
+			]
+			icon: "minecraft:shroomlight"
+			id: "3900000000000015"
+			min_width: 400
+			rewards: [{
+				id: "5900000000000016"
+				type: "xp"
+				xp: 45
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.a1877f6e0b5d0a3d02a1}"
+			tasks: [{
+				count: 32L
+				id: "4900000000000020"
+				item: "minecraft:shroomlight"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.1b1c02c2fdad5c6902a6}"
+			x: -15.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3900000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.714195c57913afd08ade}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.6c9c92ba4628445c7ba2}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.a029aaca84465f1115e8}"
+			]
+			icon: "minecraft:nether_bricks"
+			id: "3900000000000016"
+			min_width: 350
+			rewards: [{
+				id: "5900000000000017"
+				type: "xp"
+				xp: 35
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.d43e0bda8600dfde2698}"
+			tasks: [{
+				id: "4900000000000021"
+				structure: "minecraft:fortress"
+				title: "{lanminecraft.reforged.quests.09_nether_end.d43e0bda8600dfde2698}"
+				type: "structure"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.f46785d1c1ad35ef5be9}"
+			x: -11.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3900000000000016"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.9feb9b5fc963cf6b0868}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.c3936b8bfc268e3b75d6}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.15997982c71456e743de}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.cc1966697cd3868f2414}"
+			]
+			icon: "minecraft:spawner"
+			id: "3900000000000017"
+			min_width: 400
+			rewards: [{
+				id: "5900000000000018"
+				type: "xp"
+				xp: 60
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.49e560a0c663bb21e63d}"
+			tasks: [{
+				id: "4900000000000022"
+				item: "minecraft:spawner"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.11abba3b557c3b104ad8}"
+			x: -12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3900000000000016"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.8856dfd385c87261a71a}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.c53d1eb151d680c5f398}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.7b46aae32f7ca70334da}"
+			]
+			icon: "minecraft:blaze_rod"
+			id: "3900000000000018"
+			min_width: 350
+			rewards: [{
+				id: "5900000000000019"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.35e36cc4479ee0e9db8f}"
+			tasks: [{
+				count: 36L
+				id: "4900000000000023"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.c51b680e97ffd161f8bd}"
+			x: -9.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3900000000000017"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.04b1bc2b87b166ad6068}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.c3b26cd1c880c918f638}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.76014b327220d227fce3}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.1564b83a7057934be4ab}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.a69748c8ccbb3910b46f}"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3900000000000019"
+			min_width: 400
+			rewards: [{
+				id: "5900000000000020"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.5aae696fc4501e4c83d8}"
+			tasks: [{
+				id: "4900000000000024"
+				title: "{lanminecraft.reforged.quests.09_nether_end.f84c465c45a49dbb6841}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.ad7b3f376d9871d20187}"
+			x: -12.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3900000000000018"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.4f29b838f042102c2cc0}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.fa507566fc12499ce7c8}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.917d9ce458d810701157}"
+			]
+			icon: "minecraft:blaze_powder"
+			id: "3900000000000020"
+			min_width: 350
+			rewards: [{
+				id: "5900000000000021"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.b2001640f85aed15d79a}"
+			tasks: [{
+				count: 64L
+				id: "4900000000000025"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.b8937b2322df21c2a35f}"
+			x: -9.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3900000000000016"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.6cf673419b94c594e581}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.0a29ef8b426e22df9678}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.e0f238da0e4c0e7c5148}"
+			]
+			icon: "minecraft:nether_wart"
+			id: "3900000000000021"
+			min_width: 350
+			rewards: [
+				{
+					count: 4
+					id: "5900000000000022"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+				{
+					id: "5900000000000023"
+					type: "xp"
+					xp: 30
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.5efec8f78e96bd1915c9}"
+			tasks: [{
+				count: 64L
+				id: "4900000000000026"
+				item: "minecraft:nether_wart"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.fd42043afc766c0e2195}"
+			x: -9.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3900000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.2485a992e60e5789162c}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.0a709dc213216bfbfd6b}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.e41371e2b61cea22b0dc}"
+			]
+			icon: "minecraft:polished_blackstone_bricks"
+			id: "3900000000000022"
+			min_width: 350
+			rewards: [{
+				id: "5900000000000024"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.f5edc3989f1bf7449e9b}"
+			tasks: [{
+				id: "4900000000000027"
+				structure: "minecraft:bastion_remnant"
+				title: "{lanminecraft.reforged.quests.09_nether_end.f5edc3989f1bf7449e9b}"
+				type: "structure"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.6e1f58e0c396669b279b}"
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3900000000000022"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.57bd4601d7850a7a43fa}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.6f09a2de216c6076d347}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.1d3f48b67de9c65176ab}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.ea0f3c52274bf293e21f}"
+			]
+			icon: "minecraft:gilded_blackstone"
+			id: "3900000000000023"
+			min_width: 400
+			rewards: [{
+				id: "5900000000000025"
+				type: "xp"
+				xp: 45
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.8455a171793f36f85662}"
+			tasks: [{
+				count: 32L
+				id: "4900000000000028"
+				item: "minecraft:gilded_blackstone"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.2c54ca250c4842a11e61}"
+			x: -6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3900000000000022"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.90589eb6dbd2d427aeac}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.164a52a206b708a1ca30}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.8fbed62c3b1cdaa2df54}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.153eea3dc0ae1aedd290}"
+			]
+			icon: "minecraft:crying_obsidian"
+			id: "3900000000000024"
+			min_width: 400
+			rewards: [{
+				id: "5900000000000026"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.1eae3f2c340d7187c40d}"
+			tasks: [{
+				count: 16L
+				id: "4900000000000029"
+				item: "minecraft:crying_obsidian"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.40688bb63031ca67b026}"
+			x: -3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3900000000000024"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.918774ca53285f6ceb43}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.eb9832c4baf7afb48091}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.d3f27df275da47a43a2c}"
+			]
+			icon: "minecraft:respawn_anchor"
+			id: "3900000000000025"
+			min_width: 350
+			rewards: [{
+				id: "5900000000000027"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.daa3a37f13b8c600333c}"
+			tasks: [{
+				id: "4900000000000030"
+				item: "minecraft:respawn_anchor"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.20356c39a6ea61219e9b}"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3900000000000022"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.0e5c55de2fd5f8852b78}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.87e14a3af11e643a654d}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.86d5871fd31180a95298}"
+			]
+			icon: "minecraft:piglin_head"
+			id: "3900000000000026"
+			min_width: 400
+			rewards: [{
+				id: "5900000000000028"
+				type: "xp"
+				xp: 60
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.a8a69463db5fa53c53a5}"
+			tasks: [{
+				id: "4900000000000031"
+				title: "{lanminecraft.reforged.quests.09_nether_end.7ad43b03ef4f326a38ec}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.b2b840e1ccc400390ac0}"
+			x: -6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3900000000000026"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.bfec281be9e13a0a2cbe}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.707a430f7986e30a48b7}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.39c2edce6a241846d7ca}"
+			]
+			icon: "minecraft:gold_block"
+			id: "3900000000000027"
+			min_width: 400
+			rewards: [
+				{
+					count: 8
+					id: "5900000000000029"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "5900000000000030"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.936c7b9f48a8eb556a4f}"
+			tasks: [{
+				count: 16L
+				id: "4900000000000032"
+				item: "minecraft:gold_block"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.ec99e98fe51e984bff5b}"
+			x: -3.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3900000000000022"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.6ce1ca24e4f63ee96baa}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.ff315dd7c390fce326f5}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.c49bb80cf8db2feb5b94}"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:golden_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3900000000000028"
+			min_width: 350
+			rewards: [{
+				id: "5900000000000031"
+				type: "xp"
+				xp: 45
+			}]
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.94f37a99eaccc4befb9d}"
+			tasks: [{
+				entity: "minecraft:piglin_brute"
+				id: "4900000000000033"
+				type: "kill"
+				value: 4L
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.0704b652e03d39538dca}"
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3900000000000022"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.06295cfbae387f5dedfa}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.d365d4f858ce8b7fa984}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.605f848ef14caa5b9a19}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.5feb486377fb68449fda}"
+			]
+			icon: "minecraft:ancient_debris"
+			id: "3900000000000029"
+			min_width: 400
+			rewards: [{
+				id: "5900000000000032"
+				type: "xp"
+				xp: 70
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.1b74ca95c8d3ccd6d129}"
+			tasks: [{
+				count: 27L
+				id: "4900000000000034"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.a7c2804e73fdb7e9458e}"
+			x: -4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3900000000000029"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.665e0f7b52f8290a70ec}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.5f639e4a3e4e32b3b434}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.eb0b172955bc30eaffdd}"
+			]
+			icon: "minecraft:netherite_ingot"
+			id: "3900000000000030"
+			min_width: 350
+			rewards: [{
+				id: "5900000000000033"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.805312dd32cc8915141c}"
+			tasks: [{
+				count: 4L
+				id: "4900000000000035"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.9dca8bfc276c234d83de}"
+			x: -1.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3900000000000016"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.028c952e8255dc6bfac0}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.23ef993092ddff889350}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.755704dcab8a62cf98f0}"
+			]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "3900000000000031"
+			min_width: 350
+			rewards: [{
+				id: "5900000000000034"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.19a196cc8260fbcf80e1}"
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "4900000000000036"
+				type: "kill"
+				value: 32L
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.1b310533ca74083bd739}"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3900000000000031"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.f56c8d486a8605d9c596}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.c62dd872e01f647184a3}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.7d775572e4ac449e905c}"
+			]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "3900000000000032"
+			min_width: 350
+			rewards: [{
+				id: "5900000000000035"
+				type: "xp"
+				xp: 55
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.28fc448c450372075ced}"
+			tasks: [{
+				count: 3L
+				id: "4900000000000037"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.01724a5aaac2b471397d}"
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3900000000000032"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.7372cc6c64e91ca3c003}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.0e67b82fa1d42f20a9f2}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.82c9c0e9ea6e8cf2f868}"
+			]
+			icon: "chemlib:mendelevium"
+			id: "3900000000000033"
+			min_width: 350
+			rewards: [{
+				id: "5900000000000036"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.ccfc61a405fc4c8afef3}"
+			tasks: [{
+				count: 64L
+				id: "4900000000000038"
+				item: "chemlib:mendelevium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.bcee37c235782356da63}"
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3900000000000032"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.35a4f08a2592b96da3b1}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.7186c24f74230b9a49c2}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.476c5606caa312f6922d}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.2956733b7716f1cc6d49}"
+			]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "3900000000000034"
+			min_width: 350
+			rewards: [{
+				id: "5900000000000037"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.9046d48e463f9fcac6ce}"
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "4900000000000039"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.56acb2b1c71699fc2689}"
+			x: 3.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3900000000000034"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.f99f796bfd6ddb24736c}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.3ec219b919c20eb4c614}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.933ae1235440ba053f95}"
+			]
+			icon: "minecraft:beacon"
+			id: "3900000000000035"
+			min_width: 350
+			rewards: [{
+				id: "5900000000000038"
+				type: "xp"
+				xp: 60
+			}]
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.394cde79b6225431b12b}"
+			tasks: [{
+				id: "4900000000000040"
+				item: "minecraft:beacon"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.a0c56711c0ed1c9c1311}"
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3900000000000034"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.f512d7abc7b77eb9af25}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.7e42445e2d485075ab0a}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.da157c8630d32dc1ed82}"
+			]
+			icon: "minecraft:wither_rose"
+			id: "3900000000000036"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5900000000000039"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "diamond"
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.65ccacff6f8bb1f4025f}"
+			tasks: [{
+				count: 4L
+				id: "4900000000000041"
+				item: "minecraft:wither_rose"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.cf76e78c14498ab0da34}"
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3900000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.48f3be3d8d57a1d6a69e}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.1edbedc85b003a59c619}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.6132c29a29f4db4f39a4}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.f55bc64a9b4a9f214d32}"
+			]
+			icon: "minecraft:end_portal_frame"
+			id: "3900000000000037"
+			min_width: 400
+			rewards: [{
+				id: "5900000000000040"
+				type: "xp"
+				xp: 80
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.31f8acf36b1061aae2c3}"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "4900000000000042"
+				title: "{lanminecraft.reforged.quests.09_nether_end.c27d3337c85d44c09b17}"
+				type: "dimension"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.3af5139d89d1b316baa5}"
+			x: 11.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3900000000000037"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.d2e8918d22231a6965d0}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.4adf89f960967cce9315}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.139260ba33aae329f48f}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.9075b98a8da3c0bc19c3}"
+			]
+			icon: "minecraft:end_stone"
+			id: "3900000000000038"
+			min_width: 400
+			rewards: [{
+				id: "5900000000000041"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.56dddfe9369008f64cfa}"
+			tasks: [{
+				count: 256L
+				id: "4900000000000043"
+				item: "minecraft:end_stone"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.c113f062684c4f4f867e}"
+			x: 9.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3900000000000037"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.7df24cf9bc19ba6d78bc}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.fdcdc8cdf87f99252085}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.af5a5d589dbd3ff110fe}"
+			]
+			icon: "minecraft:chorus_fruit"
+			id: "3900000000000039"
+			min_width: 350
+			rewards: [{
+				id: "5900000000000042"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.b1be0d98abe8694a3171}"
+			tasks: [{
+				count: 64L
+				id: "4900000000000044"
+				item: "minecraft:chorus_fruit"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.179867ed02c076442b0a}"
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3900000000000039"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.4008f1326f0dd125fcbe}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.7900093f6d5b417318c0}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.75733881b8ca0798bd6c}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.7ee69437249b0a7dd241}"
+			]
+			icon: "minecraft:purpur_block"
+			id: "3900000000000040"
+			min_width: 400
+			rewards: [{
+				id: "5900000000000043"
+				type: "xp"
+				xp: 35
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.3e20b5d6dc4a75ceee83}"
+			tasks: [{
+				count: 64L
+				id: "4900000000000045"
+				item: "minecraft:purpur_block"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.97bf71611f5aebbd7fb4}"
+			x: 15.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3900000000000037"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.f2bc02748ba38fa54480}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.b4ee8e800879c6572ede}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.92afe5abc97732772dd9}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.5cf9a028eb5f5f0a81a6}"
+			]
+			icon: "minecraft:ender_pearl"
+			id: "3900000000000041"
+			min_width: 350
+			rewards: [{
+				id: "5900000000000044"
+				type: "xp"
+				xp: 45
+			}]
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.47405d9d8e69b27581d0}"
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "4900000000000046"
+				type: "kill"
+				value: 64L
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.c280f0a4ff4a7fe70653}"
+			x: 9.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3900000000000037"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.c4ad468b53fd4fe5938c}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.8b10817e6a2e6892cba2}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.f027dfc8f6efbc626a08}"
+			]
+			icon: "minecraft:purpur_pillar"
+			id: "3900000000000042"
+			min_width: 350
+			rewards: [{
+				id: "5900000000000045"
+				type: "xp"
+				xp: 60
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.8ec0d17924407629c648}"
+			tasks: [{
+				id: "4900000000000047"
+				structure: "minecraft:end_city"
+				title: "{lanminecraft.reforged.quests.09_nether_end.8ec0d17924407629c648}"
+				type: "structure"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.6c9fb5b1ec4ad70619b1}"
+			x: 12.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3900000000000037"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.3b123a095e31dd7c904e}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.e16dafedf8d5a52320b3}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.0b5ea2071482ad6725cd}"
+			]
+			icon: "minecraft:ender_pearl"
+			id: "3900000000000043"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5900000000000046"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "diamond"
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.d8b88cfb07059624b495}"
+			tasks: [{
+				advancement: "minecraft:end/enter_end_gateway"
+				criterion: ""
+				id: "4900000000000048"
+				title: "{lanminecraft.reforged.quests.09_nether_end.cfbdd961f88a02f7d080}"
+				type: "advancement"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.14fb092395d67158d144}"
+			x: 15.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3900000000000037"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.5b9814454ab5e393eed4}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.a4bc8a8168cf3b40fec8}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.5af7378d94ac4449f4ca}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.120f3324c76154f2e761}"
+			]
+			icon: "minecraft:dragon_head"
+			id: "3900000000000044"
+			min_width: 350
+			rewards: [{
+				id: "5900000000000047"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.9bfbfbc4f34a738587d2}"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "4900000000000049"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.0cdefabd6a812507b884}"
+			x: 19.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3900000000000044"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.8769eee1a29db6f38ec4}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.4416a6b1016021f0e289}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.cc475312c01b37b050a4}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.3f69de352f6bb06b3b8d}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.385c91a7499c879aa9cc}"
+			]
+			icon: "minecraft:dragon_breath"
+			id: "3900000000000045"
+			min_width: 400
+			rewards: [{
+				id: "5900000000000048"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.0e9a3cd358617693c5fa}"
+			tasks: [{
+				count: 16L
+				id: "4900000000000050"
+				item: "minecraft:dragon_breath"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.a0f09532e8c73c48db5f}"
+			x: 18.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"3900000000000045"
+				"3900000000000011"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.8bd836b02786bce5d0d1}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.d788b654d3405a8e5fb2}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.150b99065283ade045e1}"
+			]
+			icon: "minecraft:end_crystal"
+			id: "3900000000000046"
+			min_width: 400
+			rewards: [{
+				id: "5900000000000049"
+				type: "xp"
+				xp: 70
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.d2b734947ecddb536c1c}"
+			tasks: [{
+				count: 4L
+				id: "4900000000000051"
+				item: "minecraft:end_crystal"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.01b15c3f0425d0bcaafa}"
+			x: 21.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3900000000000045"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.a0ebcc39077817dc3728}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.18746f47dff49a50307d}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.9c9d71ea32a30f1458fe}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.0f198159dd0ada118e00}"
+			]
+			icon: "chemlib:xenon"
+			id: "3900000000000047"
+			min_width: 400
+			rewards: [{
+				id: "5900000000000050"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.256e77e469c44351c5ff}"
+			tasks: [
+				{
+					count: 64L
+					id: "4900000000000052"
+					item: "chemlib:xenon"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "4900000000000053"
+					item: "chemlib:radon"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.09_nether_end.189c4c9a7f3a8d1bcf4c}"
+			x: 18.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3900000000000044"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.c9e1e70ab11eef2521cd}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.6657354fc60ceb974fff}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.b96a0d0da30ebe318b0c}"
+			]
+			icon: "minecraft:dragon_egg"
+			id: "3900000000000048"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5900000000000051"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.fd9b67867657d84bc773}"
+			tasks: [{
+				id: "4900000000000054"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.fde1432318a955a38664}"
+			x: 21.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3900000000000042"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.d8e3b8d0d3dfba2a5c12}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.c538f20e785d07a80089}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.0286f661c3e527d88eb8}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.8541233b9fdadfd0c8b6}"
+			]
+			icon: "minecraft:shulker_shell"
+			id: "3900000000000049"
+			min_width: 350
+			rewards: [{
+				id: "5900000000000052"
+				type: "xp"
+				xp: 60
+			}]
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.40dc7812812cae7679eb}"
+			tasks: [{
+				entity: "minecraft:shulker"
+				id: "4900000000000055"
+				type: "kill"
+				value: 32L
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.59bddadf24cbf5adf42e}"
+			x: 25.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3900000000000049"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.9d593f0226f918273944}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.6109b88c0c9241c1426e}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.fecb247992fd8c7911e6}"
+			]
+			icon: "chemlib:lutetium"
+			id: "3900000000000050"
+			min_width: 350
+			rewards: [{
+				id: "5900000000000053"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.9b3d7f0831b2e7eb4d03}"
+			tasks: [{
+				count: 32L
+				id: "4900000000000056"
+				item: "minecraft:shulker_shell"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.f57a0cd9e0863afcfd6a}"
+			x: 23.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3900000000000050"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.020b404369b5772bd359}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.4414e0d8689c34f799ad}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.28dbea2b7476a81555d2}"
+			]
+			icon: "minecraft:shulker_box"
+			id: "3900000000000051"
+			min_width: 350
+			rewards: [
+				{
+					count: 2
+					id: "5900000000000054"
+					item: "minecraft:shulker_shell"
+					type: "item"
+				}
+				{
+					id: "5900000000000055"
+					type: "xp"
+					xp: 40
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.d327174fb712b8c0987f}"
+			tasks: [{
+				count: 8L
+				id: "4900000000000057"
+				item: "minecraft:shulker_box"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.1d20c4c49b9fbc0e47aa}"
+			x: 26.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3900000000000042"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.21c516d7542d64f0d2ac}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.68c7d07cd4fa9681014d}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.51b328e17b4b7004fca4}"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:elytra"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3900000000000052"
+			min_width: 350
+			rewards: [{
+				id: "5900000000000056"
+				type: "xp"
+				xp: 80
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.23b0bb08fb4de59aa410}"
+			tasks: [{
+				id: "4900000000000058"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.d95dc8f047574f939a74}"
+			x: 29.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3900000000000052"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.dfae478377b6bb082726}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.3c266b970043a380ba77}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.46d4e890fbc900568012}"
+			]
+			icon: "minecraft:phantom_membrane"
+			id: "3900000000000053"
+			min_width: 400
+			rewards: [{
+				id: "5900000000000057"
+				type: "xp"
+				xp: 45
+			}]
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.c31ca8bed82a6c89fbc9}"
+			tasks: [{
+				count: 16L
+				id: "4900000000000059"
+				item: "minecraft:phantom_membrane"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.53179496992c1906a18e}"
+			x: 29.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3900000000000049"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.97231c71a8142054ba23}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.6d82a05cecf8552827e4}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.68399c7de11c416021c1}"
+			]
+			icon: "minecraft:shulker_shell"
+			id: "3900000000000054"
+			min_width: 300
+			optional: true
+			rewards: [{
+				id: "5900000000000058"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.c5994f3b8cf9c6896b21}"
+			tasks: [{
+				advancement: "minecraft:end/levitate"
+				criterion: ""
+				id: "4900000000000060"
+				title: "{lanminecraft.reforged.quests.09_nether_end.dbc0d000e87e7264a81b}"
+				type: "advancement"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.bb6820354cdbc0f4aa4f}"
+			x: 26.0d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"3900000000000020"
+				"3900000000000024"
+				"3900000000000033"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.b20e8a35e34a35679d09}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.e2f5573b0c14117c5845}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.676726d3725d76cd1722}"
+			]
+			icon: "alchemistry:dissolver"
+			id: "3900000000000055"
+			min_width: 400
+			rewards: [{
+				id: "5900000000000059"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.5e5e1c1219579a2192e0}"
+			tasks: [{
+				id: "4900000000000061"
+				title: "{lanminecraft.reforged.quests.09_nether_end.0c2b539805f270520ca8}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.98bc484fb51cad5730d1}"
+			x: 0.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3900000000000055"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.68ed93d17ab11322d509}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.f3b992cfc2bbd30401d0}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.a77257ccd14accfe3d7e}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.1184e1dfe1a39785fde4}"
+			]
+			icon: "minecraft:barrier"
+			id: "3900000000000056"
+			min_width: 400
+			rewards: [{
+				id: "5900000000000060"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.67536030f34a623763b4}"
+			tasks: [{
+				id: "4900000000000062"
+				title: "{lanminecraft.reforged.quests.09_nether_end.66dee8d6d22249f80cee}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.2b4f1650df72dbfb3f43}"
+			x: -4.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["3900000000000055"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.ae74fb0e024c53c0afed}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.d5b17dfaf4c338046521}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.b0d0d1369abf98c93ae7}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.050313ad1f0bf84bbf50}"
+			]
+			icon: "minecraft:smooth_quartz"
+			id: "3900000000000057"
+			min_width: 400
+			rewards: [{
+				id: "5900000000000061"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.3d7c64ab50ff3d5ab56d}"
+			tasks: [{
+				count: 16L
+				id: "4900000000000063"
+				item: "minecraft:smooth_quartz"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.607166e09131338d1873}"
+			x: -1.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["3900000000000057"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.12a0473b474de29cd452}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.0d080707f3875d13fd0e}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.add4cfc89349317fbc58}"
+			]
+			icon: "chemlib:barium"
+			id: "3900000000000058"
+			min_width: 400
+			rewards: [{
+				id: "5900000000000062"
+				type: "xp"
+				xp: 45
+			}]
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.b0cc2338395525d25ea1}"
+			tasks: [{
+				count: 512L
+				id: "4900000000000064"
+				item: "chemlib:barium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.39dacc545826a6371054}"
+			x: 2.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["3900000000000055"]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.19c9f35d182b76e5387c}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.f279cf333e586a2275cf}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.751befb06be80a4fd18e}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.dfada97efee453582a86}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.e1eed85dc2994dea7d55}"
+			]
+			icon: "chemlib:iridium"
+			id: "3900000000000059"
+			min_width: 400
+			rewards: [{
+				id: "5900000000000063"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.fca89072afecf52a536f}"
+			tasks: [{
+				count: 32L
+				id: "4900000000000065"
+				item: "chemlib:iridium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.60696c723e229a58dc05}"
+			x: 5.0d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"3900000000000056"
+				"3900000000000057"
+				"3900000000000058"
+				"3900000000000059"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.09_nether_end.4cbf1dd82d27b80469b6}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.2ade0efbd2a255c36ee7}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.26a1e573ab7775e59eac}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.56cf1ca48f8bab005777}"
+				""
+				"{lanminecraft.reforged.quests.09_nether_end.92a2f89167603f059040}"
+			]
+			icon: "alchemistry:fusion_core"
+			id: "3900000000000060"
+			min_width: 400
+			rewards: [{
+				id: "5900000000000064"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.09_nether_end.d610093f5a859bb9e45e}"
+			tasks: [{
+				id: "4900000000000066"
+				title: "{lanminecraft.reforged.quests.09_nether_end.09db376aecf0e2b35e52}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.09_nether_end.90d427b27b5fa1f3952e}"
+			x: 0.0d
+			y: 20.0d
+		}
+	]
+	subtitle: ["{lanminecraft.reforged.quests.09_nether_end.39d5ba41dbc0ebe5f007}"]
+	title: "{lanminecraft.reforged.quests.09_nether_end.b8a62ab0d340d1875974}"
+}

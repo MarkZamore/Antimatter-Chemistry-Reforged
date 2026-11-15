@@ -1,0 +1,425 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 400
+	default_quest_shape: ""
+	filename: "00_welcome"
+	group: "1000000000000001"
+	icon: "minecraft:written_book"
+	id: "2000000000000000"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{lanminecraft.reforged.quests.00_welcome.5bd938ea918d7429cfc0}"
+				""
+				"{lanminecraft.reforged.quests.00_welcome.7f77480a522b73e6f876}"
+				""
+				"{lanminecraft.reforged.quests.00_welcome.921df5f3f4cf38c114ca}"
+				""
+				"{lanminecraft.reforged.quests.00_welcome.7a432a8eba6e9e64d88b}"
+				""
+				"{lanminecraft.reforged.quests.00_welcome.3db7b91abae30bf02bf3}"
+			]
+			icon: "minecraft:written_book"
+			id: "3000000000000001"
+			min_width: 420
+			rewards: [{
+				id: "5000000000000001"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.00_welcome.9b9a8d05a7ec353bda84}"
+			tasks: [{
+				id: "4000000000000001"
+				title: "{lanminecraft.reforged.quests.00_welcome.9b9a8d05a7ec353bda84}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.00_welcome.0e2226b5235f0ff94a27}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3000000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.00_welcome.99c62d3f76e889d6135b}"
+				""
+				"{lanminecraft.reforged.quests.00_welcome.df822a464dc37d16e679}"
+				""
+				"{lanminecraft.reforged.quests.00_welcome.f5225a58a15694ade2be}"
+				""
+				"{lanminecraft.reforged.quests.00_welcome.51f3e3c0ca23f84bccdd}"
+			]
+			icon: "kubejs:white_antimatter"
+			id: "3000000000000002"
+			min_width: 420
+			rewards: [{
+				id: "5000000000000002"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "square"
+			subtitle: "{lanminecraft.reforged.quests.00_welcome.c51100db0f668af29094}"
+			tasks: [{
+				id: "4000000000000002"
+				title: "{lanminecraft.reforged.quests.00_welcome.5ad3dbd1242a4cea217e}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.00_welcome.0100c2e982ff372dc6e8}"
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3000000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.00_welcome.f839c176bbf5d5dfe199}"
+				""
+				"{lanminecraft.reforged.quests.00_welcome.015a14f7600dbba937d1}"
+				""
+				"{lanminecraft.reforged.quests.00_welcome.7a892ba48dbaf21bd3ca}"
+				""
+				"{lanminecraft.reforged.quests.00_welcome.98a00b5b3751fed433a7}"
+				""
+				"{lanminecraft.reforged.quests.00_welcome.d4fe6e4b3717b4778d0f}"
+			]
+			icon: "minecraft:filled_map"
+			id: "3000000000000003"
+			min_width: 420
+			rewards: [{
+				id: "5000000000000003"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.00_welcome.c7eeb06c22a27ac25508}"
+			tasks: [{
+				id: "4000000000000003"
+				title: "{lanminecraft.reforged.quests.00_welcome.faab637d1b3380320bb1}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.00_welcome.05fbbcd0f2d0ee11660c}"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3000000000000003"]
+			description: [
+				"{lanminecraft.reforged.quests.00_welcome.fe6b5207535e75cc8e34}"
+				""
+				"{lanminecraft.reforged.quests.00_welcome.47b116c22fb032a3ce85}"
+				""
+				"{lanminecraft.reforged.quests.00_welcome.970730e8d7e17a15c19b}"
+				""
+				"{lanminecraft.reforged.quests.00_welcome.db93d60e296ff6955e6b}"
+				""
+				"{lanminecraft.reforged.quests.00_welcome.0c3341b439b04ec144d5}"
+			]
+			icon: "minecraft:gold_ingot"
+			id: "3000000000000004"
+			min_width: 420
+			rewards: [{
+				id: "5000000000000004"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "square"
+			subtitle: "{lanminecraft.reforged.quests.00_welcome.3a41fc6cf947eba8880a}"
+			tasks: [{
+				id: "4000000000000004"
+				title: "{lanminecraft.reforged.quests.00_welcome.80796c6a265285f02b42}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.00_welcome.a3bda56b841a5eb5aa3d}"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3000000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.00_welcome.bb32d194e740432643cb}"
+				""
+				"{lanminecraft.reforged.quests.00_welcome.83b0c00d51b7611a5b18}"
+				""
+				"{\"color\":\"aqua\",\"underlined\":true,\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/cnUPHnRrvD\"},\"fallback\":\"Discord — discord.gg/cnUPHnRrvD\",\"translate\":\"lanminecraft.reforged.quests.00_welcome.becd53a65878c97ea723\"}"
+				"{\"color\":\"aqua\",\"underlined\":true,\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://t.me/piglinmine\"},\"fallback\":\"Telegram — t.me/piglinmine\",\"translate\":\"lanminecraft.reforged.quests.00_welcome.6bda3cbb825e924bc4db\"}"
+				""
+				"{lanminecraft.reforged.quests.00_welcome.2ba24a0b6eb81cdec0e8}"
+			]
+			icon: "minecraft:bell"
+			id: "3000000000000005"
+			min_width: 420
+			rewards: [{
+				id: "5000000000000005"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.00_welcome.98c1f4c2273881918f14}"
+			tasks: [{
+				id: "4000000000000005"
+				title: "{lanminecraft.reforged.quests.00_welcome.e8affa64c0b20b464acf}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.00_welcome.d06af8e88b6885c59a03}"
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3000000000000005"]
+			description: [
+				"{lanminecraft.reforged.quests.00_welcome.81e46af1525cf164fc59}"
+				""
+				"{lanminecraft.reforged.quests.00_welcome.f280439d40b9212c1071}"
+				""
+				"{lanminecraft.reforged.quests.00_welcome.2dfacc7b3d5ab4ebedc3}"
+				""
+				"{\"color\":\"aqua\",\"underlined\":true,\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://piglinmine.com/support/tickets/create\"},\"fallback\":\"Ticket: piglinmine.com/support/tickets/create\",\"translate\":\"lanminecraft.reforged.quests.00_welcome.3b74a97d3c6765d2225e\"}"
+				""
+				"{lanminecraft.reforged.quests.00_welcome.3c451e0ff3efb33d20da}"
+			]
+			icon: "minecraft:writable_book"
+			id: "3000000000000006"
+			min_width: 420
+			rewards: [{
+				id: "5000000000000006"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "square"
+			subtitle: "{lanminecraft.reforged.quests.00_welcome.8a99963e1db08e09cdaa}"
+			tasks: [{
+				id: "4000000000000006"
+				title: "{lanminecraft.reforged.quests.00_welcome.f652ccc56da495c70d5c}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.00_welcome.002da300a970d69a2ee6}"
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3000000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.00_welcome.34b2a02ef06d9357d00d}"
+				"{lanminecraft.reforged.quests.00_welcome.b3b74e07dfe13b55648c}"
+				"{lanminecraft.reforged.quests.00_welcome.207bbc0cc3819598c2ed}"
+				"{lanminecraft.reforged.quests.00_welcome.af725e64a42e41e20732}"
+				"{lanminecraft.reforged.quests.00_welcome.20b1b6fd2171e67dfd59}"
+				"{lanminecraft.reforged.quests.00_welcome.378877e91e65bd3a3681}"
+				"{lanminecraft.reforged.quests.00_welcome.b11b25fae5433015628c}"
+				""
+				"{lanminecraft.reforged.quests.00_welcome.e997bb94ed72dc4d7453}"
+				""
+				"{lanminecraft.reforged.quests.00_welcome.cd0593d71b007fb06585}"
+				""
+				"{lanminecraft.reforged.quests.00_welcome.288047e4ad0b9e8c5985}"
+			]
+			icon: "minecraft:spyglass"
+			id: "3000000000000007"
+			min_width: 420
+			rewards: [{
+				id: "5000000000000007"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.00_welcome.8fb973f9657a67ef9eeb}"
+			tasks: [{
+				id: "4000000000000007"
+				title: "{lanminecraft.reforged.quests.00_welcome.5ad3dbd1242a4cea217e}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.00_welcome.cb5bb41612dd28a97139}"
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3000000000000007"]
+			description: [
+				"{lanminecraft.reforged.quests.00_welcome.e9b7a50702d8b535f14f}"
+				""
+				"{lanminecraft.reforged.quests.00_welcome.962d4f7bdeaec6adfed5}"
+				""
+				"{lanminecraft.reforged.quests.00_welcome.32252cdfb529e7892f96}"
+				""
+				"{lanminecraft.reforged.quests.00_welcome.55cfb00f06f4a02a75e0}"
+				""
+				"{lanminecraft.reforged.quests.00_welcome.2f41bb49d910c57710b6}"
+			]
+			icon: "minecraft:torch"
+			id: "3000000000000008"
+			min_width: 420
+			rewards: [{
+				id: "5000000000000008"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "square"
+			subtitle: "{lanminecraft.reforged.quests.00_welcome.3f289e9a9f8e907cb9aa}"
+			tasks: [{
+				id: "4000000000000008"
+				title: "{lanminecraft.reforged.quests.00_welcome.5ad3dbd1242a4cea217e}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.00_welcome.dda6b6655e9681afb245}"
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3000000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.00_welcome.8de5a923b5beb2ca4713}"
+				""
+				"{lanminecraft.reforged.quests.00_welcome.797d84098515be250668}"
+				""
+				"{lanminecraft.reforged.quests.00_welcome.91e6461b9b95ee6fd11a}"
+				"{lanminecraft.reforged.quests.00_welcome.adb49f946508823cb0ca}"
+				"{lanminecraft.reforged.quests.00_welcome.c14c8b2d586799bccc0c}"
+				"{lanminecraft.reforged.quests.00_welcome.aef4e01b7dde09501a73}"
+				"{lanminecraft.reforged.quests.00_welcome.70db8309e9321f1ca19d}"
+				"{lanminecraft.reforged.quests.00_welcome.5cf7e2d3187a93b2fe56}"
+				"{lanminecraft.reforged.quests.00_welcome.79019d2f739b2b81a468}"
+				"{lanminecraft.reforged.quests.00_welcome.6c7e5d013362d6ea0f92}"
+				"{lanminecraft.reforged.quests.00_welcome.b87cf19f70d296112537}"
+				"{lanminecraft.reforged.quests.00_welcome.522771451ed84ea85391}"
+				"{lanminecraft.reforged.quests.00_welcome.f7b8a69f63dc1a01790c}"
+				"{lanminecraft.reforged.quests.00_welcome.1f83603f59807f3c2636}"
+				""
+				"{lanminecraft.reforged.quests.00_welcome.6607d3c833881602d729}"
+			]
+			icon: "minecraft:bookshelf"
+			id: "3000000000000009"
+			min_width: 460
+			rewards: [{
+				id: "5000000000000009"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "square"
+			subtitle: "{lanminecraft.reforged.quests.00_welcome.dc42bcc072a7794fb358}"
+			tasks: [{
+				id: "4000000000000009"
+				title: "{lanminecraft.reforged.quests.00_welcome.5ad3dbd1242a4cea217e}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.00_welcome.41a4ed66418fe40ea339}"
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3000000000000009"]
+			description: [
+				"{lanminecraft.reforged.quests.00_welcome.98c3fa1831007d76e1a2}"
+				""
+				"{lanminecraft.reforged.quests.00_welcome.bf639bbd90d9650c16e5}"
+				""
+				"{lanminecraft.reforged.quests.00_welcome.4b413bad4b38703a5e2a}"
+				"{lanminecraft.reforged.quests.00_welcome.129a6422e5aa6470d5ef}"
+				"{lanminecraft.reforged.quests.00_welcome.cc5ecab684d23bbca4c3}"
+				"{lanminecraft.reforged.quests.00_welcome.31d80a8ba23c4cb075e8}"
+				"{lanminecraft.reforged.quests.00_welcome.52f45309b0904251ed29}"
+				"{lanminecraft.reforged.quests.00_welcome.4ba6c7ee36840dbbedbc}"
+				"{lanminecraft.reforged.quests.00_welcome.dae7b463d36649c595ff}"
+				"{lanminecraft.reforged.quests.00_welcome.8949fedf57d669ba0eec}"
+				""
+				"{lanminecraft.reforged.quests.00_welcome.79b9968a9e7d353210b9}"
+				""
+				"{lanminecraft.reforged.quests.00_welcome.4620026e9df444abc409}"
+			]
+			icon: "minecraft:name_tag"
+			id: "3000000000000010"
+			min_width: 460
+			rewards: [{
+				id: "5000000000000010"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "square"
+			subtitle: "{lanminecraft.reforged.quests.00_welcome.3db62e19ff3380fc1aca}"
+			tasks: [{
+				id: "4000000000000010"
+				title: "{lanminecraft.reforged.quests.00_welcome.5ad3dbd1242a4cea217e}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.00_welcome.8729fe0ae48f1d551bb0}"
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3000000000000010"]
+			description: [
+				"{lanminecraft.reforged.quests.00_welcome.5d318d140f03f1eca5cb}"
+				""
+				"{lanminecraft.reforged.quests.00_welcome.e354025d10c91a567629}"
+				""
+				"{lanminecraft.reforged.quests.00_welcome.b2015e79ca0b13b817e1}"
+				""
+				"{lanminecraft.reforged.quests.00_welcome.ec5c90ed0b627329f329}"
+				""
+				"{lanminecraft.reforged.quests.00_welcome.3e2d369942d9ec451f42}"
+				""
+				"{lanminecraft.reforged.quests.00_welcome.f485afa598ba3dfd5e84}"
+			]
+			icon: "kubejs:pack_certificate"
+			id: "3000000000000011"
+			min_width: 460
+			rewards: [{
+				id: "5000000000000011"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.00_welcome.9e21c425f4057e73e6d3}"
+			tasks: [{
+				id: "4000000000000011"
+				title: "{lanminecraft.reforged.quests.00_welcome.5ad3dbd1242a4cea217e}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.00_welcome.a1a4b9c367bc6a42dc5a}"
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3000000000000008"]
+			description: [
+				"{lanminecraft.reforged.quests.00_welcome.176ac7bc9653074cf904}"
+				""
+				"{lanminecraft.reforged.quests.00_welcome.9b4d9fbe821da80a3e8e}"
+				""
+				"{lanminecraft.reforged.quests.00_welcome.3dfb695cf99d019caaed}"
+				""
+				"{lanminecraft.reforged.quests.00_welcome.81d9b1d8c19cb24be783}"
+				""
+				"{lanminecraft.reforged.quests.00_welcome.6d90a2141823c81f08ee}"
+				""
+				"{lanminecraft.reforged.quests.00_welcome.a00722c61bf63667f6ec}"
+				""
+				"{lanminecraft.reforged.quests.00_welcome.aa0716fca7671a0c7dd6}"
+			]
+			icon: "alchemistry:dissolver"
+			id: "3000000000000012"
+			min_width: 460
+			rewards: [{
+				id: "5000000000000012"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "square"
+			subtitle: "{lanminecraft.reforged.quests.00_welcome.ea62f5f3f6d3fdf8462f}"
+			tasks: [{
+				id: "4000000000000012"
+				title: "{lanminecraft.reforged.quests.00_welcome.5ad3dbd1242a4cea217e}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.00_welcome.40bfcb209d4a58002de9}"
+			x: -5.0d
+			y: 6.0d
+		}
+	]
+	title: "{lanminecraft.reforged.quests.00_welcome.0e2226b5235f0ff94a27}"
+}

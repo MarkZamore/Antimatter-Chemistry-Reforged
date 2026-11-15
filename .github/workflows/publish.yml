@@ -68,6 +68,7 @@ jobs:
             --max-time 180 --retry 2 --max-filesize 2214600 --output "$author" \
             'https://edge.forgecdn.net/files/9558/909/Antimatter-Chemistry-Reforged-2.0.3.zip'
           echo "23e5968067ad91b55e60bbd85ecd0de3b5a8a46cf7d06f6684c8d565f0d62580  $author" | sha256sum --check
+          python3 -B "$pack/tools/localize_quests.py" verify "$author"
           python3 -B "$pack/tools/network_logging_policy.py" verify --pack "$pack"
           python3 -B tools/PackData/CurseForge/release_overlay.py stage --pack-source "$pack" \
             --locked --client-archive "$author" --output "$run/stage"

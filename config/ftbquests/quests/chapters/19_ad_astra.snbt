@@ -1,0 +1,608 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 320
+	default_quest_shape: ""
+	filename: "19_ad_astra"
+	group: "1000000000000001"
+	hide_quest_until_deps_visible: true
+	icon: "ad_astra:tier_1_rocket"
+	id: "2000000000000013"
+	order_index: 19
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3400000000000005"]
+			description: [
+				"{lanminecraft.reforged.quests.19_ad_astra.5c7b3822c3676e9a82e7}"
+				""
+				"{lanminecraft.reforged.quests.19_ad_astra.5c06ce5bdf6960cfb89e}"
+				""
+				"{lanminecraft.reforged.quests.19_ad_astra.0ca77ea6abaaa35558f8}"
+				""
+				"{lanminecraft.reforged.quests.19_ad_astra.66c12b4e13b92d9805a4}"
+			]
+			hide_until_deps_complete: true
+			icon: "ad_astra:tier_1_rocket"
+			id: "6300000000000001"
+			min_width: 480
+			rewards: [
+				{
+					id: "8300000000000001"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.19_ad_astra.9b9a8d05a7ec353bda84}"
+			tasks: [
+				{
+					id: "7300000000000001"
+					title: "{lanminecraft.reforged.quests.19_ad_astra.5ad3dbd1242a4cea217e}"
+					type: "checkmark"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.19_ad_astra.9a087fab9a6ee1e71a65}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6300000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.19_ad_astra.3f17ed12b26f5c3593c3}"
+				""
+				"{lanminecraft.reforged.quests.19_ad_astra.e7ba14829ce81d415564}"
+			]
+			icon: "ad_astra:compressor"
+			id: "6300000000000002"
+			min_width: 440
+			rewards: [
+				{
+					id: "8300000000000002"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.19_ad_astra.e0b58acc8ab16ba2341f}"
+			tasks: [
+				{
+					id: "7300000000000002"
+					item: "ad_astra:compressor"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "7300000000000003"
+					item: "mekanism:ingot_steel"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "7300000000000004"
+					item: "nuclearcraft:steel_plate"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.19_ad_astra.8c9a2c5ce5f5c5f85fc9}"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6300000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.19_ad_astra.2477f1ca30d656fb9a15}"
+				""
+				"{lanminecraft.reforged.quests.19_ad_astra.ab9fdd297ba59882365b}"
+			]
+			icon: "ad_astra:energizer"
+			id: "6300000000000003"
+			min_width: 430
+			rewards: [
+				{
+					id: "8300000000000003"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.19_ad_astra.81132fbb8a7ed5dbe599}"
+			tasks: [
+				{
+					id: "7300000000000005"
+					item: "ad_astra:coal_generator"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7300000000000006"
+					item: "ad_astra:solar_panel"
+					type: "item"
+				}
+				{
+					id: "7300000000000007"
+					item: "ad_astra:energizer"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.19_ad_astra.4287c03590bc38e0929a}"
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6300000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.19_ad_astra.cdcd23a400843696d978}"
+				""
+				"{lanminecraft.reforged.quests.19_ad_astra.76359b08a111b40fc387}"
+				""
+				"{lanminecraft.reforged.quests.19_ad_astra.be6133affdc47c2fd63f}"
+				""
+				"{lanminecraft.reforged.quests.19_ad_astra.b7e99eeedecdedde6cd7}"
+				""
+				"{lanminecraft.reforged.quests.19_ad_astra.9589e22b9ab42d76a536}"
+			]
+			icon: "ad_astra:cryo_fuel_bucket"
+			id: "6300000000000004"
+			min_width: 490
+			rewards: [
+				{
+					id: "8300000000000004"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.19_ad_astra.60432af8aab6a5e4b25e}"
+			tasks: [
+				{
+					id: "7300000000000008"
+					item: "ad_astra:cryo_freezer"
+					type: "item"
+				}
+				{
+					id: "7300000000000009"
+					item: "ad_astra:cryo_fuel_bucket"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.19_ad_astra.418962243ae2ce53fbcb}"
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"6300000000000003"
+				"6300000000000004"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.19_ad_astra.07d1ff9561b3ab215d85}"
+				""
+				"{lanminecraft.reforged.quests.19_ad_astra.2c42b58da6bf6ae5966b}"
+				""
+				"{lanminecraft.reforged.quests.19_ad_astra.f36244cd684475cd9a24}"
+			]
+			icon: "ad_astra:oxygen_distributor"
+			id: "6300000000000005"
+			min_width: 490
+			rewards: [
+				{
+					id: "8300000000000005"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.19_ad_astra.6335e87506fe5f74962d}"
+			tasks: [
+				{
+					id: "7300000000000010"
+					item: "ad_astra:oxygen_distributor"
+					type: "item"
+				}
+				{
+					id: "7300000000000011"
+					item: "ad_astra:oxygen_loader"
+					type: "item"
+				}
+				{
+					id: "7300000000000012"
+					item: "ad_astra:gas_tank"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.19_ad_astra.943077f0507ddf71e79a}"
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6300000000000005"]
+			description: [
+				"{lanminecraft.reforged.quests.19_ad_astra.ac61601f68aa3f386136}"
+				""
+				"{lanminecraft.reforged.quests.19_ad_astra.044edf0548305cd7788d}"
+			]
+			icon: "ad_astra:space_suit"
+			id: "6300000000000006"
+			min_width: 440
+			rewards: [
+				{
+					id: "8300000000000006"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.19_ad_astra.d56ba25b50fca75dde6f}"
+			tasks: [
+				{
+					id: "7300000000000013"
+					item: "ad_astra:space_helmet"
+					type: "item"
+				}
+				{
+					id: "7300000000000014"
+					item: "ad_astra:space_suit"
+					type: "item"
+				}
+				{
+					id: "7300000000000015"
+					item: "ad_astra:space_pants"
+					type: "item"
+				}
+				{
+					id: "7300000000000016"
+					item: "ad_astra:space_boots"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.19_ad_astra.a5ec5a170f0e27cae049}"
+			x: -5.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["6300000000000005"]
+			description: [
+				"{lanminecraft.reforged.quests.19_ad_astra.3cae6f894e5dc3dcf726}"
+				""
+				"{lanminecraft.reforged.quests.19_ad_astra.fb82ea8a42f5f98fdf7c}"
+			]
+			icon: "ad_astra:nasa_workbench"
+			id: "6300000000000007"
+			min_width: 440
+			rewards: [
+				{
+					id: "8300000000000007"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.19_ad_astra.e952466e618f24ad218b}"
+			tasks: [
+				{
+					id: "7300000000000017"
+					item: "ad_astra:nasa_workbench"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "7300000000000018"
+					item: "ad_astra:launch_pad"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.19_ad_astra.464b814c37a3570ef6a6}"
+			x: 5.0d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"6300000000000006"
+				"6300000000000007"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.19_ad_astra.0116e52922db269fd1f9}"
+				""
+				"{lanminecraft.reforged.quests.19_ad_astra.e6b4e11c4fa50d226aa7}"
+				""
+				"{lanminecraft.reforged.quests.19_ad_astra.fbfe7353748b664b0c4a}"
+				""
+				"{lanminecraft.reforged.quests.19_ad_astra.c40f08f5a1e18f3b1eeb}"
+				""
+				"{lanminecraft.reforged.quests.19_ad_astra.eaa064abacbad27067e0}"
+			]
+			icon: "ad_astra:desh_ingot"
+			id: "6300000000000008"
+			min_width: 470
+			rewards: [
+				{
+					id: "8300000000000008"
+					type: "xp"
+					xp: 800
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.19_ad_astra.1ae2d1ee290288405af6}"
+			tasks: [
+				{
+					id: "7300000000000019"
+					item: "ad_astra:tier_1_rocket"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "7300000000000020"
+					item: "ad_astra:desh_ingot"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.19_ad_astra.6c5979adcf7a0e51cae2}"
+			x: 0.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["6300000000000008"]
+			description: [
+				"{lanminecraft.reforged.quests.19_ad_astra.6df2d4e2290fa25d85a6}"
+				""
+				"{lanminecraft.reforged.quests.19_ad_astra.a9c423f1263f196c4ef5}"
+				""
+				"{lanminecraft.reforged.quests.19_ad_astra.1f1242f1741c96a8056a}"
+				""
+				"{lanminecraft.reforged.quests.19_ad_astra.1b42bec06dca9d410d82}"
+			]
+			icon: "ad_astra:ostrum_ingot"
+			id: "6300000000000009"
+			min_width: 450
+			rewards: [
+				{
+					id: "8300000000000009"
+					type: "xp"
+					xp: 900
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.19_ad_astra.fcdcc28b690ae0abd05b}"
+			tasks: [
+				{
+					id: "7300000000000021"
+					item: "ad_astra:tier_2_rocket"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "7300000000000022"
+					item: "ad_astra:ostrum_ingot"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.19_ad_astra.a0a6ca091c70a95296d9}"
+			x: -6.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["6300000000000009"]
+			description: [
+				"{lanminecraft.reforged.quests.19_ad_astra.00faed7b516258021080}"
+				""
+				"{lanminecraft.reforged.quests.19_ad_astra.af20127d090496a0c5e4}"
+				""
+				"{lanminecraft.reforged.quests.19_ad_astra.6d0374194fefa51861c0}"
+				""
+				"{lanminecraft.reforged.quests.19_ad_astra.9ca60235064b522f847d}"
+			]
+			icon: "ad_astra:calorite_ingot"
+			id: "6300000000000010"
+			min_width: 480
+			rewards: [
+				{
+					id: "8300000000000010"
+					type: "xp"
+					xp: 1500
+				}
+			]
+			shape: "hexagon"
+			size: 2.5d
+			subtitle: "{lanminecraft.reforged.quests.19_ad_astra.a071915161234b8a23bc}"
+			tasks: [
+				{
+					id: "7300000000000023"
+					item: "ad_astra:tier_3_rocket"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "7300000000000024"
+					item: "ad_astra:calorite_ingot"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.19_ad_astra.4f1c63f9aba8ccb6b18c}"
+			x: 0.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["6300000000000009"]
+			description: [
+				"{lanminecraft.reforged.quests.19_ad_astra.1d99a1a80db15540b40e}"
+				""
+				"{lanminecraft.reforged.quests.19_ad_astra.140846bfab57190af77f}"
+			]
+			icon: "ad_astra:netherite_space_suit"
+			id: "6300000000000011"
+			min_width: 440
+			rewards: [
+				{
+					id: "8300000000000011"
+					type: "xp"
+					xp: 700
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.19_ad_astra.b54dce783a329feb348c}"
+			tasks: [
+				{
+					id: "7300000000000025"
+					item: "ad_astra:netherite_space_helmet"
+					type: "item"
+				}
+				{
+					id: "7300000000000026"
+					item: "ad_astra:netherite_space_suit"
+					type: "item"
+				}
+				{
+					id: "7300000000000027"
+					item: "ad_astra:netherite_space_pants"
+					type: "item"
+				}
+				{
+					id: "7300000000000028"
+					item: "ad_astra:netherite_space_boots"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.19_ad_astra.49b11d4366cd7e16e701}"
+			x: 6.0d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"6300000000000010"
+				"6300000000000011"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.19_ad_astra.b81d1def27ee9ea39735}"
+				""
+				"{lanminecraft.reforged.quests.19_ad_astra.627221cd67d29da611c3}"
+				""
+				"{lanminecraft.reforged.quests.19_ad_astra.af40510991491ab8175b}"
+			]
+			icon: "ad_astra:tier_4_rocket"
+			id: "6300000000000012"
+			min_width: 460
+			optional: true
+			rewards: [
+				{
+					id: "8300000000000012"
+					type: "xp"
+					xp: 1200
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.19_ad_astra.422b85044a18f320a748}"
+			tasks: [
+				{
+					id: "7300000000000029"
+					item: "ad_astra:tier_4_rocket"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "7300000000000030"
+					item: "ad_astra:mercury_stone"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "7300000000000031"
+					item: "ad_astra:glacio_stone"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.19_ad_astra.12d4b0383aa13dea8d20}"
+			x: -6.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["6300000000000010"]
+			description: [
+				"{lanminecraft.reforged.quests.19_ad_astra.5644a83053673755488a}"
+				""
+				"{lanminecraft.reforged.quests.19_ad_astra.94b259565b53b1143ed2}"
+			]
+			icon: "ad_astra:jet_suit"
+			id: "6300000000000013"
+			min_width: 460
+			optional: true
+			rewards: [
+				{
+					id: "8300000000000013"
+					type: "xp"
+					xp: 1200
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.19_ad_astra.d56ba25b50fca75dde6f}"
+			tasks: [
+				{
+					id: "7300000000000032"
+					item: "ad_astra:jet_suit_helmet"
+					type: "item"
+				}
+				{
+					id: "7300000000000033"
+					item: "ad_astra:jet_suit"
+					type: "item"
+				}
+				{
+					id: "7300000000000034"
+					item: "ad_astra:jet_suit_pants"
+					type: "item"
+				}
+				{
+					id: "7300000000000035"
+					item: "ad_astra:jet_suit_boots"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.19_ad_astra.a665be82dfff227b3db9}"
+			x: 6.0d
+			y: 32.0d
+		}
+		{
+			dependencies: [
+				"6300000000000010"
+				"6300000000000008"
+				"6300000000000009"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.19_ad_astra.3f437d6687f11b0a962d}"
+				""
+				"{lanminecraft.reforged.quests.19_ad_astra.1cfcba69ba1540214a19}"
+				""
+				"{lanminecraft.reforged.quests.19_ad_astra.89476a6da2db802af973}"
+			]
+			icon: "ad_astra:calorite_block"
+			id: "6300000000000014"
+			min_width: 480
+			rewards: [
+				{
+					id: "8300000000000014"
+					type: "xp"
+					xp: 2500
+				}
+			]
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "{lanminecraft.reforged.quests.19_ad_astra.ebadd3482c9a2e53f6d2}"
+			tasks: [
+				{
+					id: "7300000000000036"
+					item: "mekanism:block_steel"
+					type: "item"
+				}
+				{
+					id: "7300000000000037"
+					item: "ad_astra:desh_block"
+					type: "item"
+				}
+				{
+					id: "7300000000000038"
+					item: "ad_astra:ostrum_block"
+					type: "item"
+				}
+				{
+					id: "7300000000000039"
+					item: "ad_astra:calorite_block"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.19_ad_astra.74c2ec58d6d4f2646b6c}"
+			x: 0.0d
+			y: 37.0d
+		}
+	]
+	subtitle: ["{lanminecraft.reforged.quests.19_ad_astra.9a087fab9a6ee1e71a65}"]
+	title: "{lanminecraft.reforged.quests.19_ad_astra.64fe67e3f6c3846bce25}"
+}

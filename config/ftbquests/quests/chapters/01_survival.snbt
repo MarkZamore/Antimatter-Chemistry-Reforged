@@ -1,0 +1,1429 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: ""
+	filename: "01_survival"
+	group: "1000000000000001"
+	icon: "kubejs:white_antimatter"
+	id: "2000000000000001"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{lanminecraft.reforged.quests.01_survival.4d96039e51fc954dbd2a}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.61377369cdd0ad5924cf}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.905f574347f757644c5b}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.0b5d74ee60e898a4c3ec}"
+			]
+			icon: "alchemistry:dissolver"
+			id: "3100000000000001"
+			rewards: [
+				{
+					id: "5100000000000001"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "alchemistry:alchemistry_book"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5100000000000002"
+					item: "powah:furnator_starter"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5100000000000003"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "5100000000000004"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.01_survival.2d25d97514280b4b1295}"
+			tasks: [{
+				id: "4100000000000001"
+				title: "{lanminecraft.reforged.quests.01_survival.19f9c9778a7dabc41265}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.01_survival.ec123af94b5d563c6f83}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3100000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.01_survival.d8ecdcac2c1c2a1af531}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.87a80cbca25973a5555e}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.1b1674ee7cec82a40999}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.ee4e02397ec4a24ff870}"
+			]
+			icon: "kubejs:white_antimatter"
+			id: "3100000000000002"
+			rewards: [{
+				id: "5100000000000005"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.01_survival.2f754e5fca11613aacd8}"
+			tasks: [{
+				id: "4100000000000002"
+				title: "{lanminecraft.reforged.quests.01_survival.5ad3dbd1242a4cea217e}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.01_survival.25ae10fcfd901e5ef531}"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3100000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.01_survival.923ec83c0ea8a3953f47}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.3181909b0cd87356b2fa}"
+				"{lanminecraft.reforged.quests.01_survival.06be76dab855705f2d9f}"
+				"{lanminecraft.reforged.quests.01_survival.59d475019e6e5eee2929}"
+				"{lanminecraft.reforged.quests.01_survival.54475dc1b2b68ef174df}"
+				"{lanminecraft.reforged.quests.01_survival.7192e34f85a35589f8e0}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.b863c20dfb2aa24db481}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.2408545e6b42941189a4}"
+			]
+			icon: "minecraft:hopper"
+			id: "3100000000000003"
+			rewards: [
+				{
+					count: 2
+					id: "5100000000000006"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+				{
+					id: "5100000000000007"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.01_survival.141f937bf1d585c024f6}"
+			tasks: [{
+				id: "4100000000000003"
+				title: "{lanminecraft.reforged.quests.01_survival.5ad3dbd1242a4cea217e}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.01_survival.ad429546111b4c56f741}"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3100000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.01_survival.e9a2fe45e9720369653d}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.c3b39d04b2cc7e790420}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.4ef201cc33591745350d}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.d885aa3813f8e8a777ef}"
+			]
+			icon: "minecraft:book"
+			id: "3100000000000004"
+			rewards: [{
+				id: "5100000000000008"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.01_survival.951d31f6055186efad2e}"
+			tasks: [{
+				id: "4100000000000004"
+				title: "{lanminecraft.reforged.quests.01_survival.5ad3dbd1242a4cea217e}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.01_survival.767b51c7fb7c86c679e3}"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3100000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.01_survival.9102adce289fa704339e}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.21eff33deb88c3470f12}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.6ff713269affbf3a64dc}"
+			]
+			id: "3100000000000005"
+			rewards: [{
+				id: "5100000000000009"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.01_survival.0ad4e83c13089bcdb875}"
+			tasks: [{
+				count: 128L
+				id: "4100000000000005"
+				item: "kubejs:white_antimatter"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.01_survival.95592a2c837ff2567a3c}"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3100000000000005"]
+			description: [
+				"{lanminecraft.reforged.quests.01_survival.22f6d5de5c06d6e48c12}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.2f24810dcb898e96eb0b}"
+				"{lanminecraft.reforged.quests.01_survival.9d073fb148b57a1d0877}"
+				"{lanminecraft.reforged.quests.01_survival.15d207a54f4644194733}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.f5ab9a921c08c45f5939}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.60700098a69529f7032a}"
+			]
+			icon: "chemlib:iron"
+			id: "3100000000000006"
+			rewards: [{
+				id: "5100000000000010"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.01_survival.eaf9c0be4f3b3f33843b}"
+			tasks: [
+				{
+					count: 8L
+					id: "4100000000000006"
+					item: "chemlib:iron"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4100000000000007"
+					item: "chemlib:carbon"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.01_survival.e4e7f29a458cdd34dfd8}"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3100000000000006"]
+			description: [
+				"{lanminecraft.reforged.quests.01_survival.472b958521bb46af6a0f}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.9a79f9a7f560ba626295}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.a7678c5271f1c38d8786}"
+			]
+			icon: "alchemistry:compactor"
+			id: "3100000000000007"
+			rewards: [
+				{
+					id: "5100000000000011"
+					item: "alchemistry:compactor"
+					type: "item"
+				}
+				{
+					id: "5100000000000012"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.01_survival.14a1d5c77c2fdc33e011}"
+			tasks: [{
+				count: 16L
+				id: "4100000000000008"
+				item: "chemlib:iron"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.01_survival.7c11ca0d9cba014c5c65}"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3100000000000007"]
+			description: [
+				"{lanminecraft.reforged.quests.01_survival.7e9b0bee0c2bf0c563c3}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.08e078cfaf9147fe7246}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.16ecb375e5dc38854a75}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.6f65e70d711dbd439677}"
+			]
+			icon: "minecraft:iron_ingot"
+			id: "3100000000000008"
+			rewards: [
+				{
+					id: "5100000000000013"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+				{
+					id: "5100000000000014"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.01_survival.b72af62d633f9873ee3f}"
+			tasks: [{
+				count: 4L
+				id: "4100000000000009"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.01_survival.2dee0a2dfcfb8588ee42}"
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3100000000000007"]
+			description: [
+				"{lanminecraft.reforged.quests.01_survival.23d2674c8504e09f8b4b}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.1126e5c9d80db57ebb24}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.08753e223e4de35958e6}"
+			]
+			icon: "minecraft:coal"
+			id: "3100000000000009"
+			rewards: [{
+				id: "5100000000000015"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "{lanminecraft.reforged.quests.01_survival.8c667b14d441e8e12cbf}"
+			tasks: [{
+				count: 8L
+				id: "4100000000000010"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.01_survival.823b5d0d04d3c7fdb775}"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3100000000000007"]
+			description: [
+				"{lanminecraft.reforged.quests.01_survival.34959d76823d85781342}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.be5a51b7a92b7062b657}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.3f36b8589849770b87f7}"
+			]
+			icon: "minecraft:glass"
+			id: "3100000000000010"
+			rewards: [{
+				id: "5100000000000016"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "{lanminecraft.reforged.quests.01_survival.1a877f1e7eaa6cedc22b}"
+			tasks: [{
+				count: 4L
+				id: "4100000000000011"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.01_survival.bc145f7a1e9355c8d8fd}"
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3100000000000007"]
+			description: [
+				"{lanminecraft.reforged.quests.01_survival.1d28325ac9e6f4a15ef9}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.51e65d658c67e6b3d5ce}"
+			]
+			icon: "minecraft:cobblestone"
+			id: "3100000000000011"
+			rewards: [{
+				id: "5100000000000017"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{lanminecraft.reforged.quests.01_survival.02c4d331c65a3f371c90}"
+			tasks: [{
+				count: 8L
+				id: "4100000000000012"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.01_survival.11421fcc99cd2fd9e1a2}"
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3100000000000006"]
+			description: [
+				"{lanminecraft.reforged.quests.01_survival.b59834be1164f52ce94b}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.76d894c2074884103033}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.c3974f35546eede986b6}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.74273089540f427b183f}"
+			]
+			icon: "minecraft:water_bucket"
+			id: "3100000000000012"
+			rewards: [{
+				id: "5100000000000018"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.01_survival.d6993721840a720f0c3d}"
+			tasks: [{
+				count: 16L
+				id: "4100000000000013"
+				item: "chemlib:water"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.01_survival.b4684ceda68c238b26b1}"
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"3100000000000012"
+				"3100000000000008"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.01_survival.718fb55addff1f0c925b}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.586106b1c5aa432a89ee}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.a7dd02e8008b6f42d0d0}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.327c796aa564122db6ea}"
+			]
+			icon: "minecraft:bucket"
+			id: "3100000000000013"
+			rewards: [{
+				id: "5100000000000019"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.01_survival.a91d7de206f5f4535583}"
+			tasks: [{
+				count: 2L
+				id: "4100000000000014"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.01_survival.4cd0764b44881d099b64}"
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3100000000000010"]
+			description: [
+				"{lanminecraft.reforged.quests.01_survival.387394c592fe8309c474}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.ab5dec4aa8fda937bb14}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.83443290d28897ec45be}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.1b717aaf5419970dcbd6}"
+			]
+			icon: "minecraft:obsidian"
+			id: "3100000000000014"
+			rewards: [{
+				id: "5100000000000020"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.01_survival.b1a86f4f560cde5351f8}"
+			tasks: [{
+				id: "4100000000000015"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.01_survival.d7d0a5d216daab4b8d81}"
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3100000000000012"]
+			description: [
+				"{lanminecraft.reforged.quests.01_survival.3c8994176cbd88a4e83d}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.bcd46d3475494274e42f}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.efa15d6cc3931b5db6bd}"
+			]
+			icon: "chemlib:cellulose"
+			id: "3100000000000015"
+			optional: true
+			rewards: [{
+				id: "5100000000000021"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.01_survival.f0fff9d418c017838ed4}"
+			tasks: [{
+				count: 4L
+				id: "4100000000000016"
+				item: "chemlib:cellulose"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.01_survival.70e2e627dd8ad5c4c2a6}"
+			x: -6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3100000000000015"]
+			description: [
+				"{lanminecraft.reforged.quests.01_survival.0cb5648dd53eca7d8c61}"
+				"{lanminecraft.reforged.quests.01_survival.90bfdbfea6ab80712428}"
+				"{lanminecraft.reforged.quests.01_survival.2a1bbc99a26371912f45}"
+				"{lanminecraft.reforged.quests.01_survival.d66a10c7b8b546e3be45}"
+				"{lanminecraft.reforged.quests.01_survival.afaff12572055a414ec6}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.8f005242847f897ea5b7}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.d2641e8c8384cf580dc4}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.40b0ac1e05762da512cc}"
+			]
+			icon: "minecraft:oak_log"
+			id: "3100000000000016"
+			optional: true
+			rewards: [{
+				id: "5100000000000022"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.01_survival.63c2dce7fdc79c2fafa4}"
+			tasks: [
+				{
+					id: "4100000000000017"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4100000000000018"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.01_survival.8346952bfd0046dc19b0}"
+			x: -7.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3100000000000015"]
+			description: [
+				"{lanminecraft.reforged.quests.01_survival.29fec8596cb7bf1eec5f}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.32d9601426d8d268bc4f}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.f16dcec772316ef3275a}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.b4304fc464ebe96d48ba}"
+			]
+			icon: "minecraft:apple"
+			id: "3100000000000017"
+			optional: true
+			rewards: [{
+				id: "5100000000000023"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.01_survival.e39acfbeef1fc3ee7754}"
+			tasks: [{
+				count: 4L
+				id: "4100000000000019"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.01_survival.504ce9cc4cb28aef7666}"
+			x: -4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3100000000000010"]
+			description: [
+				"{lanminecraft.reforged.quests.01_survival.162b3d84a443d18886d4}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.8f31ee7bf55cab2c07fa}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.4b7456e1484e2655ed27}"
+			]
+			icon: "minecraft:quartz"
+			id: "3100000000000018"
+			optional: true
+			rewards: [{
+				id: "5100000000000024"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.01_survival.84dcd3b981d36b223b0b}"
+			tasks: [{
+				count: 4L
+				id: "4100000000000020"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.01_survival.aab1447c403e3ada8d54}"
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3100000000000007"]
+			description: [
+				"{lanminecraft.reforged.quests.01_survival.2651d6c7ad7f33887059}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.bc4783a9a3188b3d0c7e}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.77d7bb3498a17576e0bf}"
+			]
+			icon: "minecraft:copper_ingot"
+			id: "3100000000000019"
+			optional: true
+			rewards: [{
+				id: "5100000000000025"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.01_survival.2ac2a1731a9188d89b6b}"
+			tasks: [{
+				count: 2L
+				id: "4100000000000021"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.01_survival.e178a774a7f3109c3fdb}"
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3100000000000007"]
+			description: [
+				"{lanminecraft.reforged.quests.01_survival.7e6c4781f702ccb61cf5}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.4bd4d4056893001725e8}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.5dbc3cb50a8a8b9d1b87}"
+			]
+			icon: "minecraft:gold_ingot"
+			id: "3100000000000020"
+			optional: true
+			rewards: [{
+				id: "5100000000000026"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "heart"
+			subtitle: "{lanminecraft.reforged.quests.01_survival.dc9be6f7af6ac244488d}"
+			tasks: [{
+				id: "4100000000000022"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.01_survival.1fe2b2725ac703984ee5}"
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3100000000000006"]
+			description: [
+				"{lanminecraft.reforged.quests.01_survival.820fa94272c2fa8c49d0}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.0b89021252e46ce915b0}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.59ff028919a15a6fec85}"
+			]
+			icon: "chemlib:sulfur"
+			id: "3100000000000021"
+			optional: true
+			rewards: [{
+				id: "5100000000000027"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.01_survival.66a818c7e41e074bc27f}"
+			tasks: [
+				{
+					count: 8L
+					id: "4100000000000023"
+					item: "chemlib:calcium"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4100000000000024"
+					item: "chemlib:sodium"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4100000000000025"
+					item: "chemlib:aluminum"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4100000000000026"
+					item: "chemlib:sulfur"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4100000000000027"
+					item: "chemlib:nitrogen"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.01_survival.56ade2ce6adc350e9116}"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"3100000000000008"
+				"3100000000000009"
+				"3100000000000010"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.01_survival.1f4c4349707248249844}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.d86dd6f38fa89241068e}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.a430d86ab437a79acb03}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.e59c7ee5602cb215fd95}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.c2c530c6d6ed43e3040a}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.3af2e1168650f1b919e8}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.5cd3a0beedb3276f3191}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.7ba69ffe1a5cbc84b8c2}"
+			]
+			icon: "kubejs:white_antimatter"
+			id: "3100000000000022"
+			rewards: [
+				{
+					count: 16
+					id: "5100000000000028"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "5100000000000029"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.01_survival.0a80364ca248ead06d57}"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "4100000000000028"
+				item: "kubejs:white_antimatter"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.01_survival.6808c4c8d51b32b94850}"
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3100000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.01_survival.edba3afa31d56212e06f}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.40d2f93553047d639941}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.b559c7236782773bf094}"
+			]
+			icon: "minecraft:clock"
+			id: "3100000000000101"
+			rewards: [
+				{
+					count: 16
+					id: "5100000000000101"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					id: "5100000000000102"
+					type: "xp"
+					xp: 15
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.01_survival.4387a9461867611eeaf1}"
+			tasks: [{
+				id: "4100000000000101"
+				title: "{lanminecraft.reforged.quests.01_survival.2d3a082ee96698707b63}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.01_survival.cc4e0fa681c316849bd6}"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3100000000000101"]
+			description: [
+				"{lanminecraft.reforged.quests.01_survival.3936f6ea7dafce8d6061}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.c73fe0c1df709db5cc7c}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.85d338572d92a2569e35}"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:stone_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3100000000000102"
+			rewards: [{
+				id: "5100000000000103"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.01_survival.18ebe3fa819b6b8a1b0b}"
+			tasks: [{
+				id: "4100000000000102"
+				title: "{lanminecraft.reforged.quests.01_survival.1f22b9d22ce24113ed49}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.01_survival.b4b4fb952df096eb533f}"
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3100000000000101"]
+			description: [
+				"{lanminecraft.reforged.quests.01_survival.db74193a6d1b87d21ac6}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.814867b982a3240eb2d5}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.36710e6b24e8c11c5c4c}"
+			]
+			icon: "minecraft:torch"
+			id: "3100000000000103"
+			rewards: [
+				{
+					count: 4
+					id: "5100000000000104"
+					item: "chemlib:phosphorus"
+					type: "item"
+				}
+				{
+					id: "5100000000000105"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.01_survival.99ce2619843aea653ad9}"
+			tasks: [{
+				count: 32L
+				id: "4100000000000103"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.01_survival.ef9fe130c54fc47b8ed8}"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3100000000000101"]
+			description: [
+				"{lanminecraft.reforged.quests.01_survival.99c9e187b04d0bdc6e6d}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.c5974217869778104b2e}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.ca4b43d6e968dd2fb548}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.a8fc847302afcff88167}"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3100000000000104"
+			rewards: [
+				{
+					id: "5100000000000106"
+					item: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5100000000000107"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.01_survival.4fa05786de2ccc1f39f1}"
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					id: "4100000000000104"
+					type: "kill"
+					value: 16L
+				}
+				{
+					entity: "minecraft:skeleton"
+					id: "4100000000000105"
+					type: "kill"
+					value: 16L
+				}
+			]
+			title: "{lanminecraft.reforged.quests.01_survival.5fedc2d0093cbb502e8f}"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3100000000000104"]
+			description: [
+				"{lanminecraft.reforged.quests.01_survival.4a635a59c987cb538bb4}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.5f22fcdc3a594cb22078}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.8cd88996d3b62f1b1642}"
+			]
+			icon: "minecraft:string"
+			id: "3100000000000105"
+			rewards: [{
+				id: "5100000000000108"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.01_survival.edc29e68b01df87b104c}"
+			tasks: [{
+				count: 24L
+				id: "4100000000000106"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.01_survival.3e075256ca2a0b65817a}"
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3100000000000104"]
+			description: [
+				"{lanminecraft.reforged.quests.01_survival.16d2fbdcdac15cc1a5b1}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.265b4cb3ad812d1e5cc9}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.1a9d7fa5bd042820be51}"
+			]
+			icon: "minecraft:leather"
+			id: "3100000000000106"
+			rewards: [{
+				id: "5100000000000109"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.01_survival.0ac57244b408aaf0757c}"
+			tasks: [{
+				count: 8L
+				id: "4100000000000107"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.01_survival.3b12cfebc3167b3a9ef2}"
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3100000000000104"]
+			description: [
+				"{lanminecraft.reforged.quests.01_survival.80b901137d679c4e8557}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.c61d76bfaad4671e39ca}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.c424d52115e8c635d9a0}"
+			]
+			icon: "minecraft:bone"
+			id: "3100000000000107"
+			rewards: [{
+				id: "5100000000000110"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.01_survival.ea8db7250fab176c054e}"
+			tasks: [{
+				count: 16L
+				id: "4100000000000108"
+				item: "minecraft:bone"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.01_survival.cfc035ce7a3723924d2c}"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3100000000000104"]
+			description: [
+				"{lanminecraft.reforged.quests.01_survival.18fc9b840fbc49fbea25}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.f532cec5d8be0065494b}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.e1da10422c77cfbbace4}"
+			]
+			icon: "minecraft:gunpowder"
+			id: "3100000000000108"
+			rewards: [{
+				id: "5100000000000111"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.01_survival.f430b081e2ff2d157232}"
+			tasks: [{
+				count: 8L
+				id: "4100000000000109"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.01_survival.104b26654001839cd56f}"
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3100000000000104"]
+			description: [
+				"{lanminecraft.reforged.quests.01_survival.1d48d3106e82963c301b}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.4396116cd1174f268365}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.17ecdfaab8b8137ffa01}"
+			]
+			icon: "minecraft:ender_pearl"
+			id: "3100000000000109"
+			rewards: [{
+				id: "5100000000000112"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "diamond"
+			subtitle: "{lanminecraft.reforged.quests.01_survival.c98e1a52bed730ca383a}"
+			tasks: [{
+				count: 4L
+				id: "4100000000000110"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.01_survival.e46354e34b8c159678a3}"
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"3100000000000105"
+				"3100000000000102"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.01_survival.40c1543fe838646f8fa2}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.5bba8879950e92788073}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.30c2a933bd2150931f26}"
+			]
+			icon: "minecraft:white_bed"
+			id: "3100000000000110"
+			rewards: [{
+				id: "5100000000000113"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.01_survival.c94fa61636ded9ce835b}"
+			tasks: [{
+				id: "4100000000000111"
+				item: "minecraft:white_bed"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.01_survival.557411e593161dea32fe}"
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3100000000000107"]
+			description: [
+				"{lanminecraft.reforged.quests.01_survival.fdf76cfbb27f04b2fb99}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.69e87f96fc19dc3c03b3}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.817da2c51de5e007acea}"
+			]
+			icon: "minecraft:bone_meal"
+			id: "3100000000000118"
+			rewards: [{
+				id: "5100000000000114"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.01_survival.3ee16d62db7e9fa3c662}"
+			tasks: [{
+				count: 16L
+				id: "4100000000000112"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.01_survival.181071bb4c4622465ea5}"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3100000000000006"]
+			description: [
+				"{lanminecraft.reforged.quests.01_survival.9aa6a168d3e5c33c18da}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.a231816593304119e707}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.512d5fb2888265fd12bf}"
+			]
+			icon: "alchemistry:combiner"
+			id: "3100000000000111"
+			rewards: [{
+				id: "5100000000000115"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.01_survival.39d702042fdb1b538f8b}"
+			tasks: [{
+				id: "4100000000000113"
+				title: "{lanminecraft.reforged.quests.01_survival.5ad3dbd1242a4cea217e}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.01_survival.2a70f7a14d59ff6d2266}"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3100000000000007"]
+			description: [
+				"{lanminecraft.reforged.quests.01_survival.698a8cdd2e7e21b40c5f}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.5cc2ac1adf5de38423e5}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.cf7bc8b0a2fe7bea9176}"
+			]
+			icon: "minecraft:sand"
+			id: "3100000000000112"
+			rewards: [{
+				id: "5100000000000116"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.01_survival.cc54f8e314618847be80}"
+			tasks: [{
+				count: 16L
+				id: "4100000000000114"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.01_survival.1ff6ed934f97ce2c87ff}"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3100000000000006"]
+			description: [
+				"{lanminecraft.reforged.quests.01_survival.7b60ee9b5a6c6a548fd9}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.5850706e33cb8ac7058e}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.406fa61f078a52bb25d0}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.7fa3764ec87199e08e7f}"
+			]
+			icon: "chemlib:osmium"
+			id: "3100000000000113"
+			optional: true
+			rewards: [{
+				id: "5100000000000117"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.01_survival.2bcdffde3acafd0eb225}"
+			tasks: [
+				{
+					id: "4100000000000115"
+					item: "chemlib:titanium"
+					type: "item"
+				}
+				{
+					id: "4100000000000116"
+					item: "chemlib:manganese"
+					type: "item"
+				}
+				{
+					id: "4100000000000117"
+					item: "chemlib:osmium"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.01_survival.b373671e20aed77a459c}"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3100000000000021"]
+			description: [
+				"{lanminecraft.reforged.quests.01_survival.420a82dd5b7b532fc49e}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.13e9e9900e07581edee0}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.de14d87333340c64ae2c}"
+			]
+			icon: "minecraft:redstone"
+			id: "3100000000000114"
+			rewards: [{
+				id: "5100000000000118"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			subtitle: "{lanminecraft.reforged.quests.01_survival.b73d2de971d39f2add3c}"
+			tasks: [{
+				count: 8L
+				id: "4100000000000118"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.01_survival.943e12271efdd00ecc15}"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3100000000000114"]
+			description: [
+				"{lanminecraft.reforged.quests.01_survival.fc080e3d5d6739a65276}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.3039bcf6b1a4b180b87a}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.9115742fdccaf38a2bce}"
+			]
+			icon: "minecraft:piston"
+			id: "3100000000000115"
+			rewards: [{
+				id: "5100000000000119"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.01_survival.6417ab821102236321db}"
+			tasks: [{
+				count: 2L
+				id: "4100000000000119"
+				item: "minecraft:piston"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.01_survival.48af1159102d45cf2aa2}"
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3100000000000012"]
+			description: [
+				"{lanminecraft.reforged.quests.01_survival.e3a838c9f1b6db5a23b4}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.a028c32c1b004f186fa5}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.edf3bca122f8450d5f68}"
+			]
+			icon: "minecraft:clay_ball"
+			id: "3100000000000117"
+			rewards: [{
+				id: "5100000000000120"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "{lanminecraft.reforged.quests.01_survival.4d823124b99e13310662}"
+			tasks: [{
+				count: 8L
+				id: "4100000000000120"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.01_survival.5b4bca8194221e6a9d5a}"
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3100000000000015"]
+			description: [
+				"{lanminecraft.reforged.quests.01_survival.d0fe066697ae6a0ab7ad}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.d0040c378394c2d085c1}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.3c85426ec79cab7a42fb}"
+			]
+			icon: "minecraft:paper"
+			id: "3100000000000116"
+			optional: true
+			rewards: [{
+				id: "5100000000000121"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.01_survival.202da2d0342d2626ef0a}"
+			tasks: [{
+				count: 16L
+				id: "4100000000000121"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.01_survival.503643bfe48971688409}"
+			x: -4.0d
+			y: 8.0d
+		}
+		# ─────────────────────────────────────────────────────────────────────
+		# Аварийный выход из тупика. Стартовые машины выдаются один раз —
+		# сундуком на спавне (amworld:starter_chemistry = растворитель и Комбайн).
+		# Если игрок их потерял, начать заново он не может ФИЗИЧЕСКИ: растворитель
+		# делается из железа, железо получается растворением, круг не разрывается.
+		# А после отказа от Tombstone смерть стала окончательной: вещи падают
+		# на землю, и взрыв крипера уничтожает их вместе с прогрессом.
+		#
+		# Квест повторяемый с получасовым кулдауном: repeat_cooldown у FTB Quests —
+		# в СЕКУНДАХ реального времени (Quest.repeatCooldown × 1000 мс). В первом
+		# сезоне стояло 36000, то есть десять часов вместо обещанных тридцати минут.
+		# Да, теоретически его можно
+		# доить — но выдаётся ровно то, что и так лежало в стартовом сундуке,
+		# и к третьей главе обе машины крафтятся из мусора. Заблокированный
+		# новичок, который уходит с сервера навсегда, обходится дороже.
+		# ─────────────────────────────────────────────────────────────────────
+		{
+			can_repeat: true
+			dependencies: ["3100000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.01_survival.9c6dc891721d166c57ca}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.3c84217516f10a4cd258}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.82d6ef33b216f9a3bc59}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.430b8f121b04d583d1ab}"
+			]
+			icon: "alchemistry:dissolver"
+			id: "3100000000000900"
+			min_width: 400
+			optional: true
+			repeat_cooldown: 1800L
+			rewards: [
+				{
+					id: "5100000000000900"
+					item: "alchemistry:dissolver"
+					type: "item"
+				}
+				{
+					id: "5100000000000901"
+					item: "alchemistry:combiner"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{lanminecraft.reforged.quests.01_survival.6785b5145c70c69902ca}"
+			tasks: [{
+				id: "4100000000000900"
+				title: "{lanminecraft.reforged.quests.01_survival.505bf4d37cac97ea7ecd}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.01_survival.7c6a3b6d5b86af3a54d8}"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3100000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.01_survival.6239ad4c8689f5a5444c}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.166a0761ab00d8ee1d56}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.f738d6231edf128f3a16}"
+				""
+				"{lanminecraft.reforged.quests.01_survival.62d1eeabcedb92275887}"
+			]
+			icon: "chemlib:iron"
+			id: "3100000000000F30"
+			min_width: 460
+			optional: true
+			rewards: [{
+				id: "5100000000000F30"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "{lanminecraft.reforged.quests.01_survival.d5037efcda6451d0929c}"
+			tasks: [
+				{
+					count: 512L
+					id: "4100000000000F30"
+					item: "chemlib:iron"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.01_survival.2ad7a668a18e0d4cd2c3}"
+			x: -10.0d
+			y: 2.0d
+		}
+	]
+	subtitle: ["{lanminecraft.reforged.quests.01_survival.2a0ba24e99b504fc955c}"]
+	title: "{lanminecraft.reforged.quests.01_survival.e9bd3ae30044acb935d1}"
+}

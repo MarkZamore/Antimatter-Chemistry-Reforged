@@ -1,0 +1,2243 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: ""
+	filename: "05_core"
+	group: "1000000000000001"
+	hide_quest_until_deps_visible: true
+	icon: "alchemistry:fusion_chamber_controller"
+	id: "2000000000000005"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3400000000000005"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.64cf1556ab6073effa62}"
+				"{lanminecraft.reforged.quests.05_core.5b9cc0a0819601a76f9b}"
+				"{lanminecraft.reforged.quests.05_core.2c62b6d43e1c9eb546b0}"
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:obsidian"
+			id: "3500000000000001"
+			min_width: 350
+			rewards: [
+				{
+					id: "5500000000000001"
+					item: {
+						Count: 1
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5500000000000002"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.05_core.ab49862f34c331b9307c}"
+			tasks: [{
+				count: 14L
+				id: "4500000000000001"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.d7d0a5d216daab4b8d81}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3500000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.b571c971732ea0584232}"
+				""
+				"{lanminecraft.reforged.quests.05_core.efa64316484f04005250}"
+				""
+				"{lanminecraft.reforged.quests.05_core.4231e92eda3554f294af}"
+
+			]
+			icon: "minecraft:crying_obsidian"
+			id: "3500000000000002"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000003"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.05_core.8d7de959254cbd854b40}"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "4500000000000002"
+				title: "{lanminecraft.reforged.quests.05_core.72c1a821752bc4f2c9f3}"
+				type: "dimension"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.8b28d9ac2b0269ccea5c}"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3500000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.edc0469c7bcd78d9711e}"
+				"{lanminecraft.reforged.quests.05_core.ecb8a55aa09efebd0e68}"
+				"{lanminecraft.reforged.quests.05_core.ca811543ca82fdafb911}"
+			]
+			icon: "minecraft:diorite"
+			id: "3500000000000003"
+			rewards: [{
+				id: "5500000000000004"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.05_core.cda728c0f5f237d372b6}"
+			tasks: [{
+				count: 64L
+				id: "4500000000000003"
+				item: "minecraft:diorite"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.9628e1b6fa9530e43bf4}"
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3500000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.cf10fb59f85b1d29b0ef}"
+				""
+				"{lanminecraft.reforged.quests.05_core.0fba79d1eeaf94f6196a}"
+				""
+				"{lanminecraft.reforged.quests.05_core.03a8e6ee61522efba3f5}"
+			]
+			icon: "minecraft:magma_block"
+			id: "3500000000000004"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000005"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.05_core.00ac9564369102a45c22}"
+			tasks: [
+				{
+					count: 32L
+					id: "4500000000000004"
+					item: "minecraft:magma_block"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "4500000000000005"
+					item: "minecraft:basalt"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.05_core.f6a531066f94357049d8}"
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3500000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.b65c3c62a0720867ee4c}"
+				"{lanminecraft.reforged.quests.05_core.6de6812a61f542d885d5}"
+				"{lanminecraft.reforged.quests.05_core.93a6d8c09c1a0557e505}"
+			]
+			icon: "chemlib:germanium"
+			id: "3500000000000005"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000006"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.05_core.a46159a61169bb3d357e}"
+			tasks: [{
+				count: 32L
+				id: "4500000000000006"
+				item: "chemlib:germanium"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.31214de69a53aa1ea0aa}"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3500000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.2652211eccdb42cf44d4}"
+				"{lanminecraft.reforged.quests.05_core.0c3a73df91e16a6d1a91}"
+				"{lanminecraft.reforged.quests.05_core.8cfaf769c1a9d838487f}"
+			]
+			icon: "minecraft:blaze_rod"
+			id: "3500000000000006"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000007"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.05_core.b7d8e6959868395bde4a}"
+			tasks: [{
+				count: 16L
+				id: "4500000000000007"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.a4ee59702754d7ac5f70}"
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3500000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.28bb203cc3bb3deabff3}"
+				"{lanminecraft.reforged.quests.05_core.608a62743bdc2cfc2cf7}"
+				"{lanminecraft.reforged.quests.05_core.2217783a1e9306df5552}"
+			]
+			icon: "minecraft:ancient_debris"
+			id: "3500000000000007"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000008"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.05_core.5f9c27310a40895027d2}"
+			tasks: [{
+				id: "4500000000000008"
+				title: "{lanminecraft.reforged.quests.05_core.37520409fec321590176}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.333a62ee3307fd780f35}"
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3500000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.6ff18301962c980446de}"
+				"{lanminecraft.reforged.quests.05_core.7f098f7f9e3acfc348ab}"
+				"{lanminecraft.reforged.quests.05_core.c2fbe9f0a7379293b1c3}"
+			]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "3500000000000008"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000009"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{lanminecraft.reforged.quests.05_core.46549c592b5ea7dd19dd}"
+			tasks: [{
+				count: 3L
+				id: "4500000000000009"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.c654b3a5f6ce0ebd9ac4}"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3500000000000008"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.fd41f930f95becdd9243}"
+				""
+				"{lanminecraft.reforged.quests.05_core.98132c3bd7ac8e40a373}"
+				""
+				"{lanminecraft.reforged.quests.05_core.e0907b62653ac54968ee}"
+				""
+				"{lanminecraft.reforged.quests.05_core.8134016b4309d0d41bc7}"
+			]
+			icon: "alchemistry:fusion_chamber_controller"
+			id: "3500000000000009"
+			min_width: 350
+			rewards: [
+				{
+					id: "5500000000000010"
+					item: "alchemistry:fusion_chamber_controller"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5500000000000011"
+					item: "alchemistry:fusion_core"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/gamestage add {p} netherstar"
+					elevate_perms: true
+					id: "5500000000000012"
+					title: "{lanminecraft.reforged.quests.05_core.00269c47ce847457e245}"
+					type: "command"
+				}
+				{
+					id: "5500000000000013"
+					type: "xp"
+					xp: 250
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.05_core.2cd1aafde378a931b041}"
+			tasks: [{
+				id: "4500000000000010"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.a37f4207bb31c08bbc76}"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"3500000000000009"
+				"3500000000000003"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.c11b15b23c0acdd35fc6}"
+				""
+				"{lanminecraft.reforged.quests.05_core.89c45e45c8c152ae640b}"
+				""
+				"{lanminecraft.reforged.quests.05_core.56d50eaebbaf445fe601}"
+			]
+			icon: "chemlib:platinum_ingot"
+			id: "3500000000000010"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000014"
+				type: "xp"
+				xp: 60
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.05_core.6a0fd2dc85cc06c8a328}"
+			tasks: [
+				{
+					count: 256L
+					id: "4500000000000011"
+					item: "chemlib:osmium"
+					type: "item"
+				}
+				{
+					count: 256L
+					id: "4500000000000012"
+					item: "chemlib:platinum"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.05_core.d0932878d84e78bb39c6}"
+			x: -6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"3500000000000010"
+				"3500000000000006"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.04645c2e9a46256c2645}"
+				"{lanminecraft.reforged.quests.05_core.1612f30ab757059377a4}"
+				"{lanminecraft.reforged.quests.05_core.8deb4c23d32ced3c7e76}"
+			]
+			icon: "alchemistry:reactor_casing"
+			id: "3500000000000011"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000015"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{lanminecraft.reforged.quests.05_core.ddef0a636c0684c634a2}"
+			tasks: [{
+				count: 62L
+				id: "4500000000000013"
+				item: "alchemistry:reactor_casing"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.79c2fa3187e8578ebb61}"
+			x: -6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"3500000000000009"
+				"3500000000000004"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.6de41116ce2e5d3fab01}"
+				"{lanminecraft.reforged.quests.05_core.7d0eae85feaf4bdd80dc}"
+				"{lanminecraft.reforged.quests.05_core.629e3bda271f7f5bf390}"
+			]
+			icon: "alchemistry:reactor_glass"
+			id: "3500000000000012"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000016"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.05_core.13047369e09bf7ee1d84}"
+			tasks: [{
+				count: 36L
+				id: "4500000000000014"
+				item: "alchemistry:reactor_glass"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.b827d08437e43986827d}"
+			x: -3.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3500000000000009"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.84a3eea553a825483658}"
+				"{lanminecraft.reforged.quests.05_core.c15bafc2dc4c01faa823}"
+				"{lanminecraft.reforged.quests.05_core.2ce07e77e6ad5e2efc16}"
+			]
+			icon: "alchemistry:reactor_output"
+			id: "3500000000000014"
+			rewards: [{
+				id: "5500000000000019"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.05_core.816aa7e1dc6b85f83de0}"
+			tasks: [
+				{
+					id: "4500000000000016"
+					item: "alchemistry:reactor_energy"
+					type: "item"
+				}
+				{
+					id: "4500000000000017"
+					item: "alchemistry:reactor_input"
+					type: "item"
+				}
+				{
+					id: "4500000000000018"
+					item: "alchemistry:reactor_output"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.05_core.1869e008448768c6da56}"
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3500000000000009"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.460e7632fc205aa536c8}"
+				"{lanminecraft.reforged.quests.05_core.d673fe1f1f5f0e95cdeb}"
+				"{lanminecraft.reforged.quests.05_core.8a52dc400c4e1c8012a4}"
+			]
+			icon: "alchemistry:reactor_energy"
+			id: "3500000000000015"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000020"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.05_core.873b3419a377eacd7a59}"
+			tasks: [{
+				id: "4500000000000019"
+				title: "{lanminecraft.reforged.quests.05_core.8abeea13596aa7dcd5d8}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.a4058708d6a5f2dd17f2}"
+			x: 3.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"3500000000000011"
+				"3500000000000012"
+				"3500000000000014"
+				"3500000000000015"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.a9946528a1ba27f6151f}"
+				"{lanminecraft.reforged.quests.05_core.4522ceda5f267fc15da5}"
+				"{lanminecraft.reforged.quests.05_core.f0fac8ae14c662724b02}"
+				"{lanminecraft.reforged.quests.05_core.9b6963cac8d99eaa821e}"
+				"{lanminecraft.reforged.quests.05_core.4ab2876e061fcab1b8ae}"
+				"{lanminecraft.reforged.quests.05_core.d13302f8ad9037c01807}"
+				""
+				"{lanminecraft.reforged.quests.05_core.e8caa0bb57c40dc34fbc}"
+				""
+				"{lanminecraft.reforged.quests.05_core.18c084eef627992c8069}"
+				""
+				"{lanminecraft.reforged.quests.05_core.eddba051f2ab24e78c0d}"
+			]
+			icon: "alchemistry:fusion_core"
+			id: "3500000000000016"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000021"
+				type: "xp"
+				xp: 150
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.05_core.aaa203bc090d4e234c66}"
+			tasks: [{
+				id: "4500000000000020"
+				title: "{lanminecraft.reforged.quests.05_core.8a5b6dd9d5bee7e9a45e}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.a89560159e19f636484b}"
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3500000000000016"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.6a6bc15b4137ee818bbe}"
+				""
+				"{lanminecraft.reforged.quests.05_core.2a3b04d79e0fb7ee5d88}"
+				""
+				"{lanminecraft.reforged.quests.05_core.bb463424f2e8dddc31b3}"
+			]
+			icon: "minecraft:barrier"
+			id: "3500000000000017"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000022"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.05_core.9980d025330f8040e8f8}"
+			tasks: [{
+				id: "4500000000000021"
+				title: "{lanminecraft.reforged.quests.05_core.071b1a30d4b576ca9f58}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.811d793c6d6cc3738b34}"
+			x: -7.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3500000000000016"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.9e4ffeffa898cfc43825}"
+				""
+				"{lanminecraft.reforged.quests.05_core.5019f729122bf440dda9}"
+			]
+			icon: "minecraft:tnt"
+			id: "3500000000000018"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000023"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.05_core.fed3b8042cac0c45a001}"
+			tasks: [{
+				id: "4500000000000022"
+				title: "{lanminecraft.reforged.quests.05_core.a80d29060a9d4d8e9854}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.224eef29eded0d8be6a1}"
+			x: 7.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3500000000000016"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.65bce1a2401c387bc176}"
+				"{lanminecraft.reforged.quests.05_core.c00f1202180d480cd34e}"
+				"{lanminecraft.reforged.quests.05_core.14c9a634865e4be266aa}"
+			]
+			icon: "chemlib:nickel"
+			id: "3500000000000019"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000024"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.05_core.8a4bbf3165e5ee334bc4}"
+			tasks: [{
+				count: 16L
+				id: "4500000000000023"
+				item: "chemlib:nickel"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.7177d9c116d4080402c1}"
+			x: -4.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3500000000000016"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.9a887163342310c243d5}"
+				"{lanminecraft.reforged.quests.05_core.e99f42316773c26175fc}"
+				"{lanminecraft.reforged.quests.05_core.1f8f0c7f4d462b8eb6e4}"
+			]
+			icon: "chemlib:gold"
+			id: "3500000000000020"
+			min_width: 350
+			rewards: [
+				{
+					count: 8
+					id: "5500000000000025"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "5500000000000026"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "{lanminecraft.reforged.quests.05_core.14bbb58c55e07bfdc354}"
+			tasks: [{
+				count: 16L
+				id: "4500000000000024"
+				item: "chemlib:gold"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.12d23ea70b8123a7a237}"
+			x: -1.5d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"3500000000000019"
+				"3500000000000020"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.40ad1da5d8e14ac57ea4}"
+				""
+				"{lanminecraft.reforged.quests.05_core.1b9814b6df95bfb2425d}"
+				""
+				"{lanminecraft.reforged.quests.05_core.d94631b730088700af02}"
+			]
+			icon: "chemlib:osmium_ingot"
+			id: "3500000000000021"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000027"
+				type: "xp"
+				xp: 80
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.05_core.77b268d81d9a205c2241}"
+			tasks: [
+				{
+					count: 512L
+					id: "4500000000000025"
+					item: "chemlib:osmium"
+					type: "item"
+				}
+				{
+					count: 512L
+					id: "4500000000000026"
+					item: "chemlib:platinum"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.05_core.e3adf61b8e646ef306ab}"
+			x: -3.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["3500000000000016"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.adc82baad96c2d13827c}"
+				"{lanminecraft.reforged.quests.05_core.a1372c646d3e5120f509}"
+				"{lanminecraft.reforged.quests.05_core.93ccf0907e56094ad39d}"
+			]
+			icon: "chemlib:yttrium_ingot"
+			id: "3500000000000022"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000028"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{lanminecraft.reforged.quests.05_core.00af11ca1846fa498835}"
+			tasks: [{
+				count: 18L
+				id: "4500000000000027"
+				item: "chemlib:yttrium_ingot"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.4a32e0d2a540a193a6ce}"
+			x: 1.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3500000000000016"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.e6431688e2c452fe238a}"
+				"{lanminecraft.reforged.quests.05_core.d5503fa4808c6a540afd}"
+			]
+			icon: "nuclearcraft:isotope_separator"
+			id: "3500000000000023"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000029"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.05_core.c1b18535f39e746e7267}"
+			tasks: [{
+				id: "4500000000000028"
+				item: "nuclearcraft:isotope_separator"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.05957f877d451c69edd8}"
+			x: 4.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3500000000000023"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.8a24f375c600bd96dc25}"
+				"{lanminecraft.reforged.quests.05_core.15ad1c029e3441110d6b}"
+				"{lanminecraft.reforged.quests.05_core.5626db1e54a983748812}"
+			]
+			icon: "nuclearcraft:uranium_235"
+			id: "3500000000000024"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000030"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{lanminecraft.reforged.quests.05_core.b0bfd1de8940bf70f6a9}"
+			tasks: [{
+				count: 8L
+				id: "4500000000000029"
+				item: "nuclearcraft:uranium_235"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.147d85e032dbabb0ea7a}"
+			x: 4.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["3500000000000023"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.1b9bbd4416be682b722d}"
+				""
+				"{lanminecraft.reforged.quests.05_core.f3162435a492f2d2b446}"
+				""
+				"{lanminecraft.reforged.quests.05_core.fdf2c6daf4609536de27}"
+			]
+			icon: "nuclearcraft:zircaloy_ingot"
+			id: "3500000000000025"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5500000000000031"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "diamond"
+			subtitle: "{lanminecraft.reforged.quests.05_core.5f36da2a6a4f017724a0}"
+			tasks: [{
+				count: 4L
+				id: "4500000000000030"
+				item: "nuclearcraft:zircaloy_ingot"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.69968e1ce177ddc57369}"
+			x: 7.5d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"3500000000000021"
+				"3500000000000022"
+				"3500000000000023"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.cfcf56658c3ded760b25}"
+				""
+				"{lanminecraft.reforged.quests.05_core.fd895cd958ef45cbb378}"
+				""
+				"{lanminecraft.reforged.quests.05_core.7eae2d5aca0bd65f282e}"
+				""
+				"{lanminecraft.reforged.quests.05_core.8fae9ce0fa277c2c428d}"
+				""
+				"{lanminecraft.reforged.quests.05_core.fd28f7962d645adcfd1f}"
+			]
+			icon: "alchemistry:fission_chamber_controller"
+			id: "3500000000000013"
+			min_width: 350
+			rewards: [
+				{
+					count: 16
+					id: "5500000000000017"
+					item: "alchemistry:reactor_casing"
+					type: "item"
+				}
+				{
+					id: "5500000000000018"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.05_core.afbce2d04e7ba54affd9}"
+			tasks: [{
+				id: "4500000000000015"
+				item: "alchemistry:fission_chamber_controller"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.6e004f3fbbc9c0d0a67a}"
+			x: 0.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3500000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.ec52ff8fc4a5a230f2d8}"
+				""
+				"{lanminecraft.reforged.quests.05_core.75cf924084eab56fd087}"
+				""
+				"{lanminecraft.reforged.quests.05_core.5785d4e501197e103ffc}"
+			]
+			icon: "minecraft:glowstone"
+			id: "3500000000000101"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000101"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.05_core.d00aa0b69c5040cb825c}"
+			tasks: [{
+				count: 64L
+				id: "4500000000000101"
+				item: "minecraft:glowstone"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.92363f50525c792d9bf6}"
+			x: -9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3500000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.8e0ee6877b7704f173b0}"
+				""
+				"{lanminecraft.reforged.quests.05_core.c5bae191f6f30b0c7289}"
+				""
+				"{lanminecraft.reforged.quests.05_core.6e20a0779b366d16bd9e}"
+			]
+			icon: "minecraft:ghast_tear"
+			id: "3500000000000102"
+			rewards: [{
+				id: "5500000000000102"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.05_core.01fc3d17d71e40cca5a5}"
+			tasks: [{
+				count: 4L
+				id: "4500000000000102"
+				item: "minecraft:ghast_tear"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.15f262f73fc9eb79bef9}"
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3500000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.9f69d148f65dbef5b88b}"
+				""
+				"{lanminecraft.reforged.quests.05_core.97b8085bc233284fdd5a}"
+				""
+				"{lanminecraft.reforged.quests.05_core.a441b7ba24f6f3606ef2}"
+			]
+			icon: "minecraft:gravel"
+			id: "3500000000000103"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000103"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.05_core.2986cbd5f2c71925eb3b}"
+			tasks: [
+				{
+					count: 16L
+					id: "4500000000000103"
+					item: "minecraft:gravel"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4500000000000104"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.05_core.31828e5b36391bcad8ba}"
+			x: -9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3500000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.10b088305a6d8a559640}"
+				""
+				"{lanminecraft.reforged.quests.05_core.111e8730f6233f8eb231}"
+				""
+				"{lanminecraft.reforged.quests.05_core.40c97ed9d95b3302be5b}"
+			]
+			icon: "minecraft:crimson_stem"
+			id: "3500000000000104"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000104"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.05_core.cd09578c65d587b83e5e}"
+			tasks: [{
+				count: 64L
+				id: "4500000000000105"
+				item: "minecraft:crimson_stem"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.da2d03cc8530c42da4e1}"
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3500000000000016"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.650cca0cd8b28e70567c}"
+				""
+				"{lanminecraft.reforged.quests.05_core.b43b7f25b4e7a20fb57e}"
+				""
+				"{lanminecraft.reforged.quests.05_core.092766894694108a70be}"
+			]
+			icon: "minecraft:clock"
+			id: "3500000000000106"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000107"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.05_core.ced91ee94c93947034cf}"
+			tasks: [{
+				id: "4500000000000107"
+				title: "{lanminecraft.reforged.quests.05_core.11abf8218ce0e122de0a}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.950f1a2e7803ae8151fe}"
+			x: -10.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3500000000000016"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.c8cc1dfc9d173cef52dd}"
+				""
+				"{lanminecraft.reforged.quests.05_core.550becc6de36b57a6249}"
+				""
+				"{lanminecraft.reforged.quests.05_core.ee1dc97f5b9852a39cbd}"
+			]
+			icon: "alchemistry:fusion_core"
+			id: "3500000000000107"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000108"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.05_core.1ffa9401b918749567d7}"
+			tasks: [{
+				id: "4500000000000108"
+				title: "{lanminecraft.reforged.quests.05_core.feaf88e796fc6d21f25d}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.8c953b59331a46d3ee4a}"
+			x: -10.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3500000000000017"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.75b6a749767669e34fc2}"
+				""
+				"{lanminecraft.reforged.quests.05_core.6aa0ffaa2a417e4ab38b}"
+				""
+				"{lanminecraft.reforged.quests.05_core.ac05cd923089a06cce1a}"
+			]
+			icon: "ae2:pattern_provider"
+			id: "3500000000000108"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000109"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.05_core.50daf519b45f4cd11b15}"
+			tasks: [{
+				id: "4500000000000109"
+				title: "{lanminecraft.reforged.quests.05_core.090c0ca7883bceef9f7a}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.8cea4d18d8617ae90e43}"
+			x: -10.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["3500000000000021"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.c77229ca3d9ec02c7bb3}"
+				""
+				"{lanminecraft.reforged.quests.05_core.eeac3fceb26eb956eed6}"
+				""
+				"{lanminecraft.reforged.quests.05_core.4d722b907e25deffc8fa}"
+			]
+			icon: "alchemistry:fusion_chamber_controller"
+			id: "3500000000000109"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000110"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.05_core.99f0cd7e5268b3c1a032}"
+			tasks: [{
+				id: "4500000000000110"
+				title: "{lanminecraft.reforged.quests.05_core.b027e080502080009498}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.048d8763cd939c91b4df}"
+			x: -10.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3500000000000013"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.f20e2257767c94e22dd5}"
+				""
+				"{lanminecraft.reforged.quests.05_core.2281cb10e5c2ff10a1a9}"
+				""
+				"{lanminecraft.reforged.quests.05_core.5998ffad5a53ec4fc5c0}"
+			]
+			icon: "alchemistry:reactor_output"
+			id: "3500000000000110"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000111"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.05_core.02f6ce963f117df8d769}"
+			tasks: [{
+				id: "4500000000000111"
+				title: "{lanminecraft.reforged.quests.05_core.1d653e2600184c68e610}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.8e25b7abf122972d81cc}"
+			x: -6.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["3500000000000002"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.7f2f10139270e8e68ed2}"
+				""
+				"{lanminecraft.reforged.quests.05_core.f04f85f6e62c37f43d9c}"
+				""
+				"{lanminecraft.reforged.quests.05_core.6c340f957f461d5b8d16}"
+			]
+			icon: "draconicevolution:draconium_dust"
+			id: "3500000000000111"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000112"
+				type: "xp"
+				xp: 60
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.05_core.8266646ea7f1bc467000}"
+			tasks: [{
+				count: 32L
+				id: "4500000000000112"
+				item: "draconicevolution:draconium_dust"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.ced227abee41a3d473d6}"
+			x: 13.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3500000000000111"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.a12c6d52b443f9045735}"
+				""
+				"{lanminecraft.reforged.quests.05_core.ade486262cf5c2052f92}"
+				""
+				"{lanminecraft.reforged.quests.05_core.3146b64afab3795b7ea7}"
+			]
+			icon: "draconicevolution:draconium_ingot"
+			id: "3500000000000112"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000113"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.05_core.2eed959ad91a30f0262b}"
+			tasks: [{
+				count: 64L
+				id: "4500000000000113"
+				item: "draconicevolution:draconium_ingot"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.e9c16962147763328dc7}"
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3500000000000111"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.1644c14711b4251f9978}"
+				""
+				"{lanminecraft.reforged.quests.05_core.1538f2a093aa7fdfa044}"
+				""
+				"{lanminecraft.reforged.quests.05_core.4e9f313614bd9eb6f259}"
+				""
+				"{lanminecraft.reforged.quests.05_core.46f7a3e6222e9092ab78}"
+			]
+			icon: "minecraft:diamond"
+			id: "3500000000000113"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000114"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{lanminecraft.reforged.quests.05_core.61d82955fb25ec20e163}"
+			tasks: [{
+				count: 16L
+				id: "4500000000000114"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.c5740dcb69f6d099b53b}"
+			x: 15.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"3500000000000112"
+				"3500000000000113"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.b5b478a97f46a55bfe44}"
+				""
+				"{lanminecraft.reforged.quests.05_core.cec94f441fd5822bde62}"
+				""
+				"{lanminecraft.reforged.quests.05_core.a1f31ee67749dcf9d6c9}"
+			]
+			icon: "draconicevolution:draconium_core"
+			id: "3500000000000114"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000115"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.05_core.195313068c688cee838f}"
+			tasks: [{
+				count: 12L
+				id: "4500000000000115"
+				item: "draconicevolution:draconium_core"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.02f8c5f66224b4a969a6}"
+			x: 13.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3500000000000114"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.d9bb983cd803b617c85a}"
+				""
+				"{lanminecraft.reforged.quests.05_core.af08415882b249583c3f}"
+				""
+				"{lanminecraft.reforged.quests.05_core.f100162f74929e9582aa}"
+			]
+			icon: "draconicevolution:particle_generator"
+			id: "3500000000000115"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000116"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.05_core.2affb160cb37eacd0bfb}"
+			tasks: [{
+				count: 4L
+				id: "4500000000000116"
+				item: "draconicevolution:particle_generator"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.ef27ce1db01f040d5f81}"
+			x: 10.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3500000000000114"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.b253921f9630d8d6ed11}"
+				""
+				"{lanminecraft.reforged.quests.05_core.5ff582cfceb3a3c535f7}"
+				""
+				"{lanminecraft.reforged.quests.05_core.51ded16dcdbaa07b1927}"
+			]
+			icon: "draconicevolution:crafting_core"
+			id: "3500000000000116"
+			rewards: [{
+				id: "5500000000000117"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.05_core.df64e129a81cda4360f3}"
+			tasks: [{
+				id: "4500000000000117"
+				item: "draconicevolution:crafting_core"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.2da00a4e307108b93bcc}"
+			x: 13.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3500000000000114"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.26c1365942add40b85a4}"
+				""
+				"{lanminecraft.reforged.quests.05_core.3ff940313ba25795c2d4}"
+				""
+				"{lanminecraft.reforged.quests.05_core.bde07ceba5c107f677f7}"
+				""
+				"{lanminecraft.reforged.quests.05_core.deccbd55f1b738f6c77c}"
+			]
+			icon: "draconicevolution:basic_crafting_injector"
+			id: "3500000000000117"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000118"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.05_core.697d41fa4e4653ca321d}"
+			tasks: [{
+				count: 8L
+				id: "4500000000000118"
+				item: "draconicevolution:basic_crafting_injector"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.93f81911ee083f205837}"
+			x: 16.5d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"3500000000000116"
+				"3500000000000117"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.9322b4a5e1b69ce59f87}"
+				""
+				"{lanminecraft.reforged.quests.05_core.551d007ab72b6026004d}"
+				""
+				"{lanminecraft.reforged.quests.05_core.1f66edc39c729b3661dd}"
+				""
+				"{lanminecraft.reforged.quests.05_core.c5c158e58131fdf54aa6}"
+			]
+			icon: "draconicevolution:crafting_core"
+			id: "3500000000000118"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000119"
+				type: "xp"
+				xp: 120
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.05_core.0c973a5cd594ee5cfbfc}"
+			tasks: [{
+				id: "4500000000000119"
+				title: "{lanminecraft.reforged.quests.05_core.dc15923e3a6621a1b109}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.84be966f09f21d3af125}"
+			x: 13.5d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"3500000000000118"
+				"3500000000000009"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.4ef4ca7320f284a9c54d}"
+				""
+				"{lanminecraft.reforged.quests.05_core.a179bbd2c2ebed5e8249}"
+				""
+				"{lanminecraft.reforged.quests.05_core.e56668b7833d175b9159}"
+			]
+			icon: "draconicevolution:wyvern_core"
+			id: "3500000000000119"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000120"
+				type: "xp"
+				xp: 80
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.05_core.e069481b0e4a1e13c7de}"
+			tasks: [{
+				id: "4500000000000120"
+				item: "draconicevolution:wyvern_core"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.f8cccd30837283f6dce2}"
+			x: 10.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3500000000000118"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.67acc23fa76bdce39492}"
+				""
+				"{lanminecraft.reforged.quests.05_core.fc2ef2f3a05f8e0e81cd}"
+				""
+				"{lanminecraft.reforged.quests.05_core.905bf6db122600a58157}"
+				""
+				"{lanminecraft.reforged.quests.05_core.d7d88456baa2e31768e4}"
+			]
+			icon: "draconicevolution:wyvern_crafting_injector"
+			id: "3500000000000120"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000121"
+				type: "xp"
+				xp: 80
+			}]
+			subtitle: "{lanminecraft.reforged.quests.05_core.c072a556c11333abfae7}"
+			tasks: [{
+				count: 4L
+				id: "4500000000000121"
+				item: "draconicevolution:wyvern_crafting_injector"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.71dee2c5ab892b26bb24}"
+			x: 13.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3500000000000114"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.2a388766ffd17fc25f48}"
+				""
+				"{lanminecraft.reforged.quests.05_core.942bb91160dbf5e2253b}"
+				""
+				"{lanminecraft.reforged.quests.05_core.bdace21a8380fe4bf63c}"
+			]
+			icon: "draconicevolution:crystal_binder"
+			id: "3500000000000121"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000122"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "{lanminecraft.reforged.quests.05_core.3a44aecc040c3bbc4feb}"
+			tasks: [{
+				id: "4500000000000122"
+				item: "draconicevolution:crystal_binder"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.d5d2e71c3413d60911ac}"
+			x: 16.5d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"3500000000000119"
+				"3500000000000008"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.2dc6e313e2a6d93a228a}"
+				""
+				"{lanminecraft.reforged.quests.05_core.10f4cf1bca2a2330cac6}"
+				""
+				"{lanminecraft.reforged.quests.05_core.d696fd817e58fa80a91d}"
+			]
+			icon: "draconicevolution:grinder"
+			id: "3500000000000122"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5500000000000123"
+				type: "xp"
+				xp: 60
+			}]
+			shape: "diamond"
+			subtitle: "{lanminecraft.reforged.quests.05_core.4bd2b4d8c022d7f05487}"
+			tasks: [{
+				id: "4500000000000123"
+				item: "draconicevolution:grinder"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.50ab1e26d92cfdd15a26}"
+			x: 19.5d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"3500000000000119"
+				"3500000000000016"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.72aa97ab446802280ed4}"
+				""
+				"{lanminecraft.reforged.quests.05_core.aa5ed4e38778de45bde4}"
+				""
+				"{lanminecraft.reforged.quests.05_core.541b38ba2847a1fa44b5}"
+			]
+			icon: "draconicevolution:energy_pylon"
+			id: "3500000000000123"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000124"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{lanminecraft.reforged.quests.05_core.ce16c8fa18e3ebdd94b9}"
+			tasks: [{
+				count: 2L
+				id: "4500000000000124"
+				item: "draconicevolution:energy_pylon"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.c4d51812a728f4d8f490}"
+			x: 10.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["3500000000000119"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.3ebc1d5add2de757bb9d}"
+				""
+				"{lanminecraft.reforged.quests.05_core.10c84dc4681415bdd344}"
+				""
+				"{lanminecraft.reforged.quests.05_core.0a4f29e3323902a4a82f}"
+				""
+				"{lanminecraft.reforged.quests.05_core.9fd1ca1e9b6793a6a625}"
+			]
+			icon: "draconicevolution:energy_core"
+			id: "3500000000000124"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000125"
+				type: "xp"
+				xp: 60
+			}]
+			subtitle: "{lanminecraft.reforged.quests.05_core.e8bdee1c6ac3adcb6033}"
+			tasks: [{
+				id: "4500000000000125"
+				item: "draconicevolution:energy_core"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.e9782c9b7c9e7d716788}"
+			x: 13.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["3500000000000115"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.7e35e05aa09ba478af47}"
+				""
+				"{lanminecraft.reforged.quests.05_core.7feb8eb6beb964845685}"
+				""
+				"{lanminecraft.reforged.quests.05_core.4cb1e4eb26fc7000af03}"
+			]
+			icon: "draconicevolution:energy_core_stabilizer"
+			id: "3500000000000125"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000126"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{lanminecraft.reforged.quests.05_core.c1ea7a6aa1403286916e}"
+			tasks: [{
+				count: 4L
+				id: "4500000000000126"
+				item: "draconicevolution:energy_core_stabilizer"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.7effd42638a33dd8a4aa}"
+			x: 16.5d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"3500000000000114"
+				"3500000000000102"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.58834ee40be08c5eefeb}"
+				""
+				"{lanminecraft.reforged.quests.05_core.85a320e6803fd3f67cde}"
+				""
+				"{lanminecraft.reforged.quests.05_core.3b19485db502e40c6ff4}"
+			]
+			icon: "draconicevolution:infused_obsidian"
+			id: "3500000000000126"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5500000000000127"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			subtitle: "{lanminecraft.reforged.quests.05_core.fc88d71f95c43fe7678f}"
+			tasks: [{
+				id: "4500000000000127"
+				item: "draconicevolution:dislocator_receptacle"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.4eca8e18cd68a1510178}"
+			x: 19.5d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"3500000000000123"
+				"3500000000000124"
+				"3500000000000125"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.fe32c2c73dfe4ea80183}"
+				""
+				"{lanminecraft.reforged.quests.05_core.e05405f460f68dc3bc07}"
+				""
+				"{lanminecraft.reforged.quests.05_core.e8766a1462d095b75ea0}"
+			]
+			icon: "draconicevolution:wyvern_energy_core"
+			id: "3500000000000127"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000128"
+				type: "xp"
+				xp: 150
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{lanminecraft.reforged.quests.05_core.81f58d7198becd7ee077}"
+			tasks: [{
+				id: "4500000000000128"
+				title: "{lanminecraft.reforged.quests.05_core.0b7472e08319556b5b0b}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.91ee17b4b223dc3a42b2}"
+			x: 13.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3500000000000120"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.03d1540de0054fe026cd}"
+				""
+				"{lanminecraft.reforged.quests.05_core.9cc1a07669bd7ec83fb8}"
+				""
+				"{lanminecraft.reforged.quests.05_core.49eb3d9f57b2e5db37bd}"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						energy: {
+							energy: 0
+						}
+						module_host: {
+							modules: [ ]
+							properties: {
+								charge_armor: {
+									hud: 1b
+								}
+								charge_curios: {
+									hud: 1b
+								}
+								charge_held_item: {
+									hud: 1b
+								}
+								charge_hot_bar: {
+									hud: 1b
+								}
+								charge_main: {
+									hud: 1b
+								}
+							}
+							provider_id: [I;
+								858659637
+								121126919
+								-1318936114
+								-1473219643
+							]
+						}
+					}
+				}
+				id: "draconicevolution:wyvern_capacitor"
+			}
+			id: "3500000000000128"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5500000000000129"
+				type: "xp"
+				xp: 60
+			}]
+			shape: "diamond"
+			subtitle: "{lanminecraft.reforged.quests.05_core.eb090b8a11fe02bf6d1e}"
+			tasks: [{
+				id: "4500000000000129"
+				item: "draconicevolution:wyvern_capacitor"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.c1019977b06662c40f01}"
+			x: 16.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3500000000000127"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.716b497ba0a869da093f}"
+				""
+				"{lanminecraft.reforged.quests.05_core.8dc16eedcd1c37cb46be}"
+				""
+				"{lanminecraft.reforged.quests.05_core.2ddb452482d84c2677cb}"
+			]
+			icon: "draconicevolution:draconium_block"
+			id: "3500000000000129"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000130"
+				type: "xp"
+				xp: 80
+			}]
+			subtitle: "{lanminecraft.reforged.quests.05_core.b03f787c4ef245ce5c16}"
+			tasks: [{
+				count: 26L
+				id: "4500000000000130"
+				item: "draconicevolution:draconium_block"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.9a05441e99c682a481ab}"
+			x: 10.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["3500000000000127"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.c834f71245a54e1da6a9}"
+				""
+				"{lanminecraft.reforged.quests.05_core.2bf4836bfb4f1d70b831}"
+				""
+				"{lanminecraft.reforged.quests.05_core.3afc4e0e31afddca8ddc}"
+			]
+			icon: "draconicevolution:flux_gate"
+			id: "3500000000000130"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000131"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.05_core.0fd94c290f168f386f0b}"
+			tasks: [{
+				id: "4500000000000131"
+				item: "draconicevolution:flux_gate"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.44858325ead59d6038b3}"
+			x: 13.5d
+			y: 22.0d
+		}
+		{
+			dependencies: [
+				"3500000000000127"
+				"3500000000000121"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.54ace5a4fb520d33355a}"
+				""
+				"{lanminecraft.reforged.quests.05_core.ba1a7a9711acb3d66bf9}"
+				""
+				"{lanminecraft.reforged.quests.05_core.08036f8e7566864d090e}"
+			]
+			icon: "draconicevolution:wyvern_wireless_crystal"
+			id: "3500000000000131"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000132"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{lanminecraft.reforged.quests.05_core.a29b2f7eb626ee911212}"
+			tasks: [{
+				id: "4500000000000132"
+				item: "draconicevolution:wyvern_wireless_crystal"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.9e11fd5c89d19144e0bf}"
+			x: 16.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["3500000000000129"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.f1c1b7ac70f2e07b1bac}"
+				""
+				"{lanminecraft.reforged.quests.05_core.8bdfbb37e9816a9a0a17}"
+				""
+				"{lanminecraft.reforged.quests.05_core.d2e105ccffb1e42639f9}"
+			]
+			icon: "chemlib:strontium"
+			id: "3500000000000132"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000133"
+				type: "xp"
+				xp: 80
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.05_core.f4fce64102c1abcf0ef4}"
+			tasks: [{
+				count: 26L
+				id: "4500000000000133"
+				item: "minecraft:redstone_block"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.95a9274d9400b2b214ea}"
+			x: 10.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["3500000000000132"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.67b1b92a300ed9e7f57c}"
+				""
+				"{lanminecraft.reforged.quests.05_core.d7b8a97497df339fedfb}"
+				""
+				"{lanminecraft.reforged.quests.05_core.dce3096dc4efaeeb6998}"
+			]
+			icon: "minecraft:redstone_block"
+			id: "3500000000000133"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000134"
+				type: "xp"
+				xp: 120
+			}]
+			subtitle: "{lanminecraft.reforged.quests.05_core.7ecc4e83b27a4b324adb}"
+			tasks: [{
+				count: 178L
+				id: "4500000000000134"
+				item: "minecraft:redstone_block"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.41ffe7aa6a481d81dd13}"
+			x: 10.5d
+			y: 26.0d
+		}
+		{
+			dependencies: [
+				"3500000000000133"
+				"3500000000000119"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.db5ab36c0136b5a72d9d}"
+				""
+				"{lanminecraft.reforged.quests.05_core.12560dd1a0d5e26ca2ea}"
+				""
+				"{lanminecraft.reforged.quests.05_core.1c8635b573b14178abeb}"
+				""
+				"{lanminecraft.reforged.quests.05_core.8834c68ea937d6f35fde}"
+			]
+			icon: "draconicevolution:dragon_heart"
+			id: "3500000000000134"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000135"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.05_core.a885abbee93dee427b12}"
+			tasks: [{
+				id: "4500000000000135"
+				title: "{lanminecraft.reforged.quests.05_core.6f8348326f6932c827a3}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.f17f79ca938824ffde9d}"
+			x: 13.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["3500000000000024"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.9b92b85379e8ecb4735f}"
+				""
+				"{lanminecraft.reforged.quests.05_core.7661e8bd06b791e913b1}"
+				""
+				"{lanminecraft.reforged.quests.05_core.c9543c23cf1a941338d2}"
+			]
+			icon: "nuclearcraft:uranium_238"
+			id: "3500000000000135"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000136"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.05_core.29f70ab1bb40aa432413}"
+			tasks: [{
+				count: 64L
+				id: "4500000000000136"
+				item: "nuclearcraft:uranium_238"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.02f02618b854e2dd03b3}"
+			x: 3.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3500000000000023"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.8653e16f8b0d9bcd3912}"
+				""
+				"{lanminecraft.reforged.quests.05_core.ec3c12b5b22e594de4a8}"
+				""
+				"{lanminecraft.reforged.quests.05_core.d0da4476e524dc748606}"
+			]
+			icon: "nuclearcraft:thorium_232"
+			id: "3500000000000136"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000137"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.05_core.cff87742b720d4153905}"
+			tasks: [{
+				count: 32L
+				id: "4500000000000137"
+				item: "nuclearcraft:thorium_232"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.7ccc34379a8c06ad81b5}"
+			x: 6.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3500000000000023"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.c1051ed00ab4125d715a}"
+				""
+				"{lanminecraft.reforged.quests.05_core.5919c8f7bea955f9db87}"
+				""
+				"{lanminecraft.reforged.quests.05_core.d8402ea808fa8a39d6c9}"
+			]
+			icon: "nuclearcraft:yellowcake_dust"
+			id: "3500000000000137"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000138"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "{lanminecraft.reforged.quests.05_core.ec6e90ebf6acec1e73f7}"
+			tasks: [{
+				count: 32L
+				id: "4500000000000138"
+				item: "nuclearcraft:yellowcake_dust"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.38d6e0a216b0124dedc1}"
+			x: 9.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3500000000000135"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.3dc87de1416c70d9aab5}"
+				""
+				"{lanminecraft.reforged.quests.05_core.93daac82214b3ed54370}"
+				""
+				"{lanminecraft.reforged.quests.05_core.5bfb0aa21ef34e483e17}"
+			]
+			icon: "nuclearcraft:fission_reactor_controller"
+			id: "3500000000000138"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000139"
+				type: "xp"
+				xp: 60
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.05_core.efb2123993bee0cb19ee}"
+			tasks: [{
+				id: "4500000000000139"
+				item: "nuclearcraft:fission_reactor_controller"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.871177bf2e40fa738ad6}"
+			x: 3.0d
+			y: 22.0d
+		}
+		{
+			dependencies: [
+				"3500000000000136"
+				"3500000000000138"
+			]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.c10d0f0fd6a12d14ccee}"
+				""
+				"{lanminecraft.reforged.quests.05_core.0baad6df2ff7123365f3}"
+				""
+				"{lanminecraft.reforged.quests.05_core.b92300911166fb2ea1db}"
+			]
+			icon: "nuclearcraft:fuel_thorium_tbu"
+			id: "3500000000000139"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000140"
+				type: "xp"
+				xp: 60
+			}]
+			subtitle: "{lanminecraft.reforged.quests.05_core.c7f4e0c9a602a0b6e750}"
+			tasks: [{
+				count: 8L
+				id: "4500000000000140"
+				item: "nuclearcraft:fuel_thorium_tbu"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.083ccf0a9b71f44abed8}"
+			x: 6.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["3500000000000138"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.be18a67f2e5d469031a4}"
+				""
+				"{lanminecraft.reforged.quests.05_core.07229411044d63538d84}"
+				""
+				"{lanminecraft.reforged.quests.05_core.288324a38b5b2ca57789}"
+			]
+			icon: "nuclearcraft:graphite_block"
+			id: "3500000000000140"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000141"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{lanminecraft.reforged.quests.05_core.e58d903f953ccc6d084e}"
+			tasks: [{
+				count: 32L
+				id: "4500000000000141"
+				item: "nuclearcraft:graphite_block"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.44903e4c35766c532437}"
+			x: 9.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["3500000000000138"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.89cf7f650616964a0f96}"
+				""
+				"{lanminecraft.reforged.quests.05_core.aff58be163082005c9f6}"
+				""
+				"{lanminecraft.reforged.quests.05_core.5a20dbbf7deb9cd12bb3}"
+			]
+			icon: "nuclearcraft:water_heat_sink"
+			id: "3500000000000141"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000142"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{lanminecraft.reforged.quests.05_core.f57a4356d3d936375518}"
+			tasks: [{
+				count: 8L
+				id: "4500000000000142"
+				item: "nuclearcraft:water_heat_sink"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.d3b8311dded9a6d4c2b9}"
+			x: 3.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["3500000000000141"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.6569ce32c194899dc9be}"
+				""
+				"{lanminecraft.reforged.quests.05_core.00240e4b471f85ea168f}"
+				""
+				"{lanminecraft.reforged.quests.05_core.b9c4ab0e5e045d6b9e13}"
+			]
+			icon: "nuclearcraft:corium_block"
+			id: "3500000000000142"
+			min_width: 350
+			rewards: [{
+				id: "5500000000000143"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "rsquare"
+			subtitle: "{lanminecraft.reforged.quests.05_core.950afca13535ed996f62}"
+			tasks: [{
+				id: "4500000000000143"
+				title: "{lanminecraft.reforged.quests.05_core.e1d08be5b1306c7a6265}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.7a88496dbbf22872a211}"
+			x: 6.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["3500000000000139"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.30d539b6f032504ca059}"
+				""
+				"{lanminecraft.reforged.quests.05_core.e832cfb5215720e20813}"
+				""
+				"{lanminecraft.reforged.quests.05_core.81bb260d08ef42585727}"
+			]
+			icon: "nuclearcraft:fuel_reprocessor"
+			id: "3500000000000144"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "5500000000000145"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			subtitle: "{lanminecraft.reforged.quests.05_core.248a125f353708858e14}"
+			tasks: [{
+				id: "4500000000000146"
+				item: "nuclearcraft:fuel_reprocessor"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.f087a012826f120148f2}"
+			x: 6.0d
+			y: 26.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3500000000000009"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.e0e72316e6cc0143175a}"
+				""
+				"{lanminecraft.reforged.quests.05_core.2fe86cb118c49609e2f4}"
+				""
+				"{lanminecraft.reforged.quests.05_core.516ef49f1e49501e744a}"
+				""
+				"{lanminecraft.reforged.quests.05_core.6e81a74300158f9158d0}"
+				""
+				"{lanminecraft.reforged.quests.05_core.7b781f5c55ecb4685568}"
+			]
+			icon: "minecraft:redstone_torch"
+			id: "3500000000000F10"
+			min_width: 380
+			optional: true
+			repeat_cooldown: 60L
+			rewards: [{
+				command: "/gamestage add {p} netherstar"
+				elevate_perms: true
+				id: "5500000000000F10"
+				player_command: false
+				title: "{lanminecraft.reforged.quests.05_core.83552db8b0556d2655bc}"
+				type: "command"
+			}]
+			shape: "diamond"
+			subtitle: "{lanminecraft.reforged.quests.05_core.228542f8870a4043009c}"
+			tasks: [{
+				id: "4500000000000F10"
+				title: "{lanminecraft.reforged.quests.05_core.2cb3e2e1bb1637fdefe8}"
+				type: "checkmark"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.78f40f6eb19c4931e6d6}"
+			x: 21.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["3500000000000013"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.aaba12fcc2e565b9c8a1}"
+				""
+				"{lanminecraft.reforged.quests.05_core.c51d2cdb3e2bf19cbffb}"
+				""
+				"{lanminecraft.reforged.quests.05_core.a06aa45cc8b7b223d305}"
+			]
+			icon: "nuclearcraft:fusion_core"
+			id: "3500000000000F20"
+			min_width: 470
+			rewards: [{
+				id: "5500000000000F20"
+				type: "xp"
+				xp: 800
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.05_core.356ae0dc71dad7398cfa}"
+			tasks: [{
+				id: "4500000000000F20"
+				item: "nuclearcraft:fusion_core"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.5ce8990a14db34d8604b}"
+			x: 24.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3500000000000013"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.51093e61d8aa58d06f0c}"
+				""
+				"{lanminecraft.reforged.quests.05_core.413620702759a7eee6d1}"
+				""
+				"{lanminecraft.reforged.quests.05_core.66d293d5748073cde8bb}"
+			]
+			icon: "powah:battery_nitro"
+			id: "3500000000000F21"
+			min_width: 470
+			rewards: [{
+				id: "5500000000000F21"
+				type: "xp"
+				xp: 800
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{lanminecraft.reforged.quests.05_core.3a6bf0c7610145e632f2}"
+			tasks: [{
+				id: "4500000000000F21"
+				item: "powah:battery_nitro"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.7ce69b6fbc6371b7c8a3}"
+			x: 24.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3500000000000001"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.f36c74435ebe302fadf9}"
+				""
+				"{lanminecraft.reforged.quests.05_core.762f50dba58881d8f2d6}"
+				""
+				"{lanminecraft.reforged.quests.05_core.e81f61874a2764c25da6}"
+			]
+			icon: "fluxnetworks:flux_dust"
+			id: "3500000000000150"
+			min_width: 420
+			rewards: [{
+				id: "5500000000000150"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{lanminecraft.reforged.quests.05_core.5ea6d88f3af301c081bb}"
+			tasks: [{
+				count: 16L
+				id: "4500000000000150"
+				item: "fluxnetworks:flux_dust"
+				type: "item"
+			}]
+			title: "{lanminecraft.reforged.quests.05_core.60be5229719157079694}"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3500000000000150"]
+			description: [
+				"{lanminecraft.reforged.quests.05_core.4157cdeb98a2e5bacebb}"
+				""
+				"{lanminecraft.reforged.quests.05_core.51612781b1f6a4d67e77}"
+				""
+				"{lanminecraft.reforged.quests.05_core.611afe96ea30a5ca5f0e}"
+			]
+			icon: "fluxnetworks:flux_point"
+			id: "3500000000000151"
+			min_width: 420
+			rewards: [{
+				id: "5500000000000151"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{lanminecraft.reforged.quests.05_core.c68157916839ee859c3e}"
+			tasks: [
+				{
+					id: "4500000000000151"
+					item: "fluxnetworks:flux_plug"
+					type: "item"
+				}
+				{
+					id: "4500000000000152"
+					item: "fluxnetworks:flux_point"
+					type: "item"
+				}
+			]
+			title: "{lanminecraft.reforged.quests.05_core.fcd40c56715a86fae7e0}"
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+	subtitle: ["{lanminecraft.reforged.quests.05_core.0bd9bd779d7a68692a3f}"]
+	title: "{lanminecraft.reforged.quests.05_core.00b02a958c1c6724851f}"
+}
