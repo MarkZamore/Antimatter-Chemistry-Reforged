@@ -3560,8 +3560,8 @@
     "patches": [
       {
         "after": {
-          "sha256": "b27b8aaaffec65228e73a9a0bedbb9c245ae74caceaa0fe0b283f03db5948ecc",
-          "sizeBytes": 2419
+          "sha256": "c49886417d52ffd921fb452d7072af14220e108efb9903500a5027303209a288",
+          "sizeBytes": 2709
         },
         "before": {
           "sha256": "8e91ece03192325fc1cdcb426e1c37d7a2f9578ada60b2d00e4269325715b594",
@@ -3570,7 +3570,7 @@
         "path": "kubejs/startup_scripts/14_lava_generators.js"
       }
     ],
-    "recipeSha256": "a7f0de3642da9e9bf8fb5c68899ac07742620dcd4e7e18192b54d135f8ad43ec",
+    "recipeSha256": "3e26ea347f18fbc85cf4249f9812b86d62c126f257cec513d9083ebb49c0a23a",
     "requiredLauncherFeatures": [
       "preserve-steam-world-settings-v1"
     ]

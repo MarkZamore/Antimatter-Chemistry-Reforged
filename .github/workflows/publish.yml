@@ -15,6 +15,10 @@ on:
         description: SHA-256 of the current pack-latest manifest for a controls-only update
         type: string
         default: ''
+      warning_base:
+        description: SHA-256 of the current pack-latest manifest for the multiplayer warning update
+        type: string
+        default: ''
 
 permissions:
   contents: write
@@ -24,37 +28,53 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  publish-controls:
-    if: ${{ inputs.controls_base != '' && !inputs.prepare_only && inputs.verify_revision == '' }}
+  publish-incremental:
+    if: ${{ (inputs.controls_base != '' || inputs.warning_base != '') && !inputs.prepare_only && inputs.verify_revision == '' }}
     runs-on: ubuntu-latest
     timeout-minutes: 10
     env:
       GH_TOKEN: ${{ github.token }}
       CONTROLS_BASE: ${{ inputs.controls_base }}
+      WARNING_BASE: ${{ inputs.warning_base }}
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
           persist-credentials: false
-      - name: Verify and publish the controls preset
+      - name: Verify and publish the incremental update
         shell: bash
         run: |
           set -euo pipefail
-          [[ "$CONTROLS_BASE" =~ ^[a-f0-9]{64}$ ]]
+          [[ -z "$CONTROLS_BASE" || -z "$WARNING_BASE" ]]
+          baseline=${WARNING_BASE:-$CONTROLS_BASE}
+          [[ "$baseline" =~ ^[a-f0-9]{64}$ ]]
           python3 -B tools/keybinds/check_preset.py
           scratch="$RUNNER_TEMP/controls-release"
           mkdir "$scratch"
           base="$scratch/pack-manifest.json"
           gh release download pack-latest --repo "$GITHUB_REPOSITORY" -p pack-manifest.json -D "$scratch"
-          echo "$CONTROLS_BASE  $base" | sha256sum --check
+          echo "$baseline  $base" | sha256sum --check
           old_revision=$(jq -er '.revision | select(test("^[a-f0-9]{40}$"))' "$base")
           git merge-base --is-ancestor "$old_revision" "$GITHUB_SHA"
-          git diff --exit-code "$old_revision" "$GITHUB_SHA" -- . \
-            ':(exclude)launcher/controls-preset.txt' ':(exclude)tools/keybinds/**' ':(exclude).github/workflows/publish.yml'
           library=$(jq -er '.library.name | select(test("^library-[a-f0-9]{64}\\.zip$"))' "$base")
           gh release download pack-latest --repo "$GITHUB_REPOSITORY" -p "$library" -D "$scratch"
           stage="$scratch/new"
-          python3 -B tools/keybinds/stage_release.py "$base" "$scratch/$library" "$stage" "$GITHUB_SHA" "$(git show -s --format=%cI HEAD)"
+          if [[ -n "$WARNING_BASE" ]]; then
+            git diff --exit-code "$old_revision" "$GITHUB_SHA" -- . \
+              ':(exclude)tools/overlay.json' ':(exclude)tools/upstream-lock.json' \
+              ':(exclude)tools/stage_multiplayer_warning.py' \
+              ':(exclude).github/workflows/publish.yml' ':(exclude)README.md'
+            script=$(jq -er '.patches[0].path' tools/overlay.json)
+            kubejs=$(jq -er --arg script "$script" '.assets[] | select(.covers | index($script)) | .name | select(test("^r-[a-f0-9]{12}-kubejs\\.zip$"))' "$base")
+            gh release download pack-latest --repo "$GITHUB_REPOSITORY" -p "$kubejs" -D "$scratch"
+            git show "$old_revision:tools/overlay.json" > "$scratch/old-overlay.json"
+            python3 -B tools/stage_multiplayer_warning.py "$base" "$scratch/$kubejs" "$scratch/$library" \
+              "$stage" "$scratch/old-overlay.json" "$GITHUB_SHA" "$(git show -s --format=%cI HEAD)"
+          else
+            git diff --exit-code "$old_revision" "$GITHUB_SHA" -- . \
+              ':(exclude)launcher/controls-preset.txt' ':(exclude)tools/keybinds/**' ':(exclude).github/workflows/publish.yml'
+            python3 -B tools/keybinds/stage_release.py "$base" "$scratch/$library" "$stage" "$GITHUB_SHA" "$(git show -s --format=%cI HEAD)"
+          fi
           for asset in "$stage"/assets/*; do
             name=${asset##*/}
             current=$(gh release view pack-latest --repo "$GITHUB_REPOSITORY" --json assets --jq ".assets[] | select(.name == \"$name\") | .digest")
@@ -65,7 +85,7 @@ jobs:
             fi
           done
           gh release view pack-latest --repo "$GITHUB_REPOSITORY" --json assets > "$scratch/remote.json"
-          jq -e --slurpfile remote "$scratch/remote.json" --arg base "sha256:$CONTROLS_BASE" '
+          jq -e --slurpfile remote "$scratch/remote.json" --arg base "sha256:$baseline" '
             ($remote[0].assets | INDEX(.name)) as $assets
             | $assets["pack-manifest.json"].digest == $base
               and all((.assets + [.library])[]; $assets[.name].digest == ("sha256:" + .sha256) and $assets[.name].size == .sizeBytes)
@@ -75,10 +95,11 @@ jobs:
             "https://github.com/$GITHUB_REPOSITORY/releases/download/pack-latest/pack-manifest.json?verify=$GITHUB_SHA" \
             -o "$scratch/published.json"
           cmp "$stage/pack-manifest.json" "$scratch/published.json"
-          jq -e '.files[] | select(.path == "launcher/controls-preset.txt")' "$scratch/published.json"
+          published_path=${script:-launcher/controls-preset.txt}
+          jq -e --arg path "$published_path" '.files[] | select(.path == $path)' "$scratch/published.json"
 
   publish:
-    if: ${{ inputs.verify_revision == '' && inputs.controls_base == '' }}
+    if: ${{ inputs.verify_revision == '' && inputs.controls_base == '' && inputs.warning_base == '' }}
     runs-on: ubuntu-latest
     timeout-minutes: 35
     env:
@@ -129,6 +150,7 @@ jobs:
           python3 -B "$pack/tools/network_logging_policy.py" verify --pack "$pack"
           python3 -B tools/PackData/CurseForge/release_overlay.py stage --pack-source "$pack" \
             --locked --client-archive "$author" --output "$run/stage"
+          python3 -B "$pack/tools/stage_multiplayer_warning.py" --verify "$run/stage/game"
           if [[ '${{ inputs.prepare_only }}' == 'true' ]]; then exit 0; fi
           python3 -B tools/PackData/CurseForge/stage_release.py --pack-source "$pack" \
             --stage "$run/stage" --revision "$GITHUB_SHA" --id "$PACK_ID" --output "$run/release"

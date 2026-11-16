@@ -793,8 +793,8 @@
   "patches": [
     {
       "after": {
-        "sha256": "b27b8aaaffec65228e73a9a0bedbb9c245ae74caceaa0fe0b283f03db5948ecc",
-        "sizeBytes": 2419
+        "sha256": "c49886417d52ffd921fb452d7072af14220e108efb9903500a5027303209a288",
+        "sizeBytes": 2709
       },
       "before": {
         "sha256": "8e91ece03192325fc1cdcb426e1c37d7a2f9578ada60b2d00e4269325715b594",
@@ -802,7 +802,7 @@
       },
       "from": "      return\n    }\n  }\n})\n",
       "path": "kubejs/startup_scripts/14_lava_generators.js",
-      "to": "      return\n    }\n  }\n})\n\n// Keep the optional Amendments notice disabled before the first title screen.\nClientEvents.init(() => {\n  if (Platform.isLoaded('supplementaries')) {\n    Java.loadClass('net.mehvahdjukaar.supplementaries.SuppPlatformStuff').disableAMWarn()\n  }\n})\n"
+      "to": "      return\n    }\n  }\n})\n\n// Keep the optional Amendments notice disabled before the first title screen.\nClientEvents.init(() => {\n  if (Platform.isLoaded('supplementaries')) {\n    Java.loadClass('net.mehvahdjukaar.supplementaries.SuppPlatformStuff').disableAMWarn()\n  }\n})\n\n// Set only the Minecraft 1.20.1 equivalent of Do not show this screen again.\nClientEvents.init(() => {\n  const options = Client.options || Client.f_91066_\n  if ('skipMultiplayerWarning' in options) {\n    options.skipMultiplayerWarning = true\n  } else {\n    options.f_92083_ = true\n  }\n})\n"
     }
   ],
   "schemaVersion": 1
