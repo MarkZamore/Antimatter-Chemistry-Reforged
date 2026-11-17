@@ -7,8 +7,8 @@
     },
     {
       "path": "launcher/jvm-args.txt",
-      "sha256": "a1f3a734e672681e16e8db9a35ece57236720f99f95a85bac9eb2caac1e19d3c",
-      "sizeBytes": 44
+      "sha256": "6d1dd3ea430f376463bda0836f9b2cdcb5ee6d032c17b1fdf9100b647d5323d2",
+      "sizeBytes": 111
     }
   ],
   "authorArchiveSha256": "23e5968067ad91b55e60bbd85ecd0de3b5a8a46cf7d06f6684c8d565f0d62580",
@@ -805,5 +805,12 @@
       "to": "      return\n    }\n  }\n})\n\n// Keep the optional Amendments notice disabled before the first title screen.\nClientEvents.init(() => {\n  if (Platform.isLoaded('supplementaries')) {\n    Java.loadClass('net.mehvahdjukaar.supplementaries.SuppPlatformStuff').disableAMWarn()\n  }\n})\n\n// Set only the Minecraft 1.20.1 equivalent of Do not show this screen again.\nClientEvents.init(() => {\n  const options = Client.options || Client.f_91066_\n  if ('skipMultiplayerWarning' in options) {\n    options.skipMultiplayerWarning = true\n  } else {\n    options.f_92083_ = true\n  }\n})\n"
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "supportFiles": [
+    {
+      "path": "config/lanminecraft/experimental-world-confirmation.jar",
+      "sizeBytes": 385299,
+      "sha256": "6db006392ebcfa6ce3cb5d21da8c8772eacfa388052e6e97bd5dd925734dd8bc"
+    }
+  ]
 }

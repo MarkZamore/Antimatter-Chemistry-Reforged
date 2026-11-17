@@ -27,6 +27,7 @@ config/ftbquests/quests/chapters/24_hostile_networks.snbt
 config/ftbquests/quests/chapters/25_cryo_accelerator.snbt
 config/ftbquests/quests/chapters/26_factory_must_grow.snbt
 config/ftbquests/quests/chapters/27_contracts.snbt
+config/lanminecraft/experimental-world-confirmation.jar
 config/log4j2.xml
 kubejs/assets/reforged_quests/lang/en_us.json
 kubejs/assets/reforged_quests/lang/ru_ru.json
